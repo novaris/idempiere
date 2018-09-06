@@ -1,7 +1,0 @@
-syntax: regexp
-^WEB-INF/classes/.*\.class$
-
-syntax: regexp
-^bin$
-syntax: regexp
-^target$

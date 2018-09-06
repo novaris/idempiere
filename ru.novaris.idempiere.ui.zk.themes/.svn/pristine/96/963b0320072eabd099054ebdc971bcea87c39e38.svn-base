@@ -1,6 +1,0 @@
-<zk><zscript>
-	import org.compiere.model.MSysConfig;
-	import org.compiere.util.Env;
-</zscript>
-<script type="text/javascript"/>
-<openlayers id="map" width="99%" vflex="1" lat="54.59568572" lng="82.5721116"/></zk>
