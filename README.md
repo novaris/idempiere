@@ -1,4 +1,4 @@
-# idempiere modify for Openlayers v.2 on zkopenlayers
+# idempiere for Openlayers 2
 [ZK](https://github.com/zkoss/zk) wrapper for [OpenLayers 2](https://github.com/openlayers/openlayers), an industry
 standard JS library for embedding interactive maps in web applications.
 
@@ -9,7 +9,7 @@ This project enables you to create Maps, Layers, and Features in Java or ZUL, wi
 #### Requirements
 1. OpenJDK 1.8
 2. Maven 3.0 or above
-2. iDempiere 5.1.0 or above whith build tycho (http://wiki.idempiere.org/en/Building\_iDempiere\_by\_tycho)
+2. iDempiere 5.1.0 or above whith build tycho (http://wiki.idempiere.org/en/Building_iDempiere_by_tycho)
 
 ## Quick Start
 1. Clone this repository
@@ -22,7 +22,7 @@ Install this bundles or build full version iDempiere (maven and tycho: mvn verif
 On bundle org.idempiere.zk.extra --- info whith Openlayers
 
 4. Build bundle business theme: cd ru.novaris.idempiere.ui.zk.themes; mvn verify  
-5. Deploy theme bundle to iDempiere by OSGi console and change theme iDempiere to business (ZK\_THEME - searchKey to "business") 
+5. Deploy theme bundle to iDempiere by OSGi console and change theme iDempiere to business (ZK_THEME - searchKey to "business") 
 6. Example application in ru.novaris.idempiere.nms.ui.zk.openlayers (need change before deploy)  
 
 ## ZK Version
