@@ -1,0 +1,9 @@
+<language-addon>
+    <addon-name>openlayers</addon-name>
+	<language-name>xul/html</language-name>
+	<component>
+		<component-name>openlayers</component-name> <!-- required -->
+		<component-class>org.zkoss.openlayers.Openlayers</component-class> <!-- required -->
+		<widget-class>openlayers.Openlayers</widget-class> <!-- required -->
+	</component>
+</language-addon>

@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Novaris OpenLayers
+Bundle-SymbolicName: ru.novaris.idempiere.nms.ui.zk.openlayers
+Bundle-Version: 5.1.0.qualifier
+Bundle-ClassPath: .,
+ WEB-INF/lib/gson-2.1.jar,
+ WEB-INF/lib/nominatim-api-3.2.jar
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: Novaris Ltd.
+Require-Bundle: org.zkoss.openlayers
+Import-Package: org.adempiere.base,
+ org.adempiere.webui,
+ org.adempiere.webui.component,
+ org.adempiere.webui.event,
+ org.zkoss.json,
+ org.zkoss.json.parser,
+ org.zkoss.lang,
+ org.zkoss.web.servlet,
+ org.zkoss.zk.au,
+ org.zkoss.zk.au.http,
+ org.zkoss.zk.ui,
+ org.zkoss.zk.ui.event,
+ org.zkoss.zk.ui.ext,
+ org.zkoss.zk.ui.select.annotation,
+ org.zkoss.zk.ui.sys,
+ org.zkoss.zk.ui.util,
+ org.zkoss.zul,
+ org.zkoss.zul.impl,
+ org.zkoss.openlayers
+Export-Package: ru.novaris.idempiere.nms.ui.zk.openlayers

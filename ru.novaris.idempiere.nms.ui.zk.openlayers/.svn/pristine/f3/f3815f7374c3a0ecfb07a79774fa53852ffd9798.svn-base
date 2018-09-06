@@ -1,0 +1,18 @@
+<feature
+      id="ru.novaris.idempiere.nms.ui.zk.openlayers"
+      label="ru.novaris.idempiere.nms.ui.zk.openlayers"
+      version="5.1.0.qualifier">
+
+   <description url="http://www.novaris.ru/idempiere/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.novaris.ru/idempiere/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.novaris.ru/idempiere/license">
+      [Enter License Description here.]
+   </license>
+
+</feature>

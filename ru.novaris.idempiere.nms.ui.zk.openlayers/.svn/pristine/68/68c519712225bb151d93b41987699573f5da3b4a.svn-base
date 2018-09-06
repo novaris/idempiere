@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Novaris Openlayers
+Bundle-SymbolicName: ru.novaris.idempiere.nms.ui.zk.openlayers
+Bundle-Version: 5.1.0.qualifier
+Bundle-ClassPath: .,
+ lib/gson.jar,
+ lib/commons-logging.jar,
+ lib/httpclient.jar,
+ lib/httpcore.jar,
+ lib/zkopenlayers.jar
+Fragment-Host: org.adempiere.ui.zk
+Export-Package: ru.novaris.idempiere.ui.zk.dashboard
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: Novaris Ltd.

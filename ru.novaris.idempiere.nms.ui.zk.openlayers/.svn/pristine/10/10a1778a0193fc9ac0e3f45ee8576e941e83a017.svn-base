@@ -1,0 +1,291 @@
+package ru.novaris.idempiere.nms.ui.zk.openlayers;
+
+import org.zkoss.openlayers.Openlayers;
+
+import static org.compiere.model.SystemIDs.COLUMN_C_INVOICE_C_BPARTNER_ID;
+import static org.zkoss.openlayers.util.Helper.pair;
+import static org.zkoss.openlayers.util.Helper.toMap;
+
+import java.net.URL;
+import java.sql.Timestamp;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+import javax.net.ssl.SSLContext;
+
+import org.adempiere.base.IResourceFinder;
+import org.adempiere.base.Service;
+import org.adempiere.webui.component.Label;
+import org.adempiere.webui.dashboard.DashboardPanel;
+import org.adempiere.webui.editor.WSearchEditor;
+import org.adempiere.webui.event.ValueChangeEvent;
+import org.adempiere.webui.event.ValueChangeListener;
+import org.adempiere.webui.panel.CustomForm;
+import org.apache.http.conn.ssl.SSLConnectionSocketFactory;
+import org.apache.http.impl.client.CloseableHttpClient;
+import org.apache.http.impl.client.HttpClients;
+import org.apache.http.ssl.SSLContexts;
+import org.compiere.model.MLookup;
+import org.compiere.model.MLookupFactory;
+import org.compiere.model.MSysConfig;
+import org.compiere.util.CLogger;
+import org.compiere.util.DisplayType;
+import org.compiere.util.Env;
+import org.compiere.util.Msg;
+import org.zkoss.openlayers.base.LonLat;
+import org.zkoss.openlayers.control.LayerSwitcher;
+import org.zkoss.openlayers.layer.GoogleV3;
+import org.zkoss.openlayers.layer.Layer;
+import org.zkoss.openlayers.layer.VirtualEarth;
+import org.zkoss.zk.ui.Component;
+import org.zkoss.zk.ui.Executions;
+import org.zkoss.zk.ui.event.Event;
+import org.zkoss.zk.ui.event.EventListener;
+import org.zkoss.zul.Toolbar;
+
+import ru.novaris.idempiere.nms.ui.zk.nominatim.JsonNominatimClient;
+import ru.novaris.idempiere.nms.ui.zk.nominatim.model.Address;
+
+/**
+ * Dashboard with Google Map Google geocoding library:
+ * http://code.google.com/p/foreignlangdb/
+ * 
+ * @author Multimage
+ */
+public class DPOpenlayersMap extends DashboardPanel implements ValueChangeListener, EventListener<Event> {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 2751124688941438793L;
+	/**
+		 * 
+		 */
+	public static CLogger logger = CLogger.getCLogger(DPOpenlayersMap.class);
+
+	private CustomForm form = new CustomForm();
+
+	private final String MODULE_MARKER;
+
+	private final String MODULE_ALERT_MARKER;
+
+	private final String MODULE_SERVICE_MARKER;
+
+	private static final String BUTTON_ON = "1";
+
+	private final int AD_CLIENT_ID;
+
+	private final static int ICON_ANCHOR_X = 28;
+
+	private final static int ICON_ANCHOR_Y = 28;
+
+	private final static double MIN_SPEED = 0.1;
+
+	private final String MODULE_STOP;
+
+	private final String MODULE_STOP_RED;
+
+	private static final long BUTTON_ALERT = 5;
+
+	private static final long BUTTON_SERVICE = 6;
+
+	private Label bPartnerLabel = new Label();
+	private WSearchEditor bPartnerSearch = null;
+	private Label assetLabel = new Label();
+	private WSearchEditor assetSearch = null;
+	/*  */
+	private static final int COLUMN_A_ASSET_A_ASSET_ID = 8070;
+
+	private static final int ZOOM_INIT = 12;
+
+	private static final String MARKER_TYPE_BPARTNER = "BP";
+
+	private static final String MARKER_TYPE_ALERT = "ALR";
+
+	private static final String MARKER_TYPE_SERVICE = "SRV";
+
+	private static final String MARKER_TYPE_ASSET = "AS";
+
+	private static final String MARKER_TYPE_LOC_BPARTNER = "LB";
+
+	private static final SimpleDateFormat DF = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+
+	private final String MODULE_UNKNOWN;
+
+	private final String NAVIGATION_EVENT_QUEUE = "NavigationEvent";
+
+	private final StringBuffer SB_MARKER = new StringBuffer();
+
+	private final String BPARTNER_MARKER;
+
+	public final String NOMINATIM_BASE_URL;
+
+	public final String NOMINATIM_EMAIL;
+
+	// private Address address;
+
+	private StringBuffer sbLoc = new StringBuffer();
+
+	private Timestamp lastModifyDate;
+
+	// private final DPGoogleMapModel GOOGLE_MAP_MODEL;
+
+	private final String MODULE_MARKER_RED;
+
+	private Date currentDate = new Date();
+
+	private final Pattern URL_PATTERN = Pattern.compile(
+			"^(((http|https)?:\\/\\/)|~/|/)?([a-zA-Z]{1}([\\w\\-]+\\.)+([\\w]{2,5})(:([\\d]{1,5}))?)/?(\\w+\\.[\\w]{3,4})?(.*)?");
+
+	private JsonNominatimClient nominatimClient;
+
+	private Openlayers omaps;
+
+	public DPOpenlayersMap() {
+		super();
+		AD_CLIENT_ID = Env.getAD_Client_ID(Env.getCtx());
+
+		BPARTNER_MARKER = "images/" + MSysConfig.getValue("GMAP_BPARTNER_MARKER", "BPartner24.png", AD_CLIENT_ID);
+
+		MODULE_MARKER = "images/" + MSysConfig.getValue("GMAP_MODULE_MARKER", "navGreen", AD_CLIENT_ID);
+
+		MODULE_MARKER_RED = "images/" + MSysConfig.getValue("GMAP_MODULE_MARKER_RED", "navRed", AD_CLIENT_ID);
+
+		MODULE_ALERT_MARKER = "images/" + MSysConfig.getValue("GMAP_MODULE_ALERT_MARKER", "navAlert.png", AD_CLIENT_ID);
+
+		MODULE_SERVICE_MARKER = "images/"
+				+ MSysConfig.getValue("GMAP_MODULE_SERVICE_MARKER", "navService.png", AD_CLIENT_ID);
+
+		MODULE_STOP = "images/" + MSysConfig.getValue("GMAP_MODULE_STOP", "stopBlue.png", AD_CLIENT_ID);
+
+		MODULE_STOP_RED = "images/" + MSysConfig.getValue("GMAP_MODULE_STOP_RED", "stopRed.png", AD_CLIENT_ID);
+
+		MODULE_UNKNOWN = "images/" + MSysConfig.getValue("GMAP_MODULE_UNKNOWN", "navUnknown.png", AD_CLIENT_ID);
+
+		NOMINATIM_BASE_URL = MSysConfig.getValue("NOMINATIM_BASE_URL", "https://nominatim.novaris.ru/nominatim/",
+				AD_CLIENT_ID);
+
+		NOMINATIM_EMAIL = MSysConfig.getValue("NOMINATIM_EMAIL", "support@novaris.ru", AD_CLIENT_ID);
+
+		// GOOGLE_MAP_MODEL = new DPGoogleMapModel();
+
+		currentDate.setTime(System.currentTimeMillis() - 3600 * 1000);
+		initSearch();
+		initNominatimClient();
+		initOpenlayerMaps();
+
+		// addModules();
+		// addModulesRequest();
+		// addUserMarker();
+		// addBPartners();
+
+		// scaleMap(gmaps);
+	}
+
+	private void initOpenlayerMaps() {
+		List<IResourceFinder> f = Service.locator().list(IResourceFinder.class).getServices();
+		URL url = null;
+		for (IResourceFinder finder : f) {
+			url = finder.getResource("/zul/omap_mini.zul");
+		}
+		Component component = Executions.createComponents(url.toString(), this, null);
+		omaps = (Openlayers) component.getFellow("map");
+		omaps.addEventListener("onMapClick", DPOpenlayersMap.this);
+		omaps.setStyle("margin:5px; min-height:450px;");
+		/*omaps.addLayer(new VirtualEarth("Shaded", toMap(pair("type", VirtualEarth.Type.SHADED))));
+		omaps.addLayer(new VirtualEarth("Hybrid", toMap(pair("type", VirtualEarth.Type.HYBRID))));
+		omaps.addLayer(new VirtualEarth("Aerial", toMap(pair("type", VirtualEarth.Type.AERIAL))));
+
+		omaps.addControl(new LayerSwitcher());
+		*/
+		// omaps.setCenter(new LonLat(-110, 45), 3, false, false);
+		logger.fine("Загрузка карты для пользователя: " + Env.getAD_User_ID(Env.getCtx()) + " с ролью: "
+				+ Env.getAD_Role_ID(Env.getCtx()));
+	}
+
+	/**
+	 *
+	 */
+	private void initSearch() {
+		// BPartner
+		int AD_Column_ID = COLUMN_C_INVOICE_C_BPARTNER_ID; // C_Invoice.C_BPartner_ID
+		MLookup lookup = MLookupFactory.get(Env.getCtx(), form.getWindowNo(), 0, AD_Column_ID, DisplayType.Search);
+		bPartnerSearch = new WSearchEditor("C_BPartner_ID", false, false, true, lookup);
+		bPartnerSearch.addValueChangeListener(this);
+		// Asset
+		AD_Column_ID = COLUMN_A_ASSET_A_ASSET_ID; // A_Asset.A_Asset_ID
+		lookup = MLookupFactory.get(Env.getCtx(), form.getWindowNo(), 0, AD_Column_ID, DisplayType.Search);
+		assetSearch = new WSearchEditor("A_Asset_ID", false, false, true, lookup);
+		assetSearch.addValueChangeListener(this);
+
+		bPartnerLabel.setText(Msg.translate(Env.getCtx(), "C_BPartner_ID"));
+		bPartnerLabel.setStyle("margin-right:5px; margin-left:10px;");
+
+		assetLabel.setText("Объект");
+		assetLabel.setStyle("margin-right:5px; margin-left:10px;");
+
+		Toolbar panel = new Toolbar();
+		this.appendChild(panel);
+		panel.appendChild(bPartnerLabel);
+		panel.appendChild(bPartnerSearch.getComponent());
+
+		panel.appendChild(assetLabel);
+		panel.appendChild(assetSearch.getComponent());
+	}
+
+	private void initNominatimClient() {
+		try {
+			Integer port = 80;
+			String protocol = "http";
+			logger.severe("Подключение к серверу Nominatim: " + NOMINATIM_BASE_URL);
+			// final SchemeRegistry registry = new SchemeRegistry();
+			Matcher m = URL_PATTERN.matcher(NOMINATIM_BASE_URL);
+			if (m.matches()) {
+				if (m.group(3) == null || m.group(3).isEmpty()) {
+					protocol = "http";
+				} else if (m.group(3).equalsIgnoreCase("https")) {
+					protocol = "https";
+				}
+				if (m.group(8) == null || m.group(8).isEmpty()) {
+					if (protocol.equals("https")) {
+						port = 443;
+					} else {
+						port = 80;
+					}
+				} else {
+					port = Integer.valueOf(m.group(8));
+				}
+				CloseableHttpClient httpclient;
+				if (protocol.equals("https")) {
+					logger.severe("Инициализация SSL HTTP порт: " + port);
+					SSLContext sslcontext = SSLContexts.createDefault();
+					SSLConnectionSocketFactory sslsf = new SSLConnectionSocketFactory(sslcontext);
+					httpclient = HttpClients.custom().setSSLSocketFactory(sslsf).build();
+				} else {
+					logger.severe("Инициализация HTTP порт: " + port);
+					httpclient = HttpClients.createDefault();
+				}
+				nominatimClient = new JsonNominatimClient(NOMINATIM_BASE_URL, httpclient, NOMINATIM_EMAIL);
+			} else {
+				logger.severe("Ошибка инициализации. Некорректный Nominatim URL: " + NOMINATIM_BASE_URL);
+			}
+		} catch (Exception e) {
+			logger.severe("Ошибка инициализации клиента запроса к Nominantum: " + e.getMessage());
+			e.printStackTrace();
+		}
+	}
+
+	@Override
+	public void onEvent(Event event) throws Exception {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void valueChange(ValueChangeEvent evt) {
+		// TODO Auto-generated method stub
+
+	}
+}

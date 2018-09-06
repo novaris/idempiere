@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Novaris Gmap
+Bundle-SymbolicName: ru.novaris.idempiere.nms.ui.zk.gmaps
+Bundle-Version: 5.1.0.qualifier
+Bundle-ClassPath: .,
+ lib/gson.jar,
+ lib/commons-logging.jar,
+ lib/httpclient.jar,
+ lib/httpcore.jar
+Import-Package: org.zkoss.gmaps,
+ org.zkoss.gmaps.event
+Fragment-Host: org.adempiere.ui.zk
+Export-Package: ru.novaris.idempiere.ui.zk.dashboard
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: Novaris Ltd.

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window apply="ru.novaris.idempiere.nms.ui.zk.openlayers.DPOpenlayersMap">
+  <openlayers id="map" vflex="1" hflex="1"/>
+</window>

@@ -1,0 +1,43 @@
+package ru.novaris.idempiere.nms.ui.zk.openlayers;
+
+import org.zkoss.openlayers.Openlayers;
+import static org.zkoss.openlayers.util.Helper.pair;
+import static org.zkoss.openlayers.util.Helper.toMap;
+
+import org.adempiere.webui.component.Window;
+import org.zkoss.openlayers.base.LonLat;
+import org.zkoss.openlayers.control.LayerSwitcher;
+import org.zkoss.openlayers.layer.VirtualEarth;
+import org.zkoss.zk.ui.select.SelectorComposer;
+import org.zkoss.zk.ui.select.annotation.Wire;
+
+
+
+/**
+ * Dashboard with Google Map Google geocoding library:
+ * http://code.google.com/p/foreignlangdb/
+ * 
+ * @author Multimage
+ */
+public class DPOpenlayersMap extends SelectorComposer<Window> {
+/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+@Wire
+private Openlayers map;
+
+public void doAfterCompose(Window comp) throws Exception {
+	super.doAfterCompose(comp);
+	map.addLayer(new VirtualEarth("Shaded", toMap(pair("type",
+			VirtualEarth.Type.SHADED))));
+	map.addLayer(new VirtualEarth("Hybrid", toMap(pair("type",
+			VirtualEarth.Type.HYBRID))));
+	map.addLayer(new VirtualEarth("Aerial", toMap(pair("type",
+			VirtualEarth.Type.AERIAL))));
+
+	map.addControl(new LayerSwitcher());
+	map.setCenter(new LonLat(-110, 45), 3, false, false);
+
+}
+}
