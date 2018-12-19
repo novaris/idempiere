@@ -123,9 +123,9 @@ Conversions need to be direct (i.e. if you have only a conversion between A-B an
 <p>You would define Countries usually only on System level.]]></value>
  </row>
  <row id="123" trl="Y">
-  <value column="Name" original="Business Partner">Бизнес-партнер</value>
-  <value column="Description" original="Maintain Business Partners">Ведение бизнес-партнеров</value>
-  <value column="Help" original="The Business Partner window allows you do define any party with whom you transact.  This includes customers, vendors and employees.  Prior to entering or importing products, you must define your vendors.  Prior to generating Orders you must define your customers.  This window holds all information about your business partner and the values entered will be used to generate all document transactions">Окно Бизнес-партнер позволяет вам определять любого участника, с которым вы ведете дела. Это включает покупателей, поставщиков и сотрудников. Перед тем, как вводить или импортировать продукты, вы должны определить ваших поставщиков. Перед тем, как создавать заказы, вы должны определить ваших покупателей. Это окно содержит всю информацию о вашем бизнес-партнере и введенные значения будут использованы для создания всех документов по сделкам.</value>
+  <value column="Name" original="Business Partner">Контрагент</value>
+  <value column="Description" original="Maintain Business Partners">Ведение контрагента</value>
+  <value column="Help" original="The Business Partner window allows you do define any party with whom you transact.  This includes customers, vendors and employees.  Prior to entering or importing products, you must define your vendors.  Prior to generating Orders you must define your customers.  This window holds all information about your business partner and the values entered will be used to generate all document transactions">Окно Контрагент позволяет вам определять любого участника, с которым вы ведете дела. Это включает покупателей, поставщиков и сотрудников. Перед тем, как вводить или импортировать продукты, вы должны определить ваших поставщиков. Перед тем, как создавать заказы, вы должны определить ваших покупателей. Это окно содержит всю информацию о вашем клиенте и введенные значения будут использованы для создания всех документов по сделкам.</value>
  </row>
  <row id="125" trl="Y">
   <value column="Name" original="Accounting Schema">Схема бухгалтерского учета</value>
@@ -315,8 +315,8 @@ Pricelists can be calculated and copied.  To speed up the calculation, the param
   <value column="Help" original="The Inventory Move Window allows you to move inventory from one location or warehouse to another.  After the appropriate lines are entered selecting the 'Process Movements' button will adjust the inventory.">The Inventory Move Window allows you to move inventory from one location or warehouse to another.  After the appropriate lines are entered selecting the 'Process Movements' button will adjust the inventory.</value>
  </row>
  <row id="172" trl="Y">
-  <value column="Name" original="Import Business Partner">Импорт бизнес-партнера</value>
-  <value column="Description" original="Import Business Partner">Импорт бизнес-партнера</value>
+  <value column="Name" original="Import Business Partner">Импорт контрагента</value>
+  <value column="Description" original="Import Business Partner">Импорт контрагента</value>
   <value column="Help" original="The Import Business Partner Window is an interim table which is used when importing external data into the system.  Selecting the 'Process' button will either add or modify the appropriate records.">The Import Business Partner Window is an interim table which is used when importing external data into the system.  Selecting the 'Process' button will either add or modify the appropriate records.</value>
  </row>
  <row id="174" trl="Y">
@@ -390,9 +390,9 @@ Pricelists can be calculated and copied.  To speed up the calculation, the param
   <value column="Help" original="The Production Window defines those plan and inventory movements that occur when a product is created from a bill of materials">Окно сборка определяет плановые и товарные движения, которые происходят, когда продукт создается из спецификации</value>
  </row>
  <row id="192" trl="Y">
-  <value column="Name" original="Business Partner Group">Группа бизнес-партнеров</value>
-  <value column="Description" original="Maintain Business Partner Groups">Ведение групп бизнес-партнеров</value>
-  <value column="Help" original="The Business Partner Group window allows you to define the accounting parameters at a group level.  If you define the accounting parameters for a group any Business Partner entered using this group will have these accounting parameters automatically populated.  You can then make any modifications necessary at the Business Partner level.">Окно Группа бизнес-партнеров позволяет вам определять параметры бухгалтерского учета на групповом уровне. Если вы определяете параметры бухгалтерского учета для группы,любой бизнес-партнер, введенный используя эту группу, будет иметь этим параметры бухгалтерского учета автоматически определенными. Позднее вы сможете сделать любые необходимые модификации на уровне бизнес-партнера.</value>
+  <value column="Name" original="Business Partner Group">Группа контрагентов</value>
+  <value column="Description" original="Maintain Business Partner Groups">Ведение групп контрагентов</value>
+  <value column="Help" original="The Business Partner Group window allows you to define the accounting parameters at a group level.  If you define the accounting parameters for a group any Business Partner entered using this group will have these accounting parameters automatically populated.  You can then make any modifications necessary at the Business Partner level.">Окно Группа контрагентов позволяет вам определять параметры бухгалтерского учета на групповом уровне. Если вы определяете параметры бухгалтерского учета для группы, любой контрагент, введенный используя эту группу, будет иметь эти параметры бухгалтерского учета автоматически определенными. Позднее вы сможете сделать любые необходимые модификации на уровне контрагента.</value>
  </row>
  <row id="193" trl="Y">
   <value column="Name" original="Notice">Уведомление</value>
@@ -867,8 +867,8 @@ Before(!) entering transactions, Start the Replication Run to set up the remote 
   <value column="Help" original="Search Synonyms for Knowledge Keywords; Example: Product = Item">Поиск синонимов в базе знаний, например: Продукт=Позиция</value>
  </row>
  <row id="291" trl="Y">
-  <value column="Name" original="Business Partner Info">Информация о бизнес-партнере</value>
-  <value column="Description" original="Document Information of Business Partners">Документ информации о бизнес-партнере</value>
+  <value column="Name" original="Business Partner Info">Информация о контрагенте</value>
+  <value column="Description" original="Document Information of Business Partners">Документ информации о контрагенте</value>
   <value column="Help" original=""/>
  </row>
  <row id="292" trl="Y">
@@ -1916,8 +1916,8 @@ MRP - 110	 No exists Dem</value>
  </row>
  <row id="53153" trl="Y">
   <value column="Name" original="Lead">Лиды</value>
-  <value column="Description" original="Maintain Leads">Поддержка Лидов</value>
-  <value column="Help" original="The Lead Window allows you to maintain Sales Leads.  These are unqualified contacts to who you wish to market to. ">Окно Лидов позволяет поддерживать потенциальных клиентах. Эти контакты являются неквалифицированными, связанные с продажами. (The Lead Window allows you to maintain Sales Leads.  These are unqualified contacts to who you wish to market to.)</value>
+  <value column="Description" original="Maintain Leads">Управление лидами</value>
+  <value column="Help" original="The Lead Window allows you to maintain Sales Leads.  These are unqualified contacts to who you wish to market to. ">Окно Лидов позволяет вводить данные о потенциальных клиентах.</value>
  </row>
  <row id="53154" trl="Y">
   <value column="Name" original="Sales Stage">Стадии продаж</value>
@@ -1930,7 +1930,7 @@ MRP - 110	 No exists Dem</value>
   <value column="Help" original=""/>
  </row>
  <row id="53156" trl="Y">
-  <value column="Name" original="Sales Rep Dashboard">Панель торгового представителя</value>
+  <value column="Name" original="Sales Rep Dashboard">Менеджер/Агент</value>
   <value column="Description" original="The Sales Rep Dashboard provides a single location for managing sales opportunities">Панель торгового представителя предоставляет единое место для управления возможностями продаж</value>
   <value column="Help" original=""/>
  </row>
@@ -2085,8 +2085,8 @@ MRP - 110	 No exists Dem</value>
   <value column="Help" original=""/>
  </row>
  <row id="200047" trl="Y">
-  <value column="Name" original="Address Validation">Адрес проверски</value>
-  <value column="Description" original=""/>
+  <value column="Name" original="Address Validation">Проверка адреса</value>
+  <value column="Description" original="">Проверка введённого адреса</value>
   <value column="Help" original=""/>
  </row>
  <row id="200048" trl="Y">
@@ -2169,254 +2169,44 @@ MRP - 110	 No exists Dem</value>
   <value column="Description" original="Users from All Clients">Users from All Clients</value>
   <value column="Help" original=""/>
  </row>
- <row trl="Y" uuid="343e88fe-9fa6-49a3-a1d9-5c7645e40b72">
-  <value column="Name" original="Payroll Payments">Выплата Зарплаты</value>
-  <value column="Description" original="Payroll Direct Payments">Прямая выплата Зарплаты</value>
+ <row trl="Y" uuid="3db3509b-c475-4ef4-84ae-bf5949a85708">
+  <value column="Name" original="Service Request">Обращение</value>
+  <value column="Description" original="Enter and change Service Request">Обращение</value>
+  <value column="Help" original="The Service Request Window allows you to enter and modify Service Request.  ">Окно обращения позволяет вводить запросы на предоставление услуг.  </value>
+ </row>
+ <row trl="Y" uuid="7c61d916-866e-4596-b869-116e093c5294">
+  <value column="Name" original="Contact Search">Поиск контакта</value>
+  <value column="Description" original="Contact Search">Поиск контакта для формирования Обращения или Запроса</value>
   <value column="Help" original=""/>
  </row>
- <row trl="Y" uuid="2bbddee1-54d1-4808-95f0-f3e4864d6f48">
-  <value column="Name" original="Modules">Навигационные модули</value>
-  <value column="Description" original="Navigation Modules">Навигационные модули</value>
-  <value column="Help" original="Navigation Modules NMS">Навигационные модули системы NMS</value>
- </row>
- <row trl="Y" uuid="c753c9e4-ec94-4d9a-b6f0-c65a634834b1">
-  <value column="Name" original="Sensors">Датчики</value>
-  <value column="Description" original="Module Sensors">Датчики навигационных модулей</value>
-  <value column="Help" original="Module Sensors for Navigation System of Novaris">Датчики навигационных модулей NMS</value>
- </row>
- <row trl="Y" uuid="1903d857-cbca-4bf1-9ca8-42f1ce14c40f">
-  <value column="Name" original="Sensor Type">Тип датчика</value>
-  <value column="Description" original="Sensor Type">Тип датчика</value>
-  <value column="Help" original="Sensor Type Navigation Modules">Тип датчика системы мониторинга</value>
- </row>
- <row trl="Y" uuid="ca8f82d5-ebbd-486f-95c5-77125d1f340e">
-  <value column="Name" original="Data Protocol">Протокол данных</value>
-  <value column="Description" original="Module Data Protocol">Протокол передачи данных модуля</value>
-  <value column="Help" original="Module Data Protocol for Navigation System of Novaris">Протокол передачи данных модуля мониторинга системы NMS</value>
- </row>
- <row trl="Y" uuid="68c6a865-ac40-42a2-a4c0-047ab4c4c0b4">
-  <value column="Name" original="Last Navigation Data">Последние навигацонные данные</value>
-  <value column="Description" original="Last Navigation Data">Последние навигацонные данные</value>
-  <value column="Help" original="Last Module Navigation Data">Последние навигацонные данные</value>
- </row>
- <row trl="Y" uuid="d74265f0-f7ae-4efa-8a94-2cf6e1280d3e">
-  <value column="Name" original="Calibration Type">Тип таррировки</value>
-  <value column="Description" original="Calibration Type">Тип таррировки</value>
-  <value column="Help" original="Sensor Calibration Type">Тип значений таррировки</value>
- </row>
- <row trl="Y" uuid="f9f54c44-4b76-457d-9aa8-160886ec66b5">
-  <value column="Name" original="Profile">Профиль мониторинга</value>
-  <value column="Description" original="Navigation Profile">Профиль мониторинга</value>
-  <value column="Help" original="Navigation Profile NMS">Профиль мониторинга NMS</value>
- </row>
- <row trl="Y" uuid="ca660c77-a0e3-4369-b9db-8886634599aa">
-  <value column="Name" original="Monitoring Attribute">Атрибуты мониторинга</value>
-  <value column="Description" original="Monitoring Attribute">Атрибуты мониторинга</value>
-  <value column="Help" original="Monitoring Attribute">Атрибуты мониторинга</value>
- </row>
- <row trl="Y" uuid="0c64e591-b7cc-4a10-8cbf-c00427ae6a61">
-  <value column="Name" original="Alarm Events">Тревожные события</value>
-  <value column="Description" original="Alarm Events">Тревожные события</value>
-  <value column="Help" original="Not execute Alarm Events">Тревожные события в системе навигации</value>
- </row>
- <row trl="Y" uuid="beab9a69-d423-4225-8567-54ff06682351">
-  <value column="Name" original="Service Request">Запрос на сервис</value>
-  <value column="Description" original="Service Request">Запрос на сервис</value>
-  <value column="Help" original="Service Request NMS">Запрос на сервис системы NMS</value>
- </row>
- <row trl="Y" uuid="dc664159-391d-4828-aaf2-11c823b3bce7">
-  <value column="Name" original="Service Object">Сервисные машины</value>
-  <value column="Description" original="Service Object NMS">Сервисные машины NMS</value>
+ <row trl="Y" uuid="aebdcb9e-5a97-4875-bb68-0aedea5640bd">
+  <value column="Name" original="Technical Capability Definition">Определение тех возможности</value>
+  <value column="Description" original="Technical Capability Definition">Определение тех возможности</value>
   <value column="Help" original=""/>
  </row>
- <row trl="Y" uuid="6b5c2c5e-8e47-47d2-b33c-18c16e91be8c">
-  <value column="Name" original="Kanban Board Configuration">Настройка Канбан-доски</value>
-  <value column="Description" original="">Настройка Канбан-доски</value>
+ <row trl="N" uuid="f3068d3c-8805-4ad2-8e09-ab544e5da64b">
+  <value column="Name" original="Information Gadget Category">Information Gadget Category</value>
+  <value column="Description" original="JPIERE-0110:JPPS">JPIERE-0110:JPPS</value>
   <value column="Help" original=""/>
  </row>
- <row trl="Y" uuid="dab43dbe-013f-4316-a7d3-16ddc40be59e">
-  <value column="Name" original="Service Machine">Сервисные машины</value>
-  <value column="Description" original="Service Machine">Сервисные машины</value>
-  <value column="Help" original="Service Machine NMS">Сервисные машины NMS</value>
- </row>
- <row trl="Y" uuid="0bc714f9-045e-44d1-9590-9a80018bb765">
-  <value column="Name" original="Constants">Константы</value>
-  <value column="Description" original="Notification constants">Константы системы оповещения</value>
+ <row trl="N" uuid="80360ab0-5494-4ae7-9589-7fc511467f09">
+  <value column="Name" original="Information Gadget">Information Gadget</value>
+  <value column="Description" original="JPIERE-0110:JPPS">JPIERE-0110:JPPS</value>
   <value column="Help" original=""/>
- </row>
- <row trl="Y" uuid="f13171f4-ce13-4476-a54b-494e8b21b8cb">
-  <value column="Name" original="Variables">Переменные</value>
-  <value column="Description" original="Notification variables">Переменные оповещения</value>
-  <value column="Help" original=""/>
- </row>
- <row trl="Y" uuid="2bc5eaaa-431e-44d9-8c79-20243c371d89">
-  <value column="Name" original="Templates">Шаблоны</value>
-  <value column="Description" original="Notification templates">Шаблоны оповещения</value>
-  <value column="Help" original=""/>
- </row>
- <row trl="Y" uuid="d8bbde69-a8bf-48a2-8a8c-ac657fa9c257">
-  <value column="Name" original="Statuses">Статусы</value>
-  <value column="Description" original="Notification statuses">Статусы оповещения</value>
-  <value column="Help" original=""/>
- </row>
- <row trl="Y" uuid="e8ea9072-8a60-4089-b940-7002e85fe6b5">
-  <value column="Name" original="Sound Files">Голосовые файлы</value>
-  <value column="Description" original="Sound Files for notification">Файлы для голосового оповещения</value>
-  <value column="Help" original=""/>
- </row>
- <row trl="Y" uuid="fecc961b-e62e-47d0-a35f-49286bb45c90">
-  <value column="Name" original="Client type">Тип клиента</value>
-  <value column="Description" original="Notification client type">Тип клиента системы оповещения</value>
-  <value column="Help" original=""/>
- </row>
- <row trl="Y" uuid="3d34bbfc-cb94-49d5-a5d6-7c412c8095fd">
-  <value column="Name" original="Notification Type">Тип оповещения</value>
-  <value column="Description" original="Notification Type">Тип оповещения</value>
-  <value column="Help" original="Notification Type">Настройка типа оповещения</value>
- </row>
- <row trl="Y" uuid="13bb8dd9-80e5-466e-83d4-479e93dbd0da">
-  <value column="Name" original="Caller ID">Исходящий номер</value>
-  <value column="Description" original="Outbound caller number or name">Исходящий номер или имя</value>
-  <value column="Help" original="Outbound caller number or name">Исходящий номер или имя отображаемый у клиента</value>
- </row>
- <row trl="Y" uuid="a5ae445d-01bc-48a8-a7f8-79a2fa5f6e78">
-  <value column="Name" original="Notification Limit">Ограничения</value>
-  <value column="Description" original="Notification Limit">Ограничения оповещения</value>
-  <value column="Help" original="Limit active notification">Ограничения активных оповещений</value>
- </row>
- <row trl="Y" uuid="efc24178-c40b-4926-b06f-56953ef247e3">
-  <value column="Name" original="Campaign">Кампания</value>
-  <value column="Description" original="Campaign configuration">Настройки кампании</value>
-  <value column="Help" original="Campaign of notification configuration">Настройки кампании оповещения</value>
- </row>
- <row trl="Y" uuid="5d710fab-fdfa-4379-a5c0-669579398974">
-  <value column="Name" original="Calendar">Календарь</value>
-  <value column="Description" original="Campaign calendar">Календарь кампании</value>
-  <value column="Help" original="Campaign calendar">Календарь кампании оповещения</value>
- </row>
- <row trl="Y" uuid="8603e2e5-410d-43dd-bed3-8bc32fc5ec8c">
-  <value column="Name" original="Branch">Филиал (Регион)</value>
-  <value column="Description" original="Notification branch">Филиал (Регион) оповещения</value>
-  <value column="Help" original=""/>
- </row>
- <row trl="Y" uuid="89db77fa-631d-49f2-829f-f99a1d0384a0">
-  <value column="Name" original="Campaign attribute type">Тип атрибута кампании</value>
-  <value column="Description" original="Campaign attribute type">Тип атрибута кампании</value>
-  <value column="Help" original=""/>
- </row>
- <row trl="N" uuid="ffe7b8a6-8417-478e-b15f-fc379e3d8a50">
-  <value column="Name" original="Time interval">Time interval</value>
-  <value column="Description" original="Time interval">Time interval</value>
-  <value column="Help" original="Calendar time interval">Calendar time interval</value>
- </row>
- <row trl="Y" uuid="32455ec6-7576-469f-85bc-701ba4cffe83">
-  <value column="Name" original="Notification List">Список оповещения</value>
-  <value column="Description" original="Notification List">Список оповещения</value>
-  <value column="Help" original="Notification List">Список оповещения кампании</value>
- </row>
- <row trl="Y" uuid="93dc13fc-13b5-4aac-b944-1069016f8803">
-  <value column="Name" original="Platform">Платформа</value>
-  <value column="Description" original="Notification platform">Платформа оповещения</value>
-  <value column="Help" original="">Платформа оповещения</value>
- </row>
- <row trl="Y" uuid="32b9cd7b-b897-4bbb-9813-fbf689026cfe">
-  <value column="Name" original="Platform Attribute Type">Тип атрибута</value>
-  <value column="Description" original="Platform Attribute Type">Тип атрибута платформы</value>
-  <value column="Help" original="Platform Attribute Type">Тип атрибута платформы оповещения</value>
- </row>
- <row trl="Y" uuid="cb1da373-7ea2-4ab2-9f5c-64db070ac457">
-  <value column="Name" original="Trunk type">Тип канала</value>
-  <value column="Description" original="Trunk type">Тип канала</value>
-  <value column="Help" original="">Тип канала оповещения</value>
- </row>
- <row trl="Y" uuid="92629a83-2634-40b7-965f-d7a7a1468f81">
-  <value column="Name" original="Trunk attribute type">Тип атрибута канала</value>
-  <value column="Description" original="Trunk attribute type">Тип атрибута канала</value>
-  <value column="Help" original="Trunk attribute type">Тип атрибута канала оповещения</value>
- </row>
- <row trl="Y" uuid="716b4369-cd29-48af-ba35-f764a016ed1c">
-  <value column="Name" original="Outbound route">Исходящие маршруты</value>
-  <value column="Description" original="Outbound route">Исходящие маршруты</value>
-  <value column="Help" original="Outbound route">Исходящие маршруты оповещения</value>
- </row>
- <row trl="Y" uuid="18a3d123-0201-491b-af07-e4c727fc5abc">
-  <value column="Name" original="Task Queue">Очередь заданий</value>
-  <value column="Description" original="Notification Task Queue">Очередь заданий на оповещение</value>
-  <value column="Help" original=""/>
- </row>
- <row trl="Y" uuid="99d40fa8-8c1c-4818-a73b-9b0f258f01d7">
-  <value column="Name" original="Notification Client">Клиент оповещения</value>
-  <value column="Description" original="Notification Client">Клиент системы оповещения</value>
-  <value column="Help" original="Notification Client">Клиент системы оповещения</value>
- </row>
- <row trl="Y" uuid="5473c4c9-53f6-4bec-b6fd-513b895e9cb6">
-  <value column="Name" original="Notify Template">Шаблон оповещения</value>
-  <value column="Description" original="Notify Template">Шаблон оповещения</value>
-  <value column="Help" original="Notify Template">Шаблон оповещения</value>
- </row>
- <row trl="Y" uuid="c71e61b2-dc11-491a-ba6f-c00444ea70ec">
-  <value column="Name" original="Notification Status">Статус оповещения</value>
-  <value column="Description" original="Notification Status">Статус оповещения</value>
-  <value column="Help" original="Notification Status">Статус оповещения</value>
- </row>
- <row trl="Y" uuid="890e777d-9655-4e71-8970-e8909980ca14">
-  <value column="Name" original="Notification Count Day">Количество оповещений (день)</value>
-  <value column="Description" original="Notification Count in the current Day">Количество оповещений в текущий день</value>
-  <value column="Help" original=""/>
- </row>
- <row trl="Y" uuid="573358a8-6cc7-4ada-bb5b-ac49b4faf5fe">
-  <value column="Name" original="Notification Queue">Очередь сообщений</value>
-  <value column="Description" original="Notification queue (fast view)">Очередь сообщений (быстрый просмотр)</value>
-  <value column="Help" original="Notification queue (fast view)">Очередь сообщений быстрый просмотр на основе материализованного представления</value>
- </row>
- <row trl="Y" uuid="b5192b4a-f0c2-45e3-87be-6ad386cf8b5e">
-  <value column="Name" original="Outbound Rules">Правила обработки</value>
-  <value column="Description" original="Outbound Rules">Правила обработки для исходящих</value>
-  <value column="Help" original="Outbound Rules for Notification">Правила обработки для исходящих оповещений</value>
- </row>
- <row trl="Y" uuid="e143907d-b0ce-4a0a-8910-0f0f194987c3">
-  <value column="Name" original="Notification Managment">Управление оповещениями</value>
-  <value column="Description" original="Notification Task Managment">Управление заданиями на оповещение</value>
-  <value column="Help" original="Notification Task Managment of NCS">Управление заданиями на оповещение NCS</value>
- </row>
- <row trl="N" uuid="4944d603-729a-4443-b64d-58b82004c8fb">
-  <value column="Name" original="Client Notification">Client Notification</value>
-  <value column="Description" original="Client notification system"/>
-  <value column="Help" original="Client of notification system"/>
  </row>
  <row trl="N" uuid="a4f048c0-a5a8-415e-9875-2c8a774d77b4">
   <value column="Name" original="MRP">MRP</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row trl="Y" uuid="de2e4e3f-dab3-40a9-bf93-9350fb3cfc64">
-  <value column="Name" original="Process Flow">Процесс</value>
-  <value column="Description" original="Process Flow">Процесс</value>
-  <value column="Help" original="Information about the process flow: state, transaction. Each process flow has a configurator template associated">Информация о потоках процесса: состояние, транзакции. Каждый поток процесса должен быть ассоциирован с шаблоном.</value>
+ <row trl="N" uuid="b45ca7ab-3877-452a-9ef3-2c875d28edac">
+  <value column="Name" original="Technical Capability">Technical Capability</value>
+  <value column="Description" original="Technical Capability">Technical Capability</value>
+  <value column="Help" original="Technical Capability">Technical Capability</value>
  </row>
- <row trl="N" uuid="582bd19a-3f78-4e60-82fb-27e9f7e01be4">
-  <value column="Name" original="Process Configurator">Process Configurator</value>
-  <value column="Description" original="Configurator of the process">Configurator of the process</value>
-  <value column="Help" original="Design and configure you business process">Design and configure you business process</value>
- </row>
- <row trl="N" uuid="e8b0f629-c5f3-4d69-9891-a9a682500f61">
-  <value column="Name" original="Process Operation">Process Operation</value>
-  <value column="Description" original="Operation list of the process">Operation list of the process</value>
-  <value column="Help" original=""/>
- </row>
- <row trl="N" uuid="68345a8a-e738-4085-883c-49ec0395f2e4">
-  <value column="Name" original="Process Exception">Process Exception</value>
-  <value column="Description" original="Exception of the process">Exception of the process</value>
-  <value column="Help" original=""/>
- </row>
- <row trl="N" uuid="f683030e-1c1a-493b-bdb8-b508d76e7f53">
-  <value column="Name" original="Process State">Process State</value>
-  <value column="Description" original="State of process">State of process</value>
-  <value column="Help" original=""/>
- </row>
- <row trl="N" uuid="c97386fd-9cf4-47eb-b7bb-417b13f0f4b1">
-  <value column="Name" original="Process SubFlow State">Process SubFlow State</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
+ <row trl="Y" uuid="ea1936d2-51bd-4bbe-959a-ec24aedad3dc">
+  <value column="Name" original="Business Partner admin">Контрагент для Администратора</value>
+  <value column="Description" original="Maintain Business Partners">Ведение контрагента</value>
+  <value column="Help" original="The Business Partner window allows you do define any party with whom you transact.  This includes customers, vendors and employees.  Prior to entering or importing products, you must define your vendors.  Prior to generating Orders you must define your customers.  This window holds all information about your business partner and the values entered will be used to generate all document transactions">Окно Контрагент позволяет вам определять любого участника, с которым вы ведете дела. Это включает покупателей, поставщиков и сотрудников. Перед тем, как вводить или импортировать продукты, вы должны определить ваших поставщиков. Перед тем, как создавать заказы, вы должны определить ваших покупателей. Это окно содержит всю информацию о вашем клиенте и введенные значения будут использованы для создания всех документов по сделкам.</value>
  </row>
 </idempiereTrl>

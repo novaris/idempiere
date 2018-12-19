@@ -1,5 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="ru_RU" table="C_Region">
+ <row id="102" trl="N">
+  <value column="Name" original="CT">CT</value>
+ </row>
+ <row id="104" trl="N">
+  <value column="Name" original="MA">MA</value>
+ </row>
+ <row id="108" trl="N">
+  <value column="Name" original="NY">NY</value>
+ </row>
+ <row id="109" trl="N">
+  <value column="Name" original="NJ">NJ</value>
+ </row>
+ <row id="142" trl="N">
+  <value column="Name" original="OR">OR</value>
+ </row>
+ <row id="188" trl="N">
+  <value column="Name" original="HGO">HGO</value>
+ </row>
+ <row id="50017" trl="N">
+  <value column="Name" original="Thüringen">Thüringen</value>
+ </row>
  <row id="50018" trl="N">
   <value column="Name" original="Адыгея (Адыгея) Республика">Адыгея Республика</value>
  </row>

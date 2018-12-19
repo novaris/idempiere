@@ -20,6 +20,11 @@
   <value column="Description" original="Performance meters">Параметры производительности (эффективности)</value>
   <value column="HTML" original=""/>
  </row>
+ <row id="50004" trl="N">
+  <value column="Name" original="Calendar">Calendar</value>
+  <value column="Description" original="Request Calendar">Request Calendar</value>
+  <value column="HTML" original=""/>
+ </row>
  <row id="200000" trl="Y">
   <value column="Name" original="Recent Items">Последние элементы</value>
   <value column="Description" original="Recent items">Последние элементы</value>
@@ -40,19 +45,24 @@
   <value column="Description" original="">Workflow активности, сообщения и запросы</value>
   <value column="HTML" original=""/>
  </row>
- <row trl="Y" uuid="5ab2f017-312e-4f7f-9360-613310c81a46">
-  <value column="Name" original="Google Map">Карта Google</value>
-  <value column="Description" original="Google Map">Google Map</value>
+ <row trl="Y" uuid="ebb30aaf-05e1-47dc-958b-38b53ea576fa">
+  <value column="Name" original="Calendar">Календарь</value>
+  <value column="Description" original="Request calendar">Календарь запросов</value>
   <value column="HTML" original=""/>
  </row>
- <row trl="Y" uuid="d161a58b-5d13-4fb6-854b-62e24a1202a3">
-  <value column="Name" original="ServiceRequests">Запросы на сервис</value>
-  <value column="Description" original="NMS service requests">Запросы на сервис системы NMS</value>
+ <row trl="Y" uuid="aea19bdd-9984-4297-9ce7-c1d1a7b69e4f">
+  <value column="Name" original="Lead Activities">Активность лидов</value>
+  <value column="Description" original="Lead Activities">Активность лидов</value>
   <value column="HTML" original=""/>
  </row>
- <row trl="Y" uuid="398615f5-004d-4106-a561-8c3ec0d50d25">
-  <value column="Name" original="Openlayers Map">Карта Openlayers</value>
-  <value column="Description" original="Openlayers Map">Карта Openlayers</value>
+ <row trl="Y" uuid="e2c19bbd-5f75-4348-bebd-a67158355732">
+  <value column="Name" original="Custom Activity">Активные продажи</value>
+  <value column="Description" original=""/>
+  <value column="HTML" original=""/>
+ </row>
+ <row trl="Y" uuid="af335705-1195-4dc5-9a34-23987a9ef725">
+  <value column="Name" original="OpenMap">Карта OpenLayers</value>
+  <value column="Description" original=""/>
   <value column="HTML" original=""/>
  </row>
 </idempiereTrl>

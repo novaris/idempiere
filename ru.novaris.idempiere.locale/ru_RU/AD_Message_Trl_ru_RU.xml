@@ -229,11 +229,11 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="158" trl="Y">
-  <value column="MsgText" original="Business Partner not found">Бизнес партнер не найден</value>
+  <value column="MsgText" original="Business Partner not found">Контрагент не найден</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="159" trl="Y">
-  <value column="MsgText" original="Business Partner not saved">Данные о бизнес партнере не сохранены</value>
+  <value column="MsgText" original="Business Partner not saved">Данные о контрагенте не сохранены</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="160" trl="Y">
@@ -249,7 +249,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="163" trl="Y">
-  <value column="MsgText" original="Business Partner">Бизнес-партнер</value>
+  <value column="MsgText" original="Business Partner">Контрагент</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="164" trl="Y">
@@ -679,7 +679,7 @@ Please change Cashbook only after completion of transaction</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="270" trl="Y">
-  <value column="MsgText" original="&amp;Lookup Record">Запись поиска</value>
+  <value column="MsgText" original="&amp;Lookup Record">Поиск</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="271" trl="Y">
@@ -799,7 +799,7 @@ Please change Cashbook only after completion of transaction</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="300" trl="Y">
-  <value column="MsgText" original="Business Partner Info">Информация о бизнес-партнере</value>
+  <value column="MsgText" original="Business Partner Info">Информация о контрагенте</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="301" trl="Y">
@@ -1587,7 +1587,7 @@ Details: </value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="494" trl="Y">
-  <value column="MsgText" original="Same Business Partner">Одинаковый бизнес-партнер</value>
+  <value column="MsgText" original="Same Business Partner">Тот же самый контрагент</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="495" trl="Y">
@@ -2648,19 +2648,19 @@ Thank you for using Adempiere Customer Asset Management
   <value column="MsgTip" original=""/>
  </row>
  <row id="766" trl="Y">
-  <value column="MsgText" original="Business Partner is on Credit Stop">Кредитный лимит бизнес партнера остановлен</value>
+  <value column="MsgText" original="Business Partner is on Credit Stop">Кредитный лимит контрагента остановлен</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="767" trl="Y">
-  <value column="MsgText" original="Business Partner is on Credit Hold">Погашение кредита бизнес партнером задержано</value>
+  <value column="MsgText" original="Business Partner is on Credit Hold">Погашение кредита контрагентом задержано</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="768" trl="Y">
-  <value column="MsgText" original="Business Partner with this Order over Credit Hold">Кредитный лимит для этого бизнес партнера в заказе превышен</value>
+  <value column="MsgText" original="Business Partner with this Order over Credit Hold">Кредитный лимит для этого контрагента в заказе превышен</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="769" trl="Y">
-  <value column="MsgText" original="Business Partner with open Shipments over Credit Hold">Кредитный лимит превышен для отгрузки этому партнеру</value>
+  <value column="MsgText" original="Business Partner with open Shipments over Credit Hold">Кредитный лимит превышен для отгрузки этому контрагенту</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="770" trl="Y">
@@ -2696,7 +2696,7 @@ Thank you for using Adempiere Customer Asset Management
   <value column="MsgTip" original=""/>
  </row>
  <row id="778" trl="Y">
-  <value column="MsgText" original="&amp;Business Partner"><![CDATA[&Бизнес партнер]]></value>
+  <value column="MsgText" original="&amp;Business Partner"><![CDATA[&Контрагент]]></value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="779" trl="Y">
@@ -3128,7 +3128,7 @@ Delete Order/Invoice line with the Assignment.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="885" trl="Y">
-  <value column="MsgText" original="Bank account for business partner not found">Банковский счет бизнес-партнера не найден</value>
+  <value column="MsgText" original="Bank account for business partner not found">Банковский счет контрагента не найден</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="886" trl="Y">
@@ -3452,11 +3452,11 @@ Delete Order/Invoice line with the Assignment.</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52061" trl="Y">
-  <value column="MsgText" original="Business Partner Info">Информация о бизнес-партнере</value>
+  <value column="MsgText" original="Business Partner Info">Информация о контрагенте</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52062" trl="Y">
-  <value column="MsgText" original="Business Partner Trx Details">Операции бизнес партнера детально</value>
+  <value column="MsgText" original="Business Partner Trx Details">Операции контрагента детально</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52063" trl="Y">
@@ -3656,7 +3656,7 @@ Delete Order/Invoice line with the Assignment.</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52112" trl="Y">
-  <value column="MsgText" original="Create Business Partner">Создать бизнес партнера</value>
+  <value column="MsgText" original="Create Business Partner">Создать контрагента</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52113" trl="Y">
@@ -4576,11 +4576,11 @@ Delete Order/Invoice line with the Assignment.</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52342" trl="Y">
-  <value column="MsgText" original="Business Partner Sales Details">Детали продаж бизнес-партнера</value>
+  <value column="MsgText" original="Business Partner Sales Details">Детали продаж контрагента</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52343" trl="Y">
-  <value column="MsgText" original="Business Partners">Бизнес-партнеры</value>
+  <value column="MsgText" original="Business Partners">Контрагенты</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52344" trl="Y">
@@ -5310,8 +5310,8 @@ Delete Order/Invoice line with the Assignment.</value>
   <value column="MsgTip" original="Do not exist Transit Warehouse to this Organization">Для этой организации не задан транзитный склад</value>
  </row>
  <row id="53036" trl="Y">
-  <value column="MsgText" original="Org targer do not linked to BPartner">Организация не связана с бизнес партнером</value>
-  <value column="MsgTip" original="Org targer do not linked to BPartner">Организация не связана с бизнес партнером</value>
+  <value column="MsgText" original="Org targer do not linked to BPartner">Организация не связана с контрагентом</value>
+  <value column="MsgTip" original="Org targer do not linked to BPartner">Организация не связана с контрагентом</value>
  </row>
  <row id="53038" trl="Y">
   <value column="MsgText" original="Check Missing Translation Records">Проверить наличие не переведенных записей</value>
@@ -5378,15 +5378,15 @@ Delete Order/Invoice line with the Assignment.</value>
   <value column="MsgTip" original="Indicates that a demand order is past due.">Показывает что запрос просрочен</value>
  </row>
  <row id="53056" trl="Y">
-  <value column="MsgText" original="Business Partner has no Ship To Address">Адрес доставки бизнес партнеру не определен</value>
+  <value column="MsgText" original="Business Partner has no Ship To Address">Адрес доставки контрагенту не определен</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="53057" trl="Y">
-  <value column="MsgText" original="Business Partner has no Bill To Address">Адрес для выставления счета бизнес партнеру не определен</value>
+  <value column="MsgText" original="Business Partner has no Bill To Address">Адрес для выставления счета контрагенту не определен</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="53058" trl="Y">
-  <value column="MsgText" original="Business Partner has no Address">Адрес для бизнес партнера не определен</value>
+  <value column="MsgText" original="Business Partner has no Address">Адрес для контрагента не определен</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="53059" trl="Y">
@@ -5446,7 +5446,7 @@ Delete Order/Invoice line with the Assignment.</value>
   <value column="MsgTip" original="In order to run this process you need to enable client accounting, this can be done in window System Configurator, setting the parameter CLIENT_ACCOUNTING to [I]mmediate or [Q]ueue">In order to run this process you need to enable client accounting, this can be done in window System Configurator, setting the parameter CLIENT_ACCOUNTING to [I]mmediate or [Q]ueue</value>
  </row>
  <row id="53084" trl="Y">
-  <value column="MsgText" original="Not exists a Business Partner linked for Organization">Не существует бизнес-партнера связанного с организацией</value>
+  <value column="MsgText" original="Not exists a Business Partner linked for Organization">Не существует контрагента, связанного с организацией</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="53085" trl="Y">
@@ -6089,12 +6089,12 @@ Delete Order/Invoice line with the Assignment.</value>
   <value column="MsgText" original="Getting Started">Приступая к работе </value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200140" trl="N">
-  <value column="MsgText" original="Tool Tip">Tool Tip</value>
+ <row id="200140" trl="Y">
+  <value column="MsgText" original="Tool Tip">Подсказка</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200141" trl="Y">
-  <value column="MsgText" original="How To">How To</value>
+  <value column="MsgText" original="How To">Инструкция</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200142" trl="Y">
@@ -6577,8 +6577,8 @@ Delete Order/Invoice line with the Assignment.</value>
   <value column="MsgText" original="Could not unlock user account">Не удалось разблокировать учетную запись пользователя</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200333" trl="N">
-  <value column="MsgText" original="The user {0} has been unlocked">The user {0} has been unlocked</value>
+ <row id="200333" trl="Y">
+  <value column="MsgText" original="The user {0} has been unlocked">Пользователь {0} будет разблокирован</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200334" trl="Y">
@@ -6617,8 +6617,8 @@ Delete Order/Invoice line with the Assignment.</value>
   <value column="MsgText" original="Permalink">Permalink</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200370" trl="N">
-  <value column="MsgText" original="Right click and copy link for a permanent link to this record.">Right click and copy link for a permanent link to this record.</value>
+ <row id="200370" trl="Y">
+  <value column="MsgText" original="Right click and copy link for a permanent link to this record.">Щелкните правой кнопкой мыши и скопируйте ссылку для создания постоянной ссылки на эту запись.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200393" trl="Y">
@@ -6697,8 +6697,60 @@ Delete Order/Invoice line with the Assignment.</value>
   <value column="MsgText" original="Warning">Warning</value>
   <value column="MsgTip" original=""/>
  </row>
+ <row id="200443" trl="N">
+  <value column="MsgText" original="Stop">Stop</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200444" trl="N">
+  <value column="MsgText" original="Uninstall">Uninstall</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200445" trl="N">
+  <value column="MsgText" original="Install">Install</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200446" trl="N">
+  <value column="MsgText" original="Id">Id</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200447" trl="N">
+  <value column="MsgText" original="State">State</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200448" trl="N">
+  <value column="MsgText" original="Version">Version</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200449" trl="N">
+  <value column="MsgText" original="Plugins">Plugins</value>
+  <value column="MsgTip" original=""/>
+ </row>
  <row id="200450" trl="N">
   <value column="MsgText" original="Request a Read Receipt">Request a Read Receipt</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200452" trl="N">
+  <value column="MsgText" original="Row">Row</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200453" trl="N">
+  <value column="MsgText" original="Your password will expire in {0} days">Your password will expire in {0} days</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200471" trl="N">
+  <value column="MsgText" original="Invoice has already allocations">Invoice has already allocations</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200472" trl="N">
+  <value column="MsgText" original="Cannot create a credit memo from a credit memo">Cannot create a credit memo from a credit memo</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200473" trl="N">
+  <value column="MsgText" original="Credit Memo already exists">Credit Memo already exists</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200480" trl="N">
+  <value column="MsgText" original="IBAN is invalid">IBAN is invalid</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="520010" trl="Y">
@@ -6731,58 +6783,6 @@ Delete Order/Invoice line with the Assignment.</value>
  </row>
  <row id="523853" trl="Y">
   <value column="MsgText" original="Shipment/Receipt has different Sales/Purchase transaction than RMA">Shipment/Receipt has different Sales/Purchase transaction than RMA</value>
-  <value column="MsgTip" original=""/>
- </row>
- <row trl="Y" uuid="c70ef08a-8071-4865-915b-f6e73ecba199">
-  <value column="MsgText" original="Back">Вернуться</value>
-  <value column="MsgTip" original=""/>
- </row>
- <row trl="Y" uuid="5720350f-c1e6-465b-b028-db27f3b1aaa0">
-  <value column="MsgText" original="Cancel">Отмена</value>
-  <value column="MsgTip" original=""/>
- </row>
- <row trl="Y" uuid="c3dc97cc-4856-4350-bd31-9bea4001e3cb">
-  <value column="MsgText" original="Find">Поиск</value>
-  <value column="MsgTip" original=""/>
- </row>
- <row trl="Y" uuid="726e9534-eb61-45b3-996e-8b8b37e1ee9e">
-  <value column="MsgText" original="Logout">Выход</value>
-  <value column="MsgTip" original=""/>
- </row>
- <row trl="Y" uuid="c5713001-6719-4e07-879c-09292f41641e">
-  <value column="MsgText" original="New Record">Новая запись</value>
-  <value column="MsgTip" original=""/>
- </row>
- <row trl="N" uuid="e188517d-2beb-4a19-a3be-1a584ffde010">
-  <value column="MsgText" original="This card can't be moved to that status because it was already Completed.">This card can't be moved to that status because it was already Completed.</value>
-  <value column="MsgTip" original=""/>
- </row>
- <row trl="N" uuid="2d2e4e93-3a6b-4dfd-8c4e-d38e5ae35a42">
-  <value column="MsgText" original="This status transition is not allowed.">This status transition is not allowed.</value>
-  <value column="MsgTip" original=""/>
- </row>
- <row trl="Y" uuid="4711d00c-de8e-4886-8865-2d9b321089f2">
-  <value column="MsgText" original="Invalid priority rule, it must return a numeric value.">Неверное правило приоритезации, должно быть цифровое значение.</value>
-  <value column="MsgTip" original=""/>
- </row>
- <row trl="Y" uuid="7432a083-006a-4051-a094-76a10455e4e4">
-  <value column="MsgText" original="There are no statuses configured for this Kanban Board">Для этого Канбана нет настроеных статусов</value>
-  <value column="MsgTip" original=""/>
- </row>
- <row trl="Y" uuid="50d8a1a8-2e06-455c-887f-96f6599227e0">
-  <value column="MsgText" original="Row">Запись</value>
-  <value column="MsgTip" original=""/>
- </row>
- <row trl="N" uuid="5c175d71-2cfb-4db5-82a7-dea0ca4b6d3b">
-  <value column="MsgText" original="Transaction not succeeded:  &#10;&#10;">Transaction not succeeded:  
-
-</value>
-  <value column="MsgTip" original=""/>
- </row>
- <row trl="N" uuid="584a8216-518d-4f7c-91b3-dbb21845b2e0">
-  <value column="MsgText" original="Transaction succedeed:   &#10;&#10;">Transaction succedeed:   
-
-</value>
   <value column="MsgTip" original=""/>
  </row>
 </idempiereTrl>

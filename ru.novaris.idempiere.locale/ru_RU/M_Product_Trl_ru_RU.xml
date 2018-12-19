@@ -1,62 +1,462 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="ru_RU" table="M_Product">
- <row trl="N" uuid="250199a8-860f-4165-a768-fae3c9472f48">
-  <value column="Name" original="Стандарт">Стандарт</value>
-  <value column="Description" original=""/>
-  <value column="DocumentNote" original=""/>
- </row>
- <row trl="N" uuid="e9c3fc89-a348-40e6-a1fa-5aab0babb0a2">
-  <value column="Name" original="Стандартный ДУТ">Стандартный ДУТ</value>
-  <value column="Description" original=""/>
-  <value column="DocumentNote" original=""/>
- </row>
- <row trl="Y" uuid="a8de874d-f654-4943-87aa-eb830acfc4e0">
-  <value column="Name" original="Легковая машина">Легковая машина</value>
-  <value column="Description" original="Легковая машина">Легковая машина</value>
-  <value column="DocumentNote" original=""/>
- </row>
- <row trl="N" uuid="686fa7c2-cb1a-4347-a95e-92dbf3bad01d">
-  <value column="Name" original="Телтоника FM1100">Телтоника FM1100</value>
-  <value column="Description" original="Телтоника FM1100 (Teltonika)">Телтоника FM1100 (Teltonika)</value>
-  <value column="DocumentNote" original=""/>
- </row>
- <row trl="Y" uuid="b7bb6fc5-f31d-4c9e-a374-284fecab5bfb">
-  <value column="Name" original="Аварийный коммисар">Аварийный коммисар</value>
-  <value column="Description" original="Выезд аварийного коммисара">Выезд аварийного коммисара</value>
-  <value column="DocumentNote" original=""/>
- </row>
- <row trl="Y" uuid="739b39fa-5822-46e3-8b72-d4c56a9cd412">
-  <value column="Name" original="Техпомощь">Техпомощь</value>
-  <value column="Description" original="Выезд технической помощи">Выезд технической помощи</value>
-  <value column="DocumentNote" original=""/>
- </row>
- <row trl="N" uuid="91876a7c-9572-4114-87a1-efda9226c12b">
-  <value column="Name" original="Доступ к сервисам">Доступ к сервисам</value>
-  <value column="Description" original="Доступ к сервисам">Доступ к сервисам</value>
-  <value column="DocumentNote" original=""/>
- </row>
- <row trl="N" uuid="6c88193d-73b7-4a20-9380-4dbb1e24c742">
-  <value column="Name" original="Кнопка с фиксацией">Кнопка с фиксацией</value>
-  <value column="Description" original="Кнопка с фиксацией состояния">Кнопка с фиксацией состояния</value>
-  <value column="DocumentNote" original=""/>
- </row>
- <row trl="N" uuid="c1a59db6-9ad5-486f-bc78-ba7c9adf8b66">
-  <value column="Name" original="Грузовая Б">Грузовая Б</value>
-  <value column="Description" original="Грузовая Б">Грузовая Б</value>
-  <value column="DocumentNote" original=""/>
- </row>
- <row trl="N" uuid="58192583-47fd-48a2-98b5-69e988c5f08d">
-  <value column="Name" original="ВЕГА МТ-21">ВЕГА МТ-21</value>
-  <value column="Description" original="Блок мониторинга ВЕГА МТ-21">Блок мониторинга ВЕГА МТ-21</value>
-  <value column="DocumentNote" original=""/>
- </row>
- <row trl="N" uuid="0e00bbf9-891e-4a49-87b9-8516bef46d5b">
+ <row id="122" trl="N">
   <value column="Name" original="Standard">Standard</value>
   <value column="Description" original=""/>
   <value column="DocumentNote" original=""/>
  </row>
- <row trl="N" uuid="7421b8db-67b6-46a5-a79f-420f416dd59e">
-  <value column="Name" original="Стандартный">Стандартный</value>
+ <row id="123" trl="N">
+  <value column="Name" original="Oak Tree">Oak Tree</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original="Oak Trees may grow quite a bit.">Oak Trees may grow quite a bit.</value>
+ </row>
+ <row id="124" trl="N">
+  <value column="Name" original="Elm Tree">Elm Tree</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row id="125" trl="N">
+  <value column="Name" original="Grass Seed Container">Grass Seed Container</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row id="126" trl="N">
+  <value column="Name" original="Planting Service">Planting Service</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row id="127" trl="N">
+  <value column="Name" original="Rose Bush">Rose Bush</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row id="128" trl="N">
+  <value column="Name" original="Azalea Bush">Azalea Bush</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row id="129" trl="N">
+  <value column="Name" original="Holly Bush">Holly Bush</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row id="130" trl="N">
+  <value column="Name" original="Plum Tree">Plum Tree</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row id="131" trl="N">
+  <value column="Name" original="Travel cost">Travel cost</value>
+  <value column="Description" original="Travel related costs">Travel related costs</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row id="132" trl="N">
+  <value column="Name" original="Mary Consultant">Mary Consultant</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row id="133" trl="N">
+  <value column="Name" original="Patio Chair">Patio Chair</value>
+  <value column="Description" original="Nice Chair for outdoors">Nice Chair for outdoors</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row id="134" trl="N">
+  <value column="Name" original="Patio Table">Patio Table</value>
+  <value column="Description" original="Nice Table for outdoors">Nice Table for outdoors</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row id="135" trl="N">
+  <value column="Name" original="Patio Sun Screen">Patio Sun Screen</value>
+  <value column="Description" original="Protect from UV">Protect from UV</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row id="136" trl="N">
+  <value column="Name" original="Fertilizer #50">Fertilizer #50</value>
+  <value column="Description" original="50 # Bag of Lawn Fertilizer">50 # Bag of Lawn Fertilizer</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row id="137" trl="N">
+  <value column="Name" original="Mulch 10#">Mulch 10#</value>
+  <value column="Description" original="10# Bag of Mulch">10# Bag of Mulch</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row id="138" trl="N">
+  <value column="Name" original="Hoe 4 ft">Hoe 4 ft</value>
+  <value column="Description" original="4 Foot Metal Hoe">4 Foot Metal Hoe</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row id="139" trl="N">
+  <value column="Name" original="Rake Bamboo">Rake Bamboo</value>
+  <value column="Description" original="4 Foot Bamboo Rake">4 Foot Bamboo Rake</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row id="140" trl="N">
+  <value column="Name" original="Rake Metal">Rake Metal</value>
+  <value column="Description" original="4 Foot Metal Rake">4 Foot Metal Rake</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row id="141" trl="N">
+  <value column="Name" original="Weeder">Weeder</value>
+  <value column="Description" original="Hand Weeder">Hand Weeder</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row id="142" trl="N">
+  <value column="Name" original="Transplanter">Transplanter</value>
+  <value column="Description" original="Hand Transplanter">Hand Transplanter</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row id="143" trl="N">
+  <value column="Name" original="Grass Seeder">Grass Seeder</value>
+  <value column="Description" original="Manual Grass Seeder">Manual Grass Seeder</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row id="144" trl="N">
+  <value column="Name" original="Lawn Tiller">Lawn Tiller</value>
+  <value column="Description" original="Manual Lawn Tiller">Manual Lawn Tiller</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row id="145" trl="N">
+  <value column="Name" original="Patio Furniture Set">Patio Furniture Set</value>
+  <value column="Description" original="1 table, 4 Chairs and 1 Sun Screen">1 table, 4 Chairs and 1 Sun Screen</value>
+  <value column="DocumentNote" original="&#9;">	</value>
+ </row>
+ <row id="146" trl="N">
+  <value column="Name" original="How To Plant">How To Plant</value>
+  <value column="Description" original="Information on how to best to plant your future.">Information on how to best to plant your future.</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row id="147" trl="N">
+  <value column="Name" original="TShirt - Red Large">TShirt - Red Large</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row id="148" trl="N">
+  <value column="Name" original="TShirt - Green Large">TShirt - Green Large</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row id="50000" trl="N">
+  <value column="Name" original="Assembly Back Leg">Assembly Back Leg</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row id="50001" trl="N">
+  <value column="Name" original="Assembly Front Leg">Assembly Front Leg</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row id="50002" trl="N">
+  <value column="Name" original="#6-32 x 3/8 Socket Head Cap Screw">#6-32 x 3/8 Socket Head Cap Screw</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row id="50003" trl="N">
+  <value column="Name" original="Ultra Glue">Ultra Glue</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row id="50004" trl="N">
+  <value column="Name" original="Seat">Seat</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row id="50005" trl="N">
+  <value column="Name" original="Back Support">Back Support</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row id="50007" trl="N">
+  <value column="Name" original="Fertilizer #70">Fertilizer #70</value>
+  <value column="Description" original="70 # Bag of Lawn Fertilizer">70 # Bag of Lawn Fertilizer</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row id="50008" trl="N">
+  <value column="Name" original="Lawn Fertilizer">Lawn Fertilizer</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row id="50009" trl="N">
+  <value column="Name" original="Nitrogen">Nitrogen</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row id="50010" trl="N">
+  <value column="Name" original="Phosphorus">Phosphorus</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row id="50012" trl="N">
+  <value column="Name" original="Potassium">Potassium</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row id="50013" trl="N">
+  <value column="Name" original="Bag 50 Kg">Bag 50 Kg</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row id="50014" trl="N">
+  <value column="Name" original="Bag 70 Kg">Bag 70 Kg</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row id="50015" trl="N">
+  <value column="Name" original="Front Leg">Front Leg</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row id="50016" trl="N">
+  <value column="Name" original="Back Leg">Back Leg</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row id="50017" trl="N">
+  <value column="Name" original="Water">Water</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row id="50018" trl="N">
+  <value column="Name" original="Fertilizer Plant">Fertilizer Plant</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row id="50019" trl="N">
+  <value column="Name" original="Assembly Area">Assembly Area</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row id="50020" trl="N">
+  <value column="Name" original="Paint Area">Paint Area</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row id="50021" trl="N">
+  <value column="Name" original="Chrome Subcontract Area">Chrome Subcontract Area</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row id="50022" trl="N">
+  <value column="Name" original="Inspection Area">Inspection Area</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row id="50023" trl="N">
+  <value column="Name" original="Furniture Plant">Furniture Plant</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row id="50024" trl="N">
+  <value column="Name" original="Packing Production Line">Packing Production Line</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row id="50025" trl="N">
+  <value column="Name" original="Mixed Area">Mixed Area</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row id="50026" trl="N">
+  <value column="Name" original="Dry Area">Dry Area</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row id="50027" trl="N">
+  <value column="Name" original="Fertilizer Inspection Area">Fertilizer Inspection Area</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="d0593eef-4bfb-4db1-a847-9b7c54b05351">
+  <value column="Name" original="Предоставление доступа к спутниковой услуге связи">Предоставление доступа к спутниковой услуге связи</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="N" uuid="53706ffc-c7bf-47c0-954e-eaf98d3097c8">
+  <value column="Name" original="ЦОД и облачные сервисы">ЦОД и облачные сервисы</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="N" uuid="2ae8773c-b894-4205-86af-b20fae9d4cc5">
+  <value column="Name" original="Спутниковая связь">Спутниковая связь</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="N" uuid="e8bc475c-88d3-4853-9a4a-9f3ea599d78e">
+  <value column="Name" original="Норильск">Норильск</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="356d93fb-afb6-49c3-9c32-a6f01ef07c62">
+  <value column="Name" original="КИНО ПО ВЫХОДНЫМ">КИНО ПО ВЫХОДНЫМ</value>
+  <value column="Description" original="Тарифный план на предоставление услуг  спутникового доступа в Интернет КИНО ПО ВЫХОДНЫМ">Тарифный план на предоставление услуг  спутникового доступа в Интернет КИНО ПО ВЫХОДНЫМ</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="0f7ee13f-b5cd-4a53-8209-a6c86f1ba4b1">
+  <value column="Name" original="ВЕСЬ ИНТЕРНЕТ">ВЕСЬ ИНТЕРНЕТ</value>
+  <value column="Description" original="Тарифный план на предоставление услуг  спутникового доступа в Интернет ВЕСЬ ИНТЕРНЕТ">Тарифный план на предоставление услуг  спутникового доступа в Интернет ВЕСЬ ИНТЕРНЕТ</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="c0b2cf5e-a091-4c96-9cc5-9e284cc46bca">
+  <value column="Name" original="СОЦСЕТИ КАЖДЫЙ ДЕНЬ">СОЦСЕТИ КАЖДЫЙ ДЕНЬ</value>
+  <value column="Description" original="Тарифный план на предоставление услуг  спутникового доступа в Интернет СОЦСЕТИ КАЖДЫЙ ДЕНЬ">Тарифный план на предоставление услуг  спутникового доступа в Интернет СОЦСЕТИ КАЖДЫЙ ДЕНЬ</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="b5fef24a-2f64-418e-bc83-b0cf5415295e">
+  <value column="Name" original="Комплект СТАНДАРТНЫЙ">Комплект СТАНДАРТНЫЙ</value>
+  <value column="Description" original="Комплект оборудования СТАНДАРТНЫЙ">Комплект оборудования СТАНДАРТНЫЙ</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="a8aff387-6884-488f-857f-22bcb5927d43">
+  <value column="Name" original="Комплект УСИЛЕННЫЙ">Комплект УСИЛЕННЫЙ</value>
+  <value column="Description" original="Комплект оборудования УСИЛЕННЫЙ">Комплект оборудования УСИЛЕННЫЙ</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="N" uuid="2ce4cb5f-5bae-4ed8-8fcf-c24d42c61b96">
+  <value column="Name" original="Комплект СПЕЦИАЛЬНЫЙ">Комплект СПЕЦИАЛЬНЫЙ</value>
+  <value column="Description" original="Комплект оборудования СПЕЦИАЛЬНЫЙ">Комплект оборудования СПЕЦИАЛЬНЫЙ</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="N" uuid="32174af5-af1b-484d-828a-196d54eadad0">
+  <value column="Name" original="Комплект МОЩНЫЙ">Комплект МОЩНЫЙ</value>
+  <value column="Description" original="Комплект оборудования МОЩНЫЙ">Комплект оборудования МОЩНЫЙ</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="38a80b72-494e-4465-bc95-a839ddda437a">
+  <value column="Name" original="WEB-СЕРФИНГ">WEB-СЕРФИНГ</value>
+  <value column="Description" original="Тарифный план на предоставление услуг  спутникового доступа в Интернет WEB-СЕРФИНГ">Тарифный план на предоставление услуг  спутникового доступа в Интернет WEB-СЕРФИНГ</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="48f538d2-682b-45d0-8845-7bdcf4d86db2">
+  <value column="Name" original="ВСЕГДА ONLINE">ВСЕГДА ONLINE</value>
+  <value column="Description" original="Тарифный план на предоставление услуг  спутникового доступа в Интернет ВСЕГДА ONLINE">Тарифный план на предоставление услуг  спутникового доступа в Интернет ВСЕГДА ONLINE</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="ae665eb5-c30c-4e85-a1b0-1c386798a28e">
+  <value column="Name" original="ЕЖЕДНЕВНЫЙ 150">ЕЖЕДНЕВНЫЙ 150</value>
+  <value column="Description" original="Тарифный план на предоставление услуг  спутникового доступа в Интернет ЕЖЕДНЕВНЫЙ 150">Тарифный план на предоставление услуг  спутникового доступа в Интернет ЕЖЕДНЕВНЫЙ 150</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="34d62d20-575d-4e86-b0db-c28c5cae1bd9">
+  <value column="Name" original="Антенна - 0,74 м">Антенна - 0,74 м</value>
+  <value column="Description" original="антенна офсетная параболическая диаметром 0,74 м">антенна офсетная параболическая диаметром 0,74 м</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="N" uuid="7a16c9ad-3ec6-4f27-ad3c-5aeb34da4a6f">
+  <value column="Name" original="модем спутниковый HT1100">модем спутниковый HT1100</value>
+  <value column="Description" original="модем спутниковый HT1100">модем спутниковый HT1100</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="N" uuid="f8273d48-3baf-4456-99de-35662bdf5be2">
+  <value column="Name" original="приемопередатчик 1Вт">приемопередатчик 1Вт</value>
+  <value column="Description" original="приемопередатчик 1Вт">приемопередатчик 1Вт</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="02a861a9-20cd-4d20-a0fd-8caef558386f">
+  <value column="Name" original="приемопередатчик 2,5 Вт">приемопередатчик 2,5 Вт</value>
+  <value column="Description" original="приемопередатчик 2,5 Вт">приемопередатчик 2,5 Вт</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="N" uuid="aae557bf-4c1a-4233-9007-74f5ff0e8990">
+  <value column="Name" original="опора настенная">опора настенная</value>
+  <value column="Description" original="опора настенная">опора настенная</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="N" uuid="c5a2d036-553f-4163-b0bf-eeaeea165d4d">
+  <value column="Name" original="кабель RG6 (20 м)">кабель RG6 (20 м)</value>
+  <value column="Description" original="кабель RG6 (20 м)">кабель RG6 (20 м)</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="N" uuid="b5d58570-21fa-4cc8-96ae-d4b808903e46">
+  <value column="Name" original="разъем для кабеля RG6">разъем для кабеля RG6</value>
+  <value column="Description" original="разъем для кабеля RG6">разъем для кабеля RG6</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="N" uuid="15c6aee7-1141-4fba-bcbf-c08a499a01c2">
+  <value column="Name" original="Антенна - 0,76 м">Антенна - 0,76 м</value>
+  <value column="Description" original="антенна офсетная параболическая диаметром 0,76 м">антенна офсетная параболическая диаметром 0,76 м</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="N" uuid="e0855682-b426-4a25-8db1-2046617184bb">
+  <value column="Name" original="кабель RG6 (30 м)">кабель RG6 (30 м)</value>
+  <value column="Description" original="кабель RG6 (30 м)">кабель RG6 (30 м)</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="N" uuid="406179de-af11-4a96-8f15-251d477ccc74">
+  <value column="Name" original="модем спутниковый Gilat Gemini-I">модем спутниковый Gilat Gemini-I</value>
+  <value column="Description" original="модем спутниковый Gilat Gemini-I">модем спутниковый Gilat Gemini-I</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="N" uuid="8e463c8d-c156-457e-a990-d826c93b08b6">
+  <value column="Name" original="F-разъёмы для кабеля RG-6">F-разъёмы для кабеля RG-6</value>
+  <value column="Description" original="F-разъёмы для кабеля RG-6">F-разъёмы для кабеля RG-6</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="9ad0cb99-e0ec-496b-be22-565baaa23816">
+  <value column="Name" original="приемопередатчик 2Вт">приемопередатчик 2Вт</value>
+  <value column="Description" original="приемопередатчик 2Вт со встроенным конвертером LNB">приемопередатчик 2Вт со встроенным конвертером LNB</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="N" uuid="1419e702-cc37-4053-a237-877dc2cf4d0f">
+  <value column="Name" original="Антенна -  0,98 м">Антенна -  0,98 м</value>
+  <value column="Description" original="антенна офсетная параболическая диаметром 0,98 м">антенна офсетная параболическая диаметром 0,98 м</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="N" uuid="62cac355-7e5b-4116-b11e-fb223a50039a">
+  <value column="Name" original="Регистрация абонентского терминала">Регистрация абонентского терминала</value>
+  <value column="Description" original="Регистрация абонентского терминала">Регистрация абонентского терминала</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="N" uuid="63ad9796-68f2-4b05-9bff-b182a0f5b2ff">
+  <value column="Name" original="Личный кабинет">Личный кабинет</value>
+  <value column="Description" original="Доступ к личному кабинету">Доступ к личному кабинету</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="N" uuid="021a76c0-fbea-4eec-ae5a-c97ad079505d">
+  <value column="Name" original="Доступ к спутниковому интернет">Доступ к спутниковому интернет</value>
+  <value column="Description" original="Доступ к спутниковому интернет">Доступ к спутниковому интернет</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="a4053579-75ee-4c9d-8d05-a5657292473a">
+  <value column="Name" original="И.И.Иванов">И.И.Иванов</value>
+  <value column="Description" original="И.И.Иванов">И.И.Иванов</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="4faaccdd-d685-4ed6-9e60-ee4734053418">
+  <value column="Name" original="В.В.Сизиков">В.В.Сизиков</value>
+  <value column="Description" original="В.В.Сизиков">В.В.Сизиков</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="ca47967b-af4a-4013-a8f6-a5696f532637">
+  <value column="Name" original="Детальное обследование item">Детальное обследование item</value>
+  <value column="Description" original="Детальное обследование item">Детальное обследование item</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="N" uuid="b0ad5453-41e3-49f9-a6ee-53d39806282d">
+  <value column="Name" original="Сизиков">Сизиков</value>
+  <value column="Description" original="Сизиков">Сизиков</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="N" uuid="9fc4ead5-6193-4858-a2a5-8781a23fa9e7">
+  <value column="Name" original="Офис ОУТРУ">Офис ОУТРУ</value>
+  <value column="Description" original="Офис ОУТРУ">Офис ОУТРУ</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="N" uuid="f2d1bc08-5cd4-48d5-9dea-dbbce9af1b31">
+  <value column="Name" original="Детальное обследование сервис">Детальное обследование сервис</value>
+  <value column="Description" original="Детальное обследование сервис">Детальное обследование сервис</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="N" uuid="382fb6b9-a717-414c-8616-e1db5a335b75">
+  <value column="Name" original="AM5 Express">AM5 Express</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="N" uuid="02a8e088-ad21-45d1-936d-8ad915cef674">
+  <value column="Name" original="AM6 Express">AM6 Express</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="N" uuid="4b2df93b-6795-4a7c-8383-cc71a34cae52">
+  <value column="Name" original="AMU1 Express">AMU1 Express</value>
   <value column="Description" original=""/>
   <value column="DocumentNote" original=""/>
  </row>

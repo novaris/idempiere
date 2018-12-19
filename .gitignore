@@ -2,4 +2,5 @@
 .project
 .settings/
 .svn/
+.hg/
 target/

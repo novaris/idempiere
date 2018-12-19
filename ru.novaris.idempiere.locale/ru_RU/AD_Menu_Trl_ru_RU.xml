@@ -13,8 +13,8 @@
   <value column="Description" original=""/>
  </row>
  <row id="156" trl="Y">
-  <value column="Name" original="Client Rules">Правила клиента</value>
-  <value column="Description" original="Maintain Client Rules">Ведение правил клиента</value>
+  <value column="Name" original="Client Rules">Правила организации</value>
+  <value column="Description" original="Maintain Client Rules">Ведение правил организации</value>
  </row>
  <row id="157" trl="Y">
   <value column="Name" original="Data">Данные</value>
@@ -45,7 +45,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="165" trl="Y">
-  <value column="Name" original="Business Partner Rules">Правила для бизнес партнеров</value>
+  <value column="Name" original="Business Partner Rules">Правила для клиентов</value>
   <value column="Description" original=""/>
  </row>
  <row id="166" trl="Y">
@@ -129,7 +129,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="458" trl="Y">
-  <value column="Name" original="Sales Invoices">Документы обязательств клиенту</value>
+  <value column="Name" original="Sales Invoices">Документы обязательств контрагенту</value>
   <value column="Description" original=""/>
  </row>
  <row id="459" trl="Y">
@@ -298,50 +298,6 @@
  </row>
  <row id="200095" trl="N">
   <value column="Name" original="Import Template">Import Template</value>
-  <value column="Description" original=""/>
- </row>
- <row trl="Y" uuid="12714fb5-7113-41cb-98a9-1ef3ee199357">
-  <value column="Name" original="Monitoring">Мониторинг</value>
-  <value column="Description" original="">Система мониторинга и навигации</value>
- </row>
- <row trl="Y" uuid="ceebe403-9103-4b02-b824-8378d9d5c5c5">
-  <value column="Name" original="Satelite Tracking">Спутниковый мониторинг</value>
-  <value column="Description" original="Satelite Tracking of Objects">Спутниковый мониторинг объектов</value>
- </row>
- <row trl="Y" uuid="8a52f0c1-e589-4293-8ff6-a75ffd2411aa">
-  <value column="Name" original="Service">Услуги</value>
-  <value column="Description" original="Service of Objects">Service of Objects</value>
- </row>
- <row trl="Y" uuid="08bbc2e0-d67c-4729-a022-afb8ae112651">
-  <value column="Name" original="Kanban Board">Канбан-доска</value>
-  <value column="Description" original="">Канбан-доска</value>
- </row>
- <row trl="Y" uuid="436eb3f4-a41a-494c-8067-8c8917b6a14b">
-  <value column="Name" original="Notification">Оповещение</value>
-  <value column="Description" original="Notification System">Система коммуникаций и оповещения</value>
- </row>
- <row trl="Y" uuid="74d6c6ce-1e68-4b1d-a2ce-0777d89ee490">
-  <value column="Name" original="Configuration">Настройки</value>
-  <value column="Description" original="System configuration">Настройки системы оповещения</value>
- </row>
- <row trl="Y" uuid="7b475f82-fcd6-464f-b5b9-7b6217795c33">
-  <value column="Name" original="Campaign">Кампании</value>
-  <value column="Description" original="Notification campaign">Кампании оповещения</value>
- </row>
- <row trl="Y" uuid="bc59a955-4f92-4070-982d-283aecc99656">
-  <value column="Name" original="Platform">Платформы</value>
-  <value column="Description" original="Notification platform">Платформы оповещения</value>
- </row>
- <row trl="Y" uuid="80a0df1b-061e-4f72-9dcd-fdd2c86a7a40">
-  <value column="Name" original="Status">Состояние</value>
-  <value column="Description" original="Notification Status">Состояние оповещения</value>
- </row>
- <row trl="Y" uuid="9b27b8d1-87be-4041-9143-f6c2a94ae637">
-  <value column="Name" original="Business Process Flow">Поток бизнес-процессов</value>
-  <value column="Description" original="all kind of business process">Описание видов бизнес-процессов</value>
- </row>
- <row trl="Y" uuid="5d3f9db1-24cd-43a8-8122-2757117f6a62">
-  <value column="Name" original="Process Admin">Администрирование процесса</value>
   <value column="Description" original=""/>
  </row>
 </idempiereTrl>

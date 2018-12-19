@@ -3,112 +3,67 @@
  <row id="0" trl="N">
   <value column="Name" original="None">None</value>
  </row>
- <row trl="N" uuid="89d4bb23-7e23-4590-92e4-eda2b5c2cd8b">
-  <value column="Name" original="Standard">Standard</value>
- </row>
- <row trl="N" uuid="420f0f61-0fe6-4253-a688-c5e6e5f1586c">
-  <value column="Name" original="None">None</value>
- </row>
- <row trl="N" uuid="6f36d35d-37dd-4c9c-af35-8587138966ef">
+ <row id="108" trl="N">
   <value column="Name" original="Manual">Manual</value>
  </row>
- <row trl="N" uuid="dc6a0ba7-539f-41b7-b366-7785527cea47">
+ <row id="109" trl="N">
   <value column="Name" original="AR Invoice">AR Invoice</value>
  </row>
- <row trl="N" uuid="c6df9dc4-5665-4846-845c-2242b12b54b8">
+ <row id="110" trl="N">
   <value column="Name" original="AR Receipt">AR Receipt</value>
  </row>
- <row trl="N" uuid="b3113a78-1c38-4c02-a6c6-e7887a5fbc98">
+ <row id="111" trl="N">
   <value column="Name" original="Material Management">Material Management</value>
  </row>
- <row trl="N" uuid="41df8d9d-3398-4cf4-9b39-b8ff147c9b57">
+ <row id="112" trl="N">
   <value column="Name" original="AP Invoice">AP Invoice</value>
  </row>
- <row trl="N" uuid="0598882a-aba3-41b4-9873-232e78ba513c">
+ <row id="113" trl="N">
   <value column="Name" original="AP Payment">AP Payment</value>
  </row>
- <row trl="N" uuid="8f78a96a-b0ca-4b1f-90f4-a1bac7c9ec43">
-  <value column="Name" original="Cash/Payments">Cash/Payments</value>
- </row>
- <row trl="N" uuid="2bc6362f-0c92-4080-88cf-aac9425c8868">
-  <value column="Name" original="Manufacturing">Manufacturing</value>
- </row>
- <row trl="N" uuid="5a9bd8f7-18a7-446f-bcb7-6a7227242c70">
-  <value column="Name" original="Distribution">Distribution</value>
- </row>
- <row trl="N" uuid="1cdb1064-92eb-49e9-a023-73b1510f6ea3">
+ <row id="50000" trl="N">
   <value column="Name" original="Payroll">Payroll</value>
  </row>
- <row trl="N" uuid="630e6afe-6d7d-444e-8230-0fd5ed4ffea8">
-  <value column="Name" original="Standard">Standard</value>
- </row>
- <row trl="N" uuid="39a32232-3499-43cd-bc8c-79e0eb26ee98">
-  <value column="Name" original="None">None</value>
- </row>
- <row trl="N" uuid="507b9af2-ca0e-4915-94f0-53d62e535447">
-  <value column="Name" original="Manual">Manual</value>
- </row>
- <row trl="N" uuid="529aad72-92f3-47b2-80ae-58b4e27d917b">
-  <value column="Name" original="AR Invoice">AR Invoice</value>
- </row>
- <row trl="N" uuid="e98a666d-f414-4259-b35e-15c7f65c52c6">
-  <value column="Name" original="AR Receipt">AR Receipt</value>
- </row>
- <row trl="N" uuid="b48e4548-0d7d-414e-99d3-511c75f8df11">
-  <value column="Name" original="Material Management">Material Management</value>
- </row>
- <row trl="N" uuid="35407dd3-0ddd-43b2-a99c-26c10074200d">
-  <value column="Name" original="AP Invoice">AP Invoice</value>
- </row>
- <row trl="N" uuid="e55d5cf3-0dc6-4dd9-929f-334e7f9b420d">
-  <value column="Name" original="AP Payment">AP Payment</value>
- </row>
- <row trl="N" uuid="b7406355-2790-466d-9940-abd40c270a52">
-  <value column="Name" original="Cash/Payments">Cash/Payments</value>
- </row>
- <row trl="N" uuid="ebf2d414-fa0c-4f46-a4b5-03b7f8e1a678">
+ <row id="50001" trl="N">
   <value column="Name" original="Manufacturing">Manufacturing</value>
  </row>
- <row trl="N" uuid="d35be990-640f-43cc-9ad2-89e1c6529c96">
+ <row id="50002" trl="N">
   <value column="Name" original="Distribution">Distribution</value>
  </row>
- <row trl="N" uuid="53b9740f-6ca2-4e89-a497-20f95fb55284">
-  <value column="Name" original="Payroll">Payroll</value>
- </row>
- <row trl="N" uuid="5406008b-303b-4532-8b31-6c229dddf20a">
+ <row trl="N" uuid="6503fa32-42f1-4bd1-967b-4ebda23bd93f">
   <value column="Name" original="Standard">Standard</value>
  </row>
- <row trl="N" uuid="70281431-6871-427a-865e-79a4d0b5a241">
+ <row trl="N" uuid="31626b99-5563-49c5-9454-6d8e3a090115">
   <value column="Name" original="None">None</value>
  </row>
- <row trl="N" uuid="d7dde2e5-7299-4dae-b66d-8463c18bef22">
+ <row trl="N" uuid="6fef6452-cbd7-4619-9296-9ec3b9b3d402">
   <value column="Name" original="Manual">Manual</value>
  </row>
- <row trl="N" uuid="4b03f965-ea0c-48ee-b689-a46160cc5ecf">
+ <row trl="N" uuid="3c3e0b44-8a51-4ed3-b7d4-f522cbc45c2c">
   <value column="Name" original="AR Invoice">AR Invoice</value>
  </row>
- <row trl="N" uuid="ebb5fd9a-deb5-4410-a8b8-c5468a5103c5">
+ <row trl="N" uuid="8c902dfe-b2f5-4ff2-a1c9-41702543b80c">
   <value column="Name" original="AR Receipt">AR Receipt</value>
  </row>
- <row trl="N" uuid="312a52cd-de5d-488b-8c17-36ffb6612f51">
+ <row trl="N" uuid="4a0b4cd4-2bcf-4624-86d8-ff5c7d67fc77">
   <value column="Name" original="Material Management">Material Management</value>
  </row>
- <row trl="N" uuid="15a274bc-426b-4c4b-b611-9027f5481f19">
+ <row trl="N" uuid="22032536-06ae-4414-8493-84937dadd104">
   <value column="Name" original="AP Invoice">AP Invoice</value>
  </row>
- <row trl="N" uuid="e62050a7-4b0e-4310-825f-a68643b25531">
+ <row trl="N" uuid="f12c1197-94eb-4445-b338-19c3ea20d630">
   <value column="Name" original="AP Payment">AP Payment</value>
  </row>
- <row trl="N" uuid="46df7cf1-0d8d-48b3-9e01-244f5a5099ae">
+ <row trl="N" uuid="66f65208-c982-4593-86c6-3f6e851ce951">
   <value column="Name" original="Cash/Payments">Cash/Payments</value>
  </row>
- <row trl="N" uuid="e95d6670-554a-4668-89fd-249f008331f2">
+ <row trl="N" uuid="d52b4479-7b36-450a-821c-02cbb303a218">
   <value column="Name" original="Manufacturing">Manufacturing</value>
  </row>
- <row trl="N" uuid="619c19f9-546d-4854-ae69-ddcfda822a41">
+ <row trl="N" uuid="3d94726f-fd32-4cc7-b394-ddd45aac68fa">
   <value column="Name" original="Distribution">Distribution</value>
  </row>
- <row trl="N" uuid="a0428fed-c47e-45ee-8506-3318ad4ed0da">
+ <row trl="N" uuid="8c92af7f-56ef-4b7c-998a-c512838d0670">
   <value column="Name" original="Payroll">Payroll</value>
  </row>
 </idempiereTrl>

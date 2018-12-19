@@ -1,5 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="ru_RU" table="AD_PrintFormatItem">
+ <row id="2147" trl="N">
+  <value column="Name" original="Rectangle">Rectangle</value>
+  <value column="PrintName" original=""/>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row id="2148" trl="N">
+  <value column="Name" original="Product Image">Product Image</value>
+  <value column="PrintName" original=""/>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row id="2325" trl="N">
+  <value column="Name" original="DocumentNo Barcode">DocumentNo Barcode</value>
+  <value column="PrintName" original=""/>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row id="2326" trl="N">
+  <value column="Name" original="UPC">UPC</value>
+  <value column="PrintName" original=""/>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row id="2327" trl="N">
+  <value column="Name" original="Postal">Postal</value>
+  <value column="PrintName" original=""/>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
  <row id="50477" trl="Y">
   <value column="Name" original="VendorProductNo">VendorProductNo</value>
   <value column="PrintName" original="VendorProductNo">ПоставщикПродуктНомер</value>
@@ -175,19 +200,89 @@
   <value column="PrintName" original="Master BOM">Master BOM</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
- <row trl="N" uuid="e84835d5-b781-4aa9-8e02-dad78cad96d9">
-  <value column="Name" original="VendorProductNo">VendorProductNo</value>
-  <value column="PrintName" original="VendorProductNo">VendorProductNo</value>
-  <value column="PrintNameSuffix" original=""/>
- </row>
- <row trl="Y" uuid="1a1e52f3-60a2-4764-a704-ec41ab71e8a1">
+ <row trl="Y" uuid="e9f42a03-2b37-4f6a-ad19-b1225497f373">
   <value column="Name" original="VendorProductNo">VendorProductNo</value>
   <value column="PrintName" original="VendorProductNo">ПоставщикПродуктНомер</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
- <row trl="Y" uuid="1a033301-29c0-411e-b6cb-40a41627f6e4">
-  <value column="Name" original="VendorProductNo">VendorProductNo</value>
-  <value column="PrintName" original="VendorProductNo">ПоставщикПродуктНомер</value>
+ <row trl="N" uuid="ae36e217-c8bc-4cfa-9a01-ab63105642d1">
+  <value column="Name" original="Report Title">Report Title</value>
+  <value column="PrintName" original="Single Level BOM">Single Level BOM</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="N" uuid="b230267b-e88e-495c-8fab-99f4c43fe1c2">
+  <value column="Name" original="Label Part Number">Label Part Number</value>
+  <value column="PrintName" original="Part Number">Part Number</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="N" uuid="eebc9221-49fc-4039-bfbe-9e964ca239b8">
+  <value column="Name" original="Label Product Name">Label Product Name</value>
+  <value column="PrintName" original="Product Name">Product Name</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="N" uuid="e25dc571-8901-48ee-9fbb-be4d7b4eca8d">
+  <value column="Name" original="Label Product Category">Label Product Category</value>
+  <value column="PrintName" original="Product Category">Product Category</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="N" uuid="07de159a-330f-4bc7-a03c-65659127caf8">
+  <value column="Name" original="Label Part Type">Label Part Type</value>
+  <value column="PrintName" original="Part Type">Part Type</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="N" uuid="ff18f0d0-323f-4480-8641-81f423143f23">
+  <value column="Name" original="Label Unit Of Measure">Label Unit Of Measure</value>
+  <value column="PrintName" original="Unit of Measure">Unit of Measure</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="N" uuid="a1d708eb-9b84-46e2-ac5c-73157e1451eb">
+  <value column="Name" original="Label Locator">Label Locator</value>
+  <value column="PrintName" original="Locator">Locator</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="N" uuid="95794527-6dc9-4846-9ed0-3b5638026c47">
+  <value column="Name" original="Label Standard Cost">Label Standard Cost</value>
+  <value column="PrintName" original="Standard Cost">Standard Cost</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="N" uuid="75fba7f8-e542-45d4-8c18-7dc412d140ec">
+  <value column="Name" original="Part Type">Part Type</value>
+  <value column="PrintName" original=""/>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="N" uuid="f517e268-d983-4eb3-954a-a7ca22a378c7">
+  <value column="Name" original="Standard Cost">Standard Cost</value>
+  <value column="PrintName" original=""/>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="N" uuid="6ce25d9a-badb-471b-8a26-c60894fe405f">
+  <value column="Name" original="Label Bill of Materials">Label Bill of Materials</value>
+  <value column="PrintName" original="Bill of Materials">Bill of Materials</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="N" uuid="c3ee0f2d-9e1a-4853-a746-a4ca9bf4e92a">
+  <value column="Name" original="Label BOM Verified">Label BOM Verified</value>
+  <value column="PrintName" original="BOM Verified">BOM Verified</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="N" uuid="f8fed2d7-0508-4382-bb6e-ac3065cbdc76">
+  <value column="Name" original="Label Manufactured">Label Manufactured</value>
+  <value column="PrintName" original="Manufactured">Manufactured</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="N" uuid="546564f9-897c-48fb-a212-81d97b4d94d1">
+  <value column="Name" original="Label Purchased">Label Purchased</value>
+  <value column="PrintName" original="Purchased">Purchased</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="N" uuid="6de42b7b-a529-43f0-be7d-9da4e2e7dd6c">
+  <value column="Name" original="Label Sold">Label Sold</value>
+  <value column="PrintName" original="Sold">Sold</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="N" uuid="d1853320-f17e-4e2e-aa52-b2f4d8997226">
+  <value column="Name" original="Label Kanban">Label Kanban</value>
+  <value column="PrintName" original="Kanban Controlled">Kanban Controlled</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
 </idempiereTrl>

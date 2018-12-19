@@ -230,8 +230,8 @@ Selecting the "Where Used" check box will display the BOMs that this product is 
   <value column="Help" original=""/>
  </row>
  <row id="200005" trl="Y">
-  <value column="Name" original="Tab Editor">Редактор</value>
-  <value column="Description" original=""/>
+  <value column="Name" original="Tab Editor">Редактор закладок</value>
+  <value column="Description" original="">Редактор закладок окна</value>
   <value column="Help" original=""/>
  </row>
  <row id="200006" trl="Y">
@@ -252,16 +252,6 @@ Selecting the "Where Used" check box will display the BOMs that this product is 
  <row id="200010" trl="N">
   <value column="Name" original="Compare Context Help Suggestion">Compare Context Help Suggestion</value>
   <value column="Description" original="Review changes for context help">Review changes for context help</value>
-  <value column="Help" original=""/>
- </row>
- <row trl="Y" uuid="88794bd2-c93e-4037-a915-dd0d01288702">
-  <value column="Name" original="Kanban Board">Канбан-доска</value>
-  <value column="Description" original="">Канбан-доска</value>
-  <value column="Help" original=""/>
- </row>
- <row trl="Y" uuid="d273ef45-6b9a-40c5-88c4-3766df7590e9">
-  <value column="Name" original="Kanban Status Configuration">Конфигурация статуса Канбан</value>
-  <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
 </idempiereTrl>

@@ -1497,15 +1497,15 @@
   <value column="Description" original=""/>
  </row>
  <row id="518" trl="Y">
-  <value column="Name" original="Leading (left)">слева</value>
+  <value column="Name" original="Leading (left)">Слева</value>
   <value column="Description" original=""/>
  </row>
  <row id="519" trl="Y">
-  <value column="Name" original="Trailing (right)">справа</value>
+  <value column="Name" original="Trailing (right)">Справа</value>
   <value column="Description" original=""/>
  </row>
  <row id="520" trl="Y">
-  <value column="Name" original="Block">Блокировка</value>
+  <value column="Name" original="Block">Блок</value>
   <value column="Description" original=""/>
  </row>
  <row id="521" trl="Y">
@@ -1521,7 +1521,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="524" trl="Y">
-  <value column="Name" original="Center">Шаблон</value>
+  <value column="Name" original="Center">По центру</value>
   <value column="Description" original=""/>
  </row>
  <row id="525" trl="Y">
@@ -2621,16 +2621,16 @@
   <value column="Description" original=""/>
  </row>
  <row id="806" trl="Y">
-  <value column="Name" original="Client (all shared)">Клиент (видно все)</value>
+  <value column="Name" original="Client (all shared)">Организация (видны все подразделения)</value>
   <value column="Description" original=""/>
  </row>
  <row id="807" trl="Y">
-  <value column="Name" original="Org (not shared)">Организация (не общие)</value>
+  <value column="Name" original="Org (not shared)">Подразделение (не видит *)</value>
   <value column="Description" original=""/>
  </row>
  <row id="808" trl="Y">
-  <value column="Name" original="Client or Org">Клиент или организация</value>
-  <value column="Description" original=""/>
+  <value column="Name" original="Client or Org">Организация или подразделение</value>
+  <value column="Description" original="">Организация или подразделение</value>
  </row>
  <row id="809" trl="Y">
   <value column="Name" original="FiFo">FiFo</value>
@@ -4796,76 +4796,76 @@
   <value column="Name" original="Production">Production</value>
   <value column="Description" original=""/>
  </row>
- <row id="53716" trl="N">
-  <value column="Name" original="Cold Call">Cold Call</value>
+ <row id="53716" trl="Y">
+  <value column="Name" original="Cold Call">Холодный звонок</value>
   <value column="Description" original=""/>
  </row>
- <row id="53717" trl="N">
-  <value column="Name" original="Existing Customer">Existing Customer</value>
+ <row id="53717" trl="Y">
+  <value column="Name" original="Existing Customer">Существующий контрагент</value>
   <value column="Description" original=""/>
  </row>
- <row id="53718" trl="N">
-  <value column="Name" original="Employee">Employee</value>
+ <row id="53718" trl="Y">
+  <value column="Name" original="Employee">Сотрудник компании</value>
   <value column="Description" original=""/>
  </row>
- <row id="53719" trl="N">
-  <value column="Name" original="Partner">Partner</value>
+ <row id="53719" trl="Y">
+  <value column="Name" original="Partner">Партнер</value>
   <value column="Description" original=""/>
  </row>
- <row id="53720" trl="N">
-  <value column="Name" original="Conference">Conference</value>
+ <row id="53720" trl="Y">
+  <value column="Name" original="Conference">Конференция</value>
   <value column="Description" original=""/>
  </row>
- <row id="53721" trl="N">
-  <value column="Name" original="Trade Show">Trade Show</value>
+ <row id="53721" trl="Y">
+  <value column="Name" original="Trade Show">Торговая выставка</value>
   <value column="Description" original=""/>
  </row>
- <row id="53722" trl="N">
-  <value column="Name" original="Web Site">Web Site</value>
+ <row id="53722" trl="Y">
+  <value column="Name" original="Web Site">Вебсайт</value>
   <value column="Description" original=""/>
  </row>
- <row id="53723" trl="N">
-  <value column="Name" original="Word of Mouth">Word of Mouth</value>
+ <row id="53723" trl="Y">
+  <value column="Name" original="Word of Mouth">Разговор</value>
   <value column="Description" original=""/>
  </row>
- <row id="53725" trl="N">
-  <value column="Name" original="Email">Email</value>
+ <row id="53725" trl="Y">
+  <value column="Name" original="Email">Электронная почта</value>
   <value column="Description" original=""/>
  </row>
- <row id="53726" trl="N">
-  <value column="Name" original="New">New</value>
+ <row id="53726" trl="Y">
+  <value column="Name" original="New">Новый</value>
   <value column="Description" original=""/>
  </row>
- <row id="53727" trl="N">
-  <value column="Name" original="Working">Working</value>
+ <row id="53727" trl="Y">
+  <value column="Name" original="Working">В работе</value>
+  <value column="Description" original="">В работе</value>
+ </row>
+ <row id="53728" trl="Y">
+  <value column="Name" original="Expired">Просрочен</value>
   <value column="Description" original=""/>
  </row>
- <row id="53728" trl="N">
-  <value column="Name" original="Expired">Expired</value>
+ <row id="53729" trl="Y">
+  <value column="Name" original="Recycled">Удален</value>
   <value column="Description" original=""/>
  </row>
- <row id="53729" trl="N">
-  <value column="Name" original="Recycled">Recycled</value>
+ <row id="53744" trl="Y">
+  <value column="Name" original="Email">Почта e-mail</value>
   <value column="Description" original=""/>
  </row>
- <row id="53744" trl="N">
-  <value column="Name" original="Email">Email</value>
+ <row id="53745" trl="Y">
+  <value column="Name" original="Phone call">Телефонный звонок</value>
   <value column="Description" original=""/>
  </row>
- <row id="53745" trl="N">
-  <value column="Name" original="Phone call">Phone call</value>
+ <row id="53746" trl="Y">
+  <value column="Name" original="Meeting">Встреча</value>
   <value column="Description" original=""/>
  </row>
- <row id="53746" trl="N">
-  <value column="Name" original="Meeting">Meeting</value>
+ <row id="53747" trl="Y">
+  <value column="Name" original="Task">Задача</value>
   <value column="Description" original=""/>
  </row>
- <row id="53747" trl="N">
-  <value column="Name" original="Task">Task</value>
-  <value column="Description" original=""/>
- </row>
- <row id="53748" trl="N">
-  <value column="Name" original="Converted">Converted</value>
+ <row id="53748" trl="Y">
+  <value column="Name" original="Converted">Конвертирован</value>
   <value column="Description" original=""/>
  </row>
  <row id="200008" trl="N">
@@ -4956,17 +4956,17 @@
   <value column="Name" original="Until Expiration">Until Expiration</value>
   <value column="Description" original="Repeat it until message expiration value">Repeat it until message expiration value</value>
  </row>
- <row id="200047" trl="N">
-  <value column="Name" original="Immediate">Immediate</value>
-  <value column="Description" original="show a modal popup dialog to all users connected">show a modal popup dialog to all users connected</value>
+ <row id="200047" trl="Y">
+  <value column="Name" original="Immediate">Немедленно</value>
+  <value column="Description" original="show a modal popup dialog to all users connected">показать модальное всплывающее окно для всех подключенных пользователей</value>
  </row>
- <row id="200048" trl="N">
-  <value column="Name" original="Immediate + Login">Immediate + Login</value>
-  <value column="Description" original="Immediate + Login">Immediate + Login</value>
+ <row id="200048" trl="Y">
+  <value column="Name" original="Immediate + Login">Немедленно и при входе</value>
+  <value column="Description" original="Immediate + Login">Показать модальное окно немедленно и при входе</value>
  </row>
- <row id="200049" trl="N">
-  <value column="Name" original="Login">Login</value>
-  <value column="Description" original="Shows a modal popup dialog at login time">Shows a modal popup dialog at login time</value>
+ <row id="200049" trl="Y">
+  <value column="Name" original="Login">При входе</value>
+  <value column="Description" original="Shows a modal popup dialog at login time">Показать модальное всплывающее диалоговое окно во время входа</value>
  </row>
  <row id="200050" trl="N">
   <value column="Name" original="Client">Client</value>
@@ -5304,37 +5304,37 @@
   <value column="Name" original="Fixed Assets Depreciation">Fixed Assets Depreciation</value>
   <value column="Description" original=""/>
  </row>
- <row id="200142" trl="N">
-  <value column="Name" original="Binary LOB">Binary LOB</value>
+ <row id="200142" trl="Y">
+  <value column="Name" original="Binary LOB">Бинарный LOB</value>
   <value column="Description" original=""/>
  </row>
- <row id="200143" trl="N">
-  <value column="Name" original="Character Fixed">Character Fixed</value>
+ <row id="200143" trl="Y">
+  <value column="Name" original="Character Fixed">Фиксированная строка</value>
+  <value column="Description" original="">Фиксированный размер строки</value>
+ </row>
+ <row id="200144" trl="Y">
+  <value column="Name" original="Decimal">Децимал</value>
+  <value column="Description" original="">Значение с плавающей точкой</value>
+ </row>
+ <row id="200145" trl="Y">
+  <value column="Name" original="Integer">Целое</value>
+  <value column="Description" original="">Целое значение</value>
+ </row>
+ <row id="200146" trl="Y">
+  <value column="Name" original="Character LOB">Строковый LOB</value>
   <value column="Description" original=""/>
  </row>
- <row id="200144" trl="N">
-  <value column="Name" original="Decimal">Decimal</value>
-  <value column="Description" original=""/>
+ <row id="200147" trl="Y">
+  <value column="Name" original="Number">Цифра</value>
+  <value column="Description" original="">Цифровое значение</value>
  </row>
- <row id="200145" trl="N">
-  <value column="Name" original="Integer">Integer</value>
-  <value column="Description" original=""/>
+ <row id="200148" trl="Y">
+  <value column="Name" original="Timestamp">Дата/время</value>
+  <value column="Description" original="">Дата/время на основе временной отметки</value>
  </row>
- <row id="200146" trl="N">
-  <value column="Name" original="Character LOB">Character LOB</value>
-  <value column="Description" original=""/>
- </row>
- <row id="200147" trl="N">
-  <value column="Name" original="Number">Number</value>
-  <value column="Description" original=""/>
- </row>
- <row id="200148" trl="N">
-  <value column="Name" original="Timestamp">Timestamp</value>
-  <value column="Description" original=""/>
- </row>
- <row id="200149" trl="N">
-  <value column="Name" original="Character Variable">Character Variable</value>
-  <value column="Description" original=""/>
+ <row id="200149" trl="Y">
+  <value column="Name" original="Character Variable">Строка</value>
+  <value column="Description" original="">Строка varchar</value>
  </row>
  <row id="200155" trl="N">
   <value column="Name" original="Cost Adjustment">Cost Adjustment</value>
@@ -5388,6 +5388,10 @@
   <value column="Name" original="Employee">Employee</value>
   <value column="Description" original=""/>
  </row>
+ <row id="200168" trl="N">
+  <value column="Name" original="Full Like">Full Like</value>
+  <value column="Description" original=""/>
+ </row>
  <row id="200176" trl="N">
   <value column="Name" original="UPC-A">UPC-A</value>
   <value column="Description" original=""/>
@@ -5418,6 +5422,10 @@
  </row>
  <row id="200278" trl="N">
   <value column="Name" original="Model Cascade">Model Cascade</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200279" trl="N">
+  <value column="Name" original="Date">Date</value>
   <value column="Description" original=""/>
  </row>
  <row id="200281" trl="Y">
@@ -5472,196 +5480,60 @@
   <value column="Name" original="Manual">Manual</value>
   <value column="Description" original="Manual List">Manual List</value>
  </row>
- <row trl="N" uuid="56c0e7e9-9794-4a12-a07a-ec7dd406cbbd">
-  <value column="Name" original="Alfresco">Alfresco</value>
+ <row trl="Y" uuid="6fcf2909-2caa-4bb9-a7be-4f95e4dae53a">
+  <value column="Name" original="Passport">Паспорт</value>
+  <value column="Description" original="Passport">Паспорт</value>
+ </row>
+ <row trl="Y" uuid="98c9803e-1e6f-40ac-a2b1-4a2931491a39">
+  <value column="Name" original="Military Tiket">Военный билет</value>
+  <value column="Description" original="Military Tiket">Военный билет</value>
+ </row>
+ <row trl="Y" uuid="65ab857e-73b1-432b-8eb9-734c44705ae3">
+  <value column="Name" original="All Sputnics">Все спутники</value>
   <value column="Description" original=""/>
  </row>
- <row trl="Y" uuid="ca14c381-7d91-47a9-a7e9-d0d4264a6253">
-  <value column="Name" original="FLS">ДУТ</value>
-  <value column="Description" original="Fuel level sensor">Датчик уровня топлива</value>
+ <row trl="Y" uuid="29ccdd7b-d6b9-4b6d-94f9-ca199da779ff">
+  <value column="Name" original="All Avaliable">Все доступные</value>
+  <value column="Description" original="">Все доступные</value>
  </row>
- <row trl="N" uuid="36104b18-d872-4ff4-8bf4-59d9510d8cd3">
-  <value column="Name" original="Board">Board</value>
+ <row trl="Y" uuid="48c93125-70e0-4689-bce5-f65f5c93f02a">
+  <value column="Name" original="AM5 Express">Экспресс АМ5</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="d5dab5f3-88fb-4024-b806-70086f76a99f">
-  <value column="Name" original="Status">Status</value>
+ <row trl="Y" uuid="256d1d13-304f-461b-8471-d4b7849bd805">
+  <value column="Name" original="AM6 Express">Экспресс АМ6</value>
+  <value column="Description" original="">Экспресс АМ6</value>
+ </row>
+ <row trl="Y" uuid="fd71878c-0f82-4076-95dd-bd9140d2ab04">
+  <value column="Name" original="AMU1 Express">Экспресс АМУ-1</value>
+  <value column="Description" original="">Экспресс АМУ-1</value>
+ </row>
+ <row trl="N" uuid="3de8dbcf-4411-4662-8f84-0f082d57e6fa">
+  <value column="Name" original="None">None</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="cb6808c5-5c43-48fb-960b-5d6775f697d3">
-  <value column="Name" original="Card">Card</value>
+ <row trl="N" uuid="3683eb44-180e-4375-a985-a64112aa8cc2">
+  <value column="Name" original="Right side of the title">Right side of the title</value>
   <value column="Description" original=""/>
  </row>
- <row trl="Y" uuid="662c5ce7-c675-45fd-a993-87d31296e35e">
-  <value column="Name" original="Consecutive">Последовательное</value>
-  <value column="Description" original="Consecutive notification to different numbers">Последовательное оповещение на разные номера</value>
- </row>
- <row trl="Y" uuid="0012a3c1-3fe7-4917-81d2-979b34a80430">
-  <value column="Name" original="Regardless">Независимый порядок оповещения</value>
-  <value column="Description" original="Regardless, do not exclude on successful notification">Независимый порядок оповещения на разные номера, не исключать при успешном оповещении.</value>
- </row>
- <row trl="Y" uuid="c52e5115-9db6-442a-8d9c-346b660ca674">
-  <value column="Name" original="Number">Номер</value>
-  <value column="Description" original="Number value">Значение типа номер</value>
- </row>
- <row trl="Y" uuid="48e50839-c8a6-49db-9095-0bc15c5322de">
-  <value column="Name" original="String">Строка</value>
-  <value column="Description" original="String value">Значение типа строка</value>
- </row>
- <row trl="Y" uuid="8680b63c-73cb-4ea4-8c58-eb3397c3c101">
-  <value column="Name" original="Date">Дата</value>
-  <value column="Description" original="Date value">Значение типа дата</value>
- </row>
- <row trl="Y" uuid="01fe9c5d-ea4c-4ecc-b70f-84ebbd85918d">
-  <value column="Name" original="XML">XML</value>
-  <value column="Description" original="XML value">Значение типа XML</value>
- </row>
- <row trl="N" uuid="f0354a97-9498-4034-8aa7-cdd3dd0c1947">
-  <value column="Name" original="Text Editor Type">Text Editor Type</value>
-  <value column="Description" original="To define detail about text editor">To define detail about text editor</value>
- </row>
- <row trl="N" uuid="df86b594-8acd-4fd2-8970-644389d9b028">
-  <value column="Name" original="#">#</value>
-  <value column="Description" original="#">#</value>
- </row>
- <row trl="N" uuid="b67cc82c-5e2c-4165-8e5f-6400513092fd">
-  <value column="Name" original="*">*</value>
-  <value column="Description" original="*">*</value>
- </row>
- <row trl="Y" uuid="3e88ed3c-69b9-4ff2-868c-c2f4b739b84f">
-  <value column="Name" original="menu-exec-app">Выполнение приложения</value>
-  <value column="Description" original="Execute a platform dialplan application.">Выполнение приложения</value>
- </row>
- <row trl="Y" uuid="f4f7ad39-696a-4699-9c0f-ca7f5af942ae">
-  <value column="Name" original="menu-play-sound">Проговорить сообщение или текст</value>
-  <value column="Description" original="Play a sound file or speak text.">Проговорить голосовое сообщение</value>
- </row>
- <row trl="Y" uuid="3e24ba2a-f6f0-4006-8100-8c8d7c3cfdd0">
-  <value column="Name" original="menu-sub">Переход в подменю</value>
-  <value column="Description" original="Load a sub-menu.">Переход в подменю</value>
- </row>
- <row trl="Y" uuid="b4ed33f7-902a-44b7-a996-be27191a2302">
-  <value column="Name" original="menu-exit">Выход из меню</value>
-  <value column="Description" original="Exit from menu">Выход из меню</value>
- </row>
- <row trl="Y" uuid="fe6dc8ed-e79b-4df5-b272-825b3660546c">
-  <value column="Name" original="menu-back">Возврат из меню</value>
-  <value column="Description" original="Return to the calling menu level.">Возврат из меню и продолжение обработки</value>
- </row>
- <row trl="Y" uuid="9bb01c04-0bef-4e13-8726-3cc3d5bbf10d">
-  <value column="Name" original="menu-top">Возврат на верхний уровень меню</value>
-  <value column="Description" original="Return to the top level menu.">Возврат на верхний уровень меню</value>
- </row>
- <row trl="Y" uuid="e3226cda-b7d4-4cd9-94d1-08ab548ad496">
-  <value column="Name" original="2">Файл wav</value>
-  <value column="Description" original="Wav file type (WAV Microsoft 16 bit)">Файл wav (Microsoft 16 bit)</value>
- </row>
- <row trl="Y" uuid="8d7d509c-c6da-4d4c-81a0-fd9be5efedd8">
-  <value column="Name" original="10">Текст для синтеза</value>
-  <value column="Description" original="Text for TTS">Текст для TTS</value>
- </row>
- <row trl="Y" uuid="f717c407-0bed-4276-aa4d-c6a440335b2f">
-  <value column="Name" original="1">Файл alaw</value>
-  <value column="Description" original="Alaw file type">Голосовой файл alaw</value>
- </row>
- <row trl="Y" uuid="7546547b-847e-4289-8f88-e26a4937d67b">
-  <value column="Name" original="F">Полная включая каждую попытку</value>
-  <value column="Description" original="Sync Full">Полная включая каждую попытку</value>
- </row>
- <row trl="Y" uuid="535bb7c7-f2bc-4948-bfdc-480f38baaa7d">
-  <value column="Name" original="S">Только конечный статуc задания</value>
-  <value column="Description" original="Sync Only Task Status">Только конечный статуc задания</value>
- </row>
- <row trl="Y" uuid="9da1181c-20e1-466c-8fde-d1d80c9f0609">
-  <value column="Name" original="N">Не требуется возврата</value>
-  <value column="Description" original="Sync Not Need">Не требуется возврата</value>
- </row>
- <row trl="Y" uuid="e6be475d-a046-4b10-b9aa-51c99186bf22">
-  <value column="Name" original="Notification Tasks">Задания на оповещение</value>
-  <value column="Description" original="">Задания для оповещения с использованием системы NCS</value>
- </row>
- <row trl="Y" uuid="fab26556-1354-4109-bcd1-afc2f976ec8b">
-  <value column="Name" original="January">Январь</value>
+ <row trl="N" uuid="9e3d700b-4a3e-4964-8665-0908b2a7d671">
+  <value column="Name" original="Left side of the title">Left side of the title</value>
   <value column="Description" original=""/>
  </row>
- <row trl="Y" uuid="85845e79-c05c-413b-b8a9-10d1a1d7a87b">
-  <value column="Name" original="February">Февраль</value>
-  <value column="Description" original=""/>
+ <row trl="Y" uuid="b2dbf7a7-0af8-4f9b-8e3b-dbca814a0b7f">
+  <value column="Name" original="Qty">Кол-во</value>
+  <value column="Description" original="Summary Qty">Количество</value>
  </row>
- <row trl="Y" uuid="e6b14de8-c9d5-4165-bfa3-8e99cbfce4fc">
-  <value column="Name" original="March">Март</value>
-  <value column="Description" original=""/>
+ <row trl="Y" uuid="024e47a5-4773-462c-bdb3-28ca14f3c350">
+  <value column="Name" original="Confirmed">Подтверждён</value>
+  <value column="Description" original="">Подтверждён</value>
  </row>
- <row trl="Y" uuid="c16edd14-cde6-4035-907b-793fa095f105">
-  <value column="Name" original="April">Апрель</value>
-  <value column="Description" original=""/>
+ <row trl="Y" uuid="fa112c93-ac18-4aa8-ab82-3010ec9bde69">
+  <value column="Name" original="Site Request">Запрос с сайта</value>
+  <value column="Description" original="Site Request">Запрос с сайта</value>
  </row>
- <row trl="Y" uuid="e45dd597-2541-44df-9a75-6e49a4ea7b09">
-  <value column="Name" original="May">Май</value>
-  <value column="Description" original=""/>
- </row>
- <row trl="Y" uuid="7d165806-352a-4901-9d23-b5b28a9e16b1">
-  <value column="Name" original="June">Июнь</value>
-  <value column="Description" original=""/>
- </row>
- <row trl="Y" uuid="4bc927bc-0a3d-4428-a863-0c6e1b448f46">
-  <value column="Name" original="July">Июль</value>
-  <value column="Description" original=""/>
- </row>
- <row trl="Y" uuid="84f66b82-57f8-4a35-871c-c67bf1ee7053">
-  <value column="Name" original="August">Август</value>
-  <value column="Description" original=""/>
- </row>
- <row trl="Y" uuid="a65155a8-4774-44eb-bb4d-2b07fad57ba3">
-  <value column="Name" original="September">Сентябрь</value>
-  <value column="Description" original=""/>
- </row>
- <row trl="Y" uuid="7be07d66-2323-4c13-81ba-7ac8ce931385">
-  <value column="Name" original="October">Октябрь</value>
-  <value column="Description" original=""/>
- </row>
- <row trl="Y" uuid="9b48aed0-a010-4e60-9720-2ea20e7f1889">
-  <value column="Name" original="November">Ноябрь</value>
-  <value column="Description" original=""/>
- </row>
- <row trl="Y" uuid="4bd7ddbf-3c01-4a0e-b404-6d9e90ad2293">
-  <value column="Name" original="December">Декабрь</value>
-  <value column="Description" original=""/>
- </row>
- <row trl="Y" uuid="12937315-a0bf-4fc5-bd9d-016f83a15c5e">
-  <value column="Name" original="Monday">Понедельник</value>
-  <value column="Description" original=""/>
- </row>
- <row trl="Y" uuid="caac9615-3f4a-40cd-b6ec-ffd8db9e539b">
-  <value column="Name" original="Tuesday">Вторник</value>
-  <value column="Description" original=""/>
- </row>
- <row trl="Y" uuid="530c1f00-634b-4c09-8344-ec740ef4cc25">
-  <value column="Name" original="Wednesday">Среда</value>
-  <value column="Description" original=""/>
- </row>
- <row trl="Y" uuid="5536976e-fbb3-4097-abcc-f38f4fddeafd">
-  <value column="Name" original="Thursday">Четверг</value>
-  <value column="Description" original=""/>
- </row>
- <row trl="Y" uuid="3ca6945e-2b28-40a5-bfb7-f295aa650d17">
-  <value column="Name" original="Friday">Пятница</value>
-  <value column="Description" original=""/>
- </row>
- <row trl="Y" uuid="6dc69669-366b-45a5-bd2c-37d1cae41dcc">
-  <value column="Name" original="Saturday">Суббота</value>
-  <value column="Description" original=""/>
- </row>
- <row trl="Y" uuid="adacea02-4867-4e55-8f74-f74d9c9062f3">
-  <value column="Name" original="Sunday">Воскресенье</value>
-  <value column="Description" original=""/>
- </row>
- <row trl="N" uuid="82061da6-509c-4ff1-9022-a5c7a31adcc4">
-  <value column="Name" original="and">and</value>
-  <value column="Description" original=""/>
- </row>
- <row trl="N" uuid="e81406f9-9bf0-43c2-bfde-06964cf1bf3e">
-  <value column="Name" original="or">or</value>
-  <value column="Description" original=""/>
+ <row trl="Y" uuid="dc3fbdf5-ef16-4638-b3ef-058a672f1fcc">
+  <value column="Name" original="Phone">Телефон</value>
+  <value column="Description" original="Formating Phone Number">Форматированный номер телефона</value>
  </row>
 </idempiereTrl>

@@ -91,6 +91,11 @@
   <value column="Help" original="The Accounting Schema Window defines an accounting method and the elements that will comprise an account structure. Create and activate elements for detailed accounting for Business Partners, Products, Locations, etc.&#10;Review and change the GL and Default accounts. The actual accounts used in transactions depend on the executing organization; Most of the information is derived from the context.">The Accounting Schema Window defines an accounting method and the elements that will comprise an account structure. Create and activate elements for detailed accounting for Business Partners, Products, Locations, etc.
 Review and change the GL and Default accounts. The actual accounts used in transactions depend on the executing organization; Most of the information is derived from the context.</value>
  </row>
+ <row id="180" trl="N">
+  <value column="Name" original="Verify completed Requisition">Verify completed Requisition</value>
+  <value column="Description" original="Just a test case for a manual interaction.">Just a test case for a manual interaction.</value>
+  <value column="Help" original="Enter and maintain Material Requisitions">Enter and maintain Material Requisitions</value>
+ </row>
  <row id="50000" trl="Y">
   <value column="Name" original="Manufacturing Workflow Setup">Настройка производственного процесса</value>
   <value column="Description" original="Setup Manufacturing Workflow">Настройка производственного процесса</value>

@@ -207,28 +207,7 @@
  <row id="200018" trl="Y">
   <value column="Name" original="Background Job">Фоновое задание</value>
  </row>
- <row trl="Y" uuid="fefd26a2-00ed-417c-b8c3-a63560585e10">
-  <value column="Name" original="Options notice">Пометить параметры</value>
- </row>
- <row trl="Y" uuid="01246e0a-6fff-4b80-8168-da1fe841728a">
-  <value column="Name" original="SQL Configuration">Определение SQL</value>
- </row>
- <row trl="Y" uuid="6292ce4b-082d-4d89-af0b-aeaef926b415">
-  <value column="Name" original="Board Definition">Определение панели</value>
- </row>
- <row trl="N" uuid="9359cee9-2c74-4a1b-b31e-c60e73f26878">
-  <value column="Name" original="Information">Information</value>
- </row>
- <row trl="N" uuid="2ad3a0a0-36c8-449d-b662-d293891a72ec">
-  <value column="Name" original="Custom Value">Custom Value</value>
- </row>
- <row trl="N" uuid="35a78aa6-73c6-4fbd-a719-4fc57c2f88cc">
-  <value column="Name" original="Transaction">Transaction</value>
- </row>
- <row trl="N" uuid="431b3ee0-c4d9-4aef-8aca-962ee9578478">
-  <value column="Name" original="Exception">Exception</value>
- </row>
- <row trl="N" uuid="956724c3-96d6-45e0-9eeb-81e65102868f">
-  <value column="Name" original="Condition">Condition</value>
+ <row id="200022" trl="N">
+  <value column="Name" original="Placeholders">Placeholders</value>
  </row>
 </idempiereTrl>

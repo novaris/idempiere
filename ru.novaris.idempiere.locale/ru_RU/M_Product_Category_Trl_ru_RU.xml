@@ -1,19 +1,107 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="ru_RU" table="M_Product_Category">
- <row trl="N" uuid="1a45d3cc-410f-4ad9-934b-8d88807e1066">
-  <value column="Name" original="Стандарт">Стандарт</value>
-  <value column="Description" original=""/>
- </row>
- <row trl="Y" uuid="237b6425-1f34-438f-9cd6-b16040d04710">
-  <value column="Name" original="Навигационные модули">Навигационные модули</value>
-  <value column="Description" original="Модули навигационные">Модули навигационные</value>
- </row>
- <row trl="N" uuid="a6491699-a691-47ec-a904-38d6ef085718">
+ <row id="105" trl="N">
   <value column="Name" original="Standard">Standard</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="99287a58-8391-4ae7-bf48-c209ad648882">
+ <row id="106" trl="N">
+  <value column="Name" original="Trees">Trees</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="107" trl="N">
+  <value column="Name" original="Bushes">Bushes</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="108" trl="N">
+  <value column="Name" original="Tools">Tools</value>
+  <value column="Description" original="Garden Tools">Garden Tools</value>
+ </row>
+ <row id="109" trl="N">
+  <value column="Name" original="Chemicals">Chemicals</value>
+  <value column="Description" original="Lawn Chemicals">Lawn Chemicals</value>
+ </row>
+ <row id="110" trl="N">
+  <value column="Name" original="Patio ">Patio </value>
+  <value column="Description" original="Patio and Lawn Furniture">Patio and Lawn Furniture</value>
+ </row>
+ <row id="111" trl="N">
+  <value column="Name" original="Documentation">Documentation</value>
+  <value column="Description" original="Documentation Download">Documentation Download</value>
+ </row>
+ <row id="112" trl="N">
+  <value column="Name" original="Training">Training</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50000" trl="N">
+  <value column="Name" original="Assembly">Assembly</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50001" trl="N">
+  <value column="Name" original="Raw Material">Raw Material</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50002" trl="N">
+  <value column="Name" original="Packing">Packing</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50003" trl="N">
+  <value column="Name" original="Resources">Resources</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="55a4927c-47eb-499c-877d-7f13c335d0b5">
   <value column="Name" original="Стандартный">Стандартный</value>
   <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="0a47e70a-41fa-4828-b943-b28254576e85">
+  <value column="Name" original="Тип услуги определённый на сайте">Тип услуги определённый на сайте</value>
+  <value column="Description" original="Тип услуги определённый на сайте">Тип услуги определённый на сайте</value>
+ </row>
+ <row trl="N" uuid="03619d3e-95f6-4113-8c68-bb6563d8f083">
+  <value column="Name" original="Спутниковый интернет">Спутниковый интернет</value>
+  <value column="Description" original="Спутниковый интернет SENSAT">Спутниковый интернет SENSAT</value>
+ </row>
+ <row trl="N" uuid="e356081e-b130-4f66-9677-f62a03d242b1">
+  <value column="Name" original="Оборудование для SENSAT">Оборудование для SENSAT</value>
+  <value column="Description" original="Оборудование для Спутникового интернет SENSAT">Оборудование для Спутникового интернет SENSAT</value>
+ </row>
+ <row trl="N" uuid="70452530-dec7-4e8f-a919-9ca80fb8d997">
+  <value column="Name" original="Комлектующие для оборудование для SENSAT">Комлектующие для оборудование для SENSAT</value>
+  <value column="Description" original="Комлектующие для оборудование для SENSAT">Комлектующие для оборудование для SENSAT</value>
+ </row>
+ <row trl="N" uuid="3c63eef6-37ed-4f22-ad6a-0d5e4b518335">
+  <value column="Name" original="Антенны для SENSAT">Антенны для SENSAT</value>
+  <value column="Description" original="Антенны для SENSAT">Антенны для SENSAT</value>
+ </row>
+ <row trl="N" uuid="c0476507-ad24-4ff1-8cef-828e2024d5aa">
+  <value column="Name" original="Модемы для SENSAT">Модемы для SENSAT</value>
+  <value column="Description" original="Модемы для SENSAT">Модемы для SENSAT</value>
+ </row>
+ <row trl="N" uuid="bc995bc0-d2ae-423c-baf2-3378c07306ec">
+  <value column="Name" original="Кабели для SENSAT">Кабели для SENSAT</value>
+  <value column="Description" original="Кабели для SENSAT">Кабели для SENSAT</value>
+ </row>
+ <row trl="Y" uuid="664118d2-7fe7-42c6-b954-ee608c26dd90">
+  <value column="Name" original="Разъёмы для SENSAT">Разъёмы для SENSAT</value>
+  <value column="Description" original="Разъёмы для SENSAT">Разъёмы для SENSAT</value>
+ </row>
+ <row trl="N" uuid="d06bf4d3-1941-49a6-a7b5-dbc222ae519c">
+  <value column="Name" original="Опоры для SENSAT">Опоры для SENSAT</value>
+  <value column="Description" original="Опоры для SENSAT">Опоры для SENSAT</value>
+ </row>
+ <row trl="N" uuid="dce91479-5750-4e4c-b886-7a75933856be">
+  <value column="Name" original="Передатчики для SENSAT">Передатчики для SENSAT</value>
+  <value column="Description" original="Передатчики для SENSAT">Передатчики для SENSAT</value>
+ </row>
+ <row trl="N" uuid="4d124406-c98e-4ea1-9fc8-cdaf2cc3a99d">
+  <value column="Name" original="Дополнительные услуги SENSAT">Дополнительные услуги SENSAT</value>
+  <value column="Description" original="Дополнительные услуги SENSAT">Дополнительные услуги SENSAT</value>
+ </row>
+ <row trl="N" uuid="b0110d54-acaf-4336-8426-3627b9e0368c">
+  <value column="Name" original="Услуга доступа к спутниковому интернету">Услуга доступа к спутниковому интернету</value>
+  <value column="Description" original="Услуга доступа к спутниковому интернету">Услуга доступа к спутниковому интернету</value>
+ </row>
+ <row trl="N" uuid="2336b089-8163-4563-93c7-4e3ddd8c7a8a">
+  <value column="Name" original="Выбор услуг для SENSAT">Выбор услуг для SENSAT</value>
+  <value column="Description" original="Выбор услуг для SENSAT">Выбор услуг для SENSAT</value>
  </row>
 </idempiereTrl>

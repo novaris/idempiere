@@ -367,7 +367,7 @@ Note that Adding the Missing Translation records creates them by copying the Sys
   <value column="Help" original="Report lists products with their on-hand quantity and values at the valuation date. In addition to several prices, standard costs and an optional other cost element is used to calculate the inventory of the particular warehouse.">Отчет списков товаров с их фактическим наличием и значения на дату отклонения.</value>
  </row>
  <row id="181" trl="Y">
-  <value column="Name" original="Synchronize Column">Сихронизировать столбец</value>
+  <value column="Name" original="Synchronize Column">Синхронизировать столбец</value>
   <value column="Description" original="Change database table definition from application dictionary">Change database table definition from application dictionary</value>
   <value column="Help" original="When selected, the database column definition is updated based on your entries in the Column definition of the Application Dictionary. Note that not all changes are supported by the database and may result in an error.">When selected, the database column definition is updated based on your entries in the Column definition of the Application Dictionary. Note that not all changes are supported by the database and may result in an error.</value>
  </row>
@@ -719,8 +719,8 @@ For example: A customer has one invoice for $100 with the Account Date of 03/31/
 Select either a Product Category ar a specific Product.]]></value>
  </row>
  <row id="246" trl="Y">
-  <value column="Name" original="Business Partner Organization">Организация бизнес-партнера</value>
-  <value column="Description" original="Set and verify Organization ownership of Business Partners">Установка и проверка владельца организации данного бизнес-партнера</value>
+  <value column="Name" original="Business Partner Organization">Организация контрагента</value>
+  <value column="Description" original="Set and verify Organization ownership of Business Partners">Установка и проверка владельца организации данного контрагента</value>
   <value column="Help" original="The process allows you to change or verify the organization ownership of Business Partners and its dependent entities (Location, Contact/User, Bank Account, Withholding). &lt;br&gt;&#10;Select either a Business Partner Group ar a specific Business Partner"><![CDATA[The process allows you to change or verify the organization ownership of Business Partners and its dependent entities (Location, Contact/User, Bank Account, Withholding). <br>
 Select either a Business Partner Group ar a specific Business Partner]]></value>
  </row>
@@ -941,8 +941,8 @@ If a magin is entered on RfQ Line Quantity, it overwrites the general margin.  T
   <value column="Help" original="You can change User Passwords and EMail settings.  You do not need to know/enter the password, if you are an Administrator.">Вы можете изменить пароль пользователя и установки EMail. Вам не требуется знать/вводить пароль, если вы являетесь администратором.</value>
  </row>
  <row id="289" trl="Y">
-  <value column="Name" original="Create Dunning Run">Создать Выполнить требование</value>
-  <value column="Description" original="Create Dunning Run Entries based on the Dunning Level criteria">Создание записей Выполнить требование - на основании критерия уровня требования.</value>
+  <value column="Name" original="Create Dunning Run">Выполнить создание требований</value>
+  <value column="Description" original="Create Dunning Run Entries based on the Dunning Level criteria">Выполнить создание требований на основании критерия.</value>
   <value column="Help" original=""/>
  </row>
  <row id="290" trl="Y">
@@ -1020,9 +1020,9 @@ Optionally as (5), you can enable to allocate payments to the oldest invoice. In
   <value column="Help" original="Delete Allocations for a business partner or business partner group, accounting date range or individual allocation. In contrast to &quot;Void&quot; in &quot;View Allocation&quot;, the allocation is deleted (no trace), if the period is open.">Удаление распределения для бизнес-партнера или группы бизнес-партнеров, бухг. диапазона дат или индивидуального рапределения. В противоположность "Пустой" в "Просмотр распределения", распределение удаляет (трассировки нет), если период открыт.</value>
  </row>
  <row id="304" trl="Y">
-  <value column="Name" original="Validate Workflow">Допустимость workflow</value>
-  <value column="Description" original="Validate that the workflow is correct">Проверить, что workflos является корректным</value>
-  <value column="Help" original="(limited checking)">(Ограниченная провека)</value>
+  <value column="Name" original="Validate Workflow">Допустимость бизнес-процесса</value>
+  <value column="Description" original="Validate that the workflow is correct">Проверить, что бизнес-процесс является корректным</value>
+  <value column="Help" original="(limited checking)">(Ограниченная проверка)</value>
  </row>
  <row id="305" trl="Y">
   <value column="Name" original="Document Value based Workflows">Значение документа, базирующегося на Workflows</value>
@@ -1073,9 +1073,9 @@ This is a one-step replacement for defining BOM and creating/processes a Product
   <value column="Help" original=""/>
  </row>
  <row id="314" trl="Y">
-  <value column="Name" original="Validate Business Partner">Проверить бизнес-партнера</value>
-  <value column="Description" original="Check data consistency of Business Partner">Проверить согласованность данных бизнес-партнера</value>
-  <value column="Help" original="Check the payments and invoices of a business partner and checks the balances.">Проверить оплаты и инвойсы бизнес-партнера и проверить баланс.</value>
+  <value column="Name" original="Validate Business Partner">Проверить контрагента</value>
+  <value column="Description" original="Check data consistency of Business Partner">Проверить согласованность данных контрагента</value>
+  <value column="Help" original="Check the payments and invoices of a business partner and checks the balances.">Проверить оплаты и инвойсы контрагента и проверить баланс.</value>
  </row>
  <row id="315" trl="Y">
   <value column="Name" original="Order Batch Process">Обработка пакета заказов</value>
@@ -1098,8 +1098,8 @@ This is a one-step replacement for defining BOM and creating/processes a Product
   <value column="Help" original="Type adjusted payments (receipts positive, payments negative) with allocated and available amounts">Тип урегулированных оплат (получение - положительный, оплаты - отрицательный) с распределенными и доступными суммами</value>
  </row>
  <row id="319" trl="Y">
-  <value column="Name" original="Business Partner Open">Открытый бизнес-партнер</value>
-  <value column="Description" original="Business Partner Open Amount">Открытая сумма бизнес-партнера</value>
+  <value column="Name" original="Business Partner Open">Открытый контрагент</value>
+  <value column="Description" original="Business Partner Open Amount">Открытая сумма контрагента</value>
   <value column="Help" original="The report lists open invoices and payments">Отчет Списки открытых инвойсов и оплат</value>
  </row>
  <row id="320" trl="Y">
@@ -1179,9 +1179,9 @@ Note that support is restricted to setup and test, but not data recovery.]]></va
   <value column="Help" original="The report includes order detail information including lost sales.  The report can be used for Sales and Purchasing.">Отчет включает детальную информацию о заказе, включая потерянные продажи. Ваш отчет может быть использован для продаж и закупок.</value>
  </row>
  <row id="334" trl="Y">
-  <value column="Name" original="Business Partner Detail">Бизнес-партнер детально</value>
-  <value column="Description" original="Business Partner Detail Report">Отчет Бизнес-партнер детально</value>
-  <value column="Help" original="The report list details of Business Partner, Addresses and Contacts for any active Business Partner with an Address and Contact">Отчет перечисляет детали бизнес-партнера, адреса и контакты</value>
+  <value column="Name" original="Business Partner Detail">Контрагент детально</value>
+  <value column="Description" original="Business Partner Detail Report">Отчет о контрагенте детально</value>
+  <value column="Help" original="The report list details of Business Partner, Addresses and Contacts for any active Business Partner with an Address and Contact">Отчет перечисляет детали контрагента, адреса и контакты</value>
  </row>
  <row id="335" trl="Y">
   <value column="Name" original="Create Costing Records">Создать записи себестоимости</value>
@@ -1811,9 +1811,9 @@ This process should be implemented when the users are not connected.</value>
   <value column="Help" original="Copy the settings from the selected report and process to the current one.  This overwrites existing settings and translations.">Копирование настроек из выбранного отчета и процесса в текущий. Этот процесс перезаписывает существующие настройки и переводы.</value>
  </row>
  <row id="53187" trl="Y">
-  <value column="Name" original="Client Accounting Processor">Учетный процессор клиента</value>
-  <value column="Description" original="Client Accounting Processor">Учетный процессор клиента</value>
-  <value column="Help" original="The client accounting processor allows a user to run the accounting processor in a client session.  The system configurator parameter CLIENT_ACCOUNTING must be enabled (configured as [I]mmediate or [Q]ueue).">The client accounting processor allows a user to run the accounting processor in a client session.  The system configurator parameter CLIENT_ACCOUNTING must be enabled (configured as [I]mmediate or [Q]ueue).</value>
+  <value column="Name" original="Client Accounting Processor">Учетный процессор организации</value>
+  <value column="Description" original="Client Accounting Processor">Учетный процессор организации</value>
+  <value column="Help" original="The client accounting processor allows a user to run the accounting processor in a client session.  The system configurator parameter CLIENT_ACCOUNTING must be enabled (configured as [I]mmediate or [Q]ueue).">Учетный процессор организации позволяет пользователю запускать процесс в клиентской сессии.  Системный параметр CLIENT_ACCOUNTING должен быть сконфигурирован как [I]mmediate или [Q]ueue.</value>
  </row>
  <row id="53189" trl="Y">
   <value column="Name" original="Storage per Product">Storage per Product</value>
@@ -1886,7 +1886,7 @@ This process should be implemented when the users are not connected.</value>
   <value column="Help" original="Import All Fixed Assets">Импорт всех основных средств</value>
  </row>
  <row id="53216" trl="Y">
-  <value column="Name" original="Import Inventory Movement">Импорт перемещения инвентаря</value>
+  <value column="Name" original="ImportInventoryMovement">Импорт перемещения инвентаря</value>
   <value column="Description" original=""/>
   <value column="Help" original="">Импорт перемещения инвентаря</value>
  </row>
@@ -1978,9 +1978,9 @@ This process should be implemented when the users are not connected.</value>
 Movements are only created, if a sourcing warehouse is defined for the warehouse to be replenished.]]></value>
  </row>
  <row id="53276" trl="Y">
-  <value column="Name" original="Convert Lead">Конвертировать Лид</value>
-  <value column="Description" original="Convert Lead to BP and Opportunity">Конвертировать Лид в БП и возможность продажи</value>
-  <value column="Help" original="Convert Lead into a Business Partner and (optional) Sales Opportunity">Конвертировать Лид в БП и (опционально) возможность продажи</value>
+  <value column="Name" original="Convert Lead">Конвертировать лид</value>
+  <value column="Description" original="Convert Lead to BP and Opportunity">Конвертировать лид в Контрагента и Возможность продажи</value>
+  <value column="Help" original="Convert Lead into a Business Partner and (optional) Sales Opportunity"/>
  </row>
  <row id="200000" trl="N">
   <value column="Name" original="FA_ProjectCreateAsset">FA_ProjectCreateAsset</value>
@@ -2026,9 +2026,9 @@ d. Transaction Date, will become in-service-date for the newly created asset.</v
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200015" trl="N">
-  <value column="Name" original="Tab Editor">Tab Editor</value>
-  <value column="Description" original=""/>
+ <row id="200015" trl="Y">
+  <value column="Name" original="Tab Editor">Редактор закладок</value>
+  <value column="Description" original="">Редактор закладок окна</value>
   <value column="Help" original=""/>
  </row>
  <row id="200016" trl="N">
@@ -2209,9 +2209,9 @@ Please note that base language cannot be a system language.</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200074" trl="N">
-  <value column="Name" original="Recurring Run">Recurring Run</value>
-  <value column="Description" original="Recurring Run">Recurring Run</value>
+ <row id="200074" trl="Y">
+  <value column="Name" original="Recurring Run">Периодический запуск</value>
+  <value column="Description" original="Recurring Run">Периодический запуск</value>
   <value column="Help" original=""/>
  </row>
  <row id="200076" trl="Y">
@@ -2279,59 +2279,44 @@ For example:<br />
 201803151607_ALL-CLIENTS-GardenWorld_Test123.zip</p>
 ]]></value>
  </row>
- <row trl="N" uuid="a49173d2-f46f-443e-8a56-a48567330337">
-  <value column="Name" original="Generate Payroll Invoices">Generate Payroll Invoices</value>
+ <row id="200100" trl="N">
+  <value column="Name" original="Create Credit Memo">Create Credit Memo</value>
+  <value column="Description" original="Creates a credit memo based on the invoice.">Creates a credit memo based on the invoice.</value>
+  <value column="Help" original="The invoice should be correct and completed.">The invoice should be correct and completed.</value>
+ </row>
+ <row trl="Y" uuid="df755ce8-4f1a-47f9-9cfb-eaa672901d92">
+  <value column="Name" original="Create Order">Преобразовать в запрос</value>
+  <value column="Description" original="Create Order Request">Преобразовать в запрос</value>
+  <value column="Help" original="Create Order Request">Преобразовать в запрос услуги</value>
+ </row>
+ <row trl="Y" uuid="79b1fee9-6ccc-417c-9a20-04386fc8a21b">
+  <value column="Name" original="Create Request">Создать обращение</value>
+  <value column="Description" original="Create Service Request">Создать обращение</value>
+  <value column="Help" original="Create Service Request">Создать обращение из Лида</value>
+ </row>
+ <row trl="Y" uuid="78d864f2-1c33-4a2d-9079-36009cff162e">
+  <value column="Name" original="Send to Sales Manager">Отправить на менеджера по продаже</value>
+  <value column="Description" original="Send to Sales Manager">Отправить на менеджера по продаже</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="700f048c-d856-4fa2-9258-d885cb6e5384">
+  <value column="Name" original="Contract Services Person (1.0)">Форма для физических лиц 1.0</value>
+  <value column="Description" original="The contract for the provision of services to person">Форма для физических лиц - Договор об оказании услуг</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="80bd393b-7dbe-4c69-8bb2-8bac9eeaac9b">
+  <value column="Name" original="Contract Services Person (2.0)">Форма для физических лиц 2.0</value>
+  <value column="Description" original="The contract for the provision of services to person">Форма для физических лиц - Договор об оказании услуг</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="02a9369a-f2db-46ff-b8be-f68d9f85c1cf">
+  <value column="Name" original="Check Technical Scope">Проверка технической возможности</value>
   <value column="Description" original=""/>
-  <value column="Help" original=""/>
+  <value column="Help" original="Check technical scope"/>
  </row>
- <row trl="N" uuid="d81fe55e-1c02-4b79-8350-6a82453114a3">
-  <value column="Name" original="LVE_GeneratePayrollPayments">LVE_GeneratePayrollPayments</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row trl="Y" uuid="ff5d472c-0c68-4de4-9733-1b26a84a9410">
-  <value column="Name" original="Create Statuses in Kanban Board">Создать статусы в Канбан</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row trl="Y" uuid="c308a9b8-8516-4e66-86ba-b491b18c15fe">
-  <value column="Name" original="Update Sound Files">Обновить голосовые файлы</value>
-  <value column="Description" original="Update platform sound files">Обновить голосовые файлы платформы</value>
-  <value column="Help" original=""/>
- </row>
- <row trl="Y" uuid="c7e45702-358f-4387-8ddc-46911fcf1190">
-  <value column="Name" original="Update Config Files">Обновить конфигурационные файлы</value>
-  <value column="Description" original="Update platform config files">Обновить конфигурационные файлы платформы</value>
-  <value column="Help" original=""/>
- </row>
- <row trl="Y" uuid="19fecd07-28aa-44e6-85c8-038e5c1037b2">
-  <value column="Name" original="Notification Task Processing">Обработка данных оповещения</value>
-  <value column="Description" original="Notification task processing of load records">Обработка загруженных данных оповещения</value>
-  <value column="Help" original=""/>
- </row>
- <row trl="Y" uuid="a51e59cc-da36-40e0-9df3-629c268a7364">
-  <value column="Name" original="Sync NC_Call_Queue">Обновить очередь заданий</value>
-  <value column="Description" original="Update materialized view NC_Call_Queue">Обновить представление очереди заданий</value>
-  <value column="Help" original="">Обновить представление очереди заданий не дожидаясь процедуры автоматического обновления</value>
- </row>
- <row trl="Y" uuid="fdc4651e-70a9-4c6f-81c2-754ff8d19eb5">
-  <value column="Name" original="Stop campaign">Остановить кампанию</value>
-  <value column="Description" original="">Остановить текущую кампанию</value>
-  <value column="Help" original=""/>
- </row>
- <row trl="Y" uuid="c8180875-8d6f-4780-9d25-fd0789e6a8b2">
-  <value column="Name" original="Start campaign">Запустить кампанию</value>
-  <value column="Description" original="">Запустить текущую кампанию</value>
-  <value column="Help" original=""/>
- </row>
- <row trl="Y" uuid="191013cd-4e30-408d-98de-151f9e80ac39">
-  <value column="Name" original="Start all campaign">Запустить все кампании</value>
-  <value column="Description" original="">Запустить все кампании клиента</value>
-  <value column="Help" original=""/>
- </row>
- <row trl="Y" uuid="d6c044bd-272c-4f0e-95ca-ca666d1111b3">
-  <value column="Name" original="Stop all campaign">Остановить все кампании</value>
-  <value column="Description" original="">Остановить все кампании клиента</value>
+ <row trl="Y" uuid="08f0427f-4894-4cdc-8352-8afdd5624621">
+  <value column="Name" original="Opportunity Check Technical Scope">Проверить тех возможность</value>
+  <value column="Description" original="Check technical scope for opportunity">Проверить тех возможность для подготовки договора</value>
   <value column="Help" original=""/>
  </row>
  <row trl="N" uuid="7ff51105-8e1b-4b16-b4fa-5e51719db045">
@@ -2339,30 +2324,5 @@ For example:<br />
   <value column="Description" original="This process calculate the demand, approved and open orders for a product">This process calculate the demand, approved and open orders for a product</value>
   <value column="Help" original="Called within the InfoWindow embedded process by MRP Info (ZK). &#10;Will process only the selected records">Called within the InfoWindow embedded process by MRP Info (ZK). 
 Will process only the selected records</value>
- </row>
- <row trl="N" uuid="af0b2850-05b8-46e6-902d-189e9d137098">
-  <value column="Name" original="Process State">Process State</value>
-  <value column="Description" original="Process for processing process transaction">Process for processing process transaction</value>
-  <value column="Help" original=""/>
- </row>
- <row trl="N" uuid="2bacc76e-1190-484e-b98b-8bcfa14b3566">
-  <value column="Name" original="Load Order From Business Process">Load Order From Business Process</value>
-  <value column="Description" original="Load the lines from process flow to order doc">Load the lines from process flow to order doc</value>
-  <value column="Help" original="You can load a single process or a set of processes in a determinated status">You can load a single process or a set of processes in a determinated status</value>
- </row>
- <row trl="N" uuid="a87b53a0-4515-4d68-8db4-8faceae9f3df">
-  <value column="Name" original="Load from BProcess to Movement">Load from BProcess to Movement</value>
-  <value column="Description" original="Load the lines from process flow to movement doc">Load the lines from process flow to movement doc</value>
-  <value column="Help" original="You can load a single process or a set of processes in a determinated status">You can load a single process or a set of processes in a determinated status</value>
- </row>
- <row trl="N" uuid="7e23fb99-8167-4c57-b75c-f2e0ee405aac">
-  <value column="Name" original="Copy Process">Copy Process</value>
-  <value column="Description" original="Copy all lines of a process template">Copy all lines of a process template</value>
-  <value column="Help" original="Copy all lines of a choosen process template">Copy all lines of a choosen process template</value>
- </row>
- <row trl="Y" uuid="bacc7b45-704e-4916-9ad5-913888937823">
-  <value column="Name" original="Activity EMail Processor">Обработка почты</value>
-  <value column="Description" original="">Обработка почты для формирования активностей</value>
-  <value column="Help" original=""/>
  </row>
 </idempiereTrl>

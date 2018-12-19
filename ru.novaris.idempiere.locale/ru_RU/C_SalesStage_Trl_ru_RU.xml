@@ -1,15 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="ru_RU" table="C_SalesStage">
- <row trl="N" uuid="246d332d-3c87-4958-b1b8-a4b862d68bbf">
-  <value column="Name" original="Направление КП Клиенту">Направление КП Клиенту</value>
-  <value column="Description" original=""/>
+ <row trl="Y" uuid="b4d03670-131a-4847-a485-7c3d2c56a504">
+  <value column="Name" original="Новая">Новая</value>
+  <value column="Description" original="Подготовка к общению">Подготовка к общению</value>
  </row>
- <row trl="N" uuid="47ded0e1-630f-4c0d-bdb7-cb33165d36a7">
-  <value column="Name" original="Закрыто-успешно">Закрыто-успешно</value>
-  <value column="Description" original=""/>
+ <row trl="Y" uuid="ad0f2c64-79f1-4cb3-9c10-6b8b616245c7">
+  <value column="Name" original="Подтверждена">Подтверждена</value>
+  <value column="Description" original="Подтверждение контактом">Подтверждение контактом</value>
  </row>
- <row trl="N" uuid="b60de71b-58ce-483c-93d1-a58af5556864">
-  <value column="Name" original="Закрыто-неуспешно">Закрыто-неуспешно</value>
-  <value column="Description" original=""/>
+ <row trl="Y" uuid="bfd52cde-0d60-4291-9f31-67b6fd6c52c1">
+  <value column="Name" original="Уточнение информации">Уточнение информации</value>
+  <value column="Description" original="Уточнение информации для договора">Уточнение информации для договора</value>
+ </row>
+ <row trl="Y" uuid="8a776c2b-f028-4eae-84ee-e3db23f1d623">
+  <value column="Name" original="Заключение договора">Заключение договора</value>
+  <value column="Description" original="Заключение договора">Заключение договора</value>
+ </row>
+ <row trl="Y" uuid="dd406328-5c62-49bd-9c0e-516f6e804097">
+  <value column="Name" original=" Договор заключен"> Договор заключен</value>
+  <value column="Description" original=" Договор заключен"> Договор заключен</value>
+ </row>
+ <row trl="Y" uuid="3ad67b0d-8082-4f7e-b7db-bd619b7726cf">
+  <value column="Name" original="Отмена">Отмена</value>
+  <value column="Description" original="Отмена">Отмена</value>
  </row>
 </idempiereTrl>
