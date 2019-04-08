@@ -229,11 +229,11 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="158" trl="Y">
-  <value column="MsgText" original="Business Partner not found">Контрагент не найден</value>
+  <value column="MsgText" original="Business Partner not found">Бизнес-партнёр не найден</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="159" trl="Y">
-  <value column="MsgText" original="Business Partner not saved">Данные о контрагенте не сохранены</value>
+  <value column="MsgText" original="Business Partner not saved">Данные о бизнес-партнёре не сохранены</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="160" trl="Y">
@@ -249,7 +249,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="163" trl="Y">
-  <value column="MsgText" original="Business Partner">Контрагент</value>
+  <value column="MsgText" original="Business Partner">Бизнес-партнёр</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="164" trl="Y">
@@ -799,7 +799,7 @@ Please change Cashbook only after completion of transaction</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="300" trl="Y">
-  <value column="MsgText" original="Business Partner Info">Информация о контрагенте</value>
+  <value column="MsgText" original="Business Partner Info">Информация о бизнес-партнёре</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="301" trl="Y">
@@ -1587,7 +1587,7 @@ Details: </value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="494" trl="Y">
-  <value column="MsgText" original="Same Business Partner">Тот же самый контрагент</value>
+  <value column="MsgText" original="Same Business Partner">Тот же самый бизнес-партнёр</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="495" trl="Y">
@@ -2648,19 +2648,19 @@ Thank you for using Adempiere Customer Asset Management
   <value column="MsgTip" original=""/>
  </row>
  <row id="766" trl="Y">
-  <value column="MsgText" original="Business Partner is on Credit Stop">Кредитный лимит контрагента остановлен</value>
+  <value column="MsgText" original="Business Partner is on Credit Stop">Кредитный лимит бизнес-партнёра остановлен</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="767" trl="Y">
-  <value column="MsgText" original="Business Partner is on Credit Hold">Погашение кредита контрагентом задержано</value>
+  <value column="MsgText" original="Business Partner is on Credit Hold">Погашение кредита бизнес-партнёром задержано</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="768" trl="Y">
-  <value column="MsgText" original="Business Partner with this Order over Credit Hold">Кредитный лимит для этого контрагента в заказе превышен</value>
+  <value column="MsgText" original="Business Partner with this Order over Credit Hold">Кредитный лимит для этого бизнес-партнёра в заказе превышен</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="769" trl="Y">
-  <value column="MsgText" original="Business Partner with open Shipments over Credit Hold">Кредитный лимит превышен для отгрузки этому контрагенту</value>
+  <value column="MsgText" original="Business Partner with open Shipments over Credit Hold">Кредитный лимит превышен для отгрузки этому бизнес-партнёру</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="770" trl="Y">
@@ -2696,7 +2696,7 @@ Thank you for using Adempiere Customer Asset Management
   <value column="MsgTip" original=""/>
  </row>
  <row id="778" trl="Y">
-  <value column="MsgText" original="&amp;Business Partner"><![CDATA[&Контрагент]]></value>
+  <value column="MsgText" original="&amp;Business Partner"><![CDATA[&Бизнес-партнёр]]></value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="779" trl="Y">
@@ -3128,7 +3128,7 @@ Delete Order/Invoice line with the Assignment.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="885" trl="Y">
-  <value column="MsgText" original="Bank account for business partner not found">Банковский счет контрагента не найден</value>
+  <value column="MsgText" original="Bank account for business partner not found">Банковский счет бизнес-партнёра не найден</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="886" trl="Y">
@@ -3452,11 +3452,11 @@ Delete Order/Invoice line with the Assignment.</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52061" trl="Y">
-  <value column="MsgText" original="Business Partner Info">Информация о контрагенте</value>
+  <value column="MsgText" original="Business Partner Info">Информация о бизнес-партнёре</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52062" trl="Y">
-  <value column="MsgText" original="Business Partner Trx Details">Операции контрагента детально</value>
+  <value column="MsgText" original="Business Partner Trx Details">Операции бизнес-партнёра детально</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52063" trl="Y">
@@ -3656,7 +3656,7 @@ Delete Order/Invoice line with the Assignment.</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52112" trl="Y">
-  <value column="MsgText" original="Create Business Partner">Создать контрагента</value>
+  <value column="MsgText" original="Create Business Partner">Создать бизнес-партнёра</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52113" trl="Y">
@@ -4576,11 +4576,11 @@ Delete Order/Invoice line with the Assignment.</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52342" trl="Y">
-  <value column="MsgText" original="Business Partner Sales Details">Детали продаж контрагента</value>
+  <value column="MsgText" original="Business Partner Sales Details">Детали продаж бизнес-партнёра</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52343" trl="Y">
-  <value column="MsgText" original="Business Partners">Контрагенты</value>
+  <value column="MsgText" original="Business Partners">Бизнес-партнёры</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52344" trl="Y">
@@ -5310,8 +5310,8 @@ Delete Order/Invoice line with the Assignment.</value>
   <value column="MsgTip" original="Do not exist Transit Warehouse to this Organization">Для этой организации не задан транзитный склад</value>
  </row>
  <row id="53036" trl="Y">
-  <value column="MsgText" original="Org targer do not linked to BPartner">Организация не связана с контрагентом</value>
-  <value column="MsgTip" original="Org targer do not linked to BPartner">Организация не связана с контрагентом</value>
+  <value column="MsgText" original="Org targer do not linked to BPartner">Организация не связана с бизнес-партнёром</value>
+  <value column="MsgTip" original="Org targer do not linked to BPartner">Организация не связана с бизнес-партнёром</value>
  </row>
  <row id="53038" trl="Y">
   <value column="MsgText" original="Check Missing Translation Records">Проверить наличие не переведенных записей</value>
@@ -5378,15 +5378,15 @@ Delete Order/Invoice line with the Assignment.</value>
   <value column="MsgTip" original="Indicates that a demand order is past due.">Показывает что запрос просрочен</value>
  </row>
  <row id="53056" trl="Y">
-  <value column="MsgText" original="Business Partner has no Ship To Address">Адрес доставки контрагенту не определен</value>
+  <value column="MsgText" original="Business Partner has no Ship To Address">Адрес доставки бизнес-партнёру не определен</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="53057" trl="Y">
-  <value column="MsgText" original="Business Partner has no Bill To Address">Адрес для выставления счета контрагенту не определен</value>
+  <value column="MsgText" original="Business Partner has no Bill To Address">Адрес для выставления счета бизнес-партнёру не определен</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="53058" trl="Y">
-  <value column="MsgText" original="Business Partner has no Address">Адрес для контрагента не определен</value>
+  <value column="MsgText" original="Business Partner has no Address">Адрес для бизнес-партнёра не определен</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="53059" trl="Y">
@@ -5446,7 +5446,7 @@ Delete Order/Invoice line with the Assignment.</value>
   <value column="MsgTip" original="In order to run this process you need to enable client accounting, this can be done in window System Configurator, setting the parameter CLIENT_ACCOUNTING to [I]mmediate or [Q]ueue">Для запуска этого процесса необходимо включить бухгалтерский учет экземпляра, это можно сделать в окне настройки системы, установив параметр CLIENT_ACCOUNTING в [I]mmediate или [Q]ueue.</value>
  </row>
  <row id="53084" trl="Y">
-  <value column="MsgText" original="Not exists a Business Partner linked for Organization">Не существует контрагента, связанного с организацией</value>
+  <value column="MsgText" original="Not exists a Business Partner linked for Organization">Не существует бизнес-партнёра, связанного с организацией</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="53085" trl="Y">
@@ -6834,7 +6834,7 @@ Delete Order/Invoice line with the Assignment.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row trl="N" uuid="b0c071a2-4bf5-4e8d-ac89-136729fd0ef5">
-  <value column="MsgText" original="Контрагент и значение по умолчанию должны быть уникальными">Контрагент уже имеет значение по умолчанию.</value>
+  <value column="MsgText" original="Бизнес-партнёр и значение по умолчанию должны быть уникальными">Бизнес-партнёр уже имеет значение по умолчанию.</value>
   <value column="MsgTip" original=""/>
  </row>
 </idempiereTrl>

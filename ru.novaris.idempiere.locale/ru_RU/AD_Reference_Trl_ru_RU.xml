@@ -297,7 +297,7 @@
  </row>
  <row id="124" trl="Y">
   <value column="Name" original="C_BPartner Parent">Родитель C_BPartner</value>
-  <value column="Description" original="Business Partner Parent selection">Выбор родителя контрагента</value>
+  <value column="Description" original="Business Partner Parent selection">Выбор родителя бизнес-партнёра</value>
   <value column="Help" original=""/>
  </row>
  <row id="125" trl="Y">
@@ -362,7 +362,7 @@
  </row>
  <row id="138" trl="Y">
   <value column="Name" original="C_BPartner (Trx)">C_BPartner</value>
-  <value column="Description" original="Business Partner selection (no Summary)">Выбор контрагента (не сводка)</value>
+  <value column="Description" original="Business Partner selection (no Summary)">Выбор бизнес-партнёра (не сводка)</value>
   <value column="Help" original=""/>
  </row>
  <row id="141" trl="Y">
@@ -447,7 +447,7 @@
  </row>
  <row id="159" trl="Y">
   <value column="Name" original="C_BPartner Location">C_BPartner Location</value>
-  <value column="Description" original="Locations of a Business Partner">Адрес контрагента</value>
+  <value column="Description" original="Locations of a Business Partner">Адрес бизнес-партнёра</value>
   <value column="Help" original=""/>
  </row>
  <row id="161" trl="Y">
@@ -882,7 +882,7 @@
  </row>
  <row id="252" trl="Y">
   <value column="Name" original="C_BPartner Employee">C_BPartner Employee</value>
-  <value column="Description" original="Business Partners who are Employee">Контрагенты, которые являются сотрудниками</value>
+  <value column="Description" original="Business Partners who are Employee">Бизнес-партнёры, которые являются сотрудниками</value>
   <value column="Help" original=""/>
  </row>
  <row id="253" trl="Y">
@@ -997,7 +997,7 @@
  </row>
  <row id="277" trl="Y">
   <value column="Name" original="C_BPartner Employee w Address">C_BPartner Employee w Address</value>
-  <value column="Description" original="Business Partners who are Employee and have addresses">Контрагент, который является сотрудником и имеет адрес</value>
+  <value column="Description" original="Business Partners who are Employee and have addresses">Бизнес-партнёр, который является сотрудником и имеет адрес</value>
   <value column="Help" original=""/>
  </row>
  <row id="278" trl="Y">
@@ -1362,7 +1362,7 @@
  </row>
  <row id="353" trl="Y">
   <value column="Name" original="C_BPartner SalesRep">C_BPartner SalesRep</value>
-  <value column="Description" original="BP SalesRep selection">Выбор торг.представителя контрагента</value>
+  <value column="Description" original="BP SalesRep selection">Выбор торг.представителя бизнес-партнёра</value>
   <value column="Help" original=""/>
  </row>
  <row id="354" trl="Y">

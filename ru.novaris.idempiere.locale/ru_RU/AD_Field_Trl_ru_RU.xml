@@ -118,8 +118,8 @@ If the document type of your document has no automatic document sequence defined
  </row>
  <row id="9626" trl="Y">
   <value column="Name" original="Is Sales Representative">Менеджер/Агент</value>
-  <value column="Description" original="Indicates if  the business partner is a sales representative or company agent">Показывает, является ли контрагент менеджером или агентом компании</value>
-  <value column="Help" original="The Sales Rep checkbox indicates if this business partner is a sales representative. A sales representative may also be an employee, but does not need to be.">Флажок показывает, является ли контрагент менеджером или агентом компании.</value>
+  <value column="Description" original="Indicates if  the business partner is a sales representative or company agent">Показывает, является ли бизнес-партнёр менеджером или агентом компании</value>
+  <value column="Help" original="The Sales Rep checkbox indicates if this business partner is a sales representative. A sales representative may also be an employee, but does not need to be.">Флажок показывает, является ли бизнес-партнёр менеджером или агентом компании.</value>
   <value column="Placeholder" original=""/>
  </row>
  <row id="10097" trl="Y">
@@ -773,7 +773,7 @@ The Valid From and Valid To dates indicate the valid time period to use the BOM 
  </row>
  <row id="62116" trl="Y">
   <value column="Name" original="Convert Lead">Конвертировать лид</value>
-  <value column="Description" original="Convert Lead to BP and Opportunity">Конвертировать лид в Контрагента и Возможность продажи</value>
+  <value column="Description" original="Convert Lead to BP and Opportunity">Конвертировать лид в Бизнес-партнёра и Возможность продажи</value>
   <value column="Help" original="Convert Lead into a Business Partner and (optional) Sales Opportunity"/>
   <value column="Placeholder" original=""/>
  </row>
@@ -1032,7 +1032,7 @@ If you leave the search key empty, the system automatically creates a numeric nu
  </row>
  <row trl="Y" uuid="c547e600-fb2d-4e67-acdd-5aa4fbbadda7">
   <value column="Name" original="User/Contact">Контакт</value>
-  <value column="Description" original="User within the system - Internal or Business Partner Contact">Контакт контрагента или контакт лида</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">Контакт бизнес-партнёра или контакт лида</value>
   <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact"/>
   <value column="Placeholder" original=""/>
  </row>
@@ -1379,8 +1379,8 @@ If you leave the search key empty, the system automatically creates a numeric nu
   <value column="Placeholder" original=""/>
  </row>
  <row trl="Y" uuid="e6c60e13-1e18-4169-84ac-717c6b30b655">
-  <value column="Name" original="Business Partner ">Контрагент</value>
-  <value column="Description" original="Identifies a Business Partner">Идентификация контрагента</value>
+  <value column="Name" original="Business Partner ">Бизнес-партнёр</value>
+  <value column="Description" original="Identifies a Business Partner">Идентификация бизнес-партнёра</value>
   <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson">A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson</value>
   <value column="Placeholder" original=""/>
  </row>

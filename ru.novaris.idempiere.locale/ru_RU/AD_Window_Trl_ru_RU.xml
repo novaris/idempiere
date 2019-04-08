@@ -48,7 +48,7 @@ Verify the translation creates missing translation records. Start this process a
  <row id="108" trl="Y">
   <value column="Name" original="User">Контактное лицо</value>
   <value column="Description" original="Maintain Users of the system">Контактное лицо (пользователь системы)</value>
-  <value column="Help" original="The User Window allows you to maintain User of the system.  Users can log into the system and have access to functionality via one or more roles.  A user can also be a business partner contact.">Окно позволяет поддерживать пользователя системы. Пользователи могут входить в систему и иметь доступ к функциям с помощью одной или нескольких ролей. Пользователь также может быть контактом контрагента.</value>
+  <value column="Help" original="The User Window allows you to maintain User of the system.  Users can log into the system and have access to functionality via one or more roles.  A user can also be a business partner contact.">Окно позволяет поддерживать пользователя системы. Пользователи могут входить в систему и иметь доступ к функциям с помощью одной или нескольких ролей. Пользователь также может быть контактом бизнес-партнёра.</value>
  </row>
  <row id="109" trl="Y">
   <value column="Name" original="Client">Экземпляр</value>
@@ -123,9 +123,9 @@ Conversions need to be direct (i.e. if you have only a conversion between A-B an
 <p>You would define Countries usually only on System level.]]></value>
  </row>
  <row id="123" trl="Y">
-  <value column="Name" original="Business Partner">Контрагент</value>
-  <value column="Description" original="Maintain Business Partners">Ведение контрагента</value>
-  <value column="Help" original="The Business Partner window allows you do define any party with whom you transact.  This includes customers, vendors and employees.  Prior to entering or importing products, you must define your vendors.  Prior to generating Orders you must define your customers.  This window holds all information about your business partner and the values entered will be used to generate all document transactions">Окно Контрагент позволяет вам определять любого участника, с которым вы ведете дела. Это включает покупателей, поставщиков и сотрудников. Перед тем, как вводить или импортировать продукты, вы должны определить ваших поставщиков. Перед тем, как создавать заказы, вы должны определить ваших покупателей. Это окно содержит всю информацию о вашем клиенте и введенные значения будут использованы для создания всех документов по сделкам.</value>
+  <value column="Name" original="Business Partner">Бизнес-партнёр</value>
+  <value column="Description" original="Maintain Business Partners">Ведение бизнес-партнёра</value>
+  <value column="Help" original="The Business Partner window allows you do define any party with whom you transact.  This includes customers, vendors and employees.  Prior to entering or importing products, you must define your vendors.  Prior to generating Orders you must define your customers.  This window holds all information about your business partner and the values entered will be used to generate all document transactions">Окно Бизнес-партнёр позволяет вам определять любого участника, с которым вы ведете дела. Это включает покупателей, поставщиков и сотрудников. Перед тем, как вводить или импортировать продукты, вы должны определить ваших поставщиков. Перед тем, как создавать заказы, вы должны определить ваших покупателей. Это окно содержит всю информацию о вашем клиенте и введенные значения будут использованы для создания всех документов по сделкам.</value>
  </row>
  <row id="125" trl="Y">
   <value column="Name" original="Accounting Schema">Схема бухгалтерского учета</value>
@@ -315,8 +315,8 @@ Pricelists can be calculated and copied.  To speed up the calculation, the param
   <value column="Help" original="The Inventory Move Window allows you to move inventory from one location or warehouse to another.  After the appropriate lines are entered selecting the 'Process Movements' button will adjust the inventory.">The Inventory Move Window allows you to move inventory from one location or warehouse to another.  After the appropriate lines are entered selecting the 'Process Movements' button will adjust the inventory.</value>
  </row>
  <row id="172" trl="Y">
-  <value column="Name" original="Import Business Partner">Импорт контрагента</value>
-  <value column="Description" original="Import Business Partner">Импорт контрагента</value>
+  <value column="Name" original="Import Business Partner">Импорт бизнес-партнёра</value>
+  <value column="Description" original="Import Business Partner">Импорт бизнес-партнёра</value>
   <value column="Help" original="The Import Business Partner Window is an interim table which is used when importing external data into the system.  Selecting the 'Process' button will either add or modify the appropriate records.">The Import Business Partner Window is an interim table which is used when importing external data into the system.  Selecting the 'Process' button will either add or modify the appropriate records.</value>
  </row>
  <row id="174" trl="Y">
@@ -390,9 +390,9 @@ Pricelists can be calculated and copied.  To speed up the calculation, the param
   <value column="Help" original="The Production Window defines those plan and inventory movements that occur when a product is created from a bill of materials">Окно сборка определяет плановые и товарные движения, которые происходят, когда продукт создается из спецификации</value>
  </row>
  <row id="192" trl="Y">
-  <value column="Name" original="Business Partner Group">Группа контрагентов</value>
-  <value column="Description" original="Maintain Business Partner Groups">Ведение групп контрагентов</value>
-  <value column="Help" original="The Business Partner Group window allows you to define the accounting parameters at a group level.  If you define the accounting parameters for a group any Business Partner entered using this group will have these accounting parameters automatically populated.  You can then make any modifications necessary at the Business Partner level.">Окно Группа контрагентов позволяет вам определять параметры бухгалтерского учета на групповом уровне. Если вы определяете параметры бухгалтерского учета для группы, любой контрагент, введенный используя эту группу, будет иметь эти параметры бухгалтерского учета автоматически определенными. Позднее вы сможете сделать любые необходимые модификации на уровне контрагента.</value>
+  <value column="Name" original="Business Partner Group">Группа бизнес-партнёров</value>
+  <value column="Description" original="Maintain Business Partner Groups">Ведение групп бизнес-партнёров</value>
+  <value column="Help" original="The Business Partner Group window allows you to define the accounting parameters at a group level.  If you define the accounting parameters for a group any Business Partner entered using this group will have these accounting parameters automatically populated.  You can then make any modifications necessary at the Business Partner level.">Окно Группа бизнес-партнёров позволяет вам определять параметры бухгалтерского учета на групповом уровне. Если вы определяете параметры бухгалтерского учета для группы, любой бизнес-партнёр, введенный используя эту группу, будет иметь эти параметры бухгалтерского учета автоматически определенными. Позднее вы сможете сделать любые необходимые модификации на уровне бизнес-партнёра.</value>
  </row>
  <row id="193" trl="Y">
   <value column="Name" original="Notice">Уведомление</value>
@@ -867,8 +867,8 @@ Before(!) entering transactions, Start the Replication Run to set up the remote 
   <value column="Help" original="Search Synonyms for Knowledge Keywords; Example: Product = Item">Поиск синонимов в базе знаний, например: Продукт=Позиция</value>
  </row>
  <row id="291" trl="Y">
-  <value column="Name" original="Business Partner Info">Информация о контрагенте</value>
-  <value column="Description" original="Document Information of Business Partners">Документ информации о контрагенте</value>
+  <value column="Name" original="Business Partner Info">Информация о бизнес-партнёре</value>
+  <value column="Description" original="Document Information of Business Partners">Документ информации о бизнес-партнёре</value>
   <value column="Help" original=""/>
  </row>
  <row id="292" trl="Y">
@@ -1912,7 +1912,7 @@ MRP - 110	 No exists Dem</value>
  <row id="53152" trl="Y">
   <value column="Name" original="Contact">Контакт</value>
   <value column="Description" original="Maintain Contacts">Контактное лицо</value>
-  <value column="Help" original="The Contact Window allows you to maintain Contacts who are individuals you deal with.  Contacts may also be internal or external users who can log into the system and have access to functionality via one or more roles.  A contact can also be a business partner contact.">Окно контакта позволяет вам создавать записи о людях, с которыми вы планируете в дальнейшем налаживать взаимоотношения.  Контакты могут быть внешними или внутренними пользователями которые могут войти в систему и получить доступ через одну или несколько ролей. Контактом может быть также контрагент.</value>
+  <value column="Help" original="The Contact Window allows you to maintain Contacts who are individuals you deal with.  Contacts may also be internal or external users who can log into the system and have access to functionality via one or more roles.  A contact can also be a business partner contact.">Окно контакта позволяет вам создавать записи о людях, с которыми вы планируете в дальнейшем налаживать взаимоотношения.  Контакты могут быть внешними или внутренними пользователями которые могут войти в систему и получить доступ через одну или несколько ролей. Контактом может быть также бизнес-партнёр.</value>
  </row>
  <row id="53153" trl="Y">
   <value column="Name" original="Lead">Лиды</value>
@@ -2205,19 +2205,19 @@ MRP - 110	 No exists Dem</value>
   <value column="Help" original="Technical Capability">Техническая возможность оказания услуги</value>
  </row>
  <row trl="Y" uuid="ea1936d2-51bd-4bbe-959a-ec24aedad3dc">
-  <value column="Name" original="Business Partner admin">Контрагент для Администратора</value>
-  <value column="Description" original="Maintain Business Partners">Ведение контрагента</value>
-  <value column="Help" original="The Business Partner window allows you do define any party with whom you transact.  This includes customers, vendors and employees.  Prior to entering or importing products, you must define your vendors.  Prior to generating Orders you must define your customers.  This window holds all information about your business partner and the values entered will be used to generate all document transactions">Окно Контрагент позволяет вам определять любого участника, с которым вы ведете дела. Это включает покупателей, поставщиков и сотрудников. Перед тем, как вводить или импортировать продукты, вы должны определить ваших поставщиков. Перед тем, как создавать заказы, вы должны определить ваших покупателей. Это окно содержит всю информацию о вашем клиенте и введенные значения будут использованы для создания всех документов по сделкам.</value>
+  <value column="Name" original="Business Partner admin">Бизнес-партнёр для Администратора</value>
+  <value column="Description" original="Maintain Business Partners">Ведение бизнес-партнёра</value>
+  <value column="Help" original="The Business Partner window allows you do define any party with whom you transact.  This includes customers, vendors and employees.  Prior to entering or importing products, you must define your vendors.  Prior to generating Orders you must define your customers.  This window holds all information about your business partner and the values entered will be used to generate all document transactions">Окно Бизнес-партнёр позволяет вам определять любого участника, с которым вы ведете дела. Это включает покупателей, поставщиков и сотрудников. Перед тем, как вводить или импортировать продукты, вы должны определить ваших поставщиков. Перед тем, как создавать заказы, вы должны определить ваших покупателей. Это окно содержит всю информацию о вашем клиенте и введенные значения будут использованы для создания всех документов по сделкам.</value>
  </row>
  <row trl="Y" uuid="deba92d5-b6c6-4f71-9189-1ff7f108dbff">
-  <value column="Name" original="Business Partner workers">Контрагент для Сотрудника</value>
-  <value column="Description" original="Business Partner workers">Ведение контрагента</value>
-  <value column="Help" original="The Business Partner window allows you do define any party with whom you transact.  This includes customers, vendors and employees.  Prior to entering or importing products, you must define your vendors.  Prior to generating Orders you must define your customers.  This window holds all information about your business partner and the values entered will be used to generate all document transactions">Окно Контрагент позволяет вам определять любого участника, с которым вы ведете дела. Это включает покупателей, поставщиков и сотрудников. Перед тем, как вводить или импортировать продукты, вы должны определить ваших поставщиков. Перед тем, как создавать заказы, вы должны определить ваших покупателей. Это окно содержит всю информацию о вашем клиенте и введенные значения будут использованы для создания всех документов по сделкам.</value>
+  <value column="Name" original="Business Partner workers">Бизнес-партнёр для Сотрудника</value>
+  <value column="Description" original="Business Partner workers">Ведение бизнес-партнёра</value>
+  <value column="Help" original="The Business Partner window allows you do define any party with whom you transact.  This includes customers, vendors and employees.  Prior to entering or importing products, you must define your vendors.  Prior to generating Orders you must define your customers.  This window holds all information about your business partner and the values entered will be used to generate all document transactions">Окно Бизнес-партнёр позволяет вам определять любого участника, с которым вы ведете дела. Это включает покупателей, поставщиков и сотрудников. Перед тем, как вводить или импортировать продукты, вы должны определить ваших поставщиков. Перед тем, как создавать заказы, вы должны определить ваших покупателей. Это окно содержит всю информацию о вашем клиенте и введенные значения будут использованы для создания всех документов по сделкам.</value>
  </row>
  <row trl="Y" uuid="2c618eb9-6bdd-4ce1-b64e-91c9d8dd0b9f">
   <value column="Name" original="Business Partner suppliers">Агент</value>
-  <value column="Description" original="Maintain Business suppliers">Ведение контрагента</value>
-  <value column="Help" original="The Business Partner window allows you do define any party with whom you transact.  This includes customers, vendors and employees.  Prior to entering or importing products, you must define your vendors.  Prior to generating Orders you must define your customers.  This window holds all information about your business partner and the values entered will be used to generate all document transactions">Окно Контрагент позволяет вам определять любого участника, с которым вы ведете дела. Это включает покупателей, поставщиков и сотрудников. Перед тем, как вводить или импортировать продукты, вы должны определить ваших поставщиков. Перед тем, как создавать заказы, вы должны определить ваших покупателей. Это окно содержит всю информацию о вашем клиенте и введенные значения будут использованы для создания всех документов по сделкам.</value>
+  <value column="Description" original="Maintain Business suppliers">Ведение бизнес-партнёра</value>
+  <value column="Help" original="The Business Partner window allows you do define any party with whom you transact.  This includes customers, vendors and employees.  Prior to entering or importing products, you must define your vendors.  Prior to generating Orders you must define your customers.  This window holds all information about your business partner and the values entered will be used to generate all document transactions">Окно Бизнес-партнёр позволяет вам определять любого участника, с которым вы ведете дела. Это включает покупателей, поставщиков и сотрудников. Перед тем, как вводить или импортировать продукты, вы должны определить ваших поставщиков. Перед тем, как создавать заказы, вы должны определить ваших покупателей. Это окно содержит всю информацию о вашем клиенте и введенные значения будут использованы для создания всех документов по сделкам.</value>
  </row>
  <row trl="Y" uuid="5256cfe7-2f9d-4efc-85a4-77061c25ec38">
   <value column="Name" original="Contract">Договор</value>

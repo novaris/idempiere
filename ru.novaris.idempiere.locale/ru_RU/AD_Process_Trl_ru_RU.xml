@@ -58,7 +58,7 @@ Lines with a higher sequence overwrite existing prices.  The sequence should be 
  </row>
  <row id="112" trl="Y">
   <value column="Name" original="Copy Accounts">Копировать счета</value>
-  <value column="Description" original="Copy and overwrite Accounts to Business Partners of this group">Копирование и перезапись счетов для контрагентов этой группы</value>
+  <value column="Description" original="Copy and overwrite Accounts to Business Partners of this group">Копирование и перезапись счетов для бизнес-партнёров этой группы</value>
   <value column="Help" original="If you copy and overwrite the current default values, you may have to repeat previous updates (e.g. set the receivebles account, ...)">При копировании и перезаписи текущих значений счетов по умолчанию может потребоваться повторить предыдущие обновления (например, установить счёт дебиторской задолженности,...)</value>
  </row>
  <row id="113" trl="Y">
@@ -718,8 +718,8 @@ For example: A customer has one invoice for $100 with the Account Date of 03/31/
 Select either a Product Category ar a specific Product.]]></value>
  </row>
  <row id="246" trl="Y">
-  <value column="Name" original="Business Partner Organization">Организация контрагента</value>
-  <value column="Description" original="Set and verify Organization ownership of Business Partners">Установка и проверка владельца организации данного контрагента</value>
+  <value column="Name" original="Business Partner Organization">Организация бизнес-партнёра</value>
+  <value column="Description" original="Set and verify Organization ownership of Business Partners">Установка и проверка владельца организации данного бизнес-партнёра</value>
   <value column="Help" original="The process allows you to change or verify the organization ownership of Business Partners and its dependent entities (Location, Contact/User, Bank Account, Withholding). &lt;br&gt;&#10;Select either a Business Partner Group ar a specific Business Partner"><![CDATA[The process allows you to change or verify the organization ownership of Business Partners and its dependent entities (Location, Contact/User, Bank Account, Withholding). <br>
 Select either a Business Partner Group ar a specific Business Partner]]></value>
  </row>
@@ -1072,9 +1072,9 @@ This is a one-step replacement for defining BOM and creating/processes a Product
   <value column="Help" original=""/>
  </row>
  <row id="314" trl="Y">
-  <value column="Name" original="Validate Business Partner">Проверить контрагента</value>
-  <value column="Description" original="Check data consistency of Business Partner">Проверить согласованность данных контрагента</value>
-  <value column="Help" original="Check the payments and invoices of a business partner and checks the balances.">Проверить оплаты и инвойсы контрагента и проверить баланс.</value>
+  <value column="Name" original="Validate Business Partner">Проверить бизнес-партнёра</value>
+  <value column="Description" original="Check data consistency of Business Partner">Проверить согласованность данных бизнес-партнёра</value>
+  <value column="Help" original="Check the payments and invoices of a business partner and checks the balances.">Проверить оплаты и инвойсы бизнес-партнёра и проверить баланс.</value>
  </row>
  <row id="315" trl="Y">
   <value column="Name" original="Order Batch Process">Обработка пакета заказов</value>
@@ -1097,8 +1097,8 @@ This is a one-step replacement for defining BOM and creating/processes a Product
   <value column="Help" original="Type adjusted payments (receipts positive, payments negative) with allocated and available amounts">Тип урегулированных оплат (получение - положительный, оплаты - отрицательный) с распределенными и доступными суммами</value>
  </row>
  <row id="319" trl="Y">
-  <value column="Name" original="Business Partner Open">Открытый контрагент</value>
-  <value column="Description" original="Business Partner Open Amount">Открытая сумма контрагента</value>
+  <value column="Name" original="Business Partner Open">Открытый бизнес-партнёр</value>
+  <value column="Description" original="Business Partner Open Amount">Открытая сумма бизнес-партнёра</value>
   <value column="Help" original="The report lists open invoices and payments">Отчет Списки открытых инвойсов и оплат</value>
  </row>
  <row id="320" trl="Y">
@@ -1178,9 +1178,9 @@ Note that support is restricted to setup and test, but not data recovery.]]></va
   <value column="Help" original="The report includes order detail information including lost sales.  The report can be used for Sales and Purchasing.">Отчет включает детальную информацию о заказе, включая потерянные продажи. Ваш отчет может быть использован для продаж и закупок.</value>
  </row>
  <row id="334" trl="Y">
-  <value column="Name" original="Business Partner Detail">Контрагент детально</value>
-  <value column="Description" original="Business Partner Detail Report">Отчет о контрагенте детально</value>
-  <value column="Help" original="The report list details of Business Partner, Addresses and Contacts for any active Business Partner with an Address and Contact">Отчет перечисляет детали контрагента, адреса и контакты</value>
+  <value column="Name" original="Business Partner Detail">Бизнес-партнёр детально</value>
+  <value column="Description" original="Business Partner Detail Report">Отчет о бизнес-партнёре детально</value>
+  <value column="Help" original="The report list details of Business Partner, Addresses and Contacts for any active Business Partner with an Address and Contact">Отчет перечисляет детали бизнес-партнёра, адреса и контакты</value>
  </row>
  <row id="335" trl="Y">
   <value column="Name" original="Create Costing Records">Создать записи себестоимости</value>
@@ -1978,7 +1978,7 @@ Movements are only created, if a sourcing warehouse is defined for the warehouse
  </row>
  <row id="53276" trl="Y">
   <value column="Name" original="Convert Lead">Конвертировать лид</value>
-  <value column="Description" original="Convert Lead to BP and Opportunity">Конвертировать лид в Контрагента и Возможность продажи</value>
+  <value column="Description" original="Convert Lead to BP and Opportunity">Конвертировать лид в Бизнес-партнёра и Возможность продажи</value>
   <value column="Help" original="Convert Lead into a Business Partner and (optional) Sales Opportunity"/>
  </row>
  <row id="200000" trl="N">
@@ -2425,9 +2425,9 @@ Will process only the selected records</value>
   <value column="Help" original=""/>
  </row>
  <row trl="Y" uuid="7b654737-65b8-4b3c-ba9b-e7204e83ee07">
-  <value column="Name" original="Bpartner Search">Поиск для Контрагента</value>
-  <value column="Description" original="">Заполнение таблицы rit_tsvectorsearch для поиска Контрагента(AD_Table_ID = 291)</value>
-  <value column="Help" original="Bpartner Search">Заполнение таблицы rit_tsvectorsearch для поиска Контрагента(AD_Table_ID = 291)</value>
+  <value column="Name" original="Bpartner Search">Поиск для Бизнес-партнёра</value>
+  <value column="Description" original="">Заполнение таблицы rit_tsvectorsearch для поиска Бизнес-партнёра(AD_Table_ID = 291)</value>
+  <value column="Help" original="Bpartner Search">Заполнение таблицы rit_tsvectorsearch для поиска Бизнес-партнёра(AD_Table_ID = 291)</value>
  </row>
  <row trl="N" uuid="766b6e4b-2321-4c19-9aaf-cf5803f56043">
   <value column="Name" original="ConvertUTMLabel">ConvertUTMLabel</value>
@@ -2441,8 +2441,8 @@ Will process only the selected records</value>
  </row>
  <row trl="Y" uuid="55a965ec-060e-44fc-834a-bcf462347050">
   <value column="Name" original="BPartner Opportunity">Создать Проект и Возможность Продаж</value>
-  <value column="Description" original="Create Project and Opportunity for BPartner">Новый Проект и Возможность Продаж Контрагента</value>
-  <value column="Help" original="Create Project and Opportunity for BPartner">Создание Проекта и Возможности Продаж для Контрагента</value>
+  <value column="Description" original="Create Project and Opportunity for BPartner">Новый Проект и Возможность Продаж Бизнес-партнёра</value>
+  <value column="Help" original="Create Project and Opportunity for BPartner">Создание Проекта и Возможности Продаж для Бизнес-партнёра</value>
  </row>
  <row trl="Y" uuid="d80afe05-329d-492c-be0f-f864b00ab8e0">
   <value column="Name" original="Contract report attach 2">Исходные Данные по Системе Видеонаблюдения</value>

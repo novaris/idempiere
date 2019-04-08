@@ -576,7 +576,7 @@ this field define where request, error,.. occupy.</value>
   <value column="Placeholder2" original=""/>
  </row>
  <row trl="Y" uuid="ee1d2b9b-c581-4e7b-b03b-d84600274749">
-  <value column="Name" original="RIT Client C_BPartner_ID">Контрагент, сторона Договора</value>
+  <value column="Name" original="RIT Client C_BPartner_ID">Бизнес-партнёр, сторона Договора</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -681,8 +681,8 @@ this field define where request, error,.. occupy.</value>
   <value column="Placeholder2" original=""/>
  </row>
  <row trl="Y" uuid="0bb00a80-c6c2-420b-88fb-835a87e2937b">
-  <value column="Name" original="Business Partner ">Контрагент</value>
-  <value column="Description" original="Business Partner ">Контрагент</value>
+  <value column="Name" original="Business Partner ">Бизнес-партнёр</value>
+  <value column="Description" original="Business Partner ">Бизнес-партнёр</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="Placeholder2" original=""/>

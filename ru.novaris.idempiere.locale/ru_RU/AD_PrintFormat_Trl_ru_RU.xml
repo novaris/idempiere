@@ -473,7 +473,7 @@
   <value column="Description" original=""/>
  </row>
  <row trl="N" uuid="9ba2e5d1-2de5-4207-a52b-7bf6bc00c2da">
-  <value column="Name" original="Контрагент">Контрагент</value>
+  <value column="Name" original="Бизнес-партнёр">Бизнес-партнёр</value>
   <value column="Description" original=""/>
  </row>
  <row trl="N" uuid="4f0cf5a0-cba3-46be-865f-1be7f4806e05">
@@ -485,11 +485,11 @@
   <value column="Description" original=""/>
  </row>
  <row trl="N" uuid="f4418bbb-75c0-44a7-a817-b570f53c523d">
-  <value column="Name" original="Банковский счет контрагента">Банковский счет контрагента</value>
+  <value column="Name" original="Банковский счет бизнес-партнёра">Банковский счет бизнес-партнёра</value>
   <value column="Description" original=""/>
  </row>
  <row trl="N" uuid="43b030ad-49df-4050-a416-eaa39b8152fb">
-  <value column="Name" original="Банковский счет контрагента_20190211123832">Банковский счет контрагента_20190211123832</value>
+  <value column="Name" original="Банковский счет бизнес-партнёра_20190211123832">Банковский счет бизнес-партнёра_20190211123832</value>
   <value column="Description" original=""/>
  </row>
  <row trl="N" uuid="5af2a762-c26b-48b8-8ebe-1df1d6e09a8f">

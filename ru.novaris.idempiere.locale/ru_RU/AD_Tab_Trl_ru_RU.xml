@@ -582,16 +582,16 @@ Saving/deleting the record starts processes which may take a while.</value>
   <value column="Help" original="The Account Schema Dimensions Tab defines the dimensions that comprise the account key. A name is defined which will display in documents.  Also the order of the dimensions and if they are balanced and mandatory are indicated.">Вкладка Элемент схемы бухгалтерского учета определяет элементы, которые содержат основной счет. Имя, которое будет отображено в документах, определено. Также порядок элементов и указано, если они сбалансированы и обязательны.</value>
  </row>
  <row id="220" trl="Y">
-  <value column="Name" original="Business Partner">Контрагент</value>
+  <value column="Name" original="Business Partner">Бизнес-партнёр</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Business Partner">Контрагент</value>
-  <value column="Help" original="The Business Partner Tab defines any Entity with whom an organization transacts.">Вкладка контрагент определяет любой объект, с которым организация ведет дела.</value>
+  <value column="Description" original="Business Partner">Бизнес-партнёр</value>
+  <value column="Help" original="The Business Partner Tab defines any Entity with whom an organization transacts.">Вкладка бизнес-партнёр определяет любой объект, с которым организация ведет дела.</value>
  </row>
  <row id="222" trl="Y">
   <value column="Name" original="Location">Местоположение</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Define Location">Определить местоположение</value>
-  <value column="Help" original="The Location Tab defines the physical location of a business partner.  A business partner may have multiple location records.">Вкладка местоположение определяет физическое местоположение контрагента. Контрагент может иметь несколько записей местоположения.</value>
+  <value column="Help" original="The Location Tab defines the physical location of a business partner.  A business partner may have multiple location records.">Вкладка местоположение определяет физическое местоположение бизнес-партнёра. Бизнес-партнёр может иметь несколько записей местоположения.</value>
  </row>
  <row id="223" trl="Y">
   <value column="Name" original="Customer">Покупатель</value>
@@ -1780,7 +1780,7 @@ Fonts are based on the Font used in the Report; Page Header and Table Header wil
  <row id="439" trl="Y">
   <value column="Name" original="Interest Area">Область интереса</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Business Partner Contact Interest Area">Сфера интересов контрагента</value>
+  <value column="Description" original="Business Partner Contact Interest Area">Сфера интересов бизнес-партнёра</value>
   <value column="Help" original="Interest Area can be used for Marketing Campaigns">Сфера интересов может быть использована для маркетинговых кампаний.</value>
  </row>
  <row id="440" trl="Y">
@@ -2441,45 +2441,45 @@ The optional balance check applies to the entire import, not for individual batc
   <value column="Help" original=""/>
  </row>
  <row id="550" trl="Y">
-  <value column="Name" original="Partner Selection">Выбор контрагента</value>
+  <value column="Name" original="Partner Selection">Выбор бизнес-партнёра</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Business Partner Selection">Выбор контрагента</value>
+  <value column="Description" original="Business Partner Selection">Выбор бизнес-партнёра</value>
   <value column="Help" original=""/>
  </row>
  <row id="551" trl="Y">
-  <value column="Name" original="Partner Orders">Заказы контрагента</value>
+  <value column="Name" original="Partner Orders">Заказы бизнес-партнёра</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Business Partner Orders">Заказы контрагента</value>
+  <value column="Description" original="Business Partner Orders">Заказы бизнес-партнёра</value>
   <value column="Help" original=""/>
  </row>
  <row id="552" trl="Y">
-  <value column="Name" original="Partner Shipments">Отгрузки контрагента</value>
+  <value column="Name" original="Partner Shipments">Отгрузки бизнес-партнёра</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Business Partner Shipments">Отгрузки контрагента</value>
+  <value column="Description" original="Business Partner Shipments">Отгрузки бизнес-партнёра</value>
   <value column="Help" original=""/>
  </row>
  <row id="553" trl="Y">
-  <value column="Name" original="Partner Invoices">Счета контрагента</value>
+  <value column="Name" original="Partner Invoices">Счета бизнес-партнёра</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Business Partner Invoices">Счета контрагента</value>
+  <value column="Description" original="Business Partner Invoices">Счета бизнес-партнёра</value>
   <value column="Help" original=""/>
  </row>
  <row id="554" trl="Y">
-  <value column="Name" original="Partner Payments">Платежи контрагента</value>
+  <value column="Name" original="Partner Payments">Платежи бизнес-партнёра</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Business Partner Payments">Платежи контрагента</value>
+  <value column="Description" original="Business Partner Payments">Платежи бизнес-партнёра</value>
   <value column="Help" original=""/>
  </row>
  <row id="555" trl="Y">
-  <value column="Name" original="Partner Assets">Активы контрагента</value>
+  <value column="Name" original="Partner Assets">Активы бизнес-партнёра</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Business Partner Assets">Активы контрагента</value>
+  <value column="Description" original="Business Partner Assets">Активы бизнес-партнёра</value>
   <value column="Help" original=""/>
  </row>
  <row id="556" trl="Y">
-  <value column="Name" original="Partner Requests">Запросы контрагента</value>
+  <value column="Name" original="Partner Requests">Запросы бизнес-партнёра</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Business Partner Requests">Запросы контрагента</value>
+  <value column="Description" original="Business Partner Requests">Запросы бизнес-партнёра</value>
   <value column="Help" original=""/>
  </row>
  <row id="557" trl="Y">
@@ -3652,10 +3652,10 @@ When processing the payment, the allocation is created.<b>
 The Organization is set to the invoice organization]]></value>
  </row>
  <row id="756" trl="Y">
-  <value column="Name" original="BP Access">Доступ к контрагенту</value>
+  <value column="Name" original="BP Access">Доступ к бизнес-партнёру</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Access of the User/Contact to Business Partner information and resources">Доступ пользователя/контакта к информации и ресурсам контрагента</value>
-  <value column="Help" original="If on User level, &quot;Full BP Access&quot; is NOT selected, you need to give access explicitly here. ">Если на уровне пользователя не выбран "Полный доступ к контрагенту", вам надо дать здесь доступ в явном виде. </value>
+  <value column="Description" original="Access of the User/Contact to Business Partner information and resources">Доступ пользователя/контакта к информации и ресурсам бизнес-партнёра</value>
+  <value column="Help" original="If on User level, &quot;Full BP Access&quot; is NOT selected, you need to give access explicitly here. ">Если на уровне пользователя не выбран "Полный доступ к бизнес-партнёру", вам надо дать здесь доступ в явном виде. </value>
  </row>
  <row id="757" trl="Y">
   <value column="Name" original="Queries">Запросы</value>
@@ -4812,7 +4812,7 @@ Valid From/To is determined by the parent tax.]]></value>
   <value column="Name" original="Location">Местоположение</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Define Location">Определить местоположение</value>
-  <value column="Help" original="The Location Tab defines the physical location of a business partner.  A business partner may have multiple location records.">Вкладка местоположение определяет физическое местоположение контрагента. Контрагент может иметь несколько записей местоположения.</value>
+  <value column="Help" original="The Location Tab defines the physical location of a business partner.  A business partner may have multiple location records.">Вкладка местоположение определяет физическое местоположение бизнес-партнёра. Бизнес-партнёр может иметь несколько записей местоположения.</value>
  </row>
  <row id="53108" trl="Y">
   <value column="Name" original="Contact (User)">Контакт (пользователь)</value>
@@ -6667,7 +6667,7 @@ Printing:
  <row trl="Y" uuid="0f84ed87-63e5-4a47-b162-616791367843">
   <value column="Name" original="All Activity">Активность вся</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Business Partner Activity">Активность контрагента</value>
+  <value column="Description" original="Business Partner Activity">Активность бизнес-партнёра</value>
   <value column="Help" original=""/>
  </row>
  <row trl="N" uuid="95e9714b-fc27-475d-91fa-bb4b0e589a59">
@@ -6689,10 +6689,10 @@ Printing:
   <value column="Help" original=""/>
  </row>
  <row trl="Y" uuid="69d5248a-0ea8-478a-9f18-d3cc63ff7273">
-  <value column="Name" original="Business Partner">Контрагент</value>
+  <value column="Name" original="Business Partner">Бизнес-партнёр</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Business Partner">Контрагент</value>
-  <value column="Help" original="The Business Partner Tab defines any Entity with whom an organization transacts.">Вкладка контрагент определяет любой объект, с которым организация ведет дела.</value>
+  <value column="Description" original="Business Partner">Бизнес-партнёр</value>
+  <value column="Help" original="The Business Partner Tab defines any Entity with whom an organization transacts.">Вкладка бизнес-партнёр определяет любой объект, с которым организация ведет дела.</value>
  </row>
  <row trl="Y" uuid="1761f697-497d-4d24-b6a3-9c9e419ffade">
   <value column="Name" original="User">Контакты</value>
@@ -6709,13 +6709,13 @@ Printing:
  <row trl="Y" uuid="d42abd0a-83e3-46a8-a83f-cc342132d889">
   <value column="Name" original="Interest Area">Область интереса</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Business Partner Contact Interest Area">Сфера интересов контрагента</value>
+  <value column="Description" original="Business Partner Contact Interest Area">Сфера интересов бизнес-партнёра</value>
   <value column="Help" original="Interest Area can be used for Marketing Campaigns">Сфера интересов может быть использована для маркетинговых кампаний.</value>
  </row>
  <row trl="Y" uuid="a9e8ccf0-1b93-4a8f-acbc-dc1442ce1652">
-  <value column="Name" original="BP Access">Доступ к контрагенту</value>
+  <value column="Name" original="BP Access">Доступ к бизнес-партнёру</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Access of the User/Contact to Business Partner information and resources">Доступ пользователя/контакта к информации и ресурсам контрагента</value>
+  <value column="Description" original="Access of the User/Contact to Business Partner information and resources">Доступ пользователя/контакта к информации и ресурсам бизнес-партнёра</value>
   <value column="Help" original="If on User level, &quot;Full BP Access&quot; is NOT selected, you need to give access explicitly here. ">Если  в уровене пользователя не выбран "Полный доступ к бизнес-партнеру", вам надо дать здесь доступ в явном виде. </value>
  </row>
  <row trl="Y" uuid="f80233b6-59f8-4425-bf9e-1d2faba74400">
@@ -6727,14 +6727,14 @@ Printing:
  <row trl="Y" uuid="5155cb6e-59a3-443f-a6a4-a9e20067d7e1">
   <value column="Name" original="All Activity">Активность вся</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Business Partner Activity">Активность контрагента</value>
+  <value column="Description" original="Business Partner Activity">Активность бизнес-партнёра</value>
   <value column="Help" original=""/>
  </row>
  <row trl="Y" uuid="ad2a1e43-175c-4a3e-b040-317dd62bc79c">
   <value column="Name" original="Location">Местоположение</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Define Location">Определить местоположение</value>
-  <value column="Help" original="The Location Tab defines the physical location of a business partner.  A business partner may have multiple location records.">Вкладка местоположение определяет физическое местоположение контрагента. Контрагент может иметь несколько записей местоположения.</value>
+  <value column="Help" original="The Location Tab defines the physical location of a business partner.  A business partner may have multiple location records.">Вкладка местоположение определяет физическое местоположение бизнес-партнёра. Бизнес-партнёр может иметь несколько записей местоположения.</value>
  </row>
  <row trl="Y" uuid="5e2f2ce0-7885-4502-ba3e-22561c830d33">
   <value column="Name" original="Bank Account">Банковский счет</value>
@@ -6767,10 +6767,10 @@ Printing:
   <value column="Help" original=""/>
  </row>
  <row trl="Y" uuid="965ed218-d16d-48cb-b138-e5d93ea96601">
-  <value column="Name" original="Business Partner">Контрагент</value>
+  <value column="Name" original="Business Partner">Бизнес-партнёр</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Business Partner">Контрагент</value>
-  <value column="Help" original="The Business Partner Tab defines any Entity with whom an organization transacts.">Вкладка контрагент определяет любой объект, с которым организация ведет дела.</value>
+  <value column="Description" original="Business Partner">Бизнес-партнёр</value>
+  <value column="Help" original="The Business Partner Tab defines any Entity with whom an organization transacts.">Вкладка бизнес-партнёр определяет любой объект, с которым организация ведет дела.</value>
  </row>
  <row trl="Y" uuid="d2af5b59-3e66-4eeb-98a9-291139daaf37">
   <value column="Name" original="User">Контакты</value>
@@ -6787,13 +6787,13 @@ Printing:
  <row trl="Y" uuid="95cf0468-312e-473d-a723-9b2d42828061">
   <value column="Name" original="Interest Area">Область интереса</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Business Partner Contact Interest Area">Сфера интересов контрагента</value>
+  <value column="Description" original="Business Partner Contact Interest Area">Сфера интересов бизнес-партнёра</value>
   <value column="Help" original="Interest Area can be used for Marketing Campaigns">Сфера интересов может быть использована для маркетинговых кампаний.</value>
  </row>
  <row trl="Y" uuid="16b91a89-69b3-4964-991d-2b9a6746ede1">
-  <value column="Name" original="BP Access">Доступ к контрагенту</value>
+  <value column="Name" original="BP Access">Доступ к бизнес-партнёру</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Access of the User/Contact to Business Partner information and resources">Доступ пользователя/контакта к информации и ресурсам контрагента</value>
+  <value column="Description" original="Access of the User/Contact to Business Partner information and resources">Доступ пользователя/контакта к информации и ресурсам бизнес-партнёра</value>
   <value column="Help" original="If on User level, &quot;Full BP Access&quot; is NOT selected, you need to give access explicitly here. ">Если  в уровене пользователя не выбран "Полный доступ к бизнес-партнеру", вам надо дать здесь доступ в явном виде. </value>
  </row>
  <row trl="Y" uuid="f7078a7e-21a5-417b-a4bd-e8735cf7c37a">
@@ -6805,14 +6805,14 @@ Printing:
  <row trl="Y" uuid="40a6d430-33fd-42ea-886e-9cd529a3cb5f">
   <value column="Name" original="All Activity">Активность вся</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Business Partner Activity">Активность контрагента</value>
+  <value column="Description" original="Business Partner Activity">Активность бизнес-партнёра</value>
   <value column="Help" original=""/>
  </row>
  <row trl="Y" uuid="7ea1db20-4251-45f8-90ec-430d2a53a59b">
   <value column="Name" original="Location">Местоположение</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Define Location">Определить местоположение</value>
-  <value column="Help" original="The Location Tab defines the physical location of a business partner.  A business partner may have multiple location records.">Вкладка местоположение определяет физическое местоположение контрагента. Контрагент может иметь несколько записей местоположения.</value>
+  <value column="Help" original="The Location Tab defines the physical location of a business partner.  A business partner may have multiple location records.">Вкладка местоположение определяет физическое местоположение бизнес-партнёра. Бизнес-партнёр может иметь несколько записей местоположения.</value>
  </row>
  <row trl="Y" uuid="26fc35b9-ba55-4806-aa0a-3d4a649da926">
   <value column="Name" original="Bank Account">Банковский счет</value>
@@ -6859,13 +6859,13 @@ Printing:
  <row trl="Y" uuid="45478cae-2e9a-49a8-8e5c-2f22890d7769">
   <value column="Name" original="Interest Area">Область интереса</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Business Partner Contact Interest Area">Сфера интересов контрагента</value>
+  <value column="Description" original="Business Partner Contact Interest Area">Сфера интересов бизнес-партнёра</value>
   <value column="Help" original="Interest Area can be used for Marketing Campaigns">Сфера интересов может быть использована для маркетинговых кампаний.</value>
  </row>
  <row trl="Y" uuid="945ce047-5197-498c-8bbc-d0b28eec6b56">
-  <value column="Name" original="BP Access">Доступ к контрагенту</value>
+  <value column="Name" original="BP Access">Доступ к бизнес-партнёру</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Access of the User/Contact to Business Partner information and resources">Доступ пользователя/контакта к информации и ресурсам контрагента</value>
+  <value column="Description" original="Access of the User/Contact to Business Partner information and resources">Доступ пользователя/контакта к информации и ресурсам бизнес-партнёра</value>
   <value column="Help" original="If on User level, &quot;Full BP Access&quot; is NOT selected, you need to give access explicitly here. ">Если  в уровене пользователя не выбран "Полный доступ к бизнес-партнеру", вам надо дать здесь доступ в явном виде. </value>
  </row>
  <row trl="Y" uuid="0430b425-0afc-4546-9b97-574a43c92a32">
@@ -6877,14 +6877,14 @@ Printing:
  <row trl="Y" uuid="a425d0e5-8e4b-4821-8365-f8ebe2756ec5">
   <value column="Name" original="All Activity">Активность вся</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Business Partner Activity">Активность контрагента</value>
+  <value column="Description" original="Business Partner Activity">Активность бизнес-партнёра</value>
   <value column="Help" original=""/>
  </row>
  <row trl="Y" uuid="db6b0c9b-ae51-4baf-a810-356ce584b036">
   <value column="Name" original="Location">Местоположение</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Define Location">Определить местоположение</value>
-  <value column="Help" original="The Location Tab defines the physical location of a business partner.  A business partner may have multiple location records.">Вкладка местоположение определяет физическое местоположение контрагента. Контрагент может иметь несколько записей местоположения.</value>
+  <value column="Help" original="The Location Tab defines the physical location of a business partner.  A business partner may have multiple location records.">Вкладка местоположение определяет физическое местоположение бизнес-партнёра. Бизнес-партнёр может иметь несколько записей местоположения.</value>
  </row>
  <row trl="Y" uuid="9a162a56-6b83-4a7b-8069-3ec161cc14c4">
   <value column="Name" original="Bank Account">Банковский счет</value>
@@ -6937,7 +6937,7 @@ Printing:
  <row trl="Y" uuid="2264b387-1ecd-4b43-b605-235fd454b805">
   <value column="Name" original="User Contact">Контактное лицо</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Maintain User or Business Partner Contact">Регистрация пользователя или контакта контрагента</value>
+  <value column="Description" original="Maintain User or Business Partner Contact">Регистрация пользователя или контакта бизнес-партнёра</value>
   <value column="Help" original="The User Tab defines the log in for Users who have access to the system.  For application access, users need to have a role assigned.">Вкладка позволяет регистрировать пользователей, которые будут иметь доступ к системе. Для доступа к системе пользователи должны иметь привязанную роль.</value>
  </row>
  <row trl="Y" uuid="8a442a55-e0dd-4972-a858-29426ee536e1">

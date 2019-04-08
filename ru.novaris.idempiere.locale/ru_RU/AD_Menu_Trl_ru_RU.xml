@@ -129,7 +129,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="458" trl="Y">
-  <value column="Name" original="Sales Invoices">Документы обязательств контрагенту</value>
+  <value column="Name" original="Sales Invoices">Документы обязательств бизнес-партнёру</value>
   <value column="Description" original=""/>
  </row>
  <row id="459" trl="Y">

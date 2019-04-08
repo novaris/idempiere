@@ -78,8 +78,8 @@
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="109" trl="Y">
-  <value column="Name" original="Language">Язык контрагента</value>
-  <value column="PrintName" original="Language">Язык контрагента</value>
+  <value column="Name" original="Language">Язык бизнес-партнёра</value>
+  <value column="PrintName" original="Language">Язык бизнес-партнёра</value>
   <value column="Description" original="Language for this entity">Язык для этого объекта</value>
   <value column="Help" original="The Language identifies the language to use for display and formatting">Язык определяет язык, который будет использоваться для отображения и форматирования</value>
   <value column="Placeholder" original=""/>
@@ -265,9 +265,9 @@
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="131" trl="Y">
-  <value column="Name" original="BPartner Tree">Дерево контрагентов</value>
-  <value column="PrintName" original="BPartner Tree">Дерево контрагентов</value>
-  <value column="Description" original="Trees are used for (financial) reporting">Дерево указывает иерархию контрагентов</value>
+  <value column="Name" original="BPartner Tree">Дерево бизнес-партнёров</value>
+  <value column="PrintName" original="BPartner Tree">Дерево бизнес-партнёров</value>
+  <value column="Description" original="Trees are used for (financial) reporting">Дерево указывает иерархию бизнес-партнёров</value>
   <value column="Help" original="Trees are used for (finanial) reporting">Деревья используются для (финансовой) отчетности.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -311,7 +311,7 @@
  <row id="135" trl="Y">
   <value column="Name" original="Product Tree">Дерево товаров</value>
   <value column="PrintName" original="Product Tree">Дерево товаров</value>
-  <value column="Description" original="Trees are used for (financial) reporting">Дерево указывает иерархию контрагентов</value>
+  <value column="Description" original="Trees are used for (financial) reporting">Дерево указывает иерархию бизнес-партнёров</value>
   <value column="Help" original="Trees are used for (finanial) reporting">Деревья используются для (финансовой) отчетности</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -322,7 +322,7 @@
  <row id="136" trl="Y">
   <value column="Name" original="Project Tree">Дерево проектов</value>
   <value column="PrintName" original="Project Tree">Дерево проектов</value>
-  <value column="Description" original="Trees are used for (financial) reporting">Дерево указывает иерархию контрагентов</value>
+  <value column="Description" original="Trees are used for (financial) reporting">Дерево указывает иерархию бизнес-партнёров</value>
   <value column="Help" original="Trees are used for (finanial) reporting">Деревья используются для (финансовой) отчетности</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -333,7 +333,7 @@
  <row id="137" trl="Y">
   <value column="Name" original="Sales Region Tree">Дерево регионов продаж</value>
   <value column="PrintName" original="Sales Region Tree">Дерево регионов продаж</value>
-  <value column="Description" original="Trees are used for (financial) reporting">Дерево указывает иерархию контрагентов</value>
+  <value column="Description" original="Trees are used for (financial) reporting">Дерево указывает иерархию бизнес-партнёров</value>
   <value column="Help" original="Trees are used for (finanial) reporting">Деревья используются для (финансовой) отчетности</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -344,8 +344,8 @@
  <row id="138" trl="Y">
   <value column="Name" original="User/Contact">Пользователь/контакт</value>
   <value column="PrintName" original="User">Контактное лицо</value>
-  <value column="Description" original="User within the system - Internal or Business Partner Contact">Пользователь в рамках системы (внутренний) или контакт контрагента</value>
-  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">Поле определяет уникального пользователя в системе. Это может быть внутренний пользователь или контакт контрагента.</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">Пользователь в рамках системы (внутренний) или контакт бизнес-партнёра</value>
+  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">Поле определяет уникального пользователя в системе. Это может быть внутренний пользователь или контакт бизнес-партнёра.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -433,7 +433,7 @@
   <value column="Name" original="Account Type">Тип счета</value>
   <value column="PrintName" original="Account Type">Тип счета</value>
   <value column="Description" original="Indicates the type of account">Показывает тип счета</value>
-  <value column="Help" original="Valid account types are A - Asset, E - Expense, L - Liability, O- Owner's Equity, R -Revenue and M- Memo.  The account type is used to determine what taxes, if any are applicable, validating payables and receivables for business partners.  Note:  Memo account amounts are ignored when checking for balancing">Допустимыми типами счетов являются: A - Капитал, E - Расходы, L - Задолженность, O - Собственные средства, R - Доход и M - Memo. Тип счета используется для определения нужных налогов, если они применяются, а также для определения контрагентов как кредиторов и дебиторов. Помните: суммы Memo-счетов игнорируются, когда производится проверка баланса.</value>
+  <value column="Help" original="Valid account types are A - Asset, E - Expense, L - Liability, O- Owner's Equity, R -Revenue and M- Memo.  The account type is used to determine what taxes, if any are applicable, validating payables and receivables for business partners.  Note:  Memo account amounts are ignored when checking for balancing">Допустимыми типами счетов являются: A - Капитал, E - Расходы, L - Задолженность, O - Собственные средства, R - Доход и M - Memo. Тип счета используется для определения нужных налогов, если они применяются, а также для определения бизнес-партнёров как кредиторов и дебиторов. Помните: суммы Memo-счетов игнорируются, когда производится проверка баланса.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -477,7 +477,7 @@
   <value column="Name" original="Actual Life Time Value">Фактический доход</value>
   <value column="PrintName" original="Actual Life Time Value">Фактический доход</value>
   <value column="Description" original="Actual Life Time Revenue">Фактический доход от клиента</value>
-  <value column="Help" original="The Actual Life Time Value is the recorded revenue in primary accounting currency generated by the Business Partner.">Фактический доход - это записанная в первичном учете прибыль, получаемая от контрагента.</value>
+  <value column="Help" original="The Actual Life Time Value is the recorded revenue in primary accounting currency generated by the Business Partner.">Фактический доход - это записанная в первичном учете прибыль, получаемая от бизнес-партнёра.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -683,10 +683,10 @@
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="187" trl="Y">
-  <value column="Name" original="Business Partner ">Контрагент</value>
-  <value column="PrintName" original="Business Partner ">Контрагент</value>
-  <value column="Description" original="Identifies a Business Partner">Идентификация контрагента</value>
-  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson">Юридическое или физическое лицо, являющееся, наряду с Компанией, стороной правоотношений, регулируемых Договором. Отражает полную информацию о второй стороне, в том числе сканы документов (юридического лица/индивидуального предпринимателя или физическое лицо). Карточка «Контрагента» содержит поля, обязательные для заполнения в соответствии с данными Договора об оказании услуг юридического лица/индивидуального предпринимателя или физического лица. Может быть: Потенциальный покупатель, Покупатель, Поставщик, Агент, Сотрудник.</value>
+  <value column="Name" original="Business Partner ">Бизнес-партнёр</value>
+  <value column="PrintName" original="Business Partner ">Бизнес-партнёр</value>
+  <value column="Description" original="Identifies a Business Partner">Идентификация бизнес-партнёра</value>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson">Юридическое или физическое лицо, являющееся, наряду с Компанией, стороной правоотношений, регулируемых Договором. Отражает полную информацию о второй стороне, в том числе сканы документов (юридического лица/индивидуального предпринимателя или физическое лицо). Карточка «Бизнес-партнёра» содержит поля, обязательные для заполнения в соответствии с данными Договора об оказании услуг юридического лица/индивидуального предпринимателя или физического лица. Может быть: Потенциальный покупатель, Покупатель, Поставщик, Агент, Сотрудник.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -694,15 +694,15 @@
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="189" trl="Y">
-  <value column="Name" original="Partner Location">Адрес контрагента</value>
-  <value column="PrintName" original="Partner Location">Адрес контрагента</value>
-  <value column="Description" original="Identifies the (ship to) address for this Business Partner">Показывает адрес (для отгрузки) для этого контрагента</value>
-  <value column="Help" original="The Partner address indicates the location of a Business Partner">Адрес контрагента показывает его местоположение</value>
+  <value column="Name" original="Partner Location">Адрес бизнес-партнёра</value>
+  <value column="PrintName" original="Partner Location">Адрес бизнес-партнёра</value>
+  <value column="Description" original="Identifies the (ship to) address for this Business Partner">Показывает адрес (для отгрузки) для этого бизнес-партнёра</value>
+  <value column="Help" original="The Partner address indicates the location of a Business Partner">Адрес бизнес-партнёра показывает его местоположение</value>
   <value column="Placeholder" original=""/>
-  <value column="PO_Description" original="Identifies the (ship from) address for this Business Partner">Показывает адрес отгрузки для этого контрагента</value>
-  <value column="PO_Help" original="The Partner address indicates the location of a Business Partner">Адрес контрагента показывает его местоположение</value>
-  <value column="PO_Name" original="Partner Location">Адрес контрагента</value>
-  <value column="PO_PrintName" original="Partner Location">Адрес контрагента</value>
+  <value column="PO_Description" original="Identifies the (ship from) address for this Business Partner">Показывает адрес отгрузки для этого бизнес-партнёра</value>
+  <value column="PO_Help" original="The Partner address indicates the location of a Business Partner">Адрес бизнес-партнёра показывает его местоположение</value>
+  <value column="PO_Name" original="Partner Location">Адрес бизнес-партнёра</value>
+  <value column="PO_PrintName" original="Partner Location">Адрес бизнес-партнёра</value>
  </row>
  <row id="190" trl="Y">
   <value column="Name" original="Calendar">Календарь</value>
@@ -1967,7 +1967,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Help" original="There are two methods of making records unavailable in the system: One is to delete the record, the other is to de-activate the record. A de-activated record is not available for selection, but available for reports.&#10;There are two reasons for de-activating and not deleting records:&#10;(1) The system requires the record for audit purposes.&#10;(2) The record is referenced by other records. E.g., you cannot delete a Business Partner, if there are invoices for this partner record existing. You de-activate the Business Partner and prevent that this record is used for future entries.">Существует два способа сделать запись не доступной в системе: удалить запись или сделать её не активной (деактивировать). Деактивированная запись не доступна для выбора, но доступна в отчётах. 
 Есть две причины деактивировать, а не удалять запись:
 (1) запись нужна  в системе для целей аудита;
-(2) на запись ссылаются другие записи, например нельзя удалить Контрагента если есть записи о выписанных Счетах этому Контрагенту. Деактивация этой записи Контрагента не позволяет добавлять новые ссылки в будущем.</value>
+(2) на запись ссылаются другие записи, например нельзя удалить Бизнес-партнёра если есть записи о выписанных Счетах этому Бизнес-партнёру. Деактивация этой записи Бизнес-партнёра не позволяет добавлять новые ссылки в будущем.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -2407,11 +2407,11 @@ Data storage encryption (in Table/Column) - data is stored encrypted in the data
  <row id="409" trl="Y">
   <value column="Name" original="Sales Representative">Менеджер/Агент</value>
   <value column="PrintName" original="Sales Rep">Менеджер/Агент</value>
-  <value column="Description" original="Indicates if  the business partner is a sales representative or company agent">Показывает, является ли контрагент менеджером или агентом компании</value>
-  <value column="Help" original="The Sales Rep checkbox indicates if this business partner is a sales representative. A sales representative may also be an employee, but does not need to be.">Флажок показывает, является ли контрагент менеджером или агентом компании.</value>
+  <value column="Description" original="Indicates if  the business partner is a sales representative or company agent">Показывает, является ли бизнес-партнёр менеджером или агентом компании</value>
+  <value column="Help" original="The Sales Rep checkbox indicates if this business partner is a sales representative. A sales representative may also be an employee, but does not need to be.">Флажок показывает, является ли бизнес-партнёр менеджером или агентом компании.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original="Business Partner responsible for documents">Агент, ответственный за документы</value>
-  <value column="PO_Help" original="The Sales Rep checkbox indicates if this business partner is a company agent. A company agent may also be an employee, but does not need to be.">Показывает, является ли контрагент агентом компании.</value>
+  <value column="PO_Help" original="The Sales Rep checkbox indicates if this business partner is a company agent. A company agent may also be an employee, but does not need to be.">Показывает, является ли бизнес-партнёр агентом компании.</value>
   <value column="PO_Name" original="Company Agent">Агент компании</value>
   <value column="PO_PrintName" original="Company Agent">Агент компании</value>
  </row>
@@ -4039,10 +4039,10 @@ If you leave the search key empty, the system automatically creates a numeric nu
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="622" trl="Y">
-  <value column="Name" original="Partner Category">Категория контрагента</value>
-  <value column="PrintName" original="BPartner Category">Категория контрагента</value>
-  <value column="Description" original="Product Category of the Business Partner">Категория контрагента для данного продукта</value>
-  <value column="Help" original="The Business Partner Category identifies the category used by the Business Partner for this product.">Категория контрагента - идентифицирует категорию, используемую контрагентом для данного продукта.</value>
+  <value column="Name" original="Partner Category">Категория бизнес-партнёра</value>
+  <value column="PrintName" original="BPartner Category">Категория бизнес-партнёра</value>
+  <value column="Description" original="Product Category of the Business Partner">Категория бизнес-партнёра для данного продукта</value>
+  <value column="Help" original="The Business Partner Category identifies the category used by the Business Partner for this product.">Категория бизнес-партнёра - идентифицирует категорию, используемую бизнес-партнёром для данного продукта.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -4050,10 +4050,10 @@ If you leave the search key empty, the system automatically creates a numeric nu
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="623" trl="Y">
-  <value column="Name" original="Partner Product Key">Ключ товара контрагента</value>
-  <value column="PrintName" original="BPartner Product Key">Ключ товара контрагента</value>
-  <value column="Description" original="Product Key of the Business Partner">Ключ товара данного контрагента</value>
-  <value column="Help" original="The Business Partner Product Key identifies the number used by the Business Partner for this product. It can be printed on orders and invoices when you include the Product Key in the print format.">Ключ товара контрагента - идентифицирует номер, который использовал контрагент для этого товара. Номер может быть напечатан на заказах и инвойсах, когда вы включаете ключ товара в формат печати.</value>
+  <value column="Name" original="Partner Product Key">Ключ товара бизнес-партнёра</value>
+  <value column="PrintName" original="BPartner Product Key">Ключ товара бизнес-партнёра</value>
+  <value column="Description" original="Product Key of the Business Partner">Ключ товара данного бизнес-партнёра</value>
+  <value column="Help" original="The Business Partner Product Key identifies the number used by the Business Partner for this product. It can be printed on orders and invoices when you include the Product Key in the print format.">Ключ товара бизнес-партнёра - идентифицирует номер, который использовал бизнес-партнёр для этого товара. Номер может быть напечатан на заказах и инвойсах, когда вы включаете ключ товара в формат печати.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -4204,10 +4204,10 @@ If you leave the search key empty, the system automatically creates a numeric nu
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="837" trl="Y">
-  <value column="Name" original="Partner Bank Account">Банковский счет контрагента</value>
-  <value column="PrintName" original="Partner Bank Account">Банковский счет контрагента</value>
-  <value column="Description" original="Bank Account of the Business Partner">Банковский счет контрагента</value>
-  <value column="Help" original="The Partner Bank Account identifies the bank account to be used for this Business Partner">Банковский счет контрагента - идентифицирует банковский счет, который используется для этого контрагента</value>
+  <value column="Name" original="Partner Bank Account">Банковский счет бизнес-партнёра</value>
+  <value column="PrintName" original="Partner Bank Account">Банковский счет бизнес-партнёра</value>
+  <value column="Description" original="Bank Account of the Business Partner">Банковский счет бизнес-партнёра</value>
+  <value column="Help" original="The Partner Bank Account identifies the bank account to be used for this Business Partner">Банковский счет бизнес-партнёра - идентифицирует банковский счет, который используется для этого бизнес-партнёра</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -4626,8 +4626,8 @@ Due to rounding, the tax amount can differ.</value>
  <row id="925" trl="Y">
   <value column="Name" original="Pay-From Address">Платит с адреса</value>
   <value column="PrintName" original="Pay-From Address">Платит с адреса</value>
-  <value column="Description" original="Business Partner pays from that address and we'll send dunning letters there">Контрагент платит с этого адреса, письма с требованием необходимо отправлять на данный адрес</value>
-  <value column="Help" original="If the Pay-From Address is selected, this location is the address the Business Partner pays from and where dunning letters will be sent to.">Если Платит с адреса выбрано, то этот адрес является адресом, с которого контрагент будет осуществлять оплату и куда письма с требованием необходимо отправлять.</value>
+  <value column="Description" original="Business Partner pays from that address and we'll send dunning letters there">Бизнес-партнёр платит с этого адреса, письма с требованием необходимо отправлять на данный адрес</value>
+  <value column="Help" original="If the Pay-From Address is selected, this location is the address the Business Partner pays from and where dunning letters will be sent to.">Если Платит с адреса выбрано, то этот адрес является адресом, с которого бизнес-партнёр будет осуществлять оплату и куда письма с требованием необходимо отправлять.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -4648,7 +4648,7 @@ Due to rounding, the tax amount can differ.</value>
  <row id="927" trl="Y">
   <value column="Name" original="Remit-To Address">Перевод на адрес</value>
   <value column="PrintName" original="Remit-To Address">Перевод на адрес</value>
-  <value column="Description" original="Business Partner payment address">Адрес для оплаты контрагенту</value>
+  <value column="Description" original="Business Partner payment address">Адрес для оплаты бизнес-партнёру</value>
   <value column="Help" original="If the Remit-To Address is selected, the location is used to send payments to the vendor.">Если Перевод на адрес выбран, то этот адрес будет использоваться для отправки оплаты поставщику.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -4670,8 +4670,8 @@ Due to rounding, the tax amount can differ.</value>
  <row id="929" trl="Y">
   <value column="Name" original="Ship Address">Почтовый адрес</value>
   <value column="PrintName" original="Ship address">Почтовый адрес</value>
-  <value column="Description" original="Business Partner Shipment Address">Почтовый адрес контрагента</value>
-  <value column="Help" original="If the Ship Address is selected, the location is used to ship goods to a customer or receive goods from a vendor.">Если Адрес отгрузки выбран, то этот адрес используется для отгрузки товаров контрагенту или для получения товаров от поставщика.</value>
+  <value column="Description" original="Business Partner Shipment Address">Почтовый адрес бизнес-партнёра</value>
+  <value column="Help" original="If the Ship Address is selected, the location is used to ship goods to a customer or receive goods from a vendor.">Если Адрес отгрузки выбран, то этот адрес используется для отгрузки товаров бизнес-партнёру или для получения товаров от поставщика.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -7659,10 +7659,10 @@ Incoming receipts are stored at the location with the highest priority, if not e
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1383" trl="Y">
-  <value column="Name" original="Business Partner Group">Группа контрагентов</value>
-  <value column="PrintName" original="BPartner Group">Группа контрагентов</value>
-  <value column="Description" original="Business Partner Group">Группа контрагентов</value>
-  <value column="Help" original="The Business Partner Group provides a method of defining defaults to be used for individual Business Partners.">Группа контрагентов - предоставляет метод определения условий по умолчанию, которые будут применяться для конкретных контрагентов.</value>
+  <value column="Name" original="Business Partner Group">Группа бизнес-партнёров</value>
+  <value column="PrintName" original="BPartner Group">Группа бизнес-партнёров</value>
+  <value column="Description" original="Business Partner Group">Группа бизнес-партнёров</value>
+  <value column="Help" original="The Business Partner Group provides a method of defining defaults to be used for individual Business Partners.">Группа бизнес-партнёров - предоставляет метод определения условий по умолчанию, которые будут применяться для конкретных бизнес-партнёров.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -11922,9 +11922,9 @@ where the two last digits refer to minutes and the two or three first digits ind
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1837" trl="Y">
-  <value column="Name" original="BP Contact Greeting">Приветствие для контакта контрагента</value>
-  <value column="PrintName" original="BP Contact Greeting">Приветствие для контакта контрагента</value>
-  <value column="Description" original="Greeting for Business Partner Contact">Приветствие для контакта контрагента</value>
+  <value column="Name" original="BP Contact Greeting">Приветствие для контакта бизнес-партнёра</value>
+  <value column="PrintName" original="BP Contact Greeting">Приветствие для контакта бизнес-партнёра</value>
+  <value column="Description" original="Greeting for Business Partner Contact">Приветствие для контакта бизнес-партнёра</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -11933,9 +11933,9 @@ where the two last digits refer to minutes and the two or three first digits ind
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1838" trl="Y">
-  <value column="Name" original="BP Greeting">Приветствие для контрагента</value>
-  <value column="PrintName" original="BP Greeting">Приветствие для контрагента</value>
-  <value column="Description" original="Greeting for Business Partner">Приветствие для контрагента</value>
+  <value column="Name" original="BP Greeting">Приветствие для бизнес-партнёра</value>
+  <value column="PrintName" original="BP Greeting">Приветствие для бизнес-партнёра</value>
+  <value column="Description" original="Greeting for Business Partner">Приветствие для бизнес-партнёра</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -11946,7 +11946,7 @@ where the two last digits refer to minutes and the two or three first digits ind
  <row id="1839" trl="Y">
   <value column="Name" original="Contact Name">Наименование контакта</value>
   <value column="PrintName" original="Contact Name">Наименование контакта</value>
-  <value column="Description" original="Business Partner Contact Name">Наименование контакта контрагента</value>
+  <value column="Description" original="Business Partner Contact Name">Наименование контакта бизнес-партнёра</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -12321,10 +12321,10 @@ If all elements in a table column are NULL and if selected, the column is not pr
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1876" trl="Y">
-  <value column="Name" original="BP Search Key">Ключ поиска контрагента</value>
-  <value column="PrintName" original="Customer No">Идентификатор контрагента</value>
-  <value column="Description" original="Business Partner Key Value">Значение ключа поиска контрагента</value>
-  <value column="Help" original="Search Key of Business Partner">Значение ключа поиска контрагента</value>
+  <value column="Name" original="BP Search Key">Ключ поиска бизнес-партнёра</value>
+  <value column="PrintName" original="Customer No">Идентификатор бизнес-партнёра</value>
+  <value column="Description" original="Business Partner Key Value">Значение ключа поиска бизнес-партнёра</value>
+  <value column="Help" original="Search Key of Business Partner">Значение ключа поиска бизнес-партнёра</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -12585,10 +12585,10 @@ If all elements in a table column are NULL and if selected, the column is not pr
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1902" trl="Y">
-  <value column="Name" original="Partner ID">ИД контрагента</value>
-  <value column="PrintName" original="Partner ID">ИД контрагента</value>
-  <value column="Description" original="Partner ID or Account for the Payment Processor">ИД контрагента или счет для обработки платежей</value>
-  <value column="Help" original="Partner ID (Verisign) or Account ID (Optimal)">ИД контрагента (вариант) или ИД счета (оптимальный)</value>
+  <value column="Name" original="Partner ID">ИД бизнес-партнёра</value>
+  <value column="PrintName" original="Partner ID">ИД бизнес-партнёра</value>
+  <value column="Description" original="Partner ID or Account for the Payment Processor">ИД бизнес-партнёра или счет для обработки платежей</value>
+  <value column="Help" original="Partner ID (Verisign) or Account ID (Optimal)">ИД бизнес-партнёра (вариант) или ИД счета (оптимальный)</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -12629,9 +12629,9 @@ If all elements in a table column are NULL and if selected, the column is not pr
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1906" trl="Y">
-  <value column="Name" original="Business Partner Key">Ключ контрагента</value>
-  <value column="PrintName" original="Partner Key">Ключ контрагента</value>
-  <value column="Description" original="The Key of the Business Partner">Ключ контрагента</value>
+  <value column="Name" original="Business Partner Key">Ключ бизнес-партнёра</value>
+  <value column="PrintName" original="Partner Key">Ключ бизнес-партнёра</value>
+  <value column="Description" original="The Key of the Business Partner">Ключ бизнес-партнёра</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -12852,7 +12852,7 @@ If all elements in a table column are NULL and if selected, the column is not pr
   <value column="Name" original="Asset Delivery">Доставка имущества</value>
   <value column="PrintName" original="Asset Delivery">Доставка имущества</value>
   <value column="Description" original="Delivery of Asset">Доставка имущества</value>
-  <value column="Help" original="The availability of the asset to the business partner (customer).">Доступность (доставка) имущества для контрагента (покупателя).</value>
+  <value column="Help" original="The availability of the asset to the business partner (customer).">Доступность (доставка) имущества для бизнес-партнёра (покупателя).</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -13916,10 +13916,10 @@ If all elements in a table column are NULL and if selected, the column is not pr
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2031" trl="Y">
-  <value column="Name" original="Partner Parent">Владелец контрагента</value>
-  <value column="PrintName" original="Partner Parent">Владелец контрагента</value>
-  <value column="Description" original="Business Partner Parent">Владелец контрагента</value>
-  <value column="Help" original="The parent (organization) of the Business Partner for reporting purposes.">Организатор, учредитель контрагента для целей отчетности.</value>
+  <value column="Name" original="Partner Parent">Владелец бизнес-партнёра</value>
+  <value column="PrintName" original="Partner Parent">Владелец бизнес-партнёра</value>
+  <value column="Description" original="Business Partner Parent">Владелец бизнес-партнёра</value>
+  <value column="Help" original="The parent (organization) of the Business Partner for reporting purposes.">Организатор, учредитель бизнес-партнёра для целей отчетности.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -14004,10 +14004,10 @@ If all elements in a table column are NULL and if selected, the column is not pr
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2039" trl="Y">
-  <value column="Name" original="Invoice Partner">Контрагент счета</value>
-  <value column="PrintName" original="Invoice Partner">Контрагент счета</value>
-  <value column="Description" original="Business Partner to be invoiced">Контрагент для выставления счёта</value>
-  <value column="Help" original="If empty the shipment business partner will be invoiced">Если пустая, то будет выставляться счёт текущему контрагенту</value>
+  <value column="Name" original="Invoice Partner">Бизнес-партнёр счета</value>
+  <value column="PrintName" original="Invoice Partner">Бизнес-партнёр счета</value>
+  <value column="Description" original="Business Partner to be invoiced">Бизнес-партнёр для выставления счёта</value>
+  <value column="Help" original="If empty the shipment business partner will be invoiced">Если пустая, то будет выставляться счёт текущему бизнес-партнёру</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -14017,7 +14017,7 @@ If all elements in a table column are NULL and if selected, the column is not pr
  <row id="2040" trl="Y">
   <value column="Name" original="Invoice Location">Адрес счета</value>
   <value column="PrintName" original="Invoice Location">Адрес счета</value>
-  <value column="Description" original="Business Partner Location for invoicing">Адрес контрагента для выставления счета</value>
+  <value column="Description" original="Business Partner Location for invoicing">Адрес бизнес-партнёра для выставления счета</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -14028,7 +14028,7 @@ If all elements in a table column are NULL and if selected, the column is not pr
  <row id="2041" trl="Y">
   <value column="Name" original="Invoice Contact">Контакт счета</value>
   <value column="PrintName" original="Invoice Contact">Контакт счета</value>
-  <value column="Description" original="Business Partner Contact for invoicing">Контакт контрагента для выставления счета</value>
+  <value column="Description" original="Business Partner Contact for invoicing">Контакт бизнес-партнёра для выставления счета</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -14567,9 +14567,9 @@ If none is entered, the default printer is used. You specify your default printe
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2094" trl="Y">
-  <value column="Name" original="Business Partner Key">Ключ контрагента</value>
-  <value column="PrintName" original="Business Partner Key">Ключ контрагента</value>
-  <value column="Description" original="Key of the Business Partner">Ключ контрагента</value>
+  <value column="Name" original="Business Partner Key">Ключ бизнес-партнёра</value>
+  <value column="PrintName" original="Business Partner Key">Ключ бизнес-партнёра</value>
+  <value column="Description" original="Key of the Business Partner">Ключ бизнес-партнёра</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -16366,9 +16366,9 @@ You enable it by setting the COMPIERE_SECURE parameter of your Client and Server
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2266" trl="Y">
-  <value column="Name" original="Partner Tax ID">ИД налога контрагента</value>
-  <value column="PrintName" original="BP Tax TD">ИД налога контрагента</value>
-  <value column="Description" original="Tax ID of the Business Partner">ИД налога контрагента</value>
+  <value column="Name" original="Partner Tax ID">ИД налога бизнес-партнёра</value>
+  <value column="PrintName" original="BP Tax TD">ИД налога бизнес-партнёра</value>
+  <value column="Description" original="Tax ID of the Business Partner">ИД налога бизнес-партнёра</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -17215,8 +17215,8 @@ You enable it by setting the COMPIERE_SECURE parameter of your Client and Server
  <row id="2354" trl="Y">
   <value column="Name" original="Linked Organization">Связанная организация</value>
   <value column="PrintName" original="Linked Org">Связанная организация</value>
-  <value column="Description" original="The Business Partner is another Organization for explicit Inter-Org transactions">Контрагент другой организации для явной транзакции Inter-Org</value>
-  <value column="Help" original="The business partner is another organization in the system. So when performing transactions, the counter-document is created automatically. Example: You have BPartnerA linked to OrgA and BPartnerB linked to OrgB.  If you create a sales order for BPartnerB in OrgA a purchase order is created for BPartnerA in OrgB.  This allows to have explicit documents for Inter-Org transactions.">Этот контрагент является другой организацией в системе. Когда производятся транзакции - то счетчик документов создается автоматически. Например, вы имеете контрагента А, связанного с ОргА и контрагента Б, связанного с ОргБ. Если вы создаете sales order для контрагента Б в OrgA, то purchase order создается для контрагента А в ОргБ. Это позволяет иметь определенные документы для Inter-Org транзакций.</value>
+  <value column="Description" original="The Business Partner is another Organization for explicit Inter-Org transactions">Бизнес-партнёр другой организации для явной транзакции Inter-Org</value>
+  <value column="Help" original="The business partner is another organization in the system. So when performing transactions, the counter-document is created automatically. Example: You have BPartnerA linked to OrgA and BPartnerB linked to OrgB.  If you create a sales order for BPartnerB in OrgA a purchase order is created for BPartnerA in OrgB.  This allows to have explicit documents for Inter-Org transactions.">Этот бизнес-партнёр является другой организацией в системе. Когда производятся транзакции - то счетчик документов создается автоматически. Например, вы имеете бизнес-партнёра А, связанного с ОргА и бизнес-партнёра Б, связанного с ОргБ. Если вы создаете sales order для бизнес-партнёра Б в OrgA, то purchase order создается для бизнес-партнёра А в ОргБ. Это позволяет иметь определенные документы для Inter-Org транзакций.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -17411,10 +17411,10 @@ You enable it by setting the COMPIERE_SECURE parameter of your Client and Server
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2372" trl="Y">
-  <value column="Name" original="Partner Relation">Отношения контрагентов</value>
-  <value column="PrintName" original="Partner Relation">Отношения контрагентов</value>
-  <value column="Description" original="Business Partner Relation">Отношения контрагентов</value>
-  <value column="Help" original="Business Partner Relation allow to maintain Third Party Relationship rules: who receives invoices for shipments or pays for invoices.">Отношения контрагентов позволяют определять правила ведения трехсторонних отношений: кому выставляются счет-фактуры или кто их оплачивает.</value>
+  <value column="Name" original="Partner Relation">Отношения бизнес-партнёров</value>
+  <value column="PrintName" original="Partner Relation">Отношения бизнес-партнёров</value>
+  <value column="Description" original="Business Partner Relation">Отношения бизнес-партнёров</value>
+  <value column="Help" original="Business Partner Relation allow to maintain Third Party Relationship rules: who receives invoices for shipments or pays for invoices.">Отношения бизнес-партнёров позволяют определять правила ведения трехсторонних отношений: кому выставляются счет-фактуры или кто их оплачивает.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -17932,7 +17932,7 @@ If the ratio and quantity is not 0, the quantity is calculated based on the rati
  <row id="2421" trl="Y">
   <value column="Name" original="Payment Location">Адрес оплаты</value>
   <value column="PrintName" original="Payment Location">Адрес оплаты</value>
-  <value column="Description" original="Location of the Business Partner responsible for the payment">Адрес контрагента, ответственного за оплату</value>
+  <value column="Description" original="Location of the Business Partner responsible for the payment">Адрес бизнес-партнёра, ответственного за оплату</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -18877,8 +18877,8 @@ If you define a relationship here, you overwrite the default counter document ty
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2510" trl="Y">
-  <value column="Name" original="BP Name">Наименование Контрагента</value>
-  <value column="PrintName" original="BP Name">Наименование Контрагента</value>
+  <value column="Name" original="BP Name">Наименование Бизнес-партнёра</value>
+  <value column="PrintName" original="BP Name">Наименование Бизнес-партнёра</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -18888,8 +18888,8 @@ If you define a relationship here, you overwrite the default counter document ty
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2511" trl="Y">
-  <value column="Name" original="BP Name2">Название2 контрагента</value>
-  <value column="PrintName" original="BP Name2">Название2 контрагента</value>
+  <value column="Name" original="BP Name2">Название2 бизнес-партнёра</value>
+  <value column="PrintName" original="BP Name2">Название2 бизнес-партнёра</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -18923,7 +18923,7 @@ If you define a relationship here, you overwrite the default counter document ty
  <row id="2514" trl="Y">
   <value column="Name" original="Activity Tree">Дерево активности</value>
   <value column="PrintName" original="Activity Tree">Дерево активности</value>
-  <value column="Description" original="Trees are used for (financial) reporting">Дерево указывает иерархию контрагентов</value>
+  <value column="Description" original="Trees are used for (financial) reporting">Дерево указывает иерархию бизнес-партнёров</value>
   <value column="Help" original="Trees are used for (finanial) reporting">Деревья используются для (финансовой) отчетности</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -18934,7 +18934,7 @@ If you define a relationship here, you overwrite the default counter document ty
  <row id="2515" trl="Y">
   <value column="Name" original="Campaign Tree">Дерево компании</value>
   <value column="PrintName" original="Campaign Tree">Дерево компании</value>
-  <value column="Description" original="Trees are used for (financial) reporting">Дерево указывает иерархию контрагентов</value>
+  <value column="Description" original="Trees are used for (financial) reporting">Дерево указывает иерархию бизнес-партнёров</value>
   <value column="Help" original="Trees are used for (finanial) reporting">Деревья используются для (финансовой) отчетности</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -22018,9 +22018,9 @@ The web context usually starts with / and needs to be a valid context name (not 
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2810" trl="Y">
-  <value column="Name" original="BPartner (Agent)">Контрагент (ответственный)</value>
-  <value column="PrintName" original="BPartner (Agent)">Контрагент (ответственный)</value>
-  <value column="Description" original="Business Partner (Agent or Sales Rep)">Контрагент (менеджер/агент)</value>
+  <value column="Name" original="BPartner (Agent)">Бизнес-партнёр (ответственный)</value>
+  <value column="PrintName" original="BPartner (Agent)">Бизнес-партнёр (ответственный)</value>
+  <value column="Description" original="Business Partner (Agent or Sales Rep)">Бизнес-партнёр (менеджер/агент)</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -22294,10 +22294,10 @@ Note that you can over- or under-allocate the payment.  When processing the paym
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2835" trl="Y">
-  <value column="Name" original="Full BP Access">Полный доступ к контрагенту</value>
-  <value column="PrintName" original="Full BP Access">Полный доступ к контрагенту</value>
-  <value column="Description" original="The user/contact has full access to Business Partner information and resources">Пользователь/контакт будет иметь полный доступ к информации о контрагенте и ресурсам</value>
-  <value column="Help" original="If selected, the user has full access to the Business Partner (BP) information (Business Documents like Orders, Invoices - Requests) or resources (Assets, Downloads). If you deselect it, the user has no access rights unless, you explicitly grant it in tab &quot;BP Access&quot;">Если этот флажок установлен, пользователь имеет полный доступ к информации о контрагенте (бизнес - документы, такие как заказы, счета-фактуры, запросы) или к ресурсам (активы, загрузки). Если его снять, то у пользователя не будет прав доступа, если доступ явно не предоставлен во вкладке "Тип доступа".</value>
+  <value column="Name" original="Full BP Access">Полный доступ к бизнес-партнёру</value>
+  <value column="PrintName" original="Full BP Access">Полный доступ к бизнес-партнёру</value>
+  <value column="Description" original="The user/contact has full access to Business Partner information and resources">Пользователь/контакт будет иметь полный доступ к информации о бизнес-партнёре и ресурсам</value>
+  <value column="Help" original="If selected, the user has full access to the Business Partner (BP) information (Business Documents like Orders, Invoices - Requests) or resources (Assets, Downloads). If you deselect it, the user has no access rights unless, you explicitly grant it in tab &quot;BP Access&quot;">Если этот флажок установлен, пользователь имеет полный доступ к информации о бизнес-партнёре (бизнес - документы, такие как заказы, счета-фактуры, запросы) или к ресурсам (активы, загрузки). Если его снять, то у пользователя не будет прав доступа, если доступ явно не предоставлен во вкладке "Тип доступа".</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -22305,10 +22305,10 @@ Note that you can over- or under-allocate the payment.  When processing the paym
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2836" trl="Y">
-  <value column="Name" original="User BP Access">Доступ пользователя к контрагенту</value>
-  <value column="PrintName" original="User BP Access">Доступ пользователя к контрагенту</value>
-  <value column="Description" original="User/contact access to Business Partner information and resources">Доступ пользователя/контакта к информации и ресурсам контрагента</value>
-  <value column="Help" original="If on User level, &quot;Full BP Access&quot; is NOT selected, you need to give access explicitly here. ">Если на уровне пользователя не выбрано "Полный доступ к контрагенту", необходимо дать доступ в явном виде здесь. </value>
+  <value column="Name" original="User BP Access">Доступ пользователя к бизнес-партнёру</value>
+  <value column="PrintName" original="User BP Access">Доступ пользователя к бизнес-партнёру</value>
+  <value column="Description" original="User/contact access to Business Partner information and resources">Доступ пользователя/контакта к информации и ресурсам бизнес-партнёра</value>
+  <value column="Help" original="If on User level, &quot;Full BP Access&quot; is NOT selected, you need to give access explicitly here. ">Если на уровне пользователя не выбрано "Полный доступ к бизнес-партнёру", необходимо дать доступ в явном виде здесь. </value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -22318,8 +22318,8 @@ Note that you can over- or under-allocate the payment.  When processing the paym
  <row id="2837" trl="Y">
   <value column="Name" original="Access Type">Тип доступа</value>
   <value column="PrintName" original="Access Type">Тип доступа</value>
-  <value column="Description" original="Type of Access of the user/contact to Business Partner information and resources">Тип доступа пользователя/контакта к информации о контрагенте и ресурсам</value>
-  <value column="Help" original="If on User level, &quot;Full BP Access&quot; is NOT selected, give access explicitly">Если на уровне пользователя НЕ выбран "Полный доступ к контрагенту", задайте доступ явно.</value>
+  <value column="Description" original="Type of Access of the user/contact to Business Partner information and resources">Тип доступа пользователя/контакта к информации о бизнес-партнёре и ресурсам</value>
+  <value column="Help" original="If on User level, &quot;Full BP Access&quot; is NOT selected, give access explicitly">Если на уровне пользователя НЕ выбран "Полный доступ к бизнес-партнёру", задайте доступ явно.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -22774,7 +22774,7 @@ Accounting Segments like Organization, Account, Product may have several hierarc
   <value column="Name" original="Client Share">Разделение экземпляра</value>
   <value column="PrintName" original="Client Share">Разделение экземпляра</value>
   <value column="Description" original="Force (not) sharing of client/org entities">(Не) Принужденное разделение на сущности экземпляр/организация</value>
-  <value column="Help" original="For entities with data access level of Client+Organization either force to share the entries or not. Example: Product and Business Partner can be either defined on Client level (shared) or on Org level (not shared).  You can define here of Products are always shared (i.e. always created under Organization &quot;*&quot;) or if they are not shared (i.e. you cannot enter them with Organization &quot;*&quot;)">Для участников доступа к данным уровня экземпляр+организация оба форсированно имеют совместный доступ к записям или не имеют доступа. Например: товар и контрагент могут быть определены на уровне экземпляр (общий доступ) или на уровне организации (не общий доступ). Вы можете здесь определить товары, которые всегда являются общими (т.е. всегда создаются в организации "*") или они не являются общими (т.е. вы не можете вводить их в организации "*").</value>
+  <value column="Help" original="For entities with data access level of Client+Organization either force to share the entries or not. Example: Product and Business Partner can be either defined on Client level (shared) or on Org level (not shared).  You can define here of Products are always shared (i.e. always created under Organization &quot;*&quot;) or if they are not shared (i.e. you cannot enter them with Organization &quot;*&quot;)">Для участников доступа к данным уровня экземпляр+организация оба форсированно имеют совместный доступ к записям или не имеют доступа. Например: товар и бизнес-партнёр могут быть определены на уровне экземпляр (общий доступ) или на уровне организации (не общий доступ). Вы можете здесь определить товары, которые всегда являются общими (т.е. всегда создаются в организации "*") или они не являются общими (т.е. вы не можете вводить их в организации "*").</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -28600,10 +28600,10 @@ http://en.wikipedia.org/wiki/Safety_stock</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53458" trl="Y">
-  <value column="Name" original="Drop Ship Business Partner">Контрагент для прямой поставки</value>
-  <value column="PrintName" original="Drop Ship Business Partner">Контрагент для прямой поставки</value>
-  <value column="Description" original="Business Partner to ship to">Контрагент, которому нужно отгрузить</value>
-  <value column="Help" original="If empty the business partner will be shipped to.">Если поле пусто (не заполнено), то будет прямая доставка контрагенту. Если заполнено - то доставка до указанного адреса.</value>
+  <value column="Name" original="Drop Ship Business Partner">Бизнес-партнёр для прямой поставки</value>
+  <value column="PrintName" original="Drop Ship Business Partner">Бизнес-партнёр для прямой поставки</value>
+  <value column="Description" original="Business Partner to ship to">Бизнес-партнёр, которому нужно отгрузить</value>
+  <value column="Help" original="If empty the business partner will be shipped to.">Если поле пусто (не заполнено), то будет прямая доставка бизнес-партнёру. Если заполнено - то доставка до указанного адреса.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -28613,7 +28613,7 @@ http://en.wikipedia.org/wiki/Safety_stock</value>
  <row id="53459" trl="Y">
   <value column="Name" original="Drop Shipment Location">Адрес для прямой поставки</value>
   <value column="PrintName" original="Drop Shipment Location">Адрес для прямой поставки</value>
-  <value column="Description" original="Business Partner Location for shipping to">Местонахождение контрагента для прямой поставки</value>
+  <value column="Description" original="Business Partner Location for shipping to">Местонахождение бизнес-партнёра для прямой поставки</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -28624,7 +28624,7 @@ http://en.wikipedia.org/wiki/Safety_stock</value>
  <row id="53460" trl="Y">
   <value column="Name" original="Drop Shipment Contact">Контакт для прямой поставки</value>
   <value column="PrintName" original="Drop Shipment Contact">Контакт для прямой поставки</value>
-  <value column="Description" original="Business Partner Contact for drop shipment">Контактные данные контрагента для прямой поставки</value>
+  <value column="Description" original="Business Partner Contact for drop shipment">Контактные данные бизнес-партнёра для прямой поставки</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -31705,9 +31705,9 @@ Credit Work in Process Account ]]></value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53824" trl="Y">
-  <value column="Name" original="Business Partner Dimension">Размерность контрагента</value>
-  <value column="PrintName" original="Business Partner Dimension">Размерность контрагента</value>
-  <value column="Description" original="Include Business Partner as a cube dimension">Включить контрагента в измерение куба (OLAP)</value>
+  <value column="Name" original="Business Partner Dimension">Размерность бизнес-партнёра</value>
+  <value column="PrintName" original="Business Partner Dimension">Размерность бизнес-партнёра</value>
+  <value column="Description" original="Include Business Partner as a cube dimension">Включить бизнес-партнёра в измерение куба (OLAP)</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -41620,8 +41620,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="55222" trl="Y">
-  <value column="Name" original="Business Partner Price">Прайс контрагента</value>
-  <value column="PrintName" original="Business Partner Price">Прайс контрагента</value>
+  <value column="Name" original="Business Partner Price">Прайс бизнес-партнёра</value>
+  <value column="PrintName" original="Business Partner Price">Прайс бизнес-партнёра</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -41983,9 +41983,9 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="55355" trl="Y">
-  <value column="Name" original="BP Address">Адрес контрагента</value>
-  <value column="PrintName" original="BP Address">Адрес контрагента</value>
-  <value column="Description" original="Address of the Business Partner">Адрес контрагента</value>
+  <value column="Name" original="BP Address">Адрес бизнес-партнёра</value>
+  <value column="PrintName" original="BP Address">Адрес бизнес-партнёра</value>
+  <value column="Description" original="Address of the Business Partner">Адрес бизнес-партнёра</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -43105,8 +43105,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200142" trl="Y">
-  <value column="Name" original="BP Column">Столбец контрагента</value>
-  <value column="PrintName" original="BP Column">Столбец контрагента</value>
+  <value column="Name" original="BP Column">Столбец бизнес-партнёра</value>
+  <value column="PrintName" original="BP Column">Столбец бизнес-партнёра</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -44535,8 +44535,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200306" trl="Y">
-  <value column="Name" original="Business Partner Shipping Account">Счета доставки контрагента</value>
-  <value column="PrintName" original="Business Partner Shipping Account">Счета доставки контрагента</value>
+  <value column="Name" original="Business Partner Shipping Account">Счета доставки бизнес-партнёра</value>
+  <value column="PrintName" original="Business Partner Shipping Account">Счета доставки бизнес-партнёра</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -59099,8 +59099,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202254" trl="Y">
-  <value column="Name" original="Business Partner">Контрагент</value>
-  <value column="PrintName" original="Business Partner">Контрагент</value>
+  <value column="Name" original="Business Partner">Бизнес-партнёр</value>
+  <value column="PrintName" original="Business Partner">Бизнес-партнёр</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -59451,8 +59451,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202286" trl="Y">
-  <value column="Name" original="BP Code">Код контрагента</value>
-  <value column="PrintName" original="BP Code">Код контрагента</value>
+  <value column="Name" original="BP Code">Код бизнес-партнёра</value>
+  <value column="PrintName" original="BP Code">Код бизнес-партнёра</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -59462,8 +59462,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202287" trl="Y">
-  <value column="Name" original="BP Code and Name">Код и имя контрагента</value>
-  <value column="PrintName" original="BP Code and Name">Код и имя контрагента</value>
+  <value column="Name" original="BP Code and Name">Код и имя бизнес-партнёра</value>
+  <value column="PrintName" original="BP Code and Name">Код и имя бизнес-партнёра</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -59473,8 +59473,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202288" trl="Y">
-  <value column="Name" original="BP Group Name">Имя группы контрагентов</value>
-  <value column="PrintName" original="BP Group Name">Имя группы контрагентов</value>
+  <value column="Name" original="BP Group Name">Имя группы бизнес-партнёров</value>
+  <value column="PrintName" original="BP Group Name">Имя группы бизнес-партнёров</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -60391,8 +60391,8 @@ if this field is left empty a default title/label is created using the DocumentN
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202616" trl="Y">
-  <value column="Name" original="Business Partner Type">Тип контрагента</value>
-  <value column="PrintName" original="Business Partner Type">Тип контрагента</value>
+  <value column="Name" original="Business Partner Type">Тип бизнес-партнёра</value>
+  <value column="PrintName" original="Business Partner Type">Тип бизнес-партнёра</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -61814,7 +61814,7 @@ Example this value = 60. user can't reuse password in history has age < 60
  </row>
  <row id="203147" trl="Y">
   <value column="Name" original="Preserve custom name">Отобразить название адреса</value>
-  <value column="PrintName" original="Preserve custom name">Отобразить название адреса в карточке контрагента</value>
+  <value column="PrintName" original="Preserve custom name">Отобразить название адреса в карточке бизнес-партнёра</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -62330,8 +62330,8 @@ Example this value = 60. user can't reuse password in history has age < 60
   <value column="PO_PrintName" original=""/>
  </row>
  <row trl="Y" uuid="d52d92b8-6ce2-492a-a725-c7f4b340fa0f">
-  <value column="Name" original="RIT Client C_BPartner_ID">Контрагент, сторона Договора</value>
-  <value column="PrintName" original="RIT Client C_BPartner_ID">Контрагент, сторона Договора</value>
+  <value column="Name" original="RIT Client C_BPartner_ID">Бизнес-партнёр, сторона Договора</value>
+  <value column="PrintName" original="RIT Client C_BPartner_ID">Бизнес-партнёр, сторона Договора</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -62341,8 +62341,8 @@ Example this value = 60. user can't reuse password in history has age < 60
   <value column="PO_PrintName" original=""/>
  </row>
  <row trl="Y" uuid="16a11cd1-5212-4731-ab8a-a9a8bfca7b6b">
-  <value column="Name" original="RIT Consignee C_BPartner_ID">Контрагент, Грузополучатель</value>
-  <value column="PrintName" original="RIT Consignee C_BPartner_ID">Контрагент, Грузополучатель</value>
+  <value column="Name" original="RIT Consignee C_BPartner_ID">Бизнес-партнёр, Грузополучатель</value>
+  <value column="PrintName" original="RIT Consignee C_BPartner_ID">Бизнес-партнёр, Грузополучатель</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -62352,8 +62352,8 @@ Example this value = 60. user can't reuse password in history has age < 60
   <value column="PO_PrintName" original=""/>
  </row>
  <row trl="Y" uuid="6fb2b283-3f9e-4334-b6af-1fb0d908bf3a">
-  <value column="Name" original="RIT Payer C_BPartner_ID">Контрагент, Плательщик</value>
-  <value column="PrintName" original="RIT Payer C_BPartner_ID">Контрагент, Плательщик</value>
+  <value column="Name" original="RIT Payer C_BPartner_ID">Бизнес-партнёр, Плательщик</value>
+  <value column="PrintName" original="RIT Payer C_BPartner_ID">Бизнес-партнёр, Плательщик</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -62385,8 +62385,8 @@ Example this value = 60. user can't reuse password in history has age < 60
   <value column="PO_PrintName" original=""/>
  </row>
  <row trl="Y" uuid="69596237-a6e3-4daf-98b4-f348305874af">
-  <value column="Name" original="RIT Client AD_User_ID">Подписант со стороны Контрагента</value>
-  <value column="PrintName" original="RIT Client AD_User_ID">Подписант со стороны Контрагента</value>
+  <value column="Name" original="RIT Client AD_User_ID">Подписант со стороны Бизнес-партнёра</value>
+  <value column="PrintName" original="RIT Client AD_User_ID">Подписант со стороны Бизнес-партнёра</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
