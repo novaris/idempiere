@@ -31,11 +31,33 @@ Note: This email address cannot accept replies.]]></value>
   <value column="MailText2" original=""/>
   <value column="MailText3" original=""/>
  </row>
- <row trl="N" uuid="9914d938-0b2c-458a-bda7-4f29e37f39ae">
-  <value column="MailText" original="Добрый день, уважажаемый клиент @Name@">Добрый день, уважажаемый клиент @Name@</value>
+ <row trl="Y" uuid="9914d938-0b2c-458a-bda7-4f29e37f39ae">
+  <value column="MailText" original="Добрый день, уважаемый клиент @Name@&#10;">Добрый день, уважаемый клиент @Name@
+</value>
   <value column="Name" original="Сообщение клиенту о обращении">Сообщение клиенту о обращении</value>
   <value column="MailHeader" original="Обращение @Name@ для услуги">Обращение @Name@ для услуги</value>
+  <value column="MailText2" original=" "> </value>
+  <value column="MailText3" original=""/>
+ </row>
+ <row trl="Y" uuid="91d38b06-9323-42e7-94af-1d09ceeef020">
+  <value column="MailText" original="Планировщик отработал">Планировщик отработал</value>
+  <value column="Name" original="Результат обработки Планировщика. Обработка почтовых сообщен">Результат обработки Планировщика. Обработка почтовых сообщен</value>
+  <value column="MailHeader" original="Планировщик ">Планировщик </value>
   <value column="MailText2" original=""/>
   <value column="MailText3" original=""/>
+ </row>
+ <row trl="Y" uuid="7d74ec55-706f-48f6-9e24-d746d07eaeca">
+  <value column="MailText" original="Уважаемый @name@!  ">Уважаемый @name@!  </value>
+  <value column="Name" original="Шаблон письма клиенту с рекламным вложением">Шаблон письма клиенту с рекламным вложением</value>
+  <value column="MailHeader" original="Оповещение о оплате">Оповещение о оплате</value>
+  <value column="MailText2" original=""/>
+  <value column="MailText3" original=""/>
+ </row>
+ <row trl="Y" uuid="19a46696-9c28-4cf3-8bee-96115dea605e">
+  <value column="MailText" original="Уважаемый клиент @Name@!   Информируем Вас, что в период с 25 марта 2019 по 29 марта 2019 техническая поддержка сайт будет функционировать в круглосуточном режиме за исключением времени проведения регламентных работ.">Уважаемый клиент @Name@!   Информируем Вас, что в период с 25 марта 2019 по 29 марта 2019 техническая поддержка сайт будет функционировать в круглосуточном режиме за исключением времени проведения регламентных работ.</value>
+  <value column="Name" original="Информационное письмо">Информационное письмо</value>
+  <value column="MailHeader" original="Информационное письмо ">Информационное письмо </value>
+  <value column="MailText2" original="Текст 2-ой  EMAIL из шаблона письма ">Текст 2-ой  EMAIL из шаблона письма </value>
+  <value column="MailText3" original="Текст 3-ой  EMAIL из шаблона письма ">Текст 3-ой  EMAIL из шаблона письма </value>
  </row>
 </idempiereTrl>

@@ -45,7 +45,7 @@
   <value column="Description" original="Equipment">Equipment</value>
   <value column="Help" original="Light equipment including  test equipment and computers">Light equipment including  test equipment and computers</value>
  </row>
- <row trl="N" uuid="3ab2fd49-5388-4581-8017-fd3d5ae39188">
+ <row trl="Y" uuid="3ab2fd49-5388-4581-8017-fd3d5ae39188">
   <value column="Name" original="Оборудование SENSAT">Оборудование SENSAT</value>
   <value column="Description" original="Оборудование SENSAT">Оборудование SENSAT</value>
   <value column="Help" original="Оборудование SENSAT">Оборудование SENSAT</value>

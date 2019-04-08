@@ -250,82 +250,82 @@
   <value column="PrintName" original="Cost Adjustment">Cost Adjustment</value>
   <value column="DocumentNote" original=""/>
  </row>
- <row trl="N" uuid="52fb79e9-cc91-420e-9e95-534ef8280941">
+ <row trl="Y" uuid="52fb79e9-cc91-420e-9e95-534ef8280941">
   <value column="Name" original="GL Journal">GL Journal</value>
   <value column="PrintName" original="Журнал главной книги">Журнал главной книги</value>
   <value column="DocumentNote" original=""/>
  </row>
- <row trl="N" uuid="bbdac88f-2d23-4d2c-95d7-7b69b67cd260">
+ <row trl="Y" uuid="bbdac88f-2d23-4d2c-95d7-7b69b67cd260">
   <value column="Name" original="GL Journal Batch">GL Journal Batch</value>
   <value column="PrintName" original="Пакет журналов">Пакет журналов</value>
   <value column="DocumentNote" original=""/>
  </row>
- <row trl="N" uuid="2f200488-a851-48f0-8100-2b4ab5359c19">
+ <row trl="Y" uuid="2f200488-a851-48f0-8100-2b4ab5359c19">
   <value column="Name" original="AR Invoice">AR Invoice</value>
   <value column="PrintName" original="Документ обязательств (исходящий)">Документ обязательств (исходящий)</value>
   <value column="DocumentNote" original=""/>
  </row>
- <row trl="N" uuid="c63cfec1-b0e4-4c3a-9999-bce8e47452b8">
+ <row trl="Y" uuid="c63cfec1-b0e4-4c3a-9999-bce8e47452b8">
   <value column="Name" original="AR Invoice Indirect">AR Invoice Indirect</value>
   <value column="PrintName" original="Документ обязательств (исходящий)">Документ обязательств (исходящий)</value>
   <value column="DocumentNote" original=""/>
  </row>
- <row trl="N" uuid="cad857b5-f743-422c-9c42-77342cd1789d">
+ <row trl="Y" uuid="cad857b5-f743-422c-9c42-77342cd1789d">
   <value column="Name" original="AR Credit Memo">AR Credit Memo</value>
   <value column="PrintName" original="Снижение задолженности">Снижение задолженности</value>
   <value column="DocumentNote" original=""/>
  </row>
- <row trl="N" uuid="237e984d-10d3-4377-8571-bb673463c147">
+ <row trl="Y" uuid="237e984d-10d3-4377-8571-bb673463c147">
   <value column="Name" original="AP Invoice">AP Invoice</value>
   <value column="PrintName" original="Документ обязательств (исходящий)">Документ обязательств (исходящий)</value>
   <value column="DocumentNote" original=""/>
  </row>
- <row trl="N" uuid="9f2b818b-116c-47be-a3f3-a553f5ac672b">
+ <row trl="Y" uuid="9f2b818b-116c-47be-a3f3-a553f5ac672b">
   <value column="Name" original="AP CreditMemo">AP CreditMemo</value>
   <value column="PrintName" original="Снижение задолженности">Снижение задолженности</value>
   <value column="DocumentNote" original=""/>
  </row>
- <row trl="N" uuid="ce9cb9c5-a224-47ad-ab0e-f05b0a67d720">
+ <row trl="Y" uuid="ce9cb9c5-a224-47ad-ab0e-f05b0a67d720">
   <value column="Name" original="Match Invoice">Match Invoice</value>
   <value column="PrintName" original="Соотнесение ДО">Соотнесение ДО</value>
   <value column="DocumentNote" original=""/>
  </row>
- <row trl="N" uuid="da0e03ce-9852-4677-ad4f-29fbd43eff2b">
+ <row trl="Y" uuid="da0e03ce-9852-4677-ad4f-29fbd43eff2b">
   <value column="Name" original="AR Receipt">AR Receipt</value>
   <value column="PrintName" original="Платеж">Платеж</value>
   <value column="DocumentNote" original=""/>
  </row>
- <row trl="N" uuid="87a199a3-2c40-475c-a94f-d37474b604b7">
+ <row trl="Y" uuid="87a199a3-2c40-475c-a94f-d37474b604b7">
   <value column="Name" original="AP Payment">AP Payment</value>
   <value column="PrintName" original="Платеж">Платеж</value>
   <value column="DocumentNote" original=""/>
  </row>
- <row trl="N" uuid="0d9c6513-885b-4528-a8ba-e8d8fb5499f9">
+ <row trl="Y" uuid="0d9c6513-885b-4528-a8ba-e8d8fb5499f9">
   <value column="Name" original="Allocation">Allocation</value>
   <value column="PrintName" original="Allocation">Allocation</value>
   <value column="DocumentNote" original=""/>
  </row>
- <row trl="N" uuid="50607e5f-95e1-434c-ab08-b8187e7eb19b">
+ <row trl="Y" uuid="50607e5f-95e1-434c-ab08-b8187e7eb19b">
   <value column="Name" original="MM Shipment">MM Shipment</value>
   <value column="PrintName" original="Delivery Note">Delivery Note</value>
   <value column="DocumentNote" original=""/>
  </row>
- <row trl="N" uuid="c37b0999-9b6c-408a-9cc1-b8eef78d6d99">
+ <row trl="Y" uuid="c37b0999-9b6c-408a-9cc1-b8eef78d6d99">
   <value column="Name" original="MM Shipment Indirect">MM Shipment Indirect</value>
   <value column="PrintName" original="Delivery Note">Delivery Note</value>
   <value column="DocumentNote" original=""/>
  </row>
- <row trl="N" uuid="d24e5034-59e9-4a80-950b-1e83e955f405">
+ <row trl="Y" uuid="d24e5034-59e9-4a80-950b-1e83e955f405">
   <value column="Name" original="MM Vendor Return">MM Vendor Return</value>
   <value column="PrintName" original="Vendor Return">Vendor Return</value>
   <value column="DocumentNote" original=""/>
  </row>
- <row trl="N" uuid="faa3fa43-6b3e-4e8e-9d85-a3622176b608">
+ <row trl="Y" uuid="faa3fa43-6b3e-4e8e-9d85-a3622176b608">
   <value column="Name" original="MM Receipt">MM Receipt</value>
   <value column="PrintName" original="Vendor Delivery">Vendor Delivery</value>
   <value column="DocumentNote" original=""/>
  </row>
- <row trl="N" uuid="386453ac-882f-44cb-aea6-1bb547dcea23">
+ <row trl="Y" uuid="386453ac-882f-44cb-aea6-1bb547dcea23">
   <value column="Name" original="MM Customer Return">MM Customer Return</value>
   <value column="PrintName" original="Customer Return">Customer Return</value>
   <value column="DocumentNote" original=""/>
@@ -350,27 +350,27 @@
   <value column="PrintName" original="Подтверждение возврата материала поставщику">Подтверждение возврата материала поставщику</value>
   <value column="DocumentNote" original=""/>
  </row>
- <row trl="N" uuid="484c8591-d5be-4d2c-b492-26f437c47eda">
+ <row trl="Y" uuid="484c8591-d5be-4d2c-b492-26f437c47eda">
   <value column="Name" original="Bank Statement">Bank Statement</value>
   <value column="PrintName" original="Bank Statement">Bank Statement</value>
   <value column="DocumentNote" original=""/>
  </row>
- <row trl="N" uuid="91d4284c-1b55-4da3-ab6c-4215e7f5a306">
+ <row trl="Y" uuid="91d4284c-1b55-4da3-ab6c-4215e7f5a306">
   <value column="Name" original="Cash Journal">Cash Journal</value>
   <value column="PrintName" original="Кассовый журнал">Кассовый журнал</value>
   <value column="DocumentNote" original=""/>
  </row>
- <row trl="N" uuid="a858cccb-6b57-4e0c-8dc0-22974d6a3112">
+ <row trl="Y" uuid="a858cccb-6b57-4e0c-8dc0-22974d6a3112">
   <value column="Name" original="Material Movement">Material Movement</value>
   <value column="PrintName" original="Перемещение инвентаря">Перемещение инвентаря</value>
   <value column="DocumentNote" original=""/>
  </row>
- <row trl="N" uuid="0e36d011-959b-46e9-99a2-683dd3674d8b">
+ <row trl="Y" uuid="0e36d011-959b-46e9-99a2-683dd3674d8b">
   <value column="Name" original="Physical Inventory">Physical Inventory</value>
   <value column="PrintName" original="Инвентаризация запасов">Инвентаризация запасов</value>
   <value column="DocumentNote" original=""/>
  </row>
- <row trl="N" uuid="baab65cd-29c8-4dbb-8b1d-9901cb9b6ca1">
+ <row trl="Y" uuid="baab65cd-29c8-4dbb-8b1d-9901cb9b6ca1">
   <value column="Name" original="Material Production">Material Production</value>
   <value column="PrintName" original="Производство">Производство</value>
   <value column="DocumentNote" original=""/>
@@ -380,12 +380,12 @@
   <value column="PrintName" original="Проблема проекта">Проблема проекта</value>
   <value column="DocumentNote" original=""/>
  </row>
- <row trl="N" uuid="bf1f3ee5-8739-432e-8da3-f872df669b21">
+ <row trl="Y" uuid="bf1f3ee5-8739-432e-8da3-f872df669b21">
   <value column="Name" original="Internal Use Inventory">Internal Use Inventory</value>
   <value column="PrintName" original="Internal Use Inventory">Internal Use Inventory</value>
   <value column="DocumentNote" original=""/>
  </row>
- <row trl="N" uuid="64591520-5651-46ed-80cc-bb022c2cc8b7">
+ <row trl="Y" uuid="64591520-5651-46ed-80cc-bb022c2cc8b7">
   <value column="Name" original="Cost Adjustment">Cost Adjustment</value>
   <value column="PrintName" original="Cost Adjustment">Cost Adjustment</value>
   <value column="DocumentNote" original=""/>
@@ -430,7 +430,7 @@
   <value column="PrintName" original="Заказ на производство">Заказ на производство</value>
   <value column="DocumentNote" original=""/>
  </row>
- <row trl="N" uuid="6945d833-b9e2-4eaf-b8a8-24fc3f52720e">
+ <row trl="Y" uuid="6945d833-b9e2-4eaf-b8a8-24fc3f52720e">
   <value column="Name" original="Manufacturing Cost Collector">Manufacturing Cost Collector</value>
   <value column="PrintName" original="Cost Collector">Cost Collector</value>
   <value column="DocumentNote" original=""/>
@@ -440,17 +440,17 @@
   <value column="PrintName" original="Заказ на обслуживание">Заказ на обслуживание</value>
   <value column="DocumentNote" original=""/>
  </row>
- <row trl="N" uuid="c696f186-91ab-428d-8c50-9f42edfcf9db">
+ <row trl="Y" uuid="c696f186-91ab-428d-8c50-9f42edfcf9db">
   <value column="Name" original="Quality Order">Quality Order</value>
   <value column="PrintName" original="Quality Order">Quality Order</value>
   <value column="DocumentNote" original=""/>
  </row>
- <row trl="N" uuid="c539e76a-b4ea-44dd-a874-cbe2bc0225f3">
+ <row trl="Y" uuid="c539e76a-b4ea-44dd-a874-cbe2bc0225f3">
   <value column="Name" original="Distribution Order">Distribution Order</value>
   <value column="PrintName" original="Distribution Order">Distribution Order</value>
   <value column="DocumentNote" original=""/>
  </row>
- <row trl="N" uuid="dbf09f2d-3b43-416d-ae38-800ebd29577a">
+ <row trl="Y" uuid="dbf09f2d-3b43-416d-ae38-800ebd29577a">
   <value column="Name" original="Payroll">Payroll</value>
   <value column="PrintName" original="Payroll">Payroll</value>
   <value column="DocumentNote" original=""/>
@@ -460,27 +460,27 @@
   <value column="PrintName" original="Подтверждение заказа">Подтверждение заказа</value>
   <value column="DocumentNote" original=""/>
  </row>
- <row trl="N" uuid="5e65936c-c9dd-4815-8012-8bd8d193849d">
+ <row trl="Y" uuid="5e65936c-c9dd-4815-8012-8bd8d193849d">
   <value column="Name" original="AR Pro Forma Invoice">AR Pro Forma Invoice</value>
   <value column="PrintName" original="AR Pro Forma Invoice">AR Pro Forma Invoice</value>
   <value column="DocumentNote" original=""/>
  </row>
- <row trl="N" uuid="5ac4276d-7449-4b5c-9bcb-9f002ef2f8b0">
+ <row trl="Y" uuid="5ac4276d-7449-4b5c-9bcb-9f002ef2f8b0">
   <value column="Name" original="GL Document">GL Document</value>
   <value column="PrintName" original="GL Document">GL Document</value>
   <value column="DocumentNote" original=""/>
  </row>
- <row trl="N" uuid="98cc03f9-9e59-46ba-8732-e8ee0c67f849">
+ <row trl="Y" uuid="98cc03f9-9e59-46ba-8732-e8ee0c67f849">
   <value column="Name" original="Fixed Assets Disposal">Fixed Assets Disposal</value>
   <value column="PrintName" original="Fixed Assets Disposal">Fixed Assets Disposal</value>
   <value column="DocumentNote" original=""/>
  </row>
- <row trl="N" uuid="756baae6-22ce-4eec-81c8-a2689d619360">
+ <row trl="Y" uuid="756baae6-22ce-4eec-81c8-a2689d619360">
   <value column="Name" original="Fixed Assets Addition">Fixed Assets Addition</value>
   <value column="PrintName" original="Fixed Assets Addition">Fixed Assets Addition</value>
   <value column="DocumentNote" original=""/>
  </row>
- <row trl="N" uuid="9cc14344-1648-4ead-9358-2c5bd33d0c42">
+ <row trl="Y" uuid="9cc14344-1648-4ead-9358-2c5bd33d0c42">
   <value column="Name" original="Fixed Assets Depreciation">Fixed Assets Depreciation</value>
   <value column="PrintName" original="Fixed Assets Depreciation">Fixed Assets Depreciation</value>
   <value column="DocumentNote" original=""/>

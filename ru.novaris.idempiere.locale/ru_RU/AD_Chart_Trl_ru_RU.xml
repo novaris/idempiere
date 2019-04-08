@@ -24,4 +24,10 @@
   <value column="DomainLabel" original=""/>
   <value column="RangeLabel" original=""/>
  </row>
+ <row trl="N" uuid="9b590de4-be25-4915-bb1e-3d36d62157a8">
+  <value column="Name" original="Lead status duration">Lead status duration</value>
+  <value column="Description" original=""/>
+  <value column="DomainLabel" original="Lead"/>
+  <value column="RangeLabel" original="leadStatus">Value</value>
+ </row>
 </idempiereTrl>

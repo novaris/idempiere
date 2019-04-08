@@ -270,17 +270,17 @@
   <value column="Description" original=""/>
   <value column="DocumentNote" original=""/>
  </row>
- <row trl="N" uuid="53706ffc-c7bf-47c0-954e-eaf98d3097c8">
+ <row trl="Y" uuid="53706ffc-c7bf-47c0-954e-eaf98d3097c8">
   <value column="Name" original="ЦОД и облачные сервисы">ЦОД и облачные сервисы</value>
   <value column="Description" original=""/>
   <value column="DocumentNote" original=""/>
  </row>
- <row trl="N" uuid="2ae8773c-b894-4205-86af-b20fae9d4cc5">
+ <row trl="Y" uuid="2ae8773c-b894-4205-86af-b20fae9d4cc5">
   <value column="Name" original="Спутниковая связь">Спутниковая связь</value>
   <value column="Description" original=""/>
   <value column="DocumentNote" original=""/>
  </row>
- <row trl="N" uuid="e8bc475c-88d3-4853-9a4a-9f3ea599d78e">
+ <row trl="Y" uuid="e8bc475c-88d3-4853-9a4a-9f3ea599d78e">
   <value column="Name" original="Норильск">Норильск</value>
   <value column="Description" original=""/>
   <value column="DocumentNote" original=""/>
@@ -310,12 +310,12 @@
   <value column="Description" original="Комплект оборудования УСИЛЕННЫЙ">Комплект оборудования УСИЛЕННЫЙ</value>
   <value column="DocumentNote" original=""/>
  </row>
- <row trl="N" uuid="2ce4cb5f-5bae-4ed8-8fcf-c24d42c61b96">
+ <row trl="Y" uuid="2ce4cb5f-5bae-4ed8-8fcf-c24d42c61b96">
   <value column="Name" original="Комплект СПЕЦИАЛЬНЫЙ">Комплект СПЕЦИАЛЬНЫЙ</value>
   <value column="Description" original="Комплект оборудования СПЕЦИАЛЬНЫЙ">Комплект оборудования СПЕЦИАЛЬНЫЙ</value>
   <value column="DocumentNote" original=""/>
  </row>
- <row trl="N" uuid="32174af5-af1b-484d-828a-196d54eadad0">
+ <row trl="Y" uuid="32174af5-af1b-484d-828a-196d54eadad0">
   <value column="Name" original="Комплект МОЩНЫЙ">Комплект МОЩНЫЙ</value>
   <value column="Description" original="Комплект оборудования МОЩНЫЙ">Комплект оборудования МОЩНЫЙ</value>
   <value column="DocumentNote" original=""/>
@@ -340,12 +340,12 @@
   <value column="Description" original="антенна офсетная параболическая диаметром 0,74 м">антенна офсетная параболическая диаметром 0,74 м</value>
   <value column="DocumentNote" original=""/>
  </row>
- <row trl="N" uuid="7a16c9ad-3ec6-4f27-ad3c-5aeb34da4a6f">
+ <row trl="Y" uuid="7a16c9ad-3ec6-4f27-ad3c-5aeb34da4a6f">
   <value column="Name" original="модем спутниковый HT1100">модем спутниковый HT1100</value>
   <value column="Description" original="модем спутниковый HT1100">модем спутниковый HT1100</value>
   <value column="DocumentNote" original=""/>
  </row>
- <row trl="N" uuid="f8273d48-3baf-4456-99de-35662bdf5be2">
+ <row trl="Y" uuid="f8273d48-3baf-4456-99de-35662bdf5be2">
   <value column="Name" original="приемопередатчик 1Вт">приемопередатчик 1Вт</value>
   <value column="Description" original="приемопередатчик 1Вт">приемопередатчик 1Вт</value>
   <value column="DocumentNote" original=""/>
@@ -355,37 +355,37 @@
   <value column="Description" original="приемопередатчик 2,5 Вт">приемопередатчик 2,5 Вт</value>
   <value column="DocumentNote" original=""/>
  </row>
- <row trl="N" uuid="aae557bf-4c1a-4233-9007-74f5ff0e8990">
+ <row trl="Y" uuid="aae557bf-4c1a-4233-9007-74f5ff0e8990">
   <value column="Name" original="опора настенная">опора настенная</value>
   <value column="Description" original="опора настенная">опора настенная</value>
   <value column="DocumentNote" original=""/>
  </row>
- <row trl="N" uuid="c5a2d036-553f-4163-b0bf-eeaeea165d4d">
+ <row trl="Y" uuid="c5a2d036-553f-4163-b0bf-eeaeea165d4d">
   <value column="Name" original="кабель RG6 (20 м)">кабель RG6 (20 м)</value>
   <value column="Description" original="кабель RG6 (20 м)">кабель RG6 (20 м)</value>
   <value column="DocumentNote" original=""/>
  </row>
- <row trl="N" uuid="b5d58570-21fa-4cc8-96ae-d4b808903e46">
+ <row trl="Y" uuid="b5d58570-21fa-4cc8-96ae-d4b808903e46">
   <value column="Name" original="разъем для кабеля RG6">разъем для кабеля RG6</value>
   <value column="Description" original="разъем для кабеля RG6">разъем для кабеля RG6</value>
   <value column="DocumentNote" original=""/>
  </row>
- <row trl="N" uuid="15c6aee7-1141-4fba-bcbf-c08a499a01c2">
+ <row trl="Y" uuid="15c6aee7-1141-4fba-bcbf-c08a499a01c2">
   <value column="Name" original="Антенна - 0,76 м">Антенна - 0,76 м</value>
   <value column="Description" original="антенна офсетная параболическая диаметром 0,76 м">антенна офсетная параболическая диаметром 0,76 м</value>
   <value column="DocumentNote" original=""/>
  </row>
- <row trl="N" uuid="e0855682-b426-4a25-8db1-2046617184bb">
+ <row trl="Y" uuid="e0855682-b426-4a25-8db1-2046617184bb">
   <value column="Name" original="кабель RG6 (30 м)">кабель RG6 (30 м)</value>
   <value column="Description" original="кабель RG6 (30 м)">кабель RG6 (30 м)</value>
   <value column="DocumentNote" original=""/>
  </row>
- <row trl="N" uuid="406179de-af11-4a96-8f15-251d477ccc74">
+ <row trl="Y" uuid="406179de-af11-4a96-8f15-251d477ccc74">
   <value column="Name" original="модем спутниковый Gilat Gemini-I">модем спутниковый Gilat Gemini-I</value>
   <value column="Description" original="модем спутниковый Gilat Gemini-I">модем спутниковый Gilat Gemini-I</value>
   <value column="DocumentNote" original=""/>
  </row>
- <row trl="N" uuid="8e463c8d-c156-457e-a990-d826c93b08b6">
+ <row trl="Y" uuid="8e463c8d-c156-457e-a990-d826c93b08b6">
   <value column="Name" original="F-разъёмы для кабеля RG-6">F-разъёмы для кабеля RG-6</value>
   <value column="Description" original="F-разъёмы для кабеля RG-6">F-разъёмы для кабеля RG-6</value>
   <value column="DocumentNote" original=""/>
@@ -395,22 +395,22 @@
   <value column="Description" original="приемопередатчик 2Вт со встроенным конвертером LNB">приемопередатчик 2Вт со встроенным конвертером LNB</value>
   <value column="DocumentNote" original=""/>
  </row>
- <row trl="N" uuid="1419e702-cc37-4053-a237-877dc2cf4d0f">
+ <row trl="Y" uuid="1419e702-cc37-4053-a237-877dc2cf4d0f">
   <value column="Name" original="Антенна -  0,98 м">Антенна -  0,98 м</value>
   <value column="Description" original="антенна офсетная параболическая диаметром 0,98 м">антенна офсетная параболическая диаметром 0,98 м</value>
   <value column="DocumentNote" original=""/>
  </row>
- <row trl="N" uuid="62cac355-7e5b-4116-b11e-fb223a50039a">
+ <row trl="Y" uuid="62cac355-7e5b-4116-b11e-fb223a50039a">
   <value column="Name" original="Регистрация абонентского терминала">Регистрация абонентского терминала</value>
   <value column="Description" original="Регистрация абонентского терминала">Регистрация абонентского терминала</value>
   <value column="DocumentNote" original=""/>
  </row>
- <row trl="N" uuid="63ad9796-68f2-4b05-9bff-b182a0f5b2ff">
+ <row trl="Y" uuid="63ad9796-68f2-4b05-9bff-b182a0f5b2ff">
   <value column="Name" original="Личный кабинет">Личный кабинет</value>
   <value column="Description" original="Доступ к личному кабинету">Доступ к личному кабинету</value>
   <value column="DocumentNote" original=""/>
  </row>
- <row trl="N" uuid="021a76c0-fbea-4eec-ae5a-c97ad079505d">
+ <row trl="Y" uuid="021a76c0-fbea-4eec-ae5a-c97ad079505d">
   <value column="Name" original="Доступ к спутниковому интернет">Доступ к спутниковому интернет</value>
   <value column="Description" original="Доступ к спутниковому интернет">Доступ к спутниковому интернет</value>
   <value column="DocumentNote" original=""/>
@@ -430,33 +430,53 @@
   <value column="Description" original="Детальное обследование item">Детальное обследование item</value>
   <value column="DocumentNote" original=""/>
  </row>
- <row trl="N" uuid="b0ad5453-41e3-49f9-a6ee-53d39806282d">
+ <row trl="Y" uuid="b0ad5453-41e3-49f9-a6ee-53d39806282d">
   <value column="Name" original="Сизиков">Сизиков</value>
   <value column="Description" original="Сизиков">Сизиков</value>
   <value column="DocumentNote" original=""/>
  </row>
- <row trl="N" uuid="9fc4ead5-6193-4858-a2a5-8781a23fa9e7">
+ <row trl="Y" uuid="9fc4ead5-6193-4858-a2a5-8781a23fa9e7">
   <value column="Name" original="Офис ОУТРУ">Офис ОУТРУ</value>
   <value column="Description" original="Офис ОУТРУ">Офис ОУТРУ</value>
   <value column="DocumentNote" original=""/>
  </row>
- <row trl="N" uuid="f2d1bc08-5cd4-48d5-9dea-dbbce9af1b31">
+ <row trl="Y" uuid="f2d1bc08-5cd4-48d5-9dea-dbbce9af1b31">
   <value column="Name" original="Детальное обследование сервис">Детальное обследование сервис</value>
   <value column="Description" original="Детальное обследование сервис">Детальное обследование сервис</value>
   <value column="DocumentNote" original=""/>
  </row>
- <row trl="N" uuid="382fb6b9-a717-414c-8616-e1db5a335b75">
+ <row trl="Y" uuid="382fb6b9-a717-414c-8616-e1db5a335b75">
   <value column="Name" original="AM5 Express">AM5 Express</value>
   <value column="Description" original=""/>
   <value column="DocumentNote" original=""/>
  </row>
- <row trl="N" uuid="02a8e088-ad21-45d1-936d-8ad915cef674">
+ <row trl="Y" uuid="02a8e088-ad21-45d1-936d-8ad915cef674">
   <value column="Name" original="AM6 Express">AM6 Express</value>
   <value column="Description" original=""/>
   <value column="DocumentNote" original=""/>
  </row>
- <row trl="N" uuid="4b2df93b-6795-4a7c-8383-cc71a34cae52">
+ <row trl="Y" uuid="4b2df93b-6795-4a7c-8383-cc71a34cae52">
   <value column="Name" original="AMU1 Express">AMU1 Express</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="552ab7e4-fbdc-46e7-8e05-e36252e5ca7e">
+  <value column="Name" original="Аренда комплекта СПЕЦИАЛЬНЫЙ">Аренда комплекта СПЕЦИАЛЬНЫЙ</value>
+  <value column="Description" original="Услуга аренды комплекта оборудования СПЕЦИАЛЬНЫЙ">Услуга аренды комплекта оборудования СПЕЦИАЛЬНЫЙ</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="99f52d06-6050-469c-84e5-850f5494bdd5">
+  <value column="Name" original="Аренда комплекта УСИЛЕННЫЙ">Аренда комплекта УСИЛЕННЫЙ</value>
+  <value column="Description" original="Услуга аренды комплекта оборудования УСИЛЕННЫЙ">Услуга аренды комплекта оборудования УСИЛЕННЫЙ</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="c31d737f-288e-43f1-b036-182dd97ae382">
+  <value column="Name" original="Аренда комплекта МОЩНЫЙ">Аренда комплекта МОЩНЫЙ</value>
+  <value column="Description" original="Услуга аренды комплекта оборудования МОЩНЫЙ">Услуга аренды комплекта оборудования МОЩНЫЙ</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="ab7c1ad3-c82b-4a7d-b992-0c506e9a3236">
+  <value column="Name" original="Канал связи VSAT">Канал связи VSAT</value>
   <value column="Description" original=""/>
   <value column="DocumentNote" original=""/>
  </row>

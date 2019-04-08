@@ -254,4 +254,14 @@ Selecting the "Where Used" check box will display the BOMs that this product is 
   <value column="Description" original="Review changes for context help">Review changes for context help</value>
   <value column="Help" original=""/>
  </row>
+ <row trl="N" uuid="5bdaaaa2-00d5-427c-98c1-35e42b5a5a54">
+  <value column="Name" original="CustomProcessInfo">Техвозможность </value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="7dc8be88-e22c-4c01-ba34-6c10f413189b">
+  <value column="Name" original="List logs email processing">List logs email processing</value>
+  <value column="Description" original="View list logs email processing">View list logs email processing</value>
+  <value column="Help" original="List logs email processing - Error or Ok">List logs email processing - Error or Ok</value>
+ </row>
 </idempiereTrl>

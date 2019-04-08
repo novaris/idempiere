@@ -58,12 +58,12 @@ Lines with a higher sequence overwrite existing prices.  The sequence should be 
  </row>
  <row id="112" trl="Y">
   <value column="Name" original="Copy Accounts">Копировать счета</value>
-  <value column="Description" original="Copy and overwrite Accounts to Business Partners of this group">Copy and overwrite Accounts to Business Partners of this group</value>
-  <value column="Help" original="If you copy and overwrite the current default values, you may have to repeat previous updates (e.g. set the receivebles account, ...)">If you copy and overwrite the current default values, you may have to repeat previous updates (e.g. set the receivebles account, ...)</value>
+  <value column="Description" original="Copy and overwrite Accounts to Business Partners of this group">Копирование и перезапись счетов для контрагентов этой группы</value>
+  <value column="Help" original="If you copy and overwrite the current default values, you may have to repeat previous updates (e.g. set the receivebles account, ...)">При копировании и перезаписи текущих значений счетов по умолчанию может потребоваться повторить предыдущие обновления (например, установить счёт дебиторской задолженности,...)</value>
  </row>
  <row id="113" trl="Y">
   <value column="Name" original="Copy Window Tabs">Копировать вкладки окна</value>
-  <value column="Description" original="Copy all Tabs and Fields from other Window">Copy all Tabs and Fields from other Window</value>
+  <value column="Description" original="Copy all Tabs and Fields from other Window">Скопировать все вкладки и поля из другого окна</value>
   <value column="Help" original=""/>
  </row>
  <row id="114" trl="Y">
@@ -177,7 +177,7 @@ Movements are only created, if a sourcing warehouse is defined for the warehouse
  </row>
  <row id="135" trl="Y">
   <value column="Name" original="Copy Lines">Копировать строки</value>
-  <value column="Description" original="Copy Lines from other Import Format">Copy Lines from other Import Format</value>
+  <value column="Description" original="Copy Lines from other Import Format">Копировать строки из другого формата иморта</value>
   <value column="Help" original=""/>
  </row>
  <row id="136" trl="Y">
@@ -202,8 +202,8 @@ Movements are only created, if a sourcing warehouse is defined for the warehouse
  </row>
  <row id="140" trl="Y">
   <value column="Name" original="Copy Accounts">Копировать счета</value>
-  <value column="Description" original="Copy and overwrite Accounts to Products of this category">Copy and overwrite Accounts to Products of this category</value>
-  <value column="Help" original="If you copy and overwrite the current default values, you may have to repeat previous updates (e.g. set the revenue account, ...). If no Accounting Schema is selected all Accounting Schemas will be updated / inserted for products of this category.">If you copy and overwrite the current default values, you may have to repeat previous updates (e.g. set the revenue account, ...). If no Accounting Schema is selected all Accounting Schemas will be updated / inserted for products of this category.</value>
+  <value column="Description" original="Copy and overwrite Accounts to Products of this category">Копирование и перезапись аккаунтов на продукты этой категории</value>
+  <value column="Help" original="If you copy and overwrite the current default values, you may have to repeat previous updates (e.g. set the revenue account, ...). If no Accounting Schema is selected all Accounting Schemas will be updated / inserted for products of this category.">При копировании и перезаписи текущих значений по умолчанию может потребоваться повторение предыдущих обновлений (например, настройка счета доходов). Если схема учета не выбрана, все схемы учета будут обновлены / вставлены для продуктов этой категории.</value>
  </row>
  <row id="142" trl="Y">
   <value column="Name" original="Generate Receipt from Invoice">Генерировать получение из инвойса</value>
@@ -297,7 +297,7 @@ Movements are only created, if a sourcing warehouse is defined for the warehouse
  </row>
  <row id="165" trl="Y">
   <value column="Name" original="Copy Lines">Копировать строки</value>
-  <value column="Description" original="Copy Commission Lines from other Commission">Copy Commission Lines from other Commission</value>
+  <value column="Description" original="Copy Commission Lines from other Commission">Копировать строки комиссии из другой</value>
   <value column="Help" original=""/>
  </row>
  <row id="166" trl="Y">
@@ -403,13 +403,13 @@ Note that Adding the Missing Translation records creates them by copying the Sys
  </row>
  <row id="189" trl="Y">
   <value column="Name" original="Copy Columns">Копировать столбцы</value>
-  <value column="Description" original="Copy Report Columns from other Column Set">Copy Report Columns from other Column Set</value>
-  <value column="Help" original="Copy columns at the end of this Column Set. Please note that you need to re-set the calculation operands.">Copy columns at the end of this Column Set. Please note that you need to re-set the calculation operands.</value>
+  <value column="Description" original="Copy Report Columns from other Column Set">Копирование столбцов отчета из другого набора столбцов</value>
+  <value column="Help" original="Copy columns at the end of this Column Set. Please note that you need to re-set the calculation operands.">Скопировать столбцы к концу этого набора столбцов. Обратите внимание, что необходимо заново установить операнды вычисления.</value>
  </row>
  <row id="190" trl="Y">
   <value column="Name" original="Copy Lines">Копировать строки</value>
-  <value column="Description" original="Copy Report Lines from other Line Set">Copy Report Lines from other Line Set</value>
-  <value column="Help" original="Copy lines at the end of this Line Set. Please note that you need to re-set the calculation operands.">Copy lines at the end of this Line Set. Please note that you need to re-set the calculation operands.</value>
+  <value column="Description" original="Copy Report Lines from other Line Set">Копировать строки отчета из другого набора строк</value>
+  <value column="Help" original="Copy lines at the end of this Line Set. Please note that you need to re-set the calculation operands.">Копировать строки в конец этого набора строк. Обратите внимание, что необходимо заново установить операнды вычисления.</value>
  </row>
  <row id="191" trl="Y">
   <value column="Name" original="Set Print Format">Установка формата печати</value>
@@ -518,9 +518,8 @@ Note that only Prepare and Complete are valid document actions.</value>
  </row>
  <row id="209" trl="Y">
   <value column="Name" original="Send Mail Text">Отправить Mail текст</value>
-  <value column="Description" original="Send EMails to active subscribers of an Interest Area OR a Business Partner Group from a selected User">Отправить EMail-ы для активных подписчиков на интересующую область или группе бизнес-партнеров от выбранного пользователя</value>
-  <value column="Help" original="Select the Interest Area to which subscribers you send the Mail Text from the User selected.  Additionally, you can send mails to the Contacts of a Business Partner Group.&lt;br&gt;&#10;The User to send emails from needs to have valid EMail information. If you don't select a user, the Mail is sent from the Client's Request Mail User."><![CDATA[Select the Interest Area to which subscribers you send the Mail Text from the User selected.  Additionally, you can send mails to the Contacts of a Business Partner Group.<br>
-The User to send emails from needs to have valid EMail information. If you don't select a user, the Mail is sent from the Client's Request Mail User.]]></value>
+  <value column="Description" original="">Отправить EMail-ы для активных подписчиков на интересующую область или группе бизнес-партнеров от выбранного пользователя</value>
+  <value column="Help" original="">Позволяет отправлять письма от выбранного пользователя подписчикам указанной "Области интереса". Кроме того, можно отправлять письма контактам группы бизнес-партнеров.Пользователь для отправки электронной почты должен иметь действительную информацию по электронной почте.</value>
  </row>
  <row id="210" trl="Y">
   <value column="Name" original="Copy Lines">Копировать строки</value>
@@ -1046,9 +1045,9 @@ Optionally as (5), you can enable to allocate payments to the oldest invoice. In
 Shut down the Application Server before running this process and set the Trace level (in Preference) higher or equals  WARNING.]]></value>
  </row>
  <row id="309" trl="Y">
-  <value column="Name" original="Workflow to Client">Workflow к клиенту</value>
-  <value column="Description" original="Move custom workflow elements to the current client">Переместить нужные элементы workflow к текущему клиенту</value>
-  <value column="Help" original="The security architecture prevents you from adding client specific modifications/customizations to existing standard workflows.  This process moves your customization made on system level to this client to add client specific details.">Архитектура безопасности предохраняет вас от добавления специфических модификаций/условий клиентом к существующим стандартным workflows. Этот процесс перемещает ваше условие, сделанное на системном уровне к этому клиенту для добавления специфических деталей клиента.</value>
+  <value column="Name" original="Workflow to Client">Перемещение потоков операций к экземпляру</value>
+  <value column="Description" original="Move custom workflow elements to the current client">Переместить нужные элементы потока операций к текущему экземпляру</value>
+  <value column="Help" original="The security architecture prevents you from adding client specific modifications/customizations to existing standard workflows.  This process moves your customization made on system level to this client to add client specific details.">Архитектура безопасности предохраняет вас от добавления специфических модификаций/условий экземпляра к существующим стандартным потокам операций. Этот процесс перемещает ваше условие, сделанное на системном уровне к этому экземпляру для добавления специфических деталей экземпляра.</value>
  </row>
  <row id="310" trl="Y">
   <value column="Name" original="Trial Balance">Временный баланс</value>
@@ -1786,7 +1785,7 @@ This process should be implemented when the users are not connected.</value>
   <value column="Help" original="Lets freeze or unfreeze the cost, If the Cost is UnFrozen then can be changed">Lets freeze or unfreeze the cost, If the Cost is UnFrozen then can be changed</value>
  </row>
  <row id="53161" trl="Y">
-  <value column="Name" original="Initial Client Setup Process">Процесс первоначальной установки клиента</value>
+  <value column="Name" original="Initial Client Setup Process">Процесс первоначальной установки экземпляра</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -1811,9 +1810,9 @@ This process should be implemented when the users are not connected.</value>
   <value column="Help" original="Copy the settings from the selected report and process to the current one.  This overwrites existing settings and translations.">Копирование настроек из выбранного отчета и процесса в текущий. Этот процесс перезаписывает существующие настройки и переводы.</value>
  </row>
  <row id="53187" trl="Y">
-  <value column="Name" original="Client Accounting Processor">Учетный процессор организации</value>
-  <value column="Description" original="Client Accounting Processor">Учетный процессор организации</value>
-  <value column="Help" original="The client accounting processor allows a user to run the accounting processor in a client session.  The system configurator parameter CLIENT_ACCOUNTING must be enabled (configured as [I]mmediate or [Q]ueue).">Учетный процессор организации позволяет пользователю запускать процесс в клиентской сессии.  Системный параметр CLIENT_ACCOUNTING должен быть сконфигурирован как [I]mmediate или [Q]ueue.</value>
+  <value column="Name" original="Client Accounting Processor">Учетный процессор экземпляра</value>
+  <value column="Description" original="Client Accounting Processor">Учетный процессор экземпляра</value>
+  <value column="Help" original="The client accounting processor allows a user to run the accounting processor in a client session.  The system configurator parameter CLIENT_ACCOUNTING must be enabled (configured as [I]mmediate or [Q]ueue).">Учетный процессор экземпляра позволяет пользователю запускать процесс в клиентской сессии. Системный параметр CLIENT_ACCOUNTING должен быть сконфигурирован как [I]mmediate или [Q]ueue.</value>
  </row>
  <row id="53189" trl="Y">
   <value column="Name" original="Storage per Product">Storage per Product</value>
@@ -1840,9 +1839,9 @@ This process should be implemented when the users are not connected.</value>
   <value column="Description" original="Generate POS Keys from products.">Generate POS Keys from products.</value>
   <value column="Help" original=""/>
  </row>
- <row id="53206" trl="N">
-  <value column="Name" original="Copy from product">Copy from product</value>
-  <value column="Description" original="Copy prices etc from other product">Copy prices etc from other product</value>
+ <row id="53206" trl="Y">
+  <value column="Name" original="Copy from product">Копировать из продукта</value>
+  <value column="Description" original="Copy prices etc from other product">Например копирование стоимости</value>
   <value column="Help" original=""/>
  </row>
  <row id="53207" trl="Y">
@@ -1930,9 +1929,9 @@ This process should be implemented when the users are not connected.</value>
   <value column="Description" original="Validate Payment Schedule">Validate Payment Schedule</value>
   <value column="Help" original=""/>
  </row>
- <row id="53246" trl="N">
-  <value column="Name" original="Copy from Cash Plan">Copy from Cash Plan</value>
-  <value column="Description" original="Copy Lines from other Cash Plan">Copy Lines from other Cash Plan</value>
+ <row id="53246" trl="Y">
+  <value column="Name" original="Copy from Cash Plan">Копировать из кассового плана</value>
+  <value column="Description" original="Copy Lines from other Cash Plan">Копирование строк из другого кассового плана</value>
   <value column="Help" original=""/>
  </row>
  <row id="53247" trl="N">
@@ -1991,9 +1990,9 @@ b. Product, is the asset product that will be act as the base for the newly crea
 c. UseLifeYears, is an optional parameter. Use this if you want a different use life years for the newly created asset, instead of the default uselifeyears from asset group accounting.
 d. Transaction Date, will become in-service-date for the newly created asset.</value>
  </row>
- <row id="200005" trl="N">
-  <value column="Name" original="Copy Details">Copy Details</value>
-  <value column="Description" original="Copy Journal/Lines from other Journal">Copy Journal/Lines from other Journal</value>
+ <row id="200005" trl="Y">
+  <value column="Name" original="Copy Details">Копировать детально</value>
+  <value column="Description" original="Copy Journal/Lines from other Journal">Копировать журнал/строки из другого журнала</value>
   <value column="Help" original=""/>
  </row>
  <row id="200006" trl="N">
@@ -2016,9 +2015,9 @@ d. Transaction Date, will become in-service-date for the newly created asset.</v
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200012" trl="N">
-  <value column="Name" original="Copy Lines">Copy Lines</value>
-  <value column="Description" original="Copy Lines from other bank statement">Copy Lines from other bank statement</value>
+ <row id="200012" trl="Y">
+  <value column="Name" original="Copy Lines">Скопировать строки</value>
+  <value column="Description" original="Copy Lines from other bank statement">Копировать строки из другой банковской выписки</value>
   <value column="Help" original=""/>
  </row>
  <row id="200014" trl="N">
@@ -2184,10 +2183,10 @@ Please note that base language cannot be a system language.</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200064" trl="N">
-  <value column="Name" original="Captured Process Parameter">Captured Process Parameter</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
+ <row id="200064" trl="Y">
+  <value column="Name" original="Captured Process Parameter">Выбор Параметров Процесса</value>
+  <value column="Description" original="">Выбор Параметров Процесса</value>
+  <value column="Help" original="">Выбрать/Указать требуемые значения входящих параметров</value>
  </row>
  <row id="200065" trl="N">
   <value column="Name" original="Drop Table Index">Drop Table Index</value>
@@ -2199,8 +2198,8 @@ Please note that base language cannot be a system language.</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200067" trl="N">
-  <value column="Name" original="Copy Info Window Columns">Copy Info Window Columns</value>
+ <row id="200067" trl="Y">
+  <value column="Name" original="Copy Info Window Columns">Копировать колонки окна информации</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -2226,7 +2225,7 @@ Please note that base language cannot be a system language.</value>
  </row>
  <row id="200086" trl="Y">
   <value column="Name" original="Copy Components From View">Копировать компоненты из представления</value>
-  <value column="Description" original="Create dictionary view components for a table taking another as base">Create dictionary view components for a table taking another as base</value>
+  <value column="Description" original="Create dictionary view components for a table taking another as base">Создайть компоненты представления для таблицы, взяв другую за основу</value>
   <value column="Help" original=""/>
  </row>
  <row id="200093" trl="N">
@@ -2310,7 +2309,7 @@ For example:<br />
   <value column="Help" original=""/>
  </row>
  <row trl="Y" uuid="02a9369a-f2db-46ff-b8be-f68d9f85c1cf">
-  <value column="Name" original="Check Technical Scope">Проверка технической возможности</value>
+  <value column="Name" original="Check Technical Scope">Проверить техвозможность SENSAT</value>
   <value column="Description" original=""/>
   <value column="Help" original="Check technical scope"/>
  </row>
@@ -2324,5 +2323,195 @@ For example:<br />
   <value column="Description" original="This process calculate the demand, approved and open orders for a product">This process calculate the demand, approved and open orders for a product</value>
   <value column="Help" original="Called within the InfoWindow embedded process by MRP Info (ZK). &#10;Will process only the selected records">Called within the InfoWindow embedded process by MRP Info (ZK). 
 Will process only the selected records</value>
+ </row>
+ <row trl="Y" uuid="b5da1fcf-f0c0-433a-bc4c-86c375207fdd">
+  <value column="Name" original="Creation of contracts">Создание договора</value>
+  <value column="Description" original="Creation of contracts">Создание договора</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="8cf221bb-424f-47fc-bcdb-a17eb6a6c5ba">
+  <value column="Name" original="Contract Services Person">Печать договора(Test)</value>
+  <value column="Description" original="The contract for the provision of services to person">Печать договора(Test)</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="dacc7559-970e-4629-9540-3da31b9c8f56">
+  <value column="Name" original="Order Сreation">Заказ SENSAT</value>
+  <value column="Description" original="">Заказ SENSAT</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="8d48ed5e-8524-4daf-b7e2-5f0814e74a06">
+  <value column="Name" original="Check_Technical_Scope2">Проверить техвозможность SENSAT</value>
+  <value column="Description" original=""/>
+  <value column="Help" original="Check technical scope from sales opportunity"/>
+ </row>
+ <row trl="Y" uuid="dde70b72-3c60-45b2-941b-883f7010c680">
+  <value column="Name" original="Contract report">Печать договора B2C</value>
+  <value column="Description" original="Contract report">Печать договора B2C</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="9306b6f3-8076-4f59-8b5f-578f99c27c62">
+  <value column="Name" original="Activity EMail Processor">Обработка входящей почты</value>
+  <value column="Description" original="">Обработка входящей почты с формированием Лидов или Активности</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="e881ab96-b2ac-410a-825b-87825789c81f">
+  <value column="Name" original="Contract attachment 2 report">Печать бланка заказов</value>
+  <value column="Description" original="Contract attachment 2 report">Печать бланка заказов</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="a49173d2-f46f-443e-8a56-a48567330337">
+  <value column="Name" original="Generate Payroll Invoices">Generate Payroll Invoices</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="d81fe55e-1c02-4b79-8350-6a82453114a3">
+  <value column="Name" original="LVE_GeneratePayrollPayments">LVE_GeneratePayrollPayments</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="c33cdcda-6bcf-4a51-8cd2-1ef916210fed">
+  <value column="Name" original="Order Сreation B2B">Заказ детального обследования</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="c1ff42d0-cce5-453c-9fa7-298943d1685f">
+  <value column="Name" original="Simple contract report">Печать договора B2B</value>
+  <value column="Description" original="Simple contract report">Печать договора B2B</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="974357a2-611d-4bdb-8461-755115961dc1">
+  <value column="Name" original="Transmission Acceptance Report">АКТ приема-передачи</value>
+  <value column="Description" original="Transmission Acceptance Report">АКТ приема-передачи</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="c1435381-adc2-4aa9-91cb-a52600eaeb5b">
+  <value column="Name" original="RIT Order Verification">Подтверждение заказа</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="a81fe207-93a1-481c-88e0-f5c23e99eb9f">
+  <value column="Name" original="Transmission Acceptance 100 second hand Report">АКТ купля-продажа 100_ предоплата Б.У.</value>
+  <value column="Description" original="Transmission Acceptance 100 second hand Report">АКТ купля-продажа 100_ предоплата Б.У.</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="1c69e8c2-4a15-41c7-87dd-411b5fccdfd2">
+  <value column="Name" original="Transmission Acceptance rent Report">АКТ передача в аренду</value>
+  <value column="Description" original="Transmission Acceptance rent Report">АКТ передача в аренду</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="1337724c-abbf-4ddf-a88b-647d44dfb629">
+  <value column="Name" original="Transmission Acceptance rent suminequi Report">АКТ передача в аренду (аренда в составе услуги связи)</value>
+  <value column="Description" original="Transmission Acceptance rent suminequi Report">АКТ передача в аренду (аренда в составе услуги связи)</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="92251a19-5d5e-4381-8037-fd36ec4d219b">
+  <value column="Name" original="Transmission Installment second hand Report">АКТ купля-продажа рассрочка Б.У.</value>
+  <value column="Description" original="Transmission Installment second hand Report">АКТ купля-продажа рассрочка Б.У.</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="e868dc5c-5ac2-4ff1-afac-0c504b6e9e79">
+  <value column="Name" original="Transmission Installment new Report">АКТ купля-продажа рассрочка новое</value>
+  <value column="Description" original="Transmission Installment new Report">АКТ купля-продажа рассрочка новое</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="b8a22088-c73d-4ba7-b23f-884dcaf28fe6">
+  <value column="Name" original="Start of service Report">АКТ начала оказания услуги</value>
+  <value column="Description" original="Start of service Report">АКТ начала оказания услуги</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="9d8394b6-2e0b-400c-b647-ba87e5a19966">
+  <value column="Name" original="Power of attorney reg RES Report">Доверенность Регистрация РЭС</value>
+  <value column="Description" original="Power of attorney reg RES Report">ДОВЕРЕННОСТЬ РЕГИСТРАЦИЯ РЭС</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="7b654737-65b8-4b3c-ba9b-e7204e83ee07">
+  <value column="Name" original="Bpartner Search">Поиск для Контрагента</value>
+  <value column="Description" original="">Заполнение таблицы rit_tsvectorsearch для поиска Контрагента(AD_Table_ID = 291)</value>
+  <value column="Help" original="Bpartner Search">Заполнение таблицы rit_tsvectorsearch для поиска Контрагента(AD_Table_ID = 291)</value>
+ </row>
+ <row trl="N" uuid="766b6e4b-2321-4c19-9aaf-cf5803f56043">
+  <value column="Name" original="ConvertUTMLabel">ConvertUTMLabel</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="7d4fd579-d1c6-4663-94c0-e8d07c1d6bff">
+  <value column="Name" original="Contract report attach 1">Приложение к Положению об оказании услуги видеонаблюдение</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="55a965ec-060e-44fc-834a-bcf462347050">
+  <value column="Name" original="BPartner Opportunity">Создать Проект и Возможность Продаж</value>
+  <value column="Description" original="Create Project and Opportunity for BPartner">Новый Проект и Возможность Продаж Контрагента</value>
+  <value column="Help" original="Create Project and Opportunity for BPartner">Создание Проекта и Возможности Продаж для Контрагента</value>
+ </row>
+ <row trl="Y" uuid="d80afe05-329d-492c-be0f-f864b00ab8e0">
+  <value column="Name" original="Contract report attach 2">Исходные Данные по Системе Видеонаблюдения</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="fdce6fe0-f057-4e74-89be-a6474aa139f8">
+  <value column="Name" original="Contract report attach 3">ТЗ на подключение услуги Видеонаблюдения</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="f9e37781-44cb-44e6-b6d1-6efd3120d9c0">
+  <value column="Name" original="Contract report attach 4">Сервисы дополнительных видов обслуживания (ДВО)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="8ec90ce4-bf43-4262-b5b3-f21e1c3777e1">
+  <value column="Name" original="Contract report attach 5">Исходные Данные для услуги «Внутрикорпоративная Телефония»</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="be2aca8a-d549-498e-9619-e27dc82a6891">
+  <value column="Name" original="Contract report attach 6">Формы Актов</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="d5daea3a-52be-457c-96dc-799f373f178c">
+  <value column="Name" original="Contract report attach 7">Технические требования к помещениям </value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="f3588a77-d601-44ed-aa64-6cff165795cb">
+  <value column="Name" original="Contract report attach 8">Антикоррупционная Оговорка</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="95e2488c-a0ee-47ab-a066-f88abb7123ad">
+  <value column="Name" original="Contract report attach 9">Взаимодействие технических служб</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="203123b3-a160-4206-bef6-3f6135659847">
+  <value column="Name" original="Contract report attach 10">Бланки заказов</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="0d209962-b7cd-4a26-b9fb-e1adc8f99166">
+  <value column="Name" original="soap">soap</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="76e40d9f-7028-4c71-a797-65c9c26ed9e9">
+  <value column="Name" original="Creation agent contracts">Создание Договора с Оператором</value>
+  <value column="Description" original="Creation of contracts">Создание Договора с Оператором</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="6aba2315-b741-4a93-bc48-3be75d3e9e60">
+  <value column="Name" original="SupplyContract">Договор поставки</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="d62e8b76-07db-4b6e-9c30-9e2a8cefe63e">
+  <value column="Name" original="AgentContract">AgentContract</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="32beff99-c703-4024-93b9-2e7e591ee385">
+  <value column="Name" original="MandateContract">MandateContract</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
 </idempiereTrl>

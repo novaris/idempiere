@@ -47,14 +47,14 @@ Verify the translation creates missing translation records. Start this process a
  </row>
  <row id="108" trl="Y">
   <value column="Name" original="User">Контактное лицо</value>
-  <value column="Description" original="Maintain Users of the system">Контактное лицо(пользователь системы)</value>
-  <value column="Help" original="The User Window allows you to maintain User of the system.  Users can log into the system and have access to functionality via one or more roles.  A user can also be a business partner contact.">The User Window allows you to maintain User of the system.  Users can log into the system and have access to functionality via one or more roles.  A user can also be a business partner contact.</value>
+  <value column="Description" original="Maintain Users of the system">Контактное лицо (пользователь системы)</value>
+  <value column="Help" original="The User Window allows you to maintain User of the system.  Users can log into the system and have access to functionality via one or more roles.  A user can also be a business partner contact.">Окно позволяет поддерживать пользователя системы. Пользователи могут входить в систему и иметь доступ к функциям с помощью одной или нескольких ролей. Пользователь также может быть контактом контрагента.</value>
  </row>
  <row id="109" trl="Y">
-  <value column="Name" original="Client">Клиент</value>
-  <value column="Description" original="Maintain Clients/Tenants">Утвердить клиентов/владельцев</value>
-  <value column="Help" original="The Client is the highest level of an independent business entity.  Each Client will have one or more Organizations reporting to it.  Each Client defines the accounting parameters (Accounting Schema, Tree definition, Non Monetary UOM's). To create new Clients, run the Initial Client Setup with the System Administrator Role.&#10;Do not create a new client in this window, but use &quot;Initial Client Setup&quot; to set up the required security and access rules. If you create a new client here, you will not be able to view it and also the required client infrastructure would not have been set up.">The Client is the highest level of an independent business entity.  Each Client will have one or more Organizations reporting to it.  Each Client defines the accounting parameters (Accounting Schema, Tree definition, Non Monetary UOM's). To create new Clients, run the Initial Client Setup with the System Administrator Role.
-Do not create a new client in this window, but use "Initial Client Setup" to set up the required security and access rules. If you create a new client here, you will not be able to view it and also the required client infrastructure would not have been set up.</value>
+  <value column="Name" original="Client">Экземпляр</value>
+  <value column="Description" original="Maintain Clients/Tenants">Утвердить компанию/владельца данного экземпляра</value>
+  <value column="Help" original="The Client is the highest level of an independent business entity.  Each Client will have one or more Organizations reporting to it.  Each Client defines the accounting parameters (Accounting Schema, Tree definition, Non Monetary UOM's). To create new Clients, run the Initial Client Setup with the System Administrator Role.&#10;Do not create a new client in this window, but use &quot;Initial Client Setup&quot; to set up the required security and access rules. If you create a new client here, you will not be able to view it and also the required client infrastructure would not have been set up.">Экземпляр - это высший уровень независимого субъекта предпринимательской деятельности. Каждый экземпляр будет иметь одну или несколько организаций, отчитывающихся перед ним. Каждый экземпляр определяет параметры учета (схему учета, определение дерева, неденежные УОМ). Чтобы создать новый экземпляр, запустите начальную установку экземпляра с ролью системного администратора.
+Не создавайте новый экземпляр в этом окне, а используйте "начальная настройка экземпляра" для настройки необходимых правил безопасности и доступа. Если вы создадите здесь новый экземпляр, вы не сможете его просмотреть, а также не сможете настроить необходимую организационную инфраструктуру.</value>
  </row>
  <row id="110" trl="Y">
   <value column="Name" original="Organization">Организация</value>
@@ -206,7 +206,7 @@ Review and change the GL and Default accounts. The actual accounts used in trans
  <row id="143" trl="Y">
   <value column="Name" original="Sales Order">Заказ на продажу</value>
   <value column="Description" original="Enter and change sales orders">Создание и изменение заказов на продажу</value>
-  <value column="Help" original="The Order Window allows you to enter and modify Sales Orders.  ">The Order Window allows you to enter and modify Sales Orders.  </value>
+  <value column="Help" original="The Order Window allows you to enter and modify Sales Orders.  ">Окно позволяет создавать и изменять заказы на продажу.</value>
  </row>
  <row id="144" trl="Y">
   <value column="Name" original="Product Category">Категория продукта</value>
@@ -247,7 +247,7 @@ Pricelists can be calculated and copied.  To speed up the calculation, the param
  <row id="152" trl="Y">
   <value column="Name" original="Sales Region">Регион продаж</value>
   <value column="Description" original="Maintain Sales Regions">Утвердить регионы продаж</value>
-  <value column="Help" original="The Sales Region Window defines the different regions where you do business.  You can generate reports based on Sales Regions">The Sales Region Window defines the different regions where you do business.  You can generate reports based on Sales Regions</value>
+  <value column="Help" original="The Sales Region Window defines the different regions where you do business.  You can generate reports based on Sales Regions">Окно определяет различные регионы, в которых ведется бизнес. На основе данных по продажам можно создавать отчеты по регионам.</value>
  </row>
  <row id="153" trl="Y">
   <value column="Name" original="Account Combination">Комбинация счетов</value>
@@ -877,9 +877,9 @@ Before(!) entering transactions, Start the Replication Run to set up the remote 
   <value column="Help" original=""/>
  </row>
  <row id="293" trl="Y">
-  <value column="Name" original="Sales Rep Info">Информация о торговом представителе</value>
-  <value column="Description" original="Company Agent (Sales Rep) Information">Информация об агенте компании (торговом представителе)</value>
-  <value column="Help" original="This window allows you to view Company agent related information">Это окно позволяет вам просматривать связанную информацию об агенте компании</value>
+  <value column="Name" original="Sales Rep Info">Информация о менеджере</value>
+  <value column="Description" original="Company Agent (Sales Rep) Information">Информация об агенте/менеджере компании</value>
+  <value column="Help" original="This window allows you to view Company agent related information">Это окно позволяет просматривать связанную информацию об агенте/менеджере компании</value>
  </row>
  <row id="294" trl="Y">
   <value column="Name" original="UnPosted Documents">Неопубликованные документы</value>
@@ -1912,7 +1912,7 @@ MRP - 110	 No exists Dem</value>
  <row id="53152" trl="Y">
   <value column="Name" original="Contact">Контакт</value>
   <value column="Description" original="Maintain Contacts">Контактное лицо</value>
-  <value column="Help" original="The Contact Window allows you to maintain Contacts who are individuals you deal with.  Contacts may also be internal or external users who can log into the system and have access to functionality via one or more roles.  A contact can also be a business partner contact.">Окно контакта позволяет вам создавать записи о людях, с которыми вы планируете в дальнейшем налаживать взаимоотношения.  Контакты могут быть внешними или внутренними пользователями которые могут войти в систему и получить доступ через одну или несколько ролей. Контактом может быть также бизнес партнёр.</value>
+  <value column="Help" original="The Contact Window allows you to maintain Contacts who are individuals you deal with.  Contacts may also be internal or external users who can log into the system and have access to functionality via one or more roles.  A contact can also be a business partner contact.">Окно контакта позволяет вам создавать записи о людях, с которыми вы планируете в дальнейшем налаживать взаимоотношения.  Контакты могут быть внешними или внутренними пользователями которые могут войти в систему и получить доступ через одну или несколько ролей. Контактом может быть также контрагент.</value>
  </row>
  <row id="53153" trl="Y">
   <value column="Name" original="Lead">Лиды</value>
@@ -1931,7 +1931,7 @@ MRP - 110	 No exists Dem</value>
  </row>
  <row id="53156" trl="Y">
   <value column="Name" original="Sales Rep Dashboard">Менеджер/Агент</value>
-  <value column="Description" original="The Sales Rep Dashboard provides a single location for managing sales opportunities">Панель торгового представителя предоставляет единое место для управления возможностями продаж</value>
+  <value column="Description" original="The Sales Rep Dashboard provides a single location for managing sales opportunities">Панель менеджера предоставляет единое место для управления возможностями продаж</value>
   <value column="Help" original=""/>
  </row>
  <row id="53165" trl="Y">
@@ -2184,14 +2184,14 @@ MRP - 110	 No exists Dem</value>
   <value column="Description" original="Technical Capability Definition">Определение тех возможности</value>
   <value column="Help" original=""/>
  </row>
- <row trl="N" uuid="f3068d3c-8805-4ad2-8e09-ab544e5da64b">
-  <value column="Name" original="Information Gadget Category">Information Gadget Category</value>
-  <value column="Description" original="JPIERE-0110:JPPS">JPIERE-0110:JPPS</value>
-  <value column="Help" original=""/>
+ <row trl="Y" uuid="f3068d3c-8805-4ad2-8e09-ab544e5da64b">
+  <value column="Name" original="Information Gadget Category">Категория информационного окна</value>
+  <value column="Description" original="JPIERE-0110:JPPS">Категория информационного окна</value>
+  <value column="Help" original="">Настройка категорий информационного окна (JPIERE-0110:JPPS)</value>
  </row>
- <row trl="N" uuid="80360ab0-5494-4ae7-9589-7fc511467f09">
-  <value column="Name" original="Information Gadget">Information Gadget</value>
-  <value column="Description" original="JPIERE-0110:JPPS">JPIERE-0110:JPPS</value>
+ <row trl="Y" uuid="80360ab0-5494-4ae7-9589-7fc511467f09">
+  <value column="Name" original="Information Gadget">Информационное окно</value>
+  <value column="Description" original="JPIERE-0110:JPPS">Информационное окно (JPIERE-0110:JPPS)</value>
   <value column="Help" original=""/>
  </row>
  <row trl="N" uuid="a4f048c0-a5a8-415e-9875-2c8a774d77b4">
@@ -2199,14 +2199,89 @@ MRP - 110	 No exists Dem</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row trl="N" uuid="b45ca7ab-3877-452a-9ef3-2c875d28edac">
-  <value column="Name" original="Technical Capability">Technical Capability</value>
-  <value column="Description" original="Technical Capability">Technical Capability</value>
-  <value column="Help" original="Technical Capability">Technical Capability</value>
+ <row trl="Y" uuid="b45ca7ab-3877-452a-9ef3-2c875d28edac">
+  <value column="Name" original="Technical Capability">Техническая возможность</value>
+  <value column="Description" original="Technical Capability">Техническая возможность</value>
+  <value column="Help" original="Technical Capability">Техническая возможность оказания услуги</value>
  </row>
  <row trl="Y" uuid="ea1936d2-51bd-4bbe-959a-ec24aedad3dc">
   <value column="Name" original="Business Partner admin">Контрагент для Администратора</value>
   <value column="Description" original="Maintain Business Partners">Ведение контрагента</value>
   <value column="Help" original="The Business Partner window allows you do define any party with whom you transact.  This includes customers, vendors and employees.  Prior to entering or importing products, you must define your vendors.  Prior to generating Orders you must define your customers.  This window holds all information about your business partner and the values entered will be used to generate all document transactions">Окно Контрагент позволяет вам определять любого участника, с которым вы ведете дела. Это включает покупателей, поставщиков и сотрудников. Перед тем, как вводить или импортировать продукты, вы должны определить ваших поставщиков. Перед тем, как создавать заказы, вы должны определить ваших покупателей. Это окно содержит всю информацию о вашем клиенте и введенные значения будут использованы для создания всех документов по сделкам.</value>
+ </row>
+ <row trl="Y" uuid="deba92d5-b6c6-4f71-9189-1ff7f108dbff">
+  <value column="Name" original="Business Partner workers">Контрагент для Сотрудника</value>
+  <value column="Description" original="Business Partner workers">Ведение контрагента</value>
+  <value column="Help" original="The Business Partner window allows you do define any party with whom you transact.  This includes customers, vendors and employees.  Prior to entering or importing products, you must define your vendors.  Prior to generating Orders you must define your customers.  This window holds all information about your business partner and the values entered will be used to generate all document transactions">Окно Контрагент позволяет вам определять любого участника, с которым вы ведете дела. Это включает покупателей, поставщиков и сотрудников. Перед тем, как вводить или импортировать продукты, вы должны определить ваших поставщиков. Перед тем, как создавать заказы, вы должны определить ваших покупателей. Это окно содержит всю информацию о вашем клиенте и введенные значения будут использованы для создания всех документов по сделкам.</value>
+ </row>
+ <row trl="Y" uuid="2c618eb9-6bdd-4ce1-b64e-91c9d8dd0b9f">
+  <value column="Name" original="Business Partner suppliers">Агент</value>
+  <value column="Description" original="Maintain Business suppliers">Ведение контрагента</value>
+  <value column="Help" original="The Business Partner window allows you do define any party with whom you transact.  This includes customers, vendors and employees.  Prior to entering or importing products, you must define your vendors.  Prior to generating Orders you must define your customers.  This window holds all information about your business partner and the values entered will be used to generate all document transactions">Окно Контрагент позволяет вам определять любого участника, с которым вы ведете дела. Это включает покупателей, поставщиков и сотрудников. Перед тем, как вводить или импортировать продукты, вы должны определить ваших поставщиков. Перед тем, как создавать заказы, вы должны определить ваших покупателей. Это окно содержит всю информацию о вашем клиенте и введенные значения будут использованы для создания всех документов по сделкам.</value>
+ </row>
+ <row trl="Y" uuid="5256cfe7-2f9d-4efc-85a4-77061c25ec38">
+  <value column="Name" original="Contract">Договор</value>
+  <value column="Description" original="Access/Edit RIT_Contract"/>
+  <value column="Help" original="Access or edit table of contracrts RIT_Contract"/>
+ </row>
+ <row trl="Y" uuid="a7bdd7fd-6187-4f64-808b-aa12517b33df">
+  <value column="Name" original="User Simple">Пользователь </value>
+  <value column="Description" original="Maintain Users of the system">Пользователь системы</value>
+  <value column="Help" original="The User Window allows you to maintain User of the system.  Users can log into the system and have access to functionality via one or more roles.  A user can also be a business partner contact.">The User Window allows you to maintain User of the system.  Users can log into the system and have access to functionality via one or more roles.  A user can also be a business partner contact.</value>
+ </row>
+ <row trl="Y" uuid="e7a110c2-396d-4348-94a7-18a43b36f1ed">
+  <value column="Name" original="Active Lead">Лиды (активные)</value>
+  <value column="Description" original="Maintain Leads">Управление лидами</value>
+  <value column="Help" original="The Lead Window allows you to maintain Sales Leads.  These are unqualified contacts to who you wish to market to. ">Окно Лидов позволяет вводить данные о потенциальных клиентах.</value>
+ </row>
+ <row trl="Y" uuid="d9ff42c5-6c54-42d2-82f2-aa565df3fb69">
+  <value column="Name" original="Log processing Email">Журнал обработки входящих Email сообщений</value>
+  <value column="Description" original="List Log processing Email"/>
+  <value column="Help" original="Viewing Log processing Email"/>
+ </row>
+ <row trl="Y" uuid="65d3311e-08f9-4b95-bf16-20dadf10453f">
+  <value column="Name" original="Activity EMail Processor">Настройка входящей почты</value>
+  <value column="Description" original="Activity EMail Processor">Настройка входящей почты</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="343e88fe-9fa6-49a3-a1d9-5c7645e40b72">
+  <value column="Name" original="Payroll Payments">Payroll Payments</value>
+  <value column="Description" original="Payroll Direct Payments">Payroll Direct Payments</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="b0a6578c-eb3e-4f27-80ec-47d065a97060">
+  <value column="Name" original="UTM Label">UTM Метки</value>
+  <value column="Description" original="UTM Label">UTM Метки</value>
+  <value column="Help" original="UTM Label">UTM Метки</value>
+ </row>
+ <row trl="Y" uuid="5567be6b-9ca8-4c35-82bf-cf39a34b4bbe">
+  <value column="Name" original="Activity Geo Processing">Настройка отображения слоёв GeoServera</value>
+  <value column="Description" original="Activity Geo Processing">Настройка отображения слоёв GeoServera</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="ecdbe4e7-5241-4012-b584-9e2b1cb89d2b">
+  <value column="Name" original="Macro segment">Макросегмент</value>
+  <value column="Description" original="Macro segment">Макросегмент</value>
+  <value column="Help" original="Macro segment">Макросегмент</value>
+ </row>
+ <row trl="Y" uuid="31f3d418-5176-4365-82bd-df5de7f15d0e">
+  <value column="Name" original="Public Procurement Attribute">Атрибуты Госзакупок</value>
+  <value column="Description" original="Public Procurement Attribute">Атрибуты Госзакупок</value>
+  <value column="Help" original="Public Procurement Attribute">Атрибуты Госзакупок</value>
+ </row>
+ <row trl="Y" uuid="ad487059-7435-4b23-9e8a-a728f99c52e7">
+  <value column="Name" original="Maintain Parameter Layer Geo">Ведение параметров слоев Geo</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="f688cc45-7b9a-4907-afa1-59d673e76bd1">
+  <value column="Name" original="Lead Status Duration">Длительность пребывания лида в статусе</value>
+  <value column="Description" original="Leads in the current status &gt; 7 days"><![CDATA[Leads in the current status > 7 days]]></value>
+  <value column="Help" original="Leads in the current status &gt; 7 days"><![CDATA[Leads in the current status > 7 days]]></value>
+ </row>
+ <row trl="Y" uuid="66e54225-01ad-41ff-8db9-315efcd9f20c">
+  <value column="Name" original="ContractAgent">Договор</value>
+  <value column="Description" original="Access/Edit RIT_Contract for Agent"/>
+  <value column="Help" original="Access or edit table of contracrts RIT_Contract for Agent"/>
  </row>
 </idempiereTrl>

@@ -60,8 +60,13 @@
   <value column="Description" original=""/>
   <value column="HTML" original=""/>
  </row>
- <row trl="Y" uuid="af335705-1195-4dc5-9a34-23987a9ef725">
-  <value column="Name" original="OpenMap">Карта OpenLayers</value>
+ <row trl="N" uuid="af335705-1195-4dc5-9a34-23987a9ef725">
+  <value column="Name" original="OpenMap">OpenMap</value>
+  <value column="Description" original=""/>
+  <value column="HTML" original=""/>
+ </row>
+ <row trl="Y" uuid="28c5267e-2b09-4e40-aa99-9707d1c9bec5">
+  <value column="Name" original="Просроченные лиды">Просроченные лиды</value>
   <value column="Description" original=""/>
   <value column="HTML" original=""/>
  </row>

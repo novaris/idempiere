@@ -210,4 +210,10 @@
  <row id="200022" trl="N">
   <value column="Name" original="Placeholders">Placeholders</value>
  </row>
+ <row trl="Y" uuid="860193f8-7c72-49fe-bdad-7c367a33fc80">
+  <value column="Name" original="Registration certificate">Cвидетельство о регистрации</value>
+ </row>
+ <row trl="N" uuid="fefd26a2-00ed-417c-b8c3-a63560585e10">
+  <value column="Name" original="Options notice">Options notice</value>
+ </row>
 </idempiereTrl>

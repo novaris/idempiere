@@ -30,7 +30,7 @@
   <value column="Description" original="Used when Business Partners are exempt from tax">Used when Business Partners are exempt from tax</value>
   <value column="TaxIndicator" original=""/>
  </row>
- <row trl="N" uuid="3d813f87-36ea-4b72-9fbd-c22d6c491ab8">
+ <row trl="Y" uuid="3d813f87-36ea-4b72-9fbd-c22d6c491ab8">
   <value column="Name" original="Standard">Standard</value>
   <value column="Description" original=""/>
   <value column="TaxIndicator" original=""/>

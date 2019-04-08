@@ -15,7 +15,7 @@
  <row id="105" trl="N">
   <value column="Name" original="Export 2003">Export 2003</value>
  </row>
- <row trl="N" uuid="fa138f04-af32-45ff-942f-3229911c2f6d">
+ <row trl="Y" uuid="fa138f04-af32-45ff-942f-3229911c2f6d">
   <value column="Name" original="02-10-2018">02-10-2018</value>
  </row>
 </idempiereTrl>

@@ -25,7 +25,7 @@
   <value column="Description" original=""/>
   <value column="DocumentNote" original=""/>
  </row>
- <row trl="N" uuid="5c34b70f-6a4f-4eb4-b86b-355cb8f92855">
+ <row trl="Y" uuid="5c34b70f-6a4f-4eb4-b86b-355cb8f92855">
   <value column="Name" original="Immediate">Immediate</value>
   <value column="Description" original=""/>
   <value column="DocumentNote" original=""/>

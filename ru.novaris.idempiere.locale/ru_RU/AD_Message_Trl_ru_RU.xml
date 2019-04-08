@@ -65,7 +65,7 @@
   <value column="MsgTip" original="You don't have the privileges">У вас не  достаточно полномочий</value>
  </row>
  <row id="117" trl="Y">
-  <value column="MsgText" original="Client &amp; Organization Data">Данные о клиенте и об организиции</value>
+  <value column="MsgText" original="Client &amp; Organization Data">Данные об экземпляре и организации</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="118" trl="Y">
@@ -85,7 +85,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="122" trl="Y">
-  <value column="MsgText" original="System &amp; Client Data">Данные о системе и клиенте</value>
+  <value column="MsgText" original="System &amp; Client Data">Данные о системе и экземпляре</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="123" trl="Y">
@@ -310,7 +310,7 @@ Please change Cashbook only after completion of transaction</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="178" trl="Y">
-  <value column="MsgText" original="Client">Клиент</value>
+  <value column="MsgText" original="Client">Экземпляр</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="179" trl="Y">
@@ -2049,7 +2049,7 @@ Do you want to print separate Remittance advice ?</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="609" trl="Y">
-  <value column="MsgText" original="Please upgrade your Browser, if dependent field selections remain empty after change of Role.">Пожалуйста, обновите ваш браузер,если зависимые поля  остаются пустыми и после смены ролей</value>
+  <value column="MsgText" original="Please upgrade your Browser, if dependent field selections remain empty after change of Role.">Пожалуйста, обновите ваш браузер, если после смены роли зависимые поля остаются пустыми</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="610" trl="Y">
@@ -2417,7 +2417,7 @@ Do you want to print separate Remittance advice ?</value>
   <value column="MsgTip" original="You don't have the privileges">У вас не  достаточно полномочий</value>
  </row>
  <row id="708" trl="Y">
-  <value column="MsgText" original="Client Data">Данные клиента</value>
+  <value column="MsgText" original="Client Data">Данные экземпляра</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="709" trl="Y">
@@ -2615,11 +2615,11 @@ Thank you for using Adempiere Customer Asset Management
   <value column="MsgTip" original=""/>
  </row>
  <row id="758" trl="Y">
-  <value column="MsgText" original="No Zoom Target for this Record">Нету цели увеличения для этой записи</value>
+  <value column="MsgText" original="No Zoom Target for this Record">Нет связанных записей</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="759" trl="Y">
-  <value column="MsgText" original="&amp;Zoom Across (where used)">и рассмотреть паралельные (если используется)</value>
+  <value column="MsgText" original="&amp;Zoom Across (where used)">Связанные записи</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="760" trl="Y">
@@ -2976,7 +2976,7 @@ Delete Order/Invoice line with the Assignment.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="847" trl="Y">
-  <value column="MsgText" original="Costing Level defined on Client Level - You cannot specify Organization nor Attribute">Метод расчета стоимости определяется на уровне Клиента - вы не можете конкретизировать на уровне Организации или характеристик</value>
+  <value column="MsgText" original="Costing Level defined on Client Level - You cannot specify Organization nor Attribute">Метод расчета стоимости определяется на уровне экземпляра - вы не можете конкретизировать на уровне Организации или характеристик</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="848" trl="Y">
@@ -5220,7 +5220,7 @@ Delete Order/Invoice line with the Assignment.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="53010" trl="Y">
-  <value column="MsgText" original="This is a system parameter, you can't save it as client parameter">Это системный параметр, вы не можете сохранить его как параметр клиента</value>
+  <value column="MsgText" original="This is a system parameter, you can't save it as client parameter">Это системный параметр, вы не можете сохранить его как параметр экземпляра</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="53011" trl="Y">
@@ -5442,8 +5442,8 @@ Delete Order/Invoice line with the Assignment.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="53083" trl="Y">
-  <value column="MsgText" original="Client Accounting is not enabled">Учет клиента не включен</value>
-  <value column="MsgTip" original="In order to run this process you need to enable client accounting, this can be done in window System Configurator, setting the parameter CLIENT_ACCOUNTING to [I]mmediate or [Q]ueue">In order to run this process you need to enable client accounting, this can be done in window System Configurator, setting the parameter CLIENT_ACCOUNTING to [I]mmediate or [Q]ueue</value>
+  <value column="MsgText" original="Client Accounting is not enabled">Бухгалтерский учет экземпляра не включен</value>
+  <value column="MsgTip" original="In order to run this process you need to enable client accounting, this can be done in window System Configurator, setting the parameter CLIENT_ACCOUNTING to [I]mmediate or [Q]ueue">Для запуска этого процесса необходимо включить бухгалтерский учет экземпляра, это можно сделать в окне настройки системы, установив параметр CLIENT_ACCOUNTING в [I]mmediate или [Q]ueue.</value>
  </row>
  <row id="53084" trl="Y">
   <value column="MsgText" original="Not exists a Business Partner linked for Organization">Не существует контрагента, связанного с организацией</value>
@@ -6158,7 +6158,7 @@ Delete Order/Invoice line with the Assignment.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200157" trl="Y">
-  <value column="MsgText" original="If you change the client language is recommended that you run the Synchronize Doc Translation after that">Если вы изменяете язык клиента рекомендуется запустить Синхронизацию Перевода Документов после этого</value>
+  <value column="MsgText" original="If you change the client language is recommended that you run the Synchronize Doc Translation after that">После того, как вы изменяете язык экземпляра, рекомендуется запустить синхронизацию перевода документов</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200158" trl="Y">
@@ -6498,7 +6498,7 @@ Delete Order/Invoice line with the Assignment.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200264" trl="Y">
-  <value column="MsgText" original="Exceed maximum number of running jobs allowed per client">Превышено количество запущенных фоновых процессов (jobs) разрешённых для каждого клиента.</value>
+  <value column="MsgText" original="Exceed maximum number of running jobs allowed per client">Превышено количество запущенных фоновых процессов (jobs), разрешённых для каждого экземпляра</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200265" trl="Y">
@@ -6729,8 +6729,8 @@ Delete Order/Invoice line with the Assignment.</value>
   <value column="MsgText" original="Request a Read Receipt">Request a Read Receipt</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200452" trl="N">
-  <value column="MsgText" original="Row">Row</value>
+ <row id="200452" trl="Y">
+  <value column="MsgText" original="Row">Строка</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200453" trl="N">
@@ -6783,6 +6783,58 @@ Delete Order/Invoice line with the Assignment.</value>
  </row>
  <row id="523853" trl="Y">
   <value column="MsgText" original="Shipment/Receipt has different Sales/Purchase transaction than RMA">Shipment/Receipt has different Sales/Purchase transaction than RMA</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="56cfa2ab-3501-45ac-ac9b-e12839b3d514">
+  <value column="MsgText" original="Whong coordinates&lt;br&gt;(Latitude from -90 to 90. Longitude from -180 to 180)"><![CDATA[Заданы неверные географические координаты<br>(широта от -90 до +90, долгота от -180 до +180)]]></value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="c5c864eb-028c-4fe3-bb0e-5d044c599b20">
+  <value column="MsgText" original="Fill at least one of fields:">Заполните по крайней мере одно из полей:</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="23635704-6998-4812-9660-d5b41b8e4098">
+  <value column="MsgText" original="Dialing">Набор номера</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="ba318ee9-4cce-44ec-9764-fc892e8de1bf">
+  <value column="MsgText" original="Hungup">Повесить трубку</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="023edbde-8a36-4441-9a80-45c7b0901989">
+  <value column="MsgText" original="Ringing">Вызов</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="416b7f85-e7f5-4780-acfc-8401c924f316">
+  <value column="MsgText" original="Up">Вверх</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="02f613d9-d529-4cc9-a04a-a168b94b8335">
+  <value column="MsgText" original="Connection to asterisk server is not available. Please check your configuration or contact an administrator.">Подключение к серверу asterisk недоступно. Пожалуйста, проверьте свою конфигурацию или свяжитесь с администратором.</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="2ef5d3c6-e7e5-4f11-b08d-5cf2835c5b9f">
+  <value column="MsgText" original="Status: ">Статус:</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="8f167f32-f48d-40b3-a6d9-0a72ab2ea72a">
+  <value column="MsgText" original="Duration: ">Продолжительность:</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="ce46d83e-0f08-4521-96e0-2e79fd8d672d">
+  <value column="MsgText" original="Talking to: ">Разговариваю с:</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="N" uuid="d125d720-4637-4796-93c0-bdbe164620b5">
+  <value column="MsgText" original="Такое имя уже присутствует">Такое имя уже присутствует</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="N" uuid="6abcec07-9add-4146-a0d5-22cc344cac65">
+  <value column="MsgText" original="Введенный ИНН или КПП не уникальны">Введенный ИНН или КПП не уникальны</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="N" uuid="b0c071a2-4bf5-4e8d-ac89-136729fd0ef5">
+  <value column="MsgText" original="Контрагент и значение по умолчанию должны быть уникальными">Контрагент уже имеет значение по умолчанию.</value>
   <value column="MsgTip" original=""/>
  </row>
 </idempiereTrl>

@@ -281,8 +281,8 @@ Do not create a new client in this window, but use "Initial Client Setup" (Syste
  <row id="154" trl="Y">
   <value column="Name" original="Location">Местоположение</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Define Location">Определить метсоположение</value>
-  <value column="Help" original="The Location Tab defines the location of an Organization.">Вкладка расположение определяет расположение организации.</value>
+  <value column="Description" original="Define Location">Определить местоположение</value>
+  <value column="Help" original="The Location Tab defines the location of an Organization.">Вкладка местоположение определяет расположение организации.</value>
  </row>
  <row id="156" trl="Y">
   <value column="Name" original="Preference">Предпочтение</value>
@@ -336,8 +336,7 @@ If the Control Amount is not zero, it is compared to the Total Debit Amount. The
  </row>
  <row id="170" trl="Y">
   <value column="Name" original="Organization Info">Информация об организации</value>
-  <value column="CommitWarning" original="You need execute Cache Reset and re-login for most changes made here to be effective.&#10;">You need re-login and restart your application server for most changes made here to be effective.
-</value>
+  <value column="CommitWarning" original="You need execute Cache Reset and re-login for most changes made here to be effective.&#10;">You need re-login and restart your application server for most changes made here to be effective.</value>
   <value column="Description" original="Organization Detail Information">Детальная информация об организации</value>
   <value column="Help" original="The Organization Info Tab is used to define an Organization's address, DUNS number and Tax Identification number">Вкладка Информация об организации используется для определения адреса организации, номер DUNS и ИНН</value>
  </row>
@@ -591,8 +590,8 @@ Saving/deleting the record starts processes which may take a while.</value>
  <row id="222" trl="Y">
   <value column="Name" original="Location">Местоположение</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Define Location">Определить метсоположение</value>
-  <value column="Help" original="The Location Tab defines the physical location of a business partner.  A business partner may have multiple location records.">Вкладка местоположение определяет физическое местоположение бизнес-партнера. Бизнес-партнер может иметь несколько записей местоположения.</value>
+  <value column="Description" original="Define Location">Определить местоположение</value>
+  <value column="Help" original="The Location Tab defines the physical location of a business partner.  A business partner may have multiple location records.">Вкладка местоположение определяет физическое местоположение контрагента. Контрагент может иметь несколько записей местоположения.</value>
  </row>
  <row id="223" trl="Y">
   <value column="Name" original="Customer">Покупатель</value>
@@ -979,10 +978,10 @@ You can set the Organization, if it is a charge, otherwise it is set to the head
   <value column="Help" original="The Form Access Tab defines the Forms and type of access that this Role is granted.">Вкладка Доступ к форме определяет формы и тип доступа, предоставленный этой роли.</value>
  </row>
  <row id="307" trl="Y">
-  <value column="Name" original="Workflow Access">Доступ к бизнес-процессу</value>
+  <value column="Name" original="Workflow Access">Доступ к потоку операций</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Workflow Access">Доступ к бизнес-процессу</value>
-  <value column="Help" original="The Workflow Access Tab defines the Workflows and type of access that this Role is granted.">Вкладка Доступ к бизнес-процессу определяет бизнес-процессы и тип доступа, оторый предоставляется этой роли.</value>
+  <value column="Description" original="Workflow Access">Доступ к потоку операций</value>
+  <value column="Help" original="The Workflow Access Tab defines the Workflows and type of access that this Role is granted.">Вкладка определяет поток операций и тип доступа, который предоставляется этой роли.</value>
  </row>
  <row id="308" trl="Y">
   <value column="Name" original="Report Access">Доступ к отчетам</value>
@@ -2670,7 +2669,7 @@ The optional balance check applies to the entire import, not for individual batc
   <value column="Help" original="Organization Type allows you to categorize your organizations for reporting purposes">Тип организации позволяет вам классифицировать ваши оганизации в целях отчетности</value>
  </row>
  <row id="589" trl="Y">
-  <value column="Name" original="Schedule Process">Процесс планиировки</value>
+  <value column="Name" original="Schedule Process">Процесс планировки</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Schedule processes">Процессы планировки</value>
   <value column="Help" original="Schedule processes to be executed asynchronously">Процессы планировки для асинхронного выполнения</value>
@@ -3656,7 +3655,7 @@ The Organization is set to the invoice organization]]></value>
   <value column="Name" original="BP Access">Доступ к контрагенту</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Access of the User/Contact to Business Partner information and resources">Доступ пользователя/контакта к информации и ресурсам контрагента</value>
-  <value column="Help" original="If on User level, &quot;Full BP Access&quot; is NOT selected, you need to give access explicitly here. ">Если  в уровене пользователя не выбран "Полный доступ к бизнес-партнеру", вам надо дать здесь доступ в явном виде. </value>
+  <value column="Help" original="If on User level, &quot;Full BP Access&quot; is NOT selected, you need to give access explicitly here. ">Если на уровне пользователя не выбран "Полный доступ к контрагенту", вам надо дать здесь доступ в явном виде. </value>
  </row>
  <row id="757" trl="Y">
   <value column="Name" original="Queries">Запросы</value>
@@ -4812,8 +4811,8 @@ Valid From/To is determined by the parent tax.]]></value>
  <row id="53107" trl="Y">
   <value column="Name" original="Location">Местоположение</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Define Location">Определить метсоположение</value>
-  <value column="Help" original="The Location Tab defines the physical location of a business partner.  A business partner may have multiple location records.">Вкладка местоположение определяет физическое местоположение бизнес-партнера. Бизнес-партнер может иметь несколько записей местоположения.</value>
+  <value column="Description" original="Define Location">Определить местоположение</value>
+  <value column="Help" original="The Location Tab defines the physical location of a business partner.  A business partner may have multiple location records.">Вкладка местоположение определяет физическое местоположение контрагента. Контрагент может иметь несколько записей местоположения.</value>
  </row>
  <row id="53108" trl="Y">
   <value column="Name" original="Contact (User)">Контакт (пользователь)</value>
@@ -5927,10 +5926,10 @@ Printing:
   <value column="Description" original=""/>
   <value column="Help" original="">Используется в случае AR Invoice Indirect (Документ оформления розничных продаж)</value>
  </row>
- <row id="200019" trl="N">
-  <value column="Name" original="Schedule">Schedule</value>
+ <row id="200019" trl="Y">
+  <value column="Name" original="Schedule">Расписание</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Schedule">Schedule</value>
+  <value column="Description" original="Schedule">Расписание</value>
   <value column="Help" original=""/>
  </row>
  <row id="200020" trl="N">
@@ -6215,10 +6214,10 @@ Printing:
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200095" trl="N">
-  <value column="Name" original="City (Without Regions)">City (Without Regions)</value>
+ <row id="200095" trl="Y">
+  <value column="Name" original="City (Without Regions)">Город (Без Регионов)</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Cities without Region">Cities without Region</value>
+  <value column="Description" original="Cities without Region">Город (Без Регионов)</value>
   <value column="Help" original=""/>
  </row>
  <row id="200096" trl="Y">
@@ -6467,10 +6466,10 @@ Printing:
   <value column="Description" original="">Страна</value>
   <value column="Help" original=""/>
  </row>
- <row id="200158" trl="N">
-  <value column="Name" original="Country Group">Country Group</value>
+ <row id="200158" trl="Y">
+  <value column="Name" original="Country Group">Группа стран</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original=""/>
+  <value column="Description" original="">Группа стран</value>
   <value column="Help" original=""/>
  </row>
  <row id="200159" trl="Y">
@@ -6684,9 +6683,9 @@ Printing:
   <value column="Help" original=""/>
  </row>
  <row trl="Y" uuid="a41d255c-24c8-408f-9171-046e88983664">
-  <value column="Name" original="Technical Capability">Техническая возможность</value>
+  <value column="Name" original="Technical Capability">Техвозможность SENSAT</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Technical Capability">Техническая возможность</value>
+  <value column="Description" original="Technical Capability">Техвозможность SENSAT</value>
   <value column="Help" original=""/>
  </row>
  <row trl="Y" uuid="69d5248a-0ea8-478a-9f18-d3cc63ff7273">
@@ -6734,8 +6733,8 @@ Printing:
  <row trl="Y" uuid="ad2a1e43-175c-4a3e-b040-317dd62bc79c">
   <value column="Name" original="Location">Местоположение</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Define Location">Определить метсоположение</value>
-  <value column="Help" original="The Location Tab defines the physical location of a business partner.  A business partner may have multiple location records.">Вкладка местоположение определяет физическое местоположение бизнес-партнера. Бизнес-партнер может иметь несколько записей местоположения.</value>
+  <value column="Description" original="Define Location">Определить местоположение</value>
+  <value column="Help" original="The Location Tab defines the physical location of a business partner.  A business partner may have multiple location records.">Вкладка местоположение определяет физическое местоположение контрагента. Контрагент может иметь несколько записей местоположения.</value>
  </row>
  <row trl="Y" uuid="5e2f2ce0-7885-4502-ba3e-22561c830d33">
   <value column="Name" original="Bank Account">Банковский счет</value>
@@ -6760,5 +6759,354 @@ Printing:
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Define Vendor Accounting">Определение бухгалтерского учета продавца</value>
   <value column="Help" original="The Vendor Accounting Tab defines the default accounts to use when this business partner is referenced in an accounts payable transaction.">Вкладка Бухгалтерский учет продавца определяет счета по умолчанию для использования при ссылке в счетах на оплату сделки на этого бизнес-партнера.</value>
+ </row>
+ <row trl="Y" uuid="7c9ca827-8bd0-4ce4-aa1d-52ae0fe32f3e">
+  <value column="Name" original="Contract">Договор</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Contract">Договор</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="965ed218-d16d-48cb-b138-e5d93ea96601">
+  <value column="Name" original="Business Partner">Контрагент</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Business Partner">Контрагент</value>
+  <value column="Help" original="The Business Partner Tab defines any Entity with whom an organization transacts.">Вкладка контрагент определяет любой объект, с которым организация ведет дела.</value>
+ </row>
+ <row trl="Y" uuid="d2af5b59-3e66-4eeb-98a9-291139daaf37">
+  <value column="Name" original="User">Контакты</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="User/Contact">Контактные лица</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="7a7dbddd-624f-4f99-9f14-977447fb6174">
+  <value column="Name" original="Documents">Документы</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Contact Documents">Документы относящиеся к контакту</value>
+  <value column="Help" original="Contact personal documents">Документы относящиеся к контакту (паспорт, водительское, военный билет и т.п.)</value>
+ </row>
+ <row trl="Y" uuid="95cf0468-312e-473d-a723-9b2d42828061">
+  <value column="Name" original="Interest Area">Область интереса</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Business Partner Contact Interest Area">Сфера интересов контрагента</value>
+  <value column="Help" original="Interest Area can be used for Marketing Campaigns">Сфера интересов может быть использована для маркетинговых кампаний.</value>
+ </row>
+ <row trl="Y" uuid="16b91a89-69b3-4964-991d-2b9a6746ede1">
+  <value column="Name" original="BP Access">Доступ к контрагенту</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Access of the User/Contact to Business Partner information and resources">Доступ пользователя/контакта к информации и ресурсам контрагента</value>
+  <value column="Help" original="If on User level, &quot;Full BP Access&quot; is NOT selected, you need to give access explicitly here. ">Если  в уровене пользователя не выбран "Полный доступ к бизнес-партнеру", вам надо дать здесь доступ в явном виде. </value>
+ </row>
+ <row trl="Y" uuid="f7078a7e-21a5-417b-a4bd-e8735cf7c37a">
+  <value column="Name" original="User Activity">Активность контакта</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="User Activity">Активность контакта</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="40a6d430-33fd-42ea-886e-9cd529a3cb5f">
+  <value column="Name" original="All Activity">Активность вся</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Business Partner Activity">Активность контрагента</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="7ea1db20-4251-45f8-90ec-430d2a53a59b">
+  <value column="Name" original="Location">Местоположение</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Define Location">Определить местоположение</value>
+  <value column="Help" original="The Location Tab defines the physical location of a business partner.  A business partner may have multiple location records.">Вкладка местоположение определяет физическое местоположение контрагента. Контрагент может иметь несколько записей местоположения.</value>
+ </row>
+ <row trl="Y" uuid="26fc35b9-ba55-4806-aa0a-3d4a649da926">
+  <value column="Name" original="Bank Account">Банковский счет</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Define Bank Account">Определение банковского счета</value>
+  <value column="Help" original="The Define Bank Account Tab defines the banking information for this business partner.  This data is used for processing payments and remittances.">Вкладка Банковский счет определяет банковскую информацию для этого бизнес-партнера.  Эти данные используются для обработки платежей и денежных переводов.</value>
+ </row>
+ <row trl="Y" uuid="0e726837-b879-4edf-a897-d09d15742f54">
+  <value column="Name" original="Shipping Accounts">Счета грузоотправителя</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="">Определение счетов грузоотправителей</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="79215d1e-2a46-4f8c-9dfc-6938915a966e">
+  <value column="Name" original="Customer Accounting">Бухгалтерский учет покупателя</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Define Customer Accounting">Определение бухгалтерского учета покупателя</value>
+  <value column="Help" original="The Customer Accounting Tab defines the default accounts to use when this business partner is referenced on an accounts receivable transaction.">Вкладка бухгалтерского учета покупателя орпеделяет счета по умолчанию, когда этот бизнес-партнер ссылается на сделку дебиторской задолжности</value>
+ </row>
+ <row trl="Y" uuid="999bb095-1637-4589-9c5b-77c2097d2a02">
+  <value column="Name" original="Vendor Accounting">Бухгалтерский учет продавца</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Define Vendor Accounting">Определение бухгалтерского учета продавца</value>
+  <value column="Help" original="The Vendor Accounting Tab defines the default accounts to use when this business partner is referenced in an accounts payable transaction.">Вкладка Бухгалтерский учет продавца определяет счета по умолчанию для использования при ссылке в счетах на оплату сделки на этого бизнес-партнера.</value>
+ </row>
+ <row trl="Y" uuid="deb12462-45d9-49ab-a014-79e0f097f1ba">
+  <value column="Name" original="Business Partner">Агент</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Business Partner">Агент</value>
+  <value column="Help" original="The Business Partner Tab defines any Entity with whom an organization transacts.">Вкладка Агент определяет любой объект, с которым организация ведет дела.</value>
+ </row>
+ <row trl="Y" uuid="c2b54e5e-eada-4539-a6d5-56658b6bb430">
+  <value column="Name" original="User">Контакты</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="User/Contact">Контактные лица</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="5bf4081d-037d-4a2e-87ac-7edaea357b98">
+  <value column="Name" original="Documents">Документы</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Contact Documents">Документы относящиеся к контакту</value>
+  <value column="Help" original="Contact personal documents">Документы относящиеся к контакту (паспорт, водительское, военный билет и т.п.)</value>
+ </row>
+ <row trl="Y" uuid="45478cae-2e9a-49a8-8e5c-2f22890d7769">
+  <value column="Name" original="Interest Area">Область интереса</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Business Partner Contact Interest Area">Сфера интересов контрагента</value>
+  <value column="Help" original="Interest Area can be used for Marketing Campaigns">Сфера интересов может быть использована для маркетинговых кампаний.</value>
+ </row>
+ <row trl="Y" uuid="945ce047-5197-498c-8bbc-d0b28eec6b56">
+  <value column="Name" original="BP Access">Доступ к контрагенту</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Access of the User/Contact to Business Partner information and resources">Доступ пользователя/контакта к информации и ресурсам контрагента</value>
+  <value column="Help" original="If on User level, &quot;Full BP Access&quot; is NOT selected, you need to give access explicitly here. ">Если  в уровене пользователя не выбран "Полный доступ к бизнес-партнеру", вам надо дать здесь доступ в явном виде. </value>
+ </row>
+ <row trl="Y" uuid="0430b425-0afc-4546-9b97-574a43c92a32">
+  <value column="Name" original="User Activity">Активность контакта</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="User Activity">Активность контакта</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="a425d0e5-8e4b-4821-8365-f8ebe2756ec5">
+  <value column="Name" original="All Activity">Активность вся</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Business Partner Activity">Активность контрагента</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="db6b0c9b-ae51-4baf-a810-356ce584b036">
+  <value column="Name" original="Location">Местоположение</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Define Location">Определить местоположение</value>
+  <value column="Help" original="The Location Tab defines the physical location of a business partner.  A business partner may have multiple location records.">Вкладка местоположение определяет физическое местоположение контрагента. Контрагент может иметь несколько записей местоположения.</value>
+ </row>
+ <row trl="Y" uuid="9a162a56-6b83-4a7b-8069-3ec161cc14c4">
+  <value column="Name" original="Bank Account">Банковский счет</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Define Bank Account">Определение банковского счета</value>
+  <value column="Help" original="The Define Bank Account Tab defines the banking information for this business partner.  This data is used for processing payments and remittances.">Вкладка Банковский счет определяет банковскую информацию для этого бизнес-партнера.  Эти данные используются для обработки платежей и денежных переводов.</value>
+ </row>
+ <row trl="Y" uuid="828eb966-9c5b-444d-b67f-161cffe7448f">
+  <value column="Name" original="Shipping Accounts">Счета грузоотправителя</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="">Определение счетов грузоотправителей</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="405966f7-7352-45cf-8c22-48842808babf">
+  <value column="Name" original="Customer Accounting">Бухгалтерский учет покупателя</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Define Customer Accounting">Определение бухгалтерского учета покупателя</value>
+  <value column="Help" original="The Customer Accounting Tab defines the default accounts to use when this business partner is referenced on an accounts receivable transaction.">Вкладка бухгалтерского учета покупателя орпеделяет счета по умолчанию, когда этот бизнес-партнер ссылается на сделку дебиторской задолжности</value>
+ </row>
+ <row trl="Y" uuid="ca26c454-d547-4dac-81f0-fb02d159937f">
+  <value column="Name" original="Vendor Accounting">Бухгалтерский учет продавца</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Define Vendor Accounting">Определение бухгалтерского учета продавца</value>
+  <value column="Help" original="The Vendor Accounting Tab defines the default accounts to use when this business partner is referenced in an accounts payable transaction.">Вкладка Бухгалтерский учет продавца определяет счета по умолчанию для использования при ссылке в счетах на оплату сделки на этого бизнес-партнера.</value>
+ </row>
+ <row trl="Y" uuid="7ce0cb54-e0ef-4128-99af-33b0fd0aad55">
+  <value column="Name" original="Договор">Договор</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Договор">Договор</value>
+  <value column="Help" original="Создание/редактирование контракта"/>
+ </row>
+ <row trl="Y" uuid="01f1838a-406b-450f-9a10-381c98ead4f6">
+  <value column="Name" original="Opportunity">Возможность продаж</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Opportunity">Возможные продажи</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="52e84c07-56af-4a56-987a-0e453c0a43c1">
+  <value column="Name" original="Technical Capability">Техвозможность SENSAT</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Technical Capability">Техвозможность SENSAT</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="3d70a92d-36e5-42c6-a69f-47714acb6abe">
+  <value column="Name" original="Technical Capability">Техвозможность SENSAT</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Technical Capability">Техвозможность SENSAT</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="2264b387-1ecd-4b43-b605-235fd454b805">
+  <value column="Name" original="User Contact">Контактное лицо</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Maintain User or Business Partner Contact">Регистрация пользователя или контакта контрагента</value>
+  <value column="Help" original="The User Tab defines the log in for Users who have access to the system.  For application access, users need to have a role assigned.">Вкладка позволяет регистрировать пользователей, которые будут иметь доступ к системе. Для доступа к системе пользователи должны иметь привязанную роль.</value>
+ </row>
+ <row trl="Y" uuid="8a442a55-e0dd-4972-a858-29426ee536e1">
+  <value column="Name" original="User Roles">Роли пользователя</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="User Roles">Роли пользователя</value>
+  <value column="Help" original="The User Roles Tab define the Roles each user may have.  The Roles will determine what windows, tasks, processes and workflows that a User has access to.">Вкладка Роли пользователя определяет роли, которые может иметь каждый пользователь. Роли будут определять те окна, задачи, процессы и бизнес-процессы, к которым пользователь будет иметь доступ.</value>
+ </row>
+ <row trl="Y" uuid="16d290e7-80cb-47fa-9bcc-d0c5e53e9e41">
+  <value column="Name" original="User Substitute">Заместитель пользователя</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Substitute of the user">Заместитель пользователя</value>
+  <value column="Help" original="A user who can act for this user.">Пользователь, который может действовать за этого пользователя.</value>
+ </row>
+ <row trl="Y" uuid="4708cea5-1b28-43c7-968e-5792a0105c4f">
+  <value column="Name" original="Org Access">Доступ к организации</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Maintain User Org Access">Утверждение доступа пользователя к организации</value>
+  <value column="Help" original="Add the client and organizations the user has access to. Entries here are ignored, if in the Role, User Org Access is not selected or the role has access to all roles.&lt;br&gt;&#10;Note that access information is cached and requires re-login or reset of cache."><![CDATA[Add the client and organizations the user has access to. Entries here are ignored, if in the Role, User Org Access is not selected or the role has access to all roles.<br>
+Note that access information is cached and requires re-login or reset of cache.]]></value>
+ </row>
+ <row trl="Y" uuid="0781573a-5a9e-479b-b328-c51608b93d4c">
+  <value column="Name" original="User Mail">Почта пользователя</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Mail sent to the user">Письма, отправленных пользователю</value>
+  <value column="Help" original="Archive of mails sent to users">Архив писем, отправленных пользователю</value>
+ </row>
+ <row trl="Y" uuid="057560bc-d409-4e1c-989a-33dd112d177e">
+  <value column="Name" original="Queries">Запросы</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="View and maintain saved queries">Просмотр и ведение сохраненных запросов</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="1004b789-1aa4-4f11-a482-7a3878d49a1f">
+  <value column="Name" original="LDAP Access">LDAP доступ</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="User Access via LDAP">Пользовательский доступ через LDAP</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="4ed1ad50-3917-4f20-9b9e-8806835db4a4">
+  <value column="Name" original="Lead">Лид</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Any information about the contact">Любая информация о контакте</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="07aad922-335f-45ed-887d-07c23ba8447f">
+  <value column="Name" original="Activity">Активности</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="">Активности Лида</value>
+  <value column="Help" original="">Отображает активность Лида</value>
+ </row>
+ <row trl="Y" uuid="3c8a1c4e-7af9-495b-8cca-27f4bb68e888">
+  <value column="Name" original="Technical Capability">Техвозможность SENSAT</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Technical Capability">Техвозможность SENSAT</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="def2994c-3511-4e69-9030-48da2ca2362c">
+  <value column="Name" original="List Log processing Email">Журнал обработки входящих Email сообщений</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="">Просмотр логов обработки входящих Email сообщений</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="f802891a-cf15-42b6-9e00-7c3c763745e1">
+  <value column="Name" original="Activity EMail Processor">Настройка входящей почты</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="005613e3-b526-4a8a-a542-13b957ecd524">
+  <value column="Name" original="Payroll Payments">Payroll Payments</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="e280ca77-97e5-489d-9c64-3ba9bdcf1c19">
+  <value column="Name" original="Concepts Payroll Payments">Concepts Payroll Payments</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="f8f2794d-58fc-45c4-928b-275dcd42d0e2">
+  <value column="Name" original="UTM Label">UTM Метки</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="UTM Label">UTM Метки</value>
+  <value column="Help" original="UTM Label">UTM Метки</value>
+ </row>
+ <row trl="Y" uuid="a3c89554-82cd-4d5a-98eb-2d72a30cb650">
+  <value column="Name" original="UTM Label Value">UTM метки</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="UTM Label Value">UTM метки</value>
+  <value column="Help" original="UTM Label Value">UTM метки</value>
+ </row>
+ <row trl="Y" uuid="f61ac058-63ac-41ba-af00-d612c9b03c47">
+  <value column="Name" original="All UTM Label">Все UTM метки</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="All UTM Label">Все UTM метки</value>
+  <value column="Help" original="All UTM Label">Все UTM метки</value>
+ </row>
+ <row trl="Y" uuid="2ce33871-56da-47ff-ab30-f6c3c41987b7">
+  <value column="Name" original="Configuring the display of layers in Geoserver">Настройка отображения слоёв GeoServera</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original="Configuring the display of layers in Geoserver">Настройка данных для слоев отображаемых на карте</value>
+ </row>
+ <row trl="Y" uuid="f84fc094-24ca-463b-8551-2ca7f86086c2">
+  <value column="Name" original="Возможности продаж">Возможности</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Возможности продаж">Возможности продаж</value>
+  <value column="Help" original="Возможности продаж"/>
+ </row>
+ <row trl="Y" uuid="6a177972-273b-4098-af7f-04e952bcc5bd">
+  <value column="Name" original="Macro segment">Макросегмент</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Macro segment">Макросегмент</value>
+  <value column="Help" original="Macro segment">Макросегмент</value>
+ </row>
+ <row trl="Y" uuid="866e2095-6f7b-49b9-acbb-5e7a1d5b1eac">
+  <value column="Name" original="Parametrs Layer">Параметры Geo слоя</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="e6c93431-b881-4358-851d-882e7dd22bf4">
+  <value column="Name" original="Public Procurement Attribute">Public Procurement Attribute</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Public Procurement Attribute"/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="fa643385-0dbc-4390-a2fe-1a173d53150f">
+  <value column="Name" original="Public Procurement Attribute List">Public Procurement Attribute List</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Public Procurement Attribute List">Public Procurement Attribute List</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="d946581d-8c5a-44d8-97a5-e09e7999e066">
+  <value column="Name" original="Serviced contracts">Обслуживаемые договора</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="">Обслуживаемые договора</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="bd781255-95b9-4875-8ad8-500e87f1432f">
+  <value column="Name" original="Maintain Parameter Layer Geo">Ведение параметров слоев</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="16eb2403-5ea6-4098-a57c-6b5169ad120f">
+  <value column="Name" original="Lead">Lead</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Any information about the contact">Any information about the contact</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="93155191-21a1-4be9-9e37-5cf595cab8b7">
+  <value column="Name" original="TopicAttr">Атрибуты гос. закупок</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="aaac1f38-3c23-4a25-959d-63b95039a0f2">
+  <value column="Name" original="Contract Agent">Договор</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="">Договор</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="05584a55-4d17-4af4-9e82-952d37f3582f">
+  <value column="Name" original="ContractAgent">Договоры с Оператором</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
 </idempiereTrl>

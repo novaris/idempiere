@@ -41,8 +41,8 @@
   <value column="Help" original=""/>
  </row>
  <row id="13" trl="Y">
-  <value column="Name" original="ID">ИД</value>
-  <value column="Description" original="10 Digit Identifier">10-значный идентификатор</value>
+  <value column="Name" original="Geo Layer parameters">ИД</value>
+  <value column="Description" original="Geo Layer parameters">10-значный идентификатор</value>
   <value column="Help" original=""/>
  </row>
  <row id="14" trl="Y">
@@ -2525,6 +2525,11 @@
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
+ <row id="200077" trl="Y">
+  <value column="Name" original="PhoneNumber">Телефон</value>
+  <value column="Description" original="Phone Number DataType for Asterisk integration">Тип данных Телефон для интеграции с Asterisk</value>
+  <value column="Help" original="This new DataType is used to replace the String editors of any phone number so you can initiate a call from within iDempiere via Asterisk.">Этот тип данных используется для замены строковых редакторов номером телефона, который позволяет инициировать вызов из iDempiere через Asterisk.</value>
+ </row>
  <row id="200080" trl="N">
   <value column="Name" original="M_Production">M_Production</value>
   <value column="Description" original=""/>
@@ -2633,6 +2638,76 @@
  <row trl="N" uuid="75e43a0c-2c62-4d12-b39f-81c2557eaba4">
   <value column="Name" original="Location_Lead">Адреса лидов</value>
   <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="fdebd79a-c4bb-45a0-82fb-e50c676def05">
+  <value column="Name" original="Проект">Проект</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="f779e940-0680-42d6-93dc-9a9fdf8c2673">
+  <value column="Name" original="RIT Project Type">RIT Тип проекта</value>
+  <value column="Description" original="">Тип проекта</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="66f0cff0-37a3-492a-bb3e-b23f1ae164bd">
+  <value column="Name" original="AttOwne">AttOwne</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="8afccd8a-9a35-470c-8d59-ce143c4b59c4">
+  <value column="Name" original="TgText">Столбец поиска TgText </value>
+  <value column="Description" original="">Столбец поиска TgText (Postgresql)</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="777455c6-a776-4e6e-aa35-9a973b2cca45">
+  <value column="Name" original="C_Invoice_line">C_Invoice_line</value>
+  <value column="Description" original="Lineas de Facturas">Lineas de Facturas</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="592b2e10-02b2-4c98-9c07-05fdb8e040bd">
+  <value column="Name" original="EndCustomerService">EndCustomerService</value>
+  <value column="Description" original="Услуга, которая будет предоставляться конечному абоненту">Услуга, которая будет предоставляться конечному абоненту</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="a1b68d20-ccc9-4b24-8849-6b83a63df560">
+  <value column="Name" original="AD_User_BP">AD_User_BP</value>
+  <value column="Description" original="AD_User_BP">AD_User_BP</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="9f6a5026-de3c-4ce5-a456-62549841c4f0">
+  <value column="Name" original="Type Parameters Layer">Тип параметра</value>
+  <value column="Description" original="Type Parameters Layer">Допустимый тип параметра  Layer</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="3b0a22a0-437a-4bec-85c5-57491f3a39f5">
+  <value column="Name" original="Topic Status">Статусы торговой процедуры</value>
+  <value column="Description" original="Topic Status">Статусы торговой процедуры</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="74e4914e-3a62-4209-bf1b-4211b79f90ec">
+  <value column="Name" original="RIT_PurchaseMethod">RIT_PurchaseMethod</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="49857b63-28f0-4656-8296-95cad76ac6ca">
+  <value column="Name" original="RIT_RegulatoryNPA">RIT_RegulatoryNPA</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="e6423665-2a4c-4ca9-bcc0-8073077187f9">
+  <value column="Name" original="RIT_MethodSubmittingOffer">RIT_MethodSubmittingOffer</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="c6de22d7-c772-4dfd-9833-107fd50934de">
+  <value column="Name" original="LevelLog">Глубина логирования</value>
+  <value column="Description" original="Level logging ">Глубина логирования</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="d4afe0cf-6af0-4a1b-8ff0-a5846724dcdd">
+  <value column="Name" original="Contract Agent Type List">Типы агентского договора</value>
+  <value column="Description" original="Contract Agent Type List">Типы агентского договора</value>
   <value column="Help" original=""/>
  </row>
 </idempiereTrl>

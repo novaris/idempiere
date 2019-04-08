@@ -12,10 +12,10 @@
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="102" trl="Y">
-  <value column="Name" original="Client">Организация</value>
-  <value column="PrintName" original="Client">Организация</value>
-  <value column="Description" original="Client/Tenant for this installation.">Организация/владелец данного экземпляра системы</value>
-  <value column="Help" original="A Client is a company or a legal entity. You cannot share data between Clients. Tenant is a synonym for Client.">Компания или юридическое лицо. Данные организаций изолированы. Арендатор синоним организации.</value>
+  <value column="Name" original="Client">Экземпляр</value>
+  <value column="PrintName" original="Client">Экземпляр</value>
+  <value column="Description" original="Client/Tenant for this installation.">Компания/владелец данного экземпляра системы</value>
+  <value column="Help" original="A Client is a company or a legal entity. You cannot share data between Clients. Tenant is a synonym for Client.">Компания или юридическое лицо. Данные компании изолированы.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -111,10 +111,10 @@
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="113" trl="Y">
-  <value column="Name" original="Organization">Подразделение</value>
-  <value column="PrintName" original="Organization">Подразделение</value>
-  <value column="Description" original="Organizational entity within client">Часть внутренней структуры организации</value>
-  <value column="Help" original="An organization is a unit of your client or legal entity - examples are store, department. You can share data between organizations.">Подразделение — это логическая часть организации, например, склад, отдел, филиал. Вы можете обмениваться данными между подразделениями.</value>
+  <value column="Name" original="Organization">Организация</value>
+  <value column="PrintName" original="Organization">Организация</value>
+  <value column="Description" original="Organizational entity within client">Организация</value>
+  <value column="Help" original="An organization is a unit of your client or legal entity - examples are store, department. You can share data between organizations.">Структура, включающая в состав подразделения, склады, сотрудников. Внутренние пользователи системы закреплены за соответствующей организацией.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -268,7 +268,7 @@
   <value column="Name" original="BPartner Tree">Дерево контрагентов</value>
   <value column="PrintName" original="BPartner Tree">Дерево контрагентов</value>
   <value column="Description" original="Trees are used for (financial) reporting">Дерево указывает иерархию контрагентов</value>
-  <value column="Help" original="Trees are used for (finanial) reporting">Деревья используются для (финансовой) отчетности</value>
+  <value column="Help" original="Trees are used for (finanial) reporting">Деревья используются для (финансовой) отчетности.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -298,10 +298,10 @@
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="134" trl="Y">
-  <value column="Name" original="Organization Tree">Иерархия подразделений</value>
-  <value column="PrintName" original="Organization Tree">Иерархия подразделений</value>
-  <value column="Description" original="Trees are used for (financial) reporting and security access (via role)">Дерево для определения иерархии подразделений организации</value>
-  <value column="Help" original="Trees are used for (finanial) reporting and security access (via role)">Иерархия используются для (финансовой) отчетности и доступа к безопасности (через роль)</value>
+  <value column="Name" original="Organization Tree">Иерархия организаций</value>
+  <value column="PrintName" original="Organization Tree">Иерархия организаций</value>
+  <value column="Description" original="Trees are used for (financial) reporting and security access (via role)">Дерево для определения иерархии организаций</value>
+  <value column="Help" original="Trees are used for (finanial) reporting and security access (via role)">Иерархия используются для (финансовой) отчетности и доступа к безопасности (через роль).</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -345,7 +345,7 @@
   <value column="Name" original="User/Contact">Пользователь/контакт</value>
   <value column="PrintName" original="User">Контактное лицо</value>
   <value column="Description" original="User within the system - Internal or Business Partner Contact">Пользователь в рамках системы (внутренний) или контакт контрагента</value>
-  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">Поле определяет уникального пользователя в системе. Это может быть внутренний пользователь или контакт контрагента</value>
+  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">Поле определяет уникального пользователя в системе. Это может быть внутренний пользователь или контакт контрагента.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -686,7 +686,7 @@
   <value column="Name" original="Business Partner ">Контрагент</value>
   <value column="PrintName" original="Business Partner ">Контрагент</value>
   <value column="Description" original="Identifies a Business Partner">Идентификация контрагента</value>
-  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson">Контрагент - это любой, с кем вы проводите операции. Это может быть поставщик, сотрудник или продавец.</value>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson">Юридическое или физическое лицо, являющееся, наряду с Компанией, стороной правоотношений, регулируемых Договором. Отражает полную информацию о второй стороне, в том числе сканы документов (юридического лица/индивидуального предпринимателя или физическое лицо). Карточка «Контрагента» содержит поля, обязательные для заполнения в соответствии с данными Договора об оказании услуг юридического лица/индивидуального предпринимателя или физического лица. Может быть: Потенциальный покупатель, Покупатель, Поставщик, Агент, Сотрудник.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -839,7 +839,7 @@
  <row id="203" trl="Y">
   <value column="Name" original="Non Business Day">Нерабочий день</value>
   <value column="PrintName" original="Non Business Day">Нерабочий день</value>
-  <value column="Description" original="Day on which business is not transacted">День, в который не ведутся дела.</value>
+  <value column="Description" original="Day on which business is not transacted">День, в который не ведутся дела</value>
   <value column="Help" original="The Non Business Day identifies a day that should not be considered a day when business is transacted">Нерабочий день определяет день, который не должен рассматриваться как день, когда ведутся дела.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -2151,8 +2151,8 @@ Example of format "(000)_000-0000"]]></value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="373" trl="Y">
-  <value column="Name" original="Employee">Служащий</value>
-  <value column="PrintName" original="Employee">Служащий</value>
+  <value column="Name" original="Employee">Сотрудник</value>
+  <value column="PrintName" original="Employee">Сотрудник</value>
   <value column="Description" original="Indicates if  this Business Partner is an employee">Подсвечено, если этот бизнес-партнер является сотрудником</value>
   <value column="Help" original="The Employee checkbox indicates if this Business Partner is an Employee.  If it is selected, additional fields will display which further identify this employee.">Checkbox Сотрудник - показывает, что этот бизнес-партнер является сотрудником. Если это выбрано, то будут отображаться дополнительные поля, которые более детально идентифицируют этого сотрудника.</value>
   <value column="Placeholder" original=""/>
@@ -2405,13 +2405,13 @@ Data storage encryption (in Table/Column) - data is stored encrypted in the data
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="409" trl="Y">
-  <value column="Name" original="Sales Representative">Торговый представитель</value>
-  <value column="PrintName" original="Sales Rep">Торговый представитель</value>
-  <value column="Description" original="Indicates if  the business partner is a sales representative or company agent">Показывает, является ли бизнес-партнер торговым представителем или агентом компании</value>
-  <value column="Help" original="The Sales Rep checkbox indicates if this business partner is a sales representative. A sales representative may also be an employee, but does not need to be.">Флажок Торговый представитель показывает, является ли бизнес-партнер торговым представителем. Торговый представитель также может быть сотрудником, но не обязательно.</value>
+  <value column="Name" original="Sales Representative">Менеджер/Агент</value>
+  <value column="PrintName" original="Sales Rep">Менеджер/Агент</value>
+  <value column="Description" original="Indicates if  the business partner is a sales representative or company agent">Показывает, является ли контрагент менеджером или агентом компании</value>
+  <value column="Help" original="The Sales Rep checkbox indicates if this business partner is a sales representative. A sales representative may also be an employee, but does not need to be.">Флажок показывает, является ли контрагент менеджером или агентом компании.</value>
   <value column="Placeholder" original=""/>
-  <value column="PO_Description" original="Business Partner responsible for documents">Бизнес-партнер, ответственный за документы</value>
-  <value column="PO_Help" original="The Sales Rep checkbox indicates if this business partner is a company agent. A company agent may also be an employee, but does not need to be.">Торговый представитель показывает, является ли бизнес-партнер агентом компании. Агент компании также может быть сотрудником, но не обязательно.</value>
+  <value column="PO_Description" original="Business Partner responsible for documents">Агент, ответственный за документы</value>
+  <value column="PO_Help" original="The Sales Rep checkbox indicates if this business partner is a company agent. A company agent may also be an employee, but does not need to be.">Показывает, является ли контрагент агентом компании.</value>
   <value column="PO_Name" original="Company Agent">Агент компании</value>
   <value column="PO_PrintName" original="Company Agent">Агент компании</value>
  </row>
@@ -2548,10 +2548,10 @@ Data storage encryption (in Table/Column) - data is stored encrypted in the data
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="423" trl="Y">
-  <value column="Name" original="User updatable">User updateable</value>
-  <value column="PrintName" original="User updatable">User updateable</value>
+  <value column="Name" original="User updatable">Может быть обновлено пользователем</value>
+  <value column="PrintName" original="User updatable">Может быть обновлено пользователем</value>
   <value column="Description" original="The field can be updated by the user">Это поле может быть обновлено пользователем</value>
-  <value column="Help" original="The User Updatable checkbox indicate if the user can update  this field.">The User Updateable checkbox indicate if the user can update  this field.</value>
+  <value column="Help" original="The User Updatable checkbox indicate if the user can update  this field.">Этот флажок указывает, может ли пользователь обновить это поле.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -2857,10 +2857,10 @@ Data storage encryption (in Table/Column) - data is stored encrypted in the data
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="479" trl="Y">
-  <value column="Name" original="Organization">Подразделение</value>
-  <value column="PrintName" original="Organization">Подразделение</value>
-  <value column="Description" original="Organizational entity within client">Внутренняя структура организации</value>
-  <value column="Help" original="An organization is a unit of your client or legal entity - examples are store, department.">Подразделение - это структурная единица организации или законный объект, например: склад, отдел, филиал.</value>
+  <value column="Name" original="Organization">Организация</value>
+  <value column="PrintName" original="Organization">Организация</value>
+  <value column="Description" original="Organizational entity within client">Организация</value>
+  <value column="Help" original="An organization is a unit of your client or legal entity - examples are store, department.">Структура, включающая в состав подразделения, склады, сотрудников. Внутренние пользователи системы закреплены за соответствующей Организацией.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -2947,7 +2947,7 @@ Data storage encryption (in Table/Column) - data is stored encrypted in the data
  <row id="498" trl="Y">
   <value column="Name" original="Password">Пароль</value>
   <value column="PrintName" original="Password">Пароль</value>
-  <value column="Description" original="Password of any length (case sensitive)">Пароль любой длины (чувствителен к регистру) of any length (case sensitive)</value>
+  <value column="Description" original="Password of any length (case sensitive)">Пароль любой длины (чувствителен к регистру)</value>
   <value column="Help" original="The Password for this User.  Passwords are required to identify authorized users.  For iDempiere Users, you can change the password via the Process &quot;Reset Password&quot;.">Пароль для этого пользователя. Пароли требуются для идентификации авторизованных пользователей. Для пользователей Adempiere пароль можно сменить через процесс "Сбросить пароль".</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -3730,7 +3730,7 @@ Example: A tab with C_DocType_ID (1), DocumentNo (-2) will be sorted ascending b
   <value column="Name" original="Tax ID">ID налога</value>
   <value column="PrintName" original="Tax ID">ID налога</value>
   <value column="Description" original="Tax Identification">Идентификатор налога</value>
-  <value column="Help" original="The Tax ID field identifies the legal Identification number of this Entity.">Поле ID налога показывает юридический идентификационный номер этого объекта.</value>
+  <value column="Help" original="The Tax ID field identifies the legal Identification number of this Entity.">Для ФЛ и ИП количество символов ИНН равно 12, для ЮЛ  равно 10</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -3958,8 +3958,8 @@ Example: A tab with C_DocType_ID (1), DocumentNo (-2) will be sorted ascending b
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="615" trl="Y">
-  <value column="Name" original="User Level">Уровень пользов-ля</value>
-  <value column="PrintName" original="User Level">Уровень пользов-ля</value>
+  <value column="Name" original="User Level">Уровень пользователя</value>
+  <value column="PrintName" original="User Level">Уровень пользователя</value>
   <value column="Description" original="System Client Organization">Уровень пользователя - Система, Клиент, Организация</value>
   <value column="Help" original="The User Level field determines if users of this Role will have access to System level data, Organization level data, Client level data or Client and Organization level data.">Поле Уровень пользователя - определяется, чтобы пользователи этой Роли могли иметь доступ к данным уровня Системы, данным уровня Организации, данным уровня Клиента или данным уровня Клиента и Организации.</value>
   <value column="Placeholder" original=""/>
@@ -4534,10 +4534,10 @@ If you leave the search key empty, the system automatically creates a numeric nu
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="916" trl="Y">
-  <value column="Name" original="Invoice Address">Адрес инвойса</value>
-  <value column="PrintName" original="Invoice Address">Адрес инвойса</value>
-  <value column="Description" original="Business Partner Invoice/Bill Address">Адрес инвойса/ведомости бизнес-партнера</value>
-  <value column="Help" original="If the Invoice Address is selected, the location is used to send invoices to a customer or receive invoices from a vendor.">Если Адрес инвойса был выбран, то этот адрес используется для отправки инвойсов покупателю или приема инвойсов от поставщика.</value>
+  <value column="Name" original="Invoice Address">Местонахождение</value>
+  <value column="PrintName" original="Invoice Address">Местонахождение</value>
+  <value column="Description" original="Business Partner Invoice/Bill Address">Местонахождение</value>
+  <value column="Help" original="If the Invoice Address is selected, the location is used to send invoices to a customer or receive invoices from a vendor.">Если был выбран, то этот адрес используется для отправки документов (счетов, счетов-фактур,..) покупателю или приема документов от поставщика.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -4624,10 +4624,10 @@ Due to rounding, the tax amount can differ.</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="925" trl="Y">
-  <value column="Name" original="Pay-From Address">Платит с_адреса</value>
-  <value column="PrintName" original="Pay-From Address">Платит с_адреса</value>
-  <value column="Description" original="Business Partner pays from that address and we'll send dunning letters there">Бизнес-партнер платит с этого адреса и мы будет отправлять письма с Требованием сюда</value>
-  <value column="Help" original="If the Pay-From Address is selected, this location is the address the Business Partner pays from and where dunning letters will be sent to.">Если Платит с_адреса выбрано, то это место является адресом, откуда бизнес-партнер платит и куда письма с Требованием мы будем отправлять.</value>
+  <value column="Name" original="Pay-From Address">Платит с адреса</value>
+  <value column="PrintName" original="Pay-From Address">Платит с адреса</value>
+  <value column="Description" original="Business Partner pays from that address and we'll send dunning letters there">Контрагент платит с этого адреса, письма с требованием необходимо отправлять на данный адрес</value>
+  <value column="Help" original="If the Pay-From Address is selected, this location is the address the Business Partner pays from and where dunning letters will be sent to.">Если Платит с адреса выбрано, то этот адрес является адресом, с которого контрагент будет осуществлять оплату и куда письма с требованием необходимо отправлять.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -4646,10 +4646,10 @@ Due to rounding, the tax amount can differ.</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="927" trl="Y">
-  <value column="Name" original="Remit-To Address">Перевод на_адрес</value>
-  <value column="PrintName" original="Remit-To Address">Перевод на_адрес</value>
-  <value column="Description" original="Business Partner payment address">Адрес для_оплаты бизнес-партнеру</value>
-  <value column="Help" original="If the Remit-To Address is selected, the location is used to send payments to the vendor.">Если Checkbox Перевод на_адрес выбран, то этот адрес будет использован для отправки оплаты Поставщику.</value>
+  <value column="Name" original="Remit-To Address">Перевод на адрес</value>
+  <value column="PrintName" original="Remit-To Address">Перевод на адрес</value>
+  <value column="Description" original="Business Partner payment address">Адрес для оплаты контрагенту</value>
+  <value column="Help" original="If the Remit-To Address is selected, the location is used to send payments to the vendor.">Если Перевод на адрес выбран, то этот адрес будет использоваться для отправки оплаты поставщику.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -4668,10 +4668,10 @@ Due to rounding, the tax amount can differ.</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="929" trl="Y">
-  <value column="Name" original="Ship Address">Адрес отгрузки</value>
-  <value column="PrintName" original="Ship address">Адрес отгрузки</value>
-  <value column="Description" original="Business Partner Shipment Address">Адрес отгрузки бизнес-партнера</value>
-  <value column="Help" original="If the Ship Address is selected, the location is used to ship goods to a customer or receive goods from a vendor.">Если Checkbox Адрес отгрузки - выбрана, то этот адрес используется для отгрузки товаров покупателю или получения товаров от поставщика.</value>
+  <value column="Name" original="Ship Address">Почтовый адрес</value>
+  <value column="PrintName" original="Ship address">Почтовый адрес</value>
+  <value column="Description" original="Business Partner Shipment Address">Почтовый адрес контрагента</value>
+  <value column="Help" original="If the Ship Address is selected, the location is used to ship goods to a customer or receive goods from a vendor.">Если Адрес отгрузки выбран, то этот адрес используется для отгрузки товаров контрагенту или для получения товаров от поставщика.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -4855,10 +4855,10 @@ Due to rounding, the tax amount can differ.</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="964" trl="Y">
-  <value column="Name" original="Routing No">No маршрутизации</value>
-  <value column="PrintName" original="Routing No">No маршрутизации</value>
-  <value column="Description" original="Bank Routing Number">Номер банковской маршрутизации</value>
-  <value column="Help" original="The Bank Routing Number (ABA Number) identifies a legal Bank.  It is used in routing checks and electronic transactions.">Номер банковской маршрутизации (Номер ABA) идентифицирует законный банк. Это используется при маршрутизации чеков и электронных транзакций.</value>
+  <value column="Name" original="Routing No">БИК</value>
+  <value column="PrintName" original="Routing No">БИК</value>
+  <value column="Description" original="Bank Routing Number">Номер БИК</value>
+  <value column="Help" original="The Bank Routing Number (ABA Number) identifies a legal Bank.  It is used in routing checks and electronic transactions.">Номер БИК</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -5407,8 +5407,8 @@ SO Sub Type of <b>POS</b> (Point of Sale) will generate all document]]></value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original="Purchase or Company Agent">Агент компании или агент по закупке</value>
   <value column="PO_Help" original="Purchase agent for the document. Any Sales Rep must be a valid internal user.">Агент по закупке для этого документа. Любой торговый представитель должен быть действительным внутренним пользователем.</value>
-  <value column="PO_Name" original="Company Agent">Агент компании</value>
-  <value column="PO_PrintName" original="Agent">Агент</value>
+  <value column="PO_Name" original="Company Agent">Менеджер/Агент</value>
+  <value column="PO_PrintName" original="Agent">Менеджер/Агент</value>
  </row>
  <row id="1065" trl="Y">
   <value column="Name" original="Price includes Tax">Цена включая налоги</value>
@@ -5477,10 +5477,10 @@ SO Sub Type of <b>POS</b> (Point of Sale) will generate all document]]></value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1073" trl="Y">
-  <value column="Name" original="Document Type for ProForma">Тип документа  Проформа</value>
-  <value column="PrintName" original="Doc Type ProForma">Тип документа Проформа</value>
-  <value column="Description" original="Document type used for pro forma invoices generated from this sales document">Тип документа используется для создания проформы ДО из заказа на продажу</value>
-  <value column="Help" original="he Document Type for Invoice indicates the document type that will be used when an invoice is generated from this sales document.  This field will display only when the base document type is Sales Order and the Pro Forma Invoice checkbox is selected">Тип документа для Инвойса - показывает тип документа, который будет использоваться, если инвойс генерируется из этого документа о продаже. Это поле будет подсвечено только, если типом базового документа является расходная накладная и Checkbox Проформа инвойса был выбран</value>
+  <value column="Name" original="Document Type for ProForma">Тип документа счёт-проформа</value>
+  <value column="PrintName" original="Doc Type ProForma">Тип документа счёт-проформа</value>
+  <value column="Description" original="Document type used for pro forma invoices generated from this sales document">Тип документа, используемый для счёта-проформы, созданный из этого документа</value>
+  <value column="Help" original="he Document Type for Invoice indicates the document type that will be used when an invoice is generated from this sales document.  This field will display only when the base document type is Sales Order and the Pro Forma Invoice checkbox is selected">Показывает тип документа, который будет использоваться, если счёт-проформа генерируется из этого документа. Это поле будет отображаться только в том случае, если типом основания документа является заказ и на реквизите счёт-проформа выставлен флажок.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -5686,10 +5686,10 @@ SO Sub Type of <b>POS</b> (Point of Sale) will generate all document]]></value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1097" trl="Y">
-  <value column="Name" original="Pro forma Invoice">Про форма инвойса</value>
-  <value column="PrintName" original="Pro forma Invoice">Про форма инвойса</value>
-  <value column="Description" original="Indicates if Pro Forma Invoices can be generated from this document">Показывает, если про форма инвойса может быть сгенертрована из этого документа</value>
-  <value column="Help" original="The Pro Forma Invoice checkbox indicates if pro forma invoices can be generated from this sales document. A pro forma invoice indicates the amount that will be due should an order be shipped.">Checkbox Про форма инвойса подсвечен, если про форма инвойса может быть сгенерирована из этого документа о продаже. Про форма инвойса показывает сумму долга, которую нужно будет включить в заказ на отгрузку.</value>
+  <value column="Name" original="Pro forma Invoice">Счёт-проформа</value>
+  <value column="PrintName" original="Pro forma Invoice">Счёт-проформа</value>
+  <value column="Description" original="Indicates if Pro Forma Invoices can be generated from this document">Показывает, если счёт-проформа может быть сгенертрован из этого документа</value>
+  <value column="Help" original="The Pro Forma Invoice checkbox indicates if pro forma invoices can be generated from this sales document. A pro forma invoice indicates the amount that will be due should an order be shipped.">Установленный флажок показывает, если счёт-проформа может быть сгенерирован из этого документа о продаже. Счёт-проформа показывает сумму долга, которую нужно будет включить в заказ на отгрузку.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -5755,7 +5755,7 @@ SO Sub Type of <b>POS</b> (Point of Sale) will generate all document]]></value>
   <value column="Name" original="Next Business Day">Следующий рабочий день</value>
   <value column="PrintName" original="Next Business Day">Следующий рабочий день</value>
   <value column="Description" original="Payment due on the next business day">Оплата долга переносится на следующий рабочий день</value>
-  <value column="Help" original="The Next Business Day checkbox indicates that payment is due on the next business day after invoice or delivery.">Отметка "Следующий рабочий день" показывает, что оплата долга переносится на следующий рабочий день после инвойса или доставки.</value>
+  <value column="Help" original="The Next Business Day checkbox indicates that payment is due on the next business day after invoice or delivery.">Отметка "Следующий рабочий день" показывает, что оплата долга переносится на следующий рабочий день после выставления счета или доставки.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -8462,10 +8462,10 @@ Incoming receipts are stored at the location with the highest priority, if not e
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1473" trl="Y">
-  <value column="Name" original="ACH">ACH</value>
-  <value column="PrintName" original="ACH">ACH</value>
-  <value column="Description" original="Automatic Clearing House">Automatic Clearing House</value>
-  <value column="Help" original="The ACH checkbox indicates if this Bank Account accepts ACH transactions.">Checkbox ACH - показывает, если этот банковский счет принимает ACH транзакции.</value>
+  <value column="Name" original="ACH">ЦБ РФ</value>
+  <value column="PrintName" original="ACH">ЦБ РФ</value>
+  <value column="Description" original="Automatic Clearing House">Центральный банк Российской Федерации</value>
+  <value column="Help" original="The ACH checkbox indicates if this Bank Account accepts ACH transactions.">Центральный банк Российской Федерации</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -10531,7 +10531,7 @@ For customizations, copy the entity and select "User"!</value>
   <value column="Name" original="Request User">Пользователь запроса</value>
   <value column="PrintName" original="Request User">Пользователь запроса</value>
   <value column="Description" original="User Name (ID) of the email owner">Имя пользователя (ID), владельца email</value>
-  <value column="Help" original="EMail user name for requests, alerts and escalation are sent from this email address as well as delivery information if the sales rep does not have an email account. Required, if your mail server requires authentification as well as for processing incoming mails.">EMail имя пользователя (ID) для запросов, тревог и эскалаций, отправленных с этого email адреса, точно так, как доставка информации, если Торг Пред не имеет email аккаунта. Требуется, если ваш mail server требует аутентификации, как и для принятия входящей почты.</value>
+  <value column="Help" original="EMail user name for requests, alerts and escalation are sent from this email address as well as delivery information if the sales rep does not have an email account. Required, if your mail server requires authentification as well as for processing incoming mails.">EMail имя пользователя (ID) для запросов, тревог и эскалаций, отправленных с этого email адреса, точно так, как доставка информации, если агент не имеет email аккаунта. Требуется, если ваш mail server требует аутентификации, как и для принятия входящей почты.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -10541,7 +10541,7 @@ For customizations, copy the entity and select "User"!</value>
  <row id="1701" trl="Y">
   <value column="Name" original="Request User Password">Пароль пользователя запроса</value>
   <value column="PrintName" original="Request User PW">Пароль пользователя запроса</value>
-  <value column="Description" original="Password of the user name (ID) for mail processing">Пароль имени пользователя (ID) для использования почты</value>
+  <value column="Description" original="Password of the user name (ID) for mail processing">Пароль имени пользователя (ID) для использования почты.</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -11944,9 +11944,9 @@ where the two last digits refer to minutes and the two or three first digits ind
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1839" trl="Y">
-  <value column="Name" original="Contact Name">Название контакта</value>
-  <value column="PrintName" original="Contact Name">Название контакта</value>
-  <value column="Description" original="Business Partner Contact Name">Название контакта бизнес-партнера</value>
+  <value column="Name" original="Contact Name">Наименование контакта</value>
+  <value column="PrintName" original="Contact Name">Наименование контакта</value>
+  <value column="Description" original="Business Partner Contact Name">Наименование контакта контрагента</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -12299,9 +12299,9 @@ If all elements in a table column are NULL and if selected, the column is not pr
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1874" trl="Y">
-  <value column="Name" original="Org Address">Адрес подразделения</value>
-  <value column="PrintName" original="Org Address">Адрес подразделения</value>
-  <value column="Description" original="Organization Location/Address">Место нахождения/Адрес подразделения</value>
+  <value column="Name" original="Org Address">Адрес организации</value>
+  <value column="PrintName" original="Org Address">Адрес организации</value>
+  <value column="Description" original="Organization Location/Address">Место нахождения/адрес организации</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -12533,7 +12533,7 @@ If all elements in a table column are NULL and if selected, the column is not pr
   <value column="Name" original="EMail User ID">EMail ID пользователя</value>
   <value column="PrintName" original="EMail User">EMail ID пользователя</value>
   <value column="Description" original="User Name (ID) in the Mail System">Имя пользователя (ID) в почтовой системе</value>
-  <value column="Help" original="The user name in the mail system is usually the string before the @ of your email address.  Required if the mail server requires authentification to send emails.">Имя пользователя в почтовой системе - это обычно строка перед значком @ в вашем email адресе. Запрашивается, если почтовый сервер требует аутентификации для отправки email-ов.</value>
+  <value column="Help" original="The user name in the mail system is usually the string before the @ of your email address.  Required if the mail server requires authentification to send emails.">Имя пользователя в почтовой системе - это обычно строка перед значком @ в email адресе. Запрашивается, если почтовый сервер требует аутентификации для отправки email.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -12542,9 +12542,9 @@ If all elements in a table column are NULL and if selected, the column is not pr
  </row>
  <row id="1897" trl="Y">
   <value column="Name" original="EMail User Password">EMail пароль пользователя</value>
-  <value column="PrintName" original="EMail Password">EMail пароль</value>
-  <value column="Description" original="Password of your email user id">Пароль для вашего email ID имени пользователя</value>
-  <value column="Help" original="Required if the mail server requires authentification to send emails.">Запрашивается, если почтовый сервер требует аутентификации для отправки email-ов.</value>
+  <value column="PrintName" original="EMail Password">EMail пароль пользователя</value>
+  <value column="Description" original="Password of your email user id">Пароль для email ID имени пользователя</value>
+  <value column="Help" original="Required if the mail server requires authentification to send emails.">Запрашивается, если почтовый сервер требует аутентификации для отправки email.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -12599,7 +12599,7 @@ If all elements in a table column are NULL and if selected, the column is not pr
   <value column="Name" original="User Name">Зарегистрированный EMail</value>
   <value column="PrintName" original="User Name">Зарегистрированный EMail</value>
   <value column="Description" original="">Email ответственного за систему</value>
-  <value column="Help" original="">Email ответственного за систему лица (регистрируется в web-магазине)</value>
+  <value column="Help" original="">Email ответственного за систему лица (регистрируется в web-магазине).</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -14600,9 +14600,9 @@ If none is entered, the default printer is used. You specify your default printe
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2097" trl="Y">
-  <value column="Name" original="Client Key">Ключ организации</value>
-  <value column="PrintName" original="Client Key">Ключ организации</value>
-  <value column="Description" original="Key of the Client">Ключ организации</value>
+  <value column="Name" original="Client Key">Ключ экземпляра</value>
+  <value column="PrintName" original="Client Key">Ключ экземпляра</value>
+  <value column="Description" original="Key of the Client">Ключ экземпляра</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -14622,9 +14622,9 @@ If none is entered, the default printer is used. You specify your default printe
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2099" trl="Y">
-  <value column="Name" original="Enforce Client Security">Усилить безопасность клиента</value>
-  <value column="PrintName" original="Enforce Client Security">Усилить безопасность клиента</value>
-  <value column="Description" original="Send alerts to recipient only if the client security rules of the role allows">Отправлять тревогу для корреспондента только, если позволяют правила безопасности для клиента этой роли</value>
+  <value column="Name" original="Enforce Client Security">Усилить безопасность экземпляра</value>
+  <value column="PrintName" original="Enforce Client Security">Усилить безопасность экземпляра</value>
+  <value column="Description" original="Send alerts to recipient only if the client security rules of the role allows">Отправлять тревогу для корреспондента только, если позволяют правила безопасности экземпляра для этой роли</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -14798,8 +14798,8 @@ If none is entered, the default printer is used. You specify your default printe
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2115" trl="Y">
-  <value column="Name" original="Org Key">Ключ Орг</value>
-  <value column="PrintName" original="Org Key">Ключ Орг</value>
+  <value column="Name" original="Org Key">Ключ организации</value>
+  <value column="PrintName" original="Org Key">Ключ организации</value>
   <value column="Description" original="Key of the Organization">Ключ организации</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -15232,10 +15232,10 @@ Please note that the ID range is NOT enforced.]]></value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2157" trl="Y">
-  <value column="Name" original="Remote Client">Удаленный клиент</value>
-  <value column="PrintName" original="Remote Client">Удаленный клиент</value>
-  <value column="Description" original="Remote Client to be used to replicate / synchronize data with.">Удаленный клиент предназначен для использования в репликации / синхронизации данных с_нами.</value>
-  <value column="Help" original="The remote client used for data replication.">Удаленный клиент используется для репликации данных.</value>
+  <value column="Name" original="Remote Client">Удаленный экземпляр</value>
+  <value column="PrintName" original="Remote Client">Удаленный экземпляр</value>
+  <value column="Description" original="Remote Client to be used to replicate / synchronize data with.">Удаленный экземпляр предназначен для использования в репликации / синхронизации данных с данным экземпляром</value>
+  <value column="Help" original="The remote client used for data replication.">Удаленный экземпляр используется для репликации данных.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -15244,8 +15244,8 @@ Please note that the ID range is NOT enforced.]]></value>
  </row>
  <row id="2158" trl="Y">
   <value column="Name" original="Remote Organization">Удаленная организация</value>
-  <value column="PrintName" original="Remote Org">Удаленная Орг</value>
-  <value column="Description" original="Remote Organization to be used to replicate / synchronize data with.">Удаленная организация предназначена для использования в репликации / синхронизации данных с_нами.</value>
+  <value column="PrintName" original="Remote Org">Удаленная организация</value>
+  <value column="Description" original="Remote Organization to be used to replicate / synchronize data with.">Удаленная организация предназначена для использования в репликации / синхронизации данных с нами.</value>
   <value column="Help" original="The remote organization used for data replication. If not selected, all organizations are replicated/synchronized.">Удаленная организация используется для репликации данных. Если не выбрано, то все организации реплицируются/синхронизируются.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -15311,7 +15311,7 @@ Please note that the ID range is NOT enforced.]]></value>
  <row id="2165" trl="Y">
   <value column="Name" original="Cycle Step Name">Название шага цикла</value>
   <value column="PrintName" original="Cycle Step">Шаг цикла</value>
-  <value column="Description" original="Name of the Project Cycle Step">Name of the Prohect Cycle Step</value>
+  <value column="Description" original="Name of the Project Cycle Step">Название шага цикла проекта</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -15356,7 +15356,7 @@ Purchase Tax: tax charged when purchasing - examples: Use Tax, Input VAT (receiv
  <row id="2170" trl="Y">
   <value column="Name" original="Document Org">Документ организации</value>
   <value column="PrintName" original="Document Org">Документ организации</value>
-  <value column="Description" original="Document Organization (independent from account organization)">Документ организации (не зависит от счета организации)</value>
+  <value column="Description" original="Document Organization (independent from account organization)">Документ организации (не зависит от счета организации).</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -17224,10 +17224,10 @@ You enable it by setting the COMPIERE_SECURE parameter of your Client and Server
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2355" trl="Y">
-  <value column="Name" original="Organization Type">Тип подразделения</value>
-  <value column="PrintName" original="Org Type">Тип подразделения</value>
-  <value column="Description" original="Organization Type">Тип подразделения</value>
-  <value column="Help" original="Organization Type allows you to categorize your organizations for reporting purposes">Тип подразделения. Позволяет вам классифицировать ваши подразделения в целях отчетности.</value>
+  <value column="Name" original="Organization Type">Тип организации</value>
+  <value column="PrintName" original="Org Type">Тип организации</value>
+  <value column="Description" original="Organization Type">Тип организации</value>
+  <value column="Help" original="Organization Type allows you to categorize your organizations for reporting purposes">Тип организации. Позволяет классифицировать организацию в целях отчетности.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -17932,7 +17932,7 @@ If the ratio and quantity is not 0, the quantity is calculated based on the rati
  <row id="2421" trl="Y">
   <value column="Name" original="Payment Location">Адрес оплаты</value>
   <value column="PrintName" original="Payment Location">Адрес оплаты</value>
-  <value column="Description" original="Location of the Business Partner responsible for the payment">Адрес бизнес-партнера, ответственного за оплату</value>
+  <value column="Description" original="Location of the Business Partner responsible for the payment">Адрес контрагента, ответственного за оплату</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -18415,9 +18415,9 @@ If the ratio and quantity is not 0, the quantity is calculated based on the rati
  </row>
  <row id="2466" trl="Y">
   <value column="Name" original="Drop Shipment">Отменить отгрузку</value>
-  <value column="PrintName" original="Drop Ship">Отменить отгрузки</value>
-  <value column="Description" original="Drop Shipments are sent from the Vendor directly to the Customer">Отменить отгрузку - отправляется поставщиком напрямую к клиенту</value>
-  <value column="Help" original="Drop Shipments do not cause any Inventory reservations or movements as the Shipment is from the Vendor's inventory. The Shipment of the Vendor to the Customer must be confirmed.">Отменить отгрузку - не будет означать любое инвентаризационное резервирование или перемещение, например Отгрузка является элементом инвентаризации поставщика. Отгрузка поставщиком товара покупателю должна быть подтверждена.</value>
+  <value column="PrintName" original="Drop Ship">Отменить отгрузку</value>
+  <value column="Description" original="Drop Shipments are sent from the Vendor directly to the Customer">Отменить отгрузку - означает, что осуществляется "прямая поставка", т.е. товар отправляется поставщиком напрямую клиенту</value>
+  <value column="Help" original="Drop Shipments do not cause any Inventory reservations or movements as the Shipment is from the Vendor's inventory. The Shipment of the Vendor to the Customer must be confirmed.">Прямая поставка не требует любое инвентаризационное резервирование или перемещение на вашем складе, отгрузка является элементом инвентаризации поставщика. Отгрузка поставщиком товара покупателю должна быть подтверждена.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -18877,8 +18877,8 @@ If you define a relationship here, you overwrite the default counter document ty
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2510" trl="Y">
-  <value column="Name" original="BP Name">Имя контрагента</value>
-  <value column="PrintName" original="BP Name">Имя контрагента</value>
+  <value column="Name" original="BP Name">Наименование Контрагента</value>
+  <value column="PrintName" original="BP Name">Наименование Контрагента</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -18888,8 +18888,8 @@ If you define a relationship here, you overwrite the default counter document ty
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2511" trl="Y">
-  <value column="Name" original="BP Name2">Имя2 контрагента</value>
-  <value column="PrintName" original="BP Name2">Имя2 контрагента</value>
+  <value column="Name" original="BP Name2">Название2 контрагента</value>
+  <value column="PrintName" original="BP Name2">Название2 контрагента</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -19760,8 +19760,8 @@ Invoices and Payment Allocations determine the Open Balance (i.e. not Orders or 
  </row>
  <row id="2597" trl="Y">
   <value column="Name" original="Any Organization">Любая организация</value>
-  <value column="PrintName" original="Any Org">Любая Орг</value>
-  <value column="Description" original="Match any value of the Organization segment">Подходит любое значение сегмента Организация</value>
+  <value column="PrintName" original="Any Org">Любая организация</value>
+  <value column="Description" original="Match any value of the Organization segment">Подходит любое значение сегмента организация</value>
   <value column="Help" original="If selected, any value of the account segment will match. If not selected, but no value of the accounting segment is selected, the matched value must be null (i.e. not defined).">Если выбрано, то любое значение бухгалтерского сегмента будет подходить. Если не выбрано, но нет выбранного значения бухгалтерского сегмента, то соответствующие значения должны быть равны нулю (например, не определены).</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -19770,9 +19770,9 @@ Invoices and Payment Allocations determine the Open Balance (i.e. not Orders or 
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2598" trl="Y">
-  <value column="Name" original="Any Trx Organization">Любая орг. транз-ии</value>
-  <value column="PrintName" original="Any Trx Org">Любая Орг транз-ии</value>
-  <value column="Description" original="Match any value of the Transaction Organization segment">Подходит любое значение сегмента Организация транзакции</value>
+  <value column="Name" original="Any Trx Organization">Любая организация транзакции</value>
+  <value column="PrintName" original="Any Trx Org">Любая организация транзакции</value>
+  <value column="Description" original="Match any value of the Transaction Organization segment">Подходит любое значение сегмента организация транзакции</value>
   <value column="Help" original="If selected, any value of the account segment will match. If not selected, but no value of the accounting segment is selected, the matched value must be null (i.e. not defined).">Если выбрано, то любое значение бухгалтерского сегмента будет подходить. Если не выбрано, но нет выбранного значения бухгалтерского сегмента, то соответствующие значения должны быть равны нулю (например, не определены).</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -19914,7 +19914,7 @@ Invoices and Payment Allocations determine the Open Balance (i.e. not Orders or 
  </row>
  <row id="2611" trl="Y">
   <value column="Name" original="Overwrite Organization">Переписать организацию</value>
-  <value column="PrintName" original="Overwrite Org">Переписать Орг</value>
+  <value column="PrintName" original="Overwrite Org">Переписать организацию</value>
   <value column="Description" original="Overwrite the account segment Organization with the value specified">Переписать бухгалтерский сегмент Организация с определенным значением</value>
   <value column="Help" original="If not overwritten, the value of the original account combination is used. If selected, but not specified, the segment is set to null.">Если не переписывать, то используется значение оригинальной бухгалтерской комбинации. Если выбрать этот пункт, но не определять, то сегмент устанавливается в ноль.</value>
   <value column="Placeholder" original=""/>
@@ -20449,7 +20449,7 @@ The Remind Days are the days when the next email reminder is sent.</value>
  </row>
  <row id="2660" trl="Y">
   <value column="Name" original="Organization Name">Название организации</value>
-  <value column="PrintName" original="Org Name">Название орг-ии</value>
+  <value column="PrintName" original="Org Name">Название организации</value>
   <value column="Description" original="Name of the Organization">Название организации</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -21414,8 +21414,8 @@ Example: "Updated-Created" would list the age of the entry in days]]></value>
  <row id="2752" trl="Y">
   <value column="Name" original="User Mail">Почта пользователя</value>
   <value column="PrintName" original="User Mail">Почта пользователя</value>
-  <value column="Description" original="Mail sent to the user">Письма, посланные пользователю</value>
-  <value column="Help" original="Archive of mails sent to users">Архив писем, посланных пользователям</value>
+  <value column="Description" original="Mail sent to the user">Письма, отправленные пользователю</value>
+  <value column="Help" original="Archive of mails sent to users">Архив писем, отправленных пользователям.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -21887,7 +21887,7 @@ Example: "Updated-Created" would list the age of the entry in days]]></value>
  <row id="2798" trl="Y">
   <value column="Name" original="Only If BP has Balance">Только если у клиента есть остаток</value>
   <value column="PrintName" original="Only If BP has Balance">Только если у клиента есть остаток</value>
-  <value column="Description" original="Include only if Business Partner has outstanding Balance">Включать только если у клиента есть непогашенный остаток</value>
+  <value column="Description" original="Include only if Business Partner has outstanding Balance">Включать, только если у клиента есть непогашенный остаток.</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -22020,7 +22020,7 @@ The web context usually starts with / and needs to be a valid context name (not 
  <row id="2810" trl="Y">
   <value column="Name" original="BPartner (Agent)">Контрагент (ответственный)</value>
   <value column="PrintName" original="BPartner (Agent)">Контрагент (ответственный)</value>
-  <value column="Description" original="Business Partner (Agent or Sales Rep)">Контрагент (ответственный или торговый представитель)</value>
+  <value column="Description" original="Business Partner (Agent or Sales Rep)">Контрагент (менеджер/агент)</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -22260,8 +22260,8 @@ The web context usually starts with / and needs to be a valid context name (not 
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2832" trl="Y">
-  <value column="Name" original="Allocate Payment">Распределеить оплаты</value>
-  <value column="PrintName" original="Allocate Payment">Распределеить оплаты</value>
+  <value column="Name" original="Allocate Payment">Распределить оплаты</value>
+  <value column="PrintName" original="Allocate Payment">Распределить оплаты</value>
   <value column="Description" original="Allocate Payment to Invoices">Распределить оплаты по инвойсам</value>
   <value column="Help" original="You can directly allocate payments to invoices when creating the Payment. &#10;Note that you can over- or under-allocate the payment.  When processing the payment, the allocation is created.">You can directly allocate payments to invoices when creating the Payment. 
 Note that you can over- or under-allocate the payment.  When processing the payment, the allocation is created.</value>
@@ -22294,10 +22294,10 @@ Note that you can over- or under-allocate the payment.  When processing the paym
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2835" trl="Y">
-  <value column="Name" original="Full BP Access">Полный доступ к клиенту</value>
-  <value column="PrintName" original="Full BP Access">Полный доступ к клиенту</value>
-  <value column="Description" original="The user/contact has full access to Business Partner information and resources">Пользователь/контакт будет иметь полный доступ к информации о клиенте и ресурсам</value>
-  <value column="Help" original="If selected, the user has full access to the Business Partner (BP) information (Business Documents like Orders, Invoices - Requests) or resources (Assets, Downloads). If you deselect it, the user has no access rights unless, you explicitly grant it in tab &quot;BP Access&quot;">Если этот флажок установлен, пользователь имеет полный доступ к информации о клиенте (бизнес - документы, такие как заказы, счета-фактуры-запросы) или к ресурсам (активы, загрузки). Если его снять, то у пользователя не будет прав доступа, если вы явно не предоставите его во вкладке " BP Access".</value>
+  <value column="Name" original="Full BP Access">Полный доступ к контрагенту</value>
+  <value column="PrintName" original="Full BP Access">Полный доступ к контрагенту</value>
+  <value column="Description" original="The user/contact has full access to Business Partner information and resources">Пользователь/контакт будет иметь полный доступ к информации о контрагенте и ресурсам</value>
+  <value column="Help" original="If selected, the user has full access to the Business Partner (BP) information (Business Documents like Orders, Invoices - Requests) or resources (Assets, Downloads). If you deselect it, the user has no access rights unless, you explicitly grant it in tab &quot;BP Access&quot;">Если этот флажок установлен, пользователь имеет полный доступ к информации о контрагенте (бизнес - документы, такие как заказы, счета-фактуры, запросы) или к ресурсам (активы, загрузки). Если его снять, то у пользователя не будет прав доступа, если доступ явно не предоставлен во вкладке "Тип доступа".</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -22308,7 +22308,7 @@ Note that you can over- or under-allocate the payment.  When processing the paym
   <value column="Name" original="User BP Access">Доступ пользователя к контрагенту</value>
   <value column="PrintName" original="User BP Access">Доступ пользователя к контрагенту</value>
   <value column="Description" original="User/contact access to Business Partner information and resources">Доступ пользователя/контакта к информации и ресурсам контрагента</value>
-  <value column="Help" original="If on User level, &quot;Full BP Access&quot; is NOT selected, you need to give access explicitly here. ">Если в уровне пользователя не выбрано "Полный доступ к контрагенту", вам надо дать доступ в явном виде здесь. </value>
+  <value column="Help" original="If on User level, &quot;Full BP Access&quot; is NOT selected, you need to give access explicitly here. ">Если на уровне пользователя не выбрано "Полный доступ к контрагенту", необходимо дать доступ в явном виде здесь. </value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -22318,8 +22318,8 @@ Note that you can over- or under-allocate the payment.  When processing the paym
  <row id="2837" trl="Y">
   <value column="Name" original="Access Type">Тип доступа</value>
   <value column="PrintName" original="Access Type">Тип доступа</value>
-  <value column="Description" original="Type of Access of the user/contact to Business Partner information and resources">Тип доступа пользователя/контакта к информации о бизнес-партнере и ресурсам</value>
-  <value column="Help" original="If on User level, &quot;Full BP Access&quot; is NOT selected, give access explicitly">Если на уровне пользователя НЕ выбран "Полный доступ к бизнес-партнеру", задайте доступ явно .</value>
+  <value column="Description" original="Type of Access of the user/contact to Business Partner information and resources">Тип доступа пользователя/контакта к информации о контрагенте и ресурсам</value>
+  <value column="Help" original="If on User level, &quot;Full BP Access&quot; is NOT selected, give access explicitly">Если на уровне пользователя НЕ выбран "Полный доступ к контрагенту", задайте доступ явно.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -22771,10 +22771,10 @@ Accounting Segments like Organization, Account, Product may have several hierarc
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2881" trl="Y">
-  <value column="Name" original="Client Share">Разделение организации</value>
-  <value column="PrintName" original="Client Share">Разделение организации</value>
-  <value column="Description" original="Force (not) sharing of client/org entities">(Не) Принужденное разделение на сущности организации/подразделение</value>
-  <value column="Help" original="For entities with data access level of Client+Organization either force to share the entries or not. Example: Product and Business Partner can be either defined on Client level (shared) or on Org level (not shared).  You can define here of Products are always shared (i.e. always created under Organization &quot;*&quot;) or if they are not shared (i.e. you cannot enter them with Organization &quot;*&quot;)">Для участников доступа к данным уровня Организация+Подразделение оба форсированно имеют совместный доступ к записям или не имеют доступа. Пример: товар и клиент могут быть оба определены на уровне организации (shared) или на уровне подразделения (not shared). Вы можете здесь определить товары, которые всегда shared (например, всегда создающиеся в подразделении "*") или если они не shared (например, вы не можете вводить их в подразделении "*")</value>
+  <value column="Name" original="Client Share">Разделение экземпляра</value>
+  <value column="PrintName" original="Client Share">Разделение экземпляра</value>
+  <value column="Description" original="Force (not) sharing of client/org entities">(Не) Принужденное разделение на сущности экземпляр/организация</value>
+  <value column="Help" original="For entities with data access level of Client+Organization either force to share the entries or not. Example: Product and Business Partner can be either defined on Client level (shared) or on Org level (not shared).  You can define here of Products are always shared (i.e. always created under Organization &quot;*&quot;) or if they are not shared (i.e. you cannot enter them with Organization &quot;*&quot;)">Для участников доступа к данным уровня экземпляр+организация оба форсированно имеют совместный доступ к записям или не имеют доступа. Например: товар и контрагент могут быть определены на уровне экземпляр (общий доступ) или на уровне организации (не общий доступ). Вы можете здесь определить товары, которые всегда являются общими (т.е. всегда создаются в организации "*") или они не являются общими (т.е. вы не можете вводить их в организации "*").</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -23591,9 +23591,9 @@ Time represents a values at a given time (e.g. Invoice Amount on 1/1) - History 
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2959" trl="Y">
-  <value column="Name" original="IssueUser">Проблемн.пользователь</value>
+  <value column="Name" original="IssueUser">Пользователь, заявивший о проблеме</value>
   <value column="PrintName" original="Issue User">Конечный пользователь</value>
-  <value column="Description" original="User who reported issues">Пользователь, который заявляет о проблеме</value>
+  <value column="Description" original="User who reported issues">Пользователь, который заявляет о проблеме.</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -27739,8 +27739,8 @@ The sum the Current Cost Price + Current Cost Price Lower Level is the total cos
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53330" trl="Y">
-  <value column="Name" original="Client Level">Уровень организации</value>
-  <value column="PrintName" original="Client Level">Уровень организации</value>
+  <value column="Name" original="Client Level">Уровень экземпляра</value>
+  <value column="PrintName" original="Client Level">Уровень экземпляра</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -27750,8 +27750,8 @@ The sum the Current Cost Price + Current Cost Price Lower Level is the total cos
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53331" trl="Y">
-  <value column="Name" original="Client Exception">Исключение организации</value>
-  <value column="PrintName" original="Client Exception">Исключение организации</value>
+  <value column="Name" original="Client Exception">Исключение экземпляра</value>
+  <value column="PrintName" original="Client Exception">Исключение экземпляра</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -28603,7 +28603,7 @@ http://en.wikipedia.org/wiki/Safety_stock</value>
   <value column="Name" original="Drop Ship Business Partner">Контрагент для прямой поставки</value>
   <value column="PrintName" original="Drop Ship Business Partner">Контрагент для прямой поставки</value>
   <value column="Description" original="Business Partner to ship to">Контрагент, которому нужно отгрузить</value>
-  <value column="Help" original="If empty the business partner will be shipped to.">Если пусто (не заполнено), то будет прямая доставка контрагенту. Если заполнено - то доставка до указанного адреса.</value>
+  <value column="Help" original="If empty the business partner will be shipped to.">Если поле пусто (не заполнено), то будет прямая доставка контрагенту. Если заполнено - то доставка до указанного адреса.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -28633,10 +28633,10 @@ http://en.wikipedia.org/wiki/Safety_stock</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53461" trl="Y">
-  <value column="Name" original="Drop Ship Warehouse">Drop Ship Warehouse</value>
-  <value column="PrintName" original="Drop Ship Warehouse">Drop Ship Warehouse</value>
-  <value column="Description" original="The (logical) warehouse to use for recording drop ship receipts and shipments.">The (logical) warehouse to use for recording drop ship receipts and shipments.</value>
-  <value column="Help" original="The drop ship warehouse will be used for recording material transactions relating to drop shipments to and from this organization.">The drop ship warehouse will be used for recording material transactions relating to drop shipments to and from this organization.</value>
+  <value column="Name" original="Drop Ship Warehouse">Склад прямой поставки</value>
+  <value column="PrintName" original="Drop Ship Warehouse">Склад прямой поставки</value>
+  <value column="Description" original="The (logical) warehouse to use for recording drop ship receipts and shipments.">Склад (производителя, дилера, оптового торговца...), используемый для отгрузки товаров покупателю</value>
+  <value column="Help" original="The drop ship warehouse will be used for recording material transactions relating to drop shipments to and from this organization.">Склад прямой поставки будет использоваться для записи проводок, связанных с отгрузками товаров из этой организации.</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -42458,7 +42458,7 @@ Product: used to quickly add products to POS order</value>
  <row id="200061" trl="Y">
   <value column="Name" original="Organization level">Организационный уровень</value>
   <value column="PrintName" original="Organization level">Организационный уровень</value>
-  <value column="Description" original="This sequence can be defined for each organization">Эта последовательность может быть определена для каждого подразделения</value>
+  <value column="Description" original="This sequence can be defined for each organization">Эта последовательность может быть определена для каждой организации.</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
@@ -43336,10 +43336,10 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200186" trl="Y">
-  <value column="Name" original="Client Name">Название организации</value>
-  <value column="PrintName" original="Client Name">Название организации</value>
+  <value column="Name" original="Client Name">Название экземпляра</value>
+  <value column="PrintName" original="Client Name">Название экземпляра</value>
   <value column="Description" original=""/>
-  <value column="Help" original="Client in which current session user logged in">Организация сеанса текущего пользователя</value>
+  <value column="Help" original="Client in which current session user logged in">Экземпляр сеанса текущего пользователя</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -43369,8 +43369,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200189" trl="Y">
-  <value column="Name" original="Login Org">Вход в Орг.</value>
-  <value column="PrintName" original="Login Org">Вход в Орг.</value>
+  <value column="Name" original="Login Org">Вход в организацию</value>
+  <value column="PrintName" original="Login Org">Вход в организацию</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -46252,7 +46252,7 @@ Product: used to quickly add products to POS order</value>
  </row>
  <row id="200462" trl="Y">
   <value column="Name" original="Sales Representative Location">Адрес агента</value>
-  <value column="PrintName" original="Sales Representative Location">Адрес торгового представителя</value>
+  <value column="PrintName" original="Sales Representative Location">Адрес агента компании</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -59110,8 +59110,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202255" trl="Y">
-  <value column="Name" original="Selected Product Name">Имя выбранного продукта</value>
-  <value column="PrintName" original="Selected Product Name">Имя выбранного продукта</value>
+  <value column="Name" original="Selected Product Name">Название выбранного продукта</value>
+  <value column="PrintName" original="Selected Product Name">Название выбранного продукта</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -61747,8 +61747,8 @@ Example this value = 60. user can't reuse password in history has age < 60
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="203119" trl="Y">
-  <value column="Name" original="All Clients">Все клиенты</value>
-  <value column="PrintName" original="All Clients">Все клиенты</value>
+  <value column="Name" original="All Clients">Все экземпляры</value>
+  <value column="PrintName" original="All Clients">Все экземпляры</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -61812,9 +61812,9 @@ Example this value = 60. user can't reuse password in history has age < 60
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
- <row id="203147" trl="N">
-  <value column="Name" original="Preserve custom name">Preserve custom name</value>
-  <value column="PrintName" original="Preserve custom name">Preserve custom name</value>
+ <row id="203147" trl="Y">
+  <value column="Name" original="Preserve custom name">Отобразить название адреса</value>
+  <value column="PrintName" original="Preserve custom name">Отобразить название адреса в карточке контрагента</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -62241,9 +62241,9 @@ Example this value = 60. user can't reuse password in history has age < 60
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
- <row trl="N" uuid="adf931ac-b8a2-4274-a690-4d4aebc2ad59">
-  <value column="Name" original="IsCheckTechnicalScope">Проверка технической возможности</value>
-  <value column="PrintName" original="Check Technical Scope">Проверка технической возможности</value>
+ <row trl="Y" uuid="adf931ac-b8a2-4274-a690-4d4aebc2ad59">
+  <value column="Name" original="IsCheckTechnicalScope">Проверить техвозможность SENSAT</value>
+  <value column="PrintName" original="Check Technical Scope">Проверить техвозможность SENSAT</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -62275,8 +62275,8 @@ Example this value = 60. user can't reuse password in history has age < 60
   <value column="PO_PrintName" original=""/>
  </row>
  <row trl="Y" uuid="5fd4550b-e5ea-4131-96b2-eb55ef3a807c">
-  <value column="Name" original="Technical_capability">Техническая возможность</value>
-  <value column="PrintName" original="Technical_capability">Техническая возможность</value>
+  <value column="Name" original="Technical_capability">Техвозможность SENSAT</value>
+  <value column="PrintName" original="Technical_capability">Техвозможность SENSAT</value>
   <value column="Description" original="Is there or not a technical possibility">Есть или нет техническая возможность</value>
   <value column="Help" original="Is there or not a technical possibility">Есть или нет техническая возможность</value>
   <value column="Placeholder" original=""/>
@@ -62373,9 +62373,9 @@ Example this value = 60. user can't reuse password in history has age < 60
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
- <row trl="N" uuid="ae836cf0-a482-4491-af5a-9924adecd868">
-  <value column="Name" original="RIT Campaign AD_User_ID ">RIT Campaign AD_User_ID</value>
-  <value column="PrintName" original="RIT Campaign AD_User_ID">RIT Campaign AD_User_ID</value>
+ <row trl="Y" uuid="ae836cf0-a482-4491-af5a-9924adecd868">
+  <value column="Name" original="RIT Campaign AD_User_ID ">Подписант со стороны Компании</value>
+  <value column="PrintName" original="RIT Campaign AD_User_ID">Подписант со стороны Компании</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -62442,6 +62442,1040 @@ Example this value = 60. user can't reuse password in history has age < 60
  <row trl="Y" uuid="4eab57db-5a4d-485d-ad4e-31995e6dda93">
   <value column="Name" original="RIT MAC">Идентификационный номер модема</value>
   <value column="PrintName" original="RIT MAC">Идентификационный номер модема</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="76fee748-6483-419c-aa80-d2152fbee5ba">
+  <value column="Name" original="TsVectorSearch_ID">TsVectorSearch_ID</value>
+  <value column="PrintName" original="TsVector Search ID">TsVector Search ID</value>
+  <value column="Description" original="TsVector Search ID">TsVector Search ID</value>
+  <value column="Help" original="TsVector Search ID">TsVector Search ID</value>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="d6c4ecba-8c82-4c2e-bfcd-baffb9419543">
+  <value column="Name" original="TsVectorSearch_UU">TsVectorSearch_UU</value>
+  <value column="PrintName" original="TsVector Search UU">TsVector Search UU</value>
+  <value column="Description" original="TsVector Search UU">TsVector Search UU</value>
+  <value column="Help" original="TsVector Search UU">TsVector Search UU</value>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="Y" uuid="9e487060-a30c-4e33-a65b-6f26adcf4019">
+  <value column="Name" original="RIT_Creation_contracts">Создание договора</value>
+  <value column="PrintName" original="Creation of contracts">Создание договора</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="Y" uuid="a22ef0cf-2468-4ecd-aa79-8f7fb2ac65ce">
+  <value column="Name" original="RIT_KPP">КПП</value>
+  <value column="PrintName" original="KPP">КПП</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="Y" uuid="3f725fc9-3f82-4a44-a1e1-dde02d5b0641">
+  <value column="Name" original="RIT_Reg_Certif_Number">Cвидетельство о регистрации - номер</value>
+  <value column="PrintName" original="Registration certificate - number">Cвидетельство о регистрации - номер</value>
+  <value column="Description" original="Registration certificate - number">Свидетельство о регистрации - номер</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="Y" uuid="112d6d1c-40d9-41f4-8bec-1ad7cd291220">
+  <value column="Name" original="RIT_Reg_Certif_Series">Cвидетельство о регистрации - серия</value>
+  <value column="PrintName" original="Registration certificate - series">Cвидетельство о регистрации - серия</value>
+  <value column="Description" original="Registration certificate - series">Cвидетельство о регистрации - серия</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="Y" uuid="22cf1c50-d4a9-4ade-a386-0096d060d03c">
+  <value column="Name" original="RIT_Reg_Certif_Date">Cвидетельство о регистрации - дата</value>
+  <value column="PrintName" original="Registration certificate - date">Cвидетельство о регистрации - дата</value>
+  <value column="Description" original="Registration certificate - date">Cвидетельство о регистрации - дата</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="Y" uuid="981d10c8-0ee1-4839-a02e-89ea7c9cf08a">
+  <value column="Name" original="RIT_OGRNIP">ОГРНИП</value>
+  <value column="PrintName" original="OGRNIP">ОГРНИП</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="Y" uuid="f0987af8-86f8-4f77-9c9f-ddd51e983f17">
+  <value column="Name" original="RIT_OGRN">ОГРН</value>
+  <value column="PrintName" original="OGRN">ОГРН</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="Y" uuid="b2987629-cf3f-4675-9a07-0b41c3824e45">
+  <value column="Name" original="isStable">Устойчивая зона приема</value>
+  <value column="PrintName" original="isStable">Устойчивая зона приема</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="Y" uuid="e8b10d1a-081d-4e71-8f14-09d66b03f52a">
+  <value column="Name" original="RIT_Order_Creation">Заказ SENSAT</value>
+  <value column="PrintName" original="Order Сreation">Заказ SENSAT</value>
+  <value column="Description" original="Order Сreation">Заказ SENSAT</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="Y" uuid="8e482ab1-6309-456f-a214-ac3a9fac35d5">
+  <value column="Name" original="RIT_Technical_Capability_Name">Техническая возможность</value>
+  <value column="PrintName" original="Technical Capability Name">Техническая возможность</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="Y" uuid="3b376143-eb6b-4f70-96d0-c79c9abbb61f">
+  <value column="Name" original="TgText">Триграмм поиск</value>
+  <value column="PrintName" original="Text for trigram search">Данные для триграмм поиска</value>
+  <value column="Description" original="Text for trigram search">Данные для триграмм поиска</value>
+  <value column="Help" original="A trigram is a group of three consecutive characters taken from a string. We can measure the similarity of two strings by counting the number of trigrams they share. This simple idea turns out to be very effective for measuring the similarity of words in many natural languages.">Для использования функций и операторов для определения схожести алфавитно-цифровых строк на основе триграмм, а также классы операторов индексов, поддерживающие быстрый поиск схожих строк.</value>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="Y" uuid="0cda2dd6-d28f-4e22-b285-eeaa18a33d2f">
+  <value column="Name" original="SearchFieldTgText">Поле поиска</value>
+  <value column="PrintName" original="Search Field TgText">Поле поиска</value>
+  <value column="Description" original="">Поле поиска для глобального поиска</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="d618bcdd-020c-4dc7-816c-ff84503150e0">
+  <value column="Name" original="isContractReport">Contract report</value>
+  <value column="PrintName" original="isContractReport">Contract report</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="Y" uuid="efb8ff91-6ee3-4ee9-8a95-9b246388f203">
+  <value column="Name" original="RIT_Email_Processor">Ид элемента таблицы Конфигурирование электронной почты</value>
+  <value column="PrintName" original="RIT_Email_Processor">Ид элемента таблицы Конфигурирование электронной почты</value>
+  <value column="Description" original="RIT_Email_Processor">Ид элемента таблицы Конфигурирование электронной почты</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="Y" uuid="4900e255-60de-488d-8028-02bc45cd97a5">
+  <value column="Name" original="InboxFolder">Входящие</value>
+  <value column="PrintName" original="InboxFolder">Входящие</value>
+  <value column="Description" original="InboxFolder">Содержит всю приходящую на этот адрес</value>
+  <value column="Help" original="InboxFolder">Содержит всю приходящую на этот адрес</value>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="Y" uuid="6aaf9799-72b6-41c5-8771-6c28c160a986">
+  <value column="Name" original="InboxErrorFolder">Папка с ошибками</value>
+  <value column="PrintName" original="InboxErrorFolder">Папка с ошибками</value>
+  <value column="Description" original="InboxErrorFolder">будет содержать почту которая обработалась с ошибкой</value>
+  <value column="Help" original="InboxErrorFolder">будет содержать почту которая обработалась с ошибкой</value>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="Y" uuid="c4f7dc5e-183e-46bf-ab95-f547654db70a">
+  <value column="Name" original="RIT_Email_Process_Log_ID">ИД таблицы с логом обработки входящих Email</value>
+  <value column="PrintName" original="RIT_Email_Process_Log_ID">ИД таблицы с логом обработки входящих Email</value>
+  <value column="Description" original="ID Table with list log processin incomming Email ">ИД таблицы с логом обработки входящих Email</value>
+  <value column="Help" original="ID Table with list log processin incomming Email ">ИД таблицы с логом обработки входящих Email</value>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="Y" uuid="c058e985-f67c-492d-a44a-3214509f17a2">
+  <value column="Name" original="RIT_Email_Process_Log_UU">RIT_Email_Process_Log_UU</value>
+  <value column="PrintName" original="RIT_Email_Process_Log_UU">RIT_Email_Process_Log_UU</value>
+  <value column="Description" original="">RIT_Email_Process_Log_UU</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="Y" uuid="5d5792ab-e63f-42a0-90a1-96261bd10592">
+  <value column="Name" original="isButtonOrderDO">Заказ Детального Обследования</value>
+  <value column="PrintName" original="Order a detailed examination">Заказ Детального Обследования</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="18ffb6af-0a1d-4a27-a50f-fbec7f679216">
+  <value column="Name" original="IsContractOrderReport">IsContractOrderReport</value>
+  <value column="PrintName" original="IsContractOrderReport">IsContractOrderReport</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="53d9a0c5-5a78-4fa2-9a3f-69a8932eb0f9">
+  <value column="Name" original="Invoice Line (Liabilities Legal)">Invoice Line (Liabilities Legal)</value>
+  <value column="PrintName" original="Invoice Line (Liabilities Legal)">Invoice Line (Liabilities Legal)</value>
+  <value column="Description" original="Invoice Detail Line (Liabilities Legal)">Invoice Detail Line (Liabilities Legal)</value>
+  <value column="Help" original="The Invoice Line uniquely identifies a single line of an Invoice.">The Invoice Line uniquely identifies a single line of an Invoice.</value>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="668c441c-ab65-4607-af11-b0a535178d4a">
+  <value column="Name" original="Option 1">Option 1</value>
+  <value column="PrintName" original="Option 1">Option 1</value>
+  <value column="Description" original="It indicates if applies the option 1">It indicates if applies the option 1</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="ea0f152a-2c70-43fe-a323-11cccd66d17d">
+  <value column="Name" original="Option 2">Option 2</value>
+  <value column="PrintName" original="Option 2">Option 2</value>
+  <value column="Description" original="It indicates if applies the option 2">It indicates if applies the option 2</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="50b78053-d724-4756-ad7f-07bf6dafb1ec">
+  <value column="Name" original="Option 3">Option 3</value>
+  <value column="PrintName" original="Option 3">Option 3</value>
+  <value column="Description" original="It indicates if applies the option 3">It indicates if applies the option 3</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="6e1b129b-b6f6-42f0-83aa-f8b081b268a2">
+  <value column="Name" original="Option 4">Option 4</value>
+  <value column="PrintName" original="Option 4">Option 4</value>
+  <value column="Description" original="It indicates if applies the option 4">It indicates if applies the option 4</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="9acff2b6-1e6d-46d7-bcdf-37b0b955e07c">
+  <value column="Name" original="Option 5">Option 5</value>
+  <value column="PrintName" original="Option 5">Option 5</value>
+  <value column="Description" original="It indicates if applies the option 5">It indicates if applies the option 5</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="31b000be-bb49-47de-9d16-305002b6dc29">
+  <value column="Name" original="Option 6">Option 6</value>
+  <value column="PrintName" original="Option 6">Option 6</value>
+  <value column="Description" original="It indicates if applies the option 6">It indicates if applies the option 6</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="7b115560-0cb9-4f70-bae0-9651c2c9dad3">
+  <value column="Name" original="Option 7">Option 7</value>
+  <value column="PrintName" original="Option 7">Option 7</value>
+  <value column="Description" original="It indicates if applies the option 7">It indicates if applies the option 7</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="bf74275f-f043-481d-837a-baee7911e3a8">
+  <value column="Name" original="Option 8">Option 8</value>
+  <value column="PrintName" original="Option 8">Option 8</value>
+  <value column="Description" original="It indicates if applies the option 8">It indicates if applies the option 8</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="bf316431-c414-4025-9a63-c7ea788d9b6a">
+  <value column="Name" original="Option 9">Option 9</value>
+  <value column="PrintName" original="Option 9">Option 9</value>
+  <value column="Description" original="It indicates if applies the option 9">It indicates if applies the option 9</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="93b3de6d-6102-4ad5-84db-e674e83461a1">
+  <value column="Name" original="Option 10">Option 10</value>
+  <value column="PrintName" original="Option 10">Option 10</value>
+  <value column="Description" original="It indicates if applies the option 10">It indicates if applies the option 10</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="d7285171-8ef1-4bbf-87e3-4ba543131323">
+  <value column="Name" original="isRequiredForWorker">isRequiredForWorker</value>
+  <value column="PrintName" original="isRequiredForWorker">isRequiredForWorker</value>
+  <value column="Description" original="isRequiredForWorker">isRequiredForWorker</value>
+  <value column="Help" original="isRequiredForWorker">isRequiredForWorker</value>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="38340b83-ab35-4e24-848e-9935e8f1e92a">
+  <value column="Name" original="Option 11">Option 11</value>
+  <value column="PrintName" original="Option 11">Option 11</value>
+  <value column="Description" original="It indicates if applies the option 11">It indicates if applies the option 11</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="7cde358a-e6a5-413c-8b97-46db3e1a480e">
+  <value column="Name" original="Payroll Payments">Payroll Payments</value>
+  <value column="PrintName" original="Payroll Payments">Payroll Payments</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="492e857c-e5ea-4fbc-adb4-94c3d7550ef4">
+  <value column="Name" original="LVE_PayrollPayments_UU">LVE_PayrollPayments_UU</value>
+  <value column="PrintName" original="LVE_PayrollPayments_UU">LVE_PayrollPayments_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="d5158ad0-4818-4c8a-b66a-9bfad7df0019">
+  <value column="Name" original="Concepts of Payroll Direct Payments">Concepts of Payroll Direct Payments</value>
+  <value column="PrintName" original="Concepts of Payroll Direct Payments">Concepts of Payroll Direct Payments</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="4c587609-96c9-4656-965f-75cdaf57d9c7">
+  <value column="Name" original="LVE_ConceptsPayrollPayments_UU">LVE_ConceptsPayrollPayments_UU</value>
+  <value column="PrintName" original="LVE_ConceptsPayrollPayments_UU">LVE_ConceptsPayrollPayments_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="Y" uuid="9fbb42bf-47f5-4de0-8d6e-bfe82d384f06">
+  <value column="Name" original="isSimpleContractReport">Печать договора</value>
+  <value column="PrintName" original="isSimpleContractReport">Печать договора</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="Y" uuid="feb9812c-5db4-43de-9b86-9226bf6869a8">
+  <value column="Name" original="UTM Label ID">UTM Метки</value>
+  <value column="PrintName" original="UTM Label ID">UTM Метки</value>
+  <value column="Description" original="UTM Label ID">UTM Метки</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="4f55b379-1af0-428f-88be-e456aef87430">
+  <value column="Name" original="UTM Label UU">UTM Label UU</value>
+  <value column="PrintName" original="UTM Label UU">UTM Label UU</value>
+  <value column="Description" original="UTM Label UU">UTM Label UU</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="Y" uuid="458dd370-ea29-4207-96b1-12f52c8050d4">
+  <value column="Name" original="UTM Label Value ID">Значение UTM метки</value>
+  <value column="PrintName" original="UTM Label Value ID">Значение UTM метки</value>
+  <value column="Description" original="UTM Label Value ID">Значение UTM метки</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="f7268f23-5b96-4065-a0e6-bb48bc190eb5">
+  <value column="Name" original="UTM Label Value UU">UTM Label Value UU</value>
+  <value column="PrintName" original="UTM Label Value UU">UTM Label Value UU</value>
+  <value column="Description" original="UTM Label Value UU">UTM Label Value UU</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="Y" uuid="1a6f3eba-874d-48e2-9c9f-d480bc716c6b">
+  <value column="Name" original="Attachment Size">Размер вложений</value>
+  <value column="PrintName" original="Размер вложений">Размер вложений</value>
+  <value column="Description" original="Суммарный размер вложений">Суммарный размер вложений</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="Y" uuid="fe4fb11e-460b-449f-93fe-ade132900cd9">
+  <value column="Name" original="Attachment Number">Количество вложений</value>
+  <value column="PrintName" original="Количество вложений">Количество вложений</value>
+  <value column="Description" original="Максимальное количество вложений">Максимальное количество вложений</value>
+  <value column="Help" original="Максимальное количество вложений">Максимальное количество вложений</value>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="Y" uuid="23932a83-1faa-4e79-8f2d-38f6e7d3798e">
+  <value column="Name" original="Rit_GeoLayersConfig_ID">Rit_GeoLayersConfig_ID</value>
+  <value column="PrintName" original="Rit_GeoLayersConfig_ID">Rit_GeoLayersConfig_ID</value>
+  <value column="Description" original="ID Table ">ИД таблицы настройки отображения слоев ГеоСервера</value>
+  <value column="Help" original="ID Table ">ИД таблицы настройки отображения слоев ГеоСервера</value>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="37a3baac-53d8-482c-8890-5d7ffc1363f9">
+  <value column="Name" original="Rit_GeoLayersConfig_UU">Rit_GeoLayersConfig_UU</value>
+  <value column="PrintName" original="Rit_GeoLayersConfig_UU">Rit_GeoLayersConfig_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="Y" uuid="0e53e03d-77cd-45bd-ba7e-fc0d53826f3c">
+  <value column="Name" original="Par_String">Строка параметров</value>
+  <value column="PrintName" original="String with parameters">Строка параметров</value>
+  <value column="Description" original="String with parameters">Строка с параметрами</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="Y" uuid="1f3ef2f2-bee2-49bb-bff8-747ac5941c77">
+  <value column="Name" original="SIP Channel">SIP канал</value>
+  <value column="PrintName" original="SIP Channel">SIP канал</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="Y" uuid="95d6a50e-ba88-4fbd-af99-e5da4d08b559">
+  <value column="Name" original="Macro Segment ID">Макросегмент</value>
+  <value column="PrintName" original="Macro Segment ID">Макросегмент</value>
+  <value column="Description" original="Macro Segment ID">Макросегмент</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="ba257f47-f962-4a64-96df-c4f268b6dec1">
+  <value column="Name" original="Macro Segment UU">Macro Segment UU</value>
+  <value column="PrintName" original="Macro Segment UU">Macro Segment UU</value>
+  <value column="Description" original="Macro Segment UU">Macro Segment UU</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="271c512c-2285-4d2c-bdd6-44431674aa67">
+  <value column="Name" original="Rit_GeoLayersParameter_ID">Rit_GeoLayersParameter_ID</value>
+  <value column="PrintName" original="Rit_GeoLayersParameter_ID">Rit_GeoLayersParameter_ID</value>
+  <value column="Description" original="ID Table ">ID Table </value>
+  <value column="Help" original="ID Table ">ID Table </value>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="773c39ad-39c3-4975-8d19-5ee800e51dbe">
+  <value column="Name" original="Rit_GeoLayersParameter_UU">Rit_GeoLayersParameter_UU</value>
+  <value column="PrintName" original="Rit_GeoLayersParameter_UU">Rit_GeoLayersParameter_UU</value>
+  <value column="Description" original="UU Table ">UU Table </value>
+  <value column="Help" original="UU Table ">UU Table </value>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="1bab02d4-3923-4493-955b-72f34e22d4dc">
+  <value column="Name" original="Rit_GeoLayersParameterValue_ID">Rit_GeoLayersParameterValue_ID</value>
+  <value column="PrintName" original="Rit_GeoLayersParameterValue_ID">Rit_GeoLayersParameterValue_ID</value>
+  <value column="Description" original="ID Table ">ID Table </value>
+  <value column="Help" original="ID Table ">ID Table </value>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="5e74a1cd-716d-4c7f-bf37-a6e59f0da555">
+  <value column="Name" original="Rit_GeoLayersParameterValue_UU">Rit_GeoLayersParameterValue_UU</value>
+  <value column="PrintName" original="Rit_GeoLayersParameterValue_UU">Rit_GeoLayersParameterValue_UU</value>
+  <value column="Description" original="UU Table ">UU Table </value>
+  <value column="Help" original="UU Table ">UU Table </value>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="62147919-ae2f-4b0a-935b-7e4c34203b51">
+  <value column="Name" original="String value">String value</value>
+  <value column="PrintName" original="String value">String value</value>
+  <value column="Description" original="String value">String value</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original="">Символьное значение, строка</value>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="Y" uuid="060ca62e-4a22-4e4b-8728-17b369b97094">
+  <value column="Name" original="RIT_IsOrderVerification">Подтверждение заказа</value>
+  <value column="PrintName" original="IsOrderVerification">Подтверждение заказа</value>
+  <value column="Description" original="IsOrderVerification">Подтверждение заказа</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original="">Подтверждение заказа</value>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original="">Подтверждение заказа</value>
+  <value column="PO_PrintName" original="">Подтверждение заказа</value>
+ </row>
+ <row trl="Y" uuid="96cb7e1a-b232-46b8-b5a1-96f46ac33b36">
+  <value column="Name" original="Public Procurement Attribute">Атрибуты Госзакупок</value>
+  <value column="PrintName" original="Public Procurement Attribute">Атрибуты Госзакупок</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original="">Атрибуты Госзакупок</value>
+  <value column="PO_PrintName" original="">Атрибуты Госзакупок</value>
+ </row>
+ <row trl="N" uuid="634a9312-7c42-48b9-96fa-2ace524e13a5">
+  <value column="Name" original="Public Procurement Attribute UU">Public Procurement Attribute UU</value>
+  <value column="PrintName" original="Public Procurement Attribute UU">Public Procurement Attribute UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="dc55eb81-bbc1-49cb-bd5d-fffe833551d8">
+  <value column="Name" original="Public Proc Attr Value ID">Public Proc Attr Value ID</value>
+  <value column="PrintName" original="Public Proc Attr Value ID">Public Proc Attr Value ID</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="a39aa563-b91c-4264-b595-ccc362b4ed8e">
+  <value column="Name" original="Public Proc Attr Value UU">Public Proc Attr Value UU</value>
+  <value column="PrintName" original="Public Proc Attr Value UU">Public Proc Attr Value UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="c2f52149-aeeb-4e1d-b82a-9ad0b8cd3c57">
+  <value column="Name" original="Public Proc Attr List ID">Public Proc Attr List ID</value>
+  <value column="PrintName" original="Public Proc Attr List ID">Public Proc Attr List ID</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="7b96d0c4-80be-4ad1-8684-616005ce4a51">
+  <value column="Name" original="Public Proc Attr List UU">Public Proc Attr List UU</value>
+  <value column="PrintName" original="Public Proc Attr List UU">Public Proc Attr List UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="f8d3d90e-7de4-44cc-b0f4-652afb74989c">
+  <value column="Name" original="Geo Layer Parameter Type">Geo Layer Parameter Type</value>
+  <value column="PrintName" original="Type parameter">Type parameter</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="Y" uuid="cdf6ed57-7f1a-44e9-bc13-b0e61d2d65d1">
+  <value column="Name" original="RIT Contract Number Client">Номер договора для печати</value>
+  <value column="PrintName" original="RIT Contract Number Client">Номер договора для печати</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original="Contract Number Client">Номер договора для печати</value>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original="Contract Number Client">Номер договора для печати</value>
+  <value column="PO_PrintName" original="Contract Number Client">Номер договора для печати</value>
+ </row>
+ <row trl="N" uuid="4bf56001-2c6a-446b-b769-02cfdfed3298">
+  <value column="Name" original="Sales Rep Name">Sales Rep Name</value>
+  <value column="PrintName" original="Sales Rep Name">Sales Rep Name</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original="Sales Rep Name">Sales Rep Name</value>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original="Sales Rep Name">Sales Rep Name</value>
+  <value column="PO_PrintName" original="Sales Rep Name">Sales Rep Name</value>
+ </row>
+ <row trl="Y" uuid="d888c53f-6e1f-4641-ac88-ea7e7c5661a7">
+  <value column="Name" original="TopicAttr ID">Атрибуты гос. закупок</value>
+  <value column="PrintName" original="TopicAttr ID">Атрибуты гос. закупок</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original="">Атрибуты гос. закупок</value>
+  <value column="PO_PrintName" original="">Атрибуты гос. закупок</value>
+ </row>
+ <row trl="N" uuid="84f2f2c9-c499-4b30-b2aa-3a8f481213cb">
+  <value column="Name" original="TopicAttr UU">TopicAttr UU</value>
+  <value column="PrintName" original="TopicAttr UU">TopicAttr UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="Y" uuid="415b55e3-31cb-4982-94d8-ae7a6591a047">
+  <value column="Name" original="PurchaseMethod">Способ  закупки</value>
+  <value column="PrintName" original="Purchase Method">Способ  закупки</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original="">Способ  закупки</value>
+  <value column="PO_PrintName" original="">Способ  закупки</value>
+ </row>
+ <row trl="Y" uuid="673d87b8-27db-4557-a687-e450824127cb">
+  <value column="Name" original="Regulatory NPA">Регулирующий НПА</value>
+  <value column="PrintName" original="Regulatory NPA">Регулирующий НПА</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original="Regulatory NPA">Регулирующий НПА</value>
+  <value column="PO_PrintName" original="Regulatory NPA">Регулирующий НПА</value>
+ </row>
+ <row trl="Y" uuid="757cc93c-af5c-407f-b051-dd3025056a4a">
+  <value column="Name" original="Subject of purchase">Предмет закупки</value>
+  <value column="PrintName" original="Subject of purchase">Предмет закупки</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original="Subject of purchase">Предмет закупки</value>
+  <value column="PO_PrintName" original="Subject of purchase">Предмет закупки</value>
+ </row>
+ <row trl="Y" uuid="47caee21-d3fa-4c94-8825-a0dc35aa5c4f">
+  <value column="Name" original="Initial maximum contract price">Начальная максимальная цена контракта, без НДС</value>
+  <value column="PrintName" original="Initial maximum contract price">Начальная максимальная цена контракта, без НДС</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original="Initial maximum contract price">Начальная максимальная цена контракта, без НДС</value>
+  <value column="PO_PrintName" original="Initial maximum contract price">Начальная максимальная цена контракта, без НДС</value>
+ </row>
+ <row trl="Y" uuid="cb14bb1e-b078-4c8a-b12e-f84e369c6ec8">
+  <value column="Name" original="Term of service">Срок оказания услуг</value>
+  <value column="PrintName" original="Term of service">Срок оказания услуг</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original="Term of service">Срок оказания услуг</value>
+  <value column="PO_PrintName" original="Term of service">Срок оказания услуг</value>
+ </row>
+ <row trl="Y" uuid="21787d80-dc32-4e55-870b-5062ddc6457b">
+  <value column="Name" original="Method of submitting an offer">Способ подачи предложения</value>
+  <value column="PrintName" original="Method of submitting an offer">Способ подачи предложения</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original="Method of submitting an offer">Способ подачи предложения</value>
+  <value column="PO_PrintName" original="Method of submitting an offer">Способ подачи предложения</value>
+ </row>
+ <row trl="Y" uuid="2439aee9-41ef-4271-bd10-5a36171ddaf9">
+  <value column="Name" original="Address ETP">Адрес ЭТП</value>
+  <value column="PrintName" original="Address ETP">Адрес ЭТП</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original="Address ETP">Адрес ЭТП</value>
+  <value column="PO_PrintName" original="Address ETP">Адрес ЭТП</value>
+ </row>
+ <row trl="Y" uuid="38b05e67-ab13-49d3-b912-cd3fe14dc960">
+  <value column="Name" original="The deadline for submission of proposal">Срок окончания подачи предложения</value>
+  <value column="PrintName" original="The deadline for submission of proposal">Срок окончания подачи предложения</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original="The deadline for submission of proposal">Срок окончания подачи предложения</value>
+  <value column="PO_PrintName" original="The deadline for submission of proposal">Срок окончания подачи предложения</value>
+ </row>
+ <row trl="Y" uuid="32a81b00-3ee2-44bb-a2b8-b75a2d78b842">
+  <value column="Name" original="Date and time of the auction">Дата и время проведения аукциона</value>
+  <value column="PrintName" original="Date and time of the auction">Дата и время проведения аукциона</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original="Date and time of the auction">Дата и время проведения аукциона</value>
+  <value column="PO_PrintName" original="Date and time of the auction">Дата и время проведения аукциона</value>
+ </row>
+ <row trl="Y" uuid="ae56a257-0c30-41ca-a961-322dd0cdc6e8">
+  <value column="Name" original="Purchase summary date">Дата подведения итогов закупки</value>
+  <value column="PrintName" original="Purchase summary date">Дата подведения итогов закупки</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original="Purchase summary date">Дата подведения итогов закупки</value>
+  <value column="PO_PrintName" original="Purchase summary date">Дата подведения итогов закупки</value>
+ </row>
+ <row trl="Y" uuid="8ada7b18-d5af-4ebd-a8c7-4e7c6bb821fc">
+  <value column="Name" original="The size of the software application">Размер обеспечения заявки</value>
+  <value column="PrintName" original="The size of the software application">Размер обеспечения заявки</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original="The size of the software application">Размер обеспечения заявки</value>
+  <value column="PO_PrintName" original="The size of the software application">Размер обеспечения заявки</value>
+ </row>
+ <row trl="Y" uuid="250431cb-d78d-4e3c-a2a9-44e421242ae3">
+  <value column="Name" original="Competitor">Конкурент</value>
+  <value column="PrintName" original="Competitor">Конкурент</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original="Competitor">Конкурент</value>
+  <value column="PO_PrintName" original="Competitor">Конкурент</value>
+ </row>
+ <row trl="Y" uuid="6e27d11d-aeb9-4611-b078-37e3551d7b7a">
+  <value column="Name" original="Reference to the procurement procedure">Ссылка на закупочную процедуру</value>
+  <value column="PrintName" original="Reference to the procurement procedure">Ссылка на закупочную процедуру</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original="Reference to the procurement procedure">Ссылка на закупочную процедуру</value>
+  <value column="PO_PrintName" original="Reference to the procurement procedure">Ссылка на закупочную процедуру</value>
+ </row>
+ <row trl="Y" uuid="0c6c2ca7-2c68-40b6-92a1-d42dd7299517">
+  <value column="Name" original="The amount of the contract">Сумма заключаемого контракта</value>
+  <value column="PrintName" original="The amount of the contract">Сумма заключаемого контракта</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original="The amount of the contract">Сумма заключаемого контракта</value>
+  <value column="PO_PrintName" original="The amount of the contract">Сумма заключаемого контракта</value>
+ </row>
+ <row trl="Y" uuid="b6a0f086-aa88-4c09-9f1f-7767b60266b3">
+  <value column="Name" original="LogLevel">Уровень лога</value>
+  <value column="PrintName" original="Log Level ">Уровень логирования</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="Y" uuid="2b8277a0-8d1a-40be-9e34-c0ff80fbb45f">
+  <value column="Name" original="IsAttachment">Вложения</value>
+  <value column="PrintName" original="IsAttachment">Вложения</value>
+  <value column="Description" original="">Есть вложения для объекта</value>
+  <value column="Help" original="">Есть вложения для объекта. Можно их увидеть нажав на "Скрепку" в системном меню.</value>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="Y" uuid="f065c5c9-e8ac-4712-808e-90ce3b0b5e06">
+  <value column="Name" original="IsUseSearchMarkCompa">Использовать в поиске маркетинговых компаний</value>
+  <value column="PrintName" original="Use in search of marketing companies">Использовать в поиске маркетинговых компаний</value>
+  <value column="Description" original="Use in search of marketing companies">Использовать в поиске маркетинговых компаний</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="eb83ddeb-56cc-4907-bc91-58001cf87ca2">
+  <value column="Name" original="IsProcessedLabel">IsProcessedLabel</value>
+  <value column="PrintName" original="IsProcessedLabel">IsProcessedLabel</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="d7545f71-aa08-4590-96dd-11b9cf299160">
+  <value column="Name" original="BPOpportunity">BPOpportunity</value>
+  <value column="PrintName" original="BPOpportunity">BPOpportunity</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="Y" uuid="227444e9-e878-492a-9014-0202a952ca0b">
+  <value column="Name" original="IssueCode">Код подразделения</value>
+  <value column="PrintName" original="IssueCode">Код подразделения</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="Y" uuid="6fcae3db-5c50-488a-afa9-b7ec7134aa89">
+  <value column="Name" original="ContractAgentType">Тип агентского договора</value>
+  <value column="PrintName" original="Contract Agent Type">Тип агентского договора</value>
+  <value column="Description" original="Contract Agent Type">Тип агентского договора</value>
+  <value column="Help" original="">Тип агентского договора: АГ - агентский договор, ПО- договор поставки, ДП- договор поручения</value>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="1f88ec6d-b0f5-4cd5-b735-958794fdc369">
+  <value column="Name" original="isContractAgent">isContractAgent</value>
+  <value column="PrintName" original="isContractAgent">isContractAgent</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="bda6a58d-b48b-4338-b1f5-8d4fe9a54059">
+  <value column="Name" original="RIT_VirtColmn">RIT_VirtColmn</value>
+  <value column="PrintName" original="RIT_VirtColmn">RIT_VirtColmn</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="7e3af821-c035-4d37-b9d7-e60797c15413">
+  <value column="Name" original="SearchPhone">Телефон</value>
+  <value column="PrintName" original="Search phone">Поле поиска по телефону</value>
+  <value column="Description" original="">Поле поиска по телефону</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="Y" uuid="c2c343ba-3c1e-4438-a2ed-601ee59b5c75">
+  <value column="Name" original="EMailSales">EMail отдела продаж</value>
+  <value column="PrintName" original="EMailSales">EMail отдела продаж</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>

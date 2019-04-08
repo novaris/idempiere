@@ -35,7 +35,7 @@
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row trl="N" uuid="026b2465-9fab-403d-9142-447b1f85b156">
+ <row trl="Y" uuid="026b2465-9fab-403d-9142-447b1f85b156">
   <value column="Name" original="Детальное обследование">Детальное обследование</value>
   <value column="Description" original="Детальное обследование">Детальное обследование</value>
   <value column="Help" original=""/>

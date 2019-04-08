@@ -70,12 +70,12 @@
   <value column="Description" original=""/>
   <value column="UOMSymbol" original="L">L</value>
  </row>
- <row trl="N" uuid="7ce0a5be-6c94-4c21-a5e2-2e818e6d294c">
+ <row trl="Y" uuid="7ce0a5be-6c94-4c21-a5e2-2e818e6d294c">
   <value column="Name" original="Штука">Штука</value>
   <value column="Description" original="Единица изменерия штучных продуктов.">Единица изменерия штучных продуктов.</value>
   <value column="UOMSymbol" original="шт">шт</value>
  </row>
- <row trl="N" uuid="1a861d84-1d9a-454c-9efb-421005c3e9d9">
+ <row trl="Y" uuid="1a861d84-1d9a-454c-9efb-421005c3e9d9">
   <value column="Name" original="Руб./месяц">Руб./месяц</value>
   <value column="Description" original="Рублей в месяц">Рублей в месяц</value>
   <value column="UOMSymbol" original="Руб./мес.">Руб./мес.</value>

@@ -5,7 +5,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="53" trl="Y">
-  <value column="Name" original="Client+Organization">Клиент+Организация</value>
+  <value column="Name" original="Client+Organization">Экземпляр+Организация</value>
   <value column="Description" original=""/>
  </row>
  <row id="54" trl="Y">
@@ -349,7 +349,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="194" trl="Y">
-  <value column="Name" original="System+Client">Система+клиент</value>
+  <value column="Name" original="System+Client">Система+экземпляр</value>
   <value column="Description" original=""/>
  </row>
  <row id="198" trl="Y">
@@ -1241,7 +1241,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="452" trl="Y">
-  <value column="Name" original="Client">Клиент</value>
+  <value column="Name" original="Client">Экземпляр</value>
   <value column="Description" original=""/>
  </row>
  <row id="453" trl="Y">
@@ -1249,7 +1249,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="454" trl="Y">
-  <value column="Name" original="Client+Organization">Клиент+Организация</value>
+  <value column="Name" original="Client+Organization">Экземпляр+Организация</value>
   <value column="Description" original=""/>
  </row>
  <row id="455" trl="Y">
@@ -1797,7 +1797,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="594" trl="Y">
-  <value column="Name" original="Client only">Только клиент</value>
+  <value column="Name" original="Client only">Только экземпляр</value>
   <value column="Description" original=""/>
  </row>
  <row id="595" trl="Y">
@@ -4916,12 +4916,12 @@
   <value column="Name" original="Returned">Returned</value>
   <value column="Description" original=""/>
  </row>
- <row id="200025" trl="N">
-  <value column="Name" original="Cash">Cash</value>
+ <row id="200025" trl="Y">
+  <value column="Name" original="Cash">Кассовый</value>
   <value column="Description" original=""/>
  </row>
- <row id="200026" trl="N">
-  <value column="Name" original="Card">Card</value>
+ <row id="200026" trl="Y">
+  <value column="Name" original="Card">Карточный</value>
   <value column="Description" original=""/>
  </row>
  <row id="200027" trl="N">
@@ -5535,5 +5535,153 @@
  <row trl="Y" uuid="dc3fbdf5-ef16-4638-b3ef-058a672f1fcc">
   <value column="Name" original="Phone">Телефон</value>
   <value column="Description" original="Formating Phone Number">Форматированный номер телефона</value>
+ </row>
+ <row trl="Y" uuid="024753c6-9fcf-4735-b712-5696d711d325">
+  <value column="Name" original="Correspondent">Корреспондентский</value>
+  <value column="Description" original="Correspondent account">Корреспондентский счёт</value>
+ </row>
+ <row trl="N" uuid="94adc514-3729-44a3-b8d6-bb7ef414a4e7">
+  <value column="Name" original="Собственное">Собственное</value>
+  <value column="Description" original="Собственное">Собственное</value>
+ </row>
+ <row trl="N" uuid="71b032f2-ba6c-402d-bd15-47c2e8a159d6">
+  <value column="Name" original="Аренда">Аренда</value>
+  <value column="Description" original="Аренда">Аренда</value>
+ </row>
+ <row trl="N" uuid="5ab30981-5b76-40b0-bea8-e72d88b78c2a">
+  <value column="Name" original="Продажа">Продажа</value>
+  <value column="Description" original="Продажа">Продажа</value>
+ </row>
+ <row trl="N" uuid="d461be09-dde8-4bb1-afad-321eb6707673">
+  <value column="Name" original="Интернет">Интернет</value>
+  <value column="Description" original="Услуга предоставления Интернет">Услуга предоставления Интернет</value>
+ </row>
+ <row trl="N" uuid="8229eb00-3a6e-4db4-88b8-f9d1374e8dd5">
+  <value column="Name" original="Телефония">Телефония</value>
+  <value column="Description" original="Услуга телефонии">Услуга телефонии</value>
+ </row>
+ <row trl="N" uuid="f33faa60-3b46-4519-9617-648c5cc4ea5a">
+  <value column="Name" original="VPN">VPN</value>
+  <value column="Description" original="Услуга предоставления VPN">Услуга предоставления VPN</value>
+ </row>
+ <row trl="N" uuid="4f89f2e7-bcee-4d58-a4e7-595cbd3c98ab">
+  <value column="Name" original="ВКС">ВКС</value>
+  <value column="Description" original="Услуга ВКС">Услуга ВКС</value>
+ </row>
+ <row trl="N" uuid="73743179-b5d0-4100-8aba-64d4faecca1e">
+  <value column="Name" original="Procuratory">Доверенность</value>
+  <value column="Description" original="Procuratory">Доверенность</value>
+ </row>
+ <row trl="N" uuid="cf885cc3-1b2f-4fd7-b124-0d0660bf09e6">
+  <value column="Name" original="String">String</value>
+  <value column="Description" original="String par"/>
+ </row>
+ <row trl="N" uuid="ef7cd77d-4268-40f1-a9fc-2af6391d3207">
+  <value column="Name" original="BOOLEAN">BOOLEAN</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="552e321a-5758-4628-97e9-eddb39307dd8">
+  <value column="Name" original="INT">INT</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="cf49279c-7794-469a-9723-f0380382962f">
+  <value column="Name" original="STRING">Строка</value>
+  <value column="Description" original="String type">Строка до 256 символов</value>
+ </row>
+ <row trl="Y" uuid="11db5c12-dd7f-4aa0-a843-510c37955f34">
+  <value column="Name" original="BOOLEAN">Логический</value>
+  <value column="Description" original="Logical type - Y/N"> Y или N</value>
+ </row>
+ <row trl="Y" uuid="d91030a3-2586-4d0f-bcbb-3d09b4b32587">
+  <value column="Name" original="INTEGER">Целое</value>
+  <value column="Description" original="Number &gt; 0"><![CDATA[Целое число >0]]></value>
+ </row>
+ <row trl="Y" uuid="6263a0a5-001c-408a-9f18-6c4cfe19312c">
+  <value column="Name" original="New">Новый</value>
+  <value column="Description" original="New">Статус новая</value>
+ </row>
+ <row trl="Y" uuid="c23274e0-e80d-4aea-a1b5-0b3692e60c1c">
+  <value column="Name" original="Sent">Подана</value>
+  <value column="Description" original="Sent">Подана</value>
+ </row>
+ <row trl="Y" uuid="a7cf56a4-ed7d-4b23-94fb-b477023d8df7">
+  <value column="Name" original="Auction">Аукцион</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="f73b3f76-1bdc-474c-8eee-b65b3322f7c2">
+  <value column="Name" original="Contest">Конкурс</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="3445ba54-6b42-4c3b-a081-0a78eee8b975">
+  <value column="Name" original="Inquiry of quotations">Запрос котировок</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="a13c7bd3-4899-47d3-a44b-e7b753920394">
+  <value column="Name" original="Price inquiry">Запрос цен</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="9557bcbd-82ef-4804-b402-b760e9028bbb">
+  <value column="Name" original="Request for proposals">Запрос предложений</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="7ecdfba2-8640-4651-8c8d-2b48d16aecee">
+  <value column="Name" original="Monitoring of the market">Мониторинг рынка</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="cb23958f-ea1c-4342-9a43-3a8e9fb5c015">
+  <value column="Name" original="44-FZ">44-ФЗ</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="71f863a3-b337-44c7-91cf-ecc1cb48ccc5">
+  <value column="Name" original="223-FZ">223-ФЗ</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="a8638f85-1ecf-4c07-a0e7-45d0e7580b26">
+  <value column="Name" original="Сommercial procurement">Коммерческая закупка</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="00ecdbdc-ef82-4206-8678-1d093d543cb1">
+  <value column="Name" original="ETP">ЭТП</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="8a868f77-bf1f-47db-9730-a4539511719c">
+  <value column="Name" original="On paper">На бумажном носителе</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="3b50769d-4947-4d10-b77b-59c5263f358f">
+  <value column="Name" original="E-mail">E-mail</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="6a5081d0-8419-46a3-82c2-6f4d15fcbddf">
+  <value column="Name" original="Refusal to participate">Отказ от участия</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="04a440bd-8da5-41cc-bb79-81a507cd31ee">
+  <value column="Name" original="Error">Только Ошибки</value>
+  <value column="Description" original="Only error messages">Только сообщения об ошибках</value>
+ </row>
+ <row trl="Y" uuid="35f766ed-2f3e-45dd-8f91-1593bd924ac3">
+  <value column="Name" original="Warning">Ошибки и Предупреждения</value>
+  <value column="Description" original="Error and Warning">Ошибки и Предупреждения</value>
+ </row>
+ <row trl="Y" uuid="185eef37-9c80-429a-b443-3d547cc56dcd">
+  <value column="Name" original="Info">Ошибки, предупреждения и дополнительная информация</value>
+  <value column="Description" original="Add informaition">Дополнительная информация к сообщениям 1,2</value>
+ </row>
+ <row trl="Y" uuid="88240ef8-6bd7-4f25-9d2d-10daf2affccd">
+  <value column="Name" original="Debug">С дополнительной информацией для отладки</value>
+  <value column="Description" original="All 1,2,3 and addition information for Debug">1+2+3 and Addition Debug Info</value>
+ </row>
+ <row trl="Y" uuid="91ec6909-3898-4886-87af-877ab2581423">
+  <value column="Name" original="Agent Contract">Агентский договор</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="3681fc99-3d62-4e12-aad6-d607a6c923d6">
+  <value column="Name" original="Supply Contract">Договор поставки</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="38085942-1601-4fb8-9283-285ef560a1c1">
+  <value column="Name" original="Agency Contract">Договор поручения</value>
+  <value column="Description" original=""/>
  </row>
 </idempiereTrl>
