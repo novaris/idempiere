@@ -214,6 +214,16 @@ Finally a message box asks if you want to close the OM document, you should clic
 &#13;
 Selecting the "Where Used" check box will display the BOMs that this product is used in.</value>
  </row>
+ <row id="53021" trl="N">
+  <value column="Name" original="VMPGenerateOT">VMPGenerateOT</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53023" trl="N">
+  <value column="Name" original="VMPRequestOT">VMPRequestOT</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
  <row id="200000" trl="Y">
   <value column="Name" original="Setup Wizard">Мастер Установки</value>
   <value column="Description" original=""/>
@@ -263,5 +273,10 @@ Selecting the "Where Used" check box will display the BOMs that this product is 
   <value column="Name" original="List logs email processing">List logs email processing</value>
   <value column="Description" original="View list logs email processing">View list logs email processing</value>
   <value column="Help" original="List logs email processing - Error or Ok">List logs email processing - Error or Ok</value>
+ </row>
+ <row trl="N" uuid="02004bd3-d62f-4c0f-a46a-39e2400c274a">
+  <value column="Name" original="WFGraph Editor Form">WFGraph Editor Form</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
 </idempiereTrl>

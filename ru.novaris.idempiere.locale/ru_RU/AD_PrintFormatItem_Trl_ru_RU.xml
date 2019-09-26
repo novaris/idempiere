@@ -285,4 +285,14 @@
   <value column="PrintName" original="Kanban Controlled">Kanban Controlled</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
+ <row trl="Y" uuid="ac301b14-3d80-4c7c-9739-ae1582c59966">
+  <value column="Name" original="Заказ">Заказ</value>
+  <value column="PrintName" original="Заказ">Заказ</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="9ed4c7a5-dec6-4538-a549-5a4539a3e4f1">
+  <value column="Name" original="Заказ">Заказ</value>
+  <value column="PrintName" original="Заказ">Заказ</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
 </idempiereTrl>

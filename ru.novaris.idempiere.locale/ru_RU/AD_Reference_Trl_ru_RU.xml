@@ -41,8 +41,8 @@
   <value column="Help" original=""/>
  </row>
  <row id="13" trl="Y">
-  <value column="Name" original="Geo Layer parameters">ИД</value>
-  <value column="Description" original="Geo Layer parameters">10-значный идентификатор</value>
+  <value column="Name" original="ID">ИД</value>
+  <value column="Description" original="10 Digit Identifier">10-значный идентификатор</value>
   <value column="Help" original=""/>
  </row>
  <row id="14" trl="Y">
@@ -71,8 +71,8 @@
   <value column="Help" original=""/>
  </row>
  <row id="19" trl="Y">
-  <value column="Name" original="Table Direct">Постоянные таблицы</value>
-  <value column="Description" original="Direct Table Access">Прямой доступ к таблицам</value>
+  <value column="Name" original="Table Direct">Напрямую к таблице</value>
+  <value column="Description" original="Direct Table Access">Прямой доступ к таблице</value>
   <value column="Help" original=""/>
  </row>
  <row id="20" trl="Y">
@@ -297,7 +297,7 @@
  </row>
  <row id="124" trl="Y">
   <value column="Name" original="C_BPartner Parent">Родитель C_BPartner</value>
-  <value column="Description" original="Business Partner Parent selection">Выбор родителя бизнес-партнёра</value>
+  <value column="Description" original="Business Partner Parent selection">Выбор родителя контрагента</value>
   <value column="Help" original=""/>
  </row>
  <row id="125" trl="Y">
@@ -362,7 +362,7 @@
  </row>
  <row id="138" trl="Y">
   <value column="Name" original="C_BPartner (Trx)">C_BPartner</value>
-  <value column="Description" original="Business Partner selection (no Summary)">Выбор бизнес-партнёра (не сводка)</value>
+  <value column="Description" original="Business Partner selection (no Summary)">Выбор контрагента (не сводка)</value>
   <value column="Help" original=""/>
  </row>
  <row id="141" trl="Y">
@@ -381,7 +381,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="144" trl="Y">
-  <value column="Name" original="C_Sales Region (No summary)">C_Sales Region</value>
+  <value column="Name" original="C_Sales Region (No summary)">Регион продаж</value>
   <value column="Description" original="Sales Region selection (No summary)">Выбор региона продаж (не сводка)</value>
   <value column="Help" original=""/>
  </row>
@@ -447,7 +447,7 @@
  </row>
  <row id="159" trl="Y">
   <value column="Name" original="C_BPartner Location">C_BPartner Location</value>
-  <value column="Description" original="Locations of a Business Partner">Адрес бизнес-партнёра</value>
+  <value column="Description" original="Locations of a Business Partner">Адрес контрагента</value>
   <value column="Help" original=""/>
  </row>
  <row id="161" trl="Y">
@@ -536,8 +536,8 @@
   <value column="Help" original=""/>
  </row>
  <row id="179" trl="Y">
-  <value column="Name" original="C_SalesRegion Parent">C_SalesRegion Parent</value>
-  <value column="Description" original=""/>
+  <value column="Name" original="C_SalesRegion Parent">Регион продаж (родительский)</value>
+  <value column="Description" original="">Регион продаж (родительский)</value>
   <value column="Help" original=""/>
  </row>
  <row id="180" trl="Y">
@@ -576,8 +576,8 @@
   <value column="Help" original=""/>
  </row>
  <row id="190" trl="Y">
-  <value column="Name" original="AD_User - SalesRep">AD_User SalesRep</value>
-  <value column="Description" original="Sales Representative">Торговый представитель</value>
+  <value column="Name" original="AD_User - SalesRep">Менеджер по продажам</value>
+  <value column="Description" original="Sales Representative">Торговый представитель или Менеджер по продажам</value>
   <value column="Help" original=""/>
  </row>
  <row id="191" trl="Y">
@@ -781,7 +781,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="232" trl="Y">
-  <value column="Name" original="C_BPartner Vendor or SalesRep">C_BPartner Vendor or SalesRep</value>
+  <value column="Name" original="C_BPartner Vendor or SalesRep">Поставщик или торговый представитель</value>
   <value column="Description" original="Vendor or SalesRep selection">Выбор поставщика или торг. представителя</value>
   <value column="Help" original=""/>
  </row>
@@ -882,7 +882,7 @@
  </row>
  <row id="252" trl="Y">
   <value column="Name" original="C_BPartner Employee">C_BPartner Employee</value>
-  <value column="Description" original="Business Partners who are Employee">Бизнес-партнёры, которые являются сотрудниками</value>
+  <value column="Description" original="Business Partners who are Employee">Контрагенты, которые являются сотрудниками</value>
   <value column="Help" original=""/>
  </row>
  <row id="253" trl="Y">
@@ -997,7 +997,7 @@
  </row>
  <row id="277" trl="Y">
   <value column="Name" original="C_BPartner Employee w Address">C_BPartner Employee w Address</value>
-  <value column="Description" original="Business Partners who are Employee and have addresses">Бизнес-партнёр, который является сотрудником и имеет адрес</value>
+  <value column="Description" original="Business Partners who are Employee and have addresses">Контрагент, который является сотрудником и имеет адрес</value>
   <value column="Help" original=""/>
  </row>
  <row id="278" trl="Y">
@@ -1362,7 +1362,7 @@
  </row>
  <row id="353" trl="Y">
   <value column="Name" original="C_BPartner SalesRep">C_BPartner SalesRep</value>
-  <value column="Description" original="BP SalesRep selection">Выбор торг.представителя бизнес-партнёра</value>
+  <value column="Description" original="BP SalesRep selection">Выбор торг.представителя контрагента</value>
   <value column="Help" original=""/>
  </row>
  <row id="354" trl="Y">
@@ -2230,6 +2230,91 @@
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
+ <row id="53393" trl="N">
+  <value column="Name" original="MP Request Status">MP Request Status</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53394" trl="N">
+  <value column="Name" original="MP_JobStandar">MP_JobStandar</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53395" trl="N">
+  <value column="Name" original="MP OT_Request_Type">MP OT_Request_Type</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53396" trl="N">
+  <value column="Name" original="MP_JobStandarType">MP_JobStandarType</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53397" trl="N">
+  <value column="Name" original="MP_MaintainArea">MP_MaintainArea</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53398" trl="N">
+  <value column="Name" original="MP_JobStandar_Task">MP_JobStandar_Task</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53399" trl="N">
+  <value column="Name" original="MP ResourceType">MP ResourceType</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53400" trl="N">
+  <value column="Name" original="MP_Maintain Status">MP_Maintain Status</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53401" trl="N">
+  <value column="Name" original="MP_Maintain">MP_Maintain</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53402" trl="N">
+  <value column="Name" original="MP_ProgrammingType">MP_ProgrammingType</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53403" trl="N">
+  <value column="Name" original="MP_Meter">MP_Meter</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53404" trl="N">
+  <value column="Name" original="MP_Maintain_Task">MP_Maintain_Task</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53405" trl="N">
+  <value column="Name" original="MP_OT_Request">MP_OT_Request</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53406" trl="N">
+  <value column="Name" original="MP_OT">MP_OT</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53407" trl="N">
+  <value column="Name" original="MP OT Status">MP OT Status</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53408" trl="N">
+  <value column="Name" original="MP_OT_Task">MP_OT_Task</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53409" trl="N">
+  <value column="Name" original="MP_AssetMeter">MP_AssetMeter</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
  <row id="53410" trl="N">
   <value column="Name" original="PriceOverrideType">PriceOverrideType</value>
   <value column="Description" original="Price Override Type">Price Override Type</value>
@@ -2255,9 +2340,9 @@
   <value column="Description" original="Contact Activity Types">Тип активности Контакт</value>
   <value column="Help" original=""/>
  </row>
- <row id="53424" trl="N">
-  <value column="Name" original="C_SalesStage">C_SalesStage</value>
-  <value column="Description" original=""/>
+ <row id="53424" trl="Y">
+  <value column="Name" original="C_SalesStage">Стадии продаж</value>
+  <value column="Description" original="">Стадии продаж</value>
   <value column="Help" original=""/>
  </row>
  <row id="200001" trl="N">
@@ -2641,8 +2726,8 @@
   <value column="Help" original=""/>
  </row>
  <row trl="Y" uuid="fdebd79a-c4bb-45a0-82fb-e50c676def05">
-  <value column="Name" original="Проект">Проект</value>
-  <value column="Description" original=""/>
+  <value column="Name" original="Business Project">Бизнес проект</value>
+  <value column="Description" original="Internal Business Project">Внутренний бизнес проект</value>
   <value column="Help" original=""/>
  </row>
  <row trl="Y" uuid="f779e940-0680-42d6-93dc-9a9fdf8c2673">
@@ -2708,6 +2793,141 @@
  <row trl="Y" uuid="d4afe0cf-6af0-4a1b-8ff0-a5846724dcdd">
   <value column="Name" original="Contract Agent Type List">Типы агентского договора</value>
   <value column="Description" original="Contract Agent Type List">Типы агентского договора</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="10f6baba-c10f-49f1-839f-48af8ae4f736">
+  <value column="Name" original="AD_User_with_agent">AD_User_with_agent</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="8a8876be-a858-4cda-8247-a064954e248e">
+  <value column="Name" original="Gender">Пол</value>
+  <value column="Description" original="Gender">Пол</value>
+  <value column="Help" original="Gender">Пол (мужской/ женский)</value>
+ </row>
+ <row trl="Y" uuid="63d9bd8e-3745-4033-b29e-3bf80416251a">
+  <value column="Name" original="Manager_Asr_Onima">Менежер_АСР_Онима</value>
+  <value column="Description" original="Manager Asr Onima in dogovor office">Менежер_АСР_Онима в договорном отделе</value>
+  <value column="Help" original="Value Key is ID in Onima"/>
+ </row>
+ <row trl="N" uuid="e564307c-0191-425c-b230-9d194ce98531">
+  <value column="Name" original="RIT_BProject_type">RIT_BProject_type</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="146e6df7-e8f3-4f67-8130-b80b72d325e4">
+  <value column="Name" original="Project_level_2">Project_level_2</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="05a060c6-f39d-4d6d-a73b-91bfc5216218">
+  <value column="Name" original="CP_Logic">CP_Logic</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="e131b7d7-da8d-43b5-898f-4e2d629f68e0">
+  <value column="Name" original="CP_TableJoin">CP_TableJoin</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="0a68d805-3253-445a-83c4-2f8b7e376dd1">
+  <value column="Name" original="CP_ColumnJoin">CP_ColumnJoin</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="abd669d8-9d48-4c53-a47d-87b71843de8b">
+  <value column="Name" original="CP_ProcessFlowStateTO">CP_ProcessFlowStateTO</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="128a1367-5b62-40f3-b788-8021a0d193c0">
+  <value column="Name" original="CP_WarehouseTO">CP_WarehouseTO</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="f3f8cc71-f2b9-4801-92ee-2b93b9a1c719">
+  <value column="Name" original="C_Order_DO">C_Order_DO</value>
+  <value column="Description" original="Order DO">Order DO</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="f4c6951a-fc34-4cf7-8d6d-8a071e8cf3d4">
+  <value column="Name" original="Word Type for Word Rule">Тип слова при проверке слова</value>
+  <value column="Description" original="">Тип слова при проверке слова в функции проверки</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="29afd9d1-1b12-40f9-8d06-ac8c388a0748">
+  <value column="Name" original="M_Product (Type Kit)">M_Product (Type Kit)</value>
+  <value column="Description" original="Product selection no summary">Product selection no summary</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="aea089a0-4aa3-4368-9a00-ab6fd4ae4d3d">
+  <value column="Name" original="TypeWarehouse">Тип склада</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="90245e55-692a-48ca-933b-12f6ff237d97">
+  <value column="Name" original="RIT Process_Parse_ID">RIT Process_Parse_ID</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="32550c55-351c-48b1-8adb-5c0147ca9c48">
+  <value column="Name" original="RIT AD_Process_ID">RIT AD_Process_ID</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="e1f671f6-65fe-430b-a5cf-8a78b7bfa79e">
+  <value column="Name" original="RIT_MANAGMENT_QUEUE_EXEC TaskStatus">RIT_MANAGMENT_QUEUE_EXEC TaskStatus</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="443ac409-8685-42b3-a63b-3706176cce4f">
+  <value column="Name" original="_PriorityOrder">Priority</value>
+  <value column="Description" original="Список значений приоритетов">Список шкалы приоритетов</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="d0158289-8fc3-43da-aeb5-c45c1b37f124">
+  <value column="Name" original="_Prior_Order">_PriorOrder</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="30c7afd2-3e7e-46a0-80f7-3db28383127f">
+  <value column="Name" original="Internal Attributes">Внутренняя запись</value>
+  <value column="Description" original="Internal Attributes for Maping">Внутренняя запись для отображения во внешних системах</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="b1072c9b-2ab3-491d-9536-fcde1fc083f2">
+  <value column="Name" original="RelType Internal Record (CRM) &lt;=&gt; External Value (Ext)">Значение параметра внешней системы</value>
+  <value column="Description" original="Finds RIT_Managment_Amap_IDs for a given Internal Record ID">Поиск соответствия внутреннего значение переменной для внешней системы</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="02849c36-6209-458f-ba57-24b8a309b21a">
+  <value column="Name" original="AD_User is Employee">Сотрудники кампании</value>
+  <value column="Description" original="AD_User is Employee">Сотрудники кампании</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="e1042398-bf95-4811-8ca1-157b436b1b83">
+  <value column="Name" original="RIT_BusinessProject">Бизнес проект для БП</value>
+  <value column="Description" original="">Бизнес проект для бизнес процесса</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="2fc26961-4bd9-4aa4-a0d5-49dec0d0e15a">
+  <value column="Name" original="ReferenceListReference">Набор элементов списка</value>
+  <value column="Description" original="Reference list from Reference ID">Набор элементов списка по ид списка</value>
+  <value column="Help" original="">Набор элементов списка по ид списка</value>
+ </row>
+ <row trl="Y" uuid="dec7ecbc-06a6-4fc1-8a55-3686788293af">
+  <value column="Name" original="ReguestFormAnswer">Список формы исходящего ответа</value>
+  <value column="Description" original="Reguest Form Answer">Список формы исходящего ответа</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="3ccb7dd6-8b5b-4634-8f6f-bdaf9e06422e">
+  <value column="Name" original="AD_PInstance_ID">AD_PInstance_ID</value>
+  <value column="Description" original="PInstance ID">PInstance ID</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="7144b671-d2c3-472a-8a19-6e0c72fe3d06">
+  <value column="Name" original="ConnectionTechnology">Технология подключения</value>
+  <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
 </idempiereTrl>

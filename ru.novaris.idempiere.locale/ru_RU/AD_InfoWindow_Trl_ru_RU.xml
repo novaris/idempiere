@@ -6,7 +6,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="200001" trl="Y">
-  <value column="Name" original="Business Partner Info">Информация о бизнес-партнёре</value>
+  <value column="Name" original="Business Partner Info">Информация о контрагенте</value>
   <value column="Description" original="">Информация о Бизнес Партнёре</value>
   <value column="Help" original=""/>
  </row>

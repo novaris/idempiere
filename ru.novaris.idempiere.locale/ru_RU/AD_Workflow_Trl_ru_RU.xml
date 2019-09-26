@@ -349,9 +349,79 @@ If you cannot cover the MPS as you had planned, this module gives you informatio
   <value column="Description" original="Sales and service activation process">Процесс продажи и подключения услуг в массовом сегменте.</value>
   <value column="Help" original="This workflow defines the Sales and service activation process.">Этот процесс определяет последовательность действий по продаже и подключению услуг в массвом сегменте.</value>
  </row>
- <row trl="N" uuid="5e286024-3fbc-44fa-a8a8-92b50f6aae2f">
-  <value column="Name" original="Детальное обследование">Детальное обследование</value>
-  <value column="Description" original="Детальное обследование">Детальное обследование</value>
+ <row trl="N" uuid="d9f97691-54fa-45fd-8283-db81aa9dfb56">
+  <value column="Name" original="Setup Product Simplify Version">Setup Product Simplify Version</value>
+  <value column="Description" original="Setup Product Simplify Version">Setup Product Simplify Version</value>
+  <value column="Help" original="Setup Product Simplify Version"/>
+ </row>
+ <row trl="N" uuid="d1e25fa3-848c-4349-b591-be8261c2fa9e">
+  <value column="Name" original="Process_Contract_Document">Процесс преобразования "Договор" в "документ"</value>
+  <value column="Description" original="(Standard Process Convert Contract to Document)">(Standard Process Convert Contract to Document)</value>
   <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="03c370a0-4886-402e-ac50-fe0727bbac4f">
+  <value column="Name" original="PO_VoidingAlert">PO_VoidingAlert</value>
+  <value column="Description" original="PO_VoidingAlert">PO_VoidingAlert</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="e3ba4bf4-9f1c-476d-939e-f10a03a56766">
+  <value column="Name" original="Детальное обследование B2B">Детальное обследование B2B</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="88546e00-871f-4e8e-8b49-b35060ca8627">
+  <value column="Name" original="Тестовый workflow">Тестовый workflow</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="e8f8e4b8-e70a-49bb-a342-e0848670fe19">
+  <value column="Name" original="Process_Order_VTCP_VSAT">Процесс "Заказ на ВТКП" услуга VSAT</value>
+  <value column="Description" original="(Process Order VTCP VSAT)">Процесс  создания заказа на ВТКП по услуге VSAT</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="c4ce5c2b-07a6-4fbf-b51a-b30f70e653e7">
+  <value column="Name" original="Test WF for node Control/Test">Проверка настройки узла Контроль/Проверка для WF</value>
+  <value column="Description" original="">Группа узлов Контроля и проверки для WF бизнесс процесса Заказ на Продажу</value>
+  <value column="Help" original="">Группа узлов Контроля и проверки для WF бизнесс процесса Заказ на Продажу</value>
+ </row>
+ <row trl="Y" uuid="5ff17510-51bd-4971-80db-e93f6f9f53be">
+  <value column="Name" original="Process_Order_DO">Процесс "Заказ на ДО"</value>
+  <value column="Description" original="(Process Order DO)">(Процесс "Заказ на ДО")</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="bf050970-d287-4689-b16e-98f27d80af5e">
+  <value column="Name" original="Process_Order TMK">Тест процесс МК</value>
+  <value column="Description" original="(Test Process Order)">(Test Process Order)</value>
+  <value column="Help" original="MK">MK</value>
+ </row>
+ <row trl="Y" uuid="6a24d78a-b16c-4093-b6a6-063d4e7261d4">
+  <value column="Name" original="Sensat connection process">Процесс подключения Sensat</value>
+  <value column="Description" original="Sensat connection process">Процесс подключения Sensat</value>
+  <value column="Help" original="Sensat connection process">Процесс подключения Sensat</value>
+ </row>
+ <row trl="N" uuid="e21b6ced-0f86-4ede-be87-4a8ab048ce26">
+  <value column="Name" original="тест роли">тест роли</value>
+  <value column="Description" original=""/>
+  <value column="Help" original="проверка">проверка</value>
+ </row>
+ <row trl="Y" uuid="f0aa0e20-2bcb-496d-b3f3-9cbf5a0d3839">
+  <value column="Name" original="Тестовый">Тестовый</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="c596de51-eceb-4d09-b76f-07c6387af940">
+  <value column="Name" original="RequestStatusAlert">RequestStatusAlert</value>
+  <value column="Description" original="RequestStatusAlert">RequestStatusAlert</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="72410950-70b1-4b82-8c62-cb9ba7e16a51">
+  <value column="Name" original="CS_Request_1C_input_number">Абон.Обслуживание, номер из 1С:СЭД.</value>
+  <value column="Description" original="CS_Request_1C_input_number">Абон.Обслуживание, запрос входяшего номера из 1С:СЭД.</value>
+  <value column="Help" original="Requesting for document input number from 1С:СЭД (for ChangeUserData request now).">Абон.Обслуживание, запрос входяшего номера из 1С:СЭД. (для запроса «Внесение изменений в учётные данные»).</value>
+ </row>
+ <row trl="Y" uuid="bbb22a8a-8d7f-4123-8b45-36529119d17f">
+  <value column="Name" original="CS_Request_1C_incoming_number">Абон.Обслуживание, номер в 1С:СЭД.</value>
+  <value column="Description" original="CS_Request_1C_incoming_number">Абон.Обслуживание, запрос исходящего номера в 1С:СЭД.</value>
+  <value column="Help" original="Requesting for document incoming number from 1С:СЭД (for ChangeUserData request now).">Абон.Обслуживание, запрос исходящего номера в 1С:СЭД.</value>
  </row>
 </idempiereTrl>

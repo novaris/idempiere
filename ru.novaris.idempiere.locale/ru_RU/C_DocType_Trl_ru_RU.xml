@@ -341,7 +341,7 @@
   <value column="DocumentNote" original=""/>
  </row>
  <row trl="Y" uuid="4c792a2c-859f-40d3-a19f-2faa9f4d52f1">
-  <value column="Name" original="Заявка">Заявка</value>
+  <value column="Name" original="Заявка на закупку ssb">Заявка на закупку ssb</value>
   <value column="PrintName" original="Заявка">Заявка</value>
   <value column="DocumentNote" original="Заявка на закупку">Заявка на закупку</value>
  </row>
@@ -391,12 +391,12 @@
   <value column="DocumentNote" original=""/>
  </row>
  <row trl="Y" uuid="4e765acd-99d7-4412-b5bb-8be2d282af99">
-  <value column="Name" original="Коммерческое предложение (с резервированием)">Коммерческое предложение (с резервированием)</value>
+  <value column="Name" original="Коммерческое предложение (с резервом)">Коммерческое предложение (с резервом)</value>
   <value column="PrintName" original="Коммерческое предложение (с резервом)">Коммерческое предложение (с резервом)</value>
   <value column="DocumentNote" original=""/>
  </row>
  <row trl="Y" uuid="d2ea9863-93de-49a0-b524-09cd88b5ad5f">
-  <value column="Name" original="Коммерческое предложение">Коммерческое предложение</value>
+  <value column="Name" original="Коммерческое предложение (без резерва)">Коммерческое предложение (без резерва)</value>
   <value column="PrintName" original="Коммерческое предложение (без резерва)">Коммерческое предложение (без резерва)</value>
   <value column="DocumentNote" original=""/>
  </row>
@@ -483,6 +483,36 @@
  <row trl="Y" uuid="9cc14344-1648-4ead-9358-2c5bd33d0c42">
   <value column="Name" original="Fixed Assets Depreciation">Fixed Assets Depreciation</value>
   <value column="PrintName" original="Fixed Assets Depreciation">Fixed Assets Depreciation</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="30512962-6226-4d1a-95d6-0635b0039ce4">
+  <value column="Name" original="In-Transit Material Movement">In-Transit Material Movement</value>
+  <value column="PrintName" original="Перемещение инвентаря">Перемещение инвентаря</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="b798cd4c-ac71-40df-a968-92204c629176">
+  <value column="Name" original="Заказ на продажу ДО">Заказ на продажу ДО</value>
+  <value column="PrintName" original="Подтверждение заказа">Подтверждение заказа</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="5d7e073f-bb30-46f5-aff7-b84d85522c3d">
+  <value column="Name" original="Размещение заказа ДО">Размещение заказа ДО</value>
+  <value column="PrintName" original="Размещение заказа ДО">Размещение заказа ДО</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="b4bc3c53-9045-47e2-ad83-47d5e74a0edb">
+  <value column="Name" original="Заказ на ДО">Заказ на ДО</value>
+  <value column="PrintName" original="Заказ на ДО">Заказ на ДО</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="2087cdfa-16eb-4bcc-b16d-70d4488d0c87">
+  <value column="Name" original="Заказ Sensat">Заказ Sensat</value>
+  <value column="PrintName" original="Заказ Sensat">Заказ Sensat</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="e73fe7bf-7afa-4ffc-947f-7d3d4ff75b2c">
+  <value column="Name" original="Подключение Sensat">Подключение Sensat</value>
+  <value column="PrintName" original="Подключение Sensat">Подключение Sensat</value>
   <value column="DocumentNote" original=""/>
  </row>
 </idempiereTrl>

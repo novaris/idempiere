@@ -473,7 +473,7 @@
   <value column="Description" original=""/>
  </row>
  <row trl="N" uuid="9ba2e5d1-2de5-4207-a52b-7bf6bc00c2da">
-  <value column="Name" original="Бизнес-партнёр">Бизнес-партнёр</value>
+  <value column="Name" original="Контрагент">Контрагент</value>
   <value column="Description" original=""/>
  </row>
  <row trl="N" uuid="4f0cf5a0-cba3-46be-865f-1be7f4806e05">
@@ -485,11 +485,11 @@
   <value column="Description" original=""/>
  </row>
  <row trl="N" uuid="f4418bbb-75c0-44a7-a817-b570f53c523d">
-  <value column="Name" original="Банковский счет бизнес-партнёра">Банковский счет бизнес-партнёра</value>
+  <value column="Name" original="Банковский счет контрагента">Банковский счет контрагента</value>
   <value column="Description" original=""/>
  </row>
  <row trl="N" uuid="43b030ad-49df-4050-a416-eaa39b8152fb">
-  <value column="Name" original="Банковский счет бизнес-партнёра_20190211123832">Банковский счет бизнес-партнёра_20190211123832</value>
+  <value column="Name" original="Банковский счет контрагента_20190211123832">Банковский счет контрагента_20190211123832</value>
   <value column="Description" original=""/>
  </row>
  <row trl="N" uuid="5af2a762-c26b-48b8-8ebe-1df1d6e09a8f">
@@ -498,6 +498,198 @@
  </row>
  <row trl="N" uuid="8b103a15-41e8-4690-ac67-d69fe8536b1f">
   <value column="Name" original="Шаблон письма">Шаблон письма</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="f99be592-6de8-4adf-ad0b-631b2dedcfa5">
+  <value column="Name" original="Хранилище детально">Хранилище детально</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="2e1130ea-a397-4269-afcd-41168ab01825">
+  <value column="Name" original="Отчет о пополнении">Отчет о пополнении</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="d3b5f256-0403-4f3a-865a-5e8b784305ab">
+  <value column="Name" original="Открытые заявки">Открытые заявки</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="58b201be-c719-433e-9cf2-73c8aedfbde4">
+  <value column="Name" original="Неотвеченные RfQ">Неотвеченные RfQ</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="2157d873-6e99-420f-94af-610fde978158">
+  <value column="Name" original="Ответ на запрос цены">Ответ на запрос цены</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="09b4bf50-2fdd-450c-84b3-f8b04c332fcd">
+  <value column="Name" original="Приходн. накладная детально">Приходн. накладная детально</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="5a23be7a-7815-4d7b-867b-aa116a4b2575">
+  <value column="Name" original="Open Items">Open Items</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="8e937fb6-597f-44a6-bc59-2ff32fc5e02f">
+  <value column="Name" original="Product Category">Product Category</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="d9950df9-c05d-4769-9b5c-ac4dfb77dc1d">
+  <value column="Name" original="SSB">SSB</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="b91da2bd-04c0-4300-93d3-829999368ca7">
+  <value column="Name" original="Product Category - Copy Record">Product Category - Copy Record</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="9c86ff36-55be-406e-b684-eb0f791a54c1">
+  <value column="Name" original="Выбор поставщика">Выбор поставщика</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="8da7a15d-1a27-44ba-8185-d3f736e2a080">
+  <value column="Name" original="Отгрузка детально">Отгрузка детально</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="7a9d9565-9f7d-4f13-a17c-526d2f42530e">
+  <value column="Name" original="Отгрузка/Получение">Отгрузка/Получение</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="9c151c06-9758-4442-9109-9f697be1e90f">
+  <value column="Name" original="Продукт">Продукт</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="f511d318-0718-4fd1-bf5a-25fd039a0098">
+  <value column="Name" original="Заказ_20190521071822">Заказ_20190521071822</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="d93eb348-2e43-4047-b399-9b4cee8b707a">
+  <value column="Name" original="Заказ_Tarf_test">Заказ_Tarf_test</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="6da69fa8-9c20-4773-addb-b8b78d7985cf">
+  <value column="Name" original="Тип документа">Тип документа</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="8730ce61-bcc1-438c-ba15-76322acd2be8">
+  <value column="Name" original="Проект">Проект</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="48d50a1e-fac2-4c8e-919e-fee2ae24a01c">
+  <value column="Name" original="Проект_20190521075131">Проект_20190521075131</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="e062ec81-861b-40bf-8d31-a6e8d2b8b476">
+  <value column="Name" original="AD_Package_Exp">AD_Package_Exp</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="59d4b6bd-b0df-4307-827c-813f1eb3a326">
+  <value column="Name" original="AD_Package_Exp_20190521103117">AD_Package_Exp_20190521103117</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="59bb50ec-495b-4cab-8299-b74f21b5ae88">
+  <value column="Name" original="AD_Package_Exp_Detail">AD_Package_Exp_Detail</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="380771e5-7cc6-49a1-8213-9c800c3b5176">
+  <value column="Name" original="Бизнес-процесс">Бизнес-процесс</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="5b30e4d2-39bd-44ae-bc66-5aad75a8951f">
+  <value column="Name" original="Бизнес-процесс_20190521105626">Бизнес-процесс_20190521105626</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="ffd20a49-6f0d-42ef-97e8-7a9eed7c3b34">
+  <value column="Name" original="Возможность Продаж_20190521111606">Возможность Продаж_20190521111606</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="2ccaf12b-87d2-4a39-b19b-795bafb7f0ca">
+  <value column="Name" original="RV_Asset_Parent_Report - Копировать запись">RV_Asset_Parent_Report - Копировать запись</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="18248ae4-054a-4f6d-bb7e-a0130a8c307a">
+  <value column="Name" original="Активы">Активы</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="a37f40e6-65bf-4b81-a55f-5d6675e4dddf">
+  <value column="Name" original="mk_Lead">mk_Lead</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="37b5b776-451c-4a54-b0cb-f84ad7411038">
+  <value column="Name" original="Заказ_Tarf_test - Копировать запись">Заказ_Tarf_test - Копировать запись</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="aa9083ce-de13-4144-9204-291209069df4">
+  <value column="Name" original="Открытые заказы">Открытые заказы</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="df39516f-9e53-4652-9436-8dba36619cb3">
+  <value column="Name" original="Таблица">Таблица</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="2fa1cda5-7425-4f7b-9abe-540e764af418">
+  <value column="Name" original="Заказ детально">Заказ детально</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="a091e2a1-765d-4fc3-afdd-ce7e6162b596">
+  <value column="Name" original="Склад">Склад</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="1f8c605f-f960-468c-a532-551241dc4e24">
+  <value column="Name" original="Process Instance">Process Instance</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="06eb9c33-f86c-4d33-90d8-5031d37f3eed">
+  <value column="Name" original="Атрибуты продукта">Атрибуты продукта</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="f0b3f7a2-adbc-4d6e-ba3b-53e101eaf49c">
+  <value column="Name" original="M_Replenish">M_Replenish</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="b9ed9bc5-e7c3-44d0-b655-6f864473246b">
+  <value column="Name" original="M_Storage">M_Storage</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="2aa5cf5e-34c9-4c3c-bd54-d5a6f708e314">
+  <value column="Name" original="Склад_20190724120922">Склад_20190724120922</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="e26cf0b5-873f-4b6b-92f4-f19a90771d69">
+  <value column="Name" original="Открытый контрагент">Открытый контрагент</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="a1f0d84f-ff9a-4a4b-909b-df5c7f762d1b">
+  <value column="Name" original="Indented Bill of Material - Copy Record">Indented Bill of Material - Copy Record</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="854e3bce-4765-49b0-af28-aa03dbb3b5ef">
+  <value column="Name" original="Transaction Detail">Transaction Detail</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="e46beb3e-b2f3-4c43-bd45-ac5afe3a0184">
+  <value column="Name" original="Column">Column</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="d195799e-22d3-421e-a116-1b0ab8eeef73">
+  <value column="Name" original="Order">Order</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="bf38dbbd-9e6b-4cba-a36d-67757d8f7840">
+  <value column="Name" original="Print Format">Print Format</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="89eedf2b-a241-4c31-a6e7-c0e5dea36696">
+  <value column="Name" original="Distribution Order">Distribution Order</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="d4bc02de-a13d-4171-87cf-ce7c6abd03b3">
+  <value column="Name" original="Distribution Order_20190820172412">Distribution Order_20190820172412</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="6dc82d71-83cf-4cbc-b9f8-e612738df44a">
+  <value column="Name" original="Allocation Line">Allocation Line</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="f9909e38-0a06-403f-af22-9695562b626a">
+  <value column="Name" original="Workflow Activity">Workflow Activity</value>
   <value column="Description" original=""/>
  </row>
 </idempiereTrl>

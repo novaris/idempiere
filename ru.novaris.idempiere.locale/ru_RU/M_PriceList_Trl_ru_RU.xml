@@ -13,7 +13,27 @@
   <value column="Description" original="Export Prices in EUR">Export Prices in EUR</value>
  </row>
  <row trl="Y" uuid="17a7ded0-5817-47b1-bef5-a98803abab62">
-  <value column="Name" original="Текущий прайс (B2C)">Текущий прайс (B2C)</value>
-  <value column="Description" original="Текущий прайс (B2C)">Текущий прайс (B2C)</value>
+  <value column="Name" original="Текущий прайс (B2C) для продаж">Текущий прайс (B2C) для продаж</value>
+  <value column="Description" original="Текущий прайс (B2C) для продаж">Текущий прайс (B2C) для продаж</value>
+ </row>
+ <row trl="Y" uuid="6805b30c-c239-41f0-af56-a3bb87c5577b">
+  <value column="Name" original="Текущий прайс (В2С)_Восток">Текущий прайс (В2С)_Восток</value>
+  <value column="Description" original="Текущий прайс (В2С)_Восток">Текущий прайс (В2С)_Восток</value>
+ </row>
+ <row trl="Y" uuid="ad66e9fc-e37a-406c-840a-3cf158e24e59">
+  <value column="Name" original="Текущий прайс (B2C) для закупок">Текущий прайс (B2C) для закупок</value>
+  <value column="Description" original="Текущий прайс (B2C) для закупок">Текущий прайс (B2C) для закупок</value>
+ </row>
+ <row trl="Y" uuid="ef1647c7-ab2f-43c1-976f-1fd91d0f409e">
+  <value column="Name" original="Тест">Тест</value>
+  <value column="Description" original="тест">тест</value>
+ </row>
+ <row trl="Y" uuid="30757b35-9d5d-4bfb-a00f-770e27eec344">
+  <value column="Name" original="Прайс (B2C) для Партнеров (продажи)">Прайс (B2C) для Партнеров (продажи)</value>
+  <value column="Description" original="Прайс (B2C) для Партнеров (продажи)">Прайс (B2C) для Партнеров (продажи)</value>
+ </row>
+ <row trl="Y" uuid="1896455b-ef1a-4e25-b14d-b29d757175f7">
+  <value column="Name" original="Текущий прайс Юг (B2C) для продаж">Текущий прайс Юг (B2C) для продаж</value>
+  <value column="Description" original="Текущий прайс Юг (B2C) для продаж">Текущий прайс Юг (B2C) для продаж</value>
  </row>
 </idempiereTrl>

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="ru_RU" table="M_Attribute">
+ <row id="100" trl="N">
+  <value column="Name" original="Size (S-M-L)">Size (S-M-L)</value>
+ </row>
+ <row id="101" trl="N">
+  <value column="Name" original="Color (R-G-B)">Color (R-G-B)</value>
+ </row>
+ <row id="102" trl="N">
+  <value column="Name" original="Use Factor">Use Factor</value>
+ </row>
+ <row id="103" trl="N">
+  <value column="Name" original="Use Description">Use Description</value>
+ </row>
+ <row trl="Y" uuid="753353af-2e88-4b5a-a3c3-c85a3ab60a36">
+  <value column="Name" original="Субъект">Субъект</value>
+ </row>
+ <row trl="Y" uuid="56e7bb47-c6c9-4423-aea9-0881861d0d17">
+  <value column="Name" original="Район">Район</value>
+ </row>
+ <row trl="Y" uuid="7c774d2f-ce7e-4287-bdb9-a5e7176f17f8">
+  <value column="Name" original="Город">Город</value>
+ </row>
+ <row trl="Y" uuid="9fa1e9c5-0d90-4044-b300-30eceef5d0c1">
+  <value column="Name" original="Почтовый индекс">Почтовый индекс</value>
+ </row>
+ <row trl="Y" uuid="d57fe7ad-c3a7-45ff-a74d-53a89d0ea831">
+  <value column="Name" original="Улица">Улица</value>
+ </row>
+ <row trl="Y" uuid="c38f28db-3c26-412a-90ac-78a7e167add1">
+  <value column="Name" original="Дом">Дом</value>
+ </row>
+ <row trl="Y" uuid="502bc1f3-c110-4717-86c9-682a816fffdc">
+  <value column="Name" original="Корпус">Корпус</value>
+ </row>
+ <row trl="Y" uuid="539bf801-eaa3-45ac-9000-251a364267fb">
+  <value column="Name" original="Квартира">Квартира</value>
+ </row>
+ <row trl="Y" uuid="0ab0b095-3564-4375-8974-7316dbf95df9">
+  <value column="Name" original="Широта">Широта</value>
+ </row>
+ <row trl="Y" uuid="4ca5080f-5cf6-4b45-a19f-4744d7e8765b">
+  <value column="Name" original="Долгота">Долгота</value>
+ </row>
+ <row trl="Y" uuid="9f41c3aa-0bd5-413b-bc61-53c9e5d98d55">
+  <value column="Name" original="Диаметр антенны">Диаметр антенны</value>
+ </row>
+ <row trl="Y" uuid="a4c4c466-3bb1-4f18-a2ea-29413994f287">
+  <value column="Name" original="Мощность приемопередатчика">Мощность приемопередатчика</value>
+ </row>
+ <row trl="Y" uuid="fac7f97a-401c-4cde-b642-60cdb375481c">
+  <value column="Name" original="Модель модема">Модель модема</value>
+ </row>
+ <row trl="Y" uuid="f41f989f-d0bc-41ec-9dd7-120927915cfb">
+  <value column="Name" original="Тарифный план">Тарифный план</value>
+ </row>
+ <row trl="Y" uuid="c95c30ce-e909-42eb-b456-9d629c1bfd12">
+  <value column="Name" original="Уверенность приема">Уверенность приема</value>
+ </row>
+ <row trl="Y" uuid="670bc085-837d-4122-83bb-f26c3c812e59">
+  <value column="Name" original="Спутник Sensat">Спутник Sensat</value>
+ </row>
+ <row trl="Y" uuid="1962ba4a-ca22-4ba7-8826-687f588005f5">
+  <value column="Name" original="Атрибут собственности">Атрибут собственности</value>
+ </row>
+ <row trl="Y" uuid="20aacaf9-479c-4e83-8237-901aad661978">
+  <value column="Name" original="Прямой канал связи, кбит/сек">Прямой канал связи, кбит/сек</value>
+ </row>
+ <row trl="Y" uuid="047ac473-2418-4efa-bd65-f534fd351207">
+  <value column="Name" original="Обратный канал связи, кбит/сек">Обратный канал связи, кбит/сек</value>
+ </row>
+ <row trl="Y" uuid="27a1d73d-0319-4fd7-9a4b-c7803feafaec">
+  <value column="Name" original="Услуга, которая будет предоставляться конечному абоненту">Услуга, которая будет предоставляться конечному абоненту</value>
+ </row>
+ <row trl="Y" uuid="edfd7c58-d591-4ca4-82d0-35b08cdd283a">
+  <value column="Name" original="Дата готовности канала связи">Дата готовности канала связи</value>
+ </row>
+ <row trl="Y" uuid="848bb30e-58f8-43d5-a5b5-17b7aed07cc3">
+  <value column="Name" original="Кол-во пользователей">Кол-во пользователей</value>
+ </row>
+ <row trl="Y" uuid="7743aa45-72a9-4606-8d38-8562f07d3fb9">
+  <value column="Name" original="Тип тарификации">Тип тарификации</value>
+ </row>
+ <row trl="Y" uuid="f506fc8c-ee7b-4318-a6d1-55f6efb21978">
+  <value column="Name" original="Host">Host</value>
+ </row>
+ <row trl="Y" uuid="c657884b-e385-4138-9aea-e002184825e6">
+  <value column="Name" original="Port">Port</value>
+ </row>
+ <row trl="Y" uuid="c0d9b45a-6571-4700-87da-0444647c90de">
+  <value column="Name" original="EndPoint">EndPoint</value>
+ </row>
+ <row trl="Y" uuid="5af1b0df-0149-4459-a1b0-f6c5874e22d4">
+  <value column="Name" original="WSDL">WSDL</value>
+ </row>
+ <row trl="Y" uuid="47cec75a-8778-42c9-95c3-7140e41155e6">
+  <value column="Name" original="AuthType">AuthType</value>
+ </row>
+ <row trl="Y" uuid="49b0b600-ff6d-40ac-b662-caffccb1c00d">
+  <value column="Name" original="Username">Username</value>
+ </row>
+ <row trl="Y" uuid="300d2d3c-c130-43ea-8e0e-718e26f44092">
+  <value column="Name" original="Password">Password</value>
+ </row>
+ <row trl="Y" uuid="153a4333-1e99-4221-a423-d4e41431bdac">
+  <value column="Name" original="UseSSL">UseSSL</value>
+ </row>
+ <row trl="Y" uuid="34e6cb34-46b8-4f1f-bfc1-055a1899f1a8">
+  <value column="Name" original="ValidateSSL">ValidateSSL</value>
+ </row>
+ <row trl="Y" uuid="c4c6b92b-67d0-41b2-9bb0-4bc960694dfb">
+  <value column="Name" original="Data exchange format">Data exchange format</value>
+ </row>
+ <row trl="Y" uuid="5dc26794-06fa-4def-8794-6d3b90e7de7e">
+  <value column="Name" original="Атрибут 1 (product)">Атрибут 1 (product)</value>
+ </row>
+ <row trl="Y" uuid="cddf5555-452d-428d-85fe-6e9bf5f401cf">
+  <value column="Name" original="Атрибут 2 (instance)">Атрибут 2 (instance)</value>
+ </row>
+ <row trl="Y" uuid="b2c53afc-0105-416f-8b61-37dbb2680ed8">
+  <value column="Name" original="Атрибут 3 (BOM)">Атрибут 3 (BOM)</value>
+ </row>
+ <row trl="Y" uuid="ae727711-3488-46e5-9841-fe3ebdc60018">
+  <value column="Name" original="Атрибут 4 (BOM)">Атрибут 4 (BOM)</value>
+ </row>
+ <row trl="Y" uuid="0162f4b0-12fd-44db-808d-fab2892f73cf">
+  <value column="Name" original="ODS, кбит/сек">ODS, кбит/сек</value>
+ </row>
+ <row trl="Y" uuid="7de02612-bbde-4260-99a7-af45e3019157">
+  <value column="Name" original="Настройка CIR">Настройка CIR</value>
+ </row>
+ <row trl="Y" uuid="c3b1aa57-8ba6-499f-b9e4-66af9b90f586">
+  <value column="Name" original="Тип передаваемого трафика">Тип передаваемого трафика</value>
+ </row>
+ <row trl="Y" uuid="2d1d98be-2885-4182-95fd-a98bb4952bc6">
+  <value column="Name" original="Владелец VSAT">Владелец VSAT</value>
+ </row>
+ <row trl="Y" uuid="3edbeebc-92f7-468f-85df-1dddc885bcbc">
+  <value column="Name" original="Transponder Band">Transponder Band</value>
+ </row>
+ <row trl="Y" uuid="bd3db06e-c289-48b0-a8b0-9f93d2984b99">
+  <value column="Name" original="Name">Name</value>
+ </row>
+ <row trl="Y" uuid="23b9faf4-7ad3-47ec-8344-389f6643d594">
+  <value column="Name" original="Transponder Power (kW)">Transponder Power (kW)</value>
+ </row>
+ <row trl="Y" uuid="09354dae-ffe7-4898-8b24-2dcb0328dc1b">
+  <value column="Name" original="SITE_ID">SITE_ID</value>
+ </row>
+ <row trl="Y" uuid="9489cfbd-bfde-4a32-9ed1-9681bed1d1a7">
+  <value column="Name" original="IP адрес">IP адрес</value>
+ </row>
+ <row trl="Y" uuid="161f5c2e-05b3-4306-a9bc-4a854242a5a1">
+  <value column="Name" original="MAC модема">MAC модема</value>
+ </row>
+ <row trl="Y" uuid="5381cade-7cec-4f98-8c57-080cfdebab0a">
+  <value column="Name" original="Site Id">Site Id</value>
+ </row>
+ <row trl="Y" uuid="64f41fa7-0790-4bb3-ae85-ad4964761736">
+  <value column="Name" original="VLAN_ID">VLAN_ID</value>
+ </row>
+ <row trl="Y" uuid="055c77c9-9297-4c2c-aac5-0c5cc7e32c9c">
+  <value column="Name" original="Подключение">Подключение</value>
+ </row>
+ <row trl="Y" uuid="66e27eb2-94f1-4539-8163-b05f47e7b954">
+  <value column="Name" original="Включено">Включено</value>
+ </row>
+ <row trl="Y" uuid="7d8368e7-e099-4f17-a2b7-5d92b9d572ca">
+  <value column="Name" original="Плата доп. трафик">Плата доп. трафик</value>
+ </row>
+ <row trl="Y" uuid="84e2866d-9e22-40ca-b003-8a1547ddd380">
+  <value column="Name" original="Скорость">Скорость</value>
+ </row>
+ <row trl="Y" uuid="bd964fcd-89ac-4921-8061-9a2843cc651e">
+  <value column="Name" original="Клиенты">Клиенты</value>
+ </row>
+ <row trl="Y" uuid="38d39c27-eb98-4812-b14c-5bd720ed08d7">
+  <value column="Name" original="Упаковка_список_Колдаков">Упаковка_список_Колдаков</value>
+ </row>
+ <row trl="Y" uuid="2497bd9e-fe25-4323-b70a-23caab838f3d">
+  <value column="Name" original="Тестовая дата Колдаков">Тестовая дата Колдаков</value>
+ </row>
+ <row trl="Y" uuid="d192c2c3-a331-489b-b5b2-3e56e808feb5">
+  <value column="Name" original="Номер_атрибут Колдаков">Номер_атрибут Колдаков</value>
+ </row>
+ <row trl="Y" uuid="438213a4-13d4-4b2e-b354-21ba199f154d">
+  <value column="Name" original="Атрибут строка_1 Колдаков">Атрибут строка_1 Колдаков</value>
+ </row>
+ <row trl="Y" uuid="50ce34b4-130b-4884-aba6-56b519fc2115">
+  <value column="Name" original="Атрибут строка_2 Колдаков">Атрибут строка_2 Колдаков</value>
+ </row>
+ <row trl="Y" uuid="10544147-ddb4-4f2f-b0d6-7c529f5b75d7">
+  <value column="Name" original="Числовой постоянный атрибут">Числовой постоянный атрибут</value>
+ </row>
+ <row trl="Y" uuid="1d01fffe-07bd-4ebc-88b7-cd0adcde72e2">
+  <value column="Name" original="Строковый постоянный атрибут">Строковый постоянный атрибут</value>
+ </row>
+ <row trl="Y" uuid="17dc1f3a-08f4-4b30-b2f1-a952bbc38f9e">
+  <value column="Name" original="Производитель оборудования">Производитель оборудования</value>
+ </row>
+ <row trl="Y" uuid="278653f3-e976-4498-a636-48227518173a">
+  <value column="Name" original="SN модема">SN модема</value>
+ </row>
+ <row trl="Y" uuid="079c9cc9-1694-4911-b35d-46dc16949762">
+  <value column="Name" original="SN приемопередатчика">SN приемопередатчика</value>
+ </row>
+ <row trl="Y" uuid="f6cd5b8f-d6cb-4983-9442-e282acdb6c7e">
+  <value column="Name" original="Terminal_id">Terminal_id</value>
+ </row>
+ <row trl="N" uuid="0b69a910-af5a-4e1f-9305-11399fdc9547">
+  <value column="Name" original="IP prefix">IP prefix</value>
+ </row>
+ <row trl="N" uuid="4c99f117-3eea-4202-800d-c59cc7492ba3">
+  <value column="Name" original="Высота подвеса антенны">Высота подвеса антенны</value>
+ </row>
+</idempiereTrl>

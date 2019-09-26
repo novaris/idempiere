@@ -40,4 +40,12 @@
   <value column="Name" original="тест">тест</value>
   <value column="Description" original=""/>
  </row>
+ <row trl="Y" uuid="a98a2c3b-2881-4b5b-8510-851832827a88">
+  <value column="Name" original="SSB">SSB</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="2858302f-6393-4a3b-a7d1-2bb4ef325f4f">
+  <value column="Name" original="Рекламная кампания &quot;Приведи друга&quot;">Рекламная кампания "Приведи друга"</value>
+  <value column="Description" original=""/>
+ </row>
 </idempiereTrl>

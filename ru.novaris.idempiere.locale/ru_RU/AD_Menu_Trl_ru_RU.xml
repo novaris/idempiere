@@ -129,7 +129,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="458" trl="Y">
-  <value column="Name" original="Sales Invoices">Документы обязательств бизнес-партнёру</value>
+  <value column="Name" original="Sales Invoices">Документы обязательств контрагенту</value>
   <value column="Description" original=""/>
  </row>
  <row id="459" trl="Y">
@@ -298,6 +298,26 @@
  </row>
  <row id="200095" trl="N">
   <value column="Name" original="Import Template">Import Template</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="13d95484-fc52-4b7f-b16b-ae1f45c64986">
+  <value column="Name" original="Order DO">Размещение заказа ДО</value>
+  <value column="Description" original="Enter and change orders DO"/>
+ </row>
+ <row trl="Y" uuid="7a94a742-d830-4494-9c2a-f6e6c9df00d2">
+  <value column="Name" original="Order VTCP">Заказ ДО</value>
+  <value column="Description" original="Enter and change sales orders VTCP">Заказ ДО</value>
+ </row>
+ <row trl="N" uuid="9b27b8d1-87be-4041-9143-f6c2a94ae637">
+  <value column="Name" original="Business Process Flow">Business Process Flow</value>
+  <value column="Description" original="all kind of business process">all kind of business process</value>
+ </row>
+ <row trl="N" uuid="5d3f9db1-24cd-43a8-8122-2757117f6a62">
+  <value column="Name" original="Process Admin">Process Admin</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="630404ae-bd21-45af-b0df-8c5329818306">
+  <value column="Name" original="External systems">Внешние системы</value>
   <value column="Description" original=""/>
  </row>
 </idempiereTrl>

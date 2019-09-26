@@ -392,13 +392,6 @@
   <value column="Placeholder" original=""/>
   <value column="Placeholder2" original=""/>
  </row>
- <row id="53588" trl="Y">
-  <value column="Name" original="Sales Representative">Менеджер/Агент</value>
-  <value column="Description" original="Sales Representative or Company Agent">Торговый представитель или агент компании</value>
-  <value column="Help" original="The Sales Representative indicates the Sales Rep for this Region.  Any Sales Rep must be a valid internal user.">Торговый представитель показывает торгового представителя для в этом регионе. Любой торговый представитель должен быть действительным внутренним пользователем.</value>
-  <value column="Placeholder" original=""/>
-  <value column="Placeholder2" original=""/>
- </row>
  <row id="200005" trl="N">
   <value column="Name" original="New EMail Confirm">New EMail Confirm</value>
   <value column="Description" original=""/>
@@ -513,15 +506,15 @@ this field define where request, error,.. occupy.</value>
   <value column="Placeholder2" original=""/>
  </row>
  <row id="200233" trl="Y">
-  <value column="Name" original="Sputnics for SENSAT">Спутники SENSAT</value>
-  <value column="Description" original="">Спутники SENSAT</value>
+  <value column="Name" original="Sputnics for SENSAT">Спутники</value>
+  <value column="Description" original="">Спутники</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="Placeholder2" original=""/>
  </row>
  <row id="200235" trl="Y">
-  <value column="Name" original="IsChecked">Есть техвозможность SENSAT</value>
-  <value column="Description" original="IsChecked">Есть техвозможность SENSAT</value>
+  <value column="Name" original="IsChecked">Есть техвозможность</value>
+  <value column="Description" original="IsChecked">Есть техвозможность</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="Placeholder2" original=""/>
@@ -576,7 +569,7 @@ this field define where request, error,.. occupy.</value>
   <value column="Placeholder2" original=""/>
  </row>
  <row trl="Y" uuid="ee1d2b9b-c581-4e7b-b03b-d84600274749">
-  <value column="Name" original="RIT Client C_BPartner_ID">Бизнес-партнёр, сторона Договора</value>
+  <value column="Name" original="RIT Client C_BPartner_ID">Контрагент, сторона Договора</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -604,8 +597,8 @@ this field define where request, error,.. occupy.</value>
   <value column="Placeholder2" original=""/>
  </row>
  <row trl="Y" uuid="959c4a7b-49df-4b3a-aee6-4fa7f2b9db64">
-  <value column="Name" original="AttOwne">Атрибут собственности</value>
-  <value column="Description" original="">Атрибут собственности</value>
+  <value column="Name" original="AttOwne">Форма собственности</value>
+  <value column="Description" original="">Форма собственности</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="Placeholder2" original=""/>
@@ -681,8 +674,8 @@ this field define where request, error,.. occupy.</value>
   <value column="Placeholder2" original=""/>
  </row>
  <row trl="Y" uuid="0bb00a80-c6c2-420b-88fb-835a87e2937b">
-  <value column="Name" original="Business Partner ">Бизнес-партнёр</value>
-  <value column="Description" original="Business Partner ">Бизнес-партнёр</value>
+  <value column="Name" original="Business Partner ">Контрагент</value>
+  <value column="Description" original="Business Partner ">Контрагент</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="Placeholder2" original=""/>
@@ -841,6 +834,55 @@ this field define where request, error,.. occupy.</value>
   <value column="Placeholder" original=""/>
   <value column="Placeholder2" original=""/>
  </row>
+ <row trl="Y" uuid="61d708d2-b5fc-4375-a633-7c6f17f4ec0e">
+  <value column="Name" original="User/Contact">Подписант</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">Пользователь в рамках системы (внутренний) или контакт контрагента</value>
+  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">Поле определяет уникального пользователя в системе. Это может быть внутренний пользователь или контакт контрагента.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="c0338b19-0d98-45db-952f-4ce897f38699">
+  <value column="Name" original="User/Contact">Подписант</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">Пользователь в рамках системы (внутренний) или контакт контрагента</value>
+  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">Поле определяет уникального пользователя в системе. Это может быть внутренний пользователь или контакт контрагента.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="cb43de4a-1f33-4fe6-a809-484c6a66850d">
+  <value column="Name" original="User/Contact">Подписант</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">Пользователь в рамках системы (внутренний) или контакт контрагента</value>
+  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">Поле определяет уникального пользователя в системе. Это может быть внутренний пользователь или контакт контрагента.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="54fdb805-1942-4188-9736-26160428b688">
+  <value column="Name" original="User/Contact">Подписант</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">Пользователь в рамках системы (внутренний) или контакт контрагента</value>
+  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">Поле определяет уникального пользователя в системе. Это может быть внутренний пользователь или контакт контрагента.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="6e5979f3-fb2b-4f8a-b3c5-dd9139af56d8">
+  <value column="Name" original="User/Contact">Подписант</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">Пользователь в рамках системы (внутренний) или контакт контрагента</value>
+  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">Поле определяет уникального пользователя в системе. Это может быть внутренний пользователь или контакт контрагента.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="146dd3c6-e4ad-4e52-b874-59a156abad85">
+  <value column="Name" original="User/Contact">Подписант</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">Пользователь в рамках системы (внутренний) или контакт контрагента</value>
+  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">Поле определяет уникального пользователя в системе. Это может быть внутренний пользователь или контакт контрагента.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="5f1e4b1a-2652-41f1-83f4-fde78e699731">
+  <value column="Name" original="User/Contact">Подписант</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">Пользователь в рамках системы (внутренний) или контакт контрагента</value>
+  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">Поле определяет уникального пользователя в системе. Это может быть внутренний пользователь или контакт контрагента.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
  <row trl="N" uuid="478bff0c-75c8-41cd-b1e3-4e385af5ba53">
   <value column="Name" original="Leader/Representative">Руководитель/представитель</value>
   <value column="Description" original=""/>
@@ -857,162 +899,6 @@ this field define where request, error,.. occupy.</value>
  </row>
  <row trl="N" uuid="9f6a561d-348b-4c6a-99e9-5efef0c7a03a">
   <value column="Name" original="RIT_MacroSegment_ID">RIT_MacroSegment_ID</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
-  <value column="Placeholder" original=""/>
-  <value column="Placeholder2" original=""/>
- </row>
- <row trl="Y" uuid="0e9c8669-af0c-4c91-9c16-360717d1089a">
-  <value column="Name" original="Contract">Договор</value>
-  <value column="Description" original="Contract">Договор</value>
-  <value column="Help" original=""/>
-  <value column="Placeholder" original=""/>
-  <value column="Placeholder2" original=""/>
- </row>
- <row trl="Y" uuid="d14b0980-8fbc-487e-982f-fd3658d078fa">
-  <value column="Name" original="Attach number">Номер приложения</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
-  <value column="Placeholder" original=""/>
-  <value column="Placeholder2" original=""/>
- </row>
- <row trl="Y" uuid="2ba291e3-585e-41f2-8467-1acf3dcf27f2">
-  <value column="Name" original="Sales Representative">Менеджер/Агент</value>
-  <value column="Description" original="Sales Representative or Company Agent">Торговый представитель или агент компании</value>
-  <value column="Help" original="The Sales Representative indicates the Sales Rep for this Region.  Any Sales Rep must be a valid internal user.">Торговый представитель показывает торгового представителя для в этом регионе. Любой торговый представитель должен быть действительным внутренним пользователем.</value>
-  <value column="Placeholder" original=""/>
-  <value column="Placeholder2" original=""/>
- </row>
- <row trl="Y" uuid="bf119bc6-3592-4161-bdc1-045058b056c6">
-  <value column="Name" original="Contract">Договор</value>
-  <value column="Description" original="Contract">Договор</value>
-  <value column="Help" original=""/>
-  <value column="Placeholder" original=""/>
-  <value column="Placeholder2" original=""/>
- </row>
- <row trl="Y" uuid="22f88ba2-d286-4a2e-8651-a7fe68732fce">
-  <value column="Name" original="Attach number">Номер приложения</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
-  <value column="Placeholder" original=""/>
-  <value column="Placeholder2" original=""/>
- </row>
- <row trl="Y" uuid="e5b82d17-5138-4627-a5ad-cdff78f7cc80">
-  <value column="Name" original="Contract">Договор</value>
-  <value column="Description" original="Contract">Договор</value>
-  <value column="Help" original=""/>
-  <value column="Placeholder" original=""/>
-  <value column="Placeholder2" original=""/>
- </row>
- <row trl="N" uuid="545408b1-0716-4f32-b178-6e0f43d11130">
-  <value column="Name" original="Attach number">Номер Приложения</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
-  <value column="Placeholder" original=""/>
-  <value column="Placeholder2" original=""/>
- </row>
- <row trl="Y" uuid="af68461c-7fac-43bb-803f-397dcd70d7fc">
-  <value column="Name" original="Contract">Договор</value>
-  <value column="Description" original="Contract">Договор</value>
-  <value column="Help" original=""/>
-  <value column="Placeholder" original=""/>
-  <value column="Placeholder2" original=""/>
- </row>
- <row trl="N" uuid="527327b4-bfea-4d0d-a8a7-1fd99cddc204">
-  <value column="Name" original="Attach number">Номер приложения</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
-  <value column="Placeholder" original=""/>
-  <value column="Placeholder2" original=""/>
- </row>
- <row trl="Y" uuid="e220d69d-ebda-42a7-8aea-9ea07af43e91">
-  <value column="Name" original="Contract">Договор</value>
-  <value column="Description" original="Contract">Договор</value>
-  <value column="Help" original=""/>
-  <value column="Placeholder" original=""/>
-  <value column="Placeholder2" original=""/>
- </row>
- <row trl="N" uuid="0c992bd2-ed19-4581-85c5-3fe381fb819e">
-  <value column="Name" original="Attach number">Номер приложения</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
-  <value column="Placeholder" original=""/>
-  <value column="Placeholder2" original=""/>
- </row>
- <row trl="Y" uuid="3f68c668-7de1-475c-9bf3-a0c44eb18664">
-  <value column="Name" original="Contract">Договор</value>
-  <value column="Description" original="Contract">Договор</value>
-  <value column="Help" original=""/>
-  <value column="Placeholder" original=""/>
-  <value column="Placeholder2" original=""/>
- </row>
- <row trl="N" uuid="02f057be-f0e4-45a8-b2d1-47b4688748c6">
-  <value column="Name" original="Attach number">Номер приложения</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
-  <value column="Placeholder" original=""/>
-  <value column="Placeholder2" original=""/>
- </row>
- <row trl="Y" uuid="95cf69bf-3196-4741-9904-bd88ab1350f8">
-  <value column="Name" original="Contract">Договор</value>
-  <value column="Description" original="Contract">Договор</value>
-  <value column="Help" original=""/>
-  <value column="Placeholder" original=""/>
-  <value column="Placeholder2" original=""/>
- </row>
- <row trl="N" uuid="c8ef05f3-7b8a-474c-a3f0-33029be1f516">
-  <value column="Name" original="Attach number">Номер приложения</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
-  <value column="Placeholder" original=""/>
-  <value column="Placeholder2" original=""/>
- </row>
- <row trl="Y" uuid="5d1da026-d0c9-4ad7-b859-d9457d88c27e">
-  <value column="Name" original="Contract">Договор</value>
-  <value column="Description" original="Contract">Договор</value>
-  <value column="Help" original=""/>
-  <value column="Placeholder" original=""/>
-  <value column="Placeholder2" original=""/>
- </row>
- <row trl="N" uuid="ef7446f5-23d9-494f-8748-d0f7c7839ce2">
-  <value column="Name" original="Attach number">Номер приложения</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
-  <value column="Placeholder" original=""/>
-  <value column="Placeholder2" original=""/>
- </row>
- <row trl="Y" uuid="4c8dc700-949c-48f5-ba22-75b83e5931f0">
-  <value column="Name" original="Contract">Договор</value>
-  <value column="Description" original="Contract">Договор</value>
-  <value column="Help" original=""/>
-  <value column="Placeholder" original=""/>
-  <value column="Placeholder2" original=""/>
- </row>
- <row trl="N" uuid="de5b8e36-aa93-47bd-9667-fcd031bd6f7c">
-  <value column="Name" original="Attach number">Номер приложения</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
-  <value column="Placeholder" original=""/>
-  <value column="Placeholder2" original=""/>
- </row>
- <row trl="Y" uuid="5115f842-2c59-46fa-812d-263fd44afd83">
-  <value column="Name" original="Contract number">Номер договора</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
-  <value column="Placeholder" original=""/>
-  <value column="Placeholder2" original=""/>
- </row>
- <row trl="Y" uuid="313a76fe-3cab-475b-9293-643486913ac1">
-  <value column="Name" original="Document No">No док-та</value>
-  <value column="Description" original="Document sequence number of the document">Порядковый номер документа для этого документа</value>
-  <value column="Help" original="The document number is usually automatically generated by the system and determined by the document type of the document. If the document is not saved, the preliminary number is displayed in &quot;&lt;&gt;&quot;.&#10;&#10;If the document type of your document has no automatic document sequence defined, the field is empty if you create a new document. This is for documents which usually have an external number (like vendor invoice).  If you leave the field empty, the system will generate a document number for you. The document sequence used for this fallback number is defined in the &quot;Maintain Sequence&quot; window with the name &quot;DocumentNo_&lt;TableName&gt;&quot;, where TableName is the actual name of the table (e.g. C_Order)."><![CDATA[The document number is usually automatically generated by the system and determined by the document type of the document. If the document is not saved, the preliminary number is displayed in "<>".
-
-If the document type of your document has no automatic document sequence defined, the field is empty if you create a new document. This is for documents which usually have an external number (like vendor invoice).  If you leave the field empty, the system will generate a document number for you. The document sequence used for this fallback number is defined in the "Maintain Sequence" window with the name "DocumentNo_<TableName>", where TableName is the actual name of the table (e.g. C_Order).]]></value>
-  <value column="Placeholder" original=""/>
-  <value column="Placeholder2" original=""/>
- </row>
- <row trl="N" uuid="168d7cc1-65ab-449e-bdd9-babc39b69277">
-  <value column="Name" original="Attach number">Номер приложения</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -1046,6 +932,13 @@ If the document type of your document has no automatic document sequence defined
   <value column="Placeholder" original=""/>
   <value column="Placeholder2" original=""/>
  </row>
+ <row trl="Y" uuid="1a3ab6e1-9071-4031-b2d7-e39e8c107ee5">
+  <value column="Name" original="RIT Client AD_User_ID">Подписант со стороны Агента</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
  <row trl="Y" uuid="82fe5bd0-92f2-4e59-bfe7-6e1f20ea3879">
   <value column="Name" original="RIT_Campaign_AD_User_ID">Подписант со стороны Компании</value>
   <value column="Description" original=""/>
@@ -1061,14 +954,14 @@ If the document type of your document has no automatic document sequence defined
   <value column="Placeholder2" original=""/>
  </row>
  <row trl="Y" uuid="3591b935-0e11-483e-98d6-677b6914385f">
-  <value column="Name" original="User/Contact">Контактное лицо - Агент</value>
-  <value column="Description" original="User within the system - Internal or Business Partner Contact">User within the system - Internal or Business Partner Contact</value>
-  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">The User identifies a unique user in the system. This could be an internal user or a business partner contact</value>
+  <value column="Name" original="User/Contact">Контактное лицо</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">Контактное лицо</value>
+  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact"/>
   <value column="Placeholder" original=""/>
   <value column="Placeholder2" original=""/>
  </row>
  <row trl="Y" uuid="679b515d-c3ce-4743-8075-1cc5787646a3">
-  <value column="Name" original="User/Contact">Контактное лицо - Оператор</value>
+  <value column="Name" original="User/Contact">Контактное лицо</value>
   <value column="Description" original="User within the system - Internal or Business Partner Contact"/>
   <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact"/>
   <value column="Placeholder" original=""/>
@@ -1082,71 +975,71 @@ If the document type of your document has no automatic document sequence defined
   <value column="Placeholder2" original=""/>
  </row>
  <row trl="Y" uuid="6dc9324b-6cc5-419b-9e40-7d69069dd333">
-  <value column="Name" original="User/Contact">Агент - Информационная поддержка</value>
-  <value column="Description" original="User within the system - Internal or Business Partner Contact">Агент - Информационная поддержка</value>
+  <value column="Name" original="User/Contact">Информационная поддержка</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">Информационная поддержка</value>
   <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact"/>
   <value column="Placeholder" original=""/>
   <value column="Placeholder2" original=""/>
  </row>
  <row trl="Y" uuid="954fbb0d-1022-45e2-b676-1c0db8deda50">
-  <value column="Name" original="User/Contact">Агент - Координационная поддержка</value>
-  <value column="Description" original="User within the system - Internal or Business Partner Contact">Агент - Координационная поддержка</value>
+  <value column="Name" original="User/Contact">Координационная поддержка</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">Координационная поддержка</value>
   <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact"/>
   <value column="Placeholder" original=""/>
   <value column="Placeholder2" original=""/>
  </row>
  <row trl="Y" uuid="b23598dd-2137-4842-a5ac-1ca0d0cb23a1">
-  <value column="Name" original="User/Contact">Агент - Техническая поддержка</value>
-  <value column="Description" original="User within the system - Internal or Business Partner Contact">Агент - Техническая поддержка</value>
+  <value column="Name" original="User/Contact">Техническая поддержка</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">Техническая поддержка</value>
   <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact"/>
   <value column="Placeholder" original=""/>
   <value column="Placeholder2" original=""/>
  </row>
  <row trl="Y" uuid="58fbb56a-99e5-46ed-b3a4-aa22fa911d82">
-  <value column="Name" original="User/Contact">Агент - Расчеты по договору</value>
-  <value column="Description" original="User within the system - Internal or Business Partner Contact">Агент - Первичная отчетная документация, расчеты по договору</value>
+  <value column="Name" original="User/Contact">Расчеты по договору</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">Первичная отчетная документация, расчеты по договору</value>
   <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact"/>
   <value column="Placeholder" original=""/>
   <value column="Placeholder2" original=""/>
  </row>
  <row trl="Y" uuid="513edd34-3fc8-4bc9-b76e-e0976692cb97">
-  <value column="Name" original="User/Contact">Агент - Маркетинг, реклама</value>
-  <value column="Description" original="User within the system - Internal or Business Partner Contact">Агент - Маркетинг, реклама</value>
+  <value column="Name" original="User/Contact">Маркетинг, реклама</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">Маркетинг, реклама</value>
   <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact"/>
   <value column="Placeholder" original=""/>
   <value column="Placeholder2" original=""/>
  </row>
  <row trl="Y" uuid="278d7ac3-e28a-4a58-bda6-6c341b1f8f70">
-  <value column="Name" original="User/Contact">Оператор - Информационная поддержка</value>
-  <value column="Description" original="User within the system - Internal or Business Partner Contact">Оператор - Информационная поддержка</value>
+  <value column="Name" original="User/Contact">Информационная поддержка</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">Информационная поддержка</value>
   <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact"/>
   <value column="Placeholder" original=""/>
   <value column="Placeholder2" original=""/>
  </row>
  <row trl="Y" uuid="6380ac3d-425e-43a0-a8a4-7bf2fc8b7c25">
-  <value column="Name" original="User/Contact">Оператор - Координационная поддержка</value>
-  <value column="Description" original="User within the system - Internal or Business Partner Contact">Оператор - Координационная поддержка</value>
+  <value column="Name" original="User/Contact">Координационная поддержка</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">Координационная поддержка</value>
   <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact"/>
   <value column="Placeholder" original=""/>
   <value column="Placeholder2" original=""/>
  </row>
  <row trl="Y" uuid="76d1873d-527a-4a3f-b54c-d95f0de4f7e4">
-  <value column="Name" original="User/Contact">Оператор - Техническая поддержка</value>
-  <value column="Description" original="User within the system - Internal or Business Partner Contact">Оператор - Техническая поддержка</value>
+  <value column="Name" original="User/Contact">Техническая поддержка</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">Техническая поддержка</value>
   <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact"/>
   <value column="Placeholder" original=""/>
   <value column="Placeholder2" original=""/>
  </row>
  <row trl="Y" uuid="0b8e1a91-f55a-4be0-8bfe-4a0fe2f503e9">
-  <value column="Name" original="User/Contact">Оператор - Расчеты по договору</value>
-  <value column="Description" original="User within the system - Internal or Business Partner Contact">Оператор - Первичная отчетная документация, расчеты по договору</value>
-  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">The User identifies a unique user in the system. This could be an internal user or a business partner contact</value>
+  <value column="Name" original="User/Contact">Расчеты по договору</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">Первичная отчетная документация, расчеты по договору</value>
+  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact"/>
   <value column="Placeholder" original=""/>
   <value column="Placeholder2" original=""/>
  </row>
  <row trl="Y" uuid="a45a952b-b56d-4f46-841d-35b60cc6efc4">
-  <value column="Name" original="User/Contact">Оператор - Маркетинг, реклама</value>
-  <value column="Description" original="User within the system - Internal or Business Partner Contact">Оператор - Маркетинг, реклама</value>
+  <value column="Name" original="User/Contact">Маркетинг, реклама</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">Маркетинг, реклама</value>
   <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact"/>
   <value column="Placeholder" original=""/>
   <value column="Placeholder2" original=""/>
@@ -1159,63 +1052,574 @@ If the document type of your document has no automatic document sequence defined
   <value column="Placeholder2" original=""/>
  </row>
  <row trl="Y" uuid="33897521-b9ac-43d5-aafc-80c94eb2b761">
-  <value column="Name" original="User/Contact">Агент - Информационная поддержка</value>
-  <value column="Description" original="">Агент - Информационная поддержка</value>
+  <value column="Name" original="User/Contact">Информационная поддержка</value>
+  <value column="Description" original="">Информационная поддержка</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="Placeholder2" original=""/>
  </row>
  <row trl="Y" uuid="32ef4a4f-d900-49e3-b6b9-64654e8876fc">
-  <value column="Name" original="User/Contact">Агент - Координационная поддержка</value>
-  <value column="Description" original="">Агент - Координационная поддержка</value>
+  <value column="Name" original="User/Contact">Координационная поддержка</value>
+  <value column="Description" original="">Координационная поддержка</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="Placeholder2" original=""/>
  </row>
  <row trl="Y" uuid="f848a6a2-bdb9-40a4-98be-ced8ecfcd387">
-  <value column="Name" original="User/Contact">Агент - Техническая поддержка</value>
-  <value column="Description" original="">Агент - Техническая поддержка</value>
+  <value column="Name" original="User/Contact">Техническая поддержка</value>
+  <value column="Description" original="">Техническая поддержка</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="Placeholder2" original=""/>
  </row>
  <row trl="Y" uuid="a9643d6a-0e33-41be-a592-2804266772fe">
-  <value column="Name" original="User/Contact">Агент - Расчеты по догов</value>
-  <value column="Description" original="">Агент - Первичная отчетная документация, расчеты по договору</value>
+  <value column="Name" original="User/Contact">Расчеты по договору</value>
+  <value column="Description" original="">Первичная отчетная документация, расчеты по договору</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="Placeholder2" original=""/>
  </row>
  <row trl="Y" uuid="9e85f1ab-2594-4f59-8f2f-15a3a8a8ab06">
-  <value column="Name" original="User/Contact">Оператор - Информационная поддержка</value>
-  <value column="Description" original="">Оператор - Информационная поддержка</value>
+  <value column="Name" original="User/Contact">Информационная поддержка</value>
+  <value column="Description" original="">Информационная поддержка</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="Placeholder2" original=""/>
  </row>
  <row trl="Y" uuid="9796f853-a836-4f20-9671-08578d5fa6c1">
-  <value column="Name" original="User/Contact">Оператор - Координационная поддержка</value>
-  <value column="Description" original="">Оператор - Координационная поддержка</value>
+  <value column="Name" original="User/Contact">Координационная поддержка</value>
+  <value column="Description" original="">Координационная поддержка</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="Placeholder2" original=""/>
  </row>
  <row trl="Y" uuid="89f2bec0-2741-4eb1-a109-ef12e7b81e1e">
-  <value column="Name" original="User/Contact">Оператор - Техническая поддержка</value>
-  <value column="Description" original="">Оператор - Техническая поддержка</value>
+  <value column="Name" original="User/Contact">Техническая поддержка</value>
+  <value column="Description" original="">Техническая поддержка</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="Placeholder2" original=""/>
  </row>
  <row trl="Y" uuid="1d230eba-690b-46d5-8da8-72d9c155e51d">
-  <value column="Name" original="User/Contact">Оператор - Расчеты по догов</value>
-  <value column="Description" original="">Оператор - Первичная отчетная документация, расчеты по договору</value>
+  <value column="Name" original="User/Contact">Расчеты по договору</value>
+  <value column="Description" original="">Первичная отчетная документация, расчеты по договору</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="Placeholder2" original=""/>
  </row>
  <row trl="N" uuid="6882f3c2-f54e-47bb-ba89-9ec154d9a00b">
   <value column="Name" original="Contract">Contract</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="5655d5b7-5e44-45e9-b64d-8366f5d85643">
+  <value column="Name" original="proxyno">Номер доверенности</value>
+  <value column="Description" original="">Номер доверенности</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="3ba43587-c7f1-4acb-a973-70710b3f9018">
+  <value column="Name" original="i_bp_user_info">Подписант со стороны Агента</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="995e7d7f-5450-43ef-b4bb-0b2801877ecb">
+  <value column="Name" original="i_o_user_info">Подписант со стороны Оператора</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="N" uuid="b51be4ad-9b8c-4885-8c50-b93925f875d3">
+  <value column="Name" original="Business Partner ">Business Partner </value>
+  <value column="Description" original="Identifies a Business Partner">Identifies a Business Partner</value>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson">A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="N" uuid="6591db0a-1024-4e63-8863-f1fd4ef1edac">
+  <value column="Name" original="VSAT">VSAT</value>
+  <value column="Description" original="VSAT">VSAT</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="N" uuid="f77e36e8-5148-4b5d-9700-8e7c30843ba2">
+  <value column="Name" original="CCTV">Видеонаблюдение</value>
+  <value column="Description" original="CCTV">Видеонаблюдение</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="N" uuid="244aa74e-f4da-4e35-b8f5-4aa728fce7d9">
+  <value column="Name" original="Intracorporate telephony">Внутрикорпоративная телефония</value>
+  <value column="Description" original="Intracorporate telephony">Внутрикорпоративная телефония</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="N" uuid="2c7760ee-9bcc-4ce7-8f81-7f43afebb1a4">
+  <value column="Name" original="AToM Ethrnet">AToM Ethrnet</value>
+  <value column="Description" original="AToM Ethrnet">AToM Ethrnet</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="N" uuid="6cbe54e6-95bd-42f2-8d54-97a6d164a66e">
+  <value column="Name" original="SCPC channel">SCPC канал</value>
+  <value column="Description" original="SCPC channel">SCPC канал</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="84064de2-cf30-460a-86b3-5441bf3ab69c">
+  <value column="Name" original="C_BPartner_ID">Агент</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="c3d0dad8-93d5-4287-94c5-9827a843c6ba">
+  <value column="Name" original="AD_Org_ID">Оператор</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="e42a4435-104d-4576-bdb4-acfd249ab882">
+  <value column="Name" original="Business Partner ">Агент</value>
+  <value column="Description" original="Identifies a Business Partner">Агент</value>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson"/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="52af5280-1aef-476d-b1c7-dbef627920f8">
+  <value column="Name" original="AD_Org_ID">Оператор</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="2102e14f-ba07-4141-a814-9d5c51149d54">
+  <value column="Name" original="C_BPartner_ID">Агент</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="53431afa-e55f-4f43-96d6-91434e067ecc">
+  <value column="Name" original="AD_Org_ID">Оператор</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="e84fd9e7-7cbd-426f-97a8-415cc26fb867">
+  <value column="Name" original="User/Contact">Подписант</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">Пользователь в рамках системы (внутренний) или контакт контрагента</value>
+  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">Поле определяет уникального пользователя в системе. Это может быть внутренний пользователь или контакт контрагента.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="3ef0dda2-58d0-426d-a07c-f16f89ced859">
+  <value column="Name" original="P_Contract_Num">P_Contract_Num</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="N" uuid="5b3783e1-ad98-4514-b99f-4daa5c6b2948">
+  <value column="Name" original="P_Jur_Name">P_Jur_Name</value>
+  <value column="Description" original="Optional short description of the record">Optional short description of the record</value>
+  <value column="Help" original="A description is limited to 255 characters.">A description is limited to 255 characters.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="N" uuid="4a0db381-66a7-4cd4-8445-eb6461342400">
+  <value column="Name" original="P_INN">P_INN</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="ce2b4eb5-e92c-445a-bc04-9083da6682e4">
+  <value column="Name" original="P_Mng">Менеджер АСР</value>
+  <value column="Description" original=""/>
+  <value column="Help" original="">Выберите менеджера внешней системы (АСР), куда отправляем запрос.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="18c08736-2058-4d5f-a4d5-43db00830a54">
+  <value column="Name" original="P_Contract_Dt">P_Contract_Dt</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="N" uuid="414e9d10-8d88-4db8-bba7-a6ab93734434">
+  <value column="Name" original="P_KPP">P_KPP</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="N" uuid="8e6b94f8-8101-40b0-86b7-9274a3056378">
+  <value column="Name" original="P_User_Name">P_User_Name</value>
+  <value column="Description" original="Alphanumeric identifier of the entity">Alphanumeric identifier of the entity</value>
+  <value column="Help" original="The name of an entity (record) is used as an default search option in addition to the search key. The name is up to 60 characters in length.">The name of an entity (record) is used as an default search option in addition to the search key. The name is up to 60 characters in length.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="N" uuid="fb1fcc71-b2fb-4613-97ed-989f32929138">
+  <value column="Name" original="P_Post_Name">P_Post_Name</value>
+  <value column="Description" original="Alphanumeric identifier of the entity">Alphanumeric identifier of the entity</value>
+  <value column="Help" original="The name of an entity (record) is used as an default search option in addition to the search key. The name is up to 60 characters in length.">The name of an entity (record) is used as an default search option in addition to the search key. The name is up to 60 characters in length.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="N" uuid="27069136-0dab-4f20-9569-dfc758ea0657">
+  <value column="Name" original="P_Email">P_Email</value>
+  <value column="Description" original="Electronic Mail Address">Electronic Mail Address</value>
+  <value column="Help" original="The Email Address is the Electronic Mail ID for this User and should be fully qualified (e.g. joe.smith@company.com). The Email Address is used to access the self service application functionality from the web.">The Email Address is the Electronic Mail ID for this User and should be fully qualified (e.g. joe.smith@company.com). The Email Address is used to access the self service application functionality from the web.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="N" uuid="cec3ad97-e997-4c52-b8ad-84c764bd0b5f">
+  <value column="Name" original="P_Fax">P_Fax</value>
+  <value column="Description" original="Facsimile number">Facsimile number</value>
+  <value column="Help" original="The Fax identifies a facsimile number for this Business Partner or  Location">The Fax identifies a facsimile number for this Business Partner or  Location</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="N" uuid="d6a14b32-068c-4892-93ce-99df51591d7c">
+  <value column="Name" original="P_Phone">P_Phone</value>
+  <value column="Description" original="Identifies a telephone number">Identifies a telephone number</value>
+  <value column="Help" original="The Phone field identifies a telephone number">The Phone field identifies a telephone number</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="N" uuid="51b0b0f0-3296-4526-9f8b-ddb796412448">
+  <value column="Name" original="P_Post_Adr">P_Post_Adr</value>
+  <value column="Description" original="Location or Post Address">Location or Post Address</value>
+  <value column="Help" original="The Location / Post  Address field defines the location of an entity.">The Location / Post  Address field defines the location of an entity.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="N" uuid="c90f5171-6938-48c7-8b32-71779b651150">
+  <value column="Name" original="P_Jur_Adr">P_Jur_Adr</value>
+  <value column="Description" original="Location or Jur Address">Location or Jur Address</value>
+  <value column="Help" original="The Location / Jur Address field defines the location of an entity.">The Location / Jur Address field defines the location of an entity.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="N" uuid="4656044f-c496-45f7-8b14-1afbabd4df64">
+  <value column="Name" original="P_Contract_ID">P_Contract_ID</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="80408415-0307-498e-bafb-83b9763bb273">
+  <value column="Name" original="Basic_Product">Основная услуга заказа</value>
+  <value column="Description" original="Basic Product/Service in order"/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="2eb5c0c4-4e9e-4f09-9278-1fd2e4e65a42">
+  <value column="Name" original="P_RIT_BusinessProject_ID">Бизнес проект</value>
+  <value column="Description" original="List of business projects in the OMC"/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="212d5cb7-4f44-47d6-af3f-814c6ac2d5c9">
+  <value column="Name" original="Location or Address">Адрес</value>
+  <value column="Description" original="The Location / Address field defines the location of an entity.">Местоположение или адрес</value>
+  <value column="Help" original="">Поле местоположение/адрес определяет местоположение объекта.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="1b359f50-8224-4826-ade4-379aeb1e839c">
+  <value column="Name" original="Manual address selection">Выбор адреса вручную</value>
+  <value column="Description" original="Manual address selection">Выбор адреса вручную</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="N" uuid="e0eee95f-6571-45a0-8eb4-793cdd17d058">
+  <value column="Name" original="P_project_level2">Проект 2 уровня</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="N" uuid="c491d9fa-4d54-4f2f-b495-541d6f6aea64">
+  <value column="Name" original="P_Project_Count">Количество проектов уровня 2</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="N" uuid="3bd74878-8244-4a2f-8387-41eed1d4c106">
+  <value column="Name" original="P_opportunity">P_opportunity</value>
+  <value column="Description" original="P_opportunity">P_opportunity</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="N" uuid="6a243f31-67da-4668-a6e4-667b92a7934d">
+  <value column="Name" original="Type of kit">Тип комплекта</value>
+  <value column="Description" original="Type of kit">Тип комплекта</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="928a55e0-e9e4-4510-a2c2-f85ff9f112e8">
+  <value column="Name" original="Client">Экземпляр</value>
+  <value column="Description" original="">Экземпляр системы</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="6c091aa4-dfec-427d-8b91-b60d81e2a6f8">
+  <value column="Name" original="DeleteOldImported">Удалить импортированные записи</value>
+  <value column="Description" original="">Удалить импортированные записи</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="035b9002-9ea2-4d32-b610-0655ab59d562">
+  <value column="Name" original="IsValidateOnly">Только выполнить проверку</value>
+  <value column="Description" original="">Только выполнить проверку ничего не импортируя</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="N" uuid="fda14567-5da8-482a-800f-50d2c71a2ac3">
+  <value column="Name" original="Shipment/Receipt">Shipment/Receipt</value>
+  <value column="Description" original="Material Shipment Document">Material Shipment Document</value>
+  <value column="Help" original="The Material Shipment / Receipt ">The Material Shipment / Receipt </value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="N" uuid="bfd52da4-1165-475d-81d2-b7d90a41aef5">
+  <value column="Name" original="Type">RitManagmentRuleName</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="N" uuid="60dfd025-c3f2-4abd-b498-5b6f563d0236">
+  <value column="Name" original="Type">RitManagmentRuleName</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="N" uuid="b65bd572-ab3b-4382-96f9-a279508648da">
+  <value column="Name" original="AD_WF_Node_UU">AD_WF_Node_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="cfd3ee8a-9c9c-4ee9-83cd-a692f6bb953a">
+  <value column="Name" original="DeleteOldImported">Удалить импортированные записи</value>
+  <value column="Description" original="">Удалить импортированные записи</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="2f032346-9f53-474e-8643-edb622114572">
+  <value column="Name" original="IsValidateOnly">Выполнить только проверку</value>
+  <value column="Description" original="">Выполнить только проверку</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="c99809d6-60eb-4573-ac63-1df705ab9c85">
+  <value column="Name" original="DeleteOldImported">Удалить импортированные записи</value>
+  <value column="Description" original="">Удалить импортированные записи</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="533139a6-459d-492c-b408-ca71caef6671">
+  <value column="Name" original="IsValidateOnly">Только выполнить проверку</value>
+  <value column="Description" original="">Только выполнить проверку ничего не импортируя</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="c9e2a3de-eab1-4596-ab3b-7e59ea258c9b">
+  <value column="Name" original="User/Contact">Перенаправить</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">Перенаправить на пользователя.</value>
+  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">Поле определяет уникального пользователя в системе. Это может быть внутренний пользователь или контакт контрагента.</value>
+  <value column="Placeholder" original="">Для перенаправления на пользователя выберите пользователя</value>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="a2806a94-35f0-4aed-b241-beba3708a2f8">
+  <value column="Name" original="Workflow Activity">Шаг алгоритма</value>
+  <value column="Description" original="Workflow Activity">Текущий шаг алгоритма бизнес-процесса</value>
+  <value column="Help" original="The Workflow Activity is the actual Workflow Node in a Workflow Process instance">Текущий шаг бизнес-процесса это фактический узел бизнес-процесса экземпляра рабочего бизнес-процесса</value>
+  <value column="Placeholder" original="">Текущий шаг алгоритма бизнес-процесса</value>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="N" uuid="be805079-f689-4749-99d4-5980be29abb9">
+  <value column="Name" original="USER_ID">USER_ID</value>
+  <value column="Description" original="USER_ID">USER_ID</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="677f70dd-1b24-47e1-97bf-7d0f434bef89">
+  <value column="Name" original="Business Partner ">Агент</value>
+  <value column="Description" original="Identifies a Business Partner"/>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson"/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="24b19346-348e-4fb1-a2f7-61b17918e4c5">
+  <value column="Name" original="User/Contact">Информационная поддержка</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">Информационная поддержка</value>
+  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact"/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="6e586afd-932a-4ca0-b451-0c0e7bb82c80">
+  <value column="Name" original="User/Contact">Координационная поддержка</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">Координационная поддержка</value>
+  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact"/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="f2b97a20-bc14-48ea-986b-b74d31344eb0">
+  <value column="Name" original="User/Contact">Техническая поддержка</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">Техническая поддержка</value>
+  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact"/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="N" uuid="71755b11-ef81-4a68-9413-6bc70f323f98">
+  <value column="Name" original="User/Contact">Расчеты по договору</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">Первичная отчетная документация, расчеты по договору</value>
+  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact"/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="21b63c09-e3ad-4ecb-93bd-26b3612f227a">
+  <value column="Name" original="User/Contact">Прогнозная отчетность</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">Прогнозная отчетность</value>
+  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact"/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="N" uuid="82092667-1da3-4a89-a399-a0dfbae74c07">
+  <value column="Name" original="User/Contact">Маркетинг, реклама</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">Маркетинг, реклама</value>
+  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact"/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="40c5dccc-463d-4753-ad8c-2800b1b361f9">
+  <value column="Name" original="AD_Org_ID">Оператор</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="016a868a-823b-40f0-a48d-3f6c604c7f9d">
+  <value column="Name" original="User/Contact">Информационная поддержка</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">Информационная поддержка</value>
+  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact"/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="N" uuid="c7484396-adf2-4ca5-820d-b753c18fcf86">
+  <value column="Name" original="User/Contact">Координационная поддержка</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">Координационная поддержка</value>
+  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact"/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="ae8da9fb-5ea1-4974-a9d8-30bbe0ca7ee9">
+  <value column="Name" original="User/Contact">Техническая поддержка</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">Техническая поддержка</value>
+  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact"/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="N" uuid="17b76937-f7ad-4dd5-8a3d-7ef022d3b1d9">
+  <value column="Name" original="User/Contact">Расчеты по договору</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">Первичная отчетная документация, расчеты по договору</value>
+  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact"/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="N" uuid="2ae52894-6530-492e-a4a1-43e9fbcba145">
+  <value column="Name" original="User/Contact">Прогнозная отчетность</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">Прогнозная отчетность</value>
+  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact"/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="N" uuid="5f79e3f0-655e-4430-8ba8-051a01f65435">
+  <value column="Name" original="User/Contact">Маркетинг, реклама</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">Маркетинг, реклама</value>
+  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact"/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="9a27e08a-a040-4331-9c54-38057ab018dd">
+  <value column="Name" original="On Bpartner">На контрагента</value>
+  <value column="Description" original="Bpartner_ID Seach in Customer and Prospect">Поиск контрагента покупателя или предполагаемого покупателя</value>
+  <value column="Help" original="">Выберете контрагента к кому нужно привязать данный Лид. Если контрагент не будет указан то процесс создаст нового контрагента.</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="bd00c599-adb2-4b9d-b12e-511769b778a5">
+  <value column="Name" original="Contract">Договор</value>
+  <value column="Description" original="Contract">Договор</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="0e9cdffd-78e4-4762-ac9d-88cd1c00f687">
+  <value column="Name" original="Date Install">Дата начала инсталляции</value>
+  <value column="Description" original="">Дата начала инсталляции</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="47f252cd-ab63-4ad5-ba0b-3d8d27a11f88">
+  <value column="Name" original="Date Install Service">Предполагаемая дата начала оказания услуги</value>
+  <value column="Description" original="">Предполагаемая дата начала оказания услуги</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="fff743b5-0a1d-437e-927a-340598a698bb">
+  <value column="Name" original="Order">Заказ</value>
+  <value column="Description" original="Order">Заказ</value>
+  <value column="Help" original="The Order is a control document.  The  Order is complete when the quantity ordered is the same as the quantity shipped and invoiced.  When you close an order, unshipped (backordered) quantities are cancelled."/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="N" uuid="abcba9da-ef44-447e-b3e9-3172f5f9b1fe">
+  <value column="Name" original="Antenna suspension height">Высота подвеса антенны</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row trl="Y" uuid="6e99cd0a-4a80-42ac-a680-33b2ae5e21ea">
+  <value column="Name" original="ConnectionTechnology">Технология подключения</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>

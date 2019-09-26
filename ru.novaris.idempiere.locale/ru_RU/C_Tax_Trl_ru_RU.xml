@@ -35,4 +35,14 @@
   <value column="Description" original=""/>
   <value column="TaxIndicator" original=""/>
  </row>
+ <row trl="Y" uuid="0c1ef824-6133-4e96-8240-54e40202a0d9">
+  <value column="Name" original="Ставка Востоктелеком">Ставка Востоктелеком</value>
+  <value column="Description" original=""/>
+  <value column="TaxIndicator" original=""/>
+ </row>
+ <row trl="Y" uuid="272aac75-855c-4a59-a8bd-51f3b75413c9">
+  <value column="Name" original="Standard South">Standard South</value>
+  <value column="Description" original="Стандартная ставка для РТКомм-Юг">Стандартная ставка для РТКомм-Юг</value>
+  <value column="TaxIndicator" original=""/>
+ </row>
 </idempiereTrl>

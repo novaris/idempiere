@@ -366,8 +366,8 @@
   <value column="DocumentNote" original=""/>
  </row>
  <row trl="Y" uuid="b5d58570-21fa-4cc8-96ae-d4b808903e46">
-  <value column="Name" original="разъем для кабеля RG6">разъем для кабеля RG6</value>
-  <value column="Description" original="разъем для кабеля RG6">разъем для кабеля RG6</value>
+  <value column="Name" original="Разъем RG-6 F-типа штекер обжим коаксиальный Материалы VSAT (за 1 шт.)">Разъем RG-6 F-типа штекер обжим коаксиальный Материалы VSAT (за 1 шт.)</value>
+  <value column="Description" original="Разъем RG-6 F-типа штекер обжим коаксиальный Материалы VSAT (за 1 шт.)">Разъем RG-6 F-типа штекер обжим коаксиальный Материалы VSAT (за 1 шт.)</value>
   <value column="DocumentNote" original=""/>
  </row>
  <row trl="Y" uuid="15c6aee7-1141-4fba-bcbf-c08a499a01c2">
@@ -376,8 +376,8 @@
   <value column="DocumentNote" original=""/>
  </row>
  <row trl="Y" uuid="e0855682-b426-4a25-8db1-2046617184bb">
-  <value column="Name" original="кабель RG6 (30 м)">кабель RG6 (30 м)</value>
-  <value column="Description" original="кабель RG6 (30 м)">кабель RG6 (30 м)</value>
+  <value column="Name" original="Кабель RG6 коаксиальный 75 Ом Материалы VSAT (за 1 м)">Кабель RG6 коаксиальный 75 Ом Материалы VSAT (за 1 м)</value>
+  <value column="Description" original="Кабель RG6 коаксиальный 75 Ом Материалы VSAT (за 1 м)">Кабель RG6 коаксиальный 75 Ом Материалы VSAT (за 1 м)</value>
   <value column="DocumentNote" original=""/>
  </row>
  <row trl="Y" uuid="406179de-af11-4a96-8f15-251d477ccc74">
@@ -478,6 +478,644 @@
  <row trl="Y" uuid="ab7c1ad3-c82b-4a7d-b992-0c506e9a3236">
   <value column="Name" original="Канал связи VSAT">Канал связи VSAT</value>
   <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="62bac2b5-d516-42c2-a4e0-603b6595389c">
+  <value column="Name" original="Комплект Тестовый">Комплект Тестовый</value>
+  <value column="Description" original="Комплект оборудования Тестовый">Комплект оборудования Тестовый</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="e7001d36-f322-4b09-9df2-21c15055541a">
+  <value column="Name" original="Test1 Комплект">Test1 Комплект</value>
+  <value column="Description" original="Комплект оборудования">Комплект оборудования</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="2be6a60b-1fad-43c3-8c08-bd3a79b50455">
+  <value column="Name" original="Test2 Антенна">Test2 Антенна</value>
+  <value column="Description" original="Продукт без комплекта">Продукт без комплекта</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="c7f79b8f-251c-4eda-b662-ac8fdae9569c">
+  <value column="Name" original="Test3 Аренда комплекта">Test3 Аренда комплекта</value>
+  <value column="Description" original="Услуга аренды комплекта">Услуга аренды комплекта</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="70cf193f-9d57-4b0f-83ba-ef84aad0a15e">
+  <value column="Name" original="АСР ОНИМА (SOAP)">АСР ОНИМА (SOAP)</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="e47603bb-234c-4106-83fc-522e9cbb8c9b">
+  <value column="Name" original="АСР ВТК (JSON)">АСР ВТК (JSON)</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="448d499a-8270-4faa-ba05-b964a2c8844e">
+  <value column="Name" original="NMS Gilat">NMS Gilat</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="9a9641a2-6173-4e07-8d81-7b6feda67861">
+  <value column="Name" original="NMS Huges">NMS Huges</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="6788edfd-615f-418f-986f-efda039f3db9">
+  <value column="Name" original="Summary of 3 products">Summary of 3 products</value>
+  <value column="Description" original="Summary of 3 products">Summary of 3 products</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="16269783-9ef4-4e67-9a78-8001e8aa9b26">
+  <value column="Name" original="Продукт SSB (1)">Продукт SSB (1)</value>
+  <value column="Description" original="Продукт SSB (1)">Продукт SSB (1)</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="ca135259-7860-4bb1-a044-e4f7d5e545e4">
+  <value column="Name" original="Продукт SSB (2)">Продукт SSB (2)</value>
+  <value column="Description" original="Продукт SSB (2)">Продукт SSB (2)</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="33647243-11c2-4d37-b6f5-88ac3a846ec3">
+  <value column="Name" original="Продукт SSB (3)">Продукт SSB (3)</value>
+  <value column="Description" original="Продукт SSB (3)">Продукт SSB (3)</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="76defd8b-a5c2-48be-ac95-20a4b47a9c99">
+  <value column="Name" original="Продукт SSB (4)">Продукт SSB (4)</value>
+  <value column="Description" original="Продукт SSB (4)">Продукт SSB (4)</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="b1fb061f-0021-4e6e-a9a5-fc76dc5bcb44">
+  <value column="Name" original="Продукт SSB (BOM)">Продукт SSB (BOM)</value>
+  <value column="Description" original="Продукт SSB (BOM)">Продукт SSB (BOM)</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="d629be4a-d58c-4d8a-8dd2-5c7ffce5fd67">
+  <value column="Name" original="Test">Test</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="16f09efa-e3a2-4b19-9325-bcd285ed6838">
+  <value column="Name" original="Канал связи SCPC">Канал связи SCPC</value>
+  <value column="Description" original="Подключение канала связи SCPC">Подключение канала связи SCPC</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="33630090-deae-4cbf-b41b-fa94ac393091">
+  <value column="Name" original="АТоМ ETHERNET">АТоМ ETHERNET</value>
+  <value column="Description" original="Подключение АТоМ ETHERNET">Подключение АТоМ ETHERNET</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="b9f03234-2a50-49bd-ad0c-cf5466735c37">
+  <value column="Name" original="ЦЗССС Hughes HX">ЦЗССС Hughes HX</value>
+  <value column="Description" original="ЦЗССС HX Satellite Routers">ЦЗССС HX Satellite Routers</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="d58d6312-bfe9-417c-a573-bddedf203d44">
+  <value column="Name" original="ЦЗССС GilatSkyEdge II">ЦЗССС GilatSkyEdge II</value>
+  <value column="Description" original="ЦЗССС GilatSkyEdge II Satellite Routers">ЦЗССС GilatSkyEdge II Satellite Routers</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="c0247b1d-8a99-4325-8d41-7f83d23fe1a6">
+  <value column="Name" original="ЦЗССС Hughes Jupiter">ЦЗССС Hughes Jupiter</value>
+  <value column="Description" original="ЦЗССС Jupiter Satellite Routers">ЦЗССС Jupiter Satellite Routers</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="8e029ec8-d9d8-456e-804c-f91bb28c1842">
+  <value column="Name" original="Спутники">Спутники</value>
+  <value column="Description" original="Спутники космической группировки">Спутники космической группировки</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="f3be4dab-0d5e-4636-a5a0-684f8546fd24">
+  <value column="Name" original="Лучи транспондера спутника">Лучи транспондера спутника</value>
+  <value column="Description" original="Лучи транспондера, размещённых на спутнике">Лучи транспондера, размещённых на спутнике</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="deccb6b3-91ed-4917-a339-5e764d52a444">
+  <value column="Name" original="Спутниковые транспондеры">Спутниковые транспондеры</value>
+  <value column="Description" original="Приёмо-передатчики спутников космической группировки">Приёмо-передатчики спутников космической группировки</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="5d63a266-2640-4f7f-a52c-a273e74bdf28">
+  <value column="Name" original="МЗССС">МЗССС</value>
+  <value column="Description" original="Малые земные станциии спутниковой связи">Малые земные станциии спутниковой связи</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="130b32e9-1529-485c-9418-10850f770eb0">
+  <value column="Name" original="Аренда">Аренда</value>
+  <value column="Description" original="Аренда">Аренда</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="fbfbf383-4098-4673-884d-c88577f67aba">
+  <value column="Name" original="Тип комплекта СТАНДАРТНЫЙ">Тип комплекта СТАНДАРТНЫЙ</value>
+  <value column="Description" original="Тип комплекта СТАНДАРТНЫЙ">Тип комплекта СТАНДАРТНЫЙ</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="40cbcd49-d42a-48ed-9944-dceec28a71de">
+  <value column="Name" original="Тип комплекта СПЕЦИАЛЬНЫЙ Gemini-i">Тип комплекта СПЕЦИАЛЬНЫЙ Gemini-i</value>
+  <value column="Description" original="Тип комплекта СПЕЦИАЛЬНЫЙ Gemini-i">Тип комплекта СПЕЦИАЛЬНЫЙ Gemini-i</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="86c7f848-c577-4775-9b24-d9e9d048e148">
+  <value column="Name" original="Тип комплекта СПЕЦИАЛЬНЫЙ SkyEdge-II-c">Тип комплекта СПЕЦИАЛЬНЫЙ SkyEdge-II-c</value>
+  <value column="Description" original="Тип комплекта СПЕЦИАЛЬНЫЙ SkyEdge-II-c">Тип комплекта СПЕЦИАЛЬНЫЙ SkyEdge-II-c</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="f33d9731-8c37-46fb-b378-868e9e6d9b34">
+  <value column="Name" original="Модем HT1100 Jupiter HughesKa-диапазон">Модем HT1100 Jupiter HughesKa-диапазон</value>
+  <value column="Description" original="Модем HT1100 Jupiter HughesKa-диапазон">Модем HT1100 Jupiter HughesKa-диапазон</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="b0d624d2-6e65-40a0-ba9d-ed4a418383b0">
+  <value column="Name" original="Модем HT2000 Hughes Ka-диапазон">Модем HT2000 Hughes Ka-диапазон</value>
+  <value column="Description" original="Модем HT2000 Hughes Ka-диапазон">Модем HT2000 Hughes Ka-диапазон</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="7aeed830-e949-47ba-aacb-1459c7fb1da3">
+  <value column="Name" original="Модем SE II-c Gemeni-i Gilat Ка-диапазон">Модем SE II-c Gemeni-i Gilat Ка-диапазон</value>
+  <value column="Description" original="Модем SE II-c Gemeni-i Gilat Ка-диапазон">Модем SE II-c Gemeni-i Gilat Ка-диапазон</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="24c36f07-5e5b-4326-833a-126868552431">
+  <value column="Name" original="Модем со встроенным приемопередатчиком 2,5 Вт SE II-c Scorpio Gilat Ка-диапазон">Модем со встроенным приемопередатчиком 2,5 Вт SE II-c Scorpio Gilat Ка-диапазон</value>
+  <value column="Description" original="Модем со встроенным приемопередатчиком 2,5 Вт SE II-c Scorpio Gilat Ка-диапазон">Модем со встроенным приемопередатчиком 2,5 Вт SE II-c Scorpio Gilat Ка-диапазон</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="5780e396-9b3c-4024-9476-d1730792058c">
+  <value column="Name" original="Приемопередатчик 1 Вт Jupiter Hughes Ka-диапазон">Приемопередатчик 1 Вт Jupiter Hughes Ka-диапазон</value>
+  <value column="Description" original="Приемопередатчик 1 Вт Jupiter Hughes Ka-диапазон">Приемопередатчик 1 Вт Jupiter Hughes Ka-диапазон</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="8bc0e655-5dec-462b-8d3e-542304307555">
+  <value column="Name" original="Приемопередатчик 2 Вт Jupiter Hughes Ka-диапазон">Приемопередатчик 2 Вт Jupiter Hughes Ka-диапазон</value>
+  <value column="Description" original="Приемопередатчик 2 Вт Jupiter Hughes Ka-диапазон">Приемопередатчик 2 Вт Jupiter Hughes Ka-диапазон</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="57f91bfa-2b00-48ff-a306-f21ff2980cf2">
+  <value column="Name" original="Приемопередатчик SE II 2,5 Вт AN8002 Gilat Ка-диапазон">Приемопередатчик SE II 2,5 Вт AN8002 Gilat Ка-диапазон</value>
+  <value column="Description" original="Приемопередатчик SE II 2,5 Вт AN8002 Gilat Ка-диапазон">Приемопередатчик SE II 2,5 Вт AN8002 Gilat Ка-диапазон</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="c00f70da-cab0-4778-ad7e-3e84dfbbe695">
+  <value column="Name" original="Антенна 0,74м dпм=60 мм Jupiter Применение: Hughes Ка-диапазон">Антенна 0,74м dпм=60 мм Jupiter Применение: Hughes Ка-диапазон</value>
+  <value column="Description" original="Антенна 0,74м dпм=60 мм Jupiter Применение: Hughes Ка-диапазон">Антенна 0,74м dпм=60 мм Jupiter Применение: Hughes Ка-диапазон</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="1dea931f-d722-4c7d-ad4c-0b83b4fd6cc8">
+  <value column="Name" original="Антенна 0,76м dпм=60 мм SE II-c Применение: Gilat Ku-диапазон">Антенна 0,76м dпм=60 мм SE II-c Применение: Gilat Ku-диапазон</value>
+  <value column="Description" original="Антенна 0,76м dпм=60 мм SE II-c Применение: Gilat Ku-диапазон">Антенна 0,76м dпм=60 мм SE II-c Применение: Gilat Ku-диапазон</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="0df9a31d-1c69-4e88-ba8e-7df7e6d5e8b9">
+  <value column="Name" original="Антенна 0,98м Ka-диапазон с верхним креплением Skyware Global">Антенна 0,98м Ka-диапазон с верхним креплением Skyware Global</value>
+  <value column="Description" original="Антенна 0,98м Ka-диапазон с верхним креплением Skyware Global">Антенна 0,98м Ka-диапазон с верхним креплением Skyware Global</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="083c8b23-80a7-499f-bb7b-5a93517664c8">
+  <value column="Name" original="Опора для спутниковых антенн ф0,74-0,98 СТ (WM) dпм=60мм настенная Hudhes/Gilat Ka-диапазон">Опора для спутниковых антенн ф0,74-0,98 СТ (WM) dпм=60мм настенная Hudhes/Gilat Ka-диапазон</value>
+  <value column="Description" original="Опора для спутниковых антенн ф0,74-0,98 СТ (WM) dпм=60мм настенная Hudhes/Gilat Ka-диапазон">Опора для спутниковых антенн ф0,74-0,98 СТ (WM) dпм=60мм настенная Hudhes/Gilat Ka-диапазон</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="98b12aae-ae72-4de1-a729-3691e50cfd9f">
+  <value column="Name" original="Опора для спутниковых антенн ф0,74-0,98 УН (UMM) dпм=60мм универсальная Hudhes/Gilat">Опора для спутниковых антенн ф0,74-0,98 УН (UMM) dпм=60мм универсальная Hudhes/Gilat</value>
+  <value column="Description" original="Опора для спутниковых антенн ф0,74-0,98 УН (UMM) dпм=60мм универсальная Hudhes/Gilat">Опора для спутниковых антенн ф0,74-0,98 УН (UMM) dпм=60мм универсальная Hudhes/Gilat</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="c6d1a317-257a-446c-99c3-5f10b214e748">
+  <value column="Name" original="Блок питания модема Hughes P/N 1501006-0002">Блок питания модема Hughes P/N 1501006-0002</value>
+  <value column="Description" original="Блок питания модема Hughes P/N 1501006-0002">Блок питания модема Hughes P/N 1501006-0002</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="3893fa2e-82bd-42dd-85d0-bf3b9e124e28">
+  <value column="Name" original="Комплект VSAT  Gemini-i 0,76">Комплект VSAT  Gemini-i 0,76</value>
+  <value column="Description" original="Комплект VSAT Gemini-i 0,76">Комплект VSAT Gemini-i 0,76</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="1d669a83-9cad-4acb-81a5-02df70f00f55">
+  <value column="Name" original="Комплект SkyEdge II-c">Комплект SkyEdge II-c</value>
+  <value column="Description" original="Комплект SkyEdge II-c">Комплект SkyEdge II-c</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="dcf1a896-0470-4226-9713-23dc259cf4fb">
+  <value column="Name" original="Тип комплекта МОЩНЫЙ">Тип комплекта МОЩНЫЙ</value>
+  <value column="Description" original="Тип комплекта МОЩНЫЙ">Тип комплекта МОЩНЫЙ</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="4f426335-5e64-45b4-bf21-2883a34a2bee">
+  <value column="Name" original="Тип комплекта УСИЛЕННЫЙ">Тип комплекта УСИЛЕННЫЙ</value>
+  <value column="Description" original="Тип комплекта УСИЛЕННЫЙ">Тип комплекта УСИЛЕННЫЙ</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="bbc9eb0f-5877-466b-966a-e482865eda59">
+  <value column="Name" original="Имя очень хорошего продукта 3">Имя очень хорошего продукта 3</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="fb1a50f7-8219-49dc-85ff-b23577e50490">
+  <value column="Name" original="Канал VSAT">Канал VSAT</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="6654c418-fb86-4334-878d-32f40e0d684e">
+  <value column="Name" original="Тип комплекта Колдаков">Тип комплекта Колдаков</value>
+  <value column="Description" original="Тип комплекта Колдаков">Тип комплекта Колдаков</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="18dd417d-24d8-4862-abb3-d01a6393cdca">
+  <value column="Name" original="ВСЕГДА ONLINE LIGHT">ВСЕГДА ONLINE LIGHT</value>
+  <value column="Description" original="Тарифный план на предоставление услуг  спутникового доступа в Интернет ВСЕГДА ONLINE LIGHT">Тарифный план на предоставление услуг  спутникового доступа в Интернет ВСЕГДА ONLINE LIGHT</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="3bba2a47-a193-48c1-a433-99074ced2afd">
+  <value column="Name" original="СУРОВЫЙ БЕЗЛИМИТ">СУРОВЫЙ БЕЗЛИМИТ</value>
+  <value column="Description" original="Тарифный план на предоставление услуг  спутникового доступа в Интернет СУРОВЫЙ БЕЗЛИМИТ">Тарифный план на предоставление услуг  спутникового доступа в Интернет СУРОВЫЙ БЕЗЛИМИТ</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="2991e6fb-fd01-4e93-a994-be9d9f95c820">
+  <value column="Name" original="ОЧЕНЬ СУРОВЫЙ БЕЗЛИМИТ">ОЧЕНЬ СУРОВЫЙ БЕЗЛИМИТ</value>
+  <value column="Description" original="Тарифный план на предоставление услуг  спутникового доступа в Интернет ОЧЕНЬ СУРОВЫЙ БЕЗЛИМИТ">Тарифный план на предоставление услуг  спутникового доступа в Интернет ОЧЕНЬ СУРОВЫЙ БЕЗЛИМИТ</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="27f58066-154a-4072-9b77-d0fc7710aa06">
+  <value column="Name" original="ЕЖЕДНЕВНЫЙ 400">ЕЖЕДНЕВНЫЙ 400</value>
+  <value column="Description" original="Тарифный план на предоставление услуг  спутникового доступа в Интернет ЕЖЕДНЕВНЫЙ 400">Тарифный план на предоставление услуг  спутникового доступа в Интернет ЕЖЕДНЕВНЫЙ 400</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="6782c652-2484-4d29-bb05-d019132e72de">
+  <value column="Name" original="ЕЖЕДНЕВНЫЙ 750">ЕЖЕДНЕВНЫЙ 750</value>
+  <value column="Description" original="Тарифный план на предоставление услуг  спутникового доступа в Интернет ЕЖЕДНЕВНЫЙ 750">Тарифный план на предоставление услуг  спутникового доступа в Интернет ЕЖЕДНЕВНЫЙ 750</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="9ec26add-a516-4885-88b1-1329794d1f67">
+  <value column="Name" original="ЕЖЕДНЕВНЫЙ 1700">ЕЖЕДНЕВНЫЙ 1700</value>
+  <value column="Description" original="Тарифный план на предоставление услуг  спутникового доступа в Интернет ЕЖЕДНЕВНЫЙ 1700">Тарифный план на предоставление услуг  спутникового доступа в Интернет ЕЖЕДНЕВНЫЙ 1700</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="fcaf0ace-bdeb-4adf-84b1-053cc860c80a">
+  <value column="Name" original="Тестовый продукт Колдаков">Тестовый продукт Колдаков</value>
+  <value column="Description" original="Тестовый продукт для тестирования CRMRTCOMM-808">Тестовый продукт для тестирования CRMRTCOMM-808</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="35d5bccb-a453-4702-9aaa-80312fabf82a">
+  <value column="Name" original="Тестовый продукт Колдаков_200">Тестовый продукт Колдаков_200</value>
+  <value column="Description" original="Тестовый продукт для тестирования CRMRTCOMM-808">Тестовый продукт для тестирования CRMRTCOMM-808</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="d04e63fe-b673-4289-80fe-c24de67cb9ba">
+  <value column="Name" original="Тестовый продукт Колдаков_300">Тестовый продукт Колдаков_300</value>
+  <value column="Description" original="Тестовый продукт для тестирования CRMRTCOMM-808">Тестовый продукт для тестирования CRMRTCOMM-808</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="8af2e467-fa02-4c95-9d29-21eb08818d3b">
+  <value column="Name" original="Тип комплекта Колдаков_1">Тип комплекта Колдаков_1</value>
+  <value column="Description" original="Тип комплекта Колдаков">Тип комплекта Колдаков</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="c4c9d7ee-4ffd-4311-a729-48ca5213ec08">
+  <value column="Name" original="Имя очень хорошего продукта33">Имя очень хорошего продукта33</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="60635fbe-b967-4a8f-a626-1f22981e23d5">
+  <value column="Name" original="Имя очень хорошего продукта 2222">Имя очень хорошего продукта 2222</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="ab49e384-a748-474c-ada5-706b5e41de46">
+  <value column="Name" original="Тестовая ерунда">Тестовая ерунда</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="0df7cfae-3abc-453c-97f2-a222d2ff0b0b">
+  <value column="Name" original="Имя очень хорошего продукта4">Имя очень хорошего продукта4</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="cc28d250-5859-41a1-a3c4-e086099c736e">
+  <value column="Name" original="Имя очень хорошего продукта 5">Имя очень хорошего продукта 5</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="329a4c42-a593-41f2-bf7b-dcfe464f12ef">
+  <value column="Name" original="Имя очень хорошего продукта 6">Имя очень хорошего продукта 6</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="556fba77-9b60-472a-af3f-f430193814eb">
+  <value column="Name" original="Антенна 0.74м dпм=60 мм Jupiter Применение:Hughes Ка-диапазон v3">Антенна 0.74м dпм=60 мм Jupiter Применение:Hughes Ка-диапазон v3</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="44917644-58b1-457b-a684-fc73914a4eb0">
+  <value column="Name" original="Антенна 1.2м dпм=73 мм Hughes Ku-диапазон">Антенна 1.2м dпм=73 мм Hughes Ku-диапазон</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="a7c46eff-d67d-4de1-a56b-0f8ac1a7859b">
+  <value column="Name" original="Антенна 2.4м dпм=168 мм Prodelin Hughes Ku-диапазон v2">Антенна 2.4м dпм=168 мм Prodelin Hughes Ku-диапазон v2</value>
+  <value column="Description" original="Антенна 2.4м dпм=168 мм Prodelin Hughes Ku-диапазон">Антенна 2.4м dпм=168 мм Prodelin Hughes Ku-диапазон</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="653e20bb-f20c-439e-beaa-5b45192ef1e6">
+  <value column="Name" original="Модем спутниковой связи Novelsat NS 300X 3 Мбит/с (220 В)">Модем спутниковой связи Novelsat NS 300X 3 Мбит/с (220 В)</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="8530f0be-ec37-43e0-ba61-7178c43149c0">
+  <value column="Name" original="Модем CDM 570 Comtech EF Data C-диапазон">Модем CDM 570 Comtech EF Data C-диапазон</value>
+  <value column="Description" original="Спутниковый модем начального уровня. Диапазон скоростей обмена данными от 2,4 Кбит/с до 9,98 Мбит/с&#10;CDM-570 и CDM-570-IP: 50 - 90 или 100 - 180 МГц диапазона промежуточных частот CDM-570L и CDM-570L-IP: 950 - 1950 МГц диапазона промежуточных частот. Быстр">Спутниковый модем начального уровня. Диапазон скоростей обмена данными от 2,4 Кбит/с до 9,98 Мбит/с
+CDM-570 и CDM-570-IP: 50 - 90 или 100 - 180 МГц диапазона промежуточных частот CDM-570L и CDM-570L-IP: 950 - 1950 МГц диапазона промежуточных частот. Быстр</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="34662627-14ca-4391-a9a7-5850ef5538aa">
+  <value column="Name" original="Модем CDM 570AL Comtech EF Data C-диапазон">Модем CDM 570AL Comtech EF Data C-диапазон</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="6e7f1fd4-e87c-443f-9e7e-e463049728b6">
+  <value column="Name" original="Модем CDM 570L Comtech EF Data C-диапазон">Модем CDM 570L Comtech EF Data C-диапазон</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="752fb90c-65c2-450a-9bd0-d30e83f2d0c9">
+  <value column="Name" original="Модем CDM 625 Comtech EF Data C-диапазон">Модем CDM 625 Comtech EF Data C-диапазон</value>
+  <value column="Description" original="Модем, сочетающий усовершенствованную функцию Прямого исправления ошибок (FEC), например, код VersaFEC® и код с малой плотностью проверок на четность (LDPC) с уникальным сжатием полосы частот DoubleTalk® Carrier-in-Carrier®, обеспечивающим максимальную эк">Модем, сочетающий усовершенствованную функцию Прямого исправления ошибок (FEC), например, код VersaFEC® и код с малой плотностью проверок на четность (LDPC) с уникальным сжатием полосы частот DoubleTalk® Carrier-in-Carrier®, обеспечивающим максимальную эк</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="7076a988-fe11-48bb-b38b-c1768da31c10">
+  <value column="Name" original="Модем CDM 625A Comtech EF Data C-диапазон">Модем CDM 625A Comtech EF Data C-диапазон</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="debf3aa8-7f89-43d9-9580-e8b1e058f7f4">
+  <value column="Name" original="Модем CDM 750 Comtech EF Data C-диапазон">Модем CDM 750 Comtech EF Data C-диапазон</value>
+  <value column="Description" original="Модем CDM-750 является модемом поддерживающим работу со стандартной промежуточной частотой (70/140 МГц) и с частотой L-диапазона в одном корпусе для монтажа в 19” стойке высотой 1 RU. Также, данный модем имеет возможность работать в режиме DVB-S2 и поддер">Модем CDM-750 является модемом поддерживающим работу со стандартной промежуточной частотой (70/140 МГц) и с частотой L-диапазона в одном корпусе для монтажа в 19” стойке высотой 1 RU. Также, данный модем имеет возможность работать в режиме DVB-S2 и поддер</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="145987bd-f753-4488-84aa-cda977678cc7">
+  <value column="Name" original="Модем CDM 760 Comtech EF Data C-диапазон">Модем CDM 760 Comtech EF Data C-диапазон</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="af982f01-7f95-43c6-b931-57334cb46a35">
+  <value column="Name" original="Модем Evolution X1 iDirect">Модем Evolution X1 iDirect</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="70f3442b-9f38-4fd4-a286-e4e7547f3221">
+  <value column="Name" original="Модем Evolution X3 iDirect">Модем Evolution X3 iDirect</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="e12b04ae-01ff-46aa-9c7d-78b0df573299">
+  <value column="Name" original="Модем HN7000S Hughes Ku-диапазон">Модем HN7000S Hughes Ku-диапазон</value>
+  <value column="Description" original="HN7000S - это высокоэффективный маршрутизатор широкополосного спутникового доступа, предназначенный для обеспечения высокоскоростного доступа в Интернет для нужд пользователей, работающих на домашнем/офисном компьютере, а также для предприятий. Разработан">HN7000S - это высокоэффективный маршрутизатор широкополосного спутникового доступа, предназначенный для обеспечения высокоскоростного доступа в Интернет для нужд пользователей, работающих на домашнем/офисном компьютере, а также для предприятий. Разработан</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="3e3a2444-ec62-4746-b531-919277a01b1a">
+  <value column="Name" original="Модем HN7700S Hughes Ku-диапазон">Модем HN7700S Hughes Ku-диапазон</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="07d9d92b-c618-46e9-b2d2-4768542a5d34">
+  <value column="Name" original="Модем HN7740S Hughes Ku-диапазон">Модем HN7740S Hughes Ku-диапазон</value>
+  <value column="Description" original="Спутниковый модем широкополосного спутникового доступа со встроенной функцией передачи речи. Одновременно поддерживает две локальные подсети, два аналоговых 2х-проводных  телефонных окончания FXS и обеспечивает необходимую гибкость для выполнения широкого">Спутниковый модем широкополосного спутникового доступа со встроенной функцией передачи речи. Одновременно поддерживает две локальные подсети, два аналоговых 2х-проводных  телефонных окончания FXS и обеспечивает необходимую гибкость для выполнения широкого</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="424d24ee-86c7-4b3a-be9f-47b4adf86219">
+  <value column="Name" original="Модем HN9200 Hughes Ku-диапазон">Модем HN9200 Hughes Ku-диапазон</value>
+  <value column="Description" original="Полностью соответствуя ведущему отраслевому стандарту IPoS/DVB-S2 с адаптивным кодированием и модуляцией (АКМ), HN9200 способен работать и по старому стандарту DVB-S. При работе в режиме DVB-S2 HN9200 обеспечивает высочайшую эффективность в прямом канале ">Полностью соответствуя ведущему отраслевому стандарту IPoS/DVB-S2 с адаптивным кодированием и модуляцией (АКМ), HN9200 способен работать и по старому стандарту DVB-S. При работе в режиме DVB-S2 HN9200 обеспечивает высочайшую эффективность в прямом канале </value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="e0f254d7-7154-432c-b5a5-ff4857035091">
+  <value column="Name" original="Модем HN9260 Hughes Ku-диапазон">Модем HN9260 Hughes Ku-диапазон</value>
+  <value column="Description" original="Высокоэффективный спутниковый модем широкополосного доступа, 1 порт Ethernet. Полностью соответствуя ведущему отраслевому стандарту IPoS/DVB-S2 с адаптивным кодированием и модуляцией (АCМ), HN9260 способен работать и по старому стандарту DVB-S. При работе">Высокоэффективный спутниковый модем широкополосного доступа, 1 порт Ethernet. Полностью соответствуя ведущему отраслевому стандарту IPoS/DVB-S2 с адаптивным кодированием и модуляцией (АCМ), HN9260 способен работать и по старому стандарту DVB-S. При работе</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="b564b5df-f166-499b-ba11-41089bc60275">
+  <value column="Name" original="Модем HN9460 Hughes Ku-диапазон">Модем HN9460 Hughes Ku-диапазон</value>
+  <value column="Description" original="Высокопроизводительный спутниковый маршрутизатор Ku диапазонa с адаптивным LDPC кодированием с поддержкой протоколов IPv6/IPv4. Полностью соответствуя ведущему отраслевому стандарту IPoS, HN9460 является высокопроизводительным спутниковым маршрутизатором,">Высокопроизводительный спутниковый маршрутизатор Ku диапазонa с адаптивным LDPC кодированием с поддержкой протоколов IPv6/IPv4. Полностью соответствуя ведущему отраслевому стандарту IPoS, HN9460 является высокопроизводительным спутниковым маршрутизатором,</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="ffb5eeca-70cf-4a31-a0af-24ec35a1d4b8">
+  <value column="Name" original="Модем HT1100 Jupiter Hughes Ка-диапазон">Модем HT1100 Jupiter Hughes Ка-диапазон</value>
+  <value column="Description" original="Широкополосный спутниковый терминал нового поколения НТ1100&#10;компании Hughes предназначен для работы в многолучевых спутниковых&#10;системах диапазона Ка с высокой пропускной способностью. НТ1100&#10;обладает лучшими в своём классе показателями пропускной способно">Широкополосный спутниковый терминал нового поколения НТ1100
+компании Hughes предназначен для работы в многолучевых спутниковых
+системах диапазона Ка с высокой пропускной способностью. НТ1100
+обладает лучшими в своём классе показателями пропускной способно</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="2e8ddb7b-7198-4391-b1e4-db814017d709">
+  <value column="Name" original="Модем HX200 Hughes Ku-диапазон">Модем HX200 Hughes Ku-диапазон</value>
+  <value column="Description" original="НХ200 является высокопроизводительным спутниковым модемом с широким перечнем встроенных функций IP-маршрутизатора: RIPv1 и 2, BGP, DHCP, NAT/PAT, DNS Server/Relay. НХ200 способен обеспечить работу разнообразных приложений и услуг, в том числе магистральны">НХ200 является высокопроизводительным спутниковым модемом с широким перечнем встроенных функций IP-маршрутизатора: RIPv1 и 2, BGP, DHCP, NAT/PAT, DNS Server/Relay. НХ200 способен обеспечить работу разнообразных приложений и услуг, в том числе магистральны</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="c3feaec3-2d66-4982-a760-45b61971c7db">
+  <value column="Name" original="Модем HX260 Hughes Ku-диапазон">Модем HX260 Hughes Ku-диапазон</value>
+  <value column="Description" original="НХ260 является высокопроизводительным спутниковым маршрутизатором, предназначенным для предоставления IP-услуг операторского класса на основе широкополосного доступа через спутник в полносвязной и звездообразной сетевых топологиях одновременно. Спутниковы">НХ260 является высокопроизводительным спутниковым маршрутизатором, предназначенным для предоставления IP-услуг операторского класса на основе широкополосного доступа через спутник в полносвязной и звездообразной сетевых топологиях одновременно. Спутниковы</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="07d48381-503c-4d50-8272-8778822e6249">
+  <value column="Name" original="Модем HX50 Hughes Ku-диапазон">Модем HX50 Hughes Ku-диапазон</value>
+  <value column="Description" original="НХ50 является высокопроизводительным спутниковым маршрутизатором, предназначенным для поддержки широкополосных соединений с такими функциями по управлению качеством обслуживания (QoS), как минимальная/ максимальная CIR при динамическом выделении полосы. &#10;">НХ50 является высокопроизводительным спутниковым маршрутизатором, предназначенным для поддержки широкополосных соединений с такими функциями по управлению качеством обслуживания (QoS), как минимальная/ максимальная CIR при динамическом выделении полосы. 
+</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="5ea5e1d0-b6f4-4850-b361-1b7c3ba8b81b">
+  <value column="Name" original="Модем HX90 Hughes Ku-диапазон">Модем HX90 Hughes Ku-диапазон</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="095538e5-8c4b-4df6-9078-b0fedbc9a3f0">
+  <value column="Name" original="Модем iNfiniti Series 5300 Satellite iDirect">Модем iNfiniti Series 5300 Satellite iDirect</value>
+  <value column="Description" original="Спутниковый модем iNFINITI серии 5000 — включают в себя спутниковый модем, маршрутизатор IP, TCP-ускорение, поддержка QoS и функцию расстановки приоритетов. Такие функции, как TCP-ускорение и локальное DNS-кэширование позволяют повысить пропускную способн">Спутниковый модем iNFINITI серии 5000 — включают в себя спутниковый модем, маршрутизатор IP, TCP-ускорение, поддержка QoS и функцию расстановки приоритетов. Такие функции, как TCP-ускорение и локальное DNS-кэширование позволяют повысить пропускную способн</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="f53b63b1-e302-4845-8e03-7c441f75ac53">
+  <value column="Name" original="Модем iNfiniti Series 7300 Satellite iDirect">Модем iNfiniti Series 7300 Satellite iDirect</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="f0b234ff-83d2-4701-a2a3-d1daaecf1211">
+  <value column="Name" original="Модем NS 3000 Novelsat L-диапазон">Модем NS 3000 Novelsat L-диапазон</value>
+  <value column="Description" original="NovelSat Спутниковый IP модем NS3000 Спутниковый модем NS3000 обладает самым большим в мире диапазоном скоростей передачи данных - от 100 Кбит/с до 850 Мбит/с. Он приносит наиболее ощутимый возврат инвестиций. NS3000 использует передовую технологию спутни">NovelSat Спутниковый IP модем NS3000 Спутниковый модем NS3000 обладает самым большим в мире диапазоном скоростей передачи данных - от 100 Кбит/с до 850 Мбит/с. Он приносит наиболее ощутимый возврат инвестиций. NS3000 использует передовую технологию спутни</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="fa539ed7-33d3-44d0-b6aa-b69d85c36526">
+  <value column="Name" original="Модем NS 300X Novelsat L-диапазон">Модем NS 300X Novelsat L-диапазон</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="e54e29cd-980d-4ea2-90b1-01bab5417b69">
+  <value column="Name" original="Модем SE GW Gilat Ku-диапазон">Модем SE GW Gilat Ku-диапазон</value>
+  <value column="Description" original="SkyEdg Gateway – это VSAT платформа с двусторонней спутниковой связью, которая дает возможность охватить удаленные территории E1-телефонией и IP-данными по запросу.">SkyEdg Gateway – это VSAT платформа с двусторонней спутниковой связью, которая дает возможность охватить удаленные территории E1-телефонией и IP-данными по запросу.</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="d260aac5-b33b-4265-b8c3-473891d2c852">
+  <value column="Name" original="Модем SE II Access Gilat Ku-диапазон">Модем SE II Access Gilat Ku-диапазон</value>
+  <value column="Description" original="SkyEdg II Access – модульный приемо-передающий VSAT терминал, поддерживающий широкополосный IP доступ и групповую адресацию для одного или нескольких офисов предприятия, а также применяемый в  удаленных населенных пунктах. SkyEdge II Access обеспечивает ш">SkyEdg II Access – модульный приемо-передающий VSAT терминал, поддерживающий широкополосный IP доступ и групповую адресацию для одного или нескольких офисов предприятия, а также применяемый в  удаленных населенных пунктах. SkyEdge II Access обеспечивает ш</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="895258d4-fac1-4e38-93b8-3ac30e750baa">
+  <value column="Name" original="Модем SE II EXTEND Gilat Ku-диапазон">Модем SE II EXTEND Gilat Ku-диапазон</value>
+  <value column="Description" original="SkyEdg II Extend – компактный 2-х портовый приемо-передающий VSAT терминал для корпоративного использования, обеспечивающий широкополосный IP доступ и мультивещание для одного или нескольких территориально удаленных офисов. SkyEdg II Extend основан на ста">SkyEdg II Extend – компактный 2-х портовый приемо-передающий VSAT терминал для корпоративного использования, обеспечивающий широкополосный IP доступ и мультивещание для одного или нескольких территориально удаленных офисов. SkyEdg II Extend основан на ста</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="ddcb8b71-6571-4650-9b4e-6046a8d8eeba">
+  <value column="Name" original="Модем SE II IP Gilat Ku-диапазон">Модем SE II IP Gilat Ku-диапазон</value>
+  <value column="Description" original="SkyEdg II IP – компактный приемо-передающий VSAT-терминал, поддерживающий широкополосный IP-доступ и групповую адресацию, подходит для быстрого доступа к Интернету, поддержки VoIP-связи и мультимедийных приложений. SkyEdg  II IP основан на стандартах DVB-">SkyEdg II IP – компактный приемо-передающий VSAT-терминал, поддерживающий широкополосный IP-доступ и групповую адресацию, подходит для быстрого доступа к Интернету, поддержки VoIP-связи и мультимедийных приложений. SkyEdg  II IP основан на стандартах DVB-</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="213d9930-9651-4e3a-95a2-ec405b98175c">
+  <value column="Name" original="Модем SE II PRO Gilat Ku-диапазон">Модем SE II PRO Gilat Ku-диапазон</value>
+  <value column="Description" original="SkyEdg II Pro имеет следующие особенности:&#10;Высокие скорости входящих и исходящих каналов;&#10;Высокий коэффициент готовности при использовании ACM и адаптивного управления входящими каналами по стандарту DVB-S2;&#10;Встроенное ускорение TCP, HTTP и VPN;&#10;Поддержка">SkyEdg II Pro имеет следующие особенности:
+Высокие скорости входящих и исходящих каналов;
+Высокий коэффициент готовности при использовании ACM и адаптивного управления входящими каналами по стандарту DVB-S2;
+Встроенное ускорение TCP, HTTP и VPN;
+Поддержка</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="7889ac4b-d872-4621-8dd0-ea641155825e">
+  <value column="Name" original="Модем SE II-c Gemini 4 Gilat Ка-диапазон">Модем SE II-c Gemini 4 Gilat Ка-диапазон</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="bc413792-adfc-4169-8b26-70d8216ddab5">
+  <value column="Name" original="Модем SE II-c Gemini Gilat Ка-диапазон">Модем SE II-c Gemini Gilat Ка-диапазон</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="5c8afd71-a665-4e2d-a294-51d2207fef86">
+  <value column="Name" original="Модем SE II-c Gemini-i Gilat Ка-диапазон">Модем SE II-c Gemini-i Gilat Ка-диапазон</value>
+  <value column="Description" original="Cпутниковый модем Gemini-i предназначен для высокоскоростного доступа в сеть Интернет посредством спутникового канала. Терминал Gemini-i поддерживает потоковую передачу видео, IP-телевидение, IP-телефонию и прочие сетевые услуги, требующие высокой пропуск">Cпутниковый модем Gemini-i предназначен для высокоскоростного доступа в сеть Интернет посредством спутникового канала. Терминал Gemini-i поддерживает потоковую передачу видео, IP-телевидение, IP-телефонию и прочие сетевые услуги, требующие высокой пропуск</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="ceff8d6b-3251-4447-9971-6301add46114">
+  <value column="Name" original="Модем SE IP Gilat Ku-диапазон">Модем SE IP Gilat Ku-диапазон</value>
+  <value column="Description" original="SkyEdge IP — компактный двунаправленный спутниковый VSAТ-терминал, обеспечивающий высокоскоростную работу IР-приложений и IP-multicasting на одном или на всех объектах вашей компании. Благодаря применению стандарта DVB и расширенной поддержке IP, платформ">SkyEdge IP — компактный двунаправленный спутниковый VSAТ-терминал, обеспечивающий высокоскоростную работу IР-приложений и IP-multicasting на одном или на всех объектах вашей компании. Благодаря применению стандарта DVB и расширенной поддержке IP, платформ</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="bec716d7-a630-41b9-892d-59bb1355ecf4">
+  <value column="Name" original="Модем SE PRO Gilat Ku-диапазон">Модем SE PRO Gilat Ku-диапазон</value>
+  <value column="Description" original="SkyEdg PRO – многофункциональная, двунаправленная спутниковая платформа, одновременно поддерживающая интерактивный обмен данными, полносвязную телефонию, широкополосные IP- и видеоуслуги, имеющая встроенные платы расширения для увеличения возможностей VSA">SkyEdg PRO – многофункциональная, двунаправленная спутниковая платформа, одновременно поддерживающая интерактивный обмен данными, полносвязную телефонию, широкополосные IP- и видеоуслуги, имеющая встроенные платы расширения для увеличения возможностей VSA</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="6ef3694d-18d4-4548-8c4b-821189eb403f">
+  <value column="Name" original="Карта MESH (Mesh Hight Bit Rate Card SEII PRO RM)">Карта MESH (Mesh Hight Bit Rate Card SEII PRO RM)</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="7d76a122-04be-4145-aaba-826919d0444f">
+  <value column="Name" original="Модем HX200 Hughes Ku-диапазон">Модем HX200 Hughes Ku-диапазон</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="7d32614b-9c57-4ea5-a98f-246ea516ba62">
+  <value column="Name" original="Модем SKYEDGE  PRO Gilat с картами SE I FXS 2 и MESH">Модем SKYEDGE  PRO Gilat с картами SE I FXS 2 и MESH</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="ac4e348e-3f66-4120-a3fd-33446ae248c4">
+  <value column="Name" original="Модем со встроенным приемопередатчиком 2,5 Вт SE II-c Scorpio Gilat Ка-диапазон">Модем со встроенным приемопередатчиком 2,5 Вт SE II-c Scorpio Gilat Ка-диапазон</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="84406d4d-af1c-4425-a60a-550f77a9f2af">
+  <value column="Name" original="Блок питания модема HT1100,HT1200. Модель YM-2071B">Блок питания модема HT1100,HT1200. Модель YM-2071B</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="7b1480f6-0040-44eb-963c-12baf4c5bde7">
+  <value column="Name" original="Модем HT2000 Hughes Ка-диапазон">Модем HT2000 Hughes Ка-диапазон</value>
+  <value column="Description" original="Изготовитель Hughes Network Systems, LLC.&#10;Блок внутренней установки/модем в комплекте с шнуром питания с вилкой европейского стандарта.&#10;Технические характеристики:&#10;1.&#9;Напряжение питания 90-260 В / 50-60 Гц;&#10;2.&#9;Стандарт спутникового вещания DVB-S2X,&#10;3.&#9;Тип">Изготовитель Hughes Network Systems, LLC.
+Блок внутренней установки/модем в комплекте с шнуром питания с вилкой европейского стандарта.
+Технические характеристики:
+1.	Напряжение питания 90-260 В / 50-60 Гц;
+2.	Стандарт спутникового вещания DVB-S2X,
+3.	Тип</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="41b6f6f9-a992-4258-802f-ac33e0a05738">
+  <value column="Name" original="Модем ADSL2+ ZyXEL P-660RT3  EE">Модем ADSL2+ ZyXEL P-660RT3  EE</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="4b31e9f0-377e-4dca-8a3a-adcd662da16a">
+  <value column="Name" original="Передатчик (блок-конвертер частоты) ALB190LF7-40B 40 Вт ST Electronics С-диапазона БП в комплекте">Передатчик (блок-конвертер частоты) ALB190LF7-40B 40 Вт ST Electronics С-диапазона БП в комплекте</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="32c469bb-1035-4635-8ace-209ac65228a8">
+  <value column="Name" original="Передатчик (блок-конвертер частоты) ALB190LF7-50B 50 Вт ST Electronics С-диапазона без БП">Передатчик (блок-конвертер частоты) ALB190LF7-50B 50 Вт ST Electronics С-диапазона без БП</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="a56eccab-6dd9-4557-b040-ced7784c369c">
+  <value column="Name" original="Передатчик (блок-конвертер частоты) SSPBMg-KX50-CRFO Advantech Wireless (13.75-14.50 ГГц/950-1700 МГц)">Передатчик (блок-конвертер частоты) SSPBMg-KX50-CRFO Advantech Wireless (13.75-14.50 ГГц/950-1700 МГц)</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="2037baea-8e03-49c6-96aa-028a2dc6ba60">
+  <value column="Name" original="Внутрикорпоративная телефония VSAT">Внутрикорпоративная телефония VSAT</value>
+  <value column="Description" original="Дополнительная услуга Внутрикорпоративная телефония VSAT">Дополнительная услуга Внутрикорпоративная телефония VSAT</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="ed2a8e97-a7f8-44e9-9210-5218095cdc36">
+  <value column="Name" original="Видеонаблюдение VSAT">Видеонаблюдение VSAT</value>
+  <value column="Description" original="Дополнительная услуга Видеонаблюдение VSAT">Дополнительная услуга Видеонаблюдение VSAT</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="c8d7104a-597b-4a23-bb76-12a1a6d384f3">
+  <value column="Name" original="Комплекс сетевой безопасности">Комплекс сетевой безопасности</value>
+  <value column="Description" original="Комплекс сетевой безопасности">Комплекс сетевой безопасности</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="0a3ab516-df7b-4a22-8370-b2eb68465e2a">
+  <value column="Name" original="Комплект ЗССС HT1100/0,74м/2Вт (в составе модем HT1100, приемопередатчик 2 Вт, антенна 0,74м)">Комплект ЗССС HT1100/0,74м/2Вт (в составе модем HT1100, приемопередатчик 2 Вт, антенна 0,74м)</value>
+  <value column="Description" original="Комплект ЗССС HT1100/0,74м/2Вт (в составе модем HT1100, приемопередатчик 2 Вт, антенна 0,74м)">Комплект ЗССС HT1100/0,74м/2Вт (в составе модем HT1100, приемопередатчик 2 Вт, антенна 0,74м)</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="7bf9d870-96f3-40ea-92d2-4ae5f505104e">
+  <value column="Name" original="Комплект ЗССС НТ1100/0,74м/2Вт/опора СТ/кабель в комплекте:(модем НТ1100, приёмопередатчик мощностью 2 Вт,антенна 0,74 м, опора настенная">Комплект ЗССС НТ1100/0,74м/2Вт/опора СТ/кабель в комплекте:(модем НТ1100, приёмопередатчик мощностью 2 Вт,антенна 0,74 м, опора настенная</value>
+  <value column="Description" original="Комплект ЗССС НТ1100/0,74м/2 Вт/опора/кабель в комплекте:(модем НТ1100, приёмопередатчик мощностью 2 Вт с встроенным LNB,антенна 0,74 м, опора настенная">Комплект ЗССС НТ1100/0,74м/2 Вт/опора/кабель в комплекте:(модем НТ1100, приёмопередатчик мощностью 2 Вт с встроенным LNB,антенна 0,74 м, опора настенная</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="e0657e7a-9b80-49b6-9a02-0d960c065732">
+  <value column="Name" original="Антенна 1.8м dпм=114 мм Gilat TYPE180 TX Ku-диапазон(включая:опу 611603207,облучатель 611678301)">Антенна 1.8м dпм=114 мм Gilat TYPE180 TX Ku-диапазон(включая:опу 611603207,облучатель 611678301)</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="64530b68-8633-406a-b507-71e80e02b09f">
+  <value column="Name" original="Антенна 1.8м dпм=140 мм GENERAL DYNAMICS серия 1194/Prodelin Hughes Ku-диапазон">Антенна 1.8м dпм=140 мм GENERAL DYNAMICS серия 1194/Prodelin Hughes Ku-диапазон</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="N" uuid="123f488a-88b0-4d5b-8df6-4860117fe56e">
+  <value column="Name" original="Антенная система с трактами линейной поляризации С-диапазона, 2,4 м.">Антенная система с трактами линейной поляризации С-диапазона, 2,4 м.</value>
+  <value column="Description" original="Антенна 2.4м dпм=168 мм трактами круговой поляризации Сатис СГКР.464655.002-23 C-диапазон">Антенна 2.4м dпм=168 мм трактами круговой поляризации Сатис СГКР.464655.002-23 C-диапазон</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="N" uuid="44217db9-9b97-43dc-8dcb-90dda752ed9a">
+  <value column="Name" original="Антенная система с трактами круговой поляризации С-диапазона, 2,4 м.">Антенная система с трактами круговой поляризации С-диапазона, 2,4 м.</value>
+  <value column="Description" original="Антенна 2.4м dпм=168 мм трактами круговой поляризации Сатис СГКР.464655.002-23 C-диапазон">Антенна 2.4м dпм=168 мм трактами круговой поляризации Сатис СГКР.464655.002-23 C-диапазон</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="N" uuid="62c3cd66-5f5d-446c-9f23-4db88d8bb92d">
+  <value column="Name" original="Антенна 1.8м dпм=114 мм Sky Ware Global TYPE183 Ku-диапазон: применение Hughes">Антенна 1.8м dпм=114 мм Sky Ware Global TYPE183 Ku-диапазон: применение Hughes</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="N" uuid="fd727112-33d6-4755-ab2e-43d7d532ef5b">
+  <value column="Name" original="Антенна 1.8м dпм=114 мм Sky Ware Global TYPE183 Ku-диапазон: применение Gilat">Антенна 1.8м dпм=114 мм Sky Ware Global TYPE183 Ku-диапазон: применение Gilat</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="N" uuid="54fdcc3a-9c52-44ea-af1e-1896472f2f84">
+  <value column="Name" original="Антенна Intellian v100 модель 8W с подогревом">Антенна Intellian v100 модель 8W с подогревом</value>
+  <value column="Description" original="Гиростабилизированная спутниковая антенна Ku диапазона для установки на морских или речных судах. Диаметр рефлектора 1 м.&#10;Поставляется в комплекте с:&#10;- приемником (Intellian Ku-band Global PLL LNB)&#10;- передатчиком (BUC) мощностью 8W&#10;- контроллером антенны ">Гиростабилизированная спутниковая антенна Ku диапазона для установки на морских или речных судах. Диаметр рефлектора 1 м.
+Поставляется в комплекте с:
+- приемником (Intellian Ku-band Global PLL LNB)
+- передатчиком (BUC) мощностью 8W
+- контроллером антенны </value>
   <value column="DocumentNote" original=""/>
  </row>
 </idempiereTrl>

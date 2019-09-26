@@ -67,6 +67,21 @@
  </row>
  <row trl="Y" uuid="28c5267e-2b09-4e40-aa99-9707d1c9bec5">
   <value column="Name" original="Просроченные лиды">Просроченные лиды</value>
+  <value column="Description" original="Просроченные лиды">Просроченные лиды</value>
+  <value column="HTML" original=""/>
+ </row>
+ <row trl="Y" uuid="bac9c9e6-c194-40c6-9954-485da100d982">
+  <value column="Name" original="Orders">Заказы</value>
+  <value column="Description" original="Manager orders">Заказы менеджера</value>
+  <value column="HTML" original=""/>
+ </row>
+ <row trl="Y" uuid="72d830f5-4cf5-465f-b124-ec93ceb9b1fc">
+  <value column="Name" original="RIT Activities">Активности бизнес-процессов</value>
+  <value column="Description" original="RIT Activities">Активности бизнес-процессов</value>
+  <value column="HTML" original=""/>
+ </row>
+ <row trl="N" uuid="1d53beb9-b65c-44a0-97b3-dea75e2d3ae7">
+  <value column="Name" original="new_contact_activities">Новые активности Лидов/Контрагентов</value>
   <value column="Description" original=""/>
   <value column="HTML" original=""/>
  </row>

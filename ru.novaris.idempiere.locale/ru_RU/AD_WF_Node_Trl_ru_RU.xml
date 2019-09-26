@@ -53,17 +53,17 @@
  <row id="152" trl="Y">
   <value column="Name" original="Check Client Setup">Проверить настройки клиента</value>
   <value column="Description" original="Check Client setup for Requests">Проверка настроек клиента для запросов</value>
-  <value column="Help" original="You need to have a mail server and an email address from which the requets an notifications are sent.  Optionally, if you define a mail user and password, requests are read from the mail users's folder and imported into the system.">Вам нужно иметь почтовый сервер и email адрес, с которого запросы и напоминания будут отправляться. Дополнительно, если  вы определяете mail user-а и password, то запросы будут читаться из mail users's папки и импортироваться в систему.</value>
+  <value column="Help" original="You need to have a mail server and an email address from which the requets an notifications are sent.  Optionally, if you define a mail user and password, requests are read from the mail users's folder and imported into the system.">Вам необходимо иметь почтовый сервер и адрес электронной почты, с которого отправляются уведомления о запросе.  При необходимости при определении почтового пользователя и пароля запросы считываются из папки пользователей и импортируются в систему.</value>
  </row>
  <row id="153" trl="Y">
   <value column="Name" original="Check Users">Проверить пользователей</value>
   <value column="Description" original="Check users for Request processing">Проверка пользователей для выполнения запросов</value>
-  <value column="Help" original="Please ensure that users have a email address and supervisor assigned.">Убедитесь, чтобы эти пользователи имели email адрес и были назначены супервайзером.</value>
+  <value column="Help" original="Please ensure that users have a email address and supervisor assigned.">Убедитесь, чтобы эти пользователи имели email адрес и назначенного супервайзера.</value>
  </row>
  <row id="155" trl="Y">
-  <value column="Name" original="Check Business Partners">Проверить бизнес-партнеров</value>
-  <value column="Description" original="Check Business Partners for Request processing">Проверка бизнес-партнеров для выполнения запросов</value>
-  <value column="Help" original="You can send EMails to businbess partners.  Make sure, that the business partners and/or the Contacts have email addresses.">Вы можете отправить EMail-ы своим бизнес-партнерам. Убедитесь, что ваши бизнес-партнеры и/или контакты имеют email адреса.</value>
+  <value column="Name" original="Check Business Partners">Проверить Контрагентов</value>
+  <value column="Description" original="Check Business Partners for Request processing">Проверить Контрагентов для выполнения Запросов</value>
+  <value column="Help" original="You can send EMails to businbess partners.  Make sure, that the business partners and/or the Contacts have email addresses.">Вы можете отправлять EMail Контрагентам. Убедитесь, что Контрагенты и/или Контакты имеют заполненные email адреса.</value>
  </row>
  <row id="166" trl="Y">
   <value column="Name" original="Tax Category">Категория налога</value>
@@ -519,6 +519,261 @@ Review and change the GL and Default accounts. The actual accounts used in trans
  <row id="50119" trl="N">
   <value column="Name" original="(DocPrepare)">(DocPrepare)</value>
   <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="3b4ba162-72b2-48b1-a723-8ccdc5bafa25">
+  <value column="Name" original="(Start)">Старт</value>
+  <value column="Description" original="(Standard Node)">Начальный узел</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="463a8b4a-7738-4c4c-b1dd-f9f9f479d3cc">
+  <value column="Name" original="(Drafted)">Спроектировано</value>
+  <value column="Description" original="(Standard Node)">(Standard Node)</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="aff78d59-6692-43c5-a104-e98809fd8202">
+  <value column="Name" original="Регистрация">Регистрация</value>
+  <value column="Description" original="Регистрация заказа ДО">Регистрация заказа ДО</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="31cf22fd-f744-4384-8b0b-978a5ea7cee2">
+  <value column="Name" original="1.5 Разработка">1.5 Разработка</value>
+  <value column="Description" original="Разработка технического решения по ODS">Разработка технического решения по ODS</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="01f4671e-67d5-4683-adbf-2bfe7bbebb90">
+  <value column="Name" original="1.4. Обследование">1.4. Обследование</value>
+  <value column="Description" original="Обследование возможности организации VSAT КС через АО">Обследование возможности организации VSAT КС через АО</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="38988e60-205f-40f7-8174-8704f6dfb688">
+  <value column="Name" original="1.3. Обследование">1.3. Обследование</value>
+  <value column="Description" original="Обследование спутниковой сети (выдача тех решения)">Обследование спутниковой сети (выдача тех решения)</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="189196f7-82af-49f6-b4b7-43cd58c87575">
+  <value column="Name" original="1.6. Разработка">1.6. Разработка</value>
+  <value column="Description" original="Разработка комплексного рапорта по заказу">Разработка комплексного рапорта по заказу</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="3dcac127-d651-42a5-9fe1-aa9cf014a78a">
+  <value column="Name" original="1.7 Обследование">1.7 Обследование</value>
+  <value column="Description" original="Обследование сети/ подтверждение возможности">Обследование сети/ подтверждение возможности</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="d4d9b96b-d975-44d3-8f10-e8fea4d915ac">
+  <value column="Name" original="1.8. Подтвердить">1.8. Подтвердить</value>
+  <value column="Description" original="Подтвердить удовлетворение запроса">Подтвердить удовлетворение запроса</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="dc35baf7-61db-4bc0-8169-cce64afcbf23">
+  <value column="Name" original="Проверить">Проверить</value>
+  <value column="Description" original="Проверить наличие оборудования согласно плану подключений каналов связи">Проверить наличие оборудования согласно плану подключений каналов связи</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="fa6e1539-73e5-4f16-9d37-ccd7511e3549">
+  <value column="Name" original="Настройка ODS?">Настройка ODS?</value>
+  <value column="Description" original="Требуется настройка ODS?">Требуется настройка ODS?</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="912fb74b-5f4d-4a59-8029-4147f20aa70f">
+  <value column="Name" original="Настройке ODS возможна?">Настройке ODS возможна?</value>
+  <value column="Description" original="Реализация требования по настройке ODS возможна?">Реализация требования по настройке ODS возможна?</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="0c36ded1-c1b0-4488-b949-bc3f513115f1">
+  <value column="Name" original="Дополнительные услуги?">Дополнительные услуги?</value>
+  <value column="Description" original="Требуются дополнительные услуги?">Требуются дополнительные услуги?</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="3b328cfb-acf0-4042-b212-5b44c8d0ce1b">
+  <value column="Name" original="КСБ?">КСБ?</value>
+  <value column="Description" original="Требуется КСБ?">Требуется КСБ?</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="c5c609ff-30e2-490a-94ff-34eee811dfbd">
+  <value column="Name" original="ДО ВН">ДО ВН</value>
+  <value column="Description" original="ДО ВН">ДО ВН</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="2d47df76-5914-470a-92b8-1e4b14464568">
+  <value column="Name" original="ДО ВКТф">ДО ВКТф</value>
+  <value column="Description" original="ДО ВКТф">ДО ВКТф</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="2eec6c90-0087-4cd9-81e7-ddff2d7fecb1">
+  <value column="Name" original="Реализация КСБ?">Реализация КСБ?</value>
+  <value column="Description" original="Реализация требования по КСБ возможна?">Реализация требования по КСБ возможна?</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="86c65eb5-a83f-4f80-bc54-ece3df298024">
+  <value column="Name" original="Инициирование">Инициирование</value>
+  <value column="Description" original="Инициирование разработки инфраструктурного проекта">Инициирование разработки инфраструктурного проекта</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="b842468e-a050-436b-9e8f-3de5affa07c5">
+  <value column="Name" original="Заказ на TRKP">Заказ на TRKP</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="aa1b3ca7-54b2-4001-992d-e30ff8e7f102">
+  <value column="Name" original="filled">Заполнен</value>
+  <value column="Description" original="">Принимается решение о корректности заполнения Размещение заказа ДО</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="c1ece307-cc47-4201-a8a4-827409e41abf">
+  <value column="Name" original="Returned">Возвращен</value>
+  <value column="Description" original="">Размещение заказа ДО возвращено на до заполнение</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="172066ff-d39c-497c-bf37-c5584daf0641">
+  <value column="Name" original="Status Confirmed">Статус Подтвержден</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="dbc55752-0201-4fb9-96a9-a5b9bb7aab29">
+  <value column="Name" original="Status Returned">Статус Возвращен</value>
+  <value column="Description" original="">Статус Возвращен</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="e3ce8b9f-dd1d-46a5-88f3-acf429fae900">
+  <value column="Name" original="Оборудование есть в наличии?">Оборудование есть в наличии?</value>
+  <value column="Description" original="Оборудование есть в наличии?">Оборудование есть в наличии?</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="939f5f3c-b5a0-4208-9788-6eec2ce7d5e5">
+  <value column="Name" original="Планируемые сроки закупки/поставки">Планируемые сроки закупки/поставки</value>
+  <value column="Description" original="Планируемые сроки закупки/поставки">Планируемые сроки закупки/поставки</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="c83ffa46-c3f8-426e-bb47-14ff4e0e614a">
+  <value column="Name" original="ИЛИ 1.3. Обследование">ИЛИ 1.3. Обследование</value>
+  <value column="Description" original="Настройка ODS? ИЛИ Настройке ODS возможна?">Настройка ODS? ИЛИ Настройке ODS возможна?</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="bf7eae86-1347-4255-b29b-66e0185b46c1">
+  <value column="Name" original="1.3. И  1.4.">1.3. И  1.4.</value>
+  <value column="Description" original="1.3. Обследование и 1.4. Обследование">1.3. Обследование и 1.4. Обследование</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="5dff22c8-606a-4f19-a816-c9c5436ff534">
+  <value column="Name" original="Начало">Начало</value>
+  <value column="Description" original="">Начало</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="c3e7a117-1a3a-499b-bb01-d3602b753b50">
+  <value column="Name" original="Передача на склад">Передача на склад</value>
+  <value column="Description" original="Передача на склад">Передача на склад</value>
+  <value column="Help" original="Передача на склад"/>
+ </row>
+ <row trl="Y" uuid="abf99f9c-c2e2-4c77-845d-b0c4c3a7827e">
+  <value column="Name" original="Attribute">Оборудование выбрано на складе</value>
+  <value column="Description" original="Оборудование выбрано на складе">Оборудование выбрано на складе</value>
+  <value column="Help" original="Оборудование выбрано на складе"/>
+ </row>
+ <row trl="Y" uuid="9386812d-03a3-4f80-a110-8349a3e41dad">
+  <value column="Name" original="Возврат менеджеру">Возврат менеджеру</value>
+  <value column="Description" original="Возврат менеджеру">Возврат менеджеру</value>
+  <value column="Help" original="Возврат менеджеру"/>
+ </row>
+ <row trl="Y" uuid="63b0e64e-dedf-4400-b95e-b6528a8af716">
+  <value column="Name" original="Оборудование заполнено">Оборудование заполнено</value>
+  <value column="Description" original="Оборудование заполнено">Оборудование заполнено</value>
+  <value column="Help" original="Оборудование заполнено"/>
+ </row>
+ <row trl="Y" uuid="3398ab70-d1b7-4f7f-9858-110693fc2390">
+  <value column="Name" original="Создание актива">Создание актива</value>
+  <value column="Description" original="Создание актива">Создание актива</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="9e61bde8-39e3-43dc-b8a5-40a7623e97d9">
+  <value column="Name" original="Конфигурирование оборудования">Конфигурирование оборудования</value>
+  <value column="Description" original="Конфигурирование оборудования">Конфигурирование оборудования</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="208369dc-2df0-4e94-aa04-3d8662381a00">
+  <value column="Name" original="Конфигурирование завершено с ошибками">Конфигурирование завершено с ошибками</value>
+  <value column="Description" original="Конфигурирование завершено с ошибками">Конфигурирование завершено с ошибками</value>
+  <value column="Help" original="Конфигурирование завершено с ошибками"/>
+ </row>
+ <row trl="Y" uuid="90f784c0-1c62-45f3-a961-0ef5f973c7ea">
+  <value column="Name" original="Конфигурирование завершено успешно">Конфигурирование завершено успешно</value>
+  <value column="Description" original="Конфигурирование завершено успешно">Конфигурирование завершено успешно</value>
+  <value column="Help" original="Конфигурирование завершено успешно"/>
+ </row>
+ <row trl="Y" uuid="e4ef2af5-da71-40fb-938b-d49c3c648c70">
+  <value column="Name" original="Завершение">Завершение</value>
+  <value column="Description" original="Завершение">Завершение</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="ae45abec-fcb8-45be-9705-e7e205b4e281">
+  <value column="Name" original="(Fill)">Заполнить</value>
+  <value column="Description" original="Fill in the contract">Заполнить договор для заключения</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="fab225e3-910b-4235-a40b-4e361a8fa201">
+  <value column="Name" original="(Sign)">Подписать</value>
+  <value column="Description" original="Sign the contract">Подписать договор</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="a626d7bd-1410-42f7-ba92-0cbf16e11d8e">
+  <value column="Name" original="(Сonfirmed)">Подтверждён</value>
+  <value column="Description" original="Contract is сonfirmed">Договор подтверждён</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="4b4b3ae5-3e2a-4b86-b0a6-2ae4ad1639da">
+  <value column="Name" original="(Completed)">Заполнен</value>
+  <value column="Description" original="(Standard Node)">Документ заполнен</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="d9bf6e6b-7184-471e-b24b-868efd43bfd5">
+  <value column="Name" original="(AutoProcess)">(AutoProcess)</value>
+  <value column="Description" original="Update opportunitty">Update opportunitty</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="a3ed56e2-7f94-4dda-b47b-70a581e41c19">
+  <value column="Name" original="Статус  ДО Завершено">Статус  ДО Завершено</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="d7147642-4626-46d9-ac38-e436da139450">
+  <value column="Name" original="Fill">Заполнение</value>
+  <value column="Description" original="">Заполнение</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="06c5ffc3-40d8-4c37-be19-9d35e3620915">
+  <value column="Name" original="Configuration completed with errors">Конфигурирование с ошибками АСР</value>
+  <value column="Description" original="Configuration completed with errors">Конфигурирование с ошибками АСР</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="435bb729-1557-4622-bc44-44b5e538c126">
+  <value column="Name" original="Confirm connection">Подтверждение подключения</value>
+  <value column="Description" original="Confirm connection">Подтверждение подключения</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="506560e1-b455-4f73-8288-9398f9937123">
+  <value column="Name" original="(CreateCommandProcess)">(Создание команд)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="2baae275-0362-46ed-b112-72556d727aac">
+  <value column="Name" original="(ResultCommand)">(Результат команд)</value>
+  <value column="Description" original="">(Результат команд)</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="b1605531-c90b-4afd-acc4-e8375849d4cd">
+  <value column="Name" original="(ResultCommandNMS)">(Результат команд NMS)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="03ff6e21-7284-4787-81cb-582d78949bae">
+  <value column="Name" original="(ResultCommandASR)">(Результат команд АСР)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="a020c810-6a81-4ded-b8fa-c490f45da0a3">
+  <value column="Name" original="Configuration completed with errors NMS">Конфигурирование с ошибками NMS</value>
+  <value column="Description" original="Configuration completed with errors NMS">Конфигурирование с ошибками NMS</value>
   <value column="Help" original=""/>
  </row>
 </idempiereTrl>

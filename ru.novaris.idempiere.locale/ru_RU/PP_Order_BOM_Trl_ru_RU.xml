@@ -10,9 +10,4 @@
   <value column="Description" original="70 # Bag of Lawn Fertilizer">70 # Bag of Lawn Fertilizer</value>
   <value column="Help" original=""/>
  </row>
- <row trl="Y" uuid="f4374143-ca21-4bf7-b4e4-d989ca6bc10d">
-  <value column="Name" original="Детальное обследование">Детальное обследование</value>
-  <value column="Description" original="Детальное обследование">Детальное обследование</value>
-  <value column="Help" original=""/>
- </row>
 </idempiereTrl>

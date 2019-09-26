@@ -48,7 +48,7 @@ Verify the translation creates missing translation records. Start this process a
  <row id="108" trl="Y">
   <value column="Name" original="User">Контактное лицо</value>
   <value column="Description" original="Maintain Users of the system">Контактное лицо (пользователь системы)</value>
-  <value column="Help" original="The User Window allows you to maintain User of the system.  Users can log into the system and have access to functionality via one or more roles.  A user can also be a business partner contact.">Окно позволяет поддерживать пользователя системы. Пользователи могут входить в систему и иметь доступ к функциям с помощью одной или нескольких ролей. Пользователь также может быть контактом бизнес-партнёра.</value>
+  <value column="Help" original="The User Window allows you to maintain User of the system.  Users can log into the system and have access to functionality via one or more roles.  A user can also be a business partner contact.">Окно позволяет поддерживать пользователя системы. Пользователи могут входить в систему и иметь доступ к функциям с помощью одной или нескольких ролей. Пользователь также может быть контактом контрагента.</value>
  </row>
  <row id="109" trl="Y">
   <value column="Name" original="Client">Экземпляр</value>
@@ -123,9 +123,9 @@ Conversions need to be direct (i.e. if you have only a conversion between A-B an
 <p>You would define Countries usually only on System level.]]></value>
  </row>
  <row id="123" trl="Y">
-  <value column="Name" original="Business Partner">Бизнес-партнёр</value>
-  <value column="Description" original="Maintain Business Partners">Ведение бизнес-партнёра</value>
-  <value column="Help" original="The Business Partner window allows you do define any party with whom you transact.  This includes customers, vendors and employees.  Prior to entering or importing products, you must define your vendors.  Prior to generating Orders you must define your customers.  This window holds all information about your business partner and the values entered will be used to generate all document transactions">Окно Бизнес-партнёр позволяет вам определять любого участника, с которым вы ведете дела. Это включает покупателей, поставщиков и сотрудников. Перед тем, как вводить или импортировать продукты, вы должны определить ваших поставщиков. Перед тем, как создавать заказы, вы должны определить ваших покупателей. Это окно содержит всю информацию о вашем клиенте и введенные значения будут использованы для создания всех документов по сделкам.</value>
+  <value column="Name" original="Business Partner">Контрагент</value>
+  <value column="Description" original="Maintain Business Partners">Ведение контрагента</value>
+  <value column="Help" original="The Business Partner window allows you do define any party with whom you transact.  This includes customers, vendors and employees.  Prior to entering or importing products, you must define your vendors.  Prior to generating Orders you must define your customers.  This window holds all information about your business partner and the values entered will be used to generate all document transactions">Окно Контрагент позволяет вам определять любого участника, с которым вы ведете дела. Это включает покупателей, поставщиков и сотрудников. Перед тем, как вводить или импортировать продукты, вы должны определить ваших поставщиков. Перед тем, как создавать заказы, вы должны определить ваших покупателей. Это окно содержит всю информацию о вашем клиенте и введенные значения будут использованы для создания всех документов по сделкам.</value>
  </row>
  <row id="125" trl="Y">
   <value column="Name" original="Accounting Schema">Схема бухгалтерского учета</value>
@@ -184,7 +184,7 @@ Review and change the GL and Default accounts. The actual accounts used in trans
   <value column="Help" original="The Tax Category Window is used to enter and maintain Tax Categories.  Each product is associated with a tax category which facilitates reacting changing tax rates.">The Tax Category Window is used to enter and maintain Tax Categories.  Each product is associated with a tax category which facilitates reacting changing tax rates.</value>
  </row>
  <row id="139" trl="Y">
-  <value column="Name" original="Warehouse &amp; Locators">Склад и локаторы</value>
+  <value column="Name" original="Warehouse &amp; Locators">Склад (стандартный)</value>
   <value column="Description" original="Maintain Warehouses and Locators">Утвердить склады и локаторов</value>
   <value column="Help" original="The Warehouse and Locators Window defines each Warehouse, any Locators for that Warehouse and the Accounting parameters to be used for inventory in that Warehouse.">The Warehouse and Locators Window defines each Warehouse, any Locators for that Warehouse and the Accounting parameters to be used for inventory in that Warehouse.</value>
  </row>
@@ -315,8 +315,8 @@ Pricelists can be calculated and copied.  To speed up the calculation, the param
   <value column="Help" original="The Inventory Move Window allows you to move inventory from one location or warehouse to another.  After the appropriate lines are entered selecting the 'Process Movements' button will adjust the inventory.">The Inventory Move Window allows you to move inventory from one location or warehouse to another.  After the appropriate lines are entered selecting the 'Process Movements' button will adjust the inventory.</value>
  </row>
  <row id="172" trl="Y">
-  <value column="Name" original="Import Business Partner">Импорт бизнес-партнёра</value>
-  <value column="Description" original="Import Business Partner">Импорт бизнес-партнёра</value>
+  <value column="Name" original="Import Business Partner">Импорт контрагента</value>
+  <value column="Description" original="Import Business Partner">Импорт контрагента</value>
   <value column="Help" original="The Import Business Partner Window is an interim table which is used when importing external data into the system.  Selecting the 'Process' button will either add or modify the appropriate records.">The Import Business Partner Window is an interim table which is used when importing external data into the system.  Selecting the 'Process' button will either add or modify the appropriate records.</value>
  </row>
  <row id="174" trl="Y">
@@ -390,9 +390,9 @@ Pricelists can be calculated and copied.  To speed up the calculation, the param
   <value column="Help" original="The Production Window defines those plan and inventory movements that occur when a product is created from a bill of materials">Окно сборка определяет плановые и товарные движения, которые происходят, когда продукт создается из спецификации</value>
  </row>
  <row id="192" trl="Y">
-  <value column="Name" original="Business Partner Group">Группа бизнес-партнёров</value>
-  <value column="Description" original="Maintain Business Partner Groups">Ведение групп бизнес-партнёров</value>
-  <value column="Help" original="The Business Partner Group window allows you to define the accounting parameters at a group level.  If you define the accounting parameters for a group any Business Partner entered using this group will have these accounting parameters automatically populated.  You can then make any modifications necessary at the Business Partner level.">Окно Группа бизнес-партнёров позволяет вам определять параметры бухгалтерского учета на групповом уровне. Если вы определяете параметры бухгалтерского учета для группы, любой бизнес-партнёр, введенный используя эту группу, будет иметь эти параметры бухгалтерского учета автоматически определенными. Позднее вы сможете сделать любые необходимые модификации на уровне бизнес-партнёра.</value>
+  <value column="Name" original="Business Partner Group">Группа контрагентов</value>
+  <value column="Description" original="Maintain Business Partner Groups">Ведение групп контрагентов</value>
+  <value column="Help" original="The Business Partner Group window allows you to define the accounting parameters at a group level.  If you define the accounting parameters for a group any Business Partner entered using this group will have these accounting parameters automatically populated.  You can then make any modifications necessary at the Business Partner level.">Окно Группа контрагентов позволяет вам определять параметры бухгалтерского учета на групповом уровне. Если вы определяете параметры бухгалтерского учета для группы, любой контрагент, введенный используя эту группу, будет иметь эти параметры бухгалтерского учета автоматически определенными. Позднее вы сможете сделать любые необходимые модификации на уровне контрагента.</value>
  </row>
  <row id="193" trl="Y">
   <value column="Name" original="Notice">Уведомление</value>
@@ -659,8 +659,8 @@ The highest priotity has the Print Format, you define on a Document Type (exampl
  </row>
  <row id="251" trl="Y">
   <value column="Name" original="Asset">Активы</value>
-  <value column="Description" original="Asset used internally or by customers">Активы, использованные внутренне или покупателями</value>
-  <value column="Help" original="An asset is either created by purchasing or by delivering a product.  An asset can be used internally or be a customer asset.">Активы созжаются как при закупке, так и при получении продукта. Актив может быть использован внутренне или быть активом покупателя?</value>
+  <value column="Description" original="Asset used internally or by customers">Активы, используемые внутри организации или контрагентами</value>
+  <value column="Help" original="An asset is either created by purchasing or by delivering a product.  An asset can be used internally or be a customer asset.">Активы создаются как при закупке, так и при получении продукта. Активы могут использоваться внутри организации или быть активом контрагента.</value>
  </row>
  <row id="252" trl="Y">
   <value column="Name" original="Asset Group">Группа активов</value>
@@ -867,8 +867,8 @@ Before(!) entering transactions, Start the Replication Run to set up the remote 
   <value column="Help" original="Search Synonyms for Knowledge Keywords; Example: Product = Item">Поиск синонимов в базе знаний, например: Продукт=Позиция</value>
  </row>
  <row id="291" trl="Y">
-  <value column="Name" original="Business Partner Info">Информация о бизнес-партнёре</value>
-  <value column="Description" original="Document Information of Business Partners">Документ информации о бизнес-партнёре</value>
+  <value column="Name" original="Business Partner Info">Информация о контрагенте</value>
+  <value column="Description" original="Document Information of Business Partners">Документ информации о контрагенте</value>
   <value column="Help" original=""/>
  </row>
  <row id="292" trl="Y">
@@ -947,8 +947,8 @@ Before(!) entering transactions, Start the Replication Run to set up the remote 
   <value column="Help" original="Workflow Processor Server Parameters">Параметры процессора / сервера workflow</value>
  </row>
  <row id="307" trl="Y">
-  <value column="Name" original="Bid Topic">Тема предложения</value>
-  <value column="Description" original="Topic with Bids and Offers">Тема заявок и предложений</value>
+  <value column="Name" original="Bid Topic">Тема торгов</value>
+  <value column="Description" original="Topic with Bids and Offers">Тема торгов</value>
   <value column="Help" original="Manage Topics and veiw Bids and Offers">Управление темами и просмотр Bid-ов и предложений</value>
  </row>
  <row id="308" trl="Y">
@@ -1194,7 +1194,7 @@ If not defined, the first matching document type is used (e.g. AR Invoice - firs
   <value column="Help" original="Change notices can be linked to BOMs or be stand alone.">Напоминания об изменении могут быть слинкованы с ведомостью материалов или могут быть сами по себе.</value>
  </row>
  <row id="356" trl="Y">
-  <value column="Name" original="Change Notice">Уведомление о внесении ихменений</value>
+  <value column="Name" original="Change Notice">Уведомление о внесении изменений</value>
   <value column="Description" original="Maintain (Engineering) Change Notice (Version)">Утвердить (аппаратно) уведомление о внеснии изменений (версию)</value>
   <value column="Help" original="Stand-alone change notice - Change notices could also be directly linked to BOMs">Напоминание об изменении (само по себе) - Напоминание об изменении может быть также напрямую слинковано с ведомостью материалов</value>
  </row>
@@ -1899,6 +1899,31 @@ MRP - 110	 No exists Dem</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
+ <row id="53141" trl="N">
+  <value column="Name" original="Request OT">Request OT</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53142" trl="N">
+  <value column="Name" original="Meter">Meter</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53143" trl="N">
+  <value column="Name" original="Job Standard">Job Standard</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53144" trl="N">
+  <value column="Name" original="Preventive Maintenance">Preventive Maintenance</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53145" trl="N">
+  <value column="Name" original="Work Order">Work Order</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
  <row id="53149" trl="N">
   <value column="Name" original="Quality Test">Quality Test</value>
   <value column="Description" original=""/>
@@ -1912,7 +1937,7 @@ MRP - 110	 No exists Dem</value>
  <row id="53152" trl="Y">
   <value column="Name" original="Contact">Контакт</value>
   <value column="Description" original="Maintain Contacts">Контактное лицо</value>
-  <value column="Help" original="The Contact Window allows you to maintain Contacts who are individuals you deal with.  Contacts may also be internal or external users who can log into the system and have access to functionality via one or more roles.  A contact can also be a business partner contact.">Окно контакта позволяет вам создавать записи о людях, с которыми вы планируете в дальнейшем налаживать взаимоотношения.  Контакты могут быть внешними или внутренними пользователями которые могут войти в систему и получить доступ через одну или несколько ролей. Контактом может быть также бизнес-партнёр.</value>
+  <value column="Help" original="The Contact Window allows you to maintain Contacts who are individuals you deal with.  Contacts may also be internal or external users who can log into the system and have access to functionality via one or more roles.  A contact can also be a business partner contact.">Окно контакта позволяет вам создавать записи о людях, с которыми вы планируете в дальнейшем налаживать взаимоотношения.  Контакты могут быть внешними или внутренними пользователями которые могут войти в систему и получить доступ через одну или несколько ролей. Контактом может быть также контрагент.</value>
  </row>
  <row id="53153" trl="Y">
   <value column="Name" original="Lead">Лиды</value>
@@ -1925,7 +1950,7 @@ MRP - 110	 No exists Dem</value>
   <value column="Help" original=""/>
  </row>
  <row id="53155" trl="Y">
-  <value column="Name" original="Sales Opportunity">Возможные продажи</value>
+  <value column="Name" original="Sales Opportunity">Возможность продажи</value>
   <value column="Description" original="A potential sale">Потенциальная продажа</value>
   <value column="Help" original=""/>
  </row>
@@ -2125,8 +2150,8 @@ MRP - 110	 No exists Dem</value>
   <value column="Help" original=""/>
  </row>
  <row id="200074" trl="Y">
-  <value column="Name" original="Locator Type">Тип локатора</value>
-  <value column="Description" original="">Тип локатора</value>
+  <value column="Name" original="Locator Type">Тип места хранения</value>
+  <value column="Description" original="">Тип места хранения</value>
   <value column="Help" original=""/>
  </row>
  <row id="200083" trl="Y">
@@ -2205,19 +2230,19 @@ MRP - 110	 No exists Dem</value>
   <value column="Help" original="Technical Capability">Техническая возможность оказания услуги</value>
  </row>
  <row trl="Y" uuid="ea1936d2-51bd-4bbe-959a-ec24aedad3dc">
-  <value column="Name" original="Business Partner admin">Бизнес-партнёр для Администратора</value>
-  <value column="Description" original="Maintain Business Partners">Ведение бизнес-партнёра</value>
-  <value column="Help" original="The Business Partner window allows you do define any party with whom you transact.  This includes customers, vendors and employees.  Prior to entering or importing products, you must define your vendors.  Prior to generating Orders you must define your customers.  This window holds all information about your business partner and the values entered will be used to generate all document transactions">Окно Бизнес-партнёр позволяет вам определять любого участника, с которым вы ведете дела. Это включает покупателей, поставщиков и сотрудников. Перед тем, как вводить или импортировать продукты, вы должны определить ваших поставщиков. Перед тем, как создавать заказы, вы должны определить ваших покупателей. Это окно содержит всю информацию о вашем клиенте и введенные значения будут использованы для создания всех документов по сделкам.</value>
+  <value column="Name" original="Business Partner admin">Контрагент для Администратора</value>
+  <value column="Description" original="Maintain Business Partners">Ведение контрагента</value>
+  <value column="Help" original="The Business Partner window allows you do define any party with whom you transact.  This includes customers, vendors and employees.  Prior to entering or importing products, you must define your vendors.  Prior to generating Orders you must define your customers.  This window holds all information about your business partner and the values entered will be used to generate all document transactions">Окно Контрагент позволяет вам определять любого участника, с которым вы ведете дела. Это включает покупателей, поставщиков и сотрудников. Перед тем, как вводить или импортировать продукты, вы должны определить ваших поставщиков. Перед тем, как создавать заказы, вы должны определить ваших покупателей. Это окно содержит всю информацию о вашем клиенте и введенные значения будут использованы для создания всех документов по сделкам.</value>
  </row>
  <row trl="Y" uuid="deba92d5-b6c6-4f71-9189-1ff7f108dbff">
-  <value column="Name" original="Business Partner workers">Бизнес-партнёр для Сотрудника</value>
-  <value column="Description" original="Business Partner workers">Ведение бизнес-партнёра</value>
-  <value column="Help" original="The Business Partner window allows you do define any party with whom you transact.  This includes customers, vendors and employees.  Prior to entering or importing products, you must define your vendors.  Prior to generating Orders you must define your customers.  This window holds all information about your business partner and the values entered will be used to generate all document transactions">Окно Бизнес-партнёр позволяет вам определять любого участника, с которым вы ведете дела. Это включает покупателей, поставщиков и сотрудников. Перед тем, как вводить или импортировать продукты, вы должны определить ваших поставщиков. Перед тем, как создавать заказы, вы должны определить ваших покупателей. Это окно содержит всю информацию о вашем клиенте и введенные значения будут использованы для создания всех документов по сделкам.</value>
+  <value column="Name" original="Business Partner workers">Контрагент для Сотрудника</value>
+  <value column="Description" original="Business Partner workers">Ведение контрагента</value>
+  <value column="Help" original="The Business Partner window allows you do define any party with whom you transact.  This includes customers, vendors and employees.  Prior to entering or importing products, you must define your vendors.  Prior to generating Orders you must define your customers.  This window holds all information about your business partner and the values entered will be used to generate all document transactions">Окно Контрагент позволяет вам определять любого участника, с которым вы ведете дела. Это включает покупателей, поставщиков и сотрудников. Перед тем, как вводить или импортировать продукты, вы должны определить ваших поставщиков. Перед тем, как создавать заказы, вы должны определить ваших покупателей. Это окно содержит всю информацию о вашем клиенте и введенные значения будут использованы для создания всех документов по сделкам.</value>
  </row>
  <row trl="Y" uuid="2c618eb9-6bdd-4ce1-b64e-91c9d8dd0b9f">
   <value column="Name" original="Business Partner suppliers">Агент</value>
-  <value column="Description" original="Maintain Business suppliers">Ведение бизнес-партнёра</value>
-  <value column="Help" original="The Business Partner window allows you do define any party with whom you transact.  This includes customers, vendors and employees.  Prior to entering or importing products, you must define your vendors.  Prior to generating Orders you must define your customers.  This window holds all information about your business partner and the values entered will be used to generate all document transactions">Окно Бизнес-партнёр позволяет вам определять любого участника, с которым вы ведете дела. Это включает покупателей, поставщиков и сотрудников. Перед тем, как вводить или импортировать продукты, вы должны определить ваших поставщиков. Перед тем, как создавать заказы, вы должны определить ваших покупателей. Это окно содержит всю информацию о вашем клиенте и введенные значения будут использованы для создания всех документов по сделкам.</value>
+  <value column="Description" original="Maintain Business suppliers">Ведение контрагента</value>
+  <value column="Help" original="The Business Partner window allows you do define any party with whom you transact.  This includes customers, vendors and employees.  Prior to entering or importing products, you must define your vendors.  Prior to generating Orders you must define your customers.  This window holds all information about your business partner and the values entered will be used to generate all document transactions">Окно Контрагент позволяет вам определять любого участника, с которым вы ведете дела. Это включает покупателей, поставщиков и сотрудников. Перед тем, как вводить или импортировать продукты, вы должны определить ваших поставщиков. Перед тем, как создавать заказы, вы должны определить ваших покупателей. Это окно содержит всю информацию о вашем клиенте и введенные значения будут использованы для создания всех документов по сделкам.</value>
  </row>
  <row trl="Y" uuid="5256cfe7-2f9d-4efc-85a4-77061c25ec38">
   <value column="Name" original="Contract">Договор</value>
@@ -2230,7 +2255,7 @@ MRP - 110	 No exists Dem</value>
   <value column="Help" original="The User Window allows you to maintain User of the system.  Users can log into the system and have access to functionality via one or more roles.  A user can also be a business partner contact.">The User Window allows you to maintain User of the system.  Users can log into the system and have access to functionality via one or more roles.  A user can also be a business partner contact.</value>
  </row>
  <row trl="Y" uuid="e7a110c2-396d-4348-94a7-18a43b36f1ed">
-  <value column="Name" original="Active Lead">Лиды (активные)</value>
+  <value column="Name" original="Active Lead">Лид Продаж</value>
   <value column="Description" original="Maintain Leads">Управление лидами</value>
   <value column="Help" original="The Lead Window allows you to maintain Sales Leads.  These are unqualified contacts to who you wish to market to. ">Окно Лидов позволяет вводить данные о потенциальных клиентах.</value>
  </row>
@@ -2283,5 +2308,125 @@ MRP - 110	 No exists Dem</value>
   <value column="Name" original="ContractAgent">Договор</value>
   <value column="Description" original="Access/Edit RIT_Contract for Agent"/>
   <value column="Help" original="Access or edit table of contracrts RIT_Contract for Agent"/>
+ </row>
+ <row trl="Y" uuid="c6c0bafe-a003-4fab-a902-f07b6a5f4cf6">
+  <value column="Name" original="LeadTimeInEachStatus">Время нахождения лида в каждом статусе</value>
+  <value column="Description" original="LeadTimeInEachStatus">Время нахождения лида в каждом статусе</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="4f84074c-c026-4496-a667-f60d35dd63ae">
+  <value column="Name" original="Managment System">Внешние системы</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="820adcdc-4e2f-47a2-80fb-17704e857266">
+  <value column="Name" original="4">4</value>
+  <value column="Description" original="4">4</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="f1bd4968-411a-4b61-aff5-e8672e5f4f42">
+  <value column="Name" original="Business project">Бизнес проект</value>
+  <value column="Description" original="Business project">Бизнес проект</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="fe0724fc-bdc3-4e87-80db-6800895fb332">
+  <value column="Name" original="Sales Order DO">Размещение заказа ДО</value>
+  <value column="Description" original="Enter and change sales orders DO">Размещение заказа ДО</value>
+  <value column="Help" original="The Order Window allows you to enter and modify Sales Orders DO.">Окно позволяет создавать и изменять "Размещение заказа ДО"</value>
+ </row>
+ <row trl="Y" uuid="554d687b-7339-4321-9fcb-b2e75aa21e82">
+  <value column="Name" original="Order VTCP">Заказ ДО</value>
+  <value column="Description" original="Enter and change sales orders VTCP">Создание и изменение заказов ДО</value>
+  <value column="Help" original="The Order Window allows you to enter and modify Sales Orders VTCP.">Окно позволяет создавать и изменять заказы ДО.</value>
+ </row>
+ <row trl="N" uuid="de2e4e3f-dab3-40a9-bf93-9350fb3cfc64">
+  <value column="Name" original="Process Flow">Process Flow</value>
+  <value column="Description" original="Process Flow">Process Flow</value>
+  <value column="Help" original="Information about the process flow: state, transaction. Each process flow has a configurator template associated">Information about the process flow: state, transaction. Each process flow has a configurator template associated</value>
+ </row>
+ <row trl="N" uuid="582bd19a-3f78-4e60-82fb-27e9f7e01be4">
+  <value column="Name" original="Process Configurator">Process Configurator</value>
+  <value column="Description" original="Configurator of the process">Configurator of the process</value>
+  <value column="Help" original="Design and configure you business process">Design and configure you business process</value>
+ </row>
+ <row trl="N" uuid="e8b0f629-c5f3-4d69-9891-a9a682500f61">
+  <value column="Name" original="Process Operation">Process Operation</value>
+  <value column="Description" original="Operation list of the process">Operation list of the process</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="68345a8a-e738-4085-883c-49ec0395f2e4">
+  <value column="Name" original="Process Exception">Process Exception</value>
+  <value column="Description" original="Exception of the process">Exception of the process</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="f683030e-1c1a-493b-bdb8-b508d76e7f53">
+  <value column="Name" original="Process State">Process State</value>
+  <value column="Description" original="State of process">State of process</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="c97386fd-9cf4-47eb-b7bb-417b13f0f4b1">
+  <value column="Name" original="Process SubFlow State">Process SubFlow State</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="38a8d461-8c23-4008-848c-0e3932a73c2c">
+  <value column="Name" original="Word Functions">Функции обработки слов</value>
+  <value column="Description" original="Word Functions">Функции для обработки слов</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="b9ec95d5-189c-4123-be5d-e439119ed61d">
+  <value column="Name" original="Seller Funds">Фонды продавца</value>
+  <value column="Description" original="Seller Funds">Фонды продавца</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="e881372b-2187-44ee-a257-8c1eb3ad20e9">
+  <value column="Name" original="Meter Log">Meter Log</value>
+  <value column="Description" original="Independent Meter Log Management">Independent Meter Log Management</value>
+  <value column="Help" original="Enter your meter readings separate operations control">Enter your meter readings separate operations control</value>
+ </row>
+ <row trl="Y" uuid="ceaa570b-e1a2-406f-a01e-6cb020c4150c">
+  <value column="Name" original="Import Sales Opportunity">Импорт возможности продаж</value>
+  <value column="Description" original="Import Sales Opportunity">Импорт возможности продаж включая строки заказа и адреса услуги</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="b2f7ad21-5033-46e5-8fcc-55ab88b5aa29">
+  <value column="Name" original="Managment Queue">Очередь</value>
+  <value column="Description" original="Managment Queue">Очередь</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="7bc0c363-b41e-448a-b853-6c98551f5c16">
+  <value column="Name" original="Connection work order">Наряд на подключение</value>
+  <value column="Description" original="Connection work order">Наряд на подключение</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="70ae7e13-4988-4a9d-9ed2-568602bd4e2a">
+  <value column="Name" original="Warehouse">Склад</value>
+  <value column="Description" original="Maintain Warehouses and Locators">Утвердить склады и локаторов</value>
+  <value column="Help" original="The Warehouse and Locators Window defines each Warehouse, any Locators for that Warehouse and the Accounting parameters to be used for inventory in that Warehouse.">The Warehouse and Locators Window defines each Warehouse, any Locators for that Warehouse and the Accounting parameters to be used for inventory in that Warehouse.</value>
+ </row>
+ <row trl="Y" uuid="d754be5f-12aa-4a21-b99e-c4de20fa9bf1">
+  <value column="Name" original="Attribute Mapping">Сопоставление атрибутов</value>
+  <value column="Description" original="External System Attribute Mapping">Сопоставление атрибутов внешней системы</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="75dea0d1-9d60-4494-bb42-ead7a0f9c393">
+  <value column="Name" original="Import Technical Capability">Импортировать тех. возможность</value>
+  <value column="Description" original="Import Technical Capability for Addresses">Импорт технической возможности для адресов</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="494aa2f7-09cc-4741-8a2a-73140ecc970e">
+  <value column="Name" original="Workflow Activity (Custom)">Активность бизнес процессов</value>
+  <value column="Description" original="Workflow Activity (Custom)">Активность бизнес процессов</value>
+  <value column="Help" original="">Активность бизнес процессов</value>
+ </row>
+ <row trl="Y" uuid="5a7d34df-9fa9-4871-ab27-2bec53974e86">
+  <value column="Name" original="Request Source">Источник запросов</value>
+  <value column="Description" original="Request Source">Внешний источник запросов</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="946f97c2-d898-45a6-8619-9b3d16c17631">
+  <value column="Name" original="Contact activity">Активность контакта</value>
+  <value column="Description" original="Активность контакта">Активность контакта</value>
+  <value column="Help" original=""/>
  </row>
 </idempiereTrl>

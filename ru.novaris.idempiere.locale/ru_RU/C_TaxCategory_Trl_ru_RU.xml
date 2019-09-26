@@ -8,4 +8,12 @@
   <value column="Name" original="Стандартный">Стандартный</value>
   <value column="Description" original="Прямой налог">Прямой налог</value>
  </row>
+ <row trl="Y" uuid="c1d18e73-aa7b-43b1-9aab-f21ae1852f37">
+  <value column="Name" original="Категория налога Востоктелеком">Категория налога Востоктелеком</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="d0855013-601f-4fdd-8436-3d63cb118415">
+  <value column="Name" original="Стандартный-Юг">Стандартный-Юг</value>
+  <value column="Description" original=""/>
+ </row>
 </idempiereTrl>

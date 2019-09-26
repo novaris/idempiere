@@ -8,4 +8,8 @@
   <value column="PrintName" original="Dunning Letter">Dunning Letter</value>
   <value column="Note" original="Please pay the due invoices immediately">Please pay the due invoices immediately</value>
  </row>
+ <row trl="Y" uuid="349c32aa-051c-41a2-8767-e9c616965b08">
+  <value column="PrintName" original="У вас долг">У вас долг</value>
+  <value column="Note" original=""/>
+ </row>
 </idempiereTrl>

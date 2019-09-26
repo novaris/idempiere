@@ -17,8 +17,8 @@
   <value column="Description" original=""/>
  </row>
  <row id="91" trl="Y">
-  <value column="Name" original="List Validation">Список проверки</value>
-  <value column="Description" original="List Validation">Список проверки</value>
+  <value column="Name" original="List Validation">Утверждение списка</value>
+  <value column="Description" original="List Validation">Утверждение списка</value>
  </row>
  <row id="92" trl="Y">
   <value column="Name" original="DataType">Тип данных</value>
@@ -269,35 +269,35 @@
   <value column="Description" original="Reference -&gt;"><![CDATA[Ссылка ->]]></value>
  </row>
  <row id="164" trl="Y">
-  <value column="Name" original="Drafted">Спроектированно</value>
+  <value column="Name" original="Drafted">Черновик</value>
   <value column="Description" original=""/>
  </row>
  <row id="165" trl="Y">
-  <value column="Name" original="Completed">Завершено</value>
+  <value column="Name" original="Completed">Оформлен</value>
   <value column="Description" original=""/>
  </row>
  <row id="166" trl="Y">
-  <value column="Name" original="Approved">Подтверждено</value>
+  <value column="Name" original="Approved">Подтвержден</value>
   <value column="Description" original=""/>
  </row>
  <row id="168" trl="Y">
-  <value column="Name" original="Not Approved">Не подтверждено</value>
+  <value column="Name" original="Not Approved">Не подтвержден</value>
   <value column="Description" original=""/>
  </row>
  <row id="172" trl="Y">
-  <value column="Name" original="Voided">Аннулировано</value>
+  <value column="Name" original="Voided">Аннулирован</value>
   <value column="Description" original=""/>
  </row>
  <row id="173" trl="Y">
-  <value column="Name" original="Invalid">Недействительно</value>
+  <value column="Name" original="Invalid">Ошибка</value>
   <value column="Description" original=""/>
  </row>
  <row id="176" trl="Y">
-  <value column="Name" original="Reversed">Отменено</value>
+  <value column="Name" original="Reversed">Возвращен</value>
   <value column="Description" original=""/>
  </row>
  <row id="177" trl="Y">
-  <value column="Name" original="Closed">Закрыты</value>
+  <value column="Name" original="Closed">Закрыт</value>
   <value column="Description" original=""/>
  </row>
  <row id="178" trl="Y">
@@ -310,7 +310,7 @@
  </row>
  <row id="180" trl="Y">
   <value column="Name" original="Reject">Отклонить</value>
-  <value column="Description" original="Reject the approval of the document. ">Отклонить подтверждение документа </value>
+  <value column="Description" original="Reject the approval of the document. ">Отклонить подтверждение документа</value>
  </row>
  <row id="181" trl="Y">
   <value column="Name" original="Post">Проводки</value>
@@ -338,7 +338,7 @@
  </row>
  <row id="188" trl="Y">
   <value column="Name" original="Re-activate">Реактивизировать</value>
-  <value column="Description" original="Reopen Document and Reverse automatically generated documents; You need to Complete the transaction after the change. ">Переоткрыть документ и отменить автоматически сгенерированные документы; Это нужно для завершения транзакции после изменения. </value>
+  <value column="Description" original="Reopen Document and Reverse automatically generated documents; You need to Complete the transaction after the change. ">Переоткрыть документ и отменить автоматически сгенерированные документы; Это нужно для завершения транзакции после изменения.</value>
  </row>
  <row id="189" trl="Y">
   <value column="Name" original="&lt;None&gt;"><![CDATA[<Нет>]]></value>
@@ -1581,11 +1581,11 @@
   <value column="Description" original=""/>
  </row>
  <row id="539" trl="Y">
-  <value column="Name" original="Item">Пункт</value>
+  <value column="Name" original="Item">Предмет</value>
   <value column="Description" original=""/>
  </row>
  <row id="540" trl="Y">
-  <value column="Name" original="Service">Управление службами</value>
+  <value column="Name" original="Service">Услуга</value>
   <value column="Description" original=""/>
  </row>
  <row id="541" trl="Y">
@@ -1593,7 +1593,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="542" trl="Y">
-  <value column="Name" original="Expense type">Расход</value>
+  <value column="Name" original="Expense type">Расходы</value>
   <value column="Description" original=""/>
  </row>
  <row id="543" trl="Y">
@@ -2437,7 +2437,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="759" trl="Y">
-  <value column="Name" original="Urgent">Срочно</value>
+  <value column="Name" original="Urgent">Срочный</value>
   <value column="Description" original=""/>
  </row>
  <row id="760" trl="Y">
@@ -2689,7 +2689,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="823" trl="Y">
-  <value column="Name" original=" 99% Cleaning up"> 99% очистка</value>
+  <value column="Name" original=" 99% Cleaning up">99% на чистовую</value>
   <value column="Description" original=""/>
  </row>
  <row id="824" trl="Y">
@@ -4488,32 +4488,32 @@
   <value column="Name" original="Custom Separator Char">Custom Separator Char</value>
   <value column="Description" original=""/>
  </row>
- <row id="53587" trl="N">
-  <value column="Name" original="Activated">Activated</value>
+ <row id="53587" trl="Y">
+  <value column="Name" original="Activated">Активирован</value>
   <value column="Description" original=""/>
  </row>
- <row id="53588" trl="N">
-  <value column="Name" original="Disposed">Disposed</value>
+ <row id="53588" trl="Y">
+  <value column="Name" original="Disposed">Ликвидирован</value>
   <value column="Description" original=""/>
  </row>
- <row id="53589" trl="N">
-  <value column="Name" original="Depreciated">Depreciated</value>
+ <row id="53589" trl="Y">
+  <value column="Name" original="Depreciated">Самортизирован</value>
   <value column="Description" original=""/>
  </row>
- <row id="53590" trl="N">
-  <value column="Name" original="New">New</value>
+ <row id="53590" trl="Y">
+  <value column="Name" original="New">Новый</value>
   <value column="Description" original=""/>
  </row>
- <row id="53591" trl="N">
-  <value column="Name" original="Preservation">Preservation</value>
+ <row id="53591" trl="Y">
+  <value column="Name" original="Preservation">На консервации</value>
   <value column="Description" original=""/>
  </row>
- <row id="53592" trl="N">
-  <value column="Name" original="Retired">Retired</value>
+ <row id="53592" trl="Y">
+  <value column="Name" original="Retired">Списан</value>
   <value column="Description" original=""/>
  </row>
- <row id="53593" trl="N">
-  <value column="Name" original="Sold">Sold</value>
+ <row id="53593" trl="Y">
+  <value column="Name" original="Sold">Продан</value>
   <value column="Description" original=""/>
  </row>
  <row id="53594" trl="N">
@@ -4768,6 +4768,90 @@
   <value column="Name" original="4_Actual Debt (Invoices)">4_Actual Debt (Invoices)</value>
   <value column="Description" original=""/>
  </row>
+ <row id="53682" trl="N">
+  <value column="Name" original="Approve">Approve</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53683" trl="N">
+  <value column="Name" original="Void">Void</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53684" trl="N">
+  <value column="Name" original="Waiting Confirmation">Waiting Confirmation</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53685" trl="N">
+  <value column="Name" original="Repair">Repair</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53686" trl="N">
+  <value column="Name" original="CheckUp">CheckUp</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53687" trl="N">
+  <value column="Name" original="Type A">Type A</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53688" trl="N">
+  <value column="Name" original="Type B">Type B</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53689" trl="N">
+  <value column="Name" original="Bom Parts">Bom Parts</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53690" trl="N">
+  <value column="Name" original="BOM Tools">BOM Tools</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53691" trl="N">
+  <value column="Name" original="Human Resource">Human Resource</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53692" trl="N">
+  <value column="Name" original="Part">Part</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53693" trl="N">
+  <value column="Name" original="Tool">Tool</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53694" trl="N">
+  <value column="Name" original="Critical">Critical</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53695" trl="N">
+  <value column="Name" original="Active">Active</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53696" trl="N">
+  <value column="Name" original="Inacive">Inacive</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53697" trl="N">
+  <value column="Name" original="Calendar">Calendar</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53698" trl="N">
+  <value column="Name" original="Meter">Meter</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53699" trl="N">
+  <value column="Name" original="Completed">Completed</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53700" trl="N">
+  <value column="Name" original="In Progress">In Progress</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53701" trl="N">
+  <value column="Name" original="Not Started">Not Started</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53702" trl="N">
+  <value column="Name" original="Stop">Stop</value>
+  <value column="Description" original=""/>
+ </row>
  <row id="53703" trl="N">
   <value column="Name" original="Fixed Price">Fixed Price</value>
   <value column="Description" original=""/>
@@ -4801,7 +4885,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="53717" trl="Y">
-  <value column="Name" original="Existing Customer">Существующий бизнес-партнёр</value>
+  <value column="Name" original="Existing Customer">Существующий контрагент</value>
   <value column="Description" original=""/>
  </row>
  <row id="53718" trl="Y">
@@ -4936,8 +5020,8 @@
   <value column="Name" original="Same">Same</value>
   <value column="Description" original=""/>
  </row>
- <row id="200039" trl="N">
-  <value column="Name" original="Asset">Asset</value>
+ <row id="200039" trl="Y">
+  <value column="Name" original="Asset">Актив</value>
   <value column="Description" original=""/>
  </row>
  <row id="200043" trl="N">
@@ -5284,8 +5368,8 @@
   <value column="Name" original="Node">Node</value>
   <value column="Description" original=""/>
  </row>
- <row id="200137" trl="N">
-  <value column="Name" original="Physical Inventory">Physical Inventory</value>
+ <row id="200137" trl="Y">
+  <value column="Name" original="Physical Inventory">Физическая инвентвризация</value>
   <value column="Description" original=""/>
  </row>
  <row id="200138" trl="N">
@@ -5541,8 +5625,8 @@
   <value column="Description" original="Correspondent account">Корреспондентский счёт</value>
  </row>
  <row trl="N" uuid="94adc514-3729-44a3-b8d6-bb7ef414a4e7">
-  <value column="Name" original="Собственное">Собственное</value>
-  <value column="Description" original="Собственное">Собственное</value>
+  <value column="Name" original="Принадлежит абоненту">Принадлежит абоненту</value>
+  <value column="Description" original="Принадлежит абоненту">Принадлежит абоненту</value>
  </row>
  <row trl="N" uuid="71b032f2-ba6c-402d-bd15-47c2e8a159d6">
   <value column="Name" original="Аренда">Аренда</value>
@@ -5568,9 +5652,9 @@
   <value column="Name" original="ВКС">ВКС</value>
   <value column="Description" original="Услуга ВКС">Услуга ВКС</value>
  </row>
- <row trl="N" uuid="73743179-b5d0-4100-8aba-64d4faecca1e">
-  <value column="Name" original="Procuratory">Доверенность</value>
-  <value column="Description" original="Procuratory">Доверенность</value>
+ <row trl="Y" uuid="73743179-b5d0-4100-8aba-64d4faecca1e">
+  <value column="Name" original="Procuratory">Основание полномочий</value>
+  <value column="Description" original="Procuratory">Основание полномочий</value>
  </row>
  <row trl="N" uuid="cf885cc3-1b2f-4fd7-b124-0d0660bf09e6">
   <value column="Name" original="String">String</value>
@@ -5677,11 +5761,195 @@
   <value column="Description" original=""/>
  </row>
  <row trl="Y" uuid="3681fc99-3d62-4e12-aad6-d607a6c923d6">
-  <value column="Name" original="Supply Contract">Договор поставки</value>
+  <value column="Name" original="Supply Contract">Договор поручения</value>
   <value column="Description" original=""/>
  </row>
  <row trl="Y" uuid="38085942-1601-4fb8-9283-285ef560a1c1">
-  <value column="Name" original="Agency Contract">Договор поручения</value>
+  <value column="Name" original="Agency Contract">Договор поставки</value>
   <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="2f408c08-049b-447d-9e1c-27002b130e38">
+  <value column="Name" original="Virtue of the Powers">Протокол</value>
+  <value column="Description" original="Основание полномочий (Протокол)">Основание полномочий (Протокол)</value>
+ </row>
+ <row trl="Y" uuid="0c71cd87-4394-4f62-895d-87f659b28ff4">
+  <value column="Name" original="Male">Мужской</value>
+  <value column="Description" original="">Мужской пол</value>
+ </row>
+ <row trl="Y" uuid="4ebccdee-c5f9-411f-a084-78bc1d8bfc39">
+  <value column="Name" original="Female">Женский</value>
+  <value column="Description" original="">Женский пол</value>
+ </row>
+ <row trl="Y" uuid="ef02d389-073c-423a-969c-509de410f85f">
+  <value column="Name" original="Mass Email Send">Массовая рассылка почты</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="d047decb-37f2-46c9-8c18-639bf7adc190">
+  <value column="Name" original="Bystrov P.">Быстров П.</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="cec35229-b1ae-429c-abc5-0583f7602896">
+  <value column="Name" original="-">-</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="e7b1c845-ea56-4bb2-83e2-3d3fe15183cb">
+  <value column="Name" original="Kalyugina E.">Калюгина Е.</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="f5339512-8383-4f0c-90ad-d38a24b6c3c2">
+  <value column="Name" original="Kas'kova G.">Каськова Г.</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="63fa597e-2647-4114-9712-4b432b95ecca">
+  <value column="Name" original="Vasiliev I.">Васильев И.</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="a8025e20-4935-410a-9a3a-58d0abc3a3c3">
+  <value column="Name" original="Ibragimova M.">Ибрагимова М.</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="b65ffb24-78b8-4cc3-aca7-1db16a7c7cee">
+  <value column="Name" original="Krasnorogov A.">Краснорогов А.</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="d71e363f-c764-4846-b81f-766edadf1960">
+  <value column="Name" original="Markeeva E.">Маркеева Е.</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="99e194ce-d988-4189-b1e3-5af28c748515">
+  <value column="Name" original="Nabatova M.">Набатова М.</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="03dd02aa-d3af-4d8e-81d2-836e00895de3">
+  <value column="Name" original="Pribylov D.">Прибылов Д.</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="761cae46-b17d-4fe3-a351-be4dcfaf4f00">
+  <value column="Name" original="Feoktistova T.">Феоктистова Т.</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="5f284660-1054-41f9-abac-2b34f8d61e25">
+  <value column="Name" original="Tselikov I,">Целиков И.</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="63e81686-6e1e-4265-b593-1d2ec815b13e">
+  <value column="Name" original="Wait (Schedule)">Wait (Schedule)</value>
+  <value column="Description" original="Await according to selected DateTime column value">Await according to selected DateTime column value</value>
+ </row>
+ <row trl="N" uuid="82061da6-509c-4ff1-9022-a5c7a31adcc4">
+  <value column="Name" original="and">and</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="e81406f9-9bf0-43c2-bfde-06964cf1bf3e">
+  <value column="Name" original="or">or</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="0b6d6d85-20ee-4bec-92a5-06e0faa9f5b2">
+  <value column="Name" original="Warrant">Доверенность</value>
+  <value column="Description" original="Доверенность">Доверенность</value>
+ </row>
+ <row trl="Y" uuid="35944413-68af-4338-834e-71af5104e17c">
+  <value column="Name" original="Statute">Устав</value>
+  <value column="Description" original="">Устав</value>
+ </row>
+ <row trl="Y" uuid="d3e731ed-9e42-461a-a5a8-a4ce631b913c">
+  <value column="Name" original="Androgynous">Оба</value>
+  <value column="Description" original="">Относится к обоим полам</value>
+ </row>
+ <row trl="Y" uuid="5ef2dec7-b6b3-43ee-b0be-f55b7591f128">
+  <value column="Name" original="Exception">Исключение</value>
+  <value column="Description" original="Exception type">Тип - исключение</value>
+ </row>
+ <row trl="Y" uuid="9e703c17-3f7a-4f0f-a680-cf306296a700">
+  <value column="Name" original="Suffix">Суффикс</value>
+  <value column="Description" original="">Тип - суффикс слова</value>
+ </row>
+ <row trl="Y" uuid="a29a9293-f636-47c7-87ba-93b945378913">
+  <value column="Name" original="Prefix or First">Префикс</value>
+  <value column="Description" original="">Префикс или первое слово</value>
+ </row>
+ <row trl="N" uuid="ddd62986-534c-4914-bc4d-609e21841ad2">
+  <value column="Name" original="Собственный">Собственный</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="633f8478-1105-4eec-bf84-cb9dc36b1099">
+  <value column="Name" original="Агентский">Агентский</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="867ba746-e707-4c01-a3a6-81205e35f086">
+  <value column="Name" original="Клиентский">Клиентский</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="d93f9066-6c90-4b1a-9f73-33ff049f0efe">
+  <value column="Name" original="Queuing up commands">Постановка в очередь команд</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="8e422de3-c300-4c8e-ad8e-fa58af8b849b">
+  <value column="Name" original="Sending team">Отправка команды</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="75942989-1c9f-48c7-8dff-318b5b2fa781">
+  <value column="Name" original="Successful result">Успешный результат</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="684561c2-5615-48a6-822e-e616da2d3d80">
+  <value column="Name" original="Error">Ошибка</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="0a34f2b9-53c2-4c73-8bf2-2df7fac36043">
+  <value column="Name" original="Waiting for an answer">Ожидание ответа</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="b2d70dee-c73e-4557-9b90-2bf157ef485c">
+  <value column="Name" original="Mac Address">MAC адрес</value>
+  <value column="Description" original="Mac Address">МАС адрес</value>
+ </row>
+ <row trl="Y" uuid="f7e54523-547c-42fe-9091-0fe92441d2cb">
+  <value column="Name" original="Serial Number">Серийный номер</value>
+  <value column="Description" original="Serial Number">Серийный номер</value>
+ </row>
+ <row trl="Y" uuid="c617802e-0f9a-4bb2-af5c-1392f9590874">
+  <value column="Name" original="High">Высокий</value>
+  <value column="Description" original="High priority">Высокий приоритет</value>
+ </row>
+ <row trl="Y" uuid="affa090d-552e-455c-86fe-634d8907e746">
+  <value column="Name" original="Medium">Средний</value>
+  <value column="Description" original="Medium Priority">Средний приоритет</value>
+ </row>
+ <row trl="Y" uuid="9d7a5351-fffc-4033-bef6-0c4b7ac57d0d">
+  <value column="Name" original="Low">Низкий</value>
+  <value column="Description" original="Low priority">Низкий приоритет</value>
+ </row>
+ <row trl="Y" uuid="02fc0951-b8cf-479d-a910-3f1c62cc8570">
+  <value column="Name" original="High">Высокий</value>
+  <value column="Description" original="Высокий приоритет">Высокий приоритет</value>
+ </row>
+ <row trl="Y" uuid="3f48cef5-cd76-4bd1-95f4-fc237fc55512">
+  <value column="Name" original="Middle">Средний</value>
+  <value column="Description" original="Средний приоритет">Средний приоритет</value>
+ </row>
+ <row trl="Y" uuid="7aaf24ae-5d5a-4dc9-891a-2db8f5903585">
+  <value column="Name" original="Low">Низкий</value>
+  <value column="Description" original="Низкий приоритет">Низкий приоритет</value>
+ </row>
+ <row trl="Y" uuid="82a91ca5-1ddf-4a59-b27e-1b54ab7ff133">
+  <value column="Name" original="Parse">Ответ обработан</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="fe05a70c-aad0-4545-8f16-219662c643ff">
+  <value column="Name" original="Email">Е-майл</value>
+  <value column="Description" original="Email">Е-майл</value>
+ </row>
+ <row trl="Y" uuid="8c6b840c-bcf7-4220-b0ac-9d008c12cb42">
+  <value column="Name" original="Document">Исходящий документ</value>
+  <value column="Description" original="">Исходящий документ</value>
+ </row>
+ <row trl="N" uuid="6c9b9711-dc7a-4173-a2d5-626d5a8e4b7a">
+  <value column="Name" original="Hughes">Hughes</value>
+  <value column="Description" original="Hughes">Hughes</value>
+ </row>
+ <row trl="N" uuid="6918a8ff-c306-45ba-8f90-82c4d7911966">
+  <value column="Name" original="Gilat">Gilat</value>
+  <value column="Description" original="Gilat">Gilat</value>
  </row>
 </idempiereTrl>

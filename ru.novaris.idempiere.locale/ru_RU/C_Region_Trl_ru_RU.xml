@@ -61,7 +61,7 @@
   <value column="Name" original="Мордовия Республика">Мордовия Республика</value>
  </row>
  <row id="50031" trl="N">
-  <value column="Name" original="Саха /Якутия/ Республика">Саха /Якутия/ Республика</value>
+  <value column="Name" original="Саха (Якутия) Республика">Саха /Якутия/ Республика</value>
  </row>
  <row id="50032" trl="N">
   <value column="Name" original="Северная Осетия - Алания Республика">Северная Осетия - Алания Республика</value>
@@ -82,7 +82,7 @@
   <value column="Name" original="Чеченская Республика">Чеченская Республика</value>
  </row>
  <row id="50038" trl="N">
-  <value column="Name" original="Чувашская Республика">Чувашская Республика</value>
+  <value column="Name" original="Чувашская Республика - Чувашия">Чувашская Республика</value>
  </row>
  <row id="50039" trl="N">
   <value column="Name" original="Алтайский край">Алтайский край</value>
@@ -250,10 +250,10 @@
   <value column="Name" original="Ярославская область">Ярославская область</value>
  </row>
  <row id="50094" trl="N">
-  <value column="Name" original="Москва город">Москва город</value>
+  <value column="Name" original="Москва">Москва город</value>
  </row>
  <row id="50095" trl="N">
-  <value column="Name" original="Санкт-Петербург город">Санкт-Петербург город</value>
+  <value column="Name" original="Санкт-Петербург">Санкт-Петербург город</value>
  </row>
  <row id="50096" trl="N">
   <value column="Name" original="Еврейская автономная область">Еврейская Аобл</value>
@@ -265,7 +265,7 @@
   <value column="Name" original="Ненецкий автономный округ">Ненецкий АО</value>
  </row>
  <row id="50099" trl="N">
-  <value column="Name" original="Иркутская область Усть-Ордынский Бурятский округ">Эвенкийский АО</value>
+  <value column="Name" original="Иркутская область ">Эвенкийский АО</value>
  </row>
  <row id="50100" trl="N">
   <value column="Name" original="Ханты-Мансийский автономный округ - Югра">Ханты-Мансийский АО</value>
@@ -277,6 +277,12 @@
   <value column="Name" original="Ямало-Ненецкий автономный округ">Ямало-Ненецкий АО</value>
  </row>
  <row id="50103" trl="N">
-  <value column="Name" original="Байконур город">Байконур город</value>
+  <value column="Name" original="Байконур">Байконур город</value>
+ </row>
+ <row id="50104" trl="Y">
+  <value column="Name" original="Крым Республика">Крым Республика</value>
+ </row>
+ <row id="50105" trl="Y">
+  <value column="Name" original="Севастополь">Севастополь</value>
  </row>
 </idempiereTrl>

@@ -8,4 +8,8 @@
   <value column="Name" original="Commissions Paid">Commissions Paid</value>
   <value column="Description" original=""/>
  </row>
+ <row trl="Y" uuid="c0ffe117-310e-43d5-bd5b-84b9196c0f00">
+  <value column="Name" original="CH_EXPENSE Charge expense">CH_EXPENSE Charge expense</value>
+  <value column="Description" original=""/>
+ </row>
 </idempiereTrl>

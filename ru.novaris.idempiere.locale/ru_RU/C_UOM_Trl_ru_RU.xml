@@ -71,7 +71,7 @@
   <value column="UOMSymbol" original="L">L</value>
  </row>
  <row trl="Y" uuid="7ce0a5be-6c94-4c21-a5e2-2e818e6d294c">
-  <value column="Name" original="Штука">Штука</value>
+  <value column="Name" original="Штук">Штук</value>
   <value column="Description" original="Единица изменерия штучных продуктов.">Единица изменерия штучных продуктов.</value>
   <value column="UOMSymbol" original="шт">шт</value>
  </row>

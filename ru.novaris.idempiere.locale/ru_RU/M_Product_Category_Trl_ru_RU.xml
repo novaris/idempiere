@@ -97,8 +97,8 @@
   <value column="Description" original="Дополнительные услуги SENSAT">Дополнительные услуги SENSAT</value>
  </row>
  <row trl="Y" uuid="b0110d54-acaf-4336-8426-3627b9e0368c">
-  <value column="Name" original="Услуга доступа к спутниковому интернету">Услуга доступа к спутниковому интернету</value>
-  <value column="Description" original="Услуга доступа к спутниковому интернету">Услуга доступа к спутниковому интернету</value>
+  <value column="Name" original="Тарифные планы">Тарифные планы</value>
+  <value column="Description" original="Тарифные планы">Тарифные планы</value>
  </row>
  <row trl="Y" uuid="2336b089-8163-4563-93c7-4e3ddd8c7a8a">
   <value column="Name" original="Выбор услуг для SENSAT">Выбор услуг для SENSAT</value>
@@ -107,5 +107,85 @@
  <row trl="Y" uuid="a3f4a074-f9c7-4e5a-867f-1e5949d21d67">
   <value column="Name" original="Тип услуги для ДО">Тип услуги для ДО</value>
   <value column="Description" original="Тип услуги для дополнительного обследования">Тип услуги для дополнительного обследования</value>
+ </row>
+ <row trl="Y" uuid="23b5fc0c-e70b-4376-9133-8af5a4a959b8">
+  <value column="Name" original="Информационные системы предприятия">Информационные системы предприятия</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="14edbca1-f464-4863-8c25-31cb572494ab">
+  <value column="Name" original="Products Summary">Products Summary</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="36e5ba4f-8203-4e5c-8d06-f0bb569cc419">
+  <value column="Name" original="Категория SSB">Категория SSB</value>
+  <value column="Description" original="Категория SSB">Категория SSB</value>
+ </row>
+ <row trl="Y" uuid="4465276e-81aa-400e-ab1d-1fe2a928c5fc">
+  <value column="Name" original="ЦЗССС">ЦЗССС</value>
+  <value column="Description" original="Центральная земная станция спутниковой связи (HUB)">Центральная земная станция спутниковой связи (HUB)</value>
+ </row>
+ <row trl="Y" uuid="4c16c19f-1dac-4733-b709-4266d6a7842d">
+  <value column="Name" original="Спутники">Спутники</value>
+  <value column="Description" original="Спутники космической группировки">Спутники космической группировки</value>
+ </row>
+ <row trl="Y" uuid="dfe9f9e5-086d-4c8d-bf4a-00a8c24422f6">
+  <value column="Name" original="Антенны ЦЗССС">Антенны ЦЗССС</value>
+  <value column="Description" original="Антенны центральной земной станции спутниковой связи">Антенны центральной земной станции спутниковой связи</value>
+ </row>
+ <row trl="Y" uuid="c95e7a2c-5a65-4356-85b5-324152adeaa4">
+  <value column="Name" original="МЗССС">МЗССС</value>
+  <value column="Description" original="Малые земные станциии спутниковой связи">Малые земные станциии спутниковой связи</value>
+ </row>
+ <row trl="Y" uuid="aef701e5-bec6-498c-8004-4d4b6282fbf6">
+  <value column="Name" original="Аренда">Аренда</value>
+  <value column="Description" original="Аренда">Аренда</value>
+ </row>
+ <row trl="Y" uuid="6e82e80b-510a-4aa7-a40c-ad8e2b0af378">
+  <value column="Name" original="Типы комплектов">Типы комплектов</value>
+  <value column="Description" original="Типы комплектов">Типы комплектов</value>
+ </row>
+ <row trl="Y" uuid="802f8ce3-c7ce-49e5-a555-042fc0e1b7cd">
+  <value column="Name" original="Модемы">Модемы</value>
+  <value column="Description" original="Модемы">Модемы</value>
+ </row>
+ <row trl="Y" uuid="938331c1-7a79-46b9-934c-d644feaeb8d2">
+  <value column="Name" original="Приемопередатчики">Приемопередатчики</value>
+  <value column="Description" original="Приемопередатчики">Приемопередатчики</value>
+ </row>
+ <row trl="Y" uuid="6e537187-10b8-4ef0-b9a5-c1bc861f603c">
+  <value column="Name" original="Опоры">Опоры</value>
+  <value column="Description" original="Опоры">Опоры</value>
+ </row>
+ <row trl="Y" uuid="e29bf4a5-bce6-469d-be39-40a95948d389">
+  <value column="Name" original="Антенны">Антенны</value>
+  <value column="Description" original="Антенны">Антенны</value>
+ </row>
+ <row trl="Y" uuid="d7576ba6-4a64-4907-a5b1-d67172974340">
+  <value column="Name" original="Кабели">Кабели</value>
+  <value column="Description" original="Кабели">Кабели</value>
+ </row>
+ <row trl="Y" uuid="8ae799a7-bd88-4f90-be1e-f88a74302b04">
+  <value column="Name" original="Разъемы">Разъемы</value>
+  <value column="Description" original="Разъемы">Разъемы</value>
+ </row>
+ <row trl="Y" uuid="1e2de8f9-285f-4c35-9893-48c85409faaf">
+  <value column="Name" original="Блок питания">Блок питания</value>
+  <value column="Description" original="Блок питания">Блок питания</value>
+ </row>
+ <row trl="Y" uuid="367907ac-91f9-44b8-8931-d8287d9922de">
+  <value column="Name" original="Комплекты">Комплекты</value>
+  <value column="Description" original="Комплекты">Комплекты</value>
+ </row>
+ <row trl="Y" uuid="59e3a06a-7b76-47e1-8c1b-76ea3900a9a4">
+  <value column="Name" original="Услуга доступа к спутниковому интернету">Услуга доступа к спутниковому интернету</value>
+  <value column="Description" original="Услуга доступа к спутниковому интернету">Услуга доступа к спутниковому интернету</value>
+ </row>
+ <row trl="Y" uuid="30158f6e-ab14-455c-a0c3-f84b0326e7fe">
+  <value column="Name" original="Тестовая категория Колдаков">Тестовая категория Колдаков</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="a3bab181-1284-4010-a09f-6e0738d8c049">
+  <value column="Name" original="Дополнительные услуги VSAT">Дополнительные услуги VSAT</value>
+  <value column="Description" original="Дополнительные услуги VSAT">Дополнительные услуги VSAT</value>
  </row>
 </idempiereTrl>
