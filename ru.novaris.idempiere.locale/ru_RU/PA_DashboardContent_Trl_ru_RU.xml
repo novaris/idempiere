@@ -20,11 +20,6 @@
   <value column="Description" original="Performance meters">Параметры производительности (эффективности)</value>
   <value column="HTML" original=""/>
  </row>
- <row id="50004" trl="N">
-  <value column="Name" original="Calendar">Calendar</value>
-  <value column="Description" original="Request Calendar">Request Calendar</value>
-  <value column="HTML" original=""/>
- </row>
  <row id="200000" trl="Y">
   <value column="Name" original="Recent Items">Последние элементы</value>
   <value column="Description" original="Recent items">Последние элементы</value>
@@ -65,13 +60,8 @@
   <value column="Description" original=""/>
   <value column="HTML" original=""/>
  </row>
- <row trl="Y" uuid="28c5267e-2b09-4e40-aa99-9707d1c9bec5">
-  <value column="Name" original="Просроченные лиды">Просроченные лиды</value>
-  <value column="Description" original="Просроченные лиды">Просроченные лиды</value>
-  <value column="HTML" original=""/>
- </row>
  <row trl="Y" uuid="bac9c9e6-c194-40c6-9954-485da100d982">
-  <value column="Name" original="Orders">Заказы</value>
+  <value column="Name" original="Orders">Заказы ДО</value>
   <value column="Description" original="Manager orders">Заказы менеджера</value>
   <value column="HTML" original=""/>
  </row>
@@ -83,6 +73,46 @@
  <row trl="N" uuid="1d53beb9-b65c-44a0-97b3-dea75e2d3ae7">
   <value column="Name" original="new_contact_activities">Новые активности Лидов/Контрагентов</value>
   <value column="Description" original=""/>
+  <value column="HTML" original=""/>
+ </row>
+ <row trl="N" uuid="dd2ad175-9f6a-45b4-aee2-17be4c32dea6">
+  <value column="Name" original="test">test</value>
+  <value column="Description" original=""/>
+  <value column="HTML" original=""/>
+ </row>
+ <row trl="Y" uuid="62824a2f-9522-48d1-a066-998e7d0481c8">
+  <value column="Name" original="my_new_leads">Мои лиды</value>
+  <value column="Description" original=""/>
+  <value column="HTML" original=""/>
+ </row>
+ <row trl="Y" uuid="4928a52e-f0da-4b99-bea3-ad55000c863f">
+  <value column="Name" original="dep_new_leads">Лиды подразделения</value>
+  <value column="Description" original=""/>
+  <value column="HTML" original=""/>
+ </row>
+ <row trl="Y" uuid="07f1f7dd-2a0c-4f60-a8d1-c4d600bb1a9c">
+  <value column="Name" original="mpinfo">Техподдержка</value>
+  <value column="Description" original="">Техподдержка</value>
+  <value column="HTML" original=""/>
+ </row>
+ <row trl="Y" uuid="df7195b8-e3e5-4234-ba0e-d58ea52b4a80">
+  <value column="Name" original="Requests">Запросы</value>
+  <value column="Description" original=""/>
+  <value column="HTML" original=""/>
+ </row>
+ <row trl="Y" uuid="957cdc53-741b-402c-be63-7de4f3c2f8c2">
+  <value column="Name" original="mpottt">Очереди заявок</value>
+  <value column="Description" original=""/>
+  <value column="HTML" original=""/>
+ </row>
+ <row trl="Y" uuid="2676b7b7-d013-4d4b-93be-f546e5b32112">
+  <value column="Name" original="Omnisearch">Универсальный поиск</value>
+  <value column="Description" original="">Универсальный поиск</value>
+  <value column="HTML" original=""/>
+ </row>
+ <row trl="Y" uuid="c68a2902-ebe3-4e66-a5da-257615845ea0">
+  <value column="Name" original="RIT Activities WF">Активности бизнес-процессов</value>
+  <value column="Description" original="RIT Activities WF">Активности бизнес-процессов</value>
   <value column="HTML" original=""/>
  </row>
 </idempiereTrl>

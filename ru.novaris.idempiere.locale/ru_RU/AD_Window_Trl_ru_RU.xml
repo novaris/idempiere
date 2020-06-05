@@ -659,8 +659,8 @@ The highest priotity has the Print Format, you define on a Document Type (exampl
  </row>
  <row id="251" trl="Y">
   <value column="Name" original="Asset">Активы</value>
-  <value column="Description" original="Asset used internally or by customers">Активы, используемые внутри организации или контрагентами</value>
-  <value column="Help" original="An asset is either created by purchasing or by delivering a product.  An asset can be used internally or be a customer asset.">Активы создаются как при закупке, так и при получении продукта. Активы могут использоваться внутри организации или быть активом контрагента.</value>
+  <value column="Description" original="Asset used internally or by customers">Asset used internally or by customers</value>
+  <value column="Help" original="An asset is either created by purchasing or by delivering a product.  An asset can be used internally or be a customer asset.">An asset is either created by purchasing or by delivering a product.  An asset can be used internally or be a customer asset.</value>
  </row>
  <row id="252" trl="Y">
   <value column="Name" original="Asset Group">Группа активов</value>
@@ -1169,9 +1169,9 @@ If not defined, the first matching document type is used (e.g. AR Invoice - firs
   <value column="Help" original="Define the web store setup.  ">Определение установок для Интернет магазина.  </value>
  </row>
  <row id="351" trl="Y">
-  <value column="Name" original="Position">Должность</value>
-  <value column="Description" original="Maintain Job Positions">Утвердить рабочие позиции</value>
-  <value column="Help" original="Maintain internal (employee) or external positions">Ведение внутренних (служащий) или внешних служебных положений.</value>
+  <value column="Name" original="Position">Должность контактных лиц</value>
+  <value column="Description" original="Maintain Job Positions">Должность контактных лиц</value>
+  <value column="Help" original="Maintain internal (employee) or external positions">Ведение внутренних (служащий) или внешних служебных должностей.</value>
  </row>
  <row id="352" trl="Y">
   <value column="Name" original="Position Category">Категория служебного положения</value>
@@ -1579,24 +1579,24 @@ MRP - 110	 No exists Dem</value>
   <value column="Help" original=""/>
  </row>
  <row id="53032" trl="Y">
-  <value column="Name" original="Payroll Contract">Контракт платежной ведомости</value>
-  <value column="Description" original="Maintain Payroll Contract">Утверждение контракта платежной ведомости</value>
+  <value column="Name" original="Payroll Contract">Трудовой договор</value>
+  <value column="Description" original="Maintain Payroll Contract">Трудовой договор</value>
   <value column="Help" original="The Payroll Contract Window is used to define the laboral condition for the employes in a payroll">The Payroll Contract Window is used to define the laboral condition for the employes in a payroll</value>
  </row>
  <row id="53033" trl="Y">
-  <value column="Name" original="Payroll Employee">Служащий платежной ведомости</value>
-  <value column="Description" original="Maintain Payroll Employee">Утверждение служацего платежной ведомости</value>
+  <value column="Name" original="Payroll Employee">Сотрудник</value>
+  <value column="Description" original="Maintain Payroll Employee">Сотрудник</value>
   <value column="Help" original="The Payroll Employee Window is used to define the Employees into the Organizational">The Payroll Employee Window is used to define the Employees into the Organizational</value>
  </row>
  <row id="53034" trl="Y">
-  <value column="Name" original="Payroll Department">Отдел платежной ведомости</value>
-  <value column="Description" original="Maintain Payroll Department">Утвердить отдел платежной ведомости</value>
+  <value column="Name" original="Payroll Department">Подразделение/Рабочая группа</value>
+  <value column="Description" original="Maintain Payroll Department">Подразделение/Рабочая группа</value>
   <value column="Help" original="The Payroll Departament Window is used to define the Organizational Structure for company">The Payroll Departament Window is used to define the Organizational Structure for company</value>
  </row>
  <row id="53035" trl="Y">
-  <value column="Name" original="Payroll Job">Работа платежной ведомости</value>
-  <value column="Description" original="Maintain Payroll Job">Утвердить работу платежной ведомости</value>
-  <value column="Help" original="The Payroll Employee Window is used to define the Jobs into the Organizational Structure for a Company">Окно Заработная плата сотрудникам используется для определения должностей в организационной структуре компании</value>
+  <value column="Name" original="Payroll Job">Должности в рабочих группах техподдержки</value>
+  <value column="Description" original="Maintain Payroll Job">Должности в рабочих группах техподдержки</value>
+  <value column="Help" original="The Payroll Employee Window is used to define the Jobs into the Organizational Structure for a Company">Окно Должности в рабочих группах техподдержки используется для определения должностей в организационной структуре компании</value>
  </row>
  <row id="53036" trl="Y">
   <value column="Name" original="Payroll Concept Catalog">Каталог концепции платежной ведомости</value>
@@ -2194,10 +2194,10 @@ MRP - 110	 No exists Dem</value>
   <value column="Description" original="Users from All Clients">Users from All Clients</value>
   <value column="Help" original=""/>
  </row>
- <row trl="Y" uuid="3db3509b-c475-4ef4-84ae-bf5949a85708">
-  <value column="Name" original="Service Request">Обращение</value>
-  <value column="Description" original="Enter and change Service Request">Обращение</value>
-  <value column="Help" original="The Service Request Window allows you to enter and modify Service Request.  ">Окно обращения позволяет вводить запросы на предоставление услуг.  </value>
+ <row trl="N" uuid="3db3509b-c475-4ef4-84ae-bf5949a85708">
+  <value column="Name" original="Service Request">Service Request</value>
+  <value column="Description" original="Enter and change Service Request">Enter and change Service Request</value>
+  <value column="Help" original="The Service Request Window allows you to enter and modify Service Request.  ">The Service Request Window allows you to enter and modify Service Request.  </value>
  </row>
  <row trl="Y" uuid="7c61d916-866e-4596-b869-116e093c5294">
   <value column="Name" original="Contact Search">Поиск контакта</value>
@@ -2285,9 +2285,9 @@ MRP - 110	 No exists Dem</value>
   <value column="Help" original=""/>
  </row>
  <row trl="Y" uuid="ecdbe4e7-5241-4012-b584-9e2b1cb89d2b">
-  <value column="Name" original="Macro segment">Макросегмент</value>
-  <value column="Description" original="Macro segment">Макросегмент</value>
-  <value column="Help" original="Macro segment">Макросегмент</value>
+  <value column="Name" original="Macro segment">Бизнес логика</value>
+  <value column="Description" original="Macro segment">Бизнес логика</value>
+  <value column="Help" original="Macro segment">Бизнес логика</value>
  </row>
  <row trl="Y" uuid="31f3d418-5176-4365-82bd-df5de7f15d0e">
   <value column="Name" original="Public Procurement Attribute">Атрибуты Госзакупок</value>
@@ -2315,8 +2315,8 @@ MRP - 110	 No exists Dem</value>
   <value column="Help" original=""/>
  </row>
  <row trl="Y" uuid="4f84074c-c026-4496-a667-f60d35dd63ae">
-  <value column="Name" original="Managment System">Внешние системы</value>
-  <value column="Description" original=""/>
+  <value column="Name" original="Managment System">Система команд</value>
+  <value column="Description" original="">Система команд</value>
   <value column="Help" original=""/>
  </row>
  <row trl="N" uuid="820adcdc-4e2f-47a2-80fb-17704e857266">
@@ -2335,9 +2335,9 @@ MRP - 110	 No exists Dem</value>
   <value column="Help" original="The Order Window allows you to enter and modify Sales Orders DO.">Окно позволяет создавать и изменять "Размещение заказа ДО"</value>
  </row>
  <row trl="Y" uuid="554d687b-7339-4321-9fcb-b2e75aa21e82">
-  <value column="Name" original="Order VTCP">Заказ ДО</value>
-  <value column="Description" original="Enter and change sales orders VTCP">Создание и изменение заказов ДО</value>
-  <value column="Help" original="The Order Window allows you to enter and modify Sales Orders VTCP.">Окно позволяет создавать и изменять заказы ДО.</value>
+  <value column="Name" original="Order DO">Заказ ДО</value>
+  <value column="Description" original="Enter and change sales orders DO">Работа с заказом ДО</value>
+  <value column="Help" original="The Order Window allows you to enter and modify Sales Orders VTCP."/>
  </row>
  <row trl="N" uuid="de2e4e3f-dab3-40a9-bf93-9350fb3cfc64">
   <value column="Name" original="Process Flow">Process Flow</value>
@@ -2427,6 +2427,176 @@ MRP - 110	 No exists Dem</value>
  <row trl="Y" uuid="946f97c2-d898-45a6-8619-9b3d16c17631">
   <value column="Name" original="Contact activity">Активность контакта</value>
   <value column="Description" original="Активность контакта">Активность контакта</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="6c44fede-f65d-4b6b-aa9a-31ac7b47189d">
+  <value column="Name" original="Asterisk Configuration">Настройка Asterisk</value>
+  <value column="Description" original="Asterisk Configuration">Настройка Asterisk</value>
+  <value column="Help" original="">Настройка Asterisk CTI</value>
+ </row>
+ <row trl="Y" uuid="e0ef4665-2579-4236-bc82-2ebc4b1e3da7">
+  <value column="Name" original="Configuration Units">Конфигурационные единицы</value>
+  <value column="Description" original="Configuration Units Service Desk">Конфигурационные единицы для подсистемы технической поддержки</value>
+  <value column="Help" original="">Конфигурационные единицы, используемые в подсистеме технической поддержки</value>
+ </row>
+ <row trl="Y" uuid="d1220e8d-3717-4899-898c-bda7411994ce">
+  <value column="Name" original="Segments">Бизнес сегменты</value>
+  <value column="Description" original="Segments from Macrosegment">Бизнес сегменты</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="4c59aa2b-36c0-4d89-9dbe-d6afe0eca189">
+  <value column="Name" original="Sales Order CI">Заказ коммерческого включения</value>
+  <value column="Description" original="Enter and change sales orders Commercial inclusion">Заказ коммерческого включения</value>
+  <value column="Help" original="The Order Window allows you to enter and modify Sales Orders Commercial inclusion.">Заказ коммерческого включения</value>
+ </row>
+ <row trl="Y" uuid="8bb6be55-ab97-498d-b98c-6203679c8b64">
+  <value column="Name" original="Assets (Customer)">Активы Клиентов</value>
+  <value column="Description" original="Asset used internally or by customers">Asset used internally or by customers</value>
+  <value column="Help" original="An asset is either created by purchasing or by delivering a product.  An asset can be used internally or be a customer asset.">An asset is either created by purchasing or by delivering a product.  An asset can be used internally or be a customer asset.</value>
+ </row>
+ <row trl="Y" uuid="ae1bee3c-f66c-4c49-9425-ebdc1a154715">
+  <value column="Name" original="Sales Order (CS orders processing)">Заказ АО</value>
+  <value column="Description" original="The form for CS orders processing">Заказ АО</value>
+  <value column="Help" original="The form for CS orders processing"/>
+ </row>
+ <row trl="Y" uuid="7e204a5e-4dc3-4aa7-8e86-c6345a748c43">
+  <value column="Name" original="Configuration Unit Status">Статус конфигурационной единицы</value>
+  <value column="Description" original="Configuration Unit Status">Статус конфигурационной единицы</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="875767bc-7e56-4fa3-a0e3-56a2853ed00e">
+  <value column="Name" original="Work Ticket">Work Ticket</value>
+  <value column="Description" original="Work Ticket for Service Desk"/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="11989002-5569-4eb4-b73d-956c78790916">
+  <value column="Name" original="MPNotice">Согласование WT</value>
+  <value column="Description" original="View MP Notices">Согласовать/Просмотреть WT</value>
+  <value column="Help" original="The MP creates messages while performing processes. In this window you can view/approve them.">The system creates messages while performing processes. In this window you can view them.</value>
+ </row>
+ <row trl="Y" uuid="f6e21061-22a1-4390-b40e-889cc68ec13b">
+  <value column="Name" original="MPRequest">Ведение заявок</value>
+  <value column="Description" original="View MP Requests">Форма ведения заявок ТП</value>
+  <value column="Help" original="MP Requests">Форма ведения заявок техподдержки</value>
+ </row>
+ <row trl="Y" uuid="0d137254-3562-45be-aacd-c8c77974b526">
+  <value column="Name" original="Attributes assets">Атрибуты активов</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="664f0d69-6796-4d54-8ec1-6a07b49210ba">
+  <value column="Name" original="MP_EventType">Типы событий</value>
+  <value column="Description" original="MP_EventType">Типы событий</value>
+  <value column="Help" original="MP_EventType">Типы событий</value>
+ </row>
+ <row trl="Y" uuid="dbce263d-3bb2-47f3-9a2d-7f21b330dce0">
+  <value column="Name" original="MP_Event">Панель событий</value>
+  <value column="Description" original="MP Event">Панель событий</value>
+  <value column="Help" original="MP Event">Панель событий</value>
+ </row>
+ <row trl="Y" uuid="effd72f8-f3a6-4ce0-9e56-59d4243ff731">
+  <value column="Name" original="MP_Queue_Executor">Настройка привязки очередей</value>
+  <value column="Description" original="MP Queue Executor relation">Настройка привязки очередей</value>
+  <value column="Help" original="MP Queue Executor relation">Настройка привязки очередей</value>
+ </row>
+ <row trl="Y" uuid="12cbf920-301c-4a4a-95d6-b54c10131ead">
+  <value column="Name" original="Email Spam Rule">Правило определение спама</value>
+  <value column="Description" original="Email Spam Rule">Правило определение спама</value>
+  <value column="Help" original="">Правило определение спама для систем обработки</value>
+ </row>
+ <row trl="Y" uuid="3e6de81b-d73d-451b-9f9e-afd412a4f32d">
+  <value column="Name" original="MP OT Task">Задачи</value>
+  <value column="Description" original="MP OT Task">Задачи</value>
+  <value column="Help" original="MP OT Task">Задачи</value>
+ </row>
+ <row trl="N" uuid="b6e15597-bda0-4f48-a95b-ed38e05f9b7a">
+  <value column="Name" original="RIT Technical solution template">RIT Technical solution template</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="e740e123-85dd-48f4-902a-d72834d2e890">
+  <value column="Name" original="MPProblem">Проблемы</value>
+  <value column="Description" original="View MP Problem">Проблемы ТП</value>
+  <value column="Help" original="MP Problem">Проблемы технической поддержки</value>
+ </row>
+ <row trl="Y" uuid="e6f91a7c-cc5e-4876-ae0d-52f1c89da42c">
+  <value column="Name" original="Conversation">Переписка</value>
+  <value column="Description" original="Conversation">Переписка или общение</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="a984bd60-9b4c-41ff-861c-a66f87a4c805">
+  <value column="Name" original="MPRequestOperatorCall">Ведение заявок поддержки монтажа ЦОВ</value>
+  <value column="Description" original="View MP Requests Operator Call"/>
+  <value column="Help" original="MP Requests Operator Call"/>
+ </row>
+ <row trl="Y" uuid="503c1a6c-444f-4da0-9b61-419e3913d87c">
+  <value column="Name" original="MPRequestMontage">Ведение заявок поддержки монтажа</value>
+  <value column="Description" original="View MP Requests Montage">Ведение заявок поддержки монтажа для оператора</value>
+  <value column="Help" original="MP Requests Montage"/>
+ </row>
+ <row trl="Y" uuid="64440ca3-89fa-4099-a007-d4eedd28e97d">
+  <value column="Name" original="FeasibilityStudy">Технико-экономическое обоснование</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="bd208c66-d93d-4b50-96dd-64a163124656">
+  <value column="Name" original="MP Requests TSOV">Ведение заявок для оператора ЦОВ</value>
+  <value column="Description" original="View MP Requests TSOV">Ведение заявок для оператора ЦОВ</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="e6407e7f-d703-4352-a5e2-fec1579ddfb3">
+  <value column="Name" original="MPTypeWork">Тип работ</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="9565d571-c2c9-4075-8faa-2a9411d34e52">
+  <value column="Name" original="MPWeather">Погода</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="37c4f289-b840-4ec6-b9a3-ccf4944b0869">
+  <value column="Name" original="MPTypeModem">Тип модема</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="b82c6276-aa4d-45f3-b224-ece484549ba8">
+  <value column="Name" original="Sales Order DO IPU">Заказ ДО ИПУ</value>
+  <value column="Description" original="Enter and change sales orders DO IPU">Заказ ДО ИПУ</value>
+  <value column="Help" original="The Order Window allows you to enter and modify Sales Orders DO  IPU.">Окно позволяет создавать и изменять "Заказ ДО ИПУ"</value>
+ </row>
+ <row trl="Y" uuid="0df1fe98-f64e-48c1-af9f-a4353433158c">
+  <value column="Name" original="Sales Order CI IPU">Заказ КВ ИПУ</value>
+  <value column="Description" original="Enter and change sales orders Commercial inclusion IPU">Заказ КВ ИПУ</value>
+  <value column="Help" original="The Order Window allows you to enter and modify Sales Orders Commercial inclusion IPU.">Заказ КВ ИПУ</value>
+ </row>
+ <row trl="N" uuid="bfdbded8-120a-4218-b59b-2c2134a9cb79">
+  <value column="Name" original="Koldakov window">Koldakov window</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="44a86b54-bcd8-420d-8f48-c45d1db6f999">
+  <value column="Name" original="Connection work order IPU">Наряд КВ ИПУ</value>
+  <value column="Description" original="Connection work order IPU">Наряд КВ ИПУ</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="e4ac9775-3cea-4c56-9f46-34c321120a3c">
+  <value column="Name" original="RIT_MapColumn">Маппинг колонок</value>
+  <value column="Description" original="">Маппинг колонок</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="8cdc69e1-6a98-4da2-8ce7-1040b4e4789d">
+  <value column="Name" original="Resource Type Group">Группы типов ресурсов</value>
+  <value column="Description" original="Resource Type Group">Группы типов ресурсов</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="693b6026-980b-4d7d-848e-04641fbdfdaf">
+  <value column="Name" original="ResourceAllocate">Распределение суточных смен</value>
+  <value column="Description" original="">Распределение суточных смен</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="b1b84b17-c2df-4f2e-bf20-41e769dea712">
+  <value column="Name" original="RIT_GROUPS">Справочные значения</value>
+  <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
 </idempiereTrl>

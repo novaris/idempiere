@@ -231,4 +231,52 @@
  <row trl="N" uuid="956724c3-96d6-45e0-9eeb-81e65102868f">
   <value column="Name" original="Condition">Condition</value>
  </row>
+ <row trl="Y" uuid="106f12b7-4ce0-4516-8f6e-6486ea6520dd">
+  <value column="Name" original="Location (collapse)">Расположение</value>
+ </row>
+ <row trl="Y" uuid="d911d27e-3088-4eac-bedf-e5b67f024b6e">
+  <value column="Name" original="Maintenance (collapse)">Обслуживание</value>
+ </row>
+ <row trl="Y" uuid="2d2a7974-e28c-49eb-a94a-e7c786e79837">
+  <value column="Name" original="Status (collapse)">Статус</value>
+ </row>
+ <row trl="N" uuid="6cd21fd7-49e3-493d-acb3-1097c7dafaca">
+  <value column="Name" original="Время проведения работ">Время проведения работ</value>
+ </row>
+ <row trl="N" uuid="f8bdfeb9-ba93-48ee-b7b8-82c884685cd9">
+  <value column="Name" original="Изменение физического подключения для клиентов">Изменение физического подключения для клиентов</value>
+ </row>
+ <row trl="Y" uuid="a1b24122-5298-4ace-b125-7c8be5e4b2c5">
+  <value column="Name" original="InstallationMasterData">Основные данные монтажа</value>
+ </row>
+ <row trl="Y" uuid="2f7cda90-4ffa-4ef8-ba95-9204ce47be3e">
+  <value column="Name" original="PowerStation">Энергетика станции</value>
+ </row>
+ <row trl="Y" uuid="41de166e-8d84-47aa-b3b1-db30b20d44c2">
+  <value column="Name" original="LocationCoordinates">Координаты места установки</value>
+ </row>
+ <row trl="Y" uuid="3bc3e044-7ff7-4521-950a-0c2a7d9e6861">
+  <value column="Name" original="Request Description">Описание Заявки</value>
+ </row>
+ <row trl="Y" uuid="0b81d6db-a40b-4050-a930-2a5d1f66109f">
+  <value column="Name" original="Client contacts">Контакты клиента</value>
+ </row>
+ <row trl="Y" uuid="36462480-bbf8-460b-9ea6-7f946a199ef2">
+  <value column="Name" original="Client asset">Актив Клиента</value>
+ </row>
+ <row trl="Y" uuid="0c0bbccf-0c3e-41d1-b80c-9e4179219fc4">
+  <value column="Name" original="Request Details">Детали Заявки</value>
+ </row>
+ <row trl="Y" uuid="9fe3b5da-6d1f-47d3-b38d-410ba44ead84">
+  <value column="Name" original="NPS">NPS</value>
+ </row>
+ <row trl="Y" uuid="28b3a61a-4a5e-49ec-8f71-27e385805cc3">
+  <value column="Name" original="CU">КЕ</value>
+ </row>
+ <row trl="Y" uuid="e8d080cd-a9bd-445f-bb5f-0bce344267db">
+  <value column="Name" original="Referenced objects">Связанные объекты</value>
+ </row>
+ <row trl="Y" uuid="b25a5608-072a-4742-9d8e-9124f674b828">
+  <value column="Name" original="Temporary Executor">Временное подключение исполнителя</value>
+ </row>
 </idempiereTrl>

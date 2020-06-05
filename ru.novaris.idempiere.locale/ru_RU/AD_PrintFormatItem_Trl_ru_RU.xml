@@ -1,30 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="ru_RU" table="AD_PrintFormatItem">
- <row id="2147" trl="N">
-  <value column="Name" original="Rectangle">Rectangle</value>
-  <value column="PrintName" original=""/>
-  <value column="PrintNameSuffix" original=""/>
- </row>
- <row id="2148" trl="N">
-  <value column="Name" original="Product Image">Product Image</value>
-  <value column="PrintName" original=""/>
-  <value column="PrintNameSuffix" original=""/>
- </row>
- <row id="2325" trl="N">
-  <value column="Name" original="DocumentNo Barcode">DocumentNo Barcode</value>
-  <value column="PrintName" original=""/>
-  <value column="PrintNameSuffix" original=""/>
- </row>
- <row id="2326" trl="N">
-  <value column="Name" original="UPC">UPC</value>
-  <value column="PrintName" original=""/>
-  <value column="PrintNameSuffix" original=""/>
- </row>
- <row id="2327" trl="N">
-  <value column="Name" original="Postal">Postal</value>
-  <value column="PrintName" original=""/>
-  <value column="PrintNameSuffix" original=""/>
- </row>
  <row id="50477" trl="Y">
   <value column="Name" original="VendorProductNo">VendorProductNo</value>
   <value column="PrintName" original="VendorProductNo">ПоставщикПродуктНомер</value>
@@ -200,99 +175,634 @@
   <value column="PrintName" original="Master BOM">Master BOM</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
- <row trl="Y" uuid="e9f42a03-2b37-4f6a-ad19-b1225497f373">
-  <value column="Name" original="VendorProductNo">VendorProductNo</value>
-  <value column="PrintName" original="VendorProductNo">ПоставщикПродуктНомер</value>
+ <row trl="Y" uuid="e2277896-92b2-4b98-9156-8bdbdcde1748">
+  <value column="Name" original="DocumentNo">Номер</value>
+  <value column="PrintName" original="">Номер</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
- <row trl="N" uuid="ae36e217-c8bc-4cfa-9a01-ab63105642d1">
-  <value column="Name" original="Report Title">Report Title</value>
-  <value column="PrintName" original="Single Level BOM">Single Level BOM</value>
+ <row trl="Y" uuid="5b9124eb-16cc-48cd-a198-51b688adbf1f">
+  <value column="Name" original="MP_Request_Type">Тип проблемы</value>
+  <value column="PrintName" original="">Тип проблемы</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
- <row trl="N" uuid="b230267b-e88e-495c-8fab-99f4c43fe1c2">
-  <value column="Name" original="Label Part Number">Label Part Number</value>
-  <value column="PrintName" original="Part Number">Part Number</value>
+ <row trl="Y" uuid="636dba72-4676-4782-b1ed-99362e0ed2f3">
+  <value column="Name" original="MP_Subject">Тема</value>
+  <value column="PrintName" original="">Тема</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
- <row trl="N" uuid="eebc9221-49fc-4039-bfbe-9e964ca239b8">
-  <value column="Name" original="Label Product Name">Label Product Name</value>
-  <value column="PrintName" original="Product Name">Product Name</value>
+ <row trl="Y" uuid="91104eb7-afe2-4abc-9cb0-bc10bcd82088">
+  <value column="Name" original="MP_Request_Source">Источник</value>
+  <value column="PrintName" original="">Источник</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
- <row trl="N" uuid="e25dc571-8901-48ee-9fbb-be4d7b4eca8d">
-  <value column="Name" original="Label Product Category">Label Product Category</value>
-  <value column="PrintName" original="Product Category">Product Category</value>
+ <row trl="Y" uuid="b10dac54-1e8a-4f56-b152-d494f1d75547">
+  <value column="Name" original="DocStatus_Статус">Статус проблемы</value>
+  <value column="PrintName" original="">Статус проблемы</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
- <row trl="N" uuid="07de159a-330f-4bc7-a03c-65659127caf8">
-  <value column="Name" original="Label Part Type">Label Part Type</value>
-  <value column="PrintName" original="Part Type">Part Type</value>
+ <row trl="Y" uuid="3693fbe9-50f5-415e-8ce3-4389e2060982">
+  <value column="Name" original="MP_Influence">Степень влияния на услугу</value>
+  <value column="PrintName" original="">Степень влияния на услугу</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
- <row trl="N" uuid="ff18f0d0-323f-4480-8641-81f423143f23">
-  <value column="Name" original="Label Unit Of Measure">Label Unit Of Measure</value>
-  <value column="PrintName" original="Unit of Measure">Unit of Measure</value>
+ <row trl="Y" uuid="edd8681f-83bd-4b70-ac00-efe47498f2e0">
+  <value column="Name" original="MP_Executor">Назначен</value>
+  <value column="PrintName" original="">Назначен</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
- <row trl="N" uuid="a1d708eb-9b84-46e2-ac5c-73157e1451eb">
-  <value column="Name" original="Label Locator">Label Locator</value>
-  <value column="PrintName" original="Locator">Locator</value>
+ <row trl="Y" uuid="94ed37fc-1ecd-453d-bcfa-90ef4776ff64">
+  <value column="Name" original="MP_OT_Request_ID">Обращение</value>
+  <value column="PrintName" original="">Обращение</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
- <row trl="N" uuid="95794527-6dc9-4846-9ed0-3b5638026c47">
-  <value column="Name" original="Label Standard Cost">Label Standard Cost</value>
-  <value column="PrintName" original="Standard Cost">Standard Cost</value>
+ <row trl="Y" uuid="917b808e-75a1-43cc-bcf8-7269d903c2ea">
+  <value column="Name" original="Comments">Комментарии</value>
+  <value column="PrintName" original="">Комментарии</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
- <row trl="N" uuid="75fba7f8-e542-45d4-8c18-7dc412d140ec">
-  <value column="Name" original="Part Type">Part Type</value>
-  <value column="PrintName" original=""/>
+ <row trl="Y" uuid="2f6cc6db-3bb4-4c49-a3a1-810253ff4b4d">
+  <value column="Name" original="PriorityRule">Приоритет</value>
+  <value column="PrintName" original="">Приоритет</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
- <row trl="N" uuid="f517e268-d983-4eb3-954a-a7ca22a378c7">
-  <value column="Name" original="Standard Cost">Standard Cost</value>
-  <value column="PrintName" original=""/>
+ <row trl="Y" uuid="9e8c7382-4c13-4eb3-af02-f3d8a3fc5d03">
+  <value column="Name" original="DocumentNo">Номер</value>
+  <value column="PrintName" original="">Номер</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
- <row trl="N" uuid="6ce25d9a-badb-471b-8a26-c60894fe405f">
-  <value column="Name" original="Label Bill of Materials">Label Bill of Materials</value>
-  <value column="PrintName" original="Bill of Materials">Bill of Materials</value>
+ <row trl="Y" uuid="576cf86a-d244-4403-b47c-2933813fe26d">
+  <value column="Name" original="MP_Request_Source">Источник</value>
+  <value column="PrintName" original="">Источник</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
- <row trl="N" uuid="c3ee0f2d-9e1a-4853-a746-a4ca9bf4e92a">
-  <value column="Name" original="Label BOM Verified">Label BOM Verified</value>
-  <value column="PrintName" original="BOM Verified">BOM Verified</value>
+ <row trl="Y" uuid="8908d704-5670-43bd-9d48-2784b7c94d09">
+  <value column="Name" original="MP_Request_Type">Тип заявки</value>
+  <value column="PrintName" original="">Тип заявки</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
- <row trl="N" uuid="f8fed2d7-0508-4382-bb6e-ac3065cbdc76">
-  <value column="Name" original="Label Manufactured">Label Manufactured</value>
-  <value column="PrintName" original="Manufactured">Manufactured</value>
+ <row trl="Y" uuid="36026720-ee01-4019-ac91-06add0d5e9d0">
+  <value column="Name" original="DocStatus">Статус заявки</value>
+  <value column="PrintName" original="">Статус заявки</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
- <row trl="N" uuid="546564f9-897c-48fb-a212-81d97b4d94d1">
-  <value column="Name" original="Label Purchased">Label Purchased</value>
-  <value column="PrintName" original="Purchased">Purchased</value>
+ <row trl="Y" uuid="eb25b877-ebfd-47d1-bea8-2f931938a09f">
+  <value column="Name" original="MP_Influence">Степень влияния на услугу</value>
+  <value column="PrintName" original="">Степень влияния на услугу</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
- <row trl="N" uuid="6de42b7b-a529-43f0-be7d-9da4e2e7dd6c">
-  <value column="Name" original="Label Sold">Label Sold</value>
-  <value column="PrintName" original="Sold">Sold</value>
+ <row trl="Y" uuid="c2cfbe74-525c-48d5-affc-1457d27c3bee">
+  <value column="Name" original="MP_Subject">Тема</value>
+  <value column="PrintName" original="">Тема</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
- <row trl="N" uuid="d1853320-f17e-4e2e-aa52-b2f4d8997226">
-  <value column="Name" original="Label Kanban">Label Kanban</value>
-  <value column="PrintName" original="Kanban Controlled">Kanban Controlled</value>
+ <row trl="Y" uuid="107a3d85-a5fd-4dec-be5e-99090c012a57">
+  <value column="Name" original="MP_Executor">Назначен</value>
+  <value column="PrintName" original="">Назначен</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
- <row trl="Y" uuid="ac301b14-3d80-4c7c-9739-ae1582c59966">
-  <value column="Name" original="Заказ">Заказ</value>
-  <value column="PrintName" original="Заказ">Заказ</value>
+ <row trl="Y" uuid="19c415a6-8034-48f7-82c7-ac83b3944a5a">
+  <value column="Name" original="MP_OT_Request_ID">Обращение</value>
+  <value column="PrintName" original="">Обращение</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
- <row trl="Y" uuid="9ed4c7a5-dec6-4538-a549-5a4539a3e4f1">
-  <value column="Name" original="Заказ">Заказ</value>
-  <value column="PrintName" original="Заказ">Заказ</value>
+ <row trl="Y" uuid="711a8a7e-6172-4352-9afa-e4a5549e16c9">
+  <value column="Name" original="A_Asset_ID">Активы</value>
+  <value column="PrintName" original="">Активы</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="ff5daf3c-597b-448e-896a-ec96336d2ba9">
+  <value column="Name" original="EMail_From">От EMail</value>
+  <value column="PrintName" original="">От EMail</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="6fa48651-8e74-4306-8924-3df2f61461fc">
+  <value column="Name" original="C_Location_ID">Адрес</value>
+  <value column="PrintName" original="">Адрес</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="183d95ee-21ad-4db7-9f73-8703e63857af">
+  <value column="Name" original="Subject">Тема обращения</value>
+  <value column="PrintName" original="">Тема обращения</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="4592d17d-6ffd-4ed1-b091-542f17480d7f">
+  <value column="Name" original="Comments">Комментарии</value>
+  <value column="PrintName" original="">Комментарии</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="6f9dce92-e332-4b8d-b974-b97b47871b65">
+  <value column="Name" original="PriorityRule">Приоритет</value>
+  <value column="PrintName" original="">Приоритет</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="c098259d-3ff3-4591-96f0-d8ca45a946bf">
+  <value column="Name" original="MP_OT_ProblemRelated_ID">Проблема</value>
+  <value column="PrintName" original="">Проблема</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="7be5099e-de9e-426a-abc1-3aaae37db745">
+  <value column="Name" original="DocumentNo">Номер</value>
+  <value column="PrintName" original="">Номер</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="9e698d3c-f634-4a0e-945c-41c24f13be53">
+  <value column="Name" original="AD_Org_ID">Организация</value>
+  <value column="PrintName" original="">Организация</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="73b905c8-7359-4bc5-bba9-ff5cda01d02a">
+  <value column="Name" original="Name">Название</value>
+  <value column="PrintName" original="">Название</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="fad2560e-8b07-49eb-ad14-2fd386ab7493">
+  <value column="Name" original="AD_User_ID">Автор</value>
+  <value column="PrintName" original="">Автор</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="11feac38-e4b1-459c-b609-e5bfdf8fea0b">
+  <value column="Name" original="MP_WT_Type">Тип</value>
+  <value column="PrintName" original="">Тип</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="c4b8fee9-8398-4c03-a0f6-23acfb43a48b">
+  <value column="Name" original="MP_Executor_Name">Исполнитель</value>
+  <value column="PrintName" original="">Исполнитель</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="a12e2a77-cd8e-41b9-b1cd-787e0c03ad25">
+  <value column="Name" original="MP_JobStatus">Тип работ</value>
+  <value column="PrintName" original="">Тип работ</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="586394ad-2096-4f6e-80d0-c5ff92c63d0a">
+  <value column="Name" original="MP_Executor">Альтернативный оператор</value>
+  <value column="PrintName" original="">Альтернативный оператор</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="725dec96-e46b-465a-b326-fcaeffc2e37c">
+  <value column="Name" original="DocStatus">Статус</value>
+  <value column="PrintName" original="">Статус</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="bbbad186-b73d-44ab-a72a-0dd9903d62aa">
+  <value column="Name" original="isAlwaysNotifed">Уведомлять после каждого согласования</value>
+  <value column="PrintName" original="">Уведомлять после каждого согласования</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="2b8a7db0-9391-4a42-9f56-8c0dad6c6fcd">
+  <value column="Name" original="C_Location_ID">Место проведения</value>
+  <value column="PrintName" original="">Место проведения</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="d1e5ae5e-eb70-4ccd-807d-8cf5363e9195">
+  <value column="Name" original="MP_IsClientsNotifed">Клиенты оповещены?</value>
+  <value column="PrintName" original="">Клиенты оповещены?</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="01f60f22-c9f7-4f08-9dc1-e8c875447428">
+  <value column="Name" original="IsActive">Активно</value>
+  <value column="PrintName" original="">Активно</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="ae4a578b-7ecc-46cb-ac93-e5d85b7c5b21">
+  <value column="Name" original="A_Asset_ID">Конфигурационная Единица</value>
+  <value column="PrintName" original="">Конфигурационная Единица</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="07046a25-0a08-4db2-845a-9048b4c64f43">
+  <value column="Name" original="HR_Department_ID">Подразделение</value>
+  <value column="PrintName" original="">Подразделение</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="22d191ba-8c43-433f-89f7-7ee88a3495c0">
+  <value column="Name" original="HR_WorkGroup_ID">Рабочая группа</value>
+  <value column="PrintName" original="">Рабочая группа</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="b1ac5f6b-48f3-4467-b16b-b6e96d96489e">
+  <value column="Name" original="MP_Affect_Client_Service">Затрагиваемые услуги и клиенты</value>
+  <value column="PrintName" original="">Затрагиваемые услуги и клиенты</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="5ab4ed68-4082-46bc-b8b0-d067a35ed42e">
+  <value column="Name" original="MP_Affect_Network_Element">Затрагиваемые элементы сети</value>
+  <value column="PrintName" original="">Затрагиваемые элементы сети</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="684d6703-6e0d-4659-8416-ebdc8410238b">
+  <value column="Name" original="MP_PlanComment">План проведения работ</value>
+  <value column="PrintName" original="">План проведения работ</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="63371970-9ec7-418d-b244-ba162827a793">
+  <value column="Name" original="MP_RollbackComment">План отката работ</value>
+  <value column="PrintName" original="">План отката работ</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="eb116da3-bc22-484e-87d8-f66472dd217b">
+  <value column="Name" original="Description">Дополнительная информация</value>
+  <value column="PrintName" original="">Дополнительная информация</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="fd6dc9ba-58cf-468f-b712-6f7f71e16a25">
+  <value column="Name" original="MP_OT_Resume">Результат выполнения WT</value>
+  <value column="PrintName" original="">Результат выполнения WT</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="b6281b0c-60e7-4cb2-97fb-1367e5731095">
+  <value column="Name" original="DateFrom">Начало работ (мск)</value>
+  <value column="PrintName" original="">Начало работ (мск)</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="886a4f4c-8180-44e0-b86f-198ea8cb3fd8">
+  <value column="Name" original="MP_BreakTime">Время планируемого перерыва</value>
+  <value column="PrintName" original="">Время планируемого перерыва</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="4e2c9462-aa30-4e4b-b84e-607619915e05">
+  <value column="Name" original="DateTo">Окончание работ (мск)</value>
+  <value column="PrintName" original="">Окончание работ (мск)</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="82fca069-50a6-4137-b11b-4f0b71afba9a">
+  <value column="Name" original="MP_DescriptionTime">Обоснование времени проведения</value>
+  <value column="PrintName" original="">Обоснование времени проведения</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="625b4fd7-e64b-4880-8f21-980839a62ad7">
+  <value column="Name" original="isChangeConnect">Требуется  изменение</value>
+  <value column="PrintName" original="">Требуется  изменение</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="d312b1b9-7118-451a-94ae-dc407c362c8d">
+  <value column="Name" original="MP_ChangeConnectDescription">Комментарий к изменению подключения</value>
+  <value column="PrintName" original="">Комментарий к изменению подключения</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="c8e49ba0-ff00-474b-aef4-48ed6d02c26d">
+  <value column="Name" original="Duration">Продолжительность</value>
+  <value column="PrintName" original="">Продолжительность:</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="722bc124-6ee3-4edd-bcf6-876658b66f5f">
+  <value column="Name" original="MP_Maintain_ID">Обслуживание</value>
+  <value column="PrintName" original="">Обслуживание:</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="9571b09a-9ec6-4e6a-bde6-38dd0e975179">
+  <value column="Name" original="Processed">Обработано</value>
+  <value column="PrintName" original="">Обработано:</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="463de75f-1412-4c37-994a-61cd2215bca8">
+  <value column="Name" original="DocumentNo">Номер</value>
+  <value column="PrintName" original="">Номер:</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="32fb11d7-7489-4975-9ec9-633c0f893ed9">
+  <value column="Name" original="AD_Org_ID">Организация</value>
+  <value column="PrintName" original="">Организация:</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="8f286934-c39a-4dbe-8020-9fe276fd3317">
+  <value column="Name" original="Description">Описание</value>
+  <value column="PrintName" original="">Описание:</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="6f79ea43-5ae4-4764-845c-dc620b1dacd5">
+  <value column="Name" original="MP_OT_TaskType">Тип задачи</value>
+  <value column="PrintName" original="">Тип задачи:</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="bc68d41c-2ff4-4173-af4f-0d0a971983ed">
+  <value column="Name" original="Status">Статус</value>
+  <value column="PrintName" original="">Статус:</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="d642fc51-6588-4cd9-899e-dd6c89fa44a0">
+  <value column="Name" original="MP_OT_ID">Заявка</value>
+  <value column="PrintName" original="">Заявка:</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="f72ca3f4-5f96-4a9f-bcdb-c3fdcd08cf4f">
+  <value column="Name" original="Created">Создано</value>
+  <value column="PrintName" original="">Создано:</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="795c6cd8-d5c5-4947-a433-212ccbad9bf4">
+  <value column="Name" original="CreatedBy">Инициатор</value>
+  <value column="PrintName" original="">Инициатор:</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="6aa8f8c5-2143-4417-ae3d-ffa157b4d74f">
+  <value column="Name" original="Priority">Приоритет</value>
+  <value column="PrintName" original="">Приоритет:</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="e8efdfd2-af2c-43c3-8028-14d72cf969d8">
+  <value column="Name" original="HR_Department_ID">Подразделение/Рабочая группа</value>
+  <value column="PrintName" original="">Подразделение/Рабочая группа:</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="077a805d-8375-4e59-b0e4-fb6304add8ea">
+  <value column="Name" original="IsActive">Активно</value>
+  <value column="PrintName" original="">Активно:</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="e62238dc-496d-4bc2-b341-ceb90b8bd8bb">
+  <value column="Name" original="MP_Executor_ID">Исполнитель</value>
+  <value column="PrintName" original="">Исполнитель:</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="fde4a29c-c237-4145-acf3-1eb95488ea5e">
+  <value column="Name" original="ReturnReason">Причина возврата</value>
+  <value column="PrintName" original="">Причина возврата:</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="77c37a04-e0c0-4caf-8166-e77e3f90b96b">
+  <value column="Name" original="MP_TasksFlag">Флаг</value>
+  <value column="PrintName" original="">Флаг:</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="5e44e252-2454-4b01-8399-54aea04bcfa4">
+  <value column="Name" original="MP_OT_TaskRelated_ID">Связанная задача</value>
+  <value column="PrintName" original="">Связанная задача:</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="53001f38-26ce-42bd-88ea-6918b605e9ff">
+  <value column="Name" original="Summary">Резюме</value>
+  <value column="PrintName" original="">Резюме</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="a686615c-216f-4a6f-a976-ee2c99dff798">
+  <value column="Name" original="Comments">Комментарий</value>
+  <value column="PrintName" original="">Комментарий</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="a3451b5e-4b7c-4606-b54b-1a7daec85161">
+  <value column="Name" original="MP_Deadline">Контрольный срок</value>
+  <value column="PrintName" original="">Контрольный срок:</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="504618c5-fb26-4e13-9549-ebae2fdef82d">
+  <value column="Name" original="isDone">Выполнить</value>
+  <value column="PrintName" original="">Выполнить:</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="5a585919-1099-43ff-8250-c5753ba69e94">
+  <value column="Name" original="isReturn">Вернуть</value>
+  <value column="PrintName" original="">Вернуть:</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="5900ba8c-3ef7-431a-9618-6ee1da830bfb">
+  <value column="Name" original="isDelay">Отложить</value>
+  <value column="PrintName" original="">Отложить:</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="f09fef52-32b4-46fe-9bc7-d289d1cc869e">
+  <value column="Name" original="isRedirect">Переназначить</value>
+  <value column="PrintName" original="">Переназначить:</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="67952fd4-af74-4090-955b-482838a393d7">
+  <value column="Name" original="DocumentNo">Номер</value>
+  <value column="PrintName" original="">Номер</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="8cf191d7-97e3-4607-89f8-f031e3f7781d">
+  <value column="Name" original="AD_User_ID">Кем создана</value>
+  <value column="PrintName" original="">Кем создана</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="7f02b85b-5432-484f-9af1-01c2f257f2af">
+  <value column="Name" original="RIT_SiteID">Site ID/Terminal ID</value>
+  <value column="PrintName" original="">Site ID/Terminal ID</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="98e73f57-10ae-47f2-aa9e-e8754ece955c">
+  <value column="Name" original="A_Asset_ID">Актив</value>
+  <value column="PrintName" original="">Актив</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="88ca5e5a-2e51-43e9-b00e-aa72d0c662d3">
+  <value column="Name" original="RIT_CZSSS">ЦЗССС</value>
+  <value column="PrintName" original="">ЦЗССС</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="8ebef677-e437-453c-9b39-eee86b5424c7">
+  <value column="Name" original="C_Location_ID">Адрес объекта</value>
+  <value column="PrintName" original="">Адрес объекта</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="7eb56193-9e0a-44db-9f7c-7c430d79be23">
+  <value column="Name" original="RIT_FIO_Montage">ФИО монтажника</value>
+  <value column="PrintName" original="">ФИО монтажника</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="4612774a-82ee-4ebc-9ac4-5e2fc0c2d5b2">
+  <value column="Name" original="RIT_Contact_Montage">Контактные данные монтажника</value>
+  <value column="PrintName" original="">Контактные данные монтажника</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="bc80f93e-5998-4023-b1a2-ad5f880a8215">
+  <value column="Name" original="RIT_Installer_Company">Компания инсталлятора</value>
+  <value column="PrintName" original="">Компания инсталлятора</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="7f95811b-0540-4f32-a044-c13d671ee35d">
+  <value column="Name" original="RIT_BusinessProject_ID">Бизнес проект</value>
+  <value column="PrintName" original="">Бизнес проект</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="febdf716-7864-4e03-b89b-1426b215352e">
+  <value column="Name" original="RIT_Contact_User">Контакты клиента на объекте</value>
+  <value column="PrintName" original="">Контакты клиента на объекте</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="1f43aa66-6df0-4023-97aa-682c84537bc8">
+  <value column="Name" original="Created">Дата создания</value>
+  <value column="PrintName" original="">Дата создания</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="6ad4c388-1094-4aff-a93e-f54a2103b15f">
+  <value column="Name" original="IsActive">Активно</value>
+  <value column="PrintName" original="">Активно</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="f7932686-1e8e-4e5b-8bf0-859ed80254b1">
+  <value column="Name" original="RIT_MPTypeWork_ID">Тип работ</value>
+  <value column="PrintName" original="">Тип работ</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="5df649d2-695d-403f-86a8-419050ae801c">
+  <value column="Name" original="RIT_Scope_Work_AVR">Состав работ (При АВР)</value>
+  <value column="PrintName" original="">Состав работ (При АВР)</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="b36576ad-1dd4-475e-90a6-1c36938d3727">
+  <value column="Name" original="RIT_Breaking_AVR">Причина поломки ( при АВР)</value>
+  <value column="PrintName" original="">Причина поломки ( при АВР)</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="da4f3023-cb50-46e0-aa85-97233dc0bd00">
+  <value column="Name" original="RIT_Check_Montage">Проверка юстировки</value>
+  <value column="PrintName" original="">Проверка юстировки</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="92738315-fdc6-46b0-9247-32fe769cc764">
+  <value column="Name" original="Status">Статус</value>
+  <value column="PrintName" original="">Статус</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="abf8f05b-b0e5-48a8-ba68-60224ea4f570">
+  <value column="Name" original="RIT_MPTypeModem_ID">Тип модема</value>
+  <value column="PrintName" original="">Тип модема</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="21895de8-5c1e-4c51-9f77-48caaece5b14">
+  <value column="Name" original="RIT_Modem_MAC">MAC модема</value>
+  <value column="PrintName" original="">MAC модема</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="1298c05f-cc47-4070-8579-204a381283c6">
+  <value column="Name" original="RIT_SNModem">SN модема</value>
+  <value column="PrintName" original="">SN модема</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="65be8f64-f307-42b1-a5bc-3e31acac0c9b">
+  <value column="Name" original="RIT_Power_Transceiver">Мощность передатчика, Вт</value>
+  <value column="PrintName" original="">Мощность передатчика, Вт</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="d4c0b924-a7a0-4351-b4ea-d4f786c3a7c0">
+  <value column="Name" original="RIT_SN_BUC_SN">SN передатчика (BUC)</value>
+  <value column="PrintName" original="">SN передатчика (BUC)</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="1c8c61d3-7ee6-4036-b590-1e8721ddd5ad">
+  <value column="Name" original="RIT_Model_BUC">Модель передатчика (BUC)</value>
+  <value column="PrintName" original="">Модель передатчика (BUC)</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="0c1f11b5-20a8-428a-81d0-663cf2e3be81">
+  <value column="Name" original="RIT_SN_LNB_SN">SN приемника (LNB)</value>
+  <value column="PrintName" original="">SN приемника (LNB)</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="ab15de60-337d-4716-94f5-87824adad14a">
+  <value column="Name" original="RIT_Model_LNB">Модель приемника (LNB)</value>
+  <value column="PrintName" original="">Модель приемника (LNB)</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="7fc1711e-c08a-42a5-8f8f-12990f730d96">
+  <value column="Name" original="RIT_Transceiver">Модель приемопередатчика</value>
+  <value column="PrintName" original="">Модель приемопередатчика</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="c769dabd-0b37-4c37-9349-6313cf87f5d8">
+  <value column="Name" original="RIT_Diameter_Mirror">Диаметр зеркала, м</value>
+  <value column="PrintName" original="">Диаметр зеркала, м</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="83f803a4-c056-44cd-8c7a-897a47e1ec71">
+  <value column="Name" original="RIT_Cable_Type">Тип кабеля</value>
+  <value column="PrintName" original="">Тип кабеля</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="93cfcf60-f51c-485e-bc92-166a17471ec2">
+  <value column="Name" original="RIT_Length_Cable">Длина кабеля, м</value>
+  <value column="PrintName" original="">Длина кабеля, м</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="b05517f2-6b1d-499d-958d-e6fc95540a51">
+  <value column="Name" original="RIT_Type_Support">Тип опоры</value>
+  <value column="PrintName" original="">Тип опоры</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="661a07d3-ce8b-4aa9-9dc0-b9f207edc217">
+  <value column="Name" original="RIT_Connect_Equipment">Подключено оборудование</value>
+  <value column="PrintName" original="">Подключено оборудование</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="e9e86e77-3a4f-47cf-907d-122ae9512d1f">
+  <value column="Name" original="RIT_Cause_Equipment">Причина</value>
+  <value column="PrintName" original="">Причина</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="b2c9cfea-4a92-4ea3-93fd-7cf803d748dd">
+  <value column="Name" original="RIT_Service_Provision">Предоставление сервиса</value>
+  <value column="PrintName" original="">Предоставление сервиса</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="2279572f-843f-4d04-90f2-bda340344d1f">
+  <value column="Name" original="RIT_Cause_Service">Причина</value>
+  <value column="PrintName" original="">Причина</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="990e50fb-ec7e-491d-b0f2-ffa038a79b5e">
+  <value column="Name" original="RIT_Diagnostics">Диагностика</value>
+  <value column="PrintName" original="">Диагностика</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="13278cf3-51a2-4aeb-8f2a-3c86eec217d7">
+  <value column="Name" original="RIT_CW_dB">CW, дБ</value>
+  <value column="PrintName" original="">CW, дБ</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="79392989-aa51-43a1-a9d9-c29e06fe106a">
+  <value column="Name" original="RIT_Reception_dB_SQF">Прием, дБ/SQF</value>
+  <value column="PrintName" original="">Прием, дБ/SQF</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="5de27a00-08d9-46ca-922d-304ee6df8f92">
+  <value column="Name" original="RIT_Broadcast">Передача, дБ</value>
+  <value column="PrintName" original="">Передача, дБ</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="ab3726ca-7173-4a78-9961-c849b1a24c70">
+  <value column="Name" original="RIT_Transfer_Stock">Запас на передачу, дБ</value>
+  <value column="PrintName" original="">Запас на передачу, дБ</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="fe145ae5-96d7-42a6-83ce-16005b2936e5">
+  <value column="Name" original="RIT_KPR_dB">КПР, дБ</value>
+  <value column="PrintName" original="">КПР, дБ</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="ed9aa8bc-e6c9-446f-aea9-f3138cfae6d5">
+  <value column="Name" original="RIT_LNB_Skew">LNB Skew</value>
+  <value column="PrintName" original="">LNB Skew</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="486be3d6-e18a-4d61-a10c-f0529c29825a">
+  <value column="Name" original="RIT_Latitude">Широта</value>
+  <value column="PrintName" original="">Широта</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="ea2f6cfd-4075-43e6-a9cd-697cdb51c9b2">
+  <value column="Name" original="RIT_Longitude">Долгота</value>
+  <value column="PrintName" original="">Долгота</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="0b0f9880-94da-417d-a1b3-80d452f2930c">
+  <value column="Name" original="RIT_Azimuth">Азимут</value>
+  <value column="PrintName" original="">Азимут</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="e2999241-b221-47ca-917c-0d3243145c6f">
+  <value column="Name" original="RIT_Elevation">Угол места</value>
+  <value column="PrintName" original="">Угол места</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="7fc96371-3fba-4d84-b764-3fa0d29b34f5">
+  <value column="Name" original="RIT_Weather_CZSSS_ID">Погода на ЦЗССС</value>
+  <value column="PrintName" original="">Погода на ЦЗССС</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="be050c21-9a0d-4e62-a222-fdd3938a6e1b">
+  <value column="Name" original="RIT_Weather_Facility_ID">Погода на объекте</value>
+  <value column="PrintName" original="">Погода на объекте</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
 </idempiereTrl>

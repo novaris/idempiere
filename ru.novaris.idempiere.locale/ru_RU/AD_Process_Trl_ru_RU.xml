@@ -1954,18 +1954,18 @@ This process should be implemented when the users are not connected.</value>
   <value column="Description" original="Review past logs and make forecast for Work Orders">Review past logs and make forecast for Work Orders</value>
   <value column="Help" original="Access Meter Logs corelates with Asset, Asset Meter, and Maintain records. Dates of logs between 40 days (Meter) and 60 days (Calendar) ago till to-date (plus number of periods given now).">Access Meter Logs corelates with Asset, Asset Meter, and Maintain records. Dates of logs between 40 days (Meter) and 60 days (Calendar) ago till to-date (plus number of periods given now).</value>
  </row>
- <row id="53256" trl="N">
-  <value column="Name" original="ProcessRequestOT">ProcessRequestOT</value>
-  <value column="Description" original=""/>
+ <row id="53256" trl="Y">
+  <value column="Name" original="ProcessRequestOT">Запрос сервиса</value>
+  <value column="Description" original="">Процесс запроса работ по сервису</value>
   <value column="Help" original=""/>
  </row>
- <row id="53257" trl="N">
-  <value column="Name" original="MPCopyFromSJ">MPCopyFromSJ</value>
-  <value column="Description" original=""/>
+ <row id="53257" trl="Y">
+  <value column="Name" original="MPCopyFromSJ">Копировать задачи и ресурсы</value>
+  <value column="Description" original="">Копировать задачи и ресурсы из стандартного задания</value>
   <value column="Help" original=""/>
  </row>
- <row id="53258" trl="N">
-  <value column="Name" original="MPProcessOT">MPProcessOT</value>
+ <row id="53258" trl="Y">
+  <value column="Name" original="MPProcessOT">Выполнения сервисных работ</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -2365,8 +2365,8 @@ Will process only the selected records</value>
   <value column="Help" original=""/>
  </row>
  <row trl="Y" uuid="e881ab96-b2ac-410a-825b-87825789c81f">
-  <value column="Name" original="Contract attachment 2 report">Печать бланка заказов</value>
-  <value column="Description" original="Contract attachment 2 report">Печать бланка заказов</value>
+  <value column="Name" original="Contract attachment 2 report">Печать Бланка заказа</value>
+  <value column="Description" original="Contract attachment 2 report">Печать Бланка заказа</value>
   <value column="Help" original=""/>
  </row>
  <row trl="N" uuid="a49173d2-f46f-443e-8a56-a48567330337">
@@ -2399,9 +2399,9 @@ Will process only the selected records</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row trl="N" uuid="a81fe207-93a1-481c-88e0-f5c23e99eb9f">
-  <value column="Name" original="Transmission Acceptance 100 second hand Report">АКТ купля-продажа 100_ предоплата Б.У.</value>
-  <value column="Description" original="Transmission Acceptance 100 second hand Report">АКТ купля-продажа 100_ предоплата Б.У.</value>
+ <row trl="Y" uuid="a81fe207-93a1-481c-88e0-f5c23e99eb9f">
+  <value column="Name" original="Transmission Acceptance 100 second hand Report">АКТ купля-продажа 100_ предоплата  Новое/Б.У.</value>
+  <value column="Description" original="Transmission Acceptance 100 second hand Report">АКТ купля-продажа 100_ предоплата  Новое/Б.У.</value>
   <value column="Help" original=""/>
  </row>
  <row trl="N" uuid="1c69e8c2-4a15-41c7-87dd-411b5fccdfd2">
@@ -2445,9 +2445,9 @@ Will process only the selected records</value>
   <value column="Help" original=""/>
  </row>
  <row trl="Y" uuid="55a965ec-060e-44fc-834a-bcf462347050">
-  <value column="Name" original="BPartner Opportunity">Создать Проект и Возможность Продаж</value>
-  <value column="Description" original="Create Project and Opportunity for BPartner">Новый Проект и Возможность Продаж Контрагента</value>
-  <value column="Help" original="Create Project and Opportunity for BPartner">Создание Проекта и Возможности Продаж для Контрагента</value>
+  <value column="Name" original="BPartner Opportunity">Создать  Возможность Продаж</value>
+  <value column="Description" original="Create Project and Opportunity for BPartner">Новая  Возможность Продаж Контрагента</value>
+  <value column="Help" original="Create Project and Opportunity for BPartner">Создание  Возможности Продаж для Контрагента</value>
  </row>
  <row trl="N" uuid="0d209962-b7cd-4a26-b9fb-e1adc8f99166">
   <value column="Name" original="soap">soap</value>
@@ -2465,7 +2465,7 @@ Will process only the selected records</value>
   <value column="Help" original=""/>
  </row>
  <row trl="Y" uuid="d62e8b76-07db-4b6e-9c30-9e2a8cefe63e">
-  <value column="Name" original="AgentContract">Агентский договор</value>
+  <value column="Name" original="AgentContract">B2C: Агентский договор</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -2490,9 +2490,9 @@ Will process only the selected records</value>
   <value column="Help" original=""/>
  </row>
  <row trl="Y" uuid="ac56528e-951d-4780-9c85-c23358ce5352">
-  <value column="Name" original=" Request Attributes in ASR">Запрос атрибутов Договора в АСР</value>
-  <value column="Description" original="Sending a request to ASR on a new contract with Contragent"/>
-  <value column="Help" original="Sending a request to ASR on a new contract with the counterparty. The result is a personal account, etc."/>
+  <value column="Name" original=" Request Attributes in ASR">Обновление атрибутов Договора/Контрагента в АСР</value>
+  <value column="Description" original="Sending a request to ASR"/>
+  <value column="Help" original="Sending a request to ASR on update contract with the counterparty. The result is a personal account, etc."/>
  </row>
  <row trl="N" uuid="fb21e226-1c66-4eda-84d2-35fa32f3a96f">
   <value column="Name" original="Тестовый workflow">Тестовый workflow</value>
@@ -2500,13 +2500,13 @@ Will process only the selected records</value>
   <value column="Help" original=""/>
  </row>
  <row trl="Y" uuid="cd5bd6ec-8bdc-432b-8a29-1266c76307c2">
-  <value column="Name" original="Process Detailed Survey B2B">Процесс ДО</value>
-  <value column="Description" original="The process of creating an order for a detailed survey">Процесс детального обследования</value>
+  <value column="Name" original="Process Detailed Survey B2B">Заказ ДО (новый)</value>
+  <value column="Description" original="The process of creating an order for a detailed survey">Заказ ДО (новый)</value>
   <value column="Help" original="Creating an order for a detailed survey"/>
  </row>
  <row trl="Y" uuid="0aa7f9b6-51a4-44c8-bf65-f5594e5eee59">
-  <value column="Name" original="Process VTCP B2B">Процесс создания заказа ВТКП</value>
-  <value column="Description" original="">Процесс создания заказа ВТКП для B2B/B2O/B2G</value>
+  <value column="Name" original="Process VTCP B2B">Процесс создания заказа ДО</value>
+  <value column="Description" original="">Процесс создания заказа ДО для B2B/B2O/B2G</value>
   <value column="Help" original=""/>
  </row>
  <row trl="Y" uuid="147aa175-81dd-4d6b-b5e6-d232d23bdba9">
@@ -2625,23 +2625,493 @@ Will process only the selected records</value>
   <value column="Help" original="The Parameters are default values for null import record values, they do not overwrite any data.">Обработать импорт возможности продаж с адресной информацией и заказами</value>
  </row>
  <row trl="Y" uuid="ebc4f3b0-4663-4f04-a9bc-b6d93b610019">
-  <value column="Name" original="Workflow Next Step WF">Переход или перенаправление на ответственного</value>
-  <value column="Description" original="Workflow Next Step WF">Переход на следующий шаг или перенаправление на ответственного</value>
+  <value column="Name" original="Workflow Next Step WF">Переход на следующий шаг</value>
+  <value column="Description" original="Workflow Next Step WF">Переход на следующий шаг с возможностью описания</value>
   <value column="Help" original=""/>
  </row>
  <row trl="Y" uuid="5ab3dd2e-9255-454d-990c-b17b1a295241">
-  <value column="Name" original="ContractOffert">Агентский договор B2B</value>
+  <value column="Name" original="ContractOffert">B2B: Агентский договор</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row trl="Y" uuid="5ac4a505-8099-4364-86a1-ce719df7ab41">
-  <value column="Name" original="Supplementary agreement to the agency contract">Дополнительное Соглашение к Агентскому Договору</value>
+  <value column="Name" original="Supplementary agreement to the agency contract">B2C: Дополнительное Соглашение к Агентскому Договору</value>
   <value column="Description" original="Supplementary agreement to the agency contract">Дополнительное Соглашение к Агентскому Договору</value>
   <value column="Help" original=""/>
  </row>
  <row trl="N" uuid="cf27514d-88f5-4ceb-9b79-02a4d079cb90">
   <value column="Name" original="Specifications">Технические характеристики</value>
   <value column="Description" original="Specifications">Технические характеристики</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="767e38e3-bb92-4e40-ad4a-2771405a42f8">
+  <value column="Name" original="Management Workflow Next Step">Management Workflow Next Step</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="8e760ff8-3418-4996-ac65-b33bc886bcf2">
+  <value column="Name" original="Create an invoice for equipment">Создание счета на оборудование</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="716b014d-1509-4c06-b7df-6f4130855cbc">
+  <value column="Name" original="1C:SUTMTS Formation of a request in 1C Order">1С: СУТМЦ Формирование запроса в 1С Заявка</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="657348b0-576c-42d7-872c-b655c4fcf2e7">
+  <value column="Name" original="Raport">Рапорт заказа ДО</value>
+  <value column="Description" original="Raport">Рапорт заказа ДО</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="05cd1650-affd-459e-81e1-3e4b77089d57">
+  <value column="Name" original="Commercial Proposal">Коммерческое предложение VSAT</value>
+  <value column="Description" original="Commercial Proposal">Коммерческое предложение VSAT</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="da47742e-9f55-435d-96b1-578bde1b5ca6">
+  <value column="Name" original="Workflow Change Status WF">Сброс статуса</value>
+  <value column="Description" original="Workflow Change Status WF">Сброс статуса WF</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="7b0d8075-8a67-4d4f-9246-9130dc99bd2d">
+  <value column="Name" original="1C:SUTMTS Creating a request for updating directories at the">1С: СУТМЦ Создание запроса на обновление справоч. по требов.</value>
+  <value column="Description" original="">1С: СУТМЦ Создание запроса на обновление справочников по требованию</value>
+  <value column="Help" original="">Перед запуском процесса выбрать тип данных</value>
+ </row>
+ <row trl="Y" uuid="9db5fe03-73fc-42c7-b68b-6705bc77e20a">
+  <value column="Name" original="Process Abort Order">Процесс отмены Заказа</value>
+  <value column="Description" original="Process Abort Order">Process Abort Order</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="ab848447-88f0-4029-9b7c-5d2c6622d278">
+  <value column="Name" original="Запросить финансовую информацию">Запросить финансовую информацию</value>
+  <value column="Description" original="">Запросить финансовую информацию</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="7af0919e-1ecb-4eae-9476-db4e1d3f3dcc">
+  <value column="Name" original="AddInoutLine">AddInoutLine</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="e377f248-6c8e-4f5b-833e-10b2117b9b3e">
+  <value column="Name" original="All EMail Processor">Процесс обработки входящей почты</value>
+  <value column="Description" original="All EMail Processor">Процесс обработки входящей почты</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="4f19fe36-ac05-455b-9651-1e279cbb1d52">
+  <value column="Name" original="Обработка результатов запроса фин. информации">Обработка результатов запроса фин. информации</value>
+  <value column="Description" original="">Обработка результатов запроса фин. информации</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="5ddd2b3c-67bc-4c3e-84ed-dbc0fcbc7dc3">
+  <value column="Name" original="Workflow Next Step SOAP">Workflow Next Step SOAP</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="02ef6861-d537-417d-8113-a5903141cdf5">
+  <value column="Name" original="Stock Inventory">Инвентаризация остатков на складе</value>
+  <value column="Description" original="Stock Inventory extended from Import Physical Inventory">Инвентаризация остатков на складе</value>
+  <value column="Help" original="The Parameters are default values for null import record values, they do not overwrite any data.">Инвентаризация остатков на складе</value>
+ </row>
+ <row trl="N" uuid="7c1b4ca0-c3af-435d-94c2-d0574a2ca01d">
+  <value column="Name" original="setInvoiceData">setInvoiceData</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="f3ecd35e-dbe6-4e52-80f9-49f7ed08ad9c">
+  <value column="Name" original="1C:SUTMTS Formation of a request in 1C Invoice">1С: СУТМЦ Формирование запроса в 1С Счёт</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="c35da33c-bb85-438f-9be8-ba09fb591b42">
+  <value column="Name" original="invoice">Счет</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="7108eb7b-c2ce-43ba-9cc6-168e46035d67">
+  <value column="Name" original="Запросить финансовую информацию за период">Запросить финансовую информацию за период</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="65b03abb-284b-4ddf-bcb8-b2aeae806fb3">
+  <value column="Name" original="Commercial inclusion order">Заказ КВ</value>
+  <value column="Description" original="Commercial inclusion order">Заказ КВ</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="6ee61fe9-abf1-4742-a764-c984c2ddfc6c">
+  <value column="Name" original="runInoutProcess">runInoutProcess</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="81fe3ef9-f1b6-499e-8a02-3f82bd97d2c9">
+  <value column="Name" original="Creating a CI Connection">Creating a CI Connection</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="0fb7bd91-bf28-4fe0-b9cb-a7fa1aca44a2">
+  <value column="Name" original="CS_GetDocumentNumber">АО: Получение номера документа</value>
+  <value column="Description" original="Get document number from ECM">АО: Получение номера документа из 1C:СЭД</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="2a6a6372-a2aa-4ea4-a3f1-1c851d9e9dc4">
+  <value column="Name" original="CS_EcmParse">АО: Обработка ответа 1С:СЭД</value>
+  <value column="Description" original="Parse response from ECM">АО: Обработка ответа 1С:СЭД</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="236721ff-7c00-4c40-bcef-8e8ac725afc9">
+  <value column="Name" original="CS_CreateExternalDocument">АО: Создание внешнего документа на запросе</value>
+  <value column="Description" original="Create external document on request">АО: Создание внешнего документа на запросе</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="fbbb74f6-3a3f-4bde-adc7-4db6f282bcca">
+  <value column="Name" original="CS_CreateOrderFromRequest">АО: Создание заказа из запроса</value>
+  <value column="Description" original="CS_CreateOrderFromRequest">АО: Создание заказа из запроса</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="40d8b753-5c2d-4c74-9b22-c0924e884d5d">
+  <value column="Name" original="Asset Activation">Asset Activation</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="6f71d266-ce55-4068-b76e-b5703f61cf3a">
+  <value column="Name" original="Location Coordinates Process">Заполнение отсутствующих координат</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="03c361e4-43b1-4f6b-b717-116811eb0f43">
+  <value column="Name" original="Asset Update">Asset Update</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="3d516e6f-84b7-45bc-8937-daec1c039010">
+  <value column="Name" original="RequestNextStatus">RequestNextStatus</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="c673ae12-998b-41f8-89ee-e7613fcfd3d9">
+  <value column="Name" original="CS_SendMailExternalDocument">АО: Отправка документов по почте</value>
+  <value column="Description" original="Send email from external document">АО: Отправка внешних документов по почте</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="164ee858-c5f5-4cd4-ab84-ce861f0ad12d">
+  <value column="Name" original="The process of generating jobs by order line">Процесс формирования заданий по строкам заказа</value>
+  <value column="Description" original="">Процесс формирования заданий по строкам заказа</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="eb78fe82-26c7-4c4b-84d7-0abcb92b613e">
+  <value column="Name" original="CS_CreateRequestFromRequest">АО: Создание связанного запроса из запроса</value>
+  <value column="Description" original="Create request from request">АО: Создание связанного запроса из запроса</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="f61453d7-44ce-4ba5-85e0-05cfc2fe11f5">
+  <value column="Name" original="ChangeRequestNextStatus">Изменение статуса запроса на Update Status</value>
+  <value column="Description" original="Change Request Status to Update Status (from Update)">Изменение статуса запроса на Update Status типа запроса</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="94ca4b5b-bacb-4c0b-861f-59638f1ba35c">
+  <value column="Name" original="Service Desk EMail Processor">Обработка почты техподдержки</value>
+  <value column="Description" original="Service Desk EMail Processor">Обработка почты техподдержки</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="95942a63-c18a-4704-80f0-a9f003a4c4f9">
+  <value column="Name" original="CS_CloseContractFromRequest">АО: Закрытие договора</value>
+  <value column="Description" original="Close contract from request">АО: Закрытие договора по запросу</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="ff9ebefe-0beb-4799-a034-03122c2602af">
+  <value column="Name" original="RequestCreateProcess">RequestCreateProcess</value>
+  <value column="Description" original="RequestCreateProcess">RequestCreateProcess</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="de3b2483-63d3-49ec-8d58-e5b18ea47002">
+  <value column="Name" original="DO IPU order">Заказ ДО (ИПУ)</value>
+  <value column="Description" original="DO IPU order">Заказ детального обследования ИПУ</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="a9a8f879-1fe2-4fe8-a954-d8803614827f">
+  <value column="Name" original="CS_AddTechnicalCapability">АО: Добавить адрес</value>
+  <value column="Description" original="Add technical capability on Order">АО: Добавить адрес техвозможности</value>
+  <value column="Help" original="">Добавить адрес для включения в строку заказа</value>
+ </row>
+ <row trl="Y" uuid="c7a40116-22ba-483a-9b3a-84b987a2bb59">
+  <value column="Name" original="The process of forming tasks on the lines of the order">Процесс формирования заданий по строкам наряда</value>
+  <value column="Description" original="">Процесс формирования заданий по строкам наряда</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="350a6090-ee5e-4d7e-9638-e5b736b9ffae">
+  <value column="Name" original="The process of generating jobs by order">Формирование команд на основе заказа</value>
+  <value column="Description" original="">Формирование команд на основе заказа</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="d9292039-a08d-43b6-abbf-ef68902d3a62">
+  <value column="Name" original="Service Desk Alert Creation Process WT">Процесс создания оповещений WT</value>
+  <value column="Description" original="">Процесс создания оповещений WT</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="9fe5bda6-bf7a-4fab-89b1-57c8b74e653e">
+  <value column="Name" original="CreatTemplateForImportTechnicalCapability">Создание шаблона для импорта тех. возможности</value>
+  <value column="Description" original="">Создание шаблона для импорта тех. возможности</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="92edff77-e56e-4e0a-872b-16d4ea958339">
+  <value column="Name" original="ProcessNextAfterWait">Активация БП</value>
+  <value column="Description" original="Next step after wait WF Order">Активация БП "Заказ" после ожидания в узле "Ожидание". Вызывается Планировщиком.</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="1e314cff-7e0d-46ce-a2fe-ef5d0d8360f3">
+  <value column="Name" original="Creating a CI Connection SCPC">Creating a CI Connection SCPC</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="7a8924a0-8a6a-4575-a85b-9fa095650faf">
+  <value column="Name" original="Service Desk Alert Creation Process TT">Процесс создания оповещений TT</value>
+  <value column="Description" original="">Процесс создания оповещений TT</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="757a078a-b5ab-47fd-9149-a7f2792c7728">
+  <value column="Name" original="CancelingActivity">Отмена активности</value>
+  <value column="Description" original="">Отменяет текущую активность и останавливает активности последующих узлов</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="99d469ce-6924-4154-9b4c-c7f5aa83b8ab">
+  <value column="Name" original="MP_OT_RequestCreateProcess">MP_OT_Request  create process</value>
+  <value column="Description" original="MP_OT_Request  create process">MP_OT_Request  create process</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="2c2c548a-0b7f-45dc-8dc2-816ee0fe3b8d">
+  <value column="Name" original="WFActivityCancel">WFActivityCancel</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="79cddb9a-2390-4078-bd5e-54b386901e94">
+  <value column="Name" original="WFNodeCancel">WFNodeCancel</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="f4afd46d-2e03-4323-8c39-6a423c3fa3f9">
+  <value column="Name" original="Service Desk MPOT Create Process">Service Desk MPOT Create Process</value>
+  <value column="Description" original="Service Desk MPOT Create Process">Service Desk MPOT Create Process</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="4f379270-dddf-411f-ae13-b78a7afe2c08">
+  <value column="Name" original="PausedActivity">Приостановка/возобновление активности</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="c503040d-492c-4a32-8ce5-6fdfc5d1dd83">
+  <value column="Name" original="SCPC">Коммерческое предложение SCPC</value>
+  <value column="Description" original="Commercial Proposal">Коммерческое предложение SCPC</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="fc02ba5d-6801-4709-b4e2-7221b1df6773">
+  <value column="Name" original="AllocateOrdersProcess">Процесс распределения заявок</value>
+  <value column="Description" original="Allocate  Orders to Users">Процесс распределения заявок по пользователям</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="8ef78b68-196f-4a9c-9046-ee51a634a059">
+  <value column="Name" original="Запросить тарифный план">Запросить тарифный план</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="51444ece-3a43-400e-b6b4-5927817675e1">
+  <value column="Name" original="RIT Technical Solution">Техническое решение</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="8e222299-a065-41be-bce1-e442c7fb3be3">
+  <value column="Name" original="MPOTTaskCreateProcess">Создать задачу</value>
+  <value column="Description" original="MPOTTaskCreateProcess">Создать задачу</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="13605870-2aef-403c-974b-6a0dd655b5ac">
+  <value column="Name" original="TaskDelayProcess">Отложить задачу</value>
+  <value column="Description" original="">Перевести задачу и ее подзадачи в статус "Отложена"</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="5a1896f1-18da-4079-bc79-2a97431c7dc7">
+  <value column="Name" original="TaskDoneProcess">Выполнить задачу</value>
+  <value column="Description" original="">Перевести задачу в статус "Выполнено"</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="86a67246-bba0-4f7d-85fe-56da7065c0a5">
+  <value column="Name" original="TaskReturnProcess">Вернуть задачу</value>
+  <value column="Description" original="">Перевести задачу на инициатора   в статус "Возвращена"</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="659e999c-ebdf-4f55-9eed-ac1d47b07888">
+  <value column="Name" original="TaskRedirectProcess">Переназначить задачу</value>
+  <value column="Description" original="">Выбрать задаче другого исполнителя</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="8c6108d3-da60-4025-bdf9-a84194f7f924">
+  <value column="Name" original="Service Desk MMPEvent Type Process">Процесс обработки событий MP_Eventtype</value>
+  <value column="Description" original="">Процесс обработки событий MP_Eventtype</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="5f9271cb-8847-45d4-bb93-109e83e39134">
+  <value column="Name" original="Service Desk Alert Creation Process Task">Процесс создания оповещений Task</value>
+  <value column="Description" original="">Процесс создания оповещений Task</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="3d26612f-3c42-404e-8d75-caa8531cccc2">
+  <value column="Name" original="Обработка результатов запроса информации о тарифов">Обработка результатов запроса информации о тарифов</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="a4bd6e05-ddb0-4c57-bce2-456bd1648972">
+  <value column="Name" original="responsiblechanging">Сменить роль (исполнителя)</value>
+  <value column="Description" original="Workflow responsible changing">Сменить роль (исполнителя)</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="02960b12-779e-453d-8de3-66b684669d21">
+  <value column="Name" original="MPOTSubTaskCreateProcess">Создать подзадачу</value>
+  <value column="Description" original="MPOTTaskCreateProcess">Создать подзадачу</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="ba988d0b-e9b4-43f1-aef7-187cb766deb9">
+  <value column="Name" original="rit_changingforme">Назначить меня</value>
+  <value column="Description" original="Workflow responsible/user changing for me">Назначить меня</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="9678a409-32c8-4aad-9db2-1354dc80b451">
+  <value column="Name" original="Create/Recreate Omnisearch Index">Создать/Обновить индекс поиска</value>
+  <value column="Description" original="This process creates/recreates the index document used for global searches in the dashboard panel.">Создать/Обновить индекс поиска</value>
+  <value column="Help" original="The process must be executed after configuring the columns to be indexed, and every time the indexed columns are modified in Table &amp; Column."/>
+ </row>
+ <row trl="Y" uuid="aa0b5118-8575-4cd4-91ba-f41982eec8d5">
+  <value column="Name" original="MPOTProblemCreateProcess">Создать проблему</value>
+  <value column="Description" original="MPOTProblemCreateProcess">Создать проблему</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="6975a258-d252-4f61-9a63-5a52a69ee326">
+  <value column="Name" original="TestSoapRequestCreateProcess">TestSoapRequestCreateProcess</value>
+  <value column="Description" original="TestSoapRequestCreateProcess">TestSoapRequestCreateProcess</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="1211b298-cf04-48e5-9ae4-39a6512f16db">
+  <value column="Name" original="Process SetWFProcessUser">Назначение координатора WF</value>
+  <value column="Description" original="">Назначение координатора WF</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="95791293-f4b1-4392-88b8-7dfc5a93ea7e">
+  <value column="Name" original="Service Desk Alert Creation Process SS">Процесс создания оповещений SS</value>
+  <value column="Description" original="">Процесс создания оповещений SS</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="4828fb52-2c44-42dc-b16d-665af600dc58">
+  <value column="Name" original="SubTaskDelayProcess">Отложить подзадачу</value>
+  <value column="Description" original="">Перевести подзадачу  в статус "Отложена"</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="1433cf5c-df42-42d0-90c2-42b2456536cb">
+  <value column="Name" original="SubTaskDoneProcess">Выполнить подзадачу</value>
+  <value column="Description" original="">Перевести подзадачу в статус "Выполнено"</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="7dd9a71d-3af4-4c66-9f74-77b938945f8c">
+  <value column="Name" original="SubTaskRedirectProcess">Переназначить подзадачу</value>
+  <value column="Description" original="">Выбрать подзадаче другого исполнителя</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="3ff3af71-dabd-4eb4-8f7e-4038e9c0b7d9">
+  <value column="Name" original="SubTaskReturnProcess">Вернуть подзадачу</value>
+  <value column="Description" original="">Перевести подзадачу на инициатора   в статус "Возвращена"</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="ef0050ad-b2d6-4da2-a97c-76f43d0db46e">
+  <value column="Name" original="MInOutCreateProcess">MInOutCreateProcess</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="4897eb3e-0b9e-487c-bac8-a0074a0e250a">
+  <value column="Name" original="CS_CloseProjectFromRequest">АО: Закрытие проекта из запроса.</value>
+  <value column="Description" original="Close project from request">АО: Закрытие проекта из запроса.</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="41b88b9d-d694-412d-a377-d8b60553f2ba">
+  <value column="Name" original="Sales Order Print">Печать счёта</value>
+  <value column="Description" original="">Печать счёта из заказа</value>
+  <value column="Help" original="">Печать счёта из заказа</value>
+ </row>
+ <row trl="N" uuid="b1f929d1-5b17-407b-ba43-ac68301a1222">
+  <value column="Name" original="Asset Activation2">Asset Activation2</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="f28c5315-93a5-425f-9514-2f50711e7094">
+  <value column="Name" original="rit_add_del_swf_task">rit_add_del_swf_task</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="a83d1a3f-8b07-4bdb-a814-82b37fc4445a">
+  <value column="Name" original="ParsAdrFroTS">Разбор адреса</value>
+  <value column="Description" original="">Разбор адреса</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="faffa54b-e21b-4721-b47e-7f72afdded4b">
+  <value column="Name" original="Service Desk Personal EMail Processor">Обработка почтовых ящиков ТП</value>
+  <value column="Description" original="Service Desk Personal EMail Processor">Обработка персональных почтовых ящиков ТП</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="46ea3486-41dd-4785-9aad-f500f95c6131">
+  <value column="Name" original="Service Desk Alert Creation Process MT">Процесс создания оповещений MT</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="216c31d5-5c44-4201-a9aa-4513c2096b5b">
+  <value column="Name" original="Link Conversation to Service Desk Object">Привязать к объектам ТП</value>
+  <value column="Description" original="">Привязать письмо к объектам ТП</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="3748ac97-7898-4616-b01c-e72f86018ac3">
+  <value column="Name" original="Capture + Calculate Measures">Вычисление SLA по заявкам</value>
+  <value column="Description" original="Capture and Calculate Measures">Вычисление SLA по заявкам</value>
+  <value column="Help" original="If automatic, capture measures - and calculate/update the actual measure.">If automatic, capture measures - and calculate/update the actual measure.</value>
+ </row>
+ <row trl="Y" uuid="a5266fc6-02f4-446a-87ba-c2da7b61758a">
+  <value column="Name" original="Raport Montage">Отчет ЦУС по СМР МЗССС</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="9fc94a53-f98c-4598-a453-738832852f8f">
+  <value column="Name" original="Contract attachment 2_contract report">Печать Бланка заказа</value>
+  <value column="Description" original="Contract attachment 2 report">Печать Бланка заказа</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="c29a26b0-bc26-488a-8ee6-796eb1be6d40">
+  <value column="Name" original="MP_OT_AutoCheckForTimeProcess">MP_OT_AutoCheckForTimeProcess</value>
+  <value column="Description" original="MP_OT_AutoCheckForTimeProcess">MP_OT_AutoCheckForTimeProcess</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="ff6764dc-8785-4023-b0a5-81c748552774">
+  <value column="Name" original="S_ResourceAssignmentProcess">Процесс планирования рабочих смен сотрудников</value>
+  <value column="Description" original="S_ResourceAssignment Process">Процесс планирования рабочих смен сотрудников</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="8f1cf975-f508-4189-a46b-033c4b257d59">
+  <value column="Name" original="CreateAttachmentNote">Процесс заполнения описаний для вложений</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="9a861120-9884-4226-930d-5f5f6d31d8af">
+  <value column="Name" original="MP_AutoEscalateProcess">Процесс автоэскалации по задачам невзятым в работу</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="ad9c7719-5cd0-4b8f-b756-1f685e5668d2">
+  <value column="Name" original="TaskToWorkProcess">Взять задачу в работу</value>
+  <value column="Description" original="">Перевести задачу в статус "Выполнение"</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="246dcd12-bc4a-4d79-8627-c0089dadfe9e">
+  <value column="Name" original="SubTaskToWorkProcess">Взять задачу в работу</value>
+  <value column="Description" original="">Перевести задачу в статус "Выполнение"</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="086f7ed3-528f-429f-8e0e-79e3a4cedaa7">
+  <value column="Name" original="Generate global search index">Обновление глобального индекса</value>
+  <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
 </idempiereTrl>

@@ -2753,7 +2753,7 @@ The optional balance check applies to the entire import, not for individual batc
   <value column="Help" original="Information about a participant in an Auction as a Seller">Информация об участнике аукциона в качестве продавца</value>
  </row>
  <row id="603" trl="Y">
-  <value column="Name" original="Funds">Денежный средства</value>
+  <value column="Name" original="Funds">Фонды продавца</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Seller Funds from Offers on Topics">Денежные средства для продаж от предложенной цены в топике</value>
   <value column="Help" original="Available Funds (for Payments) and Committed or Uncommited funds from Offers">Денежные средства (для платежей) и для подтвержденных или неподтвержденные средств от предложенной цены</value>
@@ -2771,7 +2771,7 @@ The optional balance check applies to the entire import, not for individual batc
   <value column="Help" original="Information about a participant in an Auction as a Buyer">Информация об участнике аукциона в качестве покупателя</value>
  </row>
  <row id="606" trl="Y">
-  <value column="Name" original="Funds">Денежный средства</value>
+  <value column="Name" original="Funds">Фонды покупателя</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Buyer Funds available for Bids on Topics">Покупателю доступны средства к участию в торгах по темам</value>
   <value column="Help" original="Available Funds (Payments) and Committed or Uncommited funds for Bids">Денежные средства (для платежей) и для подтвержденных или неподтвержденные средств к участию в торгах</value>
@@ -3448,10 +3448,10 @@ Direct: Sales Rep, User and direct subscribers
 Indirect: Users with Role, Subscribers of updates for Request Category, Type, Group)]]></value>
  </row>
  <row id="721" trl="Y">
-  <value column="Name" original="Position">Должность</value>
+  <value column="Name" original="Position">Должность контактных лиц</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Maintain Job Position">Ведение служебного положения</value>
-  <value column="Help" original="Maintain internal (employee) or external positions">Ведение внутренних (служащий) или внешних служебных положений.</value>
+  <value column="Description" original="Maintain Job Position">Должность контактных лиц</value>
+  <value column="Help" original="Maintain internal (employee) or external positions">Ведение внутренних (служащий) или внешних должностей контактных лиц.</value>
  </row>
  <row id="722" trl="Y">
   <value column="Name" original="Assignment">Назначение</value>
@@ -3860,7 +3860,7 @@ The measure must support the data, otherwise it is ignored.</value>
   <value column="Help" original=""/>
  </row>
  <row id="793" trl="Y">
-  <value column="Name" original="Issue Project">Результыта проекта</value>
+  <value column="Name" original="Issue Project">Результаты проекта</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Automatic Issue Reporting">Автоматический отчет по задачам</value>
   <value column="Help" original=""/>
@@ -4767,9 +4767,9 @@ Valid From/To is determined by the parent tax.]]></value>
   <value column="Help" original=""/>
  </row>
  <row id="53100" trl="Y">
-  <value column="Name" original="Contract">Контракт</value>
+  <value column="Name" original="Contract">Трудовой договор</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Maintain Payroll Contract">Утверждение контракта платежной ведомости</value>
+  <value column="Description" original="Maintain Payroll Contract">Трудовой договор</value>
   <value column="Help" original=""/>
  </row>
  <row id="53101" trl="Y">
@@ -4779,9 +4779,9 @@ Valid From/To is determined by the parent tax.]]></value>
   <value column="Help" original="Interest Area can be used for Marketing Campaigns">Сфера интересов может быть использована для маркетинговых кампаний.</value>
  </row>
  <row id="53102" trl="Y">
-  <value column="Name" original="Employee">Служащий</value>
+  <value column="Name" original="Employee">Сотрудник</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Maintain Payroll Employee">Утверждение служацего платежной ведомости</value>
+  <value column="Description" original="Maintain Payroll Employee">Сотрудник</value>
   <value column="Help" original="The Business Partner Tab defines any Entity with whom an organization transacts.">Вкладка Бизнес-партнер определяет любой объект, с которым организация ведет дела.</value>
  </row>
  <row id="53103" trl="Y">
@@ -4797,9 +4797,9 @@ Valid From/To is determined by the parent tax.]]></value>
   <value column="Help" original="The Payroll Employee Window is used to define the Jobs into the Organizational Structure for a Company">Окно Заработная плата сотрудникам используется для определения должностей в организационной структуре компании</value>
  </row>
  <row id="53105" trl="Y">
-  <value column="Name" original="Employee Accounting">Учет служащего</value>
+  <value column="Name" original="Employee Accounting">Учет сотрудника</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Define Employee Accounting">Определение учета служащего</value>
+  <value column="Description" original="Define Employee Accounting">Учет сотрудника</value>
   <value column="Help" original="The Employee Accounting Tab defines the default accounts to use when this business partner is referenced on a expense reimbursement.">Вкладка Учет служащего опркеделяет счета по умолчанию для использования, когда этот бизнес-партнер ссылается на счет возмещения расходов.</value>
  </row>
  <row id="53106" trl="Y">
@@ -4821,15 +4821,15 @@ Valid From/To is determined by the parent tax.]]></value>
   <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">Поле Пользователь определяет уникального пользователя в системе. Это может быть внутренний пользователь или контакт Бизнес-партнера</value>
  </row>
  <row id="53109" trl="Y">
-  <value column="Name" original="Department">Отдел</value>
+  <value column="Name" original="Department">Подразделение/Рабочая группа</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="53110" trl="Y">
-  <value column="Name" original="Job">Зарплата</value>
+  <value column="Name" original="Job">Должности в рабочих группах техподдержки</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Maintain Payroll Job">Утвердить работу платежной ведомости</value>
+  <value column="Description" original="Maintain Payroll Job">Должности в рабочих группах техподдержки</value>
   <value column="Help" original=""/>
  </row>
  <row id="53111" trl="Y">
@@ -5752,18 +5752,6 @@ Printing:
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53412" trl="N">
-  <value column="Name" original="Asset Meter">Asset Meter</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="53413" trl="N">
-  <value column="Name" original="Meter Log">Meter Log</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
  <row id="53421" trl="N">
   <value column="Name" original="QC Test">QC Test</value>
   <value column="CommitWarning" original=""/>
@@ -5825,7 +5813,7 @@ Printing:
   <value column="Help" original=""/>
  </row>
  <row id="53435" trl="Y">
-  <value column="Name" original="Quote/Order">Заказ</value>
+  <value column="Name" original="Quote/Order">Заказ B2C</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -6580,8 +6568,8 @@ Printing:
   <value column="Description" original="">Тип места хранения</value>
   <value column="Help" original=""/>
  </row>
- <row id="200191" trl="N">
-  <value column="Name" original="Package Installation">Package Installation</value>
+ <row id="200191" trl="Y">
+  <value column="Name" original="Package Installation">Установка пакета</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -7128,10 +7116,10 @@ Note that access information is cached and requires re-login or reset of cache.]
   <value column="Help" original="Возможности продаж"/>
  </row>
  <row trl="Y" uuid="6a177972-273b-4098-af7f-04e952bcc5bd">
-  <value column="Name" original="Macro segment">Макросегмент</value>
+  <value column="Name" original="Macro segment">Бизнес логика</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Macro segment">Макросегмент</value>
-  <value column="Help" original="Macro segment">Макросегмент</value>
+  <value column="Description" original="Macro segment">Бизнес логика</value>
+  <value column="Help" original="Macro segment">Бизнес логика</value>
  </row>
  <row trl="Y" uuid="866e2095-6f7b-49b9-acbb-5e7a1d5b1eac">
   <value column="Name" original="Parametrs Layer">Параметры Geo слоя</value>
@@ -7167,12 +7155,6 @@ Note that access information is cached and requires re-login or reset of cache.]
   <value column="Name" original="Lead">Lead</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Any information about the contact">Any information about the contact</value>
-  <value column="Help" original=""/>
- </row>
- <row trl="Y" uuid="93155191-21a1-4be9-9e37-5cf595cab8b7">
-  <value column="Name" original="TopicAttr">Атрибуты гос. закупок</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row trl="Y" uuid="aaac1f38-3c23-4a25-959d-63b95039a0f2">
@@ -7242,21 +7224,21 @@ Note that access information is cached and requires re-login or reset of cache.]
   <value column="Help" original=""/>
  </row>
  <row trl="Y" uuid="5921442a-f5d3-45c5-8958-010f2bccc35d">
-  <value column="Name" original="Order VCТP">Заказ ДО</value>
+  <value column="Name" original="Order DO">Заказ ДО</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="">Заказ для проведения ДО</value>
   <value column="Help" original=""/>
  </row>
  <row trl="Y" uuid="72a240e0-f580-4405-8b51-2d882857c679">
-  <value column="Name" original="Order Line VCTP">Строка заказа</value>
+  <value column="Name" original="Order Line DO">Строка заказа</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Order Line">Строка заказа</value>
   <value column="Help" original="The Order Line Tab defines the individual line items that comprise an Order.">Вкладка Строка заказа определяет индивидуальные пункты строки, которые содержит заказ</value>
  </row>
  <row trl="Y" uuid="8744e321-c436-494c-a704-439df5a726a9">
-  <value column="Name" original="Order VCTP lines addresses">Адрес услуги</value>
+  <value column="Name" original="Order DO lines addresses">Адрес услуги</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="List Addresses for VCTP">Адрес услуги</value>
+  <value column="Description" original="List Addresses for DO">Адрес услуги</value>
   <value column="Help" original=""/>
  </row>
  <row trl="N" uuid="6c9d6a67-4c2e-4442-8094-0cc164bd3adb">
@@ -7326,13 +7308,13 @@ Note that access information is cached and requires re-login or reset of cache.]
   <value column="Help" original="The Order Line Tab defines the individual line items that comprise an Order.">Вкладка Строка заказа определяет индивидуальные пункты строки, которые содержит заказ</value>
  </row>
  <row trl="N" uuid="afb65a60-683a-4bb0-a25b-256d3818ac1f">
-  <value column="Name" original="Activity">Активности заказа</value>
+  <value column="Name" original="Activity System">Активности заказа</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row trl="N" uuid="c899973f-55ad-4045-a2df-de21d044f8d7">
-  <value column="Name" original="Activity">Активности заказа</value>
+  <value column="Name" original="Activity System">Активности заказа</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -7374,9 +7356,9 @@ Note that access information is cached and requires re-login or reset of cache.]
   <value column="Help" original=""/>
  </row>
  <row trl="Y" uuid="12e8d034-95c4-4ffb-b51e-c7c591ce90d9">
-  <value column="Name" original="Order VCТP">Заказ ДО</value>
+  <value column="Name" original="Order DO">Заказ КВ</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original=""/>
+  <value column="Description" original="">Заказ КВ</value>
   <value column="Help" original=""/>
  </row>
  <row trl="N" uuid="e5527177-67ff-45fb-a481-9fd6e3204c72">
@@ -7464,7 +7446,7 @@ Note that access information is cached and requires re-login or reset of cache.]
   <value column="Help" original=""/>
  </row>
  <row trl="Y" uuid="bf77f3cd-01af-4de1-876b-4a309ff567d6">
-  <value column="Name" original="Activity">Активности наряда</value>
+  <value column="Name" original="Activity User">Активности наряда</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -7539,7 +7521,7 @@ Note that access information is cached and requires re-login or reset of cache.]
   <value column="Name" original="Import Technical Capability">Импортировать тех. возможность</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Import Technical Capability for Addresses">Импорт технической возможности для адресов</value>
-  <value column="Help" original="">Импорт технической возможности для адресов в заказе или для контрагента</value>
+  <value column="Help" original="">Импорт технической возможности для адресов в заказе или для контрагента. Формат импорта:C_BPartner_ID[Value]-Пользователь/контакт, C_OrderLine_ID-Строка заказа, C_Region_ID[Name]-Субъект, Address1-Район, C_City_ID[Name]-Город,  Address2-Улица, Address3-Дом, Address4-Корпус, Address5-Квартира, Longitude-Долгота, Latitude-Широта</value>
  </row>
  <row trl="Y" uuid="80463e17-ed0a-426e-858b-80b3e8b1bcf6">
   <value column="Name" original="Workflow Activity (Custom)">Активность бизнес процессов</value>
@@ -7566,7 +7548,1135 @@ Note that access information is cached and requires re-login or reset of cache.]
   <value column="Help" original=""/>
  </row>
  <row trl="Y" uuid="7ed9e647-ec7c-423f-98ee-34112e3c37e5">
-  <value column="Name" original="TopicAttr">Атрибуты гос. закупок</value>
+  <value column="Name" original="TopicAttr">Атрибуты закупок</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="fe6a582b-294e-4121-a717-46e9955b6911">
+  <value column="Name" original="Asterisk Configuration">Настройка Asterisk</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Asterisk Configuration">Настройка Asterisk</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="71afda40-2472-44cd-b591-bf7283f72f39">
+  <value column="Name" original="ActivityWF">Активности заказа</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="e4294293-f6b5-49a4-9c43-b8dc7c117003">
+  <value column="Name" original="C_Invoice">Счет на оплату</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="41adf24b-f3f9-44ea-8a18-66919d28d0eb">
+  <value column="Name" original="RIT_UserPeference">Настройки пользователя</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="5b5b9fdd-4212-4fbb-ba7a-0f952ccb1be8">
+  <value column="Name" original="ContractInfo_Balance">Баланс</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="d3b5ae46-a812-4213-94fa-81ab87712f45">
+  <value column="Name" original="ContractInfo_Pays">Платежи</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="07dbd774-2e43-474e-93a2-6621bb482829">
+  <value column="Name" original="ContractInfo_Invoice">Счета</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="347a0f84-8e87-4c38-977c-97852d211a1e">
+  <value column="Name" original="ContractInfo_Charges">Начисления</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="3121a913-df20-40ad-8473-558fa7e4c4c9">
+  <value column="Name" original="Tree Segments">Дерево бизнес сегментов</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="eb2ac895-3124-4000-892d-6df0f55cf5e3">
+  <value column="Name" original="External documents">Внешние документы</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="External documents">Внешние документы</value>
+  <value column="Help" original="External documents">Внешние документы</value>
+ </row>
+ <row trl="Y" uuid="fe729745-bac0-4d88-ad05-2e885d36df1c">
+  <value column="Name" original="Order CI">Заказ коммерческого включения</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="">Заказ коммерческого включения</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="4184b49e-8907-4205-a202-9e1755189d15">
+  <value column="Name" original="Order Line">Строка заказа</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Order Line">Строка заказа</value>
+  <value column="Help" original="The Order Line Tab defines the individual line items that comprise an Order.">Вкладка Строка заказа определяет индивидуальные пункты строки, которые содержит заказ</value>
+ </row>
+ <row trl="Y" uuid="55d90177-f3cb-4699-bf2f-15eb94ca661c">
+  <value column="Name" original="Order line addresses">Адрес услуги</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="">Адрес услуги</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="c01704d1-7fc6-4e72-90eb-a2211b982a01">
+  <value column="Name" original="Activity System">Активности заказа</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="8db2571f-1b43-4372-bbf7-5d4f802eb165">
+  <value column="Name" original="Assets (Customer)">Активы</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Asset used internally or by customers">Активы, используемые внутри организации или контрагентами</value>
+  <value column="Help" original="An asset is either created by purchasing or by delivering a product.  An asset can be used internally or be a customer asset.">Активы создаются как при закупке, так и при поставке продукта. Активы могут использоваться внутри организации или быть активом контрагента.</value>
+ </row>
+ <row trl="Y" uuid="e29bd40e-fda2-4bb7-b0bb-56ffc0bf616c">
+  <value column="Name" original="Product">Продукт</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="">Продукт в составе актива</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="321723e4-8d92-4ea1-bd47-cbd4ebbf3ee7">
+  <value column="Name" original="Asset Balances">Балансы актива</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Asset Balance Report and Adjustments">Отчет о балансе и корректировка актива</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="14c7917d-86a0-4136-a90e-2a0e1d628750">
+  <value column="Name" original="Accounting Setup">Настройки бухгалтерского учета</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Enter accounting setup information">Ввод информации о настройках бухгалтерского учета</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="1d82d469-f647-4dd5-83ef-301eddb6c150">
+  <value column="Name" original="Activation/Addition">Активация / Добавление</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Activation/Addition">Активация / Добавление</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="12715629-08c0-407e-a4e8-f6f1b379275c">
+  <value column="Name" original="Disposal">Списание</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="785a0044-54a5-4d00-9e97-50a2584a89c1">
+  <value column="Name" original="Asset History">История актива</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Detail asset transaction history">История деталей перевода активов</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="70bfeb7e-19c1-48c5-b989-953f7dad6d3b">
+  <value column="Name" original="Issue Project">Результаты проекта</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Automatic Issue Reporting">Автоматический отчет по задачам</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="b1c05da0-9f80-45d3-97d5-5b65e06dad17">
+  <value column="Name" original="Finance Information">Финансовая информация</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Finace Information for the Asset">Финансовая информация для актива</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="fd74fdbe-78d1-4489-b8cd-df55f346ad88">
+  <value column="Name" original="License Information">Информация о лицензии</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="License Information for Asset">Информация о лицензии для актива</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="e33051c7-b909-43a4-a7e5-fdc2b6a1bb58">
+  <value column="Name" original="Insurance Information">Информация о страховании</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Insurance Information for asset">Информация о страховании актива</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="67c9396d-f72c-4e1a-961c-6f650de0fe6a">
+  <value column="Name" original="Tax Information">Информация о налоге</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Tax information for asset">Информация о налоге для актива</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="f811f77b-aa8a-4674-b439-9b6c83c525a6">
+  <value column="Name" original="Other Information">Другая информация</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Other information associated with asset">Другая информация, связанная с активами</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="53262777-332b-4803-bf3e-89952eac812e">
+  <value column="Name" original="Expense">Расход</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="">Расход</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="a6c610ac-63b3-44ce-a141-d993e2c8ba8e">
+  <value column="Name" original="WF activity for the Request">Активности запроса</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="WF activity for the Request">Активности запроса</value>
+  <value column="Help" original="WF activity for the Request">Активности запроса</value>
+ </row>
+ <row trl="N" uuid="f09d61c9-dd55-4c57-a644-b53e3e3685c8">
+  <value column="Name" original="Order to order">Наряд на подключение</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="20293dd7-63d3-4c0b-88f8-6810e5aa9501">
+  <value column="Name" original="OP">ОП</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="c156a85a-4a37-486e-bb45-be3cf2ea121d">
+  <value column="Name" original="OUTR">ОУТР</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="ffc7b659-7c6a-4993-a156-ded86426c3c7">
+  <value column="Name" original="OOE(DE)">ООЭ(ДЭ)</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="f90dec30-3873-4306-9806-4a46ad27212e">
+  <value column="Name" original="OES(DE)">ОЭС(ДЭ)</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="30310fb1-833b-47c1-a96f-0025fcddcc57">
+  <value column="Name" original="OITE(DE)">ОИТЭ(ДЭ)</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="be71bf2b-de7f-4ee1-b9b2-387f48868531">
+  <value column="Name" original="Assets">Активы</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Assets">Активы</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="f21f59d6-7367-4168-95b5-964302cce095">
+  <value column="Name" original="Order Change parameters service">Заказ АО</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="">Заказ АО</value>
+  <value column="Help" original="">Заказ для БП АО</value>
+ </row>
+ <row trl="Y" uuid="91452416-df29-4590-a5e7-3e5d5e6040c8">
+  <value column="Name" original="C_OrderLine">Строка заказа</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="">Строка заказа</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="f2f182ad-54b1-4f15-86b5-12a5646d1982">
+  <value column="Name" original="RIT_OrderlineTechCapability">Адрес услуги</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="">Адрес услуги</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="775d312e-e8de-47fb-8397-ec21a7fec6c3">
+  <value column="Name" original="Activity System">Активности заказа</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="">Активности заказа</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="00fb0ce0-c2da-4169-82b3-dd72e8580be4">
+  <value column="Name" original="Order to order">Наряд на подключение</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="">Наряд на подключение</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="7b7457a2-bdae-4dfa-aa0c-9b528353b649">
+  <value column="Name" original="C_Invoice">Счет на оплату</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="">Счет на оплату</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="bb304c2c-581d-4154-b879-348bd4fb506c">
+  <value column="Name" original="Queries link to the selected.">Созданные запросы</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Queries link to the selected.">Запросы, ссылающиеся на выбранный.</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="8dcc6405-2532-494b-b981-f4d73cd7be30">
+  <value column="Name" original="Configuration Units">Конфигурационные единицы</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Configuration Units used for Service Desk">Конфигурационные единицы используемые для процесса Технической поддержки</value>
+  <value column="Help" original="Configuration Units used for Service Desk">Конфигурационные единицы используемые модулем технической поддержки, для процесса Технической поддержки</value>
+ </row>
+ <row trl="Y" uuid="c4a02fa8-9e97-4e6f-8e48-7af1ca22c18c">
+  <value column="Name" original="Product">Продукт</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="">Продукт в составе актива</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="71aea3e3-356f-4655-8afa-a791e0569f70">
+  <value column="Name" original="Asset Meter">Мера</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="">Определение меры для КЕ</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="12e66f61-e026-43f4-b6b4-1b2572ca3f39">
+  <value column="Name" original="Meter Log">Журнал измерений</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="">Журнал измерений КЕ</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="fa68ed8f-39d7-4513-b2c9-81ea52347b25">
+  <value column="Name" original="License Information">Информация о лицензии</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="License Information for Asset">Информация о лицензии Конфигурационной единицы</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="fbd82fb2-d186-469c-b26a-23823a781a3e">
+  <value column="Name" original="Insurance Information">Информация о страховании</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Insurance Information for asset">Информация о страховании Конфигурационной единицы</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="66b979fb-5516-42ab-aa31-c012817481cd">
+  <value column="Name" original="Order Tax">Налог заказа</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="9f3ae1ea-9056-4cc3-8210-28c89a6a2c79">
+  <value column="Name" original="A_Asset">Активы</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="d76d05f1-7113-4b82-87d9-1c98e5fd6e3e">
+  <value column="Name" original="A_Asset">Активы</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="f2b93da1-bb8b-4ac9-97c5-1c6303ef3ee8">
+  <value column="Name" original="Configuration Unit Status">Статус конфигурационной единицы</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="">Статус конфигурационной единицы</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="8eaa286b-c66c-43d1-bc81-d6d77125d1ea">
+  <value column="Name" original="RIT_PL_AdditionalOption">Дополнительные параметры</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="">Дополнительные параметры</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="6159170d-ebf3-40e9-8a4f-d1e43027e5e5">
+  <value column="Name" original="ContractInfo_Status">Статус</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="">Статус договора и услуг</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="2f729194-0841-481e-8775-252fb9a0945d">
+  <value column="Name" original="Order Tax">Налог заказа</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="d1adfc0a-99d1-41fe-955a-b40b7d216731">
+  <value column="Name" original="Work Ticket">Work ticket</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Work Ticket for Service Desk"/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="446525e7-9d26-49a9-bc13-12f831424848">
+  <value column="Name" original="Order Tax">Налог заказа</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="84ae385a-0ca4-46c0-be8b-cf485cf132ff">
+  <value column="Name" original="Order Tax">Налог заказа</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="8af2c956-305b-4f65-8cd9-b41b19838cac">
+  <value column="Name" original="View/Approve WT">Согласование WT</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="System Notice">Системное замечание</value>
+  <value column="Help" original="The Notice Tab provides a method of viewing messages that are generated by this system when performing processes.">Вкладка Замечания предоставляет метод просмотра сообщений, созданных этой системой при выполнении процессов.</value>
+ </row>
+ <row trl="Y" uuid="4699fc0a-ffcd-481e-a65e-f1752540831e">
+  <value column="Name" original="A_Asset">Наряды на подключение</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="3add5df6-9212-4f28-835f-cb87a3891fe0">
+  <value column="Name" original="Stakeholders">Согласование и информирование</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="49432710-aa54-4fd4-bba5-b2dda99a1c9f">
+  <value column="Name" original="Journal">Журнал согласования</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="11e6678f-aae3-4056-a1e5-a94379055ead">
+  <value column="Name" original="OP_SCPC">ОП</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="">ОП SCPC</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="9ec9a57b-f85d-471b-8c1f-4172b8f606a5">
+  <value column="Name" original="OUTR_SCPC">ОУТР</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="">ОУТР SCPC</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="3791661c-72cf-4939-bd1b-ceda1406a8db">
+  <value column="Name" original="OTR_SCPC">ОТР</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="">ОТР SCPC</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="8aa8e4bf-e54d-4d9b-9a18-9acfaef29d47">
+  <value column="Name" original="DE_SCPC">ДЭ</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="">ДЭ SCPC</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="ea84e674-4044-49c7-8346-6cdf30712efb">
+  <value column="Name" original="OZRL_SCPC">ОЗРЛ</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="">ОЗРЛ SCPC</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="2f47513b-d2fe-4ce6-92a3-3e53923ef72b">
+  <value column="Name" original="OSOS_SCPC">ОСОС</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="">ОСОС SCPC</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="3721170a-2a39-4702-a8b8-404428d30fad">
+  <value column="Name" original="View MP Requests">Ведение заявок</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="View MP Requests">Ведение заявок</value>
+  <value column="Help" original="View MP Requests">Ведение заявок</value>
+ </row>
+ <row trl="Y" uuid="5a98fc92-3f9a-445a-af0c-d18642bb7e24">
+  <value column="Name" original="Work Ticket">Связанные WT</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="">Связанные WT</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="9decff62-2b07-4512-b00f-3f5dfa7d7b62">
+  <value column="Name" original="Queries link to the selected.">Созданные запросы</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Queries link to the selected.">Запросы, ссылающиеся на выбранный.</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="7f32206d-1e09-4625-ab6f-c1a150ce23ec">
+  <value column="Name" original="Queries link to the selected.">Созданные запросы</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Queries link to the selected.">Запросы, ссылающиеся на выбранный.</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="f45aee6c-d23c-491c-b534-3409366edcc7">
+  <value column="Name" original="Queries link to the selected.">Созданные запросы</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Queries link to the selected.">Запросы, ссылающиеся на выбранный заказ.</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="39458995-e0d6-4f6a-9484-7096d39888fe">
+  <value column="Name" original="The steps of the algorithm">Шаги алгоритма</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="5a64b194-a380-454d-89cd-f9d927ff324e">
+  <value column="Name" original="Service">Услуги</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="">Продукт в составе актива</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="31ec7047-5189-4638-9295-5de0ac7ab776">
+  <value column="Name" original="Item">Оборудование</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="">Продукт в составе актива</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="f68f14d5-161f-4f38-996b-3536895479c0">
+  <value column="Name" original="Activity User">Активности заказа</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="c2cdf319-76fe-42f2-8258-bdf2e5c0bd04">
+  <value column="Name" original="Activity User">Активности заказа</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="4fc26859-978a-49b5-a641-1bc1254b94b9">
+  <value column="Name" original="Activity User">Активности заказа</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="e1ca3e82-325c-42bb-b401-d1b43faa5956">
+  <value column="Name" original="Activity User">Активности заказа</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="">Активности заказа</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="54379d98-8f01-4e3b-8697-677ce7a3cd68">
+  <value column="Name" original="Attributes assets">Атрибуты активов</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="c5436fbc-2e94-4aad-abbe-5826e69ffdcd">
+  <value column="Name" original="GROS">ГРОС</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="">ГРОС</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="ca80c849-ec88-492f-bef3-224dcdd513fd">
+  <value column="Name" original="OSTO">ОСТО</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="">ОСТО</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="d2cb8d4d-c28f-4d1c-920e-4d315027726c">
+  <value column="Name" original="MP Event Type">Типы событий</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="MP Event Type">Типы событий</value>
+  <value column="Help" original="MP Event Type">Типы событий</value>
+ </row>
+ <row trl="Y" uuid="b82bd07c-8995-4371-b032-87c5243e0b55">
+  <value column="Name" original="RIT_DashboardContentLine">Строки панели мониторинга</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original="">Обратите внимание при выборе окна какое "SQL Where" настроен на вкладке. Для верного отображения количество это условие необходимо интегрировать в "SQL Where" Строки панели мониторинга.</value>
+ </row>
+ <row trl="Y" uuid="5041c687-161a-4fec-bb9f-956c47417e01">
+  <value column="Name" original="MP Event">Панель событий</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="MP Event">Панель событий</value>
+  <value column="Help" original="MP Event">Панель событий</value>
+ </row>
+ <row trl="Y" uuid="b6fa9435-c6cc-4464-b41e-89b16fe7727c">
+  <value column="Name" original="MP Queue Executor">Настройка привязки очередей</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="MP_Queue_Executor">Настройка привязки очередей</value>
+  <value column="Help" original="MP_Queue_Executor">Настройка привязки очередей</value>
+ </row>
+ <row trl="Y" uuid="c9cf3b9c-14a9-4021-85a2-1faf00b5dde1">
+  <value column="Name" original="Available Statuses">Доступные статусы</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="">Доступные статусы</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="b00f2d2f-d452-4673-b46f-b7fd9e34657f">
+  <value column="Name" original="RIT_TarifInfo">Доступные тарифы</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="">Доступные тарифы</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="1d31c471-9792-48bb-a29b-a56af31f6349">
+  <value column="Name" original="RIT_TarifInfo">Доступные тарифы</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="">Доступные тарифы</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="22384ce4-a548-4ef8-850b-7426ebcebe47">
+  <value column="Name" original="Email Spam Rule">Настройка определения спама</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Email Spam Rule">Правила определения спама для обрабатываемой почты</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="f9354b28-fdb2-4de4-8a6b-19f5ebdd4db5">
+  <value column="Name" original="Email Spam Rule">Правило определения спама</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Email Spam Rule">Правило определения спама</value>
+  <value column="Help" original="">Правило определения спама для системы</value>
+ </row>
+ <row trl="Y" uuid="353eaef9-2e33-41f6-8e3e-c2d0251f4497">
+  <value column="Name" original="MP OT Task">Задачи</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="MP OT Task">Задачи</value>
+  <value column="Help" original="MP OT Task">Задачи</value>
+ </row>
+ <row trl="Y" uuid="048ebe99-4203-4b39-8bbb-24ceaf86ebf2">
+  <value column="Name" original="Technical Solution VSAT">Техническое решение</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="4bd0fca4-8d6c-4433-8cf1-7eac82097307">
+  <value column="Name" original="TS_Product Serv">Услуги</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="f900e0bf-ab61-4eac-9c3f-ee954d47279a">
+  <value column="Name" original="TS_Product Item">Оборудование</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="a0d6c4fc-be91-4a4f-a4cf-48d766a28b0d">
+  <value column="Name" original="Related tasks">Зависимые задачи/подзадачи</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Related tasks">Зависимые задачи/подзадачи</value>
+  <value column="Help" original="">Зависимые задачи/подзадачи</value>
+ </row>
+ <row trl="Y" uuid="96d4e681-0fd8-4565-834c-17c7fd851147">
+  <value column="Name" original="MP_OT_Task_Work Order Task">Задачи</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="fe52c69c-d9c6-49f2-86d2-493f6927da2d">
+  <value column="Name" original="User Preferences">Настройки пользователя</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="User Preferences">Настройки пользователя</value>
+  <value column="Help" original="User Preferences">User Preferences</value>
+ </row>
+ <row trl="N" uuid="786d0bfa-fd6d-4223-9320-bb756cb6b0e5">
+  <value column="Name" original="RIT Technical solution template">RIT Technical solution template</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="482b37b3-27ba-42b4-9059-760ec4eb18a3">
+  <value column="Name" original="Responsible on node WF">Ответственные</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Responsible at the algorithm step (role)">Ответственные на шаге алгоритма (роль)</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="5f4d557c-82ae-4df7-9746-593978e47b0c">
+  <value column="Name" original="View MP Problem">Проблемы</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="View MP Problem">Проблемы</value>
+  <value column="Help" original="View MP Problem">Проблемы</value>
+ </row>
+ <row trl="Y" uuid="9fdb1ad9-4bcc-4b81-b703-365a1f5ac136">
+  <value column="Name" original="MP_OT_Task_Work Order Task">Задачи</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="a9211c00-5027-4927-b488-49a64b00534f">
+  <value column="Name" original="View MP Requests">Ведение заявок</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="View MP Requests">Ведение заявок</value>
+  <value column="Help" original="View MP Requests">Ведение заявок</value>
+ </row>
+ <row trl="Y" uuid="c5b2a49d-5fc7-4e87-bb14-4912f5d3ec48">
+  <value column="Name" original="Conversation Subscriber">Копии</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Conversation Subscriber">Копии почтовых сообщений</value>
+  <value column="Help" original="">Копии почтовых сообщений будут добавлены в поле Копия:</value>
+ </row>
+ <row trl="Y" uuid="f2dbf6db-9040-4458-aeb6-4acdeb9860c1">
+  <value column="Name" original="Conversation">Переписка</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Conversation">Переписка или общение</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="87159e85-0700-4ab0-aebd-4b76ee8b17e2">
+  <value column="Name" original="Related KE &amp; Actives">Связанные КЕ и Активы</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="">Связанные КЕ и Активы, отображаются дочерние (зависимые) записи, которые относятся как к КЕ, так и к коммерческим Активам.</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="540fbf2f-13a6-4092-9d87-f61337cd7dfe">
+  <value column="Name" original="Subscription">Подписка</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="5d5f71d2-65d8-4e64-8f91-47a4e5fa5a8c">
+  <value column="Name" original="Subscription">Подписка</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="90d98e98-c05d-4af2-879d-d02efa123006">
+  <value column="Name" original="Subscription">Подписка</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="">Подписка</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="b44698f6-593c-4ea5-835a-dbb90b66cd60">
+  <value column="Name" original="Technical Solution VSAT">Техническое решение</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="4c17c9a4-5b49-4f27-baa7-c99bc99ec486">
+  <value column="Name" original="TS_Product Serv">Услуги</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="62a26de0-992f-4183-a5ae-21a66e70d9e4">
+  <value column="Name" original="TS_Product Item">Оборудование</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="f78e4755-85fa-48ba-b6a1-61b3389130b2">
+  <value column="Name" original="Subscription">Подписка</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="">Подписка</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="bc918796-ca35-4792-bb4f-b93664d7248c">
+  <value column="Name" original="BP RO and ETO">Агенты РО/ЭТО</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="BP RO and ETO">Агенты РО/ЭТО</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="1ba90c86-9dc9-4a4c-996e-480b96d558e6">
+  <value column="Name" original="Technical Solution">Техническое решение</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="118ddfaf-6b61-4cf9-aa0a-120ee281eb41">
+  <value column="Name" original="TS_Product Serv">Услуги</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="30030b0c-4cc1-46f4-9db0-0acb0a54fea4">
+  <value column="Name" original="TS_Product Item">Оборудование</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="4a79f401-23d8-4fdb-8e34-b3e303843a62">
+  <value column="Name" original="Conversation Subscribers">Копии</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Conversation Subscribers">Копии почтовых сообщений</value>
+  <value column="Help" original="">Копии почтовых сообщений будут добавлены в поле Копия:</value>
+ </row>
+ <row trl="Y" uuid="628674ad-1edf-4679-b6d1-8045a1724f5b">
+  <value column="Name" original="Activity System">Активности наряда</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="3089025b-40d0-4fb1-8852-4bd7bfd5950b">
+  <value column="Name" original="RIT_M_InOut_A_Asset_V">Наряды на подключение</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="9944da97-bb2d-4c80-a046-5d7c0e436be2">
+  <value column="Name" original="Staff">Сотрудник</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="">Сотрудники подразделения/рабочей группы</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="cd9010f4-aeb9-4eb7-bef3-5a25ffc19ad7">
+  <value column="Name" original="Staff">Сотрудники</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="">Сотрудники на должности</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="cef2c5fc-5704-4a66-b17e-62b769a9077b">
+  <value column="Name" original="FeasibilityStudy">Технико-экономическое обоснование</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="">Технико-экономическое обоснование</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="76525fe3-7822-4829-9068-635afc4aa948">
+  <value column="Name" original="MPRequestMontage">Ведение заявок поддержки монтажа</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="08532561-5a3b-4755-b39b-6a7938b74991">
+  <value column="Name" original="MPRequestOperatorCall">Ведение заявок поддержки монтажа ЦОВ</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="48a3d6b6-1d34-424a-a3b5-9afeb7036606">
+  <value column="Name" original="MP Requests TSOV">Ведение заявок для оператора ЦОВ</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="View MP Requests TSOV">Ведение заявок для оператора ЦОВ</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="7d89bcf5-39f4-4ed2-a70b-2ed773a34db8">
+  <value column="Name" original="MPChronology">Хронология</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="4097af62-7e9e-49a2-af6a-02ec15810fce">
+  <value column="Name" original="Queries link to the selected.">Созданные запросы</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="">Запросы, ссылающиеся на выбранный наряд.</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="d4194966-37c9-4906-a71e-72ee005c5e5b">
+  <value column="Name" original="Conversation">Переписка</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Conversation">Переписка или общение</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="bba38808-62be-416a-9f37-f8c9e62fe88f">
+  <value column="Name" original="Conversation Subscribers">Копии</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Conversation Subscribers">Копии почтовых сообщений</value>
+  <value column="Help" original="">Копии почтовых сообщений будут добавлены в поле Копия:</value>
+ </row>
+ <row trl="Y" uuid="8a9d3eba-eef9-4926-803f-a5fcab7724f8">
+  <value column="Name" original="Conversation">Переписка</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Conversation">Переписка или общение</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="92451fbc-8936-406e-a9c1-248d85a59710">
+  <value column="Name" original="Conversation Subscribers">Копии</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Conversation Subscribers">Копии почтовых сообщений</value>
+  <value column="Help" original="">Копии почтовых сообщений будут добавлены в поле Копия:</value>
+ </row>
+ <row trl="Y" uuid="468079dd-dd92-424b-ba15-5dd23ef15590">
+  <value column="Name" original="Conversation">Переписка</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Conversation">Переписка или общение</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="18a25fbe-6cd5-4e8c-93cf-2b4a4b150569">
+  <value column="Name" original="Conversation Subscribers">Копии</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Conversation Subscribers">Копии почтовых сообщений</value>
+  <value column="Help" original="">Копии почтовых сообщений будут добавлены в поле Копия:</value>
+ </row>
+ <row trl="Y" uuid="62bdfc00-b58b-4da1-b707-c1d3ee847b4c">
+  <value column="Name" original="Conversation">Переписка</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Conversation">Переписка или общение</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="3dd3a2a2-5aaf-41aa-9ad4-ae9311cfcf9e">
+  <value column="Name" original="Conversation Subscribers">Копии</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Conversation Subscribers">Копии почтовых сообщений</value>
+  <value column="Help" original="">Копии почтовых сообщений будут добавлены в поле Копия:</value>
+ </row>
+ <row trl="Y" uuid="c64b23e1-cab5-4eed-b8f5-e453ecc2be35">
+  <value column="Name" original="Quote/Order b2b">Заказ B2B</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="80690d3c-0689-4a38-b5cf-945e63f3b7af">
+  <value column="Name" original="Solution Log">Хронология решения</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="d94dd563-b789-4fd5-a82a-19c62b10ea17">
+  <value column="Name" original="Diagnostic">Диагностика</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="b7273cf2-7030-4358-b0cc-299c3340fa4b">
+  <value column="Name" original="Supervisor resume">Резюме руководителя</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="d828f615-df9d-42b4-a1b0-3ab1471318c0">
+  <value column="Name" original="Queries link to the selected.">Созданные запросы</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="">Запросы, ссылающиеся на выбранный заказ.</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="b07b353d-0608-498a-b7ca-e0b57866059d">
+  <value column="Name" original="MPTypeWork">Тип работ</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="ea26b1c3-6ae6-491e-bb67-a4bc5411cd04">
+  <value column="Name" original="MPWeather">Погода</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="f6fa86ad-524d-4ecb-a88d-0018506816aa">
+  <value column="Name" original="MPTypeModem">Тип модема</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="0cf94bf8-c7ea-4695-9611-254a0027042b">
+  <value column="Name" original="Subscription">Подписка</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="1a9a4896-b4db-428a-9563-73dac42a077a">
+  <value column="Name" original="mp_timebreaks">Перерывы сервиса</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="ffbcf698-999a-414a-8bb0-9a8655528be5">
+  <value column="Name" original="Conversation">Переписка</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="EMail Conversation">Переписка или общение</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="91f742c8-745a-45d0-b685-08ee0ca463b3">
+  <value column="Name" original="Order DO IPU">Заказ ДО ИПУ</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="">Заказ ДО ИПУ</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="684c4e4c-d85b-4741-be41-078a9ea6a273">
+  <value column="Name" original="Order Line">Строка заказа</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Order Line">Строка заказа</value>
+  <value column="Help" original="The Order Line Tab defines the individual line items that comprise an Order.">Вкладка Строка заказа определяет индивидуальные пункты строки, которые содержит заказ</value>
+ </row>
+ <row trl="Y" uuid="e297aedc-b238-4bda-89c9-3b251dd31f65">
+  <value column="Name" original="Technical Solution">Техническое решение</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="1aff1031-7974-4dfd-b311-2d981faac782">
+  <value column="Name" original="TS_Product Serv">Услуги</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="702724f7-960f-4bad-ad34-ba401e5d1d34">
+  <value column="Name" original="TS_Product Item">Оборудование</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="4710dca7-fc65-4302-9fd4-185c1460e55f">
+  <value column="Name" original="Activity System">Активности заказа</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="acceb51f-26ce-4ac7-8659-6bdd4c0f92e2">
+  <value column="Name" original="Activity User">Активности заказа</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="079943fa-2a06-4312-bf59-b6d4fb4202e6">
+  <value column="Name" original="Order DO">Заказ КВ</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="">Заказ КВ</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="be53e480-a609-4497-8027-0b63f39b4b1a">
+  <value column="Name" original="Queries link to the selected.">Созданные запросы</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="">Запросы, ссылающиеся на выбранный заказ.</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="156a6c29-0193-42a3-b809-a5965d5dc702">
+  <value column="Name" original="Order CI IPU">Заказ КВ ИПУ</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="">Заказ КВ ИПУ</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="103f14a4-5089-495e-9b1f-20e44c89b660">
+  <value column="Name" original="Order Line">Строка заказа</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Order Line">Строка заказа</value>
+  <value column="Help" original="The Order Line Tab defines the individual line items that comprise an Order.">Вкладка Строка заказа определяет индивидуальные пункты строки, которые содержит заказ</value>
+ </row>
+ <row trl="Y" uuid="2dec0aff-cb7c-46c2-92da-9a3d213f7204">
+  <value column="Name" original="Technical Solution">Техническое решение</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="cf57698f-1a91-40ac-950d-c6fae8b2df4b">
+  <value column="Name" original="TS_Product Serv">Услуги</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="25701b5c-7208-4ca9-b2b5-70732c156584">
+  <value column="Name" original="TS_Product Item">Оборудование</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="6de10771-5a49-4b58-bc53-a047a0b5ba08">
+  <value column="Name" original="Activity System">Активности заказа</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="b72cb5cd-1f5c-428f-a5e5-515e63e6acff">
+  <value column="Name" original="Activity User">Активности заказа</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="4c068276-443c-44de-b363-4487918e9c79">
+  <value column="Name" original="RIT_TS_M_InOut_V">Наряды ИПУ</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="e532b979-a274-4def-ad05-6afc79cebfd9">
+  <value column="Name" original="Queries link to the selected.">Созданные запросы</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Queries link to the selected.">Запросы, ссылающиеся на выбранный заказ.</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="0f4faaad-b14d-4cbf-9ff9-4029ca9bef3f">
+  <value column="Name" original="RIT_TS_M_InOut_V">Наряды на подключение</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="">Наряды на подключение</value>
+  <value column="Help" original="">Наряды на подключение</value>
+ </row>
+ <row trl="N" uuid="92926524-b8bd-4c76-ae1f-1104bbeedbd7">
+  <value column="Name" original="Koldakov window">Koldakov window</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="ccf20f35-7fb8-4ee6-be10-f5a9cdce49b2">
+  <value column="Name" original="RIT_AvailableServices">Доступные сервисные услуги и опции</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="">Доступные сервисные услуги и опции</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="c37b0491-5a11-4d33-a6ed-50485aee59cf">
+  <value column="Name" original="Connection work order IPU">Наряд КВ ИПУ</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Connection work order IPU">Наряд КВ ИПУ</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="7a23690b-1c8c-49d0-b4ad-161e2b970015">
+  <value column="Name" original="Shipment Line">Строка наряда</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Shipment Line">Строка наряда</value>
+  <value column="Help" original="The Shipment Line Tab defines the individual items in a Shipment.">Вкладка Строка отгрузки определяет индивидуальные пункты в отгрузке.</value>
+ </row>
+ <row trl="Y" uuid="1cb12e4b-149d-4ad3-92f4-1dd9ecd7a82b">
+  <value column="Name" original="Technical Solution">Техническое решение</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="224a39e6-bcde-4b32-881f-656c11513043">
+  <value column="Name" original="TS_Product Serv">Услуги</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="d1f5a72f-322b-408b-bff7-8ac5c35bcf66">
+  <value column="Name" original="TS_Product Item">Оборудование</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="02cf6b6c-33dd-452a-a688-0334a00df1a6">
+  <value column="Name" original="Activity System">Активности наряда</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="d70b7bb3-7617-4120-b773-c13a2a52d279">
+  <value column="Name" original="Activity User">Активности наряда</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="3d821b38-d04f-4e10-aa96-14d61221dc6f">
+  <value column="Name" original="Asset">Активы</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="0da772a0-8dcd-46d8-b9fa-5452200b6232">
+  <value column="Name" original="Queries link to the selected.">Созданные запросы</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="">Запросы, ссылающиеся на выбранный наряд.</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="8f217777-f813-453a-91b3-69d3350eb974">
+  <value column="Name" original="RIT_AvailableServices">Доступные сервисные услуги и опции</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="">Доступные сервисные услуги и опции</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="c5b42b42-3368-4de1-9ba7-3a2615726a6e">
+  <value column="Name" original="RIT_MapColumn">Мапинг колонок</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="fa313793-d389-42df-9e6d-cc9a8f6065d0">
+  <value column="Name" original="ResourceTypeGroup">Группы типов ресурсов</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="">Группы типов ресурсов</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="2ad2c62d-0390-4b8f-a28d-37ccfdbeb91d">
+  <value column="Name" original="ResourceAllocate">Распределение суточных смен</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="">Распределение суточных смен</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="2a085650-54a5-497d-8458-b44a4c5ccf13">
+  <value column="Name" original="Related MP Requests">Зависимые заявки</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Related MP Requests">Зависимые заявки</value>
+  <value column="Help" original="Related MP Requests">Зависимые заявки</value>
+ </row>
+ <row trl="Y" uuid="b4660c93-ec09-407b-b11b-58f8318626c8">
+  <value column="Name" original="RIT_GROUPS">Справочные значения</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="4a9c219f-9ac9-49e6-9a95-b19efa3b6b76">
+  <value column="Name" original="OSOS">ОСОС</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="">ОСОС</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="1469da73-6d0f-4159-a52b-8a270065d248">
+  <value column="Name" original="Technical Solution SPCP">Техническое решение</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="c77ba6f4-15da-4bd3-966e-dda6bfe86970">
+  <value column="Name" original="Technical Solution SCPC">Техническое решение</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>

@@ -1,11 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="ru_RU" table="C_Greeting">
- <row id="100" trl="N">
-  <value column="Name" original="Mr">Mr</value>
-  <value column="Greeting" original="Mr">Mr</value>
- </row>
- <row trl="Y" uuid="8f44e70d-afab-4574-b7a1-ffe07d96ddc0">
-  <value column="Name" original="Типовое">Типовое</value>
-  <value column="Greeting" original="Уважаемый {0}">Уважаемый {0}</value>
- </row>
-</idempiereTrl>
+<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="ru_RU" table="C_Greeting"/>

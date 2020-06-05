@@ -45,39 +45,4 @@
   <value column="Description" original="">365/366 дней</value>
   <value column="UOMSymbol" original="y  ">год</value>
  </row>
- <row id="109" trl="N">
-  <value column="Name" original="6-Pack">6-Pack</value>
-  <value column="Description" original=""/>
-  <value column="UOMSymbol" original="6Pk">6Pk</value>
- </row>
- <row id="50000" trl="N">
-  <value column="Name" original="Mililiter">Mililiter</value>
-  <value column="Description" original=""/>
-  <value column="UOMSymbol" original="ml">ml</value>
- </row>
- <row id="50001" trl="N">
-  <value column="Name" original="kilogram">kilogram</value>
-  <value column="Description" original=""/>
-  <value column="UOMSymbol" original="Kg">Kg</value>
- </row>
- <row id="50002" trl="N">
-  <value column="Name" original="milligram">milligram</value>
-  <value column="Description" original=""/>
-  <value column="UOMSymbol" original="mg">mg</value>
- </row>
- <row id="50003" trl="N">
-  <value column="Name" original="litre">litre</value>
-  <value column="Description" original=""/>
-  <value column="UOMSymbol" original="L">L</value>
- </row>
- <row trl="Y" uuid="7ce0a5be-6c94-4c21-a5e2-2e818e6d294c">
-  <value column="Name" original="Штук">Штук</value>
-  <value column="Description" original="Единица изменерия штучных продуктов.">Единица изменерия штучных продуктов.</value>
-  <value column="UOMSymbol" original="шт">шт</value>
- </row>
- <row trl="Y" uuid="1a861d84-1d9a-454c-9efb-421005c3e9d9">
-  <value column="Name" original="Руб./месяц">Руб./месяц</value>
-  <value column="Description" original="Рублей в месяц">Рублей в месяц</value>
-  <value column="UOMSymbol" original="Руб./мес.">Руб./мес.</value>
- </row>
 </idempiereTrl>

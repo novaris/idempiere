@@ -2930,4 +2930,494 @@
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
+ <row trl="N" uuid="be9a8353-fa7b-47a0-bd47-550ddb4ee15b">
+  <value column="Name" original="M_Product (Rent)">M_Product (Rent)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="2a9bffcb-38e4-4217-aaa2-6a64117deaf5">
+  <value column="Name" original="SipChannelType">Тип SIP канала</value>
+  <value column="Description" original="Asterisk SIP channel Type">Тип SIP канала Asterisk</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="3beee007-972b-43d5-be7f-a32e5fd63aa7">
+  <value column="Name" original="RIT_TypeSettings">RIT_TypeSettings</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="3fad7698-83a7-4361-b8c5-a1d14e1727b3">
+  <value column="Name" original="Data Type">Data Type</value>
+  <value column="Description" original="1C:SUTMTS Data Type">Data Type</value>
+  <value column="Help" original="1C:SUTMTS Data Type">Data Type</value>
+ </row>
+ <row trl="N" uuid="cba08f9e-a541-434a-bc28-868556cf74c4">
+  <value column="Name" original="Delivery Method">Способ доставки</value>
+  <value column="Description" original="Delivery Method">Способ доставки</value>
+  <value column="Help" original="Delivery Method">Способ доставки</value>
+ </row>
+ <row trl="N" uuid="c8a3ca7e-09c7-4f55-b606-777cacb4098d">
+  <value column="Name" original="RIT_ContractInfo TypeInfo">RIT_ContractInfo TypeInfo</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="1704f6e1-9a56-4770-acae-be86b9748f54">
+  <value column="Name" original="Rit_Macrosegment_Parent">Родитель</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="9f174e1a-4e0d-474d-8d72-5031ea75a5b4">
+  <value column="Name" original="Rit_Macrosegment (No summary)">Лист</value>
+  <value column="Description" original="Segment selection">Выбранный подсегмент</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="19b849f7-372f-42dd-8492-137313c04d60">
+  <value column="Name" original="RIT_ClassName_Email">Имя класса</value>
+  <value column="Description" original="">Имя класса, для обработки почты</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="78ce849f-6c7d-4b12-bdc1-fd3111cd96ef">
+  <value column="Name" original="RIT_Segment_Macro">RIT_Segment_Macro</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="dfbd79f2-8afb-45bc-9191-72dc59f54927">
+  <value column="Name" original="B_TopicType_VIRT">B_TopicType_VIRT</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="6584d719-2589-40a7-a347-01dc37abce07">
+  <value column="Name" original="RIT_Segment_Filtr">RIT_Segment_Filtr</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="4b096c19-6488-425e-86ad-fea1466bc201">
+  <value column="Name" original="Rit_Order_type">Rit_Order_type</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="496b5d03-9e9e-4458-8322-2de2e53ac4f4">
+  <value column="Name" original="New_Or_Second">New_Or_Second</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="d64a7726-16ae-4aa8-ba4f-538bb9c58694">
+  <value column="Name" original="M_AttributeValue">M_AttributeValue</value>
+  <value column="Description" original="Attribute Value">Attribute Value</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="8a1e0a33-bdd8-4e2a-92c8-28211a50905e">
+  <value column="Name" original="RIT_Contract">RIT_Contract</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="7292f3bd-d0a1-44d4-a50f-a277373e08ff">
+  <value column="Name" original="Product">Product</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="fcff72f1-d15f-48cc-af7d-1065d145f194">
+  <value column="Name" original="проверка">проверка</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="ac0cfa08-f144-4196-9334-82b513f7ef37">
+  <value column="Name" original="Список спутников">Список спутников</value>
+  <value column="Description" original="Список спутников">Список спутников</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="993251ac-9585-4966-8e3b-ad07407d2905">
+  <value column="Name" original="BPartner_Contracts">BPartner_Contracts</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="39c7bc4e-4b34-4d5d-8c09-4ee2bcd6f661">
+  <value column="Name" original="AD_Reference Table Reference">Типы таблиц AD_Reference</value>
+  <value column="Description" original="Table Type selection">Table Type selection</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="9d57a468-dfad-4ea7-8cd6-882ce87ada90">
+  <value column="Name" original="Наименование ЦЗССС">Наименование ЦЗССС</value>
+  <value column="Description" original="Наименование ЦЗССС">Наименование ЦЗССС</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="a19e515e-596a-475c-8c3b-7a3acdac01d2">
+  <value column="Name" original="Оператор КС/УС">Оператор КС/УС</value>
+  <value column="Description" original="Оператор КС/УС">Оператор КС/УС</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="ef7ea92a-541d-43f2-80a2-ded959fc4ac1">
+  <value column="Name" original="C_DoctType_External">Внешние типы документов</value>
+  <value column="Description" original="">Внешние типы документов</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="fd109b0e-abf5-4818-b66f-ff1111d5c9c8">
+  <value column="Name" original="RIT_PriceListType">RIT_PriceListType</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="ac0f590f-ade8-4001-9d7f-1997a9a8197e">
+  <value column="Name" original="M_Product (Basic service)">M_Product (Basic service)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="52645818-21e7-4714-9d43-55c283907618">
+  <value column="Name" original="_WT Job Types">Тип работ (WT)</value>
+  <value column="Description" original="WT Job Types list">WT Status list</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="ec519f53-185f-4534-bf11-199e12fa1289">
+  <value column="Name" original="_WT Status">Статусы WT</value>
+  <value column="Description" original="WT Status  list">WT Status  list</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="50d46127-c824-43a4-8353-78eb190e4736">
+  <value column="Name" original="Stakeholder type">Тип заинтересованного лица</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="15357bcb-4aa9-41fc-a581-c209413d062c">
+  <value column="Name" original="LocationOrderLin">LocationOrderLin</value>
+  <value column="Description" original="LocationOrderLin">LocationOrderLin</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="c853dff5-fd7a-4ee0-88d5-68f0e3d86bfd">
+  <value column="Name" original="Stakeholder group type">Stakeholder group type</value>
+  <value column="Description" original="Stakeholder group type">Stakeholder group type</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="578337ac-8d35-44e2-b8c1-8464b8342f4f">
+  <value column="Name" original="AD_Table for WT">AD_Table for WT</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="c56f18b7-ed72-49d0-879e-236babcfa11e">
+  <value column="Name" original="C_LocationFullAddress">C_LocationFullAddress</value>
+  <value column="Description" original="Location selection">Location selection</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="9f325a97-c4c0-4e9c-840f-5f06b020eb2d">
+  <value column="Name" original="MP Request  Source">MP Request  Source</value>
+  <value column="Description" original="MP Request  Source">MP Request  Source</value>
+  <value column="Help" original="The source of a MP Request">The source of a MP Request</value>
+ </row>
+ <row trl="N" uuid="a3de5ae2-4b2f-4bc7-9eb4-28d876323fb0">
+  <value column="Name" original="MP Request Type">MP Request Type</value>
+  <value column="Description" original="MP Request Type">MP Request Type</value>
+  <value column="Help" original="MP Request Type">MP Request Type</value>
+ </row>
+ <row trl="N" uuid="ba3943eb-eace-466b-8f18-9358006bf6b3">
+  <value column="Name" original="MP Influence">MP Influence</value>
+  <value column="Description" original="MP Influence">MP Influence</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="9e1f2fbd-681c-4b03-b9c3-b56d284106dc">
+  <value column="Name" original="MP Subject">Тема</value>
+  <value column="Description" original="MP Subject">Тема</value>
+  <value column="Help" original="MP Subject">Тема</value>
+ </row>
+ <row trl="N" uuid="e52230a6-5df6-47f6-be3d-ef9b0dbebdab">
+  <value column="Name" original="MP_Request Status">MP_Request Status</value>
+  <value column="Description" original="MP_Request Status">MP_Request Status</value>
+  <value column="Help" original="MP_Request Status">MP_Request Status</value>
+ </row>
+ <row trl="N" uuid="09921d1c-7964-47b7-8ec7-8f2ece81f9a9">
+  <value column="Name" original="MP_EventType">MP_EventType</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="18b6b182-3882-4d81-ba3b-69e6e36d04af">
+  <value column="Name" original="Email headers">Email Headers</value>
+  <value column="Description" original="Email headers">Email Headers</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="6a56d122-8742-4bd6-88b8-6a89a578f47f">
+  <value column="Name" original="MP_TasksFlag">Флаг задачи</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="b541baf9-2a32-49cc-b436-121a22a75e27">
+  <value column="Name" original="MP_OT_TaskType">Тип задачи</value>
+  <value column="Description" original="MP_OT_TaskType">Тип задачи</value>
+  <value column="Help" original="MP_OT_TaskType">Тип задачи</value>
+ </row>
+ <row trl="Y" uuid="4e0f98ef-1dc0-426d-92c5-755101f9fa5c">
+  <value column="Name" original="MP_OT_TaskStatus">Статус Задачи</value>
+  <value column="Description" original="MP_OT_TaskStatus">Статус Задачи</value>
+  <value column="Help" original="MP_OT_TaskStatus">Статус Задачи</value>
+ </row>
+ <row trl="Y" uuid="621183ea-706d-49ee-ae61-0d1765f17d37">
+  <value column="Name" original="ReturnReason">Причина возврата</value>
+  <value column="Description" original="Reason of Return">Причина возврата задачи</value>
+  <value column="Help" original="Reason of Return">Причина возврата задачи</value>
+ </row>
+ <row trl="Y" uuid="521902ac-92a9-4f29-8dcd-a87d1e2b21fc">
+  <value column="Name" original="MP_OT_TaskRelated">Связанные задачи/подзадачи</value>
+  <value column="Description" original="MP_OT_TaskRelated">Связанные задачи/подзадачи</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="753913ec-d3bf-4a63-927a-b72d7cd3b97a">
+  <value column="Name" original="RIT_LeadSource">RIT_LeadSource</value>
+  <value column="Description" original="Источник лида">Источник лида</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="9d1f76c0-330a-4386-8dce-66fe60da8f5b">
+  <value column="Name" original="MP_OT_Priority">MP_OT_Priority</value>
+  <value column="Description" original="">Список приоритетов</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="81af3037-a9ca-4409-8105-f3f3515c663e">
+  <value column="Name" original="RIT_FailureReason">RIT_FailureReason</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="b33264ca-bf60-4848-98fd-34a3ba7bbb39">
+  <value column="Name" original="AD_WF_Responsible_ID">AD_WF_Responsible_ID</value>
+  <value column="Description" original="AD_WF_Responsible_ID">AD_WF_Responsible_ID</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="d548b3ff-6274-454b-b415-5528101eb0f7">
+  <value column="Name" original="OMNI_Index_Type">OMNI_Index_Type</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="1c535056-3ca3-443a-8406-2fb92ff84577">
+  <value column="Name" original="MP_OT_ProblemRelated">Связанные проблемы/заявки</value>
+  <value column="Description" original="MP_OT_ProblemRelated">Связанные проблемы/заявки</value>
+  <value column="Help" original="MP_OT_ProblemRelated"/>
+ </row>
+ <row trl="N" uuid="c247af02-3f28-4a08-b21d-1361f48abab1">
+  <value column="Name" original="_WT Status Problem">_WT Status Problem</value>
+  <value column="Description" original="WT Status Problem list"/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="6d89466a-4fc1-4410-ab10-1fe7b182bf69">
+  <value column="Name" original="MP_Conversation_ID">Ссылка на общение</value>
+  <value column="Description" original="">Ссылка на общение или переписку</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="c37fd6d0-e336-4d83-98f6-2c40a8b2ba6f">
+  <value column="Name" original="AD_WF_Activity_V">AD_WF_Activity_V</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="7453b70c-2d63-40a5-b75e-109a30a4bb9c">
+  <value column="Name" original="WT_Type">Тип WT</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="a4d02579-c363-4cfe-ba0e-1fd4b0e1efe1">
+  <value column="Name" original="AD_UserEmail">AD_UserEmail</value>
+  <value column="Description" original="User Email">User Email</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="79a277af-63ae-4b2f-a65f-c2cfe2ca1e8b">
+  <value column="Name" original="HR_Department_ID">HR_Department_ID</value>
+  <value column="Description" original="HR_Department_ID">HR_Department_ID</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="0c1f49f6-d648-45ed-9759-9687b36f931f">
+  <value column="Name" original="RIT_Email_Recipient">RIT_Email_recipient</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="6d1db5e9-81c6-4fcd-9923-95c6d407bc8b">
+  <value column="Name" original="RIT_C_ContractRO">Номер договора РО</value>
+  <value column="Description" original="RIT_C_ContractRO">Номер договора РО</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="0bfc2c44-894d-42b9-9259-03c6d8463dc4">
+  <value column="Name" original="RIT_C_ContractETO">Номер договора ЭТО</value>
+  <value column="Description" original="RIT_C_ContractETO">Номер договора ЭТО</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="3e8c1dc1-39d7-4b65-97ed-92d331333129">
+  <value column="Name" original="RIT_AD_UserRO">Контактные данные РО</value>
+  <value column="Description" original="RIT_AD_UserRO">Контактные данные РО</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="d7574947-1701-4933-8fc2-bc928b0e5a08">
+  <value column="Name" original="RIT_AD_UserETO">Контактные данные ЭТО</value>
+  <value column="Description" original="RIT_AD_UserETO">Контактные данные ЭТО</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="e7947892-0ba6-4256-83fd-338090f90681">
+  <value column="Name" original="Salesrep RO">Агент РО</value>
+  <value column="Description" original="Salesrep RO">Агент РО</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="7fd01473-aaf5-420b-97cb-be2aabcccf51">
+  <value column="Name" original="Salesrep ETO">Агент ЭТО</value>
+  <value column="Description" original="Salesrep ETO">Агент ЭТО</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="2a9c6d86-e578-43de-9a6c-3c8d86e81bbe">
+  <value column="Name" original="RIT_TypeWork">RIT_TypeWork</value>
+  <value column="Description" original="Type Work">Type Work</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="15773204-c48b-41da-814d-a3c9bea8d02f">
+  <value column="Name" original="RIT_Status">RIT_Status</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="595cc8fa-6556-405f-93ff-b02d5fbd3863">
+  <value column="Name" original="RIT_CheckMontage">RIT_CheckMontage</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="8b73d36a-6878-46e9-9f1d-88307f322d16">
+  <value column="Name" original="RIT_CableType">RIT_CableType</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="aa6de9b7-e836-4e74-be8b-35354f200a06">
+  <value column="Name" original="RIT_TypeSupport">RIT_TypeSupport</value>
+  <value column="Description" original="Type Support">Type Support</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="4557d288-d402-4e63-944f-8aadff237511">
+  <value column="Name" original="RIT_Weather">RIT_Weather</value>
+  <value column="Description" original="Weather">Weather</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="3a9afcd0-be16-420d-8366-22353ab1f059">
+  <value column="Name" original="RIT_Connect">RIT_Connect</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="55303064-3cd7-43b7-8064-d3a9bce4b5de">
+  <value column="Name" original="TT Service Status">Статус услуги (ТТ)</value>
+  <value column="Description" original="TT Service Status">Статус услуги ТТ</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="f6a169b0-3add-4baf-9cc1-a41d55c907f7">
+  <value column="Name" original="External_escalation_flag">Флаг внешней эскалации</value>
+  <value column="Description" original="External_escalation_flag">Флаг внешней эскалации</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="7391dfc9-0966-47f4-86f7-80aaf2212ac2">
+  <value column="Name" original="BookmarkType">Тип вкладок</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="705a041e-e0eb-47c4-9288-9b61d2da3570">
+  <value column="Name" original="_TT Status">_TT Status</value>
+  <value column="Description" original="TT Status  list">TT Status  list</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="1aef9029-c256-4331-9e81-c7c95ce2afba">
+  <value column="Name" original="_PRB Status">_PRB Status</value>
+  <value column="Description" original="PRB Status  list">PRB Status  list</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="b6ccd2b1-9e30-41d2-be1d-33d57883f21d">
+  <value column="Name" original="RIT_MPWeather">RIT_MPWeather</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="0e59669d-d339-4a3a-88eb-47174059c1b6">
+  <value column="Name" original="Mail Direction">Входящее/Исходящее</value>
+  <value column="Description" original="Mail Direction (Input/Output)">Направление письма (Входящее/Исходящее)</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="0ca3d2b5-0664-4f68-bc95-606afcc88a80">
+  <value column="Name" original="RIT_DiameterMirror">RIT_DiameterMirror</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="9aa980dd-f5cb-4ae1-bcd6-83643f9eba49">
+  <value column="Name" original="_MP Status">_MP Status</value>
+  <value column="Description" original="All  Document Status  to table MP_OT list">All  Document Status  to table MP_OT list</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="3a3391ab-78cf-4037-aee5-b96c2da0921a">
+  <value column="Name" original="RIT_PowerTransceiver">RIT_PowerTransceiver</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="b1d3fee1-572c-43c0-a0c7-e95a60fb9f3d">
+  <value column="Name" original="MP_OT_Montage">MP_OT_Montage</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="062533f6-d63e-42de-830c-96d08e16a24c">
+  <value column="Name" original="RIT_TypeLink">RIT_TypeLink</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="8fa28b7c-844b-4975-bf63-6a6caff3016a">
+  <value column="Name" original="RIT_MapType">RIT_MapType</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="c06e9b62-3106-4011-977c-bb9b34b0062e">
+  <value column="Name" original="AD_User - Employee">AD_User - Employee</value>
+  <value column="Description" original="Employee">Employee</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="537e220a-aa86-4996-bf7f-ab280c959afc">
+  <value column="Name" original="S_ResourceType_ID">S_ResourceType_ID</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="17044c33-cdce-4beb-b1cb-27ef7e46690f">
+  <value column="Name" original="Bitrix Region Org (WebService)">Bitrix Region Org</value>
+  <value column="Description" original="Bitrix Region Org (WebService)">Bitrix Region Org</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="b05f2297-0837-473d-ac2c-5c3a294408ba">
+  <value column="Name" original="MP_OT_Related">Связанные заявки</value>
+  <value column="Description" original="MP_OT_Related">Связанные заявки</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="3fd95d0c-ee6a-4d39-8cb1-166322c43f01">
+  <value column="Name" original="RIT_Stage">Этап</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="87a36bf1-8803-44ae-8f6e-091710b87763">
+  <value column="Name" original="RIT_GROUP_TYPE">RIT_GROUP_TYPE</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="0027e36b-6daf-41a4-9c4e-d4f641e6874f">
+  <value column="Name" original="RIT_GROUPS_Value">RIT_GROUPS_Value</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="dd039316-8661-47ad-8eb7-11c31962969f">
+  <value column="Name" original="RIT_InterfaceUserEquip">RIT_InterfaceUserEquip</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="324b17a3-d1ef-4296-b6c8-2d8e52c58934">
+  <value column="Name" original="RIT_ChannelLevel">RIT_ChannelLevel</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="dd6a9879-377a-4f45-8023-c537e713f6bb">
+  <value column="Name" original="RIT_OwnerZSSS">RIT_OwnerZSSS</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="441f9e99-7bbb-4935-bc83-801c63fd19e2">
+  <value column="Name" original="RIT_FreqSatellite">RIT_FreqSatellite</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="3a273e3f-ca31-44da-a608-a4b85a491103">
+  <value column="Name" original="IsRequiresConstructZSSS">IsRequiresConstructZSSS</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="a0067c7c-49d1-4f33-aff0-a84f2e8540a3">
+  <value column="Name" original="Organizations for Location">Организация для местоположения</value>
+  <value column="Description" original="Organizations for Location">Организация для местоположения</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="9ec653d6-0a03-4126-8bd3-dd3aa4873732">
+  <value column="Name" original="RIT_ZCCC">RIT_ZCCC</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
 </idempiereTrl>

@@ -279,4 +279,19 @@ Selecting the "Where Used" check box will display the BOMs that this product is 
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
+ <row trl="Y" uuid="b02c8ea5-6d97-413e-806a-8f0fb7b42b45">
+  <value column="Name" original="SpreadScheet">Электроная таблица</value>
+  <value column="Description" original="SpreadScheet (like Office Calc tables)">Электроная таблица (подобно Excel)</value>
+  <value column="Help" original="Edit tables like in Excel">Электроная таблица (подобно Excel)</value>
+ </row>
+ <row trl="Y" uuid="9c69c4fa-0eae-4b01-8644-3131ac5a8dfc">
+  <value column="Name" original="MS Power BI Form">Форма MS Power BI</value>
+  <value column="Description" original="MS Power BI Form (iframe)">Форма MS Power BI (внешний ресурс)</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="32e4cb72-3c57-4114-8fec-92d16877f06e">
+  <value column="Name" original="RIT Technical Solution">Техническое решение</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
 </idempiereTrl>

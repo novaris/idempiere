@@ -1909,7 +1909,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="622" trl="Y">
-  <value column="Name" original="Suspended">Приостановлено</value>
+  <value column="Name" original="Suspended">На рассмотрении</value>
   <value column="Description" original=""/>
  </row>
  <row id="623" trl="Y">
@@ -2017,7 +2017,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="652" trl="Y">
-  <value column="Name" original="Direct Debit">Прямое дебитирование</value>
+  <value column="Name" original="Direct Debit">На расчётный счет</value>
   <value column="Description" original=""/>
  </row>
  <row id="653" trl="Y">
@@ -2053,11 +2053,11 @@
   <value column="Description" original=""/>
  </row>
  <row id="661" trl="Y">
-  <value column="Name" original="Funding - All Bidders help funding a Topic">Фондирование - все Bidder-ы помогают фондировать тему</value>
-  <value column="Description" original=""/>
+  <value column="Name" original="Funding - All Bidders help funding a Topic">Фондирование</value>
+  <value column="Description" original="">Фондирование - привлечение средств для осуществления деятельности</value>
  </row>
  <row id="662" trl="Y">
-  <value column="Name" original="Auction - The highest Bidder wins the Topic">Аукцион - предложивший наивысшую тему выиграывает предмет</value>
+  <value column="Name" original="Auction - The highest Bidder wins the Topic">Аукцион, предложивший наивысшую тему, выигрывает предмет</value>
   <value column="Description" original=""/>
  </row>
  <row id="663" trl="Y">
@@ -4881,8 +4881,8 @@
   <value column="Description" original=""/>
  </row>
  <row id="53716" trl="Y">
-  <value column="Name" original="Cold Call">Холодный звонок</value>
-  <value column="Description" original=""/>
+  <value column="Name" original="Cold Call">Входящий звонок</value>
+  <value column="Description" original="">Холодный звонок</value>
  </row>
  <row id="53717" trl="Y">
   <value column="Name" original="Existing Customer">Существующий контрагент</value>
@@ -4905,7 +4905,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="53722" trl="Y">
-  <value column="Name" original="Web Site">Вебсайт</value>
+  <value column="Name" original="Web Site">Cайт</value>
   <value column="Description" original=""/>
  </row>
  <row id="53723" trl="Y">
@@ -5624,17 +5624,17 @@
   <value column="Name" original="Correspondent">Корреспондентский</value>
   <value column="Description" original="Correspondent account">Корреспондентский счёт</value>
  </row>
- <row trl="N" uuid="94adc514-3729-44a3-b8d6-bb7ef414a4e7">
-  <value column="Name" original="Принадлежит абоненту">Принадлежит абоненту</value>
-  <value column="Description" original="Принадлежит абоненту">Принадлежит абоненту</value>
+ <row trl="Y" uuid="94adc514-3729-44a3-b8d6-bb7ef414a4e7">
+  <value column="Name" original="Belongs">Принадлежит абоненту</value>
+  <value column="Description" original="Belongs">Принадлежит абоненту</value>
  </row>
- <row trl="N" uuid="71b032f2-ba6c-402d-bd15-47c2e8a159d6">
-  <value column="Name" original="Аренда">Аренда</value>
-  <value column="Description" original="Аренда">Аренда</value>
+ <row trl="Y" uuid="71b032f2-ba6c-402d-bd15-47c2e8a159d6">
+  <value column="Name" original="Rent">Аренда</value>
+  <value column="Description" original="Rent">Аренда</value>
  </row>
- <row trl="N" uuid="5ab30981-5b76-40b0-bea8-e72d88b78c2a">
-  <value column="Name" original="Продажа">Продажа</value>
-  <value column="Description" original="Продажа">Продажа</value>
+ <row trl="Y" uuid="5ab30981-5b76-40b0-bea8-e72d88b78c2a">
+  <value column="Name" original="Sale">Продажа</value>
+  <value column="Description" original="Sale">Продажа</value>
  </row>
  <row trl="N" uuid="d461be09-dde8-4bb1-afad-321eb6707673">
   <value column="Name" original="Интернет">Интернет</value>
@@ -5951,5 +5951,1053 @@
  <row trl="N" uuid="6918a8ff-c306-45ba-8f90-82c4d7911966">
   <value column="Name" original="Gilat">Gilat</value>
   <value column="Description" original="Gilat">Gilat</value>
+ </row>
+ <row trl="N" uuid="31529230-8038-4ad2-96d4-f200063b55b6">
+  <value column="Name" original="SIP">SIP</value>
+  <value column="Description" original="SIP">SIP</value>
+ </row>
+ <row trl="N" uuid="e6cbf734-9418-4bee-be3a-e781fe0664a8">
+  <value column="Name" original="PJSIP">PJSIP</value>
+  <value column="Description" original="PJSIP">PJSIP</value>
+ </row>
+ <row trl="Y" uuid="c5bcef6b-5e35-4d32-8129-84ba1d49be99">
+  <value column="Name" original="QueryWh">Формирование запроса в 1С: СУТМЦ</value>
+  <value column="Description" original="">Формирование запроса в 1С: СУТМЦ</value>
+ </row>
+ <row trl="Y" uuid="f9304f97-3cb9-4f8c-b138-fb84357d30e4">
+  <value column="Name" original="Аll directories">Все справочники</value>
+  <value column="Description" original="Аll directories (nomenclature, warehouses, inventory balances)">Все справочники (номенклатура, склады, остатки ТМЦ)</value>
+ </row>
+ <row trl="Y" uuid="022a8582-81dc-47ba-a544-87737da41281">
+  <value column="Name" original="Nomenclature reference">Справочник номенклатуры</value>
+  <value column="Description" original="Nomenclature reference">Справочник номенклатуры</value>
+ </row>
+ <row trl="Y" uuid="0479c7fc-ed62-485f-943c-dea5b9798682">
+  <value column="Name" original="The remains of goods and materials in warehouses">Остатки ТМЦ на складах</value>
+  <value column="Description" original="The remains of goods and materials in warehouses">Остатки ТМЦ на складах</value>
+ </row>
+ <row trl="Y" uuid="7a5fbc7c-0906-440a-9f63-ceb32f4b5a61">
+  <value column="Name" original="Warehouse Directory">Справочник складов</value>
+  <value column="Description" original="Warehouse Directory">Справочник складов</value>
+ </row>
+ <row trl="N" uuid="a1175d9a-d4e1-484b-aab8-a813924a6dc5">
+  <value column="Name" original="POST">Почтовый адрес</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="9ad0e4b4-0372-42b7-87d4-333860b8c16e">
+  <value column="Name" original="OFFICE">Офис оператора</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="8d40291d-6e07-4722-b4b9-5dae3a1fb4db">
+  <value column="Name" original="PERSONAL">Личный кабинет</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="b9129d5b-a11c-4af7-a6cd-e2a8be69895c">
+  <value column="Name" original="VTK_Get_Balance">АСР ВТК Баланс</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="264add40-5a4c-4cd1-9061-0d218d4d5aa6">
+  <value column="Name" original="VTK_Get_Pay">АСР ВТК Платежи</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="791a634b-a836-48b5-81d0-d9f0f84fd2b8">
+  <value column="Name" original="VTK_Get_Invoice">АСР ВТК Счета</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="1b30eb8e-6445-4319-81bc-2836f76f1f14">
+  <value column="Name" original="VTK_Get_Charges">АСР ВТК Начисления</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="a566d883-1e25-4593-9807-a5e33ffb2def">
+  <value column="Name" original="Onima_Get_Balance">АСР Онима Баланс</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="258eee7f-3281-4a42-8949-db24f4a1b221">
+  <value column="Name" original="Onima_Get_Pays">АСР Онима Платежи</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="cbb337ea-aa4c-456d-a22d-b40729c6c14d">
+  <value column="Name" original="Onima_Get_Invoice">АСР Онима Счета</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="1547fc87-184b-4fac-864a-096550c372a3">
+  <value column="Name" original="Onima_Get_Charges">АСР Онима Начисления</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="1c599811-d101-486c-a1ce-cbfa0ad17e3a">
+  <value column="Name" original="ru.rtkinfotech.crm.process.model.CreationLeadActivity">Создание Лидов</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="08395cda-1fe5-40bb-8205-3281ab53e858">
+  <value column="Name" original="ru.rtkinfotech.crm.process.model.CreationRequest">Создание Запросов</value>
+  <value column="Description" original="">Создание Запросов</value>
+ </row>
+ <row trl="Y" uuid="82ad23f4-a8ae-4231-9c8e-cc63e5bc9613">
+  <value column="Name" original="Outgoing Email Message">Исходящий email</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="fab375f3-061c-4f73-8a40-6dcabb18f6c2">
+  <value column="Name" original="NEW HARD">Новое</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="9e411651-259a-4885-a43c-738dd3b7c0c2">
+  <value column="Name" original="SECOD HAND">Б.У.</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="50972578-5591-4f05-aa6d-c98d74db6dc0">
+  <value column="Name" original="Tax">Налоговый документ-основание при УСН</value>
+  <value column="Description" original="Tax">Налоговый документ-основание при УСН</value>
+ </row>
+ <row trl="Y" uuid="15f1d7aa-f935-4214-9554-a2545a098e47">
+  <value column="Name" original="No answer">Не отвечает</value>
+  <value column="Description" original="">Не отвечает (новый лид, по которому не дозвонились)</value>
+ </row>
+ <row trl="Y" uuid="a7805be0-5672-46dd-8e00-569d03407d55">
+  <value column="Name" original="Contact in the future">Контакт в будущем</value>
+  <value column="Description" original="">Контакт в будущем (абонент проконсультирован, обдумывает необходимость)</value>
+ </row>
+ <row trl="Y" uuid="950003a9-327e-4463-b4fc-8416c80b0231">
+  <value column="Name" original="Rejected">Отказ</value>
+  <value column="Description" original="">Отказ (не подошли условия: дорого, не устроили тарифы и т.д.)</value>
+ </row>
+ <row trl="Y" uuid="9ff9f543-9a2d-4bf9-ada0-b17b2de82f9f">
+  <value column="Name" original="Disqualification">СПАМ</value>
+  <value column="Description" original="">Дисквалификация (спам, ошибка и т.д. )</value>
+ </row>
+ <row trl="Y" uuid="23ea284d-a08b-4f42-854b-ded7f3cb0fd6">
+  <value column="Name" original="ru.rtkinfotech.crm.sd.mail.model.CreationRequestOT">Запрос на техподдержку</value>
+  <value column="Description" original="">Запрос на техподдержку</value>
+ </row>
+ <row trl="Y" uuid="9e800089-e311-4075-8813-3ada552c0b15">
+  <value column="Name" original="Reference">Ссылка</value>
+  <value column="Description" original="Reference">Ссылка</value>
+ </row>
+ <row trl="Y" uuid="d7e70b04-d80d-4fa2-a1e6-600b0f05bbc4">
+  <value column="Name" original="Client">Клиентский</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="87b0a26e-2fdb-4fb0-8b92-778bfa9e6712">
+  <value column="Name" original="Agential">Агентский</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="051c1194-ba71-44f8-a1d5-e89122118add">
+  <value column="Name" original="DZO">ДЗО</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="b151f562-5d19-4baf-a894-4597d8aca88a">
+  <value column="Name" original="VTK_Get_Status">Состояние</value>
+  <value column="Description" original="">Состояние договора или услуги</value>
+ </row>
+ <row trl="Y" uuid="668269ba-41f0-45c9-9a4c-d2d713c9a600">
+  <value column="Name" original="Planned with disconnect">Плановые работы с перерывом связи</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="a906ea2f-b592-4d34-97bf-7931822f70c9">
+  <value column="Name" original="Emergency with Disconnect">Аварийные работы с перерывом связи</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="d0171c9a-de69-40d3-8d3c-bd2c36dd98f6">
+  <value column="Name" original="Immediate with Disconnect">Неотложные работы  с перерывом связи</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="bddd7e84-495a-4d8c-8252-c378591addd2">
+  <value column="Name" original="Immediate with connect">Неотложные работы  без перерыва связи</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="00780a87-b939-4b1d-8550-9172d4b7547e">
+  <value column="Name" original="Planned with connect">Плановые работы без перерыва связи</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="af5b574b-b71b-415c-aa7c-a1b7e575a600">
+  <value column="Name" original="Drafted">На оформлении</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="17e60995-cd13-48f9-a6ce-a0a75c2a9348">
+  <value column="Name" original="Reconciling">На согласовании или повторном согласовании</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="3c3c0b3d-7a05-4160-8f2d-8e891daca213">
+  <value column="Name" original="To Reconciling">На повторное согласование</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="67865d6e-b3dc-4788-a0cf-578558c5c131">
+  <value column="Name" original="Allowed to execute">Разрешено к выполнению</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="c728220d-fe96-4802-b534-ecd31c259bb5">
+  <value column="Name" original="Completed">Выполнен</value>
+  <value column="Description" original="">Выполнен</value>
+ </row>
+ <row trl="Y" uuid="5c46e534-eb6c-42b2-a0b3-b4c09f352926">
+  <value column="Name" original="not completed">Не выполнен</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="ff93f2ee-b312-4967-821c-556db38c616b">
+  <value column="Name" original="Voided">Отменен</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="cf778a97-7876-41e5-a6b3-4efda140127e">
+  <value column="Name" original="Information">Для информирования</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="5332b217-7c54-46d0-a32d-83b66acd1fd3">
+  <value column="Name" original="Approved">Для согласования</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="c01d845d-9336-42be-b0a8-36cda2756646">
+  <value column="Name" original="Worker">Сотрудник</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="328003e6-9baf-4001-a7f3-98fd0d655fa8">
+  <value column="Name" original="Abonent Cabinet">Личный кабинет</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="00cd5f7b-687e-4071-bfaa-4bcb5db8c513">
+  <value column="Name" original="Email">Электронная почта</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="720acc6a-3478-4069-8e7c-7233e8a0c759">
+  <value column="Name" original="Monitoring System">Уведомление от системы мониторинга</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="cd9e4bb3-46cc-4984-ae49-0c7d5e77ccbd">
+  <value column="Name" original="Client">Клиентская</value>
+  <value column="Description" original="">Клиентская</value>
+ </row>
+ <row trl="Y" uuid="f184f4e3-b96e-45f1-8807-0cad5a245568">
+  <value column="Name" original="Technological">Технологическая</value>
+  <value column="Description" original="">Технологическая</value>
+ </row>
+ <row trl="Y" uuid="07906807-e6f1-4f92-9ddc-273d7f5ce0ad">
+  <value column="Name" original="Assembling">Поддержка монтажа</value>
+  <value column="Description" original="">Поддержка монтажа</value>
+ </row>
+ <row trl="Y" uuid="b6d19a3f-8e6b-47d8-952e-5780087621e2">
+  <value column="Name" original="Service">Сервисная</value>
+  <value column="Description" original="">Сервисная</value>
+ </row>
+ <row trl="Y" uuid="e0e6ae13-19d2-46f6-a2fe-af3f98df98f3">
+  <value column="Name" original="Quality violation">Нарушение качества</value>
+  <value column="Description" original="Quality violation">Нарушение качества</value>
+ </row>
+ <row trl="Y" uuid="ac8eb48a-24b1-4d85-a625-55baa5bd04ea">
+  <value column="Name" original="Inaccessibility">Недоступность</value>
+  <value column="Description" original="">Недоступность</value>
+ </row>
+ <row trl="Y" uuid="638c5d3a-b68d-4f23-941f-3c878f192171">
+  <value column="Name" original="No effect">Без влияния на услугу</value>
+  <value column="Description" original="No effect">Без влияния на услугу</value>
+ </row>
+ <row trl="Y" uuid="05054d92-59bd-4879-a68e-cb2db16918aa">
+  <value column="Name" original="Low Speed">Низкая скорость</value>
+  <value column="Description" original="Low Speed">Низкая скорость</value>
+ </row>
+ <row trl="Y" uuid="5ee03395-cae6-4262-9233-4452e79c522a">
+  <value column="Name" original="Lost on channel">Потери на канале связи</value>
+  <value column="Description" original="Lost on channel">Потери на канале связи</value>
+ </row>
+ <row trl="Y" uuid="fd1ee75a-2041-4b2c-b5aa-7ebc864cbef7">
+  <value column="Name" original="Service violation">Нарушение в работе сервиса</value>
+  <value column="Description" original="Service violation">Нарушение в работе сервиса</value>
+ </row>
+ <row trl="Y" uuid="18365426-6870-4123-ad70-b081c22cf262">
+  <value column="Name" original="Personal account problems">Проблемы с отображением личного кабинета</value>
+  <value column="Description" original="Personal account problems">Проблемы с отображением личного кабинета</value>
+ </row>
+ <row trl="Y" uuid="737ef060-ae95-4edb-a458-d490b71882d0">
+  <value column="Name" original="Broken channel">Не работает канал связи</value>
+  <value column="Description" original="Broken channel">Не работает канал связи</value>
+ </row>
+ <row trl="Y" uuid="cb0ce8d5-b261-447f-a912-12f4f4e5ef02">
+  <value column="Name" original="Additional service unavailable">Не работает дополнительная услуга (видеонаблюдение)</value>
+  <value column="Description" original="Additional service unavailable">Не работает дополнительная услуга (видеонаблюдение)</value>
+ </row>
+ <row trl="Y" uuid="dbcbedeb-dde0-4a15-b579-fea853d1759b">
+  <value column="Name" original="Personal Account Consultation">Консультация по работе с личным кабинетом</value>
+  <value column="Description" original="Personal Account Consultation">Консультация по работе с личным кабинетом</value>
+ </row>
+ <row trl="Y" uuid="87ae0a84-c50d-4754-8950-efc154b0e187">
+  <value column="Name" original="Payment service consultation">Консультация по оплате услуг</value>
+  <value column="Description" original="Payment service consultation">Консультация по оплате услуг</value>
+ </row>
+ <row trl="Y" uuid="d468df54-8447-44c1-8a4d-c04fca2dae9c">
+  <value column="Name" original="Additional service request">Запрос на подключения дополнительной услуги</value>
+  <value column="Description" original="Additional service request">Запрос на подключения дополнительной услуги</value>
+ </row>
+ <row trl="Y" uuid="68de5849-83cc-4b8c-a4e8-49b53024875c">
+  <value column="Name" original="Queue">В очереди</value>
+  <value column="Description" original="Request in queue">В очереди</value>
+ </row>
+ <row trl="Y" uuid="db52234c-ea87-4ed0-b178-86d8310bfea0">
+  <value column="Name" original="Work">В работе</value>
+  <value column="Description" original="Work">В работе</value>
+ </row>
+ <row trl="Y" uuid="0c8ff7c0-368c-44bb-a5d6-a266f24fe2d9">
+  <value column="Name" original="Client">В зоне клиента</value>
+  <value column="Description" original="Client">В зоне клиента</value>
+ </row>
+ <row trl="Y" uuid="572c70f7-3bc5-4364-bf6f-6e1b9459a774">
+  <value column="Name" original="Provider">В зоне провайдера</value>
+  <value column="Description" original="Provider">В зоне провайдера</value>
+ </row>
+ <row trl="Y" uuid="84cb4e72-601f-4019-aee9-2bc21ef73b92">
+  <value column="Name" original="Client Contact">Получение контактов клиента</value>
+  <value column="Description" original="Client Contact">Получение контактов клиента</value>
+ </row>
+ <row trl="Y" uuid="318979b2-7e0e-4c08-b6fb-7d14a33b2dfc">
+  <value column="Name" original="Closing">На закрытии (услуга восстановлена)</value>
+  <value column="Description" original="Closing">На закрытии (услуга восстановлена)</value>
+ </row>
+ <row trl="Y" uuid="7049587f-f8a5-4b0d-9362-bc525cda5565">
+  <value column="Name" original="Closed">Закрыта</value>
+  <value column="Description" original="Closed">Закрыта</value>
+ </row>
+ <row trl="Y" uuid="c222b248-9e71-410a-826c-fe0b68aa7654">
+  <value column="Name" original="Cancelled">Отменена</value>
+  <value column="Description" original="Cancelled">Отменена</value>
+ </row>
+ <row trl="Y" uuid="6b73cae7-a1f4-4024-aacc-de12ceafd41c">
+  <value column="Name" original="Waiting">Ожидание</value>
+  <value column="Description" original="Waiting">Ожидание</value>
+ </row>
+ <row trl="Y" uuid="295ab6b4-346b-4d86-984c-8c60b18df63a">
+  <value column="Name" original="Cancel">Отмена</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="7d43dcd3-e361-44a7-9290-312b7eb644a2">
+  <value column="Name" original="Paused">Приостановлено</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="4d003b11-5c5f-46d1-b336-fc1b62d6cc11">
+  <value column="Name" original="FROM">От (FROM)</value>
+  <value column="Description" original="Email FROM">Заголовок письма - от кого (FROM:)</value>
+ </row>
+ <row trl="Y" uuid="b08cc182-0003-4681-962d-f2d17b314a55">
+  <value column="Name" original="TO">Кому (ТO)</value>
+  <value column="Description" original="Email TO">Заголовок письма - кому (TO:)</value>
+ </row>
+ <row trl="Y" uuid="dab62352-5f01-4d3b-a7b4-ad9651f91f0e">
+  <value column="Name" original="BСС">Копия (BCC)</value>
+  <value column="Description" original="Email BСС">Заголовок письма - копия (BCC:)</value>
+ </row>
+ <row trl="Y" uuid="ca80dd16-172b-4c18-a371-4e3511a5cf33">
+  <value column="Name" original="TO_BCC">Кому и копия (TO, BCC)</value>
+  <value column="Description" original="Email TO and BCC">Заголовки письма - кому и копия (TO:, BCC:)</value>
+ </row>
+ <row trl="Y" uuid="0097eff1-2b00-460b-adb2-b6ef26bdf8a8">
+  <value column="Name" original="Transfer_to_Manager">Передача на менеджера</value>
+  <value column="Description" original="">Передача лида на менеджера</value>
+ </row>
+ <row trl="Y" uuid="ba83094c-4fa9-4d0f-b68e-2d0c3fd8c187">
+  <value column="Name" original="Transfer_to_Agent">Передача на агента</value>
+  <value column="Description" original="">Передача лида на агента</value>
+ </row>
+ <row trl="Y" uuid="dee20fd3-fc61-4242-9e6a-172b2fc49442">
+  <value column="Name" original="Existing contact">Существующий контакт</value>
+  <value column="Description" original="">Данный контакт существует в системе</value>
+ </row>
+ <row trl="Y" uuid="d271c3aa-d92a-4a62-b45c-2d3cc36dd1a6">
+  <value column="Name" original="Tasks flag">Флаг задачи</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="11e3698a-3b46-42af-8d5f-524df9a0a1c3">
+  <value column="Name" original="SPD">СПД</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="8eb2ccb5-a4fc-4f6d-b60c-3247680451bc">
+  <value column="Name" original="HUGHES">HUGHES</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="2b4a3f24-a7d2-46ca-bb4c-cb501ed05278">
+  <value column="Name" original="Gilat">Gilat</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="99858c63-1304-4264-9a39-1c8ea3958e97">
+  <value column="Name" original="IDirect">IDirect</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="ce555229-1b5a-4f8c-81c6-8e3be592cd87">
+  <value column="Name" original="SCPC">SCPC</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="9535bc61-5f5c-42be-be7d-659c5fe5355f">
+  <value column="Name" original="Task">Задача</value>
+  <value column="Description" original="Task">Задача</value>
+ </row>
+ <row trl="Y" uuid="85551b82-5492-460a-a7e3-13a22d9e70c3">
+  <value column="Name" original="SubTask">Подзадача</value>
+  <value column="Description" original="SubTask">Подзадача</value>
+ </row>
+ <row trl="Y" uuid="d97edc79-a815-4eff-ad78-48cb42583bfd">
+  <value column="Name" original="Assigned">Назначена</value>
+  <value column="Description" original="Assigned">Задача была назначена Инициатором Заявки на подразделение Исполнителя, но еще не была взята в работу (не переведена в статус – «выполнение» никем из сотрудников подразделения Исполнителя)</value>
+ </row>
+ <row trl="Y" uuid="4c565c6f-00c6-4365-aac7-50c5a618936b">
+  <value column="Name" original="Execution">Выполнение</value>
+  <value column="Description" original="Execution">Задача обрабатывается сотрудником подразделения Исполнителя</value>
+ </row>
+ <row trl="Y" uuid="db9a1bb0-ca3e-403c-8070-f5a75e366a30">
+  <value column="Name" original="Returned">Возвращена</value>
+  <value column="Description" original="Returned">Задача возвращена Инициатору</value>
+ </row>
+ <row trl="Y" uuid="78baf2b6-0c7a-4c40-a9b9-c77af2daeb69">
+  <value column="Name" original="Done">Выполнена</value>
+  <value column="Description" original="The task is processed by the Contractor. The Contractor recorded the result in the area of the &quot;Summary&quot; task">Задача обработана Исполнителем. Исполнитель зафиксировал результат в области Задачи «Резюме»</value>
+ </row>
+ <row trl="Y" uuid="04947ecd-c31f-4a11-be22-51c9aeb9c7ac">
+  <value column="Name" original="Delayed">Отложена</value>
+  <value column="Description" original="The task has been delayed.">Выполнение задачи отложено.</value>
+ </row>
+ <row trl="Y" uuid="77d53fe0-d954-4574-af46-bb57d19200c0">
+  <value column="Name" original="BODY">Тело (BODY)</value>
+  <value column="Description" original="Email BODY">Тело письма (BODY)</value>
+ </row>
+ <row trl="Y" uuid="e07c932d-5fe0-4109-88fc-a82c0d9f337b">
+  <value column="Name" original="Wrong department">Ошибочное подразделение</value>
+  <value column="Description" original="Wrong department">Задача поставлена на подразделение ошибочно</value>
+ </row>
+ <row trl="Y" uuid="9c25579f-6c81-47c0-bcb7-2c6d9f6f0751">
+  <value column="Name" original="Lack data">Недостаточно данных</value>
+  <value column="Description" original="Insuffitient data">В задаче недостаточно данных</value>
+ </row>
+ <row trl="Y" uuid="771876d1-97ef-4885-b050-f7f4cd5143a7">
+  <value column="Name" original="Inetrnet">Интернет</value>
+  <value column="Description" original="">Интернет</value>
+ </row>
+ <row trl="Y" uuid="83d5d17c-11f3-49a7-9f66-f50a3aab81f5">
+  <value column="Name" original="Outdoor advertising">Наружная реклама</value>
+  <value column="Description" original="">Наружная реклама</value>
+ </row>
+ <row trl="Y" uuid="ad2f53a3-399c-4ad6-b1ef-d39e29ad1710">
+  <value column="Name" original="Radio Advertising">Реклама на радио</value>
+  <value column="Description" original="">Реклама на радио</value>
+ </row>
+ <row trl="Y" uuid="9eb77f57-df03-4882-a7bd-ce5e96ba482f">
+  <value column="Name" original="TV advertising">Реклама на ТВ</value>
+  <value column="Description" original="">Реклама на ТВ</value>
+ </row>
+ <row trl="Y" uuid="28b5b462-9261-4675-95fd-019ee4ceec93">
+  <value column="Name" original="Self search">Самостоятельный поиск</value>
+  <value column="Description" original="">Самостоятельный поиск</value>
+ </row>
+ <row trl="Y" uuid="81469b74-3d49-4520-9f52-60d9a451b5d6">
+  <value column="Name" original="0_Null">0_Нулевой</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="65812a93-5c58-4dd0-a467-f242d7e064dd">
+  <value column="Name" original="1_First">1_Первый</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="2b5db90b-0df1-40f0-8a64-c1462e71443d">
+  <value column="Name" original="2_Second">2_Второй</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="25591d55-b2ab-497f-ad7f-b9285ff26924">
+  <value column="Name" original="3_Third">3_Третий</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="57999baf-a5d8-48c1-a79e-8669fdaf48dc">
+  <value column="Name" original="4_Fourth">4_Четвёртый</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="35db4b7f-73e5-43e2-8508-36d0db3c8712">
+  <value column="Name" original="5_Fifth">5_Пятый</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="acf430fa-cf37-4a95-a2b6-e0e6c6a91feb">
+  <value column="Name" original="6_Sixth">6_Шестой</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="c0a38b02-017b-4567-a25d-0e6e208176ec">
+  <value column="Name" original="7_Seventh">7_Седьмой</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="c17a7320-1966-46bb-b095-3fc801b75c09">
+  <value column="Name" original="8_Eighth">8_Восьмой</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="6103a18d-422b-4670-b815-60974a509070">
+  <value column="Name" original="9_Ninth">9_Девятый</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="6ca55430-e7f1-404a-9f56-8c2c664a394f">
+  <value column="Name" original="Word of mouth">Сарафанное радио</value>
+  <value column="Description" original="">Сарафанное радио</value>
+ </row>
+ <row trl="Y" uuid="b1ba37cd-a67b-4edf-8527-a1b4d6553fea">
+  <value column="Name" original="MissedCall">Недозвон</value>
+  <value column="Description" original="">Недозвон</value>
+ </row>
+ <row trl="Y" uuid="7701e890-5db9-4c8e-953d-97c0cebbba20">
+  <value column="Name" original="Expensively">Дорого</value>
+  <value column="Description" original="">Дорого</value>
+ </row>
+ <row trl="Y" uuid="a213b6a5-10c3-45e0-be4e-7c7b75ddeca5">
+  <value column="Name" original="Alternative">Есть альтернатива</value>
+  <value column="Description" original="">Есть альтернатива</value>
+ </row>
+ <row trl="Y" uuid="114f5589-1e0e-41b1-a4c4-37a6632b03ff">
+  <value column="Name" original="RIT_NoAvailableTariff">Нет подходящего тарифа</value>
+  <value column="Description" original="">Нет подходящего тарифа</value>
+ </row>
+ <row trl="Y" uuid="adae4206-9532-4c72-ae71-d5f5628244d9">
+  <value column="Name" original="RIT_NoCapability">Нет тех.возможности</value>
+  <value column="Description" original="">Нет тех.возможности</value>
+ </row>
+ <row trl="Y" uuid="735c264a-f944-4581-8ad2-76dcef8dc797">
+  <value column="Name" original="RIT_NoRequest">Не оставлял обращение</value>
+  <value column="Description" original="">Не оставлял обращение</value>
+ </row>
+ <row trl="N" uuid="3a5c212e-3b6f-45e6-ac39-d26f4c882c64">
+  <value column="Name" original="Text Search">Text Search</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="4fe810f7-3dba-4405-8769-7c3242ac5cfd">
+  <value column="Name" original="Decision">Проблема имеет решение</value>
+  <value column="Description" original="">Проблема имеет решение</value>
+ </row>
+ <row trl="Y" uuid="80fdd998-6d81-40c9-bacc-c18656ec480a">
+  <value column="Name" original="Resolved">Проблема решена</value>
+  <value column="Description" original="">Проблема решена</value>
+ </row>
+ <row trl="Y" uuid="bebb639a-5829-4617-8ae2-9730a71a8cb8">
+  <value column="Name" original="Workaround">Есть обходное решение</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="5c0da6fa-a093-47e6-b35e-3dae3f9e1427">
+  <value column="Name" original="Contract RO">Договор РО</value>
+  <value column="Description" original="">Договор РО</value>
+ </row>
+ <row trl="Y" uuid="e4450138-ec6a-4add-869e-5960e6bde490">
+  <value column="Name" original="Contract ETO">Договор ЭТО</value>
+  <value column="Description" original="">Договор ЭТО</value>
+ </row>
+ <row trl="Y" uuid="994d428f-0614-4951-b5c9-2604f125032c">
+  <value column="Name" original="Inner">Внутренний</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="dca6dd55-7ed1-4bb0-8f95-056e88067d48">
+  <value column="Name" original="External">Внешний</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="8ba7f6a2-f8a9-4d4d-86ee-21aed4c9a75a">
+  <value column="Name" original="CMP">СМР</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="b6e10509-8865-416b-bcaa-e6e51006503e">
+  <value column="Name" original="AVR">АВР</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="739fdc89-5ab8-4640-a0ba-01743577cb22">
+  <value column="Name" original="Waiting">Ожидание</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="284a5f38-9b70-4dc3-9e5e-31ff39de3286">
+  <value column="Name" original="Work">В работе</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="e6736a8c-46c6-4000-9ecd-93ce0ceda722">
+  <value column="Name" original="Completed">Завершен</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="68ce0d12-b1a8-47d9-bb0a-3d7a717f42e8">
+  <value column="Name" original="Was carried out">Проводилась</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="a1d9fa7f-6f3a-4738-9710-e055cfe8265d">
+  <value column="Name" original="Not carried out">Не проводилась</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="1933b744-7f80-4b29-a89b-9a0f1bcb7237">
+  <value column="Name" original="RG-6">RG-6</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="5bc6ccac-aaef-4a5f-98a9-49a769155a6d">
+  <value column="Name" original="RG-11">RG-11</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="e084fde5-6e8a-4907-932a-a348242cdf14">
+  <value column="Name" original="Wall mounted">Настенная</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="fddedb73-9f2e-4ba1-9743-5fcc33a82474">
+  <value column="Name" original="Tripod">Тренога</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="2917c284-6319-44ba-a7cc-48db187f873c">
+  <value column="Name" original="Rain">Дождь</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="0b6edbd4-7ef8-4f00-bb96-9ae3939a0383">
+  <value column="Name" original="Little snow">Снег небольшой</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="8ecc6122-d648-45d3-b1b2-a33395975a4a">
+  <value column="Name" original="Heavy snow">Снег сильный</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="b7fc6f90-dfa1-420d-b3d1-79b848a798df">
+  <value column="Name" original="Cloudy">Облачно</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="90587d6f-a876-472f-9056-9fbd206929c5">
+  <value column="Name" original="Mainly cloudy">Пасмурно</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="7644841a-9174-4c3e-b99b-8fc241367424">
+  <value column="Name" original="Fog">Туман</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="a52d321e-1180-40f2-93d1-f56f10007590">
+  <value column="Name" original="Clear">Ясно</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="649b21c2-86b2-4972-8225-27e89bb27898">
+  <value column="Name" original="Yes">Да</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="9bfa85f5-0bd5-4201-a648-1724e52e1ed3">
+  <value column="Name" original="Not">Нет</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="ea65058e-0e4c-4d49-8ef2-484094468c6a">
+  <value column="Name" original="not available">Недоступность</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="6bf456d9-8900-4c16-bede-5c25a13c3692">
+  <value column="Name" original="quality violation">Нарушение качества</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="b82ef541-9f24-44d5-9101-223e9ab8bc18">
+  <value column="Name" original="Recovery">Восстановление</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="38fdb9c8-5475-41a7-8a11-596b11b47310">
+  <value column="Name" original="problem resolved">Проблема решена</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="ea0d8d4e-ff0a-47be-905d-b94cebf6abc2">
+  <value column="Name" original="External empoyee">Внешний сотрудник</value>
+  <value column="Description" original="External empoyee">Внешний сотрудник</value>
+ </row>
+ <row trl="Y" uuid="a213d75a-1615-41dd-abc6-8b45f7de1791">
+  <value column="Name" original="Phone">Телефонная связь</value>
+  <value column="Description" original="">Телефонная связь</value>
+ </row>
+ <row trl="Y" uuid="39e441be-15b2-4744-90dc-461e711b12ed">
+  <value column="Name" original="Official letter">Официальное письмо</value>
+  <value column="Description" original="Official letter">Официальное письмо</value>
+ </row>
+ <row trl="Y" uuid="587442a0-61af-4789-825a-11385b2c6bca">
+  <value column="Name" original="Messenger">Мессенджер</value>
+  <value column="Description" original="Messenger">Мессенджер</value>
+ </row>
+ <row trl="Y" uuid="c4d43831-722a-4d23-8b35-80462115b957">
+  <value column="Name" original="Highest">Наивысший</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="a7c419ad-0285-4f24-90a2-fcf2fb4150ca">
+  <value column="Name" original="Hight">Высокий</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="e5e80e2f-90bc-40da-8275-e9d287daedf2">
+  <value column="Name" original="Medium">Средний</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="377a8a3c-6ce8-4dbf-8492-702d66ab23cb">
+  <value column="Name" original="Low">Низкий</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="8d2751b8-951b-464e-b32d-b0bd6cd30826">
+  <value column="Name" original="Chronology">Хронология</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="6bad3d8c-c194-4662-b0ef-74912df3f6f6">
+  <value column="Name" original="Diagnostic">Диагностика</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="412f5cfc-1c06-41bb-814b-d6493a5e93fe">
+  <value column="Name" original="Solution Log">Хронология решений</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="22b83658-2bad-420e-8d0b-70bd0c4191b9">
+  <value column="Name" original="Supervisor Resume">Резюме руководителя</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="c4b1a129-7dfc-47ac-9974-89e5f1ac6da8">
+  <value column="Name" original="Cancelled">Отменена</value>
+  <value column="Description" original="">Заявка отменена</value>
+ </row>
+ <row trl="Y" uuid="a6efed93-0fa5-4316-8894-a081df9af33d">
+  <value column="Name" original="Client Contact">Получение контактов клиента</value>
+  <value column="Description" original="">Заявка на получении контактов клиента</value>
+ </row>
+ <row trl="Y" uuid="35bf9a17-fead-4a02-8245-01d2ce68d663">
+  <value column="Name" original="Client">В зоне клиента</value>
+  <value column="Description" original="">Заявка в зоне клиента</value>
+ </row>
+ <row trl="Y" uuid="16ce5f9b-41f6-403c-b754-1622b4185ab2">
+  <value column="Name" original="Closed">Закрыта</value>
+  <value column="Description" original="">Заявка закрыта</value>
+ </row>
+ <row trl="Y" uuid="3d0167a8-b937-4e22-a9a5-c2227027fd4b">
+  <value column="Name" original="Closing">На закрытии (услуга восстановлена)</value>
+  <value column="Description" original="">Заявка на закрытии (услуга восстановлена)</value>
+ </row>
+ <row trl="Y" uuid="b2b358ae-238e-4489-9e67-71892a4a2170">
+  <value column="Name" original="Provider">В зоне провайдера</value>
+  <value column="Description" original="">В зоне провайдера</value>
+ </row>
+ <row trl="Y" uuid="6966451b-f430-4ae8-bd98-7889fb3b616b">
+  <value column="Name" original="Queue">В очереди</value>
+  <value column="Description" original="">Заявка в очереди</value>
+ </row>
+ <row trl="Y" uuid="87b8292e-1825-4df2-9ea2-34e660cba1bc">
+  <value column="Name" original="Work">В работе</value>
+  <value column="Description" original="">Заявка в работе</value>
+ </row>
+ <row trl="Y" uuid="32027965-84ea-4686-88d0-0e5712a4a3b9">
+  <value column="Name" original="Waiting">Ожидание</value>
+  <value column="Description" original="">Заявка на ожидании</value>
+ </row>
+ <row trl="Y" uuid="12ea41c2-e809-4d28-8bae-9bb49aeb4b0b">
+  <value column="Name" original="Decision">Проблема имеет решение</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="e190c948-3295-41e4-9e34-8ac302be1530">
+  <value column="Name" original="Resolved">Проблема решена</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="33af3f1b-c113-4c87-af69-1115f38b067e">
+  <value column="Name" original="Workaround">Есть обходное решение</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="a47f3242-25ee-4909-9b2e-a0c57ce78873">
+  <value column="Name" original="Search Solution">Поиск решения</value>
+  <value column="Description" original="">Поиск решения</value>
+ </row>
+ <row trl="Y" uuid="d783aeb4-fa08-4cc1-a636-544ceff52814">
+  <value column="Name" original="Input">Входящее</value>
+  <value column="Description" original="Input Mail">Входящее почтовое сообщение</value>
+ </row>
+ <row trl="Y" uuid="9a231243-d847-4776-86df-1fe882d669a2">
+  <value column="Name" original="Output">Исходящее</value>
+  <value column="Description" original="Output Mail">Исходящее почтовое сообщение</value>
+ </row>
+ <row trl="N" uuid="671b5438-2c6f-469c-b2ef-d34ef9688d63">
+  <value column="Name" original="0.5">0.5</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="062ca8e4-b066-4231-a0de-f163ab2c0304">
+  <value column="Name" original="0.6">0.6</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="0ca85209-6e40-4d47-a630-19b32b73cdf1">
+  <value column="Name" original="0.7">0.7</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="44dfaa44-8186-4a52-bd79-54ad0e3511c1">
+  <value column="Name" original="0.9">0.9</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="679f60a2-19f7-4508-9c9e-7d1ff801bbc8">
+  <value column="Name" original="1.2">1.2</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="1b47301a-7d0a-4cd8-92fc-3823419c7dac">
+  <value column="Name" original="1.5">1.5</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="d0d27f5e-7e15-4c9c-ad3d-001a728b4c40">
+  <value column="Name" original="1.8">1.8</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="7142c15c-09de-4a09-9da2-1a3532ac8b73">
+  <value column="Name" original="2.4">2.4</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="3aa39edf-3a39-4806-8005-1b34d9d2391b">
+  <value column="Name" original="3.6">3.6</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="9a250498-e5a4-48c2-a23b-fc0a20cbf46c">
+  <value column="Name" original="4.7">4.7</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="9ad83e6e-e6ce-4dcd-b746-fd0277285e17">
+  <value column="Name" original="5.0">5.0</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="0f2a4ac9-9945-413a-98fe-ffed8c6ef98d">
+  <value column="Name" original="7.0">7.0</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="fdb93321-8362-4130-b375-ce59fffa48fb">
+  <value column="Name" original="9.0">9.0</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="80ad8649-cb6f-4843-820d-d85ec1d0fc98">
+  <value column="Name" original="11.0">11.0</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="41725783-69d4-4161-9487-027a58e93ff7">
+  <value column="Name" original="12.0">12.0</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="a513c1f0-27a1-4094-a7c1-1977e8ba81b6">
+  <value column="Name" original="Allowed to execute">Разрешено к выполнению</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="c88ef152-bbff-44bc-997b-9b3fe2d5329e">
+  <value column="Name" original="Completed">Выполнен</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="6525117d-d85d-46e5-8ff9-090e339241f9">
+  <value column="Name" original="Drafted">На оформлении</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="1e58aad8-208b-40da-8064-ea744baef6da">
+  <value column="Name" original="not completed">Не выполнен</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="e4e1929f-5eb9-4c9f-90d3-62ba037bef78">
+  <value column="Name" original="Reconciling">На согласовании или повторном согласовании</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="63dcf5cc-a03f-49f0-a9ef-1e007a04309d">
+  <value column="Name" original="To Reconciling">На повторное согласование</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="31338e93-0c9c-4af6-bcc0-4d5c59761c1c">
+  <value column="Name" original="Voided">Отменен</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="90639abd-edc7-4469-984c-32dee7c4716d">
+  <value column="Name" original="Cancelled">Отменена</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="4575c031-e275-4f75-b410-529b28deb1d1">
+  <value column="Name" original="Client Contact">Получение контактов клиента</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="8fea2490-d660-4827-9923-c9990a9f6c87">
+  <value column="Name" original="Closed">Закрыта</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="780af037-9d8b-4b86-9085-4935f5cb5596">
+  <value column="Name" original="Client">В зоне клиента</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="970d3ddc-662e-4220-9c6e-0d6df22eb5c0">
+  <value column="Name" original="Closing">На закрытии (услуга восстановлена)</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="ef2dc2bf-41e9-470a-a0fc-71693a35b676">
+  <value column="Name" original="Provider">В зоне провайдера</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="f2c0fa2e-71ba-4c6e-b7ed-5189ddc75f44">
+  <value column="Name" original="Queue">В очереди</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="575e0706-dceb-4c32-9030-f7418ca2fe76">
+  <value column="Name" original="Work">В работе</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="b982730c-4654-4ae1-ace7-00dc64ab997c">
+  <value column="Name" original="Waiting">Ожидание</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="517ec41c-ea61-4dec-8946-26be90130212">
+  <value column="Name" original="Decision">Проблема имеет решение</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="2152eed8-3f23-4d4f-af01-6f0d4a9618c4">
+  <value column="Name" original="Resolved">Проблема решена</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="05b7194d-a48f-4b92-bad5-8ba3c633fdc0">
+  <value column="Name" original="Search Solution">Поиск решения</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="30923020-c0a8-43d2-ba7f-0c391cc47cfd">
+  <value column="Name" original="Workaround">Есть обходное решение</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="50cc893b-2304-4051-b1d2-90cd1cc76733">
+  <value column="Name" original="ru.rtkinfotech.crm.sd.mail.model.CreationConversation">Обработка персональных почтовых ящиков ТП</value>
+  <value column="Description" original="">Обработка персональных почтовых ящиков ТП</value>
+ </row>
+ <row trl="N" uuid="7a2767aa-fb69-4188-a079-1dfc1c9ab0a8">
+  <value column="Name" original="1">1</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="5a42e3d7-8798-4072-be2b-d093922204a9">
+  <value column="Name" original="2">2</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="a038944b-5967-45c3-817a-9a9cb1f47560">
+  <value column="Name" original="2.5">2.5</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="ed25178d-9fb5-42c9-abb3-de1e99e410fa">
+  <value column="Name" original="3">3</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="fecfd875-1188-4c84-9bf6-98ecee579ee6">
+  <value column="Name" original="4">4</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="b864037b-ec86-41a0-8cd1-f265f71136e4">
+  <value column="Name" original="6">6</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="9cd48f12-6b3d-4376-a7e6-ced29bbb2c44">
+  <value column="Name" original="8">8</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="c7ce9beb-d48a-44b2-94f6-2f7605d8ac83">
+  <value column="Name" original="0.74">0.74</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="ef74a29a-dc90-4af0-8a4c-da3c8e6debfd">
+  <value column="Name" original="0.76">0.76</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="a5b81fb2-629a-4cf0-85ee-3f0fa03eb516">
+  <value column="Name" original="0.98">0.98</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="fc33ae6a-e17c-4e9f-b184-f1d66fa549eb">
+  <value column="Name" original="String to String">Строка в строку</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="74e4ae14-4d54-4434-a872-c8cb12ed0678">
+  <value column="Name" original="String to Number">Строка  в Число</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="59516e4b-249b-452a-82e8-7f9962cb7f8a">
+  <value column="Name" original="String concatenation">Конкатенация строк</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="e2550909-c3f7-42e1-bb75-1a868ea2fbb7">
+  <value column="Name" original="String to List">Строка в список</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="7136cdf3-00b7-4daf-b094-1562f409050b">
+  <value column="Name" original="RIT_TechnicalSolution-A_Asset_Attribute 1">RIT_TechnicalSolution-A_Asset_Attribute 1</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="daae8410-0ac0-4562-b82d-10ab9a1ca955">
+  <value column="Name" original="SUBJECT">Тема</value>
+  <value column="Description" original="Email Subject">Тема письма</value>
+ </row>
+ <row trl="Y" uuid="17c80755-077d-4eef-8051-0e426997b4c0">
+  <value column="Name" original="On Examination">На обследовании</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="0397504e-3755-4d75-9d23-6a09816f1dca">
+  <value column="Name" original="Surveyed">Обследованные</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="aad47bcd-86be-4060-aac1-79647b86c05e">
+  <value column="Name" original="On Inclusion">На включении</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="452ded4a-b859-467f-9ea7-0411810733f1">
+  <value column="Name" original="In Operation">В Эксплуатации</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="db4f4df0-991b-4e9b-9c17-05bf0334bdc3">
+  <value column="Name" original="Disbanded">Расформированные</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="cf27653b-c9c8-458e-b4d2-8e3be30d44ea">
+  <value column="Name" original="Customers">Заказчики</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="c5dee9ae-8415-4a8a-9a65-fbc3da33929b">
+  <value column="Name" original="Modem Expansion Card">Карта расширения модема</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="d3173962-90d5-4fab-b779-5a71a09fb16c">
+  <value column="Name" original="Tranceiver Power">Мощность приемопередатчика</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="c491417c-0e47-41b2-a919-0dc5627affd9">
+  <value column="Name" original="Antenna Diametr">Диаметр антенны</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="c9af5167-141d-46b9-aa99-0361bb6dd7a7">
+  <value column="Name" original="Type antenna">Тип антенны</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="a62eb516-288b-4c15-afbe-582b1595df28">
+  <value column="Name" original="Type modem">Тип модема</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="96f21032-9cea-4936-8971-248156e04226">
+  <value column="Name" original="Type prop">Тип опоры</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="b6222739-0990-41f8-9882-43685723f1ee">
+  <value column="Name" original="Type cabel">Тип кабеля</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="925af8b9-f713-4162-bc22-2a9ef89a070e">
+  <value column="Name" original="Profile Trafic">Профиль трафика</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="03241788-8f78-44c1-a93e-5887c5a88cb9">
+  <value column="Name" original="Ethernet">Ethernet</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="05129920-92cd-4605-b42e-02b3681165d7">
+  <value column="Name" original="G.703">G.703</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="ae85b035-b738-40b1-b49a-4e92d0064a97">
+  <value column="Name" original="L1">L1</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="6a71873a-b653-431e-bacf-4ef70a0e64eb">
+  <value column="Name" original="L2">L2</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="2ea63eed-3ccc-4a1a-9e3a-b1af6c78b7ca">
+  <value column="Name" original="RTCOMM">РТКОММ</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="f6143092-4a4c-4ed2-8660-038cfe0918d5">
+  <value column="Name" original="AO">АО</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="aa181d7a-4726-4a7c-ba48-7b46c5265d73">
+  <value column="Name" original="User">Клиент</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="dead86dd-7124-409b-9a62-cf8d2c38cf9e">
+  <value column="Name" original="Contract AVR">Договор АВР</value>
+  <value column="Description" original="">Договор АВР</value>
+ </row>
+ <row trl="Y" uuid="8b21c532-de5e-4c69-b9fc-e31e7739cf9a">
+  <value column="Name" original="Construction">Строительство</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="4f7e6cc7-8dc3-428d-890e-4b3f3ca7b71a">
+  <value column="Name" original="Modernization">Модернизация</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="f3bf8ada-b048-4684-a779-01832aeaae9a">
+  <value column="Name" original="Not required">Не требуется</value>
+  <value column="Description" original="">Не требуется</value>
+ </row>
+ <row trl="Y" uuid="8be60419-3934-4615-9c1a-afbfef2f891d">
+  <value column="Name" original="Code Interco">Код Интерко</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="b4044665-ab04-4e9a-9226-e446a322ce60">
+  <value column="Name" original="Type of Business Partner">Тип контрагента</value>
+  <value column="Description" original=""/>
  </row>
 </idempiereTrl>

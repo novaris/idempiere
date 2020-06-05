@@ -480,7 +480,7 @@ Please change Cashbook only after completion of transaction</value>
  </row>
  <row id="220" trl="Y">
   <value column="MsgText" original="Detail record">Детали</value>
-  <value column="MsgTip" original="">Дополнительная информация</value>
+  <value column="MsgTip" original=""/>
  </row>
  <row id="221" trl="Y">
   <value column="MsgText" original="Difference">Различие</value>
@@ -2369,7 +2369,7 @@ Do you want to print separate Remittance advice ?</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="696" trl="Y">
-  <value column="MsgText" original="No Product Attribute Information">Нету информации об атрибуте продукта</value>
+  <value column="MsgText" original="No Product Attribute Information">Нет информации об атрибуте продукта</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="697" trl="Y">
@@ -4504,7 +4504,7 @@ Delete Order/Invoice line with the Assignment.</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52324" trl="Y">
-  <value column="MsgText" original="to">к</value>
+  <value column="MsgText" original="to">до</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52325" trl="Y">
@@ -6366,7 +6366,7 @@ Delete Order/Invoice line with the Assignment.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200218" trl="Y">
-  <value column="MsgText" original="Sent by iDempiereMail">Отправлено iDempiereMail</value>
+  <value column="MsgText" original="Sent by iDempiereMail">Отправлено из CRM РТКомм.РУ</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200220" trl="N">
@@ -6398,7 +6398,7 @@ Delete Order/Invoice line with the Assignment.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200231" trl="Y">
-  <value column="MsgText" original="Record is not in current search">Запись не находится в текущем поиске</value>
+  <value column="MsgText" original="Record is not in current search">Запись не находится в текущем поиске.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200235" trl="Y">
@@ -6798,11 +6798,11 @@ Delete Order/Invoice line with the Assignment.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row trl="Y" uuid="23635704-6998-4812-9660-d5b41b8e4098">
-  <value column="MsgText" original="Dialing">Набор номера</value>
+  <value column="MsgText" original="Dialing">Набор</value>
   <value column="MsgTip" original=""/>
  </row>
  <row trl="Y" uuid="ba318ee9-4cce-44ec-9764-fc892e8de1bf">
-  <value column="MsgText" original="Hungup">Повесить трубку</value>
+  <value column="MsgText" original="Hungup">Завершён</value>
   <value column="MsgTip" original=""/>
  </row>
  <row trl="Y" uuid="023edbde-8a36-4441-9a80-45c7b0901989">
@@ -6810,7 +6810,7 @@ Delete Order/Invoice line with the Assignment.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row trl="Y" uuid="416b7f85-e7f5-4780-acfc-8401c924f316">
-  <value column="MsgText" original="Up">Вверх</value>
+  <value column="MsgText" original="Up">Соединение</value>
   <value column="MsgTip" original=""/>
  </row>
  <row trl="Y" uuid="02f613d9-d529-4cc9-a04a-a168b94b8335">
@@ -6818,7 +6818,7 @@ Delete Order/Invoice line with the Assignment.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row trl="Y" uuid="2ef5d3c6-e7e5-4f11-b08d-5cf2835c5b9f">
-  <value column="MsgText" original="Status: ">Статус:</value>
+  <value column="MsgText" original="Status:">Статус:</value>
   <value column="MsgTip" original=""/>
  </row>
  <row trl="Y" uuid="8f167f32-f48d-40b3-a6d9-0a72ab2ea72a">
@@ -6833,12 +6833,12 @@ Delete Order/Invoice line with the Assignment.</value>
   <value column="MsgText" original="Такое имя уже присутствует">Такое имя уже присутствует</value>
   <value column="MsgTip" original=""/>
  </row>
- <row trl="N" uuid="6abcec07-9add-4146-a0d5-22cc344cac65">
-  <value column="MsgText" original="Введенный ИНН или КПП не уникальны">Введенный ИНН или КПП не уникальны</value>
+ <row trl="Y" uuid="6abcec07-9add-4146-a0d5-22cc344cac65">
+  <value column="MsgText" original="The entered INN or KPP is not unique">Введенный ИНН или КПП не уникальны</value>
   <value column="MsgTip" original=""/>
  </row>
- <row trl="N" uuid="b0c071a2-4bf5-4e8d-ac89-136729fd0ef5">
-  <value column="MsgText" original="Контрагент и значение по умолчанию должны быть уникальными">Контрагент уже имеет значение по умолчанию.</value>
+ <row trl="Y" uuid="b0c071a2-4bf5-4e8d-ac89-136729fd0ef5">
+  <value column="MsgText" original="The business partner already has a default value.">Контрагент уже имеет значение по умолчанию.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row trl="N" uuid="0ef1f274-75f2-4f4a-a741-f0f25445b2f4">
@@ -7118,7 +7118,7 @@ Delete Order/Invoice line with the Assignment.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row trl="Y" uuid="1499eeb7-eddd-4fc7-a01d-c28398520a26">
-  <value column="MsgText" original="Используйте переход в форму для заполнения данных и продолжения процесса">Используйте переход в форму для заполнения данных и продолжения процесса</value>
+  <value column="MsgText" original="Use the transition to the form to fill in the data and continue the process">Используйте переход в форму для заполнения данных и продолжения процесса</value>
   <value column="MsgTip" original="">Используйте переход в форму для заполнения данных и продолжения процесса</value>
  </row>
  <row trl="Y" uuid="27a434df-b84b-4f27-a7ba-695853d1c712">
@@ -7131,6 +7131,654 @@ Delete Order/Invoice line with the Assignment.</value>
  </row>
  <row trl="Y" uuid="1298b7a4-f27a-4a76-b572-05abd0eaf74f">
   <value column="MsgText" original="Process Started Successfully">Процесс успешно запущен в работу</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="caa3f81a-41f4-439c-9c7d-7b71d394f14f">
+  <value column="MsgText" original="The city does not unique and can not be add from here.">Город не уникален</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="784568a6-32c2-4895-8d50-7674e11449b6">
+  <value column="MsgText" original="The city does not given and can not be add from here.">Не введена информация по городу</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="38fe1073-ad42-428b-8683-05ac75f6e914">
+  <value column="MsgText" original="This Asset is not in Satellite Asset Group">Актив не является спутником</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="ea02acc8-2b5d-42d9-8a25-dcd1900d0738">
+  <value column="MsgText" original="Insert TechnicalCapability failed">Ошибка добавления технической возможности</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="fb44cbd9-62ef-43ed-8f3a-8ce04c747fb9">
+  <value column="MsgText" original="Update Technical Capability failed">Ошибка обновления технической возможности</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="b2159368-748b-41a3-99c4-3838ec9a4c32">
+  <value column="MsgText" original="This Account {0} not configured for outbound calls ({1}). Contact your CRM Administrator.">Ваш пользователь {0} не настроен для выполнения исходящих вызовов ({1}). Обратитесь к Администратору CRM.</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="ab9e867e-c582-4ae6-a59b-e7208a7321c7">
+  <value column="MsgText" original="In the order there are order lines with product type subject and ownership form sale, at least one order line">В заказе есть строки заказ с типом продукта предмет и форма собственности продажа, хотя бы у одной строки заказа</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="90180b53-61dc-4541-8941-6fe9af84264f">
+  <value column="MsgText" original="A request is required in 1C and there is at least one order line with the form Property Rent or sale and a product with a product type subject">Требуется запрос в 1С и есть хоть одна строка заказа с формой собственность Аренда или продажа и продукт с типом продукта предмет</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="7bbef609-083b-49ab-8073-b0a6e24437b3">
+  <value column="MsgText" original="This setting is already started.">Такая настройка уже заведена.</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="3d7b8317-ff7f-4f5b-bc48-edc2e2679d5e">
+  <value column="MsgText" original="Processing completed successfully">Обработка завершена с успехом</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="e2a1028a-2dbf-4d5e-90a7-42cff8c3848d">
+  <value column="MsgText" original="Could not connect to host port">Не удалось подключиться к хосту, порт</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="882d066e-39f3-49a6-ba9d-781d7c2daf46">
+  <value column="MsgText" original="Mailbox">Почтовый ящик</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="e76faaa5-2fc2-41ea-ac64-851f0472c796">
+  <value column="MsgText" original="Mailbox Processing - Letters">Обработка почтовых ящиков - Писем</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="987622f2-979d-47aa-8b8a-ec1f11143d90">
+  <value column="MsgText" original="Created by Lead">Создано</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="a9e748fb-5325-4c1f-97cf-8dcb416fd64a">
+  <value column="MsgText" original="Created Activities">Создано Активностей</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="1e62e0f7-19e4-4d4d-bdc7-8d873f74eb0e">
+  <value column="MsgText" original="Bugs">Ошибок</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="8019aad4-ba26-48eb-a0bc-104035430194">
+  <value column="MsgText" original="Number of posts">Количество сообщений</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="bccbd8a8-bd47-43bf-a08b-a8469a6dc614">
+  <value column="MsgText" original="Number of letters">Количество писем</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="2bbfa481-5d1d-4d1b-873f-594a47d0bc24">
+  <value column="MsgText" original="Message processing">Обработка сообщения</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="75eda300-a2c8-48c8-9de0-09a2dd3fae2e">
+  <value column="MsgText" original="Processing the subject line">Обработка темы письма</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="3163e995-a5df-49a7-be8c-793b66ce2dcc">
+  <value column="MsgText" original="The theme of the letter is empty">Тема письма пустая</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="b855112b-49fd-43de-9e9c-3a8c452cd380">
+  <value column="MsgText" original="Destination added">Добавлен адресат</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="0268fc63-0a7c-4328-a0af-38938f67e7cf">
+  <value column="MsgText" original="Email moved to">Письмо перенесено в</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="96a03540-13a0-4926-8801-21874a1b24fa">
+  <value column="MsgText" original="Message id">Ид сообщения</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="dd814bde-33c5-418b-ae8a-f8154e3b359d">
+  <value column="MsgText" original="Message body processing">Обработка тела сообщения</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="841f0f62-d64c-4ed4-9db9-0669035f00bf">
+  <value column="MsgText" original="Body processing">Обработка тела письма</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="51545cc8-fe1f-4bea-8cf5-5e28d290dcdf">
+  <value column="MsgText" original="The message structure is incorrect">Cтрукура сообщения некорректна</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="18858e7b-a57f-4f95-8509-be8eccf1ecb5">
+  <value column="MsgText" original="Port format error (integer)">Ошибка формата порта (целое)</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="88ae3d16-1e4f-498b-9dfd-a72fc422ebd4">
+  <value column="MsgText" original="Request type: the default type must be defined, or one of the types selected">Тип запроса: должен быть определён тип по умолчанию, или выбран один из типов</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="c78516a8-56ee-492e-ab2c-e5137b1d2534">
+  <value column="MsgText" original="Invalid message body format">Не правильный формат тела письма</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="5ee3c1a0-6990-4cfa-8b54-2e93a7c6597c">
+  <value column="MsgText" original="Processing letters for hieroglyphs">Обработка письма на иероглифы</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="d1572c81-ec4a-49c1-a1e1-df9bed2f8439">
+  <value column="MsgText" original="There are no strings in the outfit">В заказе/наряде нет строк</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="93382bcf-d908-491f-afad-8a901e1c4a7e">
+  <value column="MsgText" original="moved to">перенесено в</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="18699269-71fa-435e-ab16-1433b811d5d9">
+  <value column="MsgText" original="Mandatory equipment attributes are not filled in">Не заполнены обязательные атрибуты</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="979ee419-94e5-4b30-b36b-4de075667a44">
+  <value column="MsgText" original="Message Information">Информация о сообщении</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="bca56d67-2c4f-40cf-b9a7-9f085f3c8948">
+  <value column="MsgText" original="The order lines do not match the sales order lines">Строки наряда не соответствуют строкам заказа на продажу</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="53e81bed-59a8-4598-bd58-89a4adc4b671">
+  <value column="MsgText" original="The equipment Bill has not been paid">Счет на оборудование не оплачен</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="0c6501e8-2fcb-4912-bc81-167de26645bd">
+  <value column="MsgText" original="an exception has occurred">возникло исключение</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="7ec6e158-962c-4554-83e8-83fdfa1b89dc">
+  <value column="MsgText" original="The Contract is not found or customer IDs from the ASR are not filled in">Договор не найден или не заполнены идентификаторы клиента из АСР</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="3c860fbd-a111-4158-a538-cc0c810df08a">
+  <value column="MsgText" original="Letter">Письмо</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="aeeae9fd-8591-4f05-8a07-34b6eb45a766">
+  <value column="MsgText" original="Request creation">Создание запроса</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="5097f7ba-35ff-4c07-a3c1-bd66366452ba">
+  <value column="MsgText" original="Can't recode From field">Не могу перекодировать поле From</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="bbe8e8ad-2f19-4c53-8dc5-6715d7ad0cd0">
+  <value column="MsgText" original="Activity already exists for message">Активность уже существует для сообщения</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="90323da6-1fbb-43eb-bb9a-4c62e82e580f">
+  <value column="MsgText" original="The size of the main body of the letter is empty">Размер основного тела письма пустой</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="3ac80ec9-370a-48ce-ad71-765b71c6a3a2">
+  <value column="MsgText" original="Lead already exists for message">Лид уже существует для сообщения</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="54ea7fea-ffaf-4cfb-9a88-04d17d1bc95e">
+  <value column="MsgText" original="Create Lida">Создадим Лида</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="6f6c1bd8-982f-44c2-bb74-f33fe36b7e9f">
+  <value column="MsgText" original="Activity. Email subject size">Активность. Размер темы письма</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="8622e871-62a0-4824-a417-35b1a74b4716">
+  <value column="MsgText" original="Allowable size">Допустимый размер</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="be5f0e41-af73-49f0-b1aa-8df7674ca0b9">
+  <value column="MsgText" original="Truncated">Усеченно</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="c88938a1-f027-4bcc-b68e-5a5e35192f4d">
+  <value column="MsgText" original="Activity. Letter body size">Активность. Размер тела письма</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="a01ee4f1-db24-46a6-83c2-516b99fd818f">
+  <value column="MsgText" original="Activity Creation">Создание активности</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="71a0df77-8cb5-47d7-82b0-7bf8d979b578">
+  <value column="MsgText" original="from message">из сообщения</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="55f03dd5-20a0-4c8b-a1cc-2291799cfac4">
+  <value column="MsgText" original="Activity created">Создана активность</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="b40eb3de-6b90-4667-bae6-e902e8259146">
+  <value column="MsgText" original="mime attachments">mime вложения</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="ae82e0ac-73c1-4a24-b278-9055415cf402">
+  <value column="MsgText" original="Max. count attachments">Макс. кол. вложений</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="d6ecdda8-db6e-480d-9c9d-6d2dfcdc1b86">
+  <value column="MsgText" original="pieces. Incoming count attachments">шт. Входящие кол. вложений</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="28dd9804-5265-4565-b4b5-9d886bdff0ef">
+  <value column="MsgText" original="pieces. Saving attachments">шт .Сохран. вложений</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="5164a593-9a18-4864-b9a4-a86510651ca8">
+  <value column="MsgText" original="pieces">шт.</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="0ce7c495-54ee-4355-93e0-e66e097fb4e1">
+  <value column="MsgText" original="Max. size attachments">Макс. разм. вложений</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="7bd6afa5-d50a-4a2e-b689-663224e646cc">
+  <value column="MsgText" original="Mb Incoming size. attachments">мб. Входящий размер. вложений</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="6ecd71bb-8e38-4e5e-af75-025f05e8177b">
+  <value column="MsgText" original="Mb Saved the size">мб. Сохран. размер</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="de89c654-f46a-4d4d-a53d-9db6af5ad18d">
+  <value column="MsgText" original="Mb">мб.</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="58a5a93c-a362-4351-aa9a-915f0d4de5e1">
+  <value column="MsgText" original="Lead. Mail Address Size">Лид. Размер адреса почты</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="faa2eead-4600-42b1-9b5f-adfc60952039">
+  <value column="MsgText" original="Lead. Contact Name Size">Лид. Размер имени контакта</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="02091a6a-ccc2-405d-819d-b36f6a06c09e">
+  <value column="MsgText" original="Lead. Email subject size">Лид. Размер темы письма</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="28bcd150-478b-4c21-a7ef-b584661440d1">
+  <value column="MsgText" original="Lead created">Создан лид</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="f04b3fca-fada-4c61-b595-550f76f62436">
+  <value column="MsgText" original="Message Processing Error">Ошибка обработки сообщения</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="eb55a599-6ab8-49dc-a0e5-19e59d504b5c">
+  <value column="MsgText" original="Error processing email">Ошибка при обработки письма</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="5a807382-2a23-47f1-8716-a3ba65a9c5de">
+  <value column="MsgText" original="Message from">Сообщение от</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="47d123e4-5fb1-4318-9cc7-7e590c195898">
+  <value column="MsgText" original="This product is not in the order">Данного продукта нет в заказе</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="c2868ece-a650-4c4c-8163-dbaf81a08252">
+  <value column="MsgText" original="preparation - Unknown parameter">подготовка - Неизвеcтный параметр</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="47468e33-260d-4ab8-a097-f788a408ec50">
+  <value column="MsgText" original="Analysis of the message structure">Анализ структуры сообщения</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="c4ee6c8e-d6e5-4df1-8f10-90e5b578c319">
+  <value column="MsgText" original="Content Type">Тип содержания</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="cb901ef4-6148-4ec4-a539-b226dd87c564">
+  <value column="MsgText" original="IMAP server">IMAP_сервер</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="fdff8abe-cf7e-4205-bfe3-883a20e5495a">
+  <value column="MsgText" original="IMAP_port">IMAP_порт</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="cfd80f8c-8155-445c-b900-955d43164d19">
+  <value column="MsgText" original="IMAP_user">IMAP_пользователь</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="b09a0ab7-081c-462d-96b2-fa7dc48ab3dc">
+  <value column="MsgText" original="Request_Catalog">Request_Каталог</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="07780eb2-6c34-4e8a-81e0-8722486b2206">
+  <value column="MsgText" original="Inbox_Catalog">Inbox_Каталог</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="735b2cbe-e6b9-4015-9c0a-839cbb08651c">
+  <value column="MsgText" original="Error_Catalog">Error_Каталог</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="748f84df-6677-48c0-8ce0-d261fa7e4cd9">
+  <value column="MsgText" original="Lead/Contact">Лид/Контакт</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="9fca1b26-56e5-4811-a7ee-b972a1ff9409">
+  <value column="MsgText" original="Product not found">Продукт не найден</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="7e276952-d1aa-4ddf-af6d-ff2af01c6dbb">
+  <value column="MsgText" original="Lead. Letter body size">Лид. Размер тела письма</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="42cc5b42-2700-475d-92ac-c17fd2f1c47f">
+  <value column="MsgText" original="Request already exists for message">Запрос уже существует для сообщения</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="872cd769-f76b-44b2-a624-66b8ab847090">
+  <value column="MsgText" original="Attachment Contents">Содержимое обращения во вложении</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="a6d4e707-f606-4e8b-983b-c43c45f618a6">
+  <value column="MsgText" original="Created Requests">Создано Запросов</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="2d6f6b15-d2d7-45d7-be25-116f936fb58a">
+  <value column="MsgText" original="Not exist Order DO Placement">Отсутствует Размещение заказа ДО</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="a141337c-c3f5-4990-a2e8-ee01b8c6e1bb">
+  <value column="MsgText" original="Errors occurred while adding shipment document lines">При добавлении строк документа отгрузки возникли ошибки</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="7d5b92f4-bcaf-4bb2-975f-97f209d69828">
+  <value column="MsgText" original="Order Shipment Incomplete">Неполнота данных для процесса Отгрузки</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="9058c910-7195-4585-9905-d4189418cfec">
+  <value column="MsgText" original="Acc:">ЛС:</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="fc90d7c7-399d-4713-8af3-6a0969518a1c">
+  <value column="MsgText" original="Letter without template">Письмо без шаблона</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="9bee4efa-4039-4606-b9b3-a63a95dcdfc2">
+  <value column="MsgText" original="Number of processing errors">Количество ошибок обработки</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="20d7b8ae-2812-4627-98c8-f38d8ab0e835">
+  <value column="MsgText" original="Incorrect inventory value in the delivery document">Неопределенная ошибка при обработке документа отгрузки</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="ec321a96-27a4-4417-8b72-407aac03c3a6">
+  <value column="MsgText" original="The shipment process has already been completed">Процесс отгрузки уже завершен</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="d7fbbb43-32d5-49c1-b2a4-7f5f4733e678">
+  <value column="MsgText" original="Input Location/Address to orderLines">Добавьте адреса подключения для строк заказа</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="42a0c97b-a4c5-4fa6-8cfd-47acaf8d04f1">
+  <value column="MsgText" original="No main service in order lines">Нет основной услуги в строках заказа</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="f55c425a-14e6-4b13-a4d0-7a9b3e70d7ea">
+  <value column="MsgText" original="The address for the main service is not filled">Некорректно заполнены адреса в ТР на основной услуге.</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="56f34298-7baa-48aa-9e31-63cde137b71c">
+  <value column="MsgText" original="Missing &quot;Product instance attributes&quot; on the main service">Не заполнены "Атрибуты экземпляра продукта" на основной услуге</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="ae0f8df0-a84f-4bea-ad8a-515955006cc4">
+  <value column="MsgText" original="The attribute &quot;Frequency range of the satellite resource (transponder)&quot;, (Ka / Ku) is not filled">Не заполнен атрибут "Частотный диапазон спутникового ресурса (транспондера)", (Ka/Ku)</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="f3c5cad5-d473-4104-a1f1-2ecba8553fa4">
+  <value column="MsgText" original="The attribute &quot;Organization of the VSAT CS&quot;, (RTKOMM, JSC) is not filled">Не заполнен атрибут "Организация КС VSAT",(РТКОММ, АО)</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="241ac2e4-bb4f-41f5-814a-d778f34bfa9c">
+  <value column="MsgText" original="The attribute &quot;Gilat Technology&quot; is not filled, (Yes / No)">Не заполнен атрибут "Технология", (Gilat / Hughes)</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="dc6fd8f5-7b98-4bcc-b593-62d2e1661e41">
+  <value column="MsgText" original="No Subject Line">Нет темы письма</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="40f95976-f383-45eb-89b8-22313e6744c8">
+  <value column="MsgText" original="Вид координат">Вид координат</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="e97ce336-6cb6-4925-b06b-40d370681013">
+  <value column="MsgText" original="Градусы">Градусы</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="9a9e1255-64ba-427e-827b-4d726acfa950">
+  <value column="MsgText" original="Градусы, минуты, секунды">Градусы, минуты, секунды</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="bde161ae-03c9-46e6-a3e6-656ff29a4215">
+  <value column="MsgText" original="Wrong Field Value Format">Неверный формат поля</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="ace067ae-3321-4f8e-b99e-54f13f0a9f79">
+  <value column="MsgText" original="No price list selected">Не выбран прайс-лист</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="N" uuid="4eb151dd-8e47-427c-9b84-d3c9777c9bf0">
+  <value column="MsgText" original="Product attribute set instance is not equal 1. Create the copy of the instance and set new SerNo.">Количество экземпляров продукта не равно 1. Создайте копию экземпляра продукта.</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="f6b77df2-4a0b-4be1-844a-77c758451e62">
+  <value column="MsgText" original="Fill Serial Number.">Заполните Серийный номер.</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="2afa4f3b-89fb-48e2-b784-a0bf02b70506">
+  <value column="MsgText" original="The quantity in the order line does not match the number of addresses">Количество в строке заказа не соответствует количеству адресов</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="16299564-4ced-4bb1-a5cc-41f5a0717adf">
+  <value column="MsgText" original="MP Matching">Согласование</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="2eb05fc3-d0f3-4cfc-b21b-92b412b406fd">
+  <value column="MsgText" original="MP Сomment">Комментарий</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="1cd5a573-6a16-4d3f-b855-232fe1b06dba">
+  <value column="MsgText" original="Template for importing technical capability creat">Шаблон для импорта тех. возможности создан</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="a0fb402f-fa97-49de-9b41-9ec920a89cd8">
+  <value column="MsgText" original="Exit from WF &quot;Order&quot; after Wait {0}">Процесс по заказу успешно завершен после ожидания {0}</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="0f7655b9-7a2d-40e1-8cfe-26150e677c24">
+  <value column="MsgText" original="&lt;b&gt;Count OrderLine:&lt;/b&gt;{0}"><![CDATA[<b>Количество строк заказа:</b>{0}]]></value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="aba8e988-81ad-411c-8643-63b3075a312a">
+  <value column="MsgText" original="Personal queue">Персональная очередь</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="73495a33-a610-408f-bcaa-8f1015cd2898">
+  <value column="MsgText" original="User not configured">Пользователь не настроен</value>
+  <value column="MsgTip" original="Warning">Внимание</value>
+ </row>
+ <row trl="Y" uuid="012612aa-2041-462d-85cb-31e490dac416">
+  <value column="MsgText" original="User not exist">Нет пользователей</value>
+  <value column="MsgTip" original="Warning">Внимание</value>
+ </row>
+ <row trl="Y" uuid="22e1b290-8e16-419f-b025-770889ec8155">
+  <value column="MsgText" original="Order Not Allocate">Заявка не распределена</value>
+  <value column="MsgTip" original="Warning">Внимание</value>
+ </row>
+ <row trl="Y" uuid="2d7291f6-a342-4442-becf-d498e71c218b">
+  <value column="MsgText" original="No unallocated orders">Нет нераспределенных заявок</value>
+  <value column="MsgTip" original="Warning">Внимание</value>
+ </row>
+ <row trl="Y" uuid="91751635-1c8d-4cc1-a333-2267eac1b9d7">
+  <value column="MsgText" original="Created task">Создана задача</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="37113c51-c513-4d07-aec7-73e8916addb3">
+  <value column="MsgText" original="Set one of: flag or department">Задайте одно и только одно из: Флаг или Подразделение/рабочая группа</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="13a6f4ce-ddaa-424a-b0b3-fa1af0e61e34">
+  <value column="MsgText" original="No department superviser">Задача не создана: Не найден руководитель подразделения</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="22dd732f-2347-4356-9359-f65ae32f9b5b">
+  <value column="MsgText" original="No executor match">Задача не создана: Не найден исполнитель с заданным флагом</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="21d4c8bf-a3fa-4e84-8420-66d4ea0f2abe">
+  <value column="MsgText" original="No executor of department match">Задача не создана: Не найден исполнитель с заданным флагом в подразделении</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="24b00743-b43b-4cc6-8fd4-30e39ba12935">
+  <value column="MsgText" original="The index does not exist or it is empty">Индекс не создан или пустой</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="34a66b40-dda2-47c0-bb9e-2b7fdc846c6f">
+  <value column="MsgText" original="Advanced search">Расширенный поиск</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="9b572253-0b5f-4d20-9338-7cf23cdde3ef">
+  <value column="MsgText" original="User">Исполнитель</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="f1899a92-0779-4cc2-8401-c302db61f588">
+  <value column="MsgText" original="Role">Роль</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="91cfddf8-9f29-4147-84e2-148091385f09">
+  <value column="MsgText" original="User removed">Исполнитель снят</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="1216dbf1-0913-4798-922b-a034fcac756a">
+  <value column="MsgText" original="Self Reference Prohibited">Нельзя задавать ссылку на себя</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="ca299b4d-e942-4010-9caa-b3be013a6461">
+  <value column="MsgText" original="Role allowed for this step of the algorithm">у исполнителя отсутствует роль, допустимая для данного шага алгоритма.</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="62017cfd-c367-4e43-b6d0-43ae54d2fa9a">
+  <value column="MsgText" original="Send Email">Ответить</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="47a3522d-96bc-46ef-a571-27c58801bad4">
+  <value column="MsgText" original="Promlem Created">Создана проблема</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="73384def-f2f3-4df7-ac0b-05d19a14034f">
+  <value column="MsgText" original="[{0}]">[{0}]</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="7cdcc97d-bfa9-4efd-a5fb-39ffe905c152">
+  <value column="MsgText" original="There are no closed KV outfits">Существуют незакрытые наряды КВ</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="704c8c0b-7a89-480d-9b41-200c29a6caac">
+  <value column="MsgText" original="Schedule WT Info">Планировщик WT</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="5752d47c-00f0-4ac0-a94f-cc24b2a4226f">
+  <value column="MsgText" original="There are no closed Request">Существуют незакрытые запросы</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="8d07b624-f208-491f-9a1f-1cf98d214937">
+  <value column="MsgText" original="Orders">Заявки</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="d0a814be-779a-4131-bacd-9d42fdbffc6d">
+  <value column="MsgText" original="Events">События</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="575ad5c3-3128-4466-9bc2-6ccb25c98888">
+  <value column="MsgText" original="On-line">Онлайн</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="eb35c4ed-a8bc-4b76-9cd3-d451f649c1f5">
+  <value column="MsgText" original="Users">Сотрудники</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="2625397f-5428-4f9d-aa1a-7dc6a1c9de2c">
+  <value column="MsgText" original="MP WT Type">Тип WT</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="4cf53d49-69c3-4418-aec9-58e5d117aa18">
+  <value column="MsgText" original="Spam rule ID is: {0}">Ид правила обработки спама: {0}</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="5d7b5cd5-05a5-478e-9f8f-cde623c96878">
+  <value column="MsgText" original="MP_OT exists for this KE. MP_OT_ID: {0}">Существуют открытые заявки для данной КЕ. MP_OT_ID: {0}</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="c701b05d-e771-4892-a050-86631978785b">
+  <value column="MsgText" original="MP_OT_Montage">Ведение заявок поддержки монтажа</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="2256c858-61f0-4f77-93dd-d359c9cccec4">
+  <value column="MsgText" original="The number of basic services is more than one">Количество основных услуг больше одной</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="cb03e6f5-73ab-4ae0-8f93-f7d8f75389fc">
+  <value column="MsgText" original="Not all TR have their assets filled in">Не у всех ТР заполнены активы</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="04427673-f422-4194-8115-0dde76339ed7">
+  <value column="MsgText" original="End date should be at least a minute more than Start date">Дата окончания должна быть больше даты начала как минимум на минуту</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="d07d7c34-3321-4c19-9db2-87e6ec465870">
+  <value column="MsgText" original="No technical solution">Нет технического решения</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="7a2976f6-b63a-42e6-8040-0a3a1439239b">
+  <value column="MsgText" original="The window contains more than one tab with TR">На окне заведено более одной вкладки с ТР</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="c66d9982-7aba-4bff-9a1b-3453d69c46fa">
+  <value column="MsgText" original="Warning Create SResourceAssign">В указанном периоде для данной группы уже существуют результаты планирования рабочих смен сотрудников</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="6d6c55fc-0b3f-4ee9-a53f-c8ee4ccca956">
+  <value column="MsgText" original="Mail Duplicate Message: {0}">Дубль почтового сообщения: {0}</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="9974549e-f005-45b3-a149-39a6f4aacca8">
+  <value column="MsgText" original="your workgroup">вашу рабочую группу</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="7942e06f-83a0-4e18-b559-b61177fc8d38">
+  <value column="MsgText" original="your department">ваше подразделение</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="a8a1002a-79df-4af7-b0ac-550e80fe29ee">
+  <value column="MsgText" original="Warning Interval Date">Конечная дата интервала меньше начальной</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="59341eac-7a6d-47d4-a493-d5e1833457ad">
+  <value column="MsgText" original="Warning Start Time">Для суточных смен не задано время старта</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="959fdabd-8e9a-4b0b-a8cd-3c86ed85363e">
+  <value column="MsgText" original="Before saving, make sure the data in the &quot;ClientResume&quot; field is correct!">Перед сохранением убедитесь в корректности данных в поле "Резюме для Клиента"!</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="1fcbab72-bddb-4816-a4fa-2ce47347a2c4">
+  <value column="MsgText" original="This request has dependent requests">Флаг массовой заявки снимается, но у данной заявки есть зависимые.</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="170ab6e4-c845-4a06-94bf-8d4efd86aaa1">
+  <value column="MsgText" original="Google validation: Invalid Phone Number">Проверка Google: Неверный номер телефона</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="ba772f8d-c9d1-4309-ad21-495450a99f6c">
+  <value column="MsgText" original="EMail format is invalid">Неверный Email формат</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="15b64a3f-2ec9-48a7-8797-b9569409b23f">
+  <value column="MsgText" original="Information on the CR is not filled (counterparty and amount)">Не заполнены данные по ЧР(контрагент и сумма)</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row trl="Y" uuid="5b660302-4e82-4bec-b84d-0b83b031bfaa">
+  <value column="MsgText" original="WF routing attributes not populated">Не заполнены атрибуты маршрутизации бизнес процесса</value>
   <value column="MsgTip" original=""/>
  </row>
 </idempiereTrl>

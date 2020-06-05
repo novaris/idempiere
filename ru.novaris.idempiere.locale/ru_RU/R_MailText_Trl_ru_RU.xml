@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="ru_RU" table="R_MailText">
- <row id="100" trl="N">
-  <value column="MailHeader" original="Order Confirmation">Order Confirmation</value>
-  <value column="MailText" original="Dear @Name@,&#10;&#10;Thank you for your order.&#10;&#10;Best regards,&#10;  The GardenWorld Team">Dear @Name@,
-
-Thank you for your order.
-
-Best regards,
-  The GardenWorld Team</value>
-  <value column="Name" original="Order Confirmation">Order Confirmation</value>
-  <value column="MailText2" original=""/>
-  <value column="MailText3" original=""/>
- </row>
  <row id="200000" trl="Y">
   <value column="MailHeader" original="iDempiere Reset Password ">iDempiere Reset Password </value>
   <value column="MailText" original="Dear @Name@,&#10;&#10;You are receiving this email because you (or somebody pretending to be you) said you have lost your iDempiere password.&#10;&#10;To access your iDempiere, use the temporary password from @AD_Client_ID&lt;Name&gt;@ below:&#10;@#NewPassword@&#10;&#10;Once you login, you will be directed to change password screen. Please change your password to something you can remember.&#10;&#10;Sincerely,&#10;The iDempiere Accounts Team&#10;&#10;Note: This email address cannot accept replies."><![CDATA[Dear @Name@,
@@ -30,352 +18,6 @@ Note: This email address cannot accept replies.]]></value>
   <value column="Name" original="Reset Password">Сброс пароля</value>
   <value column="MailText2" original=""/>
   <value column="MailText3" original=""/>
- </row>
- <row trl="Y" uuid="9914d938-0b2c-458a-bda7-4f29e37f39ae">
-  <value column="MailHeader" original="Обращение @Name@ для услуги">Обращение @Name@ для услуги</value>
-  <value column="MailText" original="Добрый день, уважаемый клиент @Name@&#10;">Добрый день, уважаемый клиент @Name@
-</value>
-  <value column="Name" original="Сообщение клиенту о обращении">Сообщение клиенту о обращении</value>
-  <value column="MailText2" original=" "> </value>
-  <value column="MailText3" original=""/>
- </row>
- <row trl="Y" uuid="91d38b06-9323-42e7-94af-1d09ceeef020">
-  <value column="MailHeader" original="Планировщик ">Планировщик </value>
-  <value column="MailText" original="Планировщик отработал">Планировщик отработал</value>
-  <value column="Name" original="Результат обработки Планировщика. Обработка почтовых сообщен">Результат обработки Планировщика. Обработка почтовых сообщен</value>
-  <value column="MailText2" original=""/>
-  <value column="MailText3" original=""/>
- </row>
- <row trl="Y" uuid="7d74ec55-706f-48f6-9e24-d746d07eaeca">
-  <value column="MailHeader" original="Оповещение о оплате">Оповещение о оплате</value>
-  <value column="MailText" original="Уважаемый @name@!&#10;&#10;">Уважаемый @name@!
-
-</value>
-  <value column="Name" original="Шаблон письма клиенту с рекламным вложением">Шаблон письма клиенту с рекламным вложением</value>
-  <value column="MailText2" original=""/>
-  <value column="MailText3" original=""/>
- </row>
- <row trl="Y" uuid="19a46696-9c28-4cf3-8bee-96115dea605e">
-  <value column="MailHeader" original="Информационное письмо ">Информационное письмо </value>
-  <value column="MailText" original="Уважаемый клиент @Name@!   &#10;Информируем Вас, что в период с 25 марта 2019 по 29 марта 2019 техническая поддержка сайт будет функционировать в круглосуточном режиме,&#10;за исключением времени проведения регламентных работ.">Уважаемый клиент @Name@!   
-Информируем Вас, что в период с 25 марта 2019 по 29 марта 2019 техническая поддержка сайт будет функционировать в круглосуточном режиме,
-за исключением времени проведения регламентных работ.</value>
-  <value column="Name" original="Информационное письмо">Информационное письмо</value>
-  <value column="MailText2" original="Регламентные работы будут проводиться с 01-00 до 02-00 каждой ночи.">Регламентные работы будут проводиться с 01-00 до 02-00 каждой ночи.</value>
-  <value column="MailText3" original="Благодарим за понимание.">Благодарим за понимание.</value>
- </row>
- <row trl="Y" uuid="f1aa451c-ff2f-4617-92ea-c7b8dc7b3c23">
-  <value column="MailHeader" original="Текст из word с учетом переноса строк. Кодировка UTF8">Текст из word с учетом переноса строк. Кодировка UTF8</value>
-  <value column="MailText" original="Слово «Сибирь» — и не столько слово, сколько само понятие, давно уже звучит вроде набатного колокола, возвещая что-то неопределенно могучее и предстоящее. &#10;Прежде эти удары то приглушались, когда интерес к Сибири вдруг понижался, то снова усиливались, когда он поднимался, теперь они постоянно бьют со все нарастающей силой. Сибирь! Сибирь!. &#10;Одни слышат в этом гулком звучании уверенность и надежду, другие — тревожную поступь человека на дальней земле, третьи ничего определенного не слышат, но прислушиваются со смутным ощущением перемен, идущих из этого края, которые могли бы принести облегчение. Сибирь неминуемо чувствуют в себе даже те, кто никогда в ней не бывал и находится вдали от ее жизни и ее интересов. Она сама вошла в жизнь и интересы многих и многих — если не как физическое, материальное понятие, то как понятие нравственное, сулящее какое-то неясное, но желанное обновление.&#10;В XVIII веке говорили: «Сибирь — наша Перу и Мексика». &#10;В девятнадцатом: «Это наши Соединенные Штаты». В двадцатом: «Сибирь — источник колоссальной энергии», «край неограниченных возможностей». Как видим, меняется техническая вооруженность человека, меняются его потребности, меняются и характеристики Сибири. От богатств самородных, лежащих на поверхности и близ поверхности, до богатств глубинных и производительных — все есть в Сибири, каждому веку она угождала, и в оценках ее, от первых слухов до последних научно-экономических обоснований, постоянно видна превосходная степень. Но уже и теперь, когда Земля почувствовала признаки удушья, она оборачивается на Сибирь: «Это легкие планеты». Уже и теперь… Нетрудно понять, что будет первой и непреходящей необходимостью для человека через тридцать, сорок и пятьдесят лет и для чего Сибирь могла бы явиться воистину целебной и спасительной силой.&#10;">Слово «Сибирь» — и не столько слово, сколько само понятие, давно уже звучит вроде набатного колокола, возвещая что-то неопределенно могучее и предстоящее. 
-Прежде эти удары то приглушались, когда интерес к Сибири вдруг понижался, то снова усиливались, когда он поднимался, теперь они постоянно бьют со все нарастающей силой. Сибирь! Сибирь!. 
-Одни слышат в этом гулком звучании уверенность и надежду, другие — тревожную поступь человека на дальней земле, третьи ничего определенного не слышат, но прислушиваются со смутным ощущением перемен, идущих из этого края, которые могли бы принести облегчение. Сибирь неминуемо чувствуют в себе даже те, кто никогда в ней не бывал и находится вдали от ее жизни и ее интересов. Она сама вошла в жизнь и интересы многих и многих — если не как физическое, материальное понятие, то как понятие нравственное, сулящее какое-то неясное, но желанное обновление.
-В XVIII веке говорили: «Сибирь — наша Перу и Мексика». 
-В девятнадцатом: «Это наши Соединенные Штаты». В двадцатом: «Сибирь — источник колоссальной энергии», «край неограниченных возможностей». Как видим, меняется техническая вооруженность человека, меняются его потребности, меняются и характеристики Сибири. От богатств самородных, лежащих на поверхности и близ поверхности, до богатств глубинных и производительных — все есть в Сибири, каждому веку она угождала, и в оценках ее, от первых слухов до последних научно-экономических обоснований, постоянно видна превосходная степень. Но уже и теперь, когда Земля почувствовала признаки удушья, она оборачивается на Сибирь: «Это легкие планеты». Уже и теперь… Нетрудно понять, что будет первой и непреходящей необходимостью для человека через тридцать, сорок и пятьдесят лет и для чего Сибирь могла бы явиться воистину целебной и спасительной силой.
-</value>
-  <value column="Name" original="Текст из word с учетом переноса строк. Кодировка UTF8">Текст из word с учетом переноса строк. Кодировка UTF8</value>
-  <value column="MailText2" original="Основные материалы: &#10;•&#9;Состав команды и план проекта: https://confluence.rt.ru/pages/viewpage.action?pageId=43518868&#10;•&#9;Общее описание бизнес-процессов Заказчика (в основном, для аналитиков): https://confluence.rt.ru/pages/viewpage.action?pageId=43680090&#10;•&#9;Предварительная информация о требованиях (в основном, для аналитиков):  https://confluence.rt.ru/pages/viewpage.action?pageId=43697884&#10;•&#9;Наш документ «Функциональные требования» (в разработке): https://confluence.rt.ru/pages/viewpage.action?pageId=45242527&#10;•&#9;Протокол демонстрации прототипа системы (Спринт 0) Заказчику: https://confluence.rt.ru/pages/viewpage.action?pageId=45249989&#10;•&#9;Информация о стенде с DEV-зоной: https://confluence.rt.ru/pages/viewpage.action?pageId=43697863&#10;•&#9;База знаний по настройке и программированию CRM: https://confluence.rt.ru/pages/viewpage.action?pageId=45246700">Основные материалы: 
-•	Состав команды и план проекта: https://confluence.rt.ru/pages/viewpage.action?pageId=43518868
-•	Общее описание бизнес-процессов Заказчика (в основном, для аналитиков): https://confluence.rt.ru/pages/viewpage.action?pageId=43680090
-•	Предварительная информация о требованиях (в основном, для аналитиков):  https://confluence.rt.ru/pages/viewpage.action?pageId=43697884
-•	Наш документ «Функциональные требования» (в разработке): https://confluence.rt.ru/pages/viewpage.action?pageId=45242527
-•	Протокол демонстрации прототипа системы (Спринт 0) Заказчику: https://confluence.rt.ru/pages/viewpage.action?pageId=45249989
-•	Информация о стенде с DEV-зоной: https://confluence.rt.ru/pages/viewpage.action?pageId=43697863
-•	База знаний по настройке и программированию CRM: https://confluence.rt.ru/pages/viewpage.action?pageId=45246700</value>
-  <value column="MailText3" original=""/>
- </row>
- <row trl="Y" uuid="0c3565d4-4aca-4b07-919d-2a683e6cec07">
-  <value column="MailHeader" original="Текст из word с учетом переноса строк. Кодировка Window-1251">Текст из word с учетом переноса строк. Кодировка Window-1251</value>
-  <value column="MailText" original="** Создание локальной копии в текущей папке&#10;* E:\rti\RTCOMM&gt;git clone git@10.5.1.76:rtkomm&#10;&#10;** Настройка&#10;* git config --global user.name &quot;Evgeny Berdus&quot;&#10;* git config --global user.email &quot;berdus-en@ural.rt.ru&quot;&#10;* git config --global color.diff &quot;auto&quot;&#10;* git config --global color.status &quot;auto&quot;&#10;* git config --global color.branch &quot;auto&quot;"><![CDATA[** Создание локальной копии в текущей папке
-* E:\rti\RTCOMM>git clone git@10.5.1.76:rtkomm
-
-** Настройка
-* git config --global user.name "Evgeny Berdus"
-* git config --global user.email "berdus-en@ural.rt.ru"
-* git config --global color.diff "auto"
-* git config --global color.status "auto"
-* git config --global color.branch "auto"]]></value>
-  <value column="Name" original="Текст из word с учетом переноса строк. Кодировка Window-1251">Текст из word с учетом переноса строк. Кодировка Window-1251</value>
-  <value column="MailText2" original="** Просмотр других веток &#10;* git branch -a&#10;&#10;** Создание локальной новой ветки&#10;* git branch RTCOMMXX - где XX номер jira RTCOMM&#10;&#10;** Переключение веток&#10;* git checkout RTCOMMXX&#10;&#10;** Restore Create a configuration to launch an Eclipse application.&#10;* git status&#10;* git checkout -- [name name]&#10;* git reset --hard - Если других нужных изменений не было сделано, кроме удаления файла.&#10;&#10;** Как посмотреть изменённые файлы:&#10;* git diff --name-status&#10;&#10;**  Добавляет все untracked файлы в индекс (рекурсивно)&#10;* git add .&#10;&#10;** Commit всех файлов&#10;* git commit -m &quot;RTCOMMXX Доработка функционала&quot;&#10;">** Просмотр других веток 
-* git branch -a
-
-** Создание локальной новой ветки
-* git branch RTCOMMXX - где XX номер jira RTCOMM
-
-** Переключение веток
-* git checkout RTCOMMXX
-
-** Restore Create a configuration to launch an Eclipse application.
-* git status
-* git checkout -- [name name]
-* git reset --hard - Если других нужных изменений не было сделано, кроме удаления файла.
-
-** Как посмотреть изменённые файлы:
-* git diff --name-status
-
-**  Добавляет все untracked файлы в индекс (рекурсивно)
-* git add .
-
-** Commit всех файлов
-* git commit -m "RTCOMMXX Доработка функционала"
-</value>
-  <value column="MailText3" original=""/>
- </row>
- <row trl="Y" uuid="c74513f7-8ec0-4319-9ce2-dcd79d11a450">
-  <value column="MailHeader" original="Шаблон письма. Формат HTML">Шаблон письма. Формат HTML</value>
-  <value column="MailText" original="&lt;b&gt;Если в течение 10 (десяти) дней со дня получения акта сверки расчетов не будет направлен в адрес ПАО «Ростелеком» подписанный акт сверки или письменные мотивированные возражения по поводу достоверности содержащейся в нем информации, акт сверки расчетов считается признанным в редакции ПАО «Ростелеком».&lt;/b&gt; &lt;BR&gt; "><![CDATA[<b>Если в течение 10 (десяти) дней со дня получения акта сверки расчетов не будет направлен в адрес ПАО «Ростелеком» подписанный акт сверки или письменные мотивированные возражения по поводу достоверности содержащейся в нем информации, акт сверки расчетов считается признанным в редакции ПАО «Ростелеком».</b> <BR> ]]></value>
-  <value column="Name" original="Шаблон письма. Формат HTML">Шаблон письма. Формат HTML</value>
-  <value column="MailText2" original="Размеры шрифта:&#10;&#10;&lt;font style=&quot;font-size:13pt;&quot;&gt; Шрифт размером 13 пунктов &lt;/font&gt; &lt;BR&gt;&#10;&lt;font style=&quot;font-size:15pt;&quot;&gt; Шрифт размером 15 пунктов &lt;/font&gt;&lt;BR&gt;&#10;&lt;font style=&quot;font-size:9px;&quot;&gt; Шрифт размером 9 пикселей &lt;/font&gt;&lt;BR&gt;&#10;&lt;font style=&quot;font-size:12px;&quot;&gt; Шрифт размером 12 пикселей &lt;/font&gt;&lt;BR&gt;&#10;&lt;font style=&quot;font-size:15px;&quot;&gt; Шрифт размером 15 пикселей &lt;/font&gt; &lt;BR&gt;&#10;&lt;font size=&quot;2&quot;&gt; Шрифт 2-го размера (может быть от 1-го до 7-го) &lt;/font&gt; &lt;BR&gt;&#10;&lt;font size=&quot;4&quot;&gt; Шрифт 4-го размера &lt;/font&gt; &lt;BR&gt; &lt;BR&gt; Форматирование текста: &lt;BR&gt;&#10;&lt;b&gt; Полужирный текст &lt;/b&gt;&lt;BR&gt;&#10;&lt;i&gt; Выделение текста курсивом &lt;/i&gt;&lt;BR&gt;&#10;&lt;u&gt; Подчёркнутый текст &lt;/u&gt;&lt;BR&gt;&#10;&lt;s&gt; Зачёркнутый текст &lt;/s&gt;&lt;BR&gt;&#10;&lt;small&gt; Маленький шрифт &lt;/small&gt;&lt;BR&gt;&#10;&lt;big&gt; Большой шрифт &lt;/big&gt;&lt;BR&gt;&#10;Знак сноски &lt;sup&gt; сверху &lt;/sup&gt; или индекс &lt;sub&gt; снизу &lt;/sub&gt; от текста &lt;BR&gt;&#10;&lt;acronym title=&quot;Всплывающая подсказка&quot;&gt; Текст c подсказкой &lt;/acronym&gt; &lt;BR&gt;"><![CDATA[Размеры шрифта:
-
-<font style="font-size:13pt;"> Шрифт размером 13 пунктов </font> <BR>
-<font style="font-size:15pt;"> Шрифт размером 15 пунктов </font><BR>
-<font style="font-size:9px;"> Шрифт размером 9 пикселей </font><BR>
-<font style="font-size:12px;"> Шрифт размером 12 пикселей </font><BR>
-<font style="font-size:15px;"> Шрифт размером 15 пикселей </font> <BR>
-<font size="2"> Шрифт 2-го размера (может быть от 1-го до 7-го) </font> <BR>
-<font size="4"> Шрифт 4-го размера </font> <BR> <BR> Форматирование текста: <BR>
-<b> Полужирный текст </b><BR>
-<i> Выделение текста курсивом </i><BR>
-<u> Подчёркнутый текст </u><BR>
-<s> Зачёркнутый текст </s><BR>
-<small> Маленький шрифт </small><BR>
-<big> Большой шрифт </big><BR>
-Знак сноски <sup> сверху </sup> или индекс <sub> снизу </sub> от текста <BR>
-<acronym title="Всплывающая подсказка"> Текст c подсказкой </acronym> <BR>]]></value>
-  <value column="MailText3" original="Оформление текста с помощью цвета: &lt;BR&gt;&#10;&lt;font color=&quot;#0000ff&quot;&gt; Синий текст &lt;/font&gt;&lt;BR&gt;&#10;&lt;font color=&quot;red&quot;&gt; Красный текст &lt;/font&gt;&lt;BR&gt;&#10;&lt;div style=&quot;background-color:#eeeeff;&quot;&gt; Голубой фон &lt;/div&gt; &lt;BR&gt;&#10;&lt;div style=&quot;background-color:lightgray; color:#0000ff;&quot;&gt; Синий текст, серый фон &lt;/div&gt;&lt;BR&gt;"><![CDATA[Оформление текста с помощью цвета: <BR>
-<font color="#0000ff"> Синий текст </font><BR>
-<font color="red"> Красный текст </font><BR>
-<div style="background-color:#eeeeff;"> Голубой фон </div> <BR>
-<div style="background-color:lightgray; color:#0000ff;"> Синий текст, серый фон </div><BR>]]></value>
- </row>
- <row trl="Y" uuid="0ecfd3e0-eaa5-4cea-99a8-5ff244b7e388">
-  <value column="MailHeader" original="Шаблон письма через встроенный редактор. Формат HTML">Шаблон письма через встроенный редактор. Формат HTML</value>
-  <value column="MailText" original="&lt;p&gt;&lt;b&gt;&lt;span style=&quot;font-size:12px&quot;&gt;&lt;span style=&quot;font-family:Georgia,serif&quot;&gt;Уважаемый клиент&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&#10;&#10;&lt;p&gt;&lt;i&gt;&lt;b&gt;&lt;span style=&quot;font-size:12px&quot;&gt;&lt;span style=&quot;font-family:Georgia,serif&quot;&gt;Уважаемый клиент &lt;/span&gt;&lt;/span&gt;&lt;/b&gt;&lt;/i&gt;&lt;/p&gt;&#10;&#10;&lt;p&gt;&lt;u&gt;&lt;b&gt;&lt;span style=&quot;font-size:12px&quot;&gt;&lt;span style=&quot;font-family:Georgia,serif&quot;&gt;Уважаемый клиент &lt;/span&gt;&lt;/span&gt;&lt;/b&gt;&lt;/u&gt;&lt;/p&gt;&#10;&#10;&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;&lt;span style=&quot;font-family:Georgia,serif&quot;&gt;Уважаемый клиент &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#10;&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;&lt;span style=&quot;font-family:Georgia,serif&quot;&gt;вставка&amp;nbsp; спец. символов: &amp;frac14; &amp;AElig; &amp;rArr; &amp;asymp; &amp;diams; &amp;rarr; &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#10;&lt;p&gt;&lt;span style=&quot;font-size:16px&quot;&gt;&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;&gt;Выделение цветом:&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#10;&lt;ol&gt;&#10;&#9;&lt;li&gt;&lt;span style=&quot;color:#e74c3c&quot;&gt;&lt;span style=&quot;font-size:16px&quot;&gt;&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;&gt;красный&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&#10;&#9;&lt;li&gt;&lt;span style=&quot;color:#2980b9&quot;&gt;&lt;span style=&quot;font-size:16px&quot;&gt;&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;&gt;синий&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&#10;&#9;&lt;li&gt;&lt;span style=&quot;color:#2ecc71&quot;&gt;&lt;span style=&quot;font-size:16px&quot;&gt;&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;&gt;Зеленый&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&#10;&lt;/ol&gt;&#10;&#10;&lt;p&gt;&lt;span style=&quot;background-color:#9b59b6&quot;&gt;Выделение фона &lt;/span&gt;&lt;/p&gt;&#10;&#10;&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;&lt;span style=&quot;font-family:Georgia,serif&quot;&gt;Текст:&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#10;&lt;ul&gt;&#10;&#9;&lt;li&gt;&lt;span style=&quot;font-size:12px&quot;&gt;&lt;span style=&quot;font-family:Georgia,serif&quot;&gt;текст 1&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&#10;&#9;&lt;li&gt;&lt;span style=&quot;font-size:12px&quot;&gt;&lt;span style=&quot;font-family:Georgia,serif&quot;&gt;текст 2&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&#10;&#9;&lt;li&gt;&lt;span style=&quot;font-size:12px&quot;&gt;&lt;span style=&quot;font-family:Georgia,serif&quot;&gt;текст&amp;nbsp; 3&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&#10;&lt;/ul&gt;"><![CDATA[<p><b><span style="font-size:12px"><span style="font-family:Georgia,serif">Уважаемый клиент&nbsp; </span></span></b></p>
-
-<p><i><b><span style="font-size:12px"><span style="font-family:Georgia,serif">Уважаемый клиент </span></span></b></i></p>
-
-<p><u><b><span style="font-size:12px"><span style="font-family:Georgia,serif">Уважаемый клиент </span></span></b></u></p>
-
-<p><span style="font-size:12px"><span style="font-family:Georgia,serif">Уважаемый клиент </span></span></p>
-
-<p><span style="font-size:12px"><span style="font-family:Georgia,serif">вставка&nbsp; спец. символов: &frac14; &AElig; &rArr; &asymp; &diams; &rarr; </span></span></p>
-
-<p><span style="font-size:16px"><span style="font-family:Times New Roman,Times,serif">Выделение цветом:</span></span></p>
-
-<ol>
-	<li><span style="color:#e74c3c"><span style="font-size:16px"><span style="font-family:Times New Roman,Times,serif">красный</span></span></span></li>
-	<li><span style="color:#2980b9"><span style="font-size:16px"><span style="font-family:Times New Roman,Times,serif">синий</span></span></span></li>
-	<li><span style="color:#2ecc71"><span style="font-size:16px"><span style="font-family:Times New Roman,Times,serif">Зеленый</span></span></span></li>
-</ol>
-
-<p><span style="background-color:#9b59b6">Выделение фона </span></p>
-
-<p><span style="font-size:12px"><span style="font-family:Georgia,serif">Текст:</span></span></p>
-
-<ul>
-	<li><span style="font-size:12px"><span style="font-family:Georgia,serif">текст 1</span></span></li>
-	<li><span style="font-size:12px"><span style="font-family:Georgia,serif">текст 2</span></span></li>
-	<li><span style="font-size:12px"><span style="font-family:Georgia,serif">текст&nbsp; 3</span></span></li>
-</ul>]]></value>
-  <value column="Name" original="Шаблон письма через встроенный редактор. Формат HTML">Шаблон письма через встроенный редактор. Формат HTML</value>
-  <value column="MailText2" original=""/>
-  <value column="MailText3" original=""/>
- </row>
- <row trl="Y" uuid="79780e14-7406-4549-9b28-42a5b4fc0a91">
-  <value column="MailHeader" original="Шалон письма через встроенный редактор. Формат Text">Шалон письма через встроенный редактор. Формат Text</value>
-  <value column="MailText" original="Уважаемый клиент @NAME@ сообщаем Вам, что в период с 01/05/2019 6:00 (Московское время) по 03/05/2019 23:00 (Московское время) сайт будет недоступен. Приносим свои извинения.               С уважением, РТКомм">Уважаемый клиент @NAME@ сообщаем Вам, что в период с 01/05/2019 6:00 (Московское время) по 03/05/2019 23:00 (Московское время) сайт будет недоступен. Приносим свои извинения.               С уважением, РТКомм</value>
-  <value column="Name" original="Шалон письма через встроенный редактор. Формат Text">Шалон письма через встроенный редактор. Формат Text</value>
-  <value column="MailText2" original=""/>
-  <value column="MailText3" original=""/>
- </row>
- <row trl="Y" uuid="5de0ce57-09bb-4d62-b4c1-e6ed11bcad19">
-  <value column="MailHeader" original="тест на размерность">тест на размерность</value>
-  <value column="MailText" original="Mar 15, 2019 3:34:16 PM ru.rtkinfotech.crm.asterisk.CallServerListener&#10; onNewAsteriskChannel&#10; WARNING: Asterisk onNewAsteriskChannel:&#10; AsteriskChannel[id='1552653253.4587',name='SIP/6587-000010bf',callerId='&quot;Natal\'ya Savina&quot; &lt;6587&gt;',state='DOWN',account='null',dateOfCreation=Fri Mar 15 15:34:13 MSK 2019,dialedChannel=null,dialingChannel=null,linkedChannel=null]&#10; Exception in thread &quot;Asterisk-Java DaemonPool-8-thread-9&quot; Exception in thread &quot;Asterisk-Java DaemonPool-4-thread-5&quot;&#10; java.lang.NoClassDefFoundError:&#10; org/asteriskjava/live/internal/ManagerCommunicationExceptionMapper&#10; at&#10; org.asteriskjava.live.internal.AsteriskServerImpl.sendAction(AsteriskServerImpl.java:854)&#10; at&#10; org.asteriskjava.live.internal.AsteriskChannelImpl.getVariable(AsteriskChannelImpl.java:691)&#10; at&#10; org.asteriskjava.live.internal.ChannelManager.getTraceId(ChannelManager.java:711)&#10; at&#10; org.asteriskjava.live.internal.ChannelManager.addNewChannel(ChannelManager.java:175)&#10; at&#10; org.asteriskjava.live.internal.ChannelManager.handleNewChannelEvent(ChannelManager.java:424)&#10; at&#10; org.asteriskjava.live.internal.AsteriskServerImpl.onManagerEvent(AsteriskServerImpl.java:914)&#10; at&#10; org.asteriskjava.manager.ManagerEventListenerProxy$1.run(ManagerEventListenerProxy.java:77)&#10; at&#10; java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)&#10; at&#10; java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)&#10; at java.lang.Thread.run(Thread.java:748)&#10; Mar 15, 2019 3:34:16 PM ru.rtkinfotech.crm.asterisk.CallServerListener&#10; onNewAsteriskChannel&#10; WARNING: Asterisk onNewAsteriskChannel:&#10; AsteriskChannel[id='1552653253.4587',name='SIP/6587-000010bf',callerId&#10; ='&quot;Natal\'ya Savina&quot; &#10; &lt;6587&gt;',state='DOWN',account='null',dateOfCreation=Fri Mar 15&#10; t java.lang.Thread.run(Thread.java:748)&#10; Mar 15, 2019 3:34:16 PM ru.rtkinfotech.crm.asterisk.CallServerListener&#10; onNewAsteriskChannel&#10; WARNING: Asterisk onNewAsteriskChannel:&#10; AsRNING: Asterisk onNewAsteriskCha"><![CDATA[Mar 15, 2019 3:34:16 PM ru.rtkinfotech.crm.asterisk.CallServerListener
- onNewAsteriskChannel
- WARNING: Asterisk onNewAsteriskChannel:
- AsteriskChannel[id='1552653253.4587',name='SIP/6587-000010bf',callerId='"Natal\'ya Savina" <6587>',state='DOWN',account='null',dateOfCreation=Fri Mar 15 15:34:13 MSK 2019,dialedChannel=null,dialingChannel=null,linkedChannel=null]
- Exception in thread "Asterisk-Java DaemonPool-8-thread-9" Exception in thread "Asterisk-Java DaemonPool-4-thread-5"
- java.lang.NoClassDefFoundError:
- org/asteriskjava/live/internal/ManagerCommunicationExceptionMapper
- at
- org.asteriskjava.live.internal.AsteriskServerImpl.sendAction(AsteriskServerImpl.java:854)
- at
- org.asteriskjava.live.internal.AsteriskChannelImpl.getVariable(AsteriskChannelImpl.java:691)
- at
- org.asteriskjava.live.internal.ChannelManager.getTraceId(ChannelManager.java:711)
- at
- org.asteriskjava.live.internal.ChannelManager.addNewChannel(ChannelManager.java:175)
- at
- org.asteriskjava.live.internal.ChannelManager.handleNewChannelEvent(ChannelManager.java:424)
- at
- org.asteriskjava.live.internal.AsteriskServerImpl.onManagerEvent(AsteriskServerImpl.java:914)
- at
- org.asteriskjava.manager.ManagerEventListenerProxy$1.run(ManagerEventListenerProxy.java:77)
- at
- java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
- at
- java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
- at java.lang.Thread.run(Thread.java:748)
- Mar 15, 2019 3:34:16 PM ru.rtkinfotech.crm.asterisk.CallServerListener
- onNewAsteriskChannel
- WARNING: Asterisk onNewAsteriskChannel:
- AsteriskChannel[id='1552653253.4587',name='SIP/6587-000010bf',callerId
- ='"Natal\'ya Savina" 
- <6587>',state='DOWN',account='null',dateOfCreation=Fri Mar 15
- t java.lang.Thread.run(Thread.java:748)
- Mar 15, 2019 3:34:16 PM ru.rtkinfotech.crm.asterisk.CallServerListener
- onNewAsteriskChannel
- WARNING: Asterisk onNewAsteriskChannel:
- AsRNING: Asterisk onNewAsteriskCha]]></value>
-  <value column="Name" original="тест на размерность В каждой части 2000">тест на размерность В каждой части 2000</value>
-  <value column="MailText2" original="Mar 15, 2019 3:34:16 PM ru.rtkinfotech.crm.asterisk.CallServerListener&#10; onNewAsteriskChannel&#10; WARNING: Asterisk onNewAsteriskChannel:&#10; AsteriskChannel[id='1552653253.4587',name='SIP/6587-000010bf',callerId='&quot;Natal\'ya Savina&quot; &lt;6587&gt;',state='DOWN',account='null',dateOfCreation=Fri Mar 15 15:34:13 MSK 2019,dialedChannel=null,dialingChannel=null,linkedChannel=null]&#10; Exception in thread &quot;Asterisk-Java DaemonPool-8-thread-9&quot; Exception in thread &quot;Asterisk-Java DaemonPool-4-thread-5&quot;&#10; java.lang.NoClassDefFoundError:&#10; org/asteriskjava/live/internal/ManagerCommunicationExceptionMapper&#10; at&#10; org.asteriskjava.live.internal.AsteriskServerImpl.sendAction(AsteriskServerImpl.java:854)&#10; at&#10; org.asteriskjava.live.internal.AsteriskChannelImpl.getVariable(AsteriskChannelImpl.java:691)&#10; at&#10; org.asteriskjava.live.internal.ChannelManager.getTraceId(ChannelManager.java:711)&#10; at&#10; org.asteriskjava.live.internal.ChannelManager.addNewChannel(ChannelManager.java:175)&#10; at&#10; org.asteriskjava.live.internal.ChannelManager.handleNewChannelEvent(ChannelManager.java:424)&#10; at&#10; org.asteriskjava.live.internal.AsteriskServerImpl.onManagerEvent(AsteriskServerImpl.java:914)&#10; at&#10; org.asteriskjava.manager.ManagerEventListenerProxy$1.run(ManagerEventListenerProxy.java:77)&#10; at&#10; java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)&#10; at&#10; java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)&#10; at java.lang.Thread.run(Thread.java:748)&#10; Mar 15, 2019 3:34:16 PM ru.rtkinfotech.crm.asterisk.CallServerListener&#10; onNewAsteriskChannel&#10; WARNING: Asterisk onNewAsteriskChannel:&#10; AsteriskChannel[id='1552653253.4587',name='SIP/6587-000010bf',callerId&#10; ='&quot;Natal\'ya Savina&quot; &#10; &lt;6587&gt;',state='DOWN',account='null',dateOfCreation=Fri Mar 15&#10; t java.lang.Thread.run(Thread.java:748)&#10; Mar 15, 2019 3:34:16 PM ru.rtkinfotech.crm.asterisk.CallServerListener&#10; onNewAsteriskChannel&#10; WARNING: Asterisk onNewAsteriskChannel:&#10; AsRNING: Asterisk onNewAsteriskCha"><![CDATA[Mar 15, 2019 3:34:16 PM ru.rtkinfotech.crm.asterisk.CallServerListener
- onNewAsteriskChannel
- WARNING: Asterisk onNewAsteriskChannel:
- AsteriskChannel[id='1552653253.4587',name='SIP/6587-000010bf',callerId='"Natal\'ya Savina" <6587>',state='DOWN',account='null',dateOfCreation=Fri Mar 15 15:34:13 MSK 2019,dialedChannel=null,dialingChannel=null,linkedChannel=null]
- Exception in thread "Asterisk-Java DaemonPool-8-thread-9" Exception in thread "Asterisk-Java DaemonPool-4-thread-5"
- java.lang.NoClassDefFoundError:
- org/asteriskjava/live/internal/ManagerCommunicationExceptionMapper
- at
- org.asteriskjava.live.internal.AsteriskServerImpl.sendAction(AsteriskServerImpl.java:854)
- at
- org.asteriskjava.live.internal.AsteriskChannelImpl.getVariable(AsteriskChannelImpl.java:691)
- at
- org.asteriskjava.live.internal.ChannelManager.getTraceId(ChannelManager.java:711)
- at
- org.asteriskjava.live.internal.ChannelManager.addNewChannel(ChannelManager.java:175)
- at
- org.asteriskjava.live.internal.ChannelManager.handleNewChannelEvent(ChannelManager.java:424)
- at
- org.asteriskjava.live.internal.AsteriskServerImpl.onManagerEvent(AsteriskServerImpl.java:914)
- at
- org.asteriskjava.manager.ManagerEventListenerProxy$1.run(ManagerEventListenerProxy.java:77)
- at
- java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
- at
- java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
- at java.lang.Thread.run(Thread.java:748)
- Mar 15, 2019 3:34:16 PM ru.rtkinfotech.crm.asterisk.CallServerListener
- onNewAsteriskChannel
- WARNING: Asterisk onNewAsteriskChannel:
- AsteriskChannel[id='1552653253.4587',name='SIP/6587-000010bf',callerId
- ='"Natal\'ya Savina" 
- <6587>',state='DOWN',account='null',dateOfCreation=Fri Mar 15
- t java.lang.Thread.run(Thread.java:748)
- Mar 15, 2019 3:34:16 PM ru.rtkinfotech.crm.asterisk.CallServerListener
- onNewAsteriskChannel
- WARNING: Asterisk onNewAsteriskChannel:
- AsRNING: Asterisk onNewAsteriskCha]]></value>
-  <value column="MailText3" original="Mar 15, 2019 3:34:16 PM ru.rtkinfotech.crm.asterisk.CallServerListener&#10; onNewAsteriskChannel&#10; WARNING: Asterisk onNewAsteriskChannel:&#10; AsteriskChannel[id='1552653253.4587',name='SIP/6587-000010bf',callerId='&quot;Natal\'ya Savina&quot; &lt;6587&gt;',state='DOWN',account='null',dateOfCreation=Fri Mar 15 15:34:13 MSK 2019,dialedChannel=null,dialingChannel=null,linkedChannel=null]&#10; Exception in thread &quot;Asterisk-Java DaemonPool-8-thread-9&quot; Exception in thread &quot;Asterisk-Java DaemonPool-4-thread-5&quot;&#10; java.lang.NoClassDefFoundError:&#10; org/asteriskjava/live/internal/ManagerCommunicationExceptionMapper&#10; at&#10; org.asteriskjava.live.internal.AsteriskServerImpl.sendAction(AsteriskServerImpl.java:854)&#10; at&#10; org.asteriskjava.live.internal.AsteriskChannelImpl.getVariable(AsteriskChannelImpl.java:691)&#10; at&#10; org.asteriskjava.live.internal.ChannelManager.getTraceId(ChannelManager.java:711)&#10; at&#10; org.asteriskjava.live.internal.ChannelManager.addNewChannel(ChannelManager.java:175)&#10; at&#10; org.asteriskjava.live.internal.ChannelManager.handleNewChannelEvent(ChannelManager.java:424)&#10; at&#10; org.asteriskjava.live.internal.AsteriskServerImpl.onManagerEvent(AsteriskServerImpl.java:914)&#10; at&#10; org.asteriskjava.manager.ManagerEventListenerProxy$1.run(ManagerEventListenerProxy.java:77)&#10; at&#10; java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)&#10; at&#10; java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)&#10; at java.lang.Thread.run(Thread.java:748)&#10; Mar 15, 2019 3:34:16 PM ru.rtkinfotech.crm.asterisk.CallServerListener&#10; onNewAsteriskChannel&#10; WARNING: Asterisk onNewAsteriskChannel:&#10; AsteriskChannel[id='1552653253.4587',name='SIP/6587-000010bf',callerId&#10; ='&quot;Natal\'ya Savina&quot; &#10; &lt;6587&gt;',state='DOWN',account='null',dateOfCreation=Fri Mar 15&#10; t java.lang.Thread.run(Thread.java:748)&#10; Mar 15, 2019 3:34:16 PM ru.rtkinfotech.crm.asterisk.CallServerListener&#10; onNewAsteriskChannel&#10; WARNING: Asterisk onNewAsteriskChannel:&#10; AsRNING: Asterisk onNewAsteriskCha"><![CDATA[Mar 15, 2019 3:34:16 PM ru.rtkinfotech.crm.asterisk.CallServerListener
- onNewAsteriskChannel
- WARNING: Asterisk onNewAsteriskChannel:
- AsteriskChannel[id='1552653253.4587',name='SIP/6587-000010bf',callerId='"Natal\'ya Savina" <6587>',state='DOWN',account='null',dateOfCreation=Fri Mar 15 15:34:13 MSK 2019,dialedChannel=null,dialingChannel=null,linkedChannel=null]
- Exception in thread "Asterisk-Java DaemonPool-8-thread-9" Exception in thread "Asterisk-Java DaemonPool-4-thread-5"
- java.lang.NoClassDefFoundError:
- org/asteriskjava/live/internal/ManagerCommunicationExceptionMapper
- at
- org.asteriskjava.live.internal.AsteriskServerImpl.sendAction(AsteriskServerImpl.java:854)
- at
- org.asteriskjava.live.internal.AsteriskChannelImpl.getVariable(AsteriskChannelImpl.java:691)
- at
- org.asteriskjava.live.internal.ChannelManager.getTraceId(ChannelManager.java:711)
- at
- org.asteriskjava.live.internal.ChannelManager.addNewChannel(ChannelManager.java:175)
- at
- org.asteriskjava.live.internal.ChannelManager.handleNewChannelEvent(ChannelManager.java:424)
- at
- org.asteriskjava.live.internal.AsteriskServerImpl.onManagerEvent(AsteriskServerImpl.java:914)
- at
- org.asteriskjava.manager.ManagerEventListenerProxy$1.run(ManagerEventListenerProxy.java:77)
- at
- java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
- at
- java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
- at java.lang.Thread.run(Thread.java:748)
- Mar 15, 2019 3:34:16 PM ru.rtkinfotech.crm.asterisk.CallServerListener
- onNewAsteriskChannel
- WARNING: Asterisk onNewAsteriskChannel:
- AsteriskChannel[id='1552653253.4587',name='SIP/6587-000010bf',callerId
- ='"Natal\'ya Savina" 
- <6587>',state='DOWN',account='null',dateOfCreation=Fri Mar 15
- t java.lang.Thread.run(Thread.java:748)
- Mar 15, 2019 3:34:16 PM ru.rtkinfotech.crm.asterisk.CallServerListener
- onNewAsteriskChannel
- WARNING: Asterisk onNewAsteriskChannel:
- AsRNING: Asterisk onNewAsteriskCha]]></value>
- </row>
- <row trl="Y" uuid="47ff4377-c92e-437c-bc8d-fb6c055c6db7">
-  <value column="MailHeader" original="Шаблон. Каждый блок текста 2000 символов">Шаблон. Каждый блок текста 2000 символов</value>
-  <value column="MailText" original="Слово «Сибирь» — и не столько слово, сколько само понятие, давно уже звучит вроде набатного колокола, возвещая что-то неопределенно могучее и предстоящее. Прежде эти удары то приглушались, когда интерес к Сибири вдруг понижался, то снова усиливались, когда он поднимался, теперь они постоянно бьют со все нарастающей силой. Сибирь! Сибирь!.. Одни слышат в этом гулком звучании уверенность и надежду, другие — тревожную поступь человека на дальней земле, третьи ничего определенного не слышат, но прислушиваются со смутным ощущением перемен, идущих из этого края, которые могли бы принести облегчение. Сибирь неминуемо чувствуют в себе даже те, кто никогда в ней не бывал и находится вдали от ее жизни и ее интересов. Она сама вошла в жизнь и интересы многих и многих — если не как физическое, материальное понятие, то как понятие нравственное, сулящее какое-то неясное, но желанное обновление.&#10;В XVIII веке говорили: «Сибирь — наша Перу и Мексика». В девятнадцатом: «Это наши Соединенные Штаты». В двадцатом: «Сибирь — источник колоссальной энергии», «край неограниченных возможностей». Как видим, меняется техническая вооруженность человека, меняются его потребности, меняются и характеристики Сибири. От богатств самородных, лежащих на поверхности и близ поверхности, до богатств глубинных и производительных — все есть в Сибири, каждому веку она угождала, и в оценках ее, от первых слухов до последних научно-экономических обоснований, постоянно видна превосходная степень. Но уже и теперь, когда Земля почувствовала признаки удушья, она оборачивается на Сибирь: «Это легкие планеты». Уже и теперь… Нетрудно понять, что будет первой и непреходящей необходимостью для человека через тридцать, сорок и пятьдесят лет и для чего Сибирь могла бы явиться воистину целебной и спасительной силой.&#10;">Слово «Сибирь» — и не столько слово, сколько само понятие, давно уже звучит вроде набатного колокола, возвещая что-то неопределенно могучее и предстоящее. Прежде эти удары то приглушались, когда интерес к Сибири вдруг понижался, то снова усиливались, когда он поднимался, теперь они постоянно бьют со все нарастающей силой. Сибирь! Сибирь!.. Одни слышат в этом гулком звучании уверенность и надежду, другие — тревожную поступь человека на дальней земле, третьи ничего определенного не слышат, но прислушиваются со смутным ощущением перемен, идущих из этого края, которые могли бы принести облегчение. Сибирь неминуемо чувствуют в себе даже те, кто никогда в ней не бывал и находится вдали от ее жизни и ее интересов. Она сама вошла в жизнь и интересы многих и многих — если не как физическое, материальное понятие, то как понятие нравственное, сулящее какое-то неясное, но желанное обновление.
-В XVIII веке говорили: «Сибирь — наша Перу и Мексика». В девятнадцатом: «Это наши Соединенные Штаты». В двадцатом: «Сибирь — источник колоссальной энергии», «край неограниченных возможностей». Как видим, меняется техническая вооруженность человека, меняются его потребности, меняются и характеристики Сибири. От богатств самородных, лежащих на поверхности и близ поверхности, до богатств глубинных и производительных — все есть в Сибири, каждому веку она угождала, и в оценках ее, от первых слухов до последних научно-экономических обоснований, постоянно видна превосходная степень. Но уже и теперь, когда Земля почувствовала признаки удушья, она оборачивается на Сибирь: «Это легкие планеты». Уже и теперь… Нетрудно понять, что будет первой и непреходящей необходимостью для человека через тридцать, сорок и пятьдесят лет и для чего Сибирь могла бы явиться воистину целебной и спасительной силой.
-</value>
-  <value column="Name" original="Шаблон. Каждый блок текста 1791 символов">Шаблон. Каждый блок текста 1791 символов</value>
-  <value column="MailText2" original="Слово «Сибирь» — и не столько слово, сколько само понятие, давно уже звучит вроде набатного колокола, возвещая что-то неопределенно могучее и предстоящее. Прежде эти удары то приглушались, когда интерес к Сибири вдруг понижался, то снова усиливались, когда он поднимался, теперь они постоянно бьют со все нарастающей силой. Сибирь! Сибирь!.. Одни слышат в этом гулком звучании уверенность и надежду, другие — тревожную поступь человека на дальней земле, третьи ничего определенного не слышат, но прислушиваются со смутным ощущением перемен, идущих из этого края, которые могли бы принести облегчение. Сибирь неминуемо чувствуют в себе даже те, кто никогда в ней не бывал и находится вдали от ее жизни и ее интересов. Она сама вошла в жизнь и интересы многих и многих — если не как физическое, материальное понятие, то как понятие нравственное, сулящее какое-то неясное, но желанное обновление.&#10;В XVIII веке говорили: «Сибирь — наша Перу и Мексика». В девятнадцатом: «Это наши Соединенные Штаты». В двадцатом: «Сибирь — источник колоссальной энергии», «край неограниченных возможностей». Как видим, меняется техническая вооруженность человека, меняются его потребности, меняются и характеристики Сибири. От богатств самородных, лежащих на поверхности и близ поверхности, до богатств глубинных и производительных — все есть в Сибири, каждому веку она угождала, и в оценках ее, от первых слухов до последних научно-экономических обоснований, постоянно видна превосходная степень. Но уже и теперь, когда Земля почувствовала признаки удушья, она оборачивается на Сибирь: «Это легкие планеты». Уже и теперь… Нетрудно понять, что будет первой и непреходящей необходимостью для человека через тридцать, сорок и пятьдесят лет и для чего Сибирь могла бы явиться воистину целебной и спасительной силой.&#10;">Слово «Сибирь» — и не столько слово, сколько само понятие, давно уже звучит вроде набатного колокола, возвещая что-то неопределенно могучее и предстоящее. Прежде эти удары то приглушались, когда интерес к Сибири вдруг понижался, то снова усиливались, когда он поднимался, теперь они постоянно бьют со все нарастающей силой. Сибирь! Сибирь!.. Одни слышат в этом гулком звучании уверенность и надежду, другие — тревожную поступь человека на дальней земле, третьи ничего определенного не слышат, но прислушиваются со смутным ощущением перемен, идущих из этого края, которые могли бы принести облегчение. Сибирь неминуемо чувствуют в себе даже те, кто никогда в ней не бывал и находится вдали от ее жизни и ее интересов. Она сама вошла в жизнь и интересы многих и многих — если не как физическое, материальное понятие, то как понятие нравственное, сулящее какое-то неясное, но желанное обновление.
-В XVIII веке говорили: «Сибирь — наша Перу и Мексика». В девятнадцатом: «Это наши Соединенные Штаты». В двадцатом: «Сибирь — источник колоссальной энергии», «край неограниченных возможностей». Как видим, меняется техническая вооруженность человека, меняются его потребности, меняются и характеристики Сибири. От богатств самородных, лежащих на поверхности и близ поверхности, до богатств глубинных и производительных — все есть в Сибири, каждому веку она угождала, и в оценках ее, от первых слухов до последних научно-экономических обоснований, постоянно видна превосходная степень. Но уже и теперь, когда Земля почувствовала признаки удушья, она оборачивается на Сибирь: «Это легкие планеты». Уже и теперь… Нетрудно понять, что будет первой и непреходящей необходимостью для человека через тридцать, сорок и пятьдесят лет и для чего Сибирь могла бы явиться воистину целебной и спасительной силой.
-</value>
-  <value column="MailText3" original="Слово «Сибирь» — и не столько слово, сколько само понятие, давно уже звучит вроде набатного колокола, возвещая что-то неопределенно могучее и предстоящее. Прежде эти удары то приглушались, когда интерес к Сибири вдруг понижался, то снова усиливались, когда он поднимался, теперь они постоянно бьют со все нарастающей силой. Сибирь! Сибирь!.. Одни слышат в этом гулком звучании уверенность и надежду, другие — тревожную поступь человека на дальней земле, третьи ничего определенного не слышат, но прислушиваются со смутным ощущением перемен, идущих из этого края, которые могли бы принести облегчение. Сибирь неминуемо чувствуют в себе даже те, кто никогда в ней не бывал и находится вдали от ее жизни и ее интересов. Она сама вошла в жизнь и интересы многих и многих — если не как физическое, материальное понятие, то как понятие нравственное, сулящее какое-то неясное, но желанное обновление.&#10;В XVIII веке говорили: «Сибирь — наша Перу и Мексика». В девятнадцатом: «Это наши Соединенные Штаты». В двадцатом: «Сибирь — источник колоссальной энергии», «край неограниченных возможностей». Как видим, меняется техническая вооруженность человека, меняются его потребности, меняются и характеристики Сибири. От богатств самородных, лежащих на поверхности и близ поверхности, до богатств глубинных и производительных — все есть в Сибири, каждому веку она угождала, и в оценках ее, от первых слухов до последних научно-экономических обоснований, постоянно видна превосходная степень. Но уже и теперь, когда Земля почувствовала признаки удушья, она оборачивается на Сибирь: «Это легкие планеты». Уже и теперь… Нетрудно понять, что будет первой и непреходящей необходимостью для человека через тридцать, сорок и пятьдесят лет и для чего Сибирь могла бы явиться воистину целебной и спасительной силой.&#10;">Слово «Сибирь» — и не столько слово, сколько само понятие, давно уже звучит вроде набатного колокола, возвещая что-то неопределенно могучее и предстоящее. Прежде эти удары то приглушались, когда интерес к Сибири вдруг понижался, то снова усиливались, когда он поднимался, теперь они постоянно бьют со все нарастающей силой. Сибирь! Сибирь!.. Одни слышат в этом гулком звучании уверенность и надежду, другие — тревожную поступь человека на дальней земле, третьи ничего определенного не слышат, но прислушиваются со смутным ощущением перемен, идущих из этого края, которые могли бы принести облегчение. Сибирь неминуемо чувствуют в себе даже те, кто никогда в ней не бывал и находится вдали от ее жизни и ее интересов. Она сама вошла в жизнь и интересы многих и многих — если не как физическое, материальное понятие, то как понятие нравственное, сулящее какое-то неясное, но желанное обновление.
-В XVIII веке говорили: «Сибирь — наша Перу и Мексика». В девятнадцатом: «Это наши Соединенные Штаты». В двадцатом: «Сибирь — источник колоссальной энергии», «край неограниченных возможностей». Как видим, меняется техническая вооруженность человека, меняются его потребности, меняются и характеристики Сибири. От богатств самородных, лежащих на поверхности и близ поверхности, до богатств глубинных и производительных — все есть в Сибири, каждому веку она угождала, и в оценках ее, от первых слухов до последних научно-экономических обоснований, постоянно видна превосходная степень. Но уже и теперь, когда Земля почувствовала признаки удушья, она оборачивается на Сибирь: «Это легкие планеты». Уже и теперь… Нетрудно понять, что будет первой и непреходящей необходимостью для человека через тридцать, сорок и пятьдесят лет и для чего Сибирь могла бы явиться воистину целебной и спасительной силой.
-</value>
- </row>
- <row trl="Y" uuid="3140f51d-daf7-4372-97bf-b19e342186b8">
-  <value column="MailHeader" original="Шаблон. Каждый блок текста 1999 символов">Шаблон. Каждый блок текста 1999 символов</value>
-  <value column="MailText" original="Слово «Сибирь» и не столько слово, сколько само понятие, давно уже звучит вроде набатного колокола, возвещая что-то неопределенно могучее и предстоящее. Прежде эти удары то приглушались, когда интерес к Сибири вдруг понижался, то снова усиливались, когда он поднимался, теперь они постоянно бьют со все нарастающей силой.Сибирь! Сибирь! Одни слышат в этом гулком звучании уверенность и надежду, другие тревожную поступь человека на дальней земле, третьи ничего определенного не слышат, но прислушиваются со смутным ощущением перемен, идущих из этого края, которые могли бы принести облегчение. Сибирь неминуемо чувствуют в себе даже те, кто никогда в ней не бывал и находится вдали от ее жизни и ее интересов. Она сама вошла в жизнь и интересы многих и многих если не как физическое, материальное понятие, то как понятие нравственное, сулящее какое-то неясное, но желанное обновление. В XVIII веке говорили: «Сибирь наша Перу и Мексика». В девятнадцатом: «Это наши Соединенные Штаты». В двадцатом: «Сибирь источник колоссальной энергии», «край неограниченных возможностей». Как видим, меняется техническая вооруженность человека, меняются его потребности, меняются и характеристики Сибири. От богатств самородных, лежащих на поверхности и близ поверхности, до богатств глубинных и производительных все есть в Сибири, каждому веку она угождала, и в оценках ее, от первых слухов до последних научно-экономических обоснований, постоянно видна превосходная степень. Но уже и теперь, когда Земля почувствовала признаки удушья, она оборачивается на Сибирь: «Это легкие планеты». Уже и теперь Не трудно понять, что будет первой и непреходящей необходимостью для человека через тридцать, сорок и пятьдесят лет и для чего Сибирь могла бы явиться воистину целебной и спасительной силой&#10;Мы привыкли к языку сравнений, но никакие сравнения ничего не скажут о Сибири. Мы можем сопоставлять лишь результаты освоения, дела рук человеческих, но не более. Нет ничего в мире, что можно было бы поставить рядом с Сибирь">Слово «Сибирь» и не столько слово, сколько само понятие, давно уже звучит вроде набатного колокола, возвещая что-то неопределенно могучее и предстоящее. Прежде эти удары то приглушались, когда интерес к Сибири вдруг понижался, то снова усиливались, когда он поднимался, теперь они постоянно бьют со все нарастающей силой.Сибирь! Сибирь! Одни слышат в этом гулком звучании уверенность и надежду, другие тревожную поступь человека на дальней земле, третьи ничего определенного не слышат, но прислушиваются со смутным ощущением перемен, идущих из этого края, которые могли бы принести облегчение. Сибирь неминуемо чувствуют в себе даже те, кто никогда в ней не бывал и находится вдали от ее жизни и ее интересов. Она сама вошла в жизнь и интересы многих и многих если не как физическое, материальное понятие, то как понятие нравственное, сулящее какое-то неясное, но желанное обновление. В XVIII веке говорили: «Сибирь наша Перу и Мексика». В девятнадцатом: «Это наши Соединенные Штаты». В двадцатом: «Сибирь источник колоссальной энергии», «край неограниченных возможностей». Как видим, меняется техническая вооруженность человека, меняются его потребности, меняются и характеристики Сибири. От богатств самородных, лежащих на поверхности и близ поверхности, до богатств глубинных и производительных все есть в Сибири, каждому веку она угождала, и в оценках ее, от первых слухов до последних научно-экономических обоснований, постоянно видна превосходная степень. Но уже и теперь, когда Земля почувствовала признаки удушья, она оборачивается на Сибирь: «Это легкие планеты». Уже и теперь Не трудно понять, что будет первой и непреходящей необходимостью для человека через тридцать, сорок и пятьдесят лет и для чего Сибирь могла бы явиться воистину целебной и спасительной силой
-Мы привыкли к языку сравнений, но никакие сравнения ничего не скажут о Сибири. Мы можем сопоставлять лишь результаты освоения, дела рук человеческих, но не более. Нет ничего в мире, что можно было бы поставить рядом с Сибирь</value>
-  <value column="Name" original="Шаблон. Каждый блок текста 1999 символов">Шаблон. Каждый блок текста 1999 символов</value>
-  <value column="MailText2" original="Слово «Сибирь» и не столько слово, сколько само понятие, давно уже звучит вроде набатного колокола, возвещая что-то неопределенно могучее и предстоящее. Прежде эти удары то приглушались, когда интерес к Сибири вдруг понижался, то снова усиливались, когда он поднимался, теперь они постоянно бьют со все нарастающей силой.Сибирь! Сибирь! Одни слышат в этом гулком звучании уверенность и надежду, другие тревожную поступь человека на дальней земле, третьи ничего определенного не слышат, но прислушиваются со смутным ощущением перемен, идущих из этого края, которые могли бы принести облегчение. Сибирь неминуемо чувствуют в себе даже те, кто никогда в ней не бывал и находится вдали от ее жизни и ее интересов. Она сама вошла в жизнь и интересы многих и многих если не как физическое, материальное понятие, то как понятие нравственное, сулящее какое-то неясное, но желанное обновление. В XVIII веке говорили: «Сибирь наша Перу и Мексика». В девятнадцатом: «Это наши Соединенные Штаты». В двадцатом: «Сибирь источник колоссальной энергии», «край неограниченных возможностей». Как видим, меняется техническая вооруженность человека, меняются его потребности, меняются и характеристики Сибири. От богатств самородных, лежащих на поверхности и близ поверхности, до богатств глубинных и производительных все есть в Сибири, каждому веку она угождала, и в оценках ее, от первых слухов до последних научно-экономических обоснований, постоянно видна превосходная степень. Но уже и теперь, когда Земля почувствовала признаки удушья, она оборачивается на Сибирь: «Это легкие планеты». Уже и теперь Не трудно понять, что будет первой и непреходящей необходимостью для человека через тридцать, сорок и пятьдесят лет и для чего Сибирь могла бы явиться воистину целебной и спасительной силой&#10;Мы привыкли к языку сравнений, но никакие сравнения ничего не скажут о Сибири. Мы можем сопоставлять лишь результаты освоения, дела рук человеческих, но не более. Нет ничего в мире, что можно было бы поставить рядом с Сибирь">Слово «Сибирь» и не столько слово, сколько само понятие, давно уже звучит вроде набатного колокола, возвещая что-то неопределенно могучее и предстоящее. Прежде эти удары то приглушались, когда интерес к Сибири вдруг понижался, то снова усиливались, когда он поднимался, теперь они постоянно бьют со все нарастающей силой.Сибирь! Сибирь! Одни слышат в этом гулком звучании уверенность и надежду, другие тревожную поступь человека на дальней земле, третьи ничего определенного не слышат, но прислушиваются со смутным ощущением перемен, идущих из этого края, которые могли бы принести облегчение. Сибирь неминуемо чувствуют в себе даже те, кто никогда в ней не бывал и находится вдали от ее жизни и ее интересов. Она сама вошла в жизнь и интересы многих и многих если не как физическое, материальное понятие, то как понятие нравственное, сулящее какое-то неясное, но желанное обновление. В XVIII веке говорили: «Сибирь наша Перу и Мексика». В девятнадцатом: «Это наши Соединенные Штаты». В двадцатом: «Сибирь источник колоссальной энергии», «край неограниченных возможностей». Как видим, меняется техническая вооруженность человека, меняются его потребности, меняются и характеристики Сибири. От богатств самородных, лежащих на поверхности и близ поверхности, до богатств глубинных и производительных все есть в Сибири, каждому веку она угождала, и в оценках ее, от первых слухов до последних научно-экономических обоснований, постоянно видна превосходная степень. Но уже и теперь, когда Земля почувствовала признаки удушья, она оборачивается на Сибирь: «Это легкие планеты». Уже и теперь Не трудно понять, что будет первой и непреходящей необходимостью для человека через тридцать, сорок и пятьдесят лет и для чего Сибирь могла бы явиться воистину целебной и спасительной силой
-Мы привыкли к языку сравнений, но никакие сравнения ничего не скажут о Сибири. Мы можем сопоставлять лишь результаты освоения, дела рук человеческих, но не более. Нет ничего в мире, что можно было бы поставить рядом с Сибирь</value>
-  <value column="MailText3" original="Слово «Сибирь» и не столько слово, сколько само понятие, давно уже звучит вроде набатного колокола, возвещая что-то неопределенно могучее и предстоящее. Прежде эти удары то приглушались, когда интерес к Сибири вдруг понижался, то снова усиливались, когда он поднимался, теперь они постоянно бьют со все нарастающей силой.Сибирь! Сибирь! Одни слышат в этом гулком звучании уверенность и надежду, другие тревожную поступь человека на дальней земле, третьи ничего определенного не слышат, но прислушиваются со смутным ощущением перемен, идущих из этого края, которые могли бы принести облегчение. Сибирь неминуемо чувствуют в себе даже те, кто никогда в ней не бывал и находится вдали от ее жизни и ее интересов. Она сама вошла в жизнь и интересы многих и многих если не как физическое, материальное понятие, то как понятие нравственное, сулящее какое-то неясное, но желанное обновление. В XVIII веке говорили: «Сибирь наша Перу и Мексика». В девятнадцатом: «Это наши Соединенные Штаты». В двадцатом: «Сибирь источник колоссальной энергии», «край неограниченных возможностей». Как видим, меняется техническая вооруженность человека, меняются его потребности, меняются и характеристики Сибири. От богатств самородных, лежащих на поверхности и близ поверхности, до богатств глубинных и производительных все есть в Сибири, каждому веку она угождала, и в оценках ее, от первых слухов до последних научно-экономических обоснований, постоянно видна превосходная степень. Но уже и теперь, когда Земля почувствовала признаки удушья, она оборачивается на Сибирь: «Это легкие планеты». Уже и теперь Не трудно понять, что будет первой и непреходящей необходимостью для человека через тридцать, сорок и пятьдесят лет и для чего Сибирь могла бы явиться воистину целебной и спасительной силой&#10;Мы привыкли к языку сравнений, но никакие сравнения ничего не скажут о Сибири. Мы можем сопоставлять лишь результаты освоения, дела рук человеческих, но не более. Нет ничего в мире, что можно было бы поставить рядом с Сибирь">Слово «Сибирь» и не столько слово, сколько само понятие, давно уже звучит вроде набатного колокола, возвещая что-то неопределенно могучее и предстоящее. Прежде эти удары то приглушались, когда интерес к Сибири вдруг понижался, то снова усиливались, когда он поднимался, теперь они постоянно бьют со все нарастающей силой.Сибирь! Сибирь! Одни слышат в этом гулком звучании уверенность и надежду, другие тревожную поступь человека на дальней земле, третьи ничего определенного не слышат, но прислушиваются со смутным ощущением перемен, идущих из этого края, которые могли бы принести облегчение. Сибирь неминуемо чувствуют в себе даже те, кто никогда в ней не бывал и находится вдали от ее жизни и ее интересов. Она сама вошла в жизнь и интересы многих и многих если не как физическое, материальное понятие, то как понятие нравственное, сулящее какое-то неясное, но желанное обновление. В XVIII веке говорили: «Сибирь наша Перу и Мексика». В девятнадцатом: «Это наши Соединенные Штаты». В двадцатом: «Сибирь источник колоссальной энергии», «край неограниченных возможностей». Как видим, меняется техническая вооруженность человека, меняются его потребности, меняются и характеристики Сибири. От богатств самородных, лежащих на поверхности и близ поверхности, до богатств глубинных и производительных все есть в Сибири, каждому веку она угождала, и в оценках ее, от первых слухов до последних научно-экономических обоснований, постоянно видна превосходная степень. Но уже и теперь, когда Земля почувствовала признаки удушья, она оборачивается на Сибирь: «Это легкие планеты». Уже и теперь Не трудно понять, что будет первой и непреходящей необходимостью для человека через тридцать, сорок и пятьдесят лет и для чего Сибирь могла бы явиться воистину целебной и спасительной силой
-Мы привыкли к языку сравнений, но никакие сравнения ничего не скажут о Сибири. Мы можем сопоставлять лишь результаты освоения, дела рук человеческих, но не более. Нет ничего в мире, что можно было бы поставить рядом с Сибирь</value>
- </row>
- <row trl="Y" uuid="2909e28c-4ef1-457d-a4cf-0073e3082c24">
-  <value column="MailHeader" original="      555">      555</value>
-  <value column="MailText" original="&lt;pre style=&quot;margin-left:0px; margin-right:0px; text-align:left&quot;&gt;&#10;&lt;code&gt;import java.util.*;&#10;import javax.activation.DataHandler;&#10;import javax.mail.*;&#10;import javax.mail.internet.*;&#10;import javax.mail.search.*;&#10;import java.io.FileInputStream.*;&#10;import javax.mail.internet.MimeMessage;&#10;import javax.mail.internet.MimeBodyPart;&#10;import javax.mail.Part;&#10;import javax.mail.Multipart;&#10;&#10;getAttachments(Path) ;&#10;  //function&#10;private  String getAttachments(path) throws&#10;    MessagingException, IOException {&#10;    InputStream is = new FileInputStream(path);&#10;    MimeMessage p = new MimeMessage(null, is);&#10;&#10;    if ( p.isMimeType(&amp;quot;multipart/*&amp;quot;)) {&#10;// if (contentType.contains(&amp;quot;multipart&amp;quot;)) {&lt;/code&gt;&lt;/pre&gt;&#10;"><![CDATA[<pre style="margin-left:0px; margin-right:0px; text-align:left">
-<code>import java.util.*;
-import javax.activation.DataHandler;
-import javax.mail.*;
-import javax.mail.internet.*;
-import javax.mail.search.*;
-import java.io.FileInputStream.*;
-import javax.mail.internet.MimeMessage;
-import javax.mail.internet.MimeBodyPart;
-import javax.mail.Part;
-import javax.mail.Multipart;
-
-getAttachments(Path) ;
-  //function
-private  String getAttachments(path) throws
-    MessagingException, IOException {
-    InputStream is = new FileInputStream(path);
-    MimeMessage p = new MimeMessage(null, is);
-
-    if ( p.isMimeType(&quot;multipart/*&quot;)) {
-// if (contentType.contains(&quot;multipart&quot;)) {</code></pre>
-]]></value>
-  <value column="Name" original="новый шаблон тема обязательна и размер 256">новый шаблон тема обязательна и размер 256</value>
-  <value column="MailText2" original=""/>
-  <value column="MailText3" original=""/>
- </row>
- <row trl="Y" uuid="cb8bad9b-36fe-434d-8f39-3e1b5171cc8b">
-  <value column="MailHeader" original="Информационное письмо ">Информационное письмо </value>
-  <value column="MailText" original="&lt;p&gt;Уважаемый клиент @Name@!&lt;/p&gt;&#10;&#10;&lt;p style=&quot;text-align:justify&quot;&gt;Информируем Вас, что в период с 25 марта 2019 по 29 марта 2019 техническая поддержка сайта будет функционировать&lt;span style=&quot;background-color:#1abc9c&quot;&gt; в круглосуточном режиме,&lt;/span&gt; &lt;span style=&quot;background-color:#f1c40f&quot;&gt;за исключением времени проведения регламентных работ, перерывов на обед и сон.&lt;/span&gt;&lt;/p&gt;&#10;&#10;&lt;p style=&quot;text-align:justify&quot;&gt;&amp;nbsp;&lt;/p&gt;&#10;"><![CDATA[<p>Уважаемый клиент @Name@!</p>
-
-<p style="text-align:justify">Информируем Вас, что в период с 25 марта 2019 по 29 марта 2019 техническая поддержка сайта будет функционировать<span style="background-color:#1abc9c"> в круглосуточном режиме,</span> <span style="background-color:#f1c40f">за исключением времени проведения регламентных работ, перерывов на обед и сон.</span></p>
-
-<p style="text-align:justify">&nbsp;</p>
-]]></value>
-  <value column="Name" original="Альтернативное Информационное письмо (HTML и Текст)">Альтернативное Информационное письмо (HTML и Текст)</value>
-  <value column="MailText2" original="Регламентные работы будут проводиться с 01-00 до 02-00 каждой ночи.">Регламентные работы будут проводиться с 01-00 до 02-00 каждой ночи.</value>
-  <value column="MailText3" original="Благодарим за понимание. @Birthday@,  @Name@">Благодарим за понимание. @Birthday@,  @Name@</value>
- </row>
- <row trl="Y" uuid="218d61be-f2d2-4be0-ace5-6ca0888ab2fd">
-  <value column="MailHeader" original="Микс Сообщение">Микс Сообщение</value>
-  <value column="MailText" original="&lt;p style=&quot;text-align:center&quot;&gt;Уважаемый клиент Пётр Петров Емайл!&lt;/p&gt;&#10;&#10;&lt;p style=&quot;text-align:center&quot;&gt;Информируем Вас, что в период с 25 марта 2019 по 29 марта 2019 техническая поддержка сайта будет функционировать в круглосуточном режиме, за исключением времени проведения регламентных работ, перерывов на обед и сон.&lt;br /&gt;&#10;&amp;nbsp;&lt;/p&gt;&#10;"><![CDATA[<p style="text-align:center">Уважаемый клиент Пётр Петров Емайл!</p>
-
-<p style="text-align:center">Информируем Вас, что в период с 25 марта 2019 по 29 марта 2019 техническая поддержка сайта будет функционировать в круглосуточном режиме, за исключением времени проведения регламентных работ, перерывов на обед и сон.<br />
-&nbsp;</p>
-]]></value>
-  <value column="Name" original="АналогИнформ">АналогИнформ</value>
-  <value column="MailText2" original="Просим Вас обращаться только в рабочее время">Просим Вас обращаться только в рабочее время</value>
-  <value column="MailText3" original="&lt;p&gt;&lt;span style=&quot;background-color:#e74c3c&quot;&gt;СПАСИБО ЗА ПОНИМАНИЕ!&lt;/span&gt;&lt;/p&gt;&#10;"><![CDATA[<p><span style="background-color:#e74c3c">СПАСИБО ЗА ПОНИМАНИЕ!</span></p>
-]]></value>
  </row>
  <row trl="N" uuid="46931779-65eb-4f46-850a-624a227c83ed">
   <value column="MailHeader" original="Внимание!">Внимание!</value>
@@ -403,80 +45,6 @@ java.lang.NoClassDefFoundError: org/asteriskjava/manager/internal/ManagerConnect
   <value column="MailText2" original="Требуется Ваше участие">Требуется Ваше участие</value>
   <value column="MailText3" original="Не отвечать!">Не отвечать!</value>
  </row>
- <row trl="Y" uuid="cf04d9ca-8fe8-41b8-a7f0-1d2a3ea6b7eb">
-  <value column="MailHeader" original="ТЕСТ CRM-570">ТЕСТ CRM-570</value>
-  <value column="MailText" original="Слово «Сибирь»&#10;&#10;Слово «Сибирь»&#10;Слово «Сибирь»&#10;Слово «Сибирь»&#10;Слово «Сибирь»&#10;">Слово «Сибирь»
-
-Слово «Сибирь»
-Слово «Сибирь»
-Слово «Сибирь»
-Слово «Сибирь»
-</value>
-  <value column="Name" original="Шаблон CRM-570">Шаблон CRM-570</value>
-  <value column="MailText2" original=""/>
-  <value column="MailText3" original=""/>
- </row>
- <row trl="Y" uuid="78b26341-e572-44bf-a9c7-d29ff7a42495">
-  <value column="MailHeader" original="Шалон письма, вставка из Word. Формат Text">Шалон письма, вставка из Word. Формат Text</value>
-  <value column="MailText" original="Уважаемый клиент @NAME@  Слово «Сибирь» и не столько слово, сколько само понятие, давно уже звучит вроде набатного колокола, возвещая что-то неопределенно могучее и предстоящее. Прежде эти удары то приглушались, когда интерес к Сибири вдруг понижался, то снова усиливались, когда он поднимался, теперь они постоянно бьют со все нарастающей силой.&#10;Сибирь! Сибирь! Одни слышат в этом гулком звучании уверенность и надежду, другие тревожную поступь человека на дальней земле, третьи ничего определенного не слышат, но прислушиваются со смутным ощущением перемен, идущих из этого края, которые могли бы принести облегчение. Сибирь неминуемо чувствуют в себе даже те, кто никогда в ней не бывал и находится вдали от ее жизни и ее интересов. Она сама вошла в жизнь и интересы многих и многих если не как физическое, материальное понятие, то как понятие нравственное, сулящее какое-то неясное, но желанное обновление. &#10;&#10;Слово «Сибирь» и не столько слово, сколько само понятие, давно уже звучит вроде набатного колокола, возвещая что-то неопределенно могучее и предстоящее. Прежде эти удары то приглушались, когда интерес к Сибири вдруг понижался, то снова усиливались, когда он поднимался, теперь они постоянно бьют со все нарастающей силой.&#10;Сибирь! Сибирь! Одни слышат в этом гулком звучании уверенность и надежду, другие тревожную поступь человека на дальней земле, третьи ничего определенного не слышат, но прислушиваются со смутным ощущением перемен, идущих из этого края, которые могли бы принести облегчение. Сибирь неминуемо чувствуют в себе даже те, кто никогда в ней не бывал и находится вдали от ее жизни и ее интересов. Она сама вошла в жизнь и интересы многих и многих если не как физическое, материальное понятие, то как понятие нравственное, сулящее какое-то неясное, но желанное обновление. &#10;">Уважаемый клиент @NAME@  Слово «Сибирь» и не столько слово, сколько само понятие, давно уже звучит вроде набатного колокола, возвещая что-то неопределенно могучее и предстоящее. Прежде эти удары то приглушались, когда интерес к Сибири вдруг понижался, то снова усиливались, когда он поднимался, теперь они постоянно бьют со все нарастающей силой.
-Сибирь! Сибирь! Одни слышат в этом гулком звучании уверенность и надежду, другие тревожную поступь человека на дальней земле, третьи ничего определенного не слышат, но прислушиваются со смутным ощущением перемен, идущих из этого края, которые могли бы принести облегчение. Сибирь неминуемо чувствуют в себе даже те, кто никогда в ней не бывал и находится вдали от ее жизни и ее интересов. Она сама вошла в жизнь и интересы многих и многих если не как физическое, материальное понятие, то как понятие нравственное, сулящее какое-то неясное, но желанное обновление. 
-
-Слово «Сибирь» и не столько слово, сколько само понятие, давно уже звучит вроде набатного колокола, возвещая что-то неопределенно могучее и предстоящее. Прежде эти удары то приглушались, когда интерес к Сибири вдруг понижался, то снова усиливались, когда он поднимался, теперь они постоянно бьют со все нарастающей силой.
-Сибирь! Сибирь! Одни слышат в этом гулком звучании уверенность и надежду, другие тревожную поступь человека на дальней земле, третьи ничего определенного не слышат, но прислушиваются со смутным ощущением перемен, идущих из этого края, которые могли бы принести облегчение. Сибирь неминуемо чувствуют в себе даже те, кто никогда в ней не бывал и находится вдали от ее жизни и ее интересов. Она сама вошла в жизнь и интересы многих и многих если не как физическое, материальное понятие, то как понятие нравственное, сулящее какое-то неясное, но желанное обновление. 
-</value>
-  <value column="Name" original="Шалон письма, вставка из Word. Формат Text">Шалон письма, вставка из Word. Формат Text</value>
-  <value column="MailText2" original="2 В XVIII веке говорили: «Сибирь наша Перу и Мексика». В девятнадцатом: «Это наши Соединенные Штаты». В двадцатом: «Сибирь источник колоссальной энергии», «край неограниченных возможностей». Как видим, меняется техническая вооруженность человека, меняются его потребности, меняются и характеристики Сибири. От богатств самородных, лежащих на поверхности и близ поверхности, до богатств глубинных и производительных все есть в Сибири, каждому веку она угождала, и в оценках ее, от первых слухов до последних научно-экономических обоснований, постоянно видна превосходная степень. Но уже и теперь, когда Земля почувствовала признаки удушья, она оборачивается на Сибирь: «Это легкие планеты». Уже и теперь. Не трудно понять, что будет первой и непреходящей необходимостью для человека через тридцать, сорок и пятьдесят лет и для чего Сибирь могла бы явиться воистину целебной и спасительной силой">2 В XVIII веке говорили: «Сибирь наша Перу и Мексика». В девятнадцатом: «Это наши Соединенные Штаты». В двадцатом: «Сибирь источник колоссальной энергии», «край неограниченных возможностей». Как видим, меняется техническая вооруженность человека, меняются его потребности, меняются и характеристики Сибири. От богатств самородных, лежащих на поверхности и близ поверхности, до богатств глубинных и производительных все есть в Сибири, каждому веку она угождала, и в оценках ее, от первых слухов до последних научно-экономических обоснований, постоянно видна превосходная степень. Но уже и теперь, когда Земля почувствовала признаки удушья, она оборачивается на Сибирь: «Это легкие планеты». Уже и теперь. Не трудно понять, что будет первой и непреходящей необходимостью для человека через тридцать, сорок и пятьдесят лет и для чего Сибирь могла бы явиться воистину целебной и спасительной силой</value>
-  <value column="MailText3" original="3 В XVIII веке говорили: «Сибирь наша Перу и Мексика». В девятнадцатом: «Это наши Соединенные Штаты». В двадцатом: «Сибирь источник колоссальной энергии», «край неограниченных возможностей». Как видим, меняется техническая вооруженность человека, меняются его потребности, меняются и характеристики Сибири. От богатств самородных, лежащих на поверхности и близ поверхности, до богатств глубинных и производительных все есть в Сибири, каждому веку она угождала, и в оценках ее, от первых слухов до последних научно-экономических обоснований, постоянно видна превосходная степень. Но уже и теперь, когда Земля почувствовала признаки удушья, она оборачивается на Сибирь: «Это легкие планеты». Уже и теперь. Не трудно понять, что будет первой и непреходящей необходимостью для человека через тридцать, сорок и пятьдесят лет и для чего Сибирь могла бы явиться воистину целебной и спасительной силой">3 В XVIII веке говорили: «Сибирь наша Перу и Мексика». В девятнадцатом: «Это наши Соединенные Штаты». В двадцатом: «Сибирь источник колоссальной энергии», «край неограниченных возможностей». Как видим, меняется техническая вооруженность человека, меняются его потребности, меняются и характеристики Сибири. От богатств самородных, лежащих на поверхности и близ поверхности, до богатств глубинных и производительных все есть в Сибири, каждому веку она угождала, и в оценках ее, от первых слухов до последних научно-экономических обоснований, постоянно видна превосходная степень. Но уже и теперь, когда Земля почувствовала признаки удушья, она оборачивается на Сибирь: «Это легкие планеты». Уже и теперь. Не трудно понять, что будет первой и непреходящей необходимостью для человека через тридцать, сорок и пятьдесят лет и для чего Сибирь могла бы явиться воистину целебной и спасительной силой</value>
- </row>
- <row trl="Y" uuid="b4774ea3-bae3-41d7-9539-f44217232606">
-  <value column="MailHeader" original="Тест вложений">Тест вложений</value>
-  <value column="MailText" original="Тест вложений">Тест вложений</value>
-  <value column="Name" original="Тест вложений">Тест вложений</value>
-  <value column="MailText2" original=""/>
-  <value column="MailText3" original=""/>
- </row>
- <row trl="Y" uuid="6b9b1e69-8529-4ad9-98d9-d77dc9c55dbf">
-  <value column="MailHeader" original="Тест вложений1">Тест вложений1</value>
-  <value column="MailText" original="Тест вложений1">Тест вложений1</value>
-  <value column="Name" original="Тест вложений1">Тест вложений1</value>
-  <value column="MailText2" original=""/>
-  <value column="MailText3" original=""/>
- </row>
- <row trl="Y" uuid="9c900c57-5fe4-4aa2-9765-3674fe21cc3c">
-  <value column="MailHeader" original="Тест вложений2">Тест вложений2</value>
-  <value column="MailText" original="Тест вложений2">Тест вложений2</value>
-  <value column="Name" original="Тест вложений2">Тест вложений2</value>
-  <value column="MailText2" original=""/>
-  <value column="MailText3" original=""/>
- </row>
- <row trl="Y" uuid="cbe88cf6-3e69-45e2-89c6-f3a6d8eb50b6">
-  <value column="MailHeader" original="Тест вложений3">Тест вложений3</value>
-  <value column="MailText" original="Тест вложений3">Тест вложений3</value>
-  <value column="Name" original="Тест вложений3">Тест вложений3</value>
-  <value column="MailText2" original=""/>
-  <value column="MailText3" original=""/>
- </row>
- <row trl="Y" uuid="5f5d4062-7c8a-487b-a57e-a704bf397665">
-  <value column="MailHeader" original="Шаблон письма. Атрибуты шаблона">Шаблон письма. Атрибуты шаблона</value>
-  <value column="MailText" original="@Name@ - название контакта;&#10;@Description@ - описание контакта;&#10;@Phone@ - телефон;&#10;@Phone2@ - 2-ой телефон;&#10;@Fax@ - факс;&#10;@email@ - адрес электронной почты;&#10;@Birthday@ - день рождения.">@Name@ - название контакта;
-@Description@ - описание контакта;
-@Phone@ - телефон;
-@Phone2@ - 2-ой телефон;
-@Fax@ - факс;
-@email@ - адрес электронной почты;
-@Birthday@ - день рождения.</value>
-  <value column="Name" original="Шаблон письма. Атрибуты шаблона">Шаблон письма. Атрибуты шаблона</value>
-  <value column="MailText2" original=""/>
-  <value column="MailText3" original=""/>
- </row>
- <row trl="Y" uuid="8f4d79f7-fda1-4b0b-9c37-d4acfbcef4b4">
-  <value column="MailHeader" original="123456789 123456789 123456789 123456789 123456789 123456789 123456789 123456789 123456789 123456789 123456789 123456789 123456789 123456789 123456789 123456789 123456789 123456789 123456789 123456789 123456789 123456789 123456789 123456789 123456789 123456">123456789 123456789 123456789 123456789 123456789 123456789 123456789 123456789 123456789 123456789 123456789 123456789 123456789 123456789 123456789 123456789 123456789 123456789 123456789 123456789 123456789 123456789 123456789 123456789 123456789 123456</value>
-  <value column="MailText" original="&lt;p&gt;При создании Шаблона письма (&amp;laquo;Шаблон письма&amp;raquo; (&lt;b&gt;Партнерские взаимоотношения&lt;/b&gt; &amp;ndash; Запросы)) поле &amp;quot;Тема&amp;quot; необязательный реквизит.&lt;/p&gt;&#10;"><![CDATA[<p>При создании Шаблона письма (&laquo;Шаблон письма&raquo; (<b>Партнерские взаимоотношения</b> &ndash; Запросы)) поле &quot;Тема&quot; необязательный реквизит.</p>
-]]></value>
-  <value column="Name" original="Шаблон тема обязательна и размер 256">Шаблон тема обязательна и размер 256</value>
-  <value column="MailText2" original="При единичной отправке письма и массовой рассылке это приводит к ошибкам:">При единичной отправке письма и массовой рассылке это приводит к ошибкам:</value>
-  <value column="MailText3" original="Правим">Правим</value>
- </row>
  <row trl="N" uuid="4c7d8868-b3d5-44bc-959b-b1fd962063d9">
   <value column="MailHeader" original="Requisition Approval Sys">Requisition Approval</value>
   <value column="MailText" original="Dear Manager,Need you help to review and approvethe requisition document below.">Dear Manager</value>
@@ -484,46 +52,481 @@ java.lang.NoClassDefFoundError: org/asteriskjava/manager/internal/ManagerConnect
   <value column="MailText2" original=""/>
   <value column="MailText3" original=""/>
  </row>
- <row trl="Y" uuid="0b640846-e752-4b37-809e-1e6a01987465">
-  <value column="MailHeader" original="Тема шаблона определено как 256 символов1234567890Тема шаблона определено как 256 символов1234567890Тема шаблона определено как 256 символов1234567890Тема шаблона определено как 256 символов1234567890Тема шаблона определено как 256 символов1234567890_12345">Тема шаблона определено как 256 символов1234567890Тема шаблона определено как 256 символов1234567890Тема шаблона определено как 256 символов1234567890Тема шаблона определено как 256 символов1234567890Тема шаблона определено как 256 символов1234567890_12345</value>
-  <value column="MailText" original="текст">текст</value>
-  <value column="Name" original="Новый шаблон для проверки в рамках CRMRTCOMM-611_12345678901">Новый шаблон для проверки в рамках CRMRTCOMM-611_12345678901</value>
-  <value column="MailText2" original="текст">текст</value>
-  <value column="MailText3" original=""/>
- </row>
- <row trl="Y" uuid="beb7fbaf-4dd8-487e-9198-4742985ef2f0">
-  <value column="MailHeader" original="Тест               ">Тест               </value>
-  <value column="MailText" original="авава">авава</value>
-  <value column="Name" original="Проверка Правил валидации на таблице R_MailText">Проверка Правил валидации на таблице R_MailText</value>
-  <value column="MailText2" original="вавава">вавава</value>
-  <value column="MailText3" original="вава">вава</value>
- </row>
- <row trl="Y" uuid="d4b7ccc9-cefd-449c-9eb4-960e6ab499cd">
-  <value column="MailHeader" original="Request send">Request send</value>
-  <value column="MailText" original="@name@ на всш запроc отвечаю:">@name@ на всш запроc отвечаю:</value>
-  <value column="Name" original="Шаблон письма ответ на запрос">Шаблон письма ответ на запрос</value>
-  <value column="MailText2" original=""/>
-  <value column="MailText3" original="Ваш CRM">Ваш CRM</value>
- </row>
- <row trl="Y" uuid="773e88d3-6a4f-4fe6-af32-8656ddc3bc54">
-  <value column="MailHeader" original="Внимание - Договор!">Внимание - Договор!</value>
-  <value column="MailText" original="Уважаемый  @Name@!   &#10;Информируем Вас, что договор НЕ ПОДПИСАН, Номер @RIT_ContractNumber@">Уважаемый  @Name@!   
-Информируем Вас, что договор НЕ ПОДПИСАН, Номер @RIT_ContractNumber@</value>
-  <value column="Name" original="Извещение о Договоре">Извещение о Договоре</value>
+ <row trl="Y" uuid="d3d39c4a-aa60-430b-962f-faa3d3af327d">
+  <value column="MailHeader" original="Согласование планируемых технических работ @MP_OT.DocumentNo@">Согласование планируемых технических работ @MP_OT.DocumentNo@</value>
+  <value column="MailText" original="&lt;p&gt;Уважаемый @Name@!&lt;/p&gt;&#10;&#10;&lt;p&gt;В связи с планированием технических работ просим Вас согласовать проведение этих работ в указанный период. Выполнить согласование можно перейдя по ссылке&lt;/p&gt;&#10;&#10;&lt;p&gt;@MP_OT.URL@&lt;/p&gt;&#10;&#10;&lt;p&gt;Место проведения: @MP_OT.C_Location@&lt;/p&gt;&#10;&#10;&lt;p&gt;C уважением,&amp;nbsp; Служба технической поддержки.&lt;/p&gt;"><![CDATA[<p>Уважаемый @Name@!</p>
+
+<p>В связи с планированием технических работ просим Вас согласовать проведение этих работ в указанный период. Выполнить согласование можно перейдя по ссылке</p>
+
+<p>@MP_OT.URL@</p>
+
+<p>Место проведения: @MP_OT.C_Location@</p>
+
+<p>C уважением,&nbsp; Служба технической поддержки.</p>]]></value>
+  <value column="Name" original="Шаблон для ТП О необходимости согласования">Шаблон для ТП О необходимости согласования</value>
   <value column="MailText2" original=""/>
   <value column="MailText3" original=""/>
  </row>
- <row trl="Y" uuid="8ec53410-2e71-4c14-96d6-8b7a82193551">
-  <value column="MailHeader" original="Requisition Approval">Requisition Approval</value>
-  <value column="MailText" original="Dear Manager, need you help to review and approve the requisition document below.">Dear Manager, need you help to review and approve the requisition document below.</value>
-  <value column="Name" original="Requisition Approval">Requisition Approval</value>
+ <row trl="Y" uuid="396b4133-b141-4299-a13f-84e1f00fe9ae">
+  <value column="MailHeader" original="Информирование о планируемых технических работах @MP_OT.DocumentNo@">Информирование о планируемых технических работах @MP_OT.DocumentNo@</value>
+  <value column="MailText" original="&lt;p&gt;Уважаемый @Name@!&lt;/p&gt;&#10;&#10;&lt;p&gt;Информируем Вас о планировании технических работ. Ознакомиться с планом работ и внести свои комментарии Вы можете по ссылке&lt;/p&gt;&#10;&#10;&lt;p&gt;@MP_OT.URL@&lt;/p&gt;&#10;&#10;&lt;p&gt;Место проведения: @MP_OT.C_Location@&lt;/p&gt;&#10;&#10;&lt;p&gt;C уважением,&amp;nbsp; Служба технической поддержки.&lt;/p&gt;"><![CDATA[<p>Уважаемый @Name@!</p>
+
+<p>Информируем Вас о планировании технических работ. Ознакомиться с планом работ и внести свои комментарии Вы можете по ссылке</p>
+
+<p>@MP_OT.URL@</p>
+
+<p>Место проведения: @MP_OT.C_Location@</p>
+
+<p>C уважением,&nbsp; Служба технической поддержки.</p>]]></value>
+  <value column="Name" original="Шаблон для ТП Для информирования">Шаблон для ТП Для информирования</value>
   <value column="MailText2" original=""/>
   <value column="MailText3" original=""/>
  </row>
- <row trl="Y" uuid="b0c3d1f1-ed58-44a5-a77c-0cc4398f048a">
-  <value column="MailHeader" original="Canceling document information">Canceling document information</value>
-  <value column="MailText" original="Dear manager, please be informed that the following document has be canceled.">Dear manager, please be informed that the following document has be canceled.</value>
-  <value column="Name" original="Canceling document information">Canceling document information</value>
+ <row trl="N" uuid="ed8ce541-116d-4039-8524-4baa1a4d9356">
+  <value column="MailHeader" original="@MP_OT.Subject@ [@MP_OT.DocumentNo@] Зарегистрирована заявка в службу техподдержки РТКОММ">[@MP_OT.DocumentNo@] Зарегистрирована заявка в службу техподдержки РТКОММ</value>
+  <value column="MailText" original="&lt;table align=&quot;center&quot; class=&quot;Table&quot; style=&quot;background:#e3e8ec; border:undefined; width:100%&quot;&gt;&#10;&#9;&lt;tbody&gt;&#10;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&lt;td style=&quot;background-color:#e3e8ec&quot;&gt;&#10;&#9;&#9;&#9;&lt;table align=&quot;center&quot; cellspacing=&quot;0&quot; class=&quot;Table&quot; style=&quot;background:white; border-collapse:collapse; border:undefined&quot;&gt;&#10;&#9;&#9;&#9;&#9;&lt;tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:white&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;table cellspacing=&quot;0&quot; class=&quot;Table&quot; style=&quot;border-collapse:collapse; border:undefined; width:508.85pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:18.5pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:51.55pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&amp;nbsp;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:318.75pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm; text-align:right&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:99.55pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm; text-align:right&quot;&gt;&amp;nbsp;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:17.6pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm; text-align:right&quot;&gt;&amp;nbsp;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/table&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:white&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;table cellspacing=&quot;0&quot; class=&quot;Table&quot; style=&quot;background:#7700ff; border-collapse:collapse; border:undefined; width:100%; word-wrap:normal&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:#7700ff; width:20.15pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:#7700ff; width:392.95pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-size:12pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:white&quot;&gt;Оповещение&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-size:21pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:white&quot;&gt;Зарегистрирована заявка в службу техподдержки РТКОММ&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:#7700ff; width:88.35pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm; text-align:right&quot;&gt;&amp;nbsp;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/table&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:white&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;table cellspacing=&quot;0&quot; class=&quot;Table&quot; style=&quot;border-collapse:collapse; border:undefined; width:98.72%; word-wrap:normal&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td rowspan=&quot;4&quot; style=&quot;height:19.45pt; width:20pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td colspan=&quot;3&quot; style=&quot;height:19.45pt; width:465.05pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td rowspan=&quot;4&quot; style=&quot;height:19.45pt; width:17.25pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;height:47.2pt; width:76.95pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-size:16pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;&lt;img alt=&quot;&quot; id=&quot;1&quot; src=&quot;https://img.icons8.com/nolan/96/service.png&quot; style=&quot;height:96px; width:96px&quot; /&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;height:47.2pt; width:13.95pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;height:47.2pt; width:374.1pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-size:12pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;Здравствуйте!&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-size:12pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;Спасибо, что обратились в техническую поддержку РТКОММ, специалист ответит Вам в ближайшее время.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td colspan=&quot;3&quot; style=&quot;height:9.05pt; vertical-align:top; width:465.05pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td colspan=&quot;3&quot; style=&quot;height:64.45pt; vertical-align:top; width:465.05pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-size:12pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;Вашему обращению присвоен уникальный номер &amp;ndash; &lt;/span&gt;&lt;/span&gt;&lt;b&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;@MP_OT.DocumentNo@&lt;/span&gt;&lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-size:12pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;Пожалуйста, не удаляйте номер Заявки [TT &amp;hellip;] из темы письма.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:20pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:76.95pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:13.95pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:374.1pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:17.25pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/table&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:white&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:white&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;table cellspacing=&quot;0&quot; class=&quot;Table&quot; style=&quot;background:#262e3c; border-collapse:collapse; border:undefined; width:100%; word-wrap:normal&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:#262e3c; width:22.5pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:#262e3c&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:white&quot;&gt;C&amp;nbsp;уважением,&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:white&quot;&gt;Служба технической поддержки&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:#262e3c; width:50%&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:#262e3c; width:22.5pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/table&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&lt;/tbody&gt;&#10;&#9;&#9;&#9;&lt;/table&gt;&#10;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&lt;/tr&gt;&#10;&#9;&lt;/tbody&gt;&#10;&lt;/table&gt;&#10;&#10;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&amp;nbsp;&lt;/p&gt;"><![CDATA[<table align="center" class="Table" style="background:#e3e8ec; border:undefined; width:100%">
+	<tbody>
+		<tr>
+			<td style="background-color:#e3e8ec">
+			<table align="center" cellspacing="0" class="Table" style="background:white; border-collapse:collapse; border:undefined">
+				<tbody>
+					<tr>
+						<td style="background-color:white">
+						<table cellspacing="0" class="Table" style="border-collapse:collapse; border:undefined; width:508.85pt">
+							<tbody>
+								<tr>
+									<td style="width:18.5pt">&nbsp;</td>
+									<td style="width:51.55pt">
+									<p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+									</td>
+									<td style="width:318.75pt">
+									<p style="margin-left:0cm; margin-right:0cm; text-align:right"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black">&nbsp;&nbsp;&nbsp; </span></span></span></p>
+									</td>
+									<td style="width:99.55pt">
+									<p style="margin-left:0cm; margin-right:0cm; text-align:right">&nbsp;</p>
+									</td>
+									<td style="width:17.6pt">
+									<p style="margin-left:0cm; margin-right:0cm; text-align:right">&nbsp;</p>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td style="background-color:white">
+						<table cellspacing="0" class="Table" style="background:#7700ff; border-collapse:collapse; border:undefined; width:100%; word-wrap:normal">
+							<tbody>
+								<tr>
+									<td style="background-color:#7700ff; width:20.15pt">&nbsp;</td>
+									<td style="background-color:#7700ff; width:392.95pt">
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black"><span style="font-size:12pt"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:white">Оповещение</span></span></span></span></span></span></p>
+
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black"><span style="font-size:21pt"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:white">Зарегистрирована заявка в службу техподдержки РТКОММ</span></span></span></span></span></span></p>
+									</td>
+									<td style="background-color:#7700ff; width:88.35pt">
+									<p style="margin-left:0cm; margin-right:0cm; text-align:right">&nbsp;</p>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td style="background-color:white">
+						<table cellspacing="0" class="Table" style="border-collapse:collapse; border:undefined; width:98.72%; word-wrap:normal">
+							<tbody>
+								<tr>
+									<td rowspan="4" style="height:19.45pt; width:20pt">&nbsp;</td>
+									<td colspan="3" style="height:19.45pt; width:465.05pt">
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black">&nbsp;</span></span></span></p>
+									</td>
+									<td rowspan="4" style="height:19.45pt; width:17.25pt">&nbsp;</td>
+								</tr>
+								<tr>
+									<td style="height:47.2pt; width:76.95pt">
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black"><span style="font-size:16pt"><span style="font-family:&quot;Arial&quot;,sans-serif"><img alt="/webui/theme/business/images/MP_Registered.png" id="_x0000_i1028" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQLAxMqTICV-3NW4mNUoFPNfQvPl9E6GoB8b3zeg7XnXVjAYUbO" style="height:250px; width:250px" /></span></span></span></span></span></p>
+									</td>
+									<td style="height:47.2pt; width:13.95pt">
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black">&nbsp;</span></span></span></p>
+									</td>
+									<td style="height:47.2pt; width:374.1pt">
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black"><span style="font-size:12pt"><span style="font-family:&quot;Arial&quot;,sans-serif">Здравствуйте!</span></span></span></span></span></p>
+
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black"><span style="font-size:12pt"><span style="font-family:&quot;Arial&quot;,sans-serif">Спасибо, что обратились в техническую поддержку РТКОММ, специалист ответит Вам в ближайшее время.</span></span></span></span></span></p>
+									</td>
+								</tr>
+								<tr>
+									<td colspan="3" style="height:9.05pt; vertical-align:top; width:465.05pt">&nbsp;</td>
+								</tr>
+								<tr>
+									<td colspan="3" style="height:64.45pt; vertical-align:top; width:465.05pt">
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black"><span style="font-size:12pt"><span style="font-family:&quot;Arial&quot;,sans-serif">Вашему обращению присвоен уникальный номер &ndash; </span></span><b><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:black">@MP_OT.DocumentNo@</span></span></b></span></span></span></p>
+
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black"><span style="font-size:12pt"><span style="font-family:&quot;Arial&quot;,sans-serif">Пожалуйста, не удаляйте номер Заявки [RTC &hellip;] из темы письма.</span></span></span></span></span></p>
+									</td>
+								</tr>
+								<tr>
+									<td style="width:20pt">&nbsp;</td>
+									<td style="width:76.95pt">&nbsp;</td>
+									<td style="width:13.95pt">&nbsp;</td>
+									<td style="width:374.1pt">&nbsp;</td>
+									<td style="width:17.25pt">&nbsp;</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td style="background-color:white">&nbsp;</td>
+					</tr>
+					<tr>
+						<td style="background-color:white">
+						<table cellspacing="0" class="Table" style="background:#262e3c; border-collapse:collapse; border:undefined; width:100%; word-wrap:normal">
+							<tbody>
+								<tr>
+									<td style="background-color:#262e3c; width:22.5pt">&nbsp;</td>
+									<td style="background-color:#262e3c">
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:white">C&nbsp;уважением,</span></span></span></span></span></p>
+
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:white">Служба технической поддержки</span></span></span></span></span></p>
+									</td>
+									<td style="background-color:#262e3c; width:50%">&nbsp;</td>
+									<td style="background-color:#262e3c; width:22.5pt">&nbsp;</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>]]></value>
+  <value column="Name" original="Шаблон для ТП Зарегистрирована заявка в службу техподдержки">Шаблон для ТП Зарегистрирована заявка в службу техподдержки</value>
+  <value column="MailText2" original=""/>
+  <value column="MailText3" original=""/>
+ </row>
+ <row trl="N" uuid="71df44b3-e5b3-4ebf-bb23-d5dececb7d8e">
+  <value column="MailHeader" original="[@MP_OT.DocumentNo@] Работы по заявке завершены. Услуга восстановлена.">Работы по заявке завершены. Услуга восстановлена.</value>
+  <value column="MailText" original="&lt;table align=&quot;center&quot; class=&quot;Table&quot; style=&quot;background:#e3e8ec; border:undefined; width:100%&quot;&gt;&#10;&#9;&lt;tbody&gt;&#10;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&lt;td style=&quot;background-color:#e3e8ec&quot;&gt;&#10;&#9;&#9;&#9;&lt;table align=&quot;center&quot; cellspacing=&quot;0&quot; class=&quot;Table&quot; style=&quot;background:white; border-collapse:collapse; border:undefined&quot;&gt;&#10;&#9;&#9;&#9;&#9;&lt;tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:white&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;table cellspacing=&quot;0&quot; class=&quot;Table&quot; style=&quot;border-collapse:collapse; border:undefined; width:508.85pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:18.5pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:51.55pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:318.75pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:99.55pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm; text-align:right&quot;&gt;&amp;nbsp;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:17.6pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm; text-align:right&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/table&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:white&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;table cellspacing=&quot;0&quot; class=&quot;Table&quot; style=&quot;background:#7700ff; border-collapse:collapse; border:undefined; width:100%; word-wrap:normal&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:#7700ff; width:20.15pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:#7700ff; width:392.95pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-size:12pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:white&quot;&gt;Оповещение&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-size:21pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:white&quot;&gt;Работы по заявке завершены. Услуга восстановлена.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:#7700ff; width:88.35pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm; text-align:right&quot;&gt;&amp;nbsp;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/table&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:white&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;table cellspacing=&quot;0&quot; class=&quot;Table&quot; style=&quot;border-collapse:collapse; border:undefined; width:98.72%; word-wrap:normal&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td rowspan=&quot;4&quot; style=&quot;height:19.45pt; width:20pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td colspan=&quot;3&quot; style=&quot;height:19.45pt; width:465.05pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td rowspan=&quot;4&quot; style=&quot;height:19.45pt; width:17.25pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;height:47.2pt; width:76.95pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-size:16pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;&lt;img alt=&quot;&quot; id=&quot;2&quot; src=&quot;https://img.icons8.com/nolan/96/checkmark.png&quot; style=&quot;height:96px; width:96px&quot; /&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;height:47.2pt; width:13.95pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;height:47.2pt; width:374.1pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-size:12pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;Здравствуйте!&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-size:12pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;Ваша заявка с номером &lt;/span&gt;&lt;/span&gt;&lt;b&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;@MP_OT.DocumentNo@&lt;/span&gt;&lt;/span&gt;&lt;/b&gt;&lt;span style=&quot;font-size:12pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt; удовлетворена.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td colspan=&quot;3&quot; style=&quot;height:9.05pt; vertical-align:top; width:465.05pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td colspan=&quot;3&quot; style=&quot;height:64.45pt; vertical-align:top; width:465.05pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-size:12pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;Просим Вас ответным письмом подтвердить, что услуга восстановлена.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-size:12pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;В случае отсутствия Вашего ответа, заявка может быть автоматически закрыта в установленные сроки.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:20pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:76.95pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:13.95pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:374.1pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:17.25pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/table&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:white&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:white&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;table cellspacing=&quot;0&quot; class=&quot;Table&quot; style=&quot;background:#262e3c; border-collapse:collapse; border:undefined; width:100%; word-wrap:normal&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:#262e3c; width:22.5pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:#262e3c&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:white&quot;&gt;C&amp;nbsp;уважением,&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:white&quot;&gt;Служба технической поддержки&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:#262e3c; width:50%&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:#262e3c; width:22.5pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/table&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&lt;/tbody&gt;&#10;&#9;&#9;&#9;&lt;/table&gt;&#10;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&lt;/tr&gt;&#10;&#9;&lt;/tbody&gt;&#10;&lt;/table&gt;">Работы по заявке завершены. Услуга восстановлена.</value>
+  <value column="Name" original="Шаблон для ТП Работы по заявке завершены. Услуга восстановле">Шаблон для ТП Работы по заявке завершены. Услуга восстановле</value>
+  <value column="MailText2" original=""/>
+  <value column="MailText3" original=""/>
+ </row>
+ <row trl="N" uuid="fe6fbb80-0b52-42bb-a91b-3e990ff2ad9d">
+  <value column="MailHeader" original="[@MP_OT.DocumentNo@] [@MP_OT_Task.DocumentNo@] Задача возвращена">Задача завершена</value>
+  <value column="MailText" original="&lt;p&gt;[@MP_OT.URL@] [@MP_OT_Task.URL@] Задача возвращена&lt;/p&gt;&#10;&#10;&lt;p&gt;Описание задачи: @MP_OT_Task.Description@&lt;/p&gt;&#10;&#10;&lt;p&gt;Исполнитель: @MP_OT_Task.MP_Executor@&lt;/p&gt;&#10;&#10;&lt;p&gt;Причина возврата: @MP_OT_Task.ReturnReason@&lt;/p&gt;&#10;&#10;&lt;p&gt;Комментарий: @MP_OT_Task.Comments@&lt;/p&gt;">описание</value>
+  <value column="Name" original="Шаблон для ТП Задача возвращена">Шаблон ТП Задача завершена</value>
+  <value column="MailText2" original=""/>
+  <value column="MailText3" original=""/>
+ </row>
+ <row trl="N" uuid="c436157f-cd43-4435-a199-0ec36f023dc0">
+  <value column="MailHeader" original="Информирование об изменении объекта">Информирования о изменении объекта</value>
+  <value column="MailText" original="&lt;p&gt;Уважаемый @Name@!&lt;/p&gt;&#10;&#10;&lt;p&gt;Произошли изменения в объекте, на который Вы подписаны  -  @URL@&lt;/p&gt;&#10;&lt;p&gt;Подробности: &lt;br&gt; @Change@&lt;/p&gt;"><![CDATA[<p>Уважаемый @Name@!</p>
+
+<p>Произошли изменения в объекте, на который Вы подписаны.</p>]]></value>
+  <value column="Name" original="Шаблон для информирования изменения объекта">Шаблон для информирования изменения объекта</value>
+  <value column="MailText2" original=""/>
+  <value column="MailText3" original=""/>
+ </row>
+ <row trl="N" uuid="d954d798-7321-4704-9056-eec285dbe3bd">
+  <value column="MailHeader" original="Согласование планируемых технических работ @MP_OT.DocumentNo@ завершено">Согласование планируемых технических работ @MP_OT.DocumentNo@ завершено</value>
+  <value column="MailText" original="&lt;p&gt;Уважаемый @Name@!&lt;/p&gt;&#10;&#10;&lt;p&gt;Согласование технических работ завершено. Ознакомиться с результатом можно, пройдя по ссылке&lt;/p&gt;&#10;&#10;&lt;p&gt;@MP_OT.URL@&lt;/p&gt;&#10;&#10;&lt;p&gt;Место проведения: @MP_OT.C_Location@&lt;/p&gt;&#10;&#10;&lt;p&gt;C уважением,&amp;nbsp; Служба технической поддержки.&lt;/p&gt;"><![CDATA[<p>Уважаемый @Name@!</p>
+
+<p>Согласование технических работ завершено. Ознакомиться с результатом можно, пройдя по ссылке</p>
+
+<p>@MP_OT.URL@</p>
+
+<p>Место проведения: @MP_OT.C_Location@</p>
+
+<p>C уважением,&nbsp; Служба технической поддержки.</p>]]></value>
+  <value column="Name" original="Шаблон для ТП О завершении согласования">Шаблон для ТП О завершении согласования</value>
+  <value column="MailText2" original=""/>
+  <value column="MailText3" original=""/>
+ </row>
+ <row trl="N" uuid="c049b08f-bcdb-482e-a724-99a9c2ad46b9">
+  <value column="MailHeader" original="Согласование планируемых технических работ @MP_OT.DocumentNo@ обновлено">Согласование планируемых технических работ @MP_OT.DocumentNo@ обновлено</value>
+  <value column="MailText" original="&lt;p&gt;Уважаемый @Name@!&lt;/p&gt;&#10;&#10;&lt;p&gt;Обновлен результат согласования/информирования технических работ. Ознакомиться с результатом можно в журнале согласования, пройдя по ссылке&lt;/p&gt;&#10;&#10;&lt;p&gt;@MP_OT.URL@&lt;/p&gt;&#10;&#10;&lt;p&gt;Место проведения: @MP_OT.C_Location@&lt;/p&gt;&#10;&#10;&lt;p&gt;C уважением,&amp;nbsp; Служба технической поддержки.&lt;/p&gt;"><![CDATA[<p>Уважаемый @Name@!</p>
+
+<p>Обновлен результат согласования/информирования технических работ. Ознакомиться с результатом можно в журнале согласования, пройдя по ссылке</p>
+
+<p>@MP_OT.URL@</p>
+
+<p>Место проведения: @MP_OT.C_Location@</p>
+
+<p>C уважением,&nbsp; Служба технической поддержки.</p>]]></value>
+  <value column="Name" original="Шаблон для ТП Об обновлении согласования">Шаблон для ТП Об обновлении согласования</value>
+  <value column="MailText2" original=""/>
+  <value column="MailText3" original=""/>
+ </row>
+ <row trl="N" uuid="c1c2880b-8f3a-431d-ba75-7755d9972034">
+  <value column="MailHeader" original="[@MP_OT.DocumentNo@] Не взята в работу по истечении срока эскалации">[@MP_OT.DocumentNo@] Не взята в работу по истечении срока эскалации</value>
+  <value column="MailText" original="&lt;table align=&quot;center&quot; class=&quot;Table&quot; style=&quot;background:#e3e8ec; border:undefined; width:100%&quot;&gt;&#10;&#9;&lt;tbody&gt;&#10;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&lt;td style=&quot;background-color:#e3e8ec&quot;&gt;&#10;&#9;&#9;&#9;&lt;table align=&quot;center&quot; cellspacing=&quot;0&quot; class=&quot;Table&quot; style=&quot;background:white; border-collapse:collapse; border:undefined&quot;&gt;&#10;&#9;&#9;&#9;&#9;&lt;tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:white&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;table cellspacing=&quot;0&quot; class=&quot;Table&quot; style=&quot;border-collapse:collapse; border:undefined; width:508.85pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:18.5pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:51.55pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&amp;nbsp;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:318.75pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm; text-align:right&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:99.55pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm; text-align:right&quot;&gt;&amp;nbsp;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:17.6pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm; text-align:right&quot;&gt;&amp;nbsp;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/table&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:white&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;table cellspacing=&quot;0&quot; class=&quot;Table&quot; style=&quot;background:#7700ff; border-collapse:collapse; border:undefined; width:100%; word-wrap:normal&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:#7700ff; width:20.15pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:#7700ff; width:392.95pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-size:12pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:white&quot;&gt;Оповещение&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-size:21pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:white&quot;&gt;Не взята в работу по истечении срока эскалации&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:#7700ff; width:88.35pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm; text-align:right&quot;&gt;&amp;nbsp;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/table&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:white&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;table cellspacing=&quot;0&quot; class=&quot;Table&quot; style=&quot;border-collapse:collapse; border:undefined; width:98.72%; word-wrap:normal&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td rowspan=&quot;4&quot; style=&quot;height:19.45pt; width:20pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td colspan=&quot;3&quot; style=&quot;height:19.45pt; width:465.05pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td rowspan=&quot;4&quot; style=&quot;height:19.45pt; width:17.25pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;height:47.2pt; width:76.95pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-size:16pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;&lt;img alt=&quot;&quot; id=&quot;1&quot; src=&quot;https://img.icons8.com/nolan/96/automatic-gearbox-warning.png&quot; style=&quot;height:96px; width:96px&quot; /&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;height:47.2pt; width:13.95pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;height:47.2pt; width:374.1pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-size:12pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;Уважаемый @MP_OT.MP_Executor@!&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-size:12pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;@TYPE@ @MP_OT.URL@ не взята в работу по истечении срока эскалации&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td colspan=&quot;3&quot; style=&quot;height:9.05pt; vertical-align:top; width:465.05pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td colspan=&quot;3&quot; style=&quot;height:64.45pt; vertical-align:top; width:465.05pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:20pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:76.95pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:13.95pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:374.1pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:17.25pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/table&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:white&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:white&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;table cellspacing=&quot;0&quot; class=&quot;Table&quot; style=&quot;background:#262e3c; border-collapse:collapse; border:undefined; width:100%; word-wrap:normal&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:#262e3c; width:22.5pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:#262e3c&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:white&quot;&gt;C&amp;nbsp;уважением,&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:white&quot;&gt;Служба технической поддержки&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:#262e3c; width:50%&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:#262e3c; width:22.5pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/table&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&lt;/tbody&gt;&#10;&#9;&#9;&#9;&lt;/table&gt;&#10;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&lt;/tr&gt;&#10;&#9;&lt;/tbody&gt;&#10;&lt;/table&gt;&#10;&#10;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&amp;nbsp;&lt;/p&gt;"><![CDATA[<table align="center" class="Table" style="background:#e3e8ec; border:undefined; width:100%">
+	<tbody>
+		<tr>
+			<td style="background-color:#e3e8ec">
+			<table align="center" cellspacing="0" class="Table" style="background:white; border-collapse:collapse; border:undefined">
+				<tbody>
+					<tr>
+						<td style="background-color:white">
+						<table cellspacing="0" class="Table" style="border-collapse:collapse; border:undefined; width:508.85pt">
+							<tbody>
+								<tr>
+									<td style="width:18.5pt">&nbsp;</td>
+									<td style="width:51.55pt">
+									<p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+									</td>
+									<td style="width:318.75pt">
+									<p style="margin-left:0cm; margin-right:0cm; text-align:right"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black">&nbsp;&nbsp;&nbsp; </span></span></span></p>
+									</td>
+									<td style="width:99.55pt">
+									<p style="margin-left:0cm; margin-right:0cm; text-align:right">&nbsp;</p>
+									</td>
+									<td style="width:17.6pt">
+									<p style="margin-left:0cm; margin-right:0cm; text-align:right">&nbsp;</p>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td style="background-color:white">
+						<table cellspacing="0" class="Table" style="background:#7700ff; border-collapse:collapse; border:undefined; width:100%; word-wrap:normal">
+							<tbody>
+								<tr>
+									<td style="background-color:#7700ff; width:20.15pt">&nbsp;</td>
+									<td style="background-color:#7700ff; width:392.95pt">
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black"><span style="font-size:12pt"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:white">Оповещение</span></span></span></span></span></span></p>
+
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black"><span style="font-size:21pt"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:white">Зарегистрирована заявка в службу техподдержки РТКОММ</span></span></span></span></span></span></p>
+									</td>
+									<td style="background-color:#7700ff; width:88.35pt">
+									<p style="margin-left:0cm; margin-right:0cm; text-align:right">&nbsp;</p>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td style="background-color:white">
+						<table cellspacing="0" class="Table" style="border-collapse:collapse; border:undefined; width:98.72%; word-wrap:normal">
+							<tbody>
+								<tr>
+									<td rowspan="4" style="height:19.45pt; width:20pt">&nbsp;</td>
+									<td colspan="3" style="height:19.45pt; width:465.05pt">
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black">&nbsp;</span></span></span></p>
+									</td>
+									<td rowspan="4" style="height:19.45pt; width:17.25pt">&nbsp;</td>
+								</tr>
+								<tr>
+									<td style="height:47.2pt; width:76.95pt">
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black"><span style="font-size:16pt"><span style="font-family:&quot;Arial&quot;,sans-serif"><img alt="" id="1" src="https://img.icons8.com/nolan/96/service.png" style="height:96px; width:96px" /></span></span></span></span></span></p>
+									</td>
+									<td style="height:47.2pt; width:13.95pt">
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black">&nbsp;</span></span></span></p>
+									</td>
+									<td style="height:47.2pt; width:374.1pt">
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black"><span style="font-size:12pt"><span style="font-family:&quot;Arial&quot;,sans-serif">Здравствуйте!</span></span></span></span></span></p>
+
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black"><span style="font-size:12pt"><span style="font-family:&quot;Arial&quot;,sans-serif">Спасибо, что обратились в техническую поддержку РТКОММ, специалист ответит Вам в ближайшее время.</span></span></span></span></span></p>
+									</td>
+								</tr>
+								<tr>
+									<td colspan="3" style="height:9.05pt; vertical-align:top; width:465.05pt">&nbsp;</td>
+								</tr>
+								<tr>
+									<td colspan="3" style="height:64.45pt; vertical-align:top; width:465.05pt">
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black"><span style="font-size:12pt"><span style="font-family:&quot;Arial&quot;,sans-serif">Вашему обращению присвоен уникальный номер &ndash; </span></span><b><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:black">@MP_OT.DocumentNo@</span></span></b></span></span></span></p>
+
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black"><span style="font-size:12pt"><span style="font-family:&quot;Arial&quot;,sans-serif">Пожалуйста, не удаляйте номер Заявки [RTC &hellip;] из темы письма.</span></span></span></span></span></p>
+									</td>
+								</tr>
+								<tr>
+									<td style="width:20pt">&nbsp;</td>
+									<td style="width:76.95pt">&nbsp;</td>
+									<td style="width:13.95pt">&nbsp;</td>
+									<td style="width:374.1pt">&nbsp;</td>
+									<td style="width:17.25pt">&nbsp;</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td style="background-color:white">&nbsp;</td>
+					</tr>
+					<tr>
+						<td style="background-color:white">
+						<table cellspacing="0" class="Table" style="background:#262e3c; border-collapse:collapse; border:undefined; width:100%; word-wrap:normal">
+							<tbody>
+								<tr>
+									<td style="background-color:#262e3c; width:22.5pt">&nbsp;</td>
+									<td style="background-color:#262e3c">
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:white">C&nbsp;уважением,</span></span></span></span></span></p>
+
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:white">Служба технической поддержки</span></span></span></span></span></p>
+									</td>
+									<td style="background-color:#262e3c; width:50%">&nbsp;</td>
+									<td style="background-color:#262e3c; width:22.5pt">&nbsp;</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>]]></value>
+  <value column="Name" original="Шаблон для ТП Для Эскалации">Шаблон для ТП Для Эскалации</value>
+  <value column="MailText2" original=""/>
+  <value column="MailText3" original=""/>
+ </row>
+ <row trl="N" uuid="49f06067-5b1b-4154-a613-5b22decd5891">
+  <value column="MailHeader" original="Информирование о ходе решения Заявки [@MP_OT.DocumentNo@]">Информирование о ходе решения Заявки [@MP_OT.DocumentNo@]</value>
+  <value column="MailText" original="&lt;table align=&quot;center&quot; class=&quot;Table&quot; style=&quot;background:#e3e8ec; border:undefined; width:100%&quot;&gt;&#10;&#9;&lt;tbody&gt;&#10;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&lt;td style=&quot;background-color:#e3e8ec&quot;&gt;&#10;&#9;&#9;&#9;&lt;table align=&quot;center&quot; cellspacing=&quot;0&quot; class=&quot;Table&quot; style=&quot;background:white; border-collapse:collapse; border:undefined&quot;&gt;&#10;&#9;&#9;&#9;&#9;&lt;tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:white&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;table cellspacing=&quot;0&quot; class=&quot;Table&quot; style=&quot;border-collapse:collapse; border:undefined; width:508.85pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:18.5pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:51.55pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&amp;nbsp;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:318.75pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm; text-align:right&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:99.55pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm; text-align:right&quot;&gt;&amp;nbsp;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:17.6pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm; text-align:right&quot;&gt;&amp;nbsp;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/table&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:white&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;table cellspacing=&quot;0&quot; class=&quot;Table&quot; style=&quot;background:#7700ff; border-collapse:collapse; border:undefined; width:100%; word-wrap:normal&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:#7700ff; width:20.15pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:#7700ff; width:392.95pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-size:12pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:white&quot;&gt;Оповещение&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-size:21pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:white&quot;&gt;Информирование о ходе решения Заявки&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:#7700ff; width:88.35pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm; text-align:right&quot;&gt;&amp;nbsp;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/table&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:white&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;table cellspacing=&quot;0&quot; class=&quot;Table&quot; style=&quot;border-collapse:collapse; border:undefined; width:98.72%; word-wrap:normal&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td rowspan=&quot;4&quot; style=&quot;height:19.45pt; width:20pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td colspan=&quot;3&quot; style=&quot;height:19.45pt; width:465.05pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td rowspan=&quot;4&quot; style=&quot;height:19.45pt; width:17.25pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;height:47.2pt; width:76.95pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-size:16pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;&lt;img alt=&quot;&quot; id=&quot;1&quot; src=&quot;https://img.icons8.com/nolan/96/customer-support.png&quot; style=&quot;height:96px; width:96px&quot; /&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;height:47.2pt; width:13.95pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;height:47.2pt; width:374.1pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-size:12pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;Уважаемый @MP_OT.UserName@!&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-size:12pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;Сообщаем информацию о ходе решения по вашей заявке на настоящий момент: @MP_OT.MP_Client_Resume@&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td colspan=&quot;3&quot; style=&quot;height:9.05pt; vertical-align:top; width:465.05pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td colspan=&quot;3&quot; style=&quot;height:64.45pt; vertical-align:top; width:465.05pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:20pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:76.95pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:13.95pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:374.1pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:17.25pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/table&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:white&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:white&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;table cellspacing=&quot;0&quot; class=&quot;Table&quot; style=&quot;background:#262e3c; border-collapse:collapse; border:undefined; width:100%; word-wrap:normal&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:#262e3c; width:22.5pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:#262e3c&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:white&quot;&gt;C&amp;nbsp;уважением,&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:white&quot;&gt;Служба технической поддержки&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:#262e3c; width:50%&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:#262e3c; width:22.5pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/table&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&lt;/tbody&gt;&#10;&#9;&#9;&#9;&lt;/table&gt;&#10;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&lt;/tr&gt;&#10;&#9;&lt;/tbody&gt;&#10;&lt;/table&gt;&#10;&#10;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&amp;nbsp;&lt;/p&gt;"><![CDATA[<table align="center" class="Table" style="background:#e3e8ec; border:undefined; width:100%">
+	<tbody>
+		<tr>
+			<td style="background-color:#e3e8ec">
+			<table align="center" cellspacing="0" class="Table" style="background:white; border-collapse:collapse; border:undefined">
+				<tbody>
+					<tr>
+						<td style="background-color:white">
+						<table cellspacing="0" class="Table" style="border-collapse:collapse; border:undefined; width:508.85pt">
+							<tbody>
+								<tr>
+									<td style="width:18.5pt">&nbsp;</td>
+									<td style="width:51.55pt">
+									<p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+									</td>
+									<td style="width:318.75pt">
+									<p style="margin-left:0cm; margin-right:0cm; text-align:right"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black">&nbsp;&nbsp;&nbsp; </span></span></span></p>
+									</td>
+									<td style="width:99.55pt">
+									<p style="margin-left:0cm; margin-right:0cm; text-align:right">&nbsp;</p>
+									</td>
+									<td style="width:17.6pt">
+									<p style="margin-left:0cm; margin-right:0cm; text-align:right">&nbsp;</p>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td style="background-color:white">
+						<table cellspacing="0" class="Table" style="background:#7700ff; border-collapse:collapse; border:undefined; width:100%; word-wrap:normal">
+							<tbody>
+								<tr>
+									<td style="background-color:#7700ff; width:20.15pt">&nbsp;</td>
+									<td style="background-color:#7700ff; width:392.95pt">
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black"><span style="font-size:12pt"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:white">Оповещение</span></span></span></span></span></span></p>
+
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black"><span style="font-size:21pt"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:white">Не взята в работу по истечении срока эскалации</span></span></span></span></span></span></p>
+									</td>
+									<td style="background-color:#7700ff; width:88.35pt">
+									<p style="margin-left:0cm; margin-right:0cm; text-align:right">&nbsp;</p>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td style="background-color:white">
+						<table cellspacing="0" class="Table" style="border-collapse:collapse; border:undefined; width:98.72%; word-wrap:normal">
+							<tbody>
+								<tr>
+									<td rowspan="4" style="height:19.45pt; width:20pt">&nbsp;</td>
+									<td colspan="3" style="height:19.45pt; width:465.05pt">
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black">&nbsp;</span></span></span></p>
+									</td>
+									<td rowspan="4" style="height:19.45pt; width:17.25pt">&nbsp;</td>
+								</tr>
+								<tr>
+									<td style="height:47.2pt; width:76.95pt">
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black"><span style="font-size:16pt"><span style="font-family:&quot;Arial&quot;,sans-serif"><img alt="" id="1" src="https://img.icons8.com/nolan/96/service.png" style="height:96px; width:96px" /></span></span></span></span></span></p>
+									</td>
+									<td style="height:47.2pt; width:13.95pt">
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black">&nbsp;</span></span></span></p>
+									</td>
+									<td style="height:47.2pt; width:374.1pt">
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black"><span style="font-size:12pt"><span style="font-family:&quot;Arial&quot;,sans-serif">Уважаемый @FIOCreatedBy@!</span></span></span></span></span></p>
+
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black"><span style="font-size:12pt"><span style="font-family:&quot;Arial&quot;,sans-serif">Заявка @MP_OT.URL@ не взята в работу по истечении срока эскалации</span></span></span></span></span></p>
+									</td>
+								</tr>
+								<tr>
+									<td colspan="3" style="height:9.05pt; vertical-align:top; width:465.05pt">&nbsp;</td>
+								</tr>
+								<tr>
+									<td colspan="3" style="height:64.45pt; vertical-align:top; width:465.05pt">&nbsp;</td>
+								</tr>
+								<tr>
+									<td style="width:20pt">&nbsp;</td>
+									<td style="width:76.95pt">&nbsp;</td>
+									<td style="width:13.95pt">&nbsp;</td>
+									<td style="width:374.1pt">&nbsp;</td>
+									<td style="width:17.25pt">&nbsp;</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td style="background-color:white">&nbsp;</td>
+					</tr>
+					<tr>
+						<td style="background-color:white">
+						<table cellspacing="0" class="Table" style="background:#262e3c; border-collapse:collapse; border:undefined; width:100%; word-wrap:normal">
+							<tbody>
+								<tr>
+									<td style="background-color:#262e3c; width:22.5pt">&nbsp;</td>
+									<td style="background-color:#262e3c">
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:white">C&nbsp;уважением,</span></span></span></span></span></p>
+
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:white">Служба технической поддержки</span></span></span></span></span></p>
+									</td>
+									<td style="background-color:#262e3c; width:50%">&nbsp;</td>
+									<td style="background-color:#262e3c; width:22.5pt">&nbsp;</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>]]></value>
+  <value column="Name" original="Шаблон для ТП Для периодического информирования">Шаблон для ТП Для периодического информирования</value>
+  <value column="MailText2" original=""/>
+  <value column="MailText3" original=""/>
+ </row>
+ <row trl="N" uuid="a88b779b-0e2b-498c-9778-28f6aa2a0b0b">
+  <value column="MailHeader" original="[@MP_OT_Task.DocumentNo@] На ваше подразделение/рабочую группу назначена задача">[@MP_OT_Task.DocumentNo@] Задача назначена на подразделение/рабочую группу</value>
+  <value column="MailText" original="&lt;p&gt;На ваше подразделение/рабочую группу &lt;u&gt;@MP_OT_Task.Department@&lt;/u&gt; назначена задача &lt;b&gt;@MP_OT_Task.DocumentNo@&lt;/b&gt;. Необходимо взять в работу.&lt;/p&gt;&#10;&#10;&lt;p&gt;Описание задачи: &lt;b&gt;@MP_OT_Task.Description@&lt;/b&gt;&lt;/p&gt;&#10;&#10;&lt;p&gt;Комментарий: &lt;b&gt;@MP_OT_Task.Comments@&lt;/b&gt;&lt;/p&gt;"><![CDATA[<p>[@MP_OT_Task.DocumentNo@] Задача назначена на подразделение/рабочую группу</p>
+
+<p>Описание задачи: @MP_OT_Task.Description@</p>
+
+<p>Исполнитель: @MP_OT_Task.MP_Executor@</p>
+
+<p>Причина возврата: @MP_OT_Task.ReturnReason@</p>
+
+<p>Комментарий: @MP_OT_Task.Comments@</p>]]></value>
+  <value column="Name" original="Шаблон для ТП Задача назначена на подразделение/группу">Шаблон для ТП Задача назначена на подразделение/группу</value>
   <value column="MailText2" original=""/>
   <value column="MailText3" original=""/>
  </row>

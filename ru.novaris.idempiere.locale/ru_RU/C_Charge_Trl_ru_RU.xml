@@ -1,15 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="ru_RU" table="C_Charge">
- <row id="100" trl="N">
-  <value column="Name" original="Bank Charge">Bank Charge</value>
-  <value column="Description" original=""/>
- </row>
- <row id="101" trl="N">
-  <value column="Name" original="Commissions Paid">Commissions Paid</value>
-  <value column="Description" original=""/>
- </row>
- <row trl="Y" uuid="c0ffe117-310e-43d5-bd5b-84b9196c0f00">
-  <value column="Name" original="CH_EXPENSE Charge expense">CH_EXPENSE Charge expense</value>
-  <value column="Description" original=""/>
- </row>
-</idempiereTrl>
+<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="ru_RU" table="C_Charge"/>
