@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="ru.novaris.idempiere.nms.ui.zk.openlayers"
+      label="ru.novaris.idempiere.nms.ui.zk.openlayers"
+      version="8.2.0.qualifier">
+
+   <description url="https://www.novaris.ru/idempiere/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="https://www.novaris.ru/idempiere/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="https://www.novaris.ru/idempiere/license">
+      [Enter License Description here.]
+   </license>
+
+   <includes
+         id="org.adempiere.ui.zk.feature"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.apache.commons.logging"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.httpcomponents.httpcore"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.httpcomponents.httpclient"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

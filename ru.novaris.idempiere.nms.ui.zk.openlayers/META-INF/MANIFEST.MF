@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Novaris Openlayers
+Bundle-SymbolicName: ru.novaris.idempiere.nms.ui.zk.openlayers
+Bundle-Version: 8.2.0.qualifier
+Bundle-ClassPath: .,
+ lib/proj4j.jar
+Fragment-Host: org.adempiere.ui.zk
+Bundle-Vendor: Novaris Ltd.
+Import-Package: org.apache.http,
+ org.apache.http.client,
+ org.apache.http.client.methods,
+ org.apache.http.conn.ssl,
+ org.apache.http.impl.client,
+ org.apache.http.ssl
