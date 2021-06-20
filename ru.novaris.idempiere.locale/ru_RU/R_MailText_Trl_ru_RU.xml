@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="ru_RU" table="R_MailText">
+ <row id="200000" trl="Y">
+  <value column="MailHeader" original="iDempiere Reset Password ">iDempiere Reset Password </value>
+  <value column="MailText" original="Dear @Name@,&#10;&#10;You are receiving this email because you (or somebody pretending to be you) said you have lost your iDempiere password.&#10;&#10;To access your iDempiere, use the temporary password from @AD_Client_ID&lt;Name&gt;@ below:&#10;@#NewPassword@&#10;&#10;Once you login, you will be directed to change password screen. Please change your password to something you can remember.&#10;&#10;Sincerely,&#10;The iDempiere Accounts Team&#10;&#10;Note: This email address cannot accept replies."><![CDATA[Dear @Name@,
+
+You are receiving this email because you (or somebody pretending to be you) said you have lost your iDempiere password.
+
+To access your iDempiere, use the temporary password from @AD_Client_ID<Name>@ below:
+@Password@
+
+Once you login, you will be directed to change password screen. Please change your password to something you can remember.
+
+Sincerely,
+The iDempiere Accounts Team
+
+Note: This email address cannot accept replies.]]></value>
+  <value column="Name" original="Reset Password">Сброс пароля</value>
+  <value column="MailText2" original=""/>
+  <value column="MailText3" original=""/>
+ </row>
+ <row trl="N" uuid="46931779-65eb-4f46-850a-624a227c83ed">
+  <value column="MailHeader" original="Внимание!">Внимание!</value>
+  <value column="MailText" original="Mar 19, 2019 11:21:01 AM ru.rtkinfotech.crm.asterisk.CallServerListener onNewAsteriskChannel&#10;WARNING: Asterisk onNewAsteriskChannel: AsteriskChannel[id='1552983649.14342',name='SIP/6546-0000336d',callerId='&quot;Tatyana Blinova&quot; &lt;6546&gt;',state='DOWN',account='null',dateOfCreation=Tue Mar 19 11:21:01 MSK 2019,dialedChannel=null,dialingChannel=null,linkedChannel=null]&#10;Exception in thread &quot;Asterisk-Java ManagerConnection-10-Reader-0&quot; Exception in thread &quot;Asterisk-Java ManagerConnection-12-Reader-0&quot; java.lang.NoClassDefFoundError: org/asteriskjava/manager/internal/ManagerConnectionImpl$1&#10;&#9;at org.asteriskjava.manager.internal.ManagerConnectionImpl.dispatchEvent(ManagerConnectionImpl.java:1238)&#10;&#9;at org.asteriskjava.manager.internal.ManagerReaderImpl.run(ManagerReaderImpl.java:270)&#10;&#9;at java.lang.Thread.run(Thread.java:748)&#10;java.lang.NoClassDefFoundError: org/asteriskjava/manager/internal/ManagerConnectionImpl$1&#10;&#9;at org.asteriskjava.manager.internal.ManagerConnectionImpl.dispatchEvent(ManagerConnectionImpl.java:1238)&#10;&#9;at org.asteriskjava.manager.internal.ManagerReaderImpl.run(ManagerReaderImpl.java:270)&#10;&#9;at java.lang.Thread.run(Thread.java:748)"><![CDATA[Mar 19, 2019 11:21:01 AM ru.rtkinfotech.crm.asterisk.CallServerListener onNewAsteriskChannel
+WARNING: Asterisk onNewAsteriskChannel: AsteriskChannel[id='1552983649.14342',name='SIP/6546-0000336d',callerId='"Tatyana Blinova" <6546>',state='DOWN',account='null',dateOfCreation=Tue Mar 19 11:21:01 MSK 2019,dialedChannel=null,dialingChannel=null,linkedChannel=null]
+Exception in thread "Asterisk-Java ManagerConnection-10-Reader-0" Exception in thread "Asterisk-Java ManagerConnection-12-Reader-0" java.lang.NoClassDefFoundError: org/asteriskjava/manager/internal/ManagerConnectionImpl$1
+	at org.asteriskjava.manager.internal.ManagerConnectionImpl.dispatchEvent(ManagerConnectionImpl.java:1238)
+	at org.asteriskjava.manager.internal.ManagerReaderImpl.run(ManagerReaderImpl.java:270)
+	at java.lang.Thread.run(Thread.java:748)
+java.lang.NoClassDefFoundError: org/asteriskjava/manager/internal/ManagerConnectionImpl$1
+	at org.asteriskjava.manager.internal.ManagerConnectionImpl.dispatchEvent(ManagerConnectionImpl.java:1238)
+	at org.asteriskjava.manager.internal.ManagerReaderImpl.run(ManagerReaderImpl.java:270)
+	at java.lang.Thread.run(Thread.java:748)]]></value>
+  <value column="Name" original="Текстовый шаблон системного уведомления ">Текстовый шаблон системного уведомления </value>
+  <value column="MailText2" original="Требуется Ваше участие">Требуется Ваше участие</value>
+  <value column="MailText3" original="Не отвечать!">Не отвечать!</value>
+ </row>
+ <row trl="N" uuid="287fef1c-efb8-494b-bd62-65be5bc04b20">
+  <value column="MailHeader" original="Внимание!">Внимание!</value>
+  <value column="MailText" original="&lt;p&gt;Mar 19, 2019 11:21:01 AM ru.rtkinfotech.crm.asterisk.CallServerListener onNewAsteriskChannel WARNING: Asterisk onNewAsteriskChannel: AsteriskChannel[id=&amp;#39;1552983649.14342&amp;#39;,name=&amp;#39;SIP/6546-0000336d&amp;#39;,callerId=&amp;#39;&amp;quot;Tatyana Blinova&amp;quot; &amp;lt;6546&amp;gt;&amp;#39;,state=&amp;#39;DOWN&amp;#39;,account=&amp;#39;null&amp;#39;,dateOfCreation=Tue&lt;/p&gt;&#10;&#10;&lt;p&gt;Mar 19 11:21:01 MSK 2019,dialedChannel=null,dialingChannel=null,linkedChannel=null] Exception in thread &amp;quot;Asterisk-Java ManagerConnection-10-Reader-0&amp;quot; Exception in thread &amp;quot;Asterisk-Java ManagerConnection-12-Reader-0&amp;quot; java.lang.NoClassDefFoundError: org/asteriskjava/manager/internal/ManagerConnectionImpl$1 at org.asteriskjava.manager.internal.ManagerConnectionImpl.dispatchEvent(ManagerConnectionImpl.java:1238) at org.asteriskjava.manager.internal.ManagerReaderImpl.run(ManagerReaderImpl.java:270) at java.lang.Thread.run(Thread.java:748) java.lang.NoClassDefFoundError: org/asteriskjava/manager/internal/ManagerConnectionImpl$1 at org.asteriskjava.manager.internal.ManagerConnectionImpl.dispatchEvent(ManagerConnectionImpl.java:1238) at org.asteriskjava.manager.internal.ManagerReaderImpl.run(ManagerReaderImpl.java:270) at java.lang.Thread.run(Thread.java:748)&lt;/p&gt;&#10;&#10;&lt;p&gt;Лог системы&lt;/p&gt;&#10;"><![CDATA[<p>Mar 19, 2019 11:21:01 AM ru.rtkinfotech.crm.asterisk.CallServerListener onNewAsteriskChannel WARNING: Asterisk onNewAsteriskChannel: AsteriskChannel[id=&#39;1552983649.14342&#39;,name=&#39;SIP/6546-0000336d&#39;,callerId=&#39;&quot;Tatyana Blinova&quot; &lt;6546&gt;&#39;,state=&#39;DOWN&#39;,account=&#39;null&#39;,dateOfCreation=Tue Mar 19 11:21:01 MSK 2019,dialedChannel=null,dialingChannel=null,linkedChannel=null] Exception in thread &quot;Asterisk-Java ManagerConnection-10-Reader-0&quot; Exception in thread &quot;Asterisk-Java ManagerConnection-12-Reader-0&quot; java.lang.NoClassDefFoundError: org/asteriskjava/manager/internal/ManagerConnectionImpl$1 at org.asteriskjava.manager.internal.ManagerConnectionImpl.dispatchEvent(ManagerConnectionImpl.java:1238) at org.asteriskjava.manager.internal.ManagerReaderImpl.run(ManagerReaderImpl.java:270) at java.lang.Thread.run(Thread.java:748) java.lang.NoClassDefFoundError: org/asteriskjava/manager/internal/ManagerConnectionImpl$1 at org.asteriskjava.manager.internal.ManagerConnectionImpl.dispatchEvent(ManagerConnectionImpl.java:1238) at org.asteriskjava.manager.internal.ManagerReaderImpl.run(ManagerReaderImpl.java:270) at java.lang.Thread.run(Thread.java:748)</p>
+
+<p>Лог системы</p>
+]]></value>
+  <value column="Name" original="Текстовый шаблон системного уведомления (HTML)">Текстовый шаблон системного уведомления </value>
+  <value column="MailText2" original="Требуется Ваше участие">Требуется Ваше участие</value>
+  <value column="MailText3" original="Не отвечать!">Не отвечать!</value>
+ </row>
+ <row trl="N" uuid="4c7d8868-b3d5-44bc-959b-b1fd962063d9">
+  <value column="MailHeader" original="Requisition Approval Sys">Requisition Approval</value>
+  <value column="MailText" original="Dear Manager,Need you help to review and approvethe requisition document below.">Dear Manager</value>
+  <value column="Name" original="Requisition Approval Sys">Requisition Approval</value>
+  <value column="MailText2" original=""/>
+  <value column="MailText3" original=""/>
+ </row>
+ <row trl="Y" uuid="d3d39c4a-aa60-430b-962f-faa3d3af327d">
+  <value column="MailHeader" original="Согласование планируемых технических работ @MP_OT.DocumentNo@">Согласование планируемых технических работ @MP_OT.DocumentNo@</value>
+  <value column="MailText" original="&lt;p&gt;Уважаемый @Name@!&lt;/p&gt;&#10;&#10;&lt;p&gt;В связи с планированием технических работ просим Вас согласовать проведение этих работ в указанный период. Выполнить согласование можно перейдя по ссылке&lt;/p&gt;&#10;&#10;&lt;p&gt;@MP_OT.URL@&lt;/p&gt;&#10;&#10;&lt;p&gt;Место проведения: @MP_OT.C_Location@&lt;/p&gt;&#10;&#10;&lt;p&gt;C уважением,&amp;nbsp; Служба технической поддержки.&lt;/p&gt;"><![CDATA[<p>Уважаемый @Name@!</p>
+
+<p>В связи с планированием технических работ просим Вас согласовать проведение этих работ в указанный период. Выполнить согласование можно перейдя по ссылке</p>
+
+<p>@MP_OT.URL@</p>
+
+<p>Место проведения: @MP_OT.C_Location@</p>
+
+<p>C уважением,&nbsp; Служба технической поддержки.</p>]]></value>
+  <value column="Name" original="Шаблон для ТП О необходимости согласования">Шаблон для ТП О необходимости согласования</value>
+  <value column="MailText2" original=""/>
+  <value column="MailText3" original=""/>
+ </row>
+ <row trl="Y" uuid="396b4133-b141-4299-a13f-84e1f00fe9ae">
+  <value column="MailHeader" original="Информирование о планируемых технических работах @MP_OT.DocumentNo@">Информирование о планируемых технических работах @MP_OT.DocumentNo@</value>
+  <value column="MailText" original="&lt;p&gt;Уважаемый @Name@!&lt;/p&gt;&#10;&#10;&lt;p&gt;Информируем Вас о планировании технических работ. Ознакомиться с планом работ и внести свои комментарии Вы можете по ссылке&lt;/p&gt;&#10;&#10;&lt;p&gt;@MP_OT.URL@&lt;/p&gt;&#10;&#10;&lt;p&gt;Место проведения: @MP_OT.C_Location@&lt;/p&gt;&#10;&#10;&lt;p&gt;C уважением,&amp;nbsp; Служба технической поддержки.&lt;/p&gt;"><![CDATA[<p>Уважаемый @Name@!</p>
+
+<p>Информируем Вас о планировании технических работ. Ознакомиться с планом работ и внести свои комментарии Вы можете по ссылке</p>
+
+<p>@MP_OT.URL@</p>
+
+<p>Место проведения: @MP_OT.C_Location@</p>
+
+<p>C уважением,&nbsp; Служба технической поддержки.</p>]]></value>
+  <value column="Name" original="Шаблон для ТП Для информирования">Шаблон для ТП Для информирования</value>
+  <value column="MailText2" original=""/>
+  <value column="MailText3" original=""/>
+ </row>
+ <row trl="N" uuid="ed8ce541-116d-4039-8524-4baa1a4d9356">
+  <value column="MailHeader" original="@MP_OT.Subject@ [@MP_OT.DocumentNo@] Зарегистрирована заявка в службу техподдержки РТКОММ">[@MP_OT.DocumentNo@] Зарегистрирована заявка в службу техподдержки РТКОММ</value>
+  <value column="MailText" original="&lt;table align=&quot;center&quot; class=&quot;Table&quot; style=&quot;background:#e3e8ec; border:undefined; width:100%&quot;&gt;&#10;&#9;&lt;tbody&gt;&#10;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&lt;td style=&quot;background-color:#e3e8ec&quot;&gt;&#10;&#9;&#9;&#9;&lt;table align=&quot;center&quot; cellspacing=&quot;0&quot; class=&quot;Table&quot; style=&quot;background:white; border-collapse:collapse; border:undefined&quot;&gt;&#10;&#9;&#9;&#9;&#9;&lt;tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:white&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;table cellspacing=&quot;0&quot; class=&quot;Table&quot; style=&quot;border-collapse:collapse; border:undefined; width:508.85pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:18.5pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:51.55pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&amp;nbsp;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:318.75pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm; text-align:right&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:99.55pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm; text-align:right&quot;&gt;&amp;nbsp;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:17.6pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm; text-align:right&quot;&gt;&amp;nbsp;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/table&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:white&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;table cellspacing=&quot;0&quot; class=&quot;Table&quot; style=&quot;background:#7700ff; border-collapse:collapse; border:undefined; width:100%; word-wrap:normal&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:#7700ff; width:20.15pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:#7700ff; width:392.95pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-size:12pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:white&quot;&gt;Оповещение&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-size:21pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:white&quot;&gt;Зарегистрирована заявка в службу техподдержки РТКОММ&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:#7700ff; width:88.35pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm; text-align:right&quot;&gt;&amp;nbsp;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/table&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:white&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;table cellspacing=&quot;0&quot; class=&quot;Table&quot; style=&quot;border-collapse:collapse; border:undefined; width:98.72%; word-wrap:normal&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td rowspan=&quot;4&quot; style=&quot;height:19.45pt; width:20pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td colspan=&quot;3&quot; style=&quot;height:19.45pt; width:465.05pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td rowspan=&quot;4&quot; style=&quot;height:19.45pt; width:17.25pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;height:47.2pt; width:76.95pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-size:16pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;&lt;img alt=&quot;&quot; id=&quot;1&quot; src=&quot;https://img.icons8.com/nolan/96/service.png&quot; style=&quot;height:96px; width:96px&quot; /&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;height:47.2pt; width:13.95pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;height:47.2pt; width:374.1pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-size:12pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;Здравствуйте!&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-size:12pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;Спасибо, что обратились в техническую поддержку РТКОММ, специалист ответит Вам в ближайшее время.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td colspan=&quot;3&quot; style=&quot;height:9.05pt; vertical-align:top; width:465.05pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td colspan=&quot;3&quot; style=&quot;height:64.45pt; vertical-align:top; width:465.05pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-size:12pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;Вашему обращению присвоен уникальный номер &amp;ndash; &lt;/span&gt;&lt;/span&gt;&lt;b&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;@MP_OT.DocumentNo@&lt;/span&gt;&lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-size:12pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;Пожалуйста, не удаляйте номер Заявки [TT &amp;hellip;] из темы письма.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:20pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:76.95pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:13.95pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:374.1pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:17.25pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/table&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:white&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:white&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;table cellspacing=&quot;0&quot; class=&quot;Table&quot; style=&quot;background:#262e3c; border-collapse:collapse; border:undefined; width:100%; word-wrap:normal&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:#262e3c; width:22.5pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:#262e3c&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:white&quot;&gt;C&amp;nbsp;уважением,&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:white&quot;&gt;Служба технической поддержки&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:#262e3c; width:50%&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:#262e3c; width:22.5pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/table&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&lt;/tbody&gt;&#10;&#9;&#9;&#9;&lt;/table&gt;&#10;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&lt;/tr&gt;&#10;&#9;&lt;/tbody&gt;&#10;&lt;/table&gt;&#10;&#10;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&amp;nbsp;&lt;/p&gt;"><![CDATA[<table align="center" class="Table" style="background:#e3e8ec; border:undefined; width:100%">
+	<tbody>
+		<tr>
+			<td style="background-color:#e3e8ec">
+			<table align="center" cellspacing="0" class="Table" style="background:white; border-collapse:collapse; border:undefined">
+				<tbody>
+					<tr>
+						<td style="background-color:white">
+						<table cellspacing="0" class="Table" style="border-collapse:collapse; border:undefined; width:508.85pt">
+							<tbody>
+								<tr>
+									<td style="width:18.5pt">&nbsp;</td>
+									<td style="width:51.55pt">
+									<p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+									</td>
+									<td style="width:318.75pt">
+									<p style="margin-left:0cm; margin-right:0cm; text-align:right"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black">&nbsp;&nbsp;&nbsp; </span></span></span></p>
+									</td>
+									<td style="width:99.55pt">
+									<p style="margin-left:0cm; margin-right:0cm; text-align:right">&nbsp;</p>
+									</td>
+									<td style="width:17.6pt">
+									<p style="margin-left:0cm; margin-right:0cm; text-align:right">&nbsp;</p>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td style="background-color:white">
+						<table cellspacing="0" class="Table" style="background:#7700ff; border-collapse:collapse; border:undefined; width:100%; word-wrap:normal">
+							<tbody>
+								<tr>
+									<td style="background-color:#7700ff; width:20.15pt">&nbsp;</td>
+									<td style="background-color:#7700ff; width:392.95pt">
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black"><span style="font-size:12pt"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:white">Оповещение</span></span></span></span></span></span></p>
+
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black"><span style="font-size:21pt"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:white">Зарегистрирована заявка в службу техподдержки РТКОММ</span></span></span></span></span></span></p>
+									</td>
+									<td style="background-color:#7700ff; width:88.35pt">
+									<p style="margin-left:0cm; margin-right:0cm; text-align:right">&nbsp;</p>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td style="background-color:white">
+						<table cellspacing="0" class="Table" style="border-collapse:collapse; border:undefined; width:98.72%; word-wrap:normal">
+							<tbody>
+								<tr>
+									<td rowspan="4" style="height:19.45pt; width:20pt">&nbsp;</td>
+									<td colspan="3" style="height:19.45pt; width:465.05pt">
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black">&nbsp;</span></span></span></p>
+									</td>
+									<td rowspan="4" style="height:19.45pt; width:17.25pt">&nbsp;</td>
+								</tr>
+								<tr>
+									<td style="height:47.2pt; width:76.95pt">
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black"><span style="font-size:16pt"><span style="font-family:&quot;Arial&quot;,sans-serif"><img alt="/webui/theme/business/images/MP_Registered.png" id="_x0000_i1028" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQLAxMqTICV-3NW4mNUoFPNfQvPl9E6GoB8b3zeg7XnXVjAYUbO" style="height:250px; width:250px" /></span></span></span></span></span></p>
+									</td>
+									<td style="height:47.2pt; width:13.95pt">
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black">&nbsp;</span></span></span></p>
+									</td>
+									<td style="height:47.2pt; width:374.1pt">
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black"><span style="font-size:12pt"><span style="font-family:&quot;Arial&quot;,sans-serif">Здравствуйте!</span></span></span></span></span></p>
+
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black"><span style="font-size:12pt"><span style="font-family:&quot;Arial&quot;,sans-serif">Спасибо, что обратились в техническую поддержку РТКОММ, специалист ответит Вам в ближайшее время.</span></span></span></span></span></p>
+									</td>
+								</tr>
+								<tr>
+									<td colspan="3" style="height:9.05pt; vertical-align:top; width:465.05pt">&nbsp;</td>
+								</tr>
+								<tr>
+									<td colspan="3" style="height:64.45pt; vertical-align:top; width:465.05pt">
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black"><span style="font-size:12pt"><span style="font-family:&quot;Arial&quot;,sans-serif">Вашему обращению присвоен уникальный номер &ndash; </span></span><b><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:black">@MP_OT.DocumentNo@</span></span></b></span></span></span></p>
+
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black"><span style="font-size:12pt"><span style="font-family:&quot;Arial&quot;,sans-serif">Пожалуйста, не удаляйте номер Заявки [RTC &hellip;] из темы письма.</span></span></span></span></span></p>
+									</td>
+								</tr>
+								<tr>
+									<td style="width:20pt">&nbsp;</td>
+									<td style="width:76.95pt">&nbsp;</td>
+									<td style="width:13.95pt">&nbsp;</td>
+									<td style="width:374.1pt">&nbsp;</td>
+									<td style="width:17.25pt">&nbsp;</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td style="background-color:white">&nbsp;</td>
+					</tr>
+					<tr>
+						<td style="background-color:white">
+						<table cellspacing="0" class="Table" style="background:#262e3c; border-collapse:collapse; border:undefined; width:100%; word-wrap:normal">
+							<tbody>
+								<tr>
+									<td style="background-color:#262e3c; width:22.5pt">&nbsp;</td>
+									<td style="background-color:#262e3c">
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:white">C&nbsp;уважением,</span></span></span></span></span></p>
+
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:white">Служба технической поддержки</span></span></span></span></span></p>
+									</td>
+									<td style="background-color:#262e3c; width:50%">&nbsp;</td>
+									<td style="background-color:#262e3c; width:22.5pt">&nbsp;</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>]]></value>
+  <value column="Name" original="Шаблон для ТП Зарегистрирована заявка в службу техподдержки">Шаблон для ТП Зарегистрирована заявка в службу техподдержки</value>
+  <value column="MailText2" original=""/>
+  <value column="MailText3" original=""/>
+ </row>
+ <row trl="N" uuid="71df44b3-e5b3-4ebf-bb23-d5dececb7d8e">
+  <value column="MailHeader" original="[@MP_OT.DocumentNo@] Работы по заявке завершены. Услуга восстановлена.">Работы по заявке завершены. Услуга восстановлена.</value>
+  <value column="MailText" original="&lt;table align=&quot;center&quot; class=&quot;Table&quot; style=&quot;background:#e3e8ec; border:undefined; width:100%&quot;&gt;&#10;&#9;&lt;tbody&gt;&#10;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&lt;td style=&quot;background-color:#e3e8ec&quot;&gt;&#10;&#9;&#9;&#9;&lt;table align=&quot;center&quot; cellspacing=&quot;0&quot; class=&quot;Table&quot; style=&quot;background:white; border-collapse:collapse; border:undefined&quot;&gt;&#10;&#9;&#9;&#9;&#9;&lt;tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:white&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;table cellspacing=&quot;0&quot; class=&quot;Table&quot; style=&quot;border-collapse:collapse; border:undefined; width:508.85pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:18.5pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:51.55pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:318.75pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:99.55pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm; text-align:right&quot;&gt;&amp;nbsp;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:17.6pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm; text-align:right&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/table&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:white&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;table cellspacing=&quot;0&quot; class=&quot;Table&quot; style=&quot;background:#7700ff; border-collapse:collapse; border:undefined; width:100%; word-wrap:normal&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:#7700ff; width:20.15pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:#7700ff; width:392.95pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-size:12pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:white&quot;&gt;Оповещение&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-size:21pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:white&quot;&gt;Работы по заявке завершены. Услуга восстановлена.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:#7700ff; width:88.35pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm; text-align:right&quot;&gt;&amp;nbsp;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/table&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:white&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;table cellspacing=&quot;0&quot; class=&quot;Table&quot; style=&quot;border-collapse:collapse; border:undefined; width:98.72%; word-wrap:normal&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td rowspan=&quot;4&quot; style=&quot;height:19.45pt; width:20pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td colspan=&quot;3&quot; style=&quot;height:19.45pt; width:465.05pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td rowspan=&quot;4&quot; style=&quot;height:19.45pt; width:17.25pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;height:47.2pt; width:76.95pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-size:16pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;&lt;img alt=&quot;&quot; id=&quot;2&quot; src=&quot;https://img.icons8.com/nolan/96/checkmark.png&quot; style=&quot;height:96px; width:96px&quot; /&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;height:47.2pt; width:13.95pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;height:47.2pt; width:374.1pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-size:12pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;Здравствуйте!&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-size:12pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;Ваша заявка с номером &lt;/span&gt;&lt;/span&gt;&lt;b&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;@MP_OT.DocumentNo@&lt;/span&gt;&lt;/span&gt;&lt;/b&gt;&lt;span style=&quot;font-size:12pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt; удовлетворена.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td colspan=&quot;3&quot; style=&quot;height:9.05pt; vertical-align:top; width:465.05pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td colspan=&quot;3&quot; style=&quot;height:64.45pt; vertical-align:top; width:465.05pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-size:12pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;Просим Вас ответным письмом подтвердить, что услуга восстановлена.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-size:12pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;В случае отсутствия Вашего ответа, заявка может быть автоматически закрыта в установленные сроки.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:20pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:76.95pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:13.95pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:374.1pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:17.25pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/table&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:white&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:white&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;table cellspacing=&quot;0&quot; class=&quot;Table&quot; style=&quot;background:#262e3c; border-collapse:collapse; border:undefined; width:100%; word-wrap:normal&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:#262e3c; width:22.5pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:#262e3c&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:white&quot;&gt;C&amp;nbsp;уважением,&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:white&quot;&gt;Служба технической поддержки&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:#262e3c; width:50%&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:#262e3c; width:22.5pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/table&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&lt;/tbody&gt;&#10;&#9;&#9;&#9;&lt;/table&gt;&#10;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&lt;/tr&gt;&#10;&#9;&lt;/tbody&gt;&#10;&lt;/table&gt;">Работы по заявке завершены. Услуга восстановлена.</value>
+  <value column="Name" original="Шаблон для ТП Работы по заявке завершены. Услуга восстановле">Шаблон для ТП Работы по заявке завершены. Услуга восстановле</value>
+  <value column="MailText2" original=""/>
+  <value column="MailText3" original=""/>
+ </row>
+ <row trl="N" uuid="fe6fbb80-0b52-42bb-a91b-3e990ff2ad9d">
+  <value column="MailHeader" original="[@MP_OT.DocumentNo@] [@MP_OT_Task.DocumentNo@] Задача возвращена">Задача завершена</value>
+  <value column="MailText" original="&lt;p&gt;[@MP_OT.URL@] [@MP_OT_Task.URL@] Задача возвращена&lt;/p&gt;&#10;&#10;&lt;p&gt;Описание задачи: @MP_OT_Task.Description@&lt;/p&gt;&#10;&#10;&lt;p&gt;Исполнитель: @MP_OT_Task.MP_Executor@&lt;/p&gt;&#10;&#10;&lt;p&gt;Причина возврата: @MP_OT_Task.ReturnReason@&lt;/p&gt;&#10;&#10;&lt;p&gt;Комментарий: @MP_OT_Task.Comments@&lt;/p&gt;">описание</value>
+  <value column="Name" original="Шаблон для ТП Задача возвращена">Шаблон ТП Задача завершена</value>
+  <value column="MailText2" original=""/>
+  <value column="MailText3" original=""/>
+ </row>
+ <row trl="N" uuid="c436157f-cd43-4435-a199-0ec36f023dc0">
+  <value column="MailHeader" original="Информирование об изменении объекта">Информирования о изменении объекта</value>
+  <value column="MailText" original="&lt;p&gt;Уважаемый @Name@!&lt;/p&gt;&#10;&#10;&lt;p&gt;Произошли изменения в объекте, на который Вы подписаны  -  @URL@&lt;/p&gt;&#10;&lt;p&gt;Подробности: &lt;br&gt; @Change@&lt;/p&gt;"><![CDATA[<p>Уважаемый @Name@!</p>
+
+<p>Произошли изменения в объекте, на который Вы подписаны.</p>]]></value>
+  <value column="Name" original="Шаблон для информирования изменения объекта">Шаблон для информирования изменения объекта</value>
+  <value column="MailText2" original=""/>
+  <value column="MailText3" original=""/>
+ </row>
+ <row trl="N" uuid="d954d798-7321-4704-9056-eec285dbe3bd">
+  <value column="MailHeader" original="Согласование планируемых технических работ @MP_OT.DocumentNo@ завершено">Согласование планируемых технических работ @MP_OT.DocumentNo@ завершено</value>
+  <value column="MailText" original="&lt;p&gt;Уважаемый @Name@!&lt;/p&gt;&#10;&#10;&lt;p&gt;Согласование технических работ завершено. Ознакомиться с результатом можно, пройдя по ссылке&lt;/p&gt;&#10;&#10;&lt;p&gt;@MP_OT.URL@&lt;/p&gt;&#10;&#10;&lt;p&gt;Место проведения: @MP_OT.C_Location@&lt;/p&gt;&#10;&#10;&lt;p&gt;C уважением,&amp;nbsp; Служба технической поддержки.&lt;/p&gt;"><![CDATA[<p>Уважаемый @Name@!</p>
+
+<p>Согласование технических работ завершено. Ознакомиться с результатом можно, пройдя по ссылке</p>
+
+<p>@MP_OT.URL@</p>
+
+<p>Место проведения: @MP_OT.C_Location@</p>
+
+<p>C уважением,&nbsp; Служба технической поддержки.</p>]]></value>
+  <value column="Name" original="Шаблон для ТП О завершении согласования">Шаблон для ТП О завершении согласования</value>
+  <value column="MailText2" original=""/>
+  <value column="MailText3" original=""/>
+ </row>
+ <row trl="N" uuid="c049b08f-bcdb-482e-a724-99a9c2ad46b9">
+  <value column="MailHeader" original="Согласование планируемых технических работ @MP_OT.DocumentNo@ обновлено">Согласование планируемых технических работ @MP_OT.DocumentNo@ обновлено</value>
+  <value column="MailText" original="&lt;p&gt;Уважаемый @Name@!&lt;/p&gt;&#10;&#10;&lt;p&gt;Обновлен результат согласования/информирования технических работ. Ознакомиться с результатом можно в журнале согласования, пройдя по ссылке&lt;/p&gt;&#10;&#10;&lt;p&gt;@MP_OT.URL@&lt;/p&gt;&#10;&#10;&lt;p&gt;Место проведения: @MP_OT.C_Location@&lt;/p&gt;&#10;&#10;&lt;p&gt;C уважением,&amp;nbsp; Служба технической поддержки.&lt;/p&gt;"><![CDATA[<p>Уважаемый @Name@!</p>
+
+<p>Обновлен результат согласования/информирования технических работ. Ознакомиться с результатом можно в журнале согласования, пройдя по ссылке</p>
+
+<p>@MP_OT.URL@</p>
+
+<p>Место проведения: @MP_OT.C_Location@</p>
+
+<p>C уважением,&nbsp; Служба технической поддержки.</p>]]></value>
+  <value column="Name" original="Шаблон для ТП Об обновлении согласования">Шаблон для ТП Об обновлении согласования</value>
+  <value column="MailText2" original=""/>
+  <value column="MailText3" original=""/>
+ </row>
+ <row trl="N" uuid="c1c2880b-8f3a-431d-ba75-7755d9972034">
+  <value column="MailHeader" original="[@MP_OT.DocumentNo@] Не взята в работу по истечении срока эскалации">[@MP_OT.DocumentNo@] Не взята в работу по истечении срока эскалации</value>
+  <value column="MailText" original="&lt;table align=&quot;center&quot; class=&quot;Table&quot; style=&quot;background:#e3e8ec; border:undefined; width:100%&quot;&gt;&#10;&#9;&lt;tbody&gt;&#10;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&lt;td style=&quot;background-color:#e3e8ec&quot;&gt;&#10;&#9;&#9;&#9;&lt;table align=&quot;center&quot; cellspacing=&quot;0&quot; class=&quot;Table&quot; style=&quot;background:white; border-collapse:collapse; border:undefined&quot;&gt;&#10;&#9;&#9;&#9;&#9;&lt;tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:white&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;table cellspacing=&quot;0&quot; class=&quot;Table&quot; style=&quot;border-collapse:collapse; border:undefined; width:508.85pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:18.5pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:51.55pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&amp;nbsp;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:318.75pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm; text-align:right&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:99.55pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm; text-align:right&quot;&gt;&amp;nbsp;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:17.6pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm; text-align:right&quot;&gt;&amp;nbsp;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/table&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:white&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;table cellspacing=&quot;0&quot; class=&quot;Table&quot; style=&quot;background:#7700ff; border-collapse:collapse; border:undefined; width:100%; word-wrap:normal&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:#7700ff; width:20.15pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:#7700ff; width:392.95pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-size:12pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:white&quot;&gt;Оповещение&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-size:21pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:white&quot;&gt;Не взята в работу по истечении срока эскалации&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:#7700ff; width:88.35pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm; text-align:right&quot;&gt;&amp;nbsp;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/table&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:white&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;table cellspacing=&quot;0&quot; class=&quot;Table&quot; style=&quot;border-collapse:collapse; border:undefined; width:98.72%; word-wrap:normal&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td rowspan=&quot;4&quot; style=&quot;height:19.45pt; width:20pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td colspan=&quot;3&quot; style=&quot;height:19.45pt; width:465.05pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td rowspan=&quot;4&quot; style=&quot;height:19.45pt; width:17.25pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;height:47.2pt; width:76.95pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-size:16pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;&lt;img alt=&quot;&quot; id=&quot;1&quot; src=&quot;https://img.icons8.com/nolan/96/automatic-gearbox-warning.png&quot; style=&quot;height:96px; width:96px&quot; /&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;height:47.2pt; width:13.95pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;height:47.2pt; width:374.1pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-size:12pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;Уважаемый @MP_OT.MP_Executor@!&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-size:12pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;@TYPE@ @MP_OT.URL@ не взята в работу по истечении срока эскалации&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td colspan=&quot;3&quot; style=&quot;height:9.05pt; vertical-align:top; width:465.05pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td colspan=&quot;3&quot; style=&quot;height:64.45pt; vertical-align:top; width:465.05pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:20pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:76.95pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:13.95pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:374.1pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:17.25pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/table&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:white&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:white&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;table cellspacing=&quot;0&quot; class=&quot;Table&quot; style=&quot;background:#262e3c; border-collapse:collapse; border:undefined; width:100%; word-wrap:normal&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:#262e3c; width:22.5pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:#262e3c&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:white&quot;&gt;C&amp;nbsp;уважением,&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:white&quot;&gt;Служба технической поддержки&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:#262e3c; width:50%&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:#262e3c; width:22.5pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/table&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&lt;/tbody&gt;&#10;&#9;&#9;&#9;&lt;/table&gt;&#10;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&lt;/tr&gt;&#10;&#9;&lt;/tbody&gt;&#10;&lt;/table&gt;&#10;&#10;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&amp;nbsp;&lt;/p&gt;"><![CDATA[<table align="center" class="Table" style="background:#e3e8ec; border:undefined; width:100%">
+	<tbody>
+		<tr>
+			<td style="background-color:#e3e8ec">
+			<table align="center" cellspacing="0" class="Table" style="background:white; border-collapse:collapse; border:undefined">
+				<tbody>
+					<tr>
+						<td style="background-color:white">
+						<table cellspacing="0" class="Table" style="border-collapse:collapse; border:undefined; width:508.85pt">
+							<tbody>
+								<tr>
+									<td style="width:18.5pt">&nbsp;</td>
+									<td style="width:51.55pt">
+									<p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+									</td>
+									<td style="width:318.75pt">
+									<p style="margin-left:0cm; margin-right:0cm; text-align:right"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black">&nbsp;&nbsp;&nbsp; </span></span></span></p>
+									</td>
+									<td style="width:99.55pt">
+									<p style="margin-left:0cm; margin-right:0cm; text-align:right">&nbsp;</p>
+									</td>
+									<td style="width:17.6pt">
+									<p style="margin-left:0cm; margin-right:0cm; text-align:right">&nbsp;</p>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td style="background-color:white">
+						<table cellspacing="0" class="Table" style="background:#7700ff; border-collapse:collapse; border:undefined; width:100%; word-wrap:normal">
+							<tbody>
+								<tr>
+									<td style="background-color:#7700ff; width:20.15pt">&nbsp;</td>
+									<td style="background-color:#7700ff; width:392.95pt">
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black"><span style="font-size:12pt"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:white">Оповещение</span></span></span></span></span></span></p>
+
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black"><span style="font-size:21pt"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:white">Зарегистрирована заявка в службу техподдержки РТКОММ</span></span></span></span></span></span></p>
+									</td>
+									<td style="background-color:#7700ff; width:88.35pt">
+									<p style="margin-left:0cm; margin-right:0cm; text-align:right">&nbsp;</p>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td style="background-color:white">
+						<table cellspacing="0" class="Table" style="border-collapse:collapse; border:undefined; width:98.72%; word-wrap:normal">
+							<tbody>
+								<tr>
+									<td rowspan="4" style="height:19.45pt; width:20pt">&nbsp;</td>
+									<td colspan="3" style="height:19.45pt; width:465.05pt">
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black">&nbsp;</span></span></span></p>
+									</td>
+									<td rowspan="4" style="height:19.45pt; width:17.25pt">&nbsp;</td>
+								</tr>
+								<tr>
+									<td style="height:47.2pt; width:76.95pt">
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black"><span style="font-size:16pt"><span style="font-family:&quot;Arial&quot;,sans-serif"><img alt="" id="1" src="https://img.icons8.com/nolan/96/service.png" style="height:96px; width:96px" /></span></span></span></span></span></p>
+									</td>
+									<td style="height:47.2pt; width:13.95pt">
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black">&nbsp;</span></span></span></p>
+									</td>
+									<td style="height:47.2pt; width:374.1pt">
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black"><span style="font-size:12pt"><span style="font-family:&quot;Arial&quot;,sans-serif">Здравствуйте!</span></span></span></span></span></p>
+
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black"><span style="font-size:12pt"><span style="font-family:&quot;Arial&quot;,sans-serif">Спасибо, что обратились в техническую поддержку РТКОММ, специалист ответит Вам в ближайшее время.</span></span></span></span></span></p>
+									</td>
+								</tr>
+								<tr>
+									<td colspan="3" style="height:9.05pt; vertical-align:top; width:465.05pt">&nbsp;</td>
+								</tr>
+								<tr>
+									<td colspan="3" style="height:64.45pt; vertical-align:top; width:465.05pt">
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black"><span style="font-size:12pt"><span style="font-family:&quot;Arial&quot;,sans-serif">Вашему обращению присвоен уникальный номер &ndash; </span></span><b><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:black">@MP_OT.DocumentNo@</span></span></b></span></span></span></p>
+
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black"><span style="font-size:12pt"><span style="font-family:&quot;Arial&quot;,sans-serif">Пожалуйста, не удаляйте номер Заявки [RTC &hellip;] из темы письма.</span></span></span></span></span></p>
+									</td>
+								</tr>
+								<tr>
+									<td style="width:20pt">&nbsp;</td>
+									<td style="width:76.95pt">&nbsp;</td>
+									<td style="width:13.95pt">&nbsp;</td>
+									<td style="width:374.1pt">&nbsp;</td>
+									<td style="width:17.25pt">&nbsp;</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td style="background-color:white">&nbsp;</td>
+					</tr>
+					<tr>
+						<td style="background-color:white">
+						<table cellspacing="0" class="Table" style="background:#262e3c; border-collapse:collapse; border:undefined; width:100%; word-wrap:normal">
+							<tbody>
+								<tr>
+									<td style="background-color:#262e3c; width:22.5pt">&nbsp;</td>
+									<td style="background-color:#262e3c">
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:white">C&nbsp;уважением,</span></span></span></span></span></p>
+
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:white">Служба технической поддержки</span></span></span></span></span></p>
+									</td>
+									<td style="background-color:#262e3c; width:50%">&nbsp;</td>
+									<td style="background-color:#262e3c; width:22.5pt">&nbsp;</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>]]></value>
+  <value column="Name" original="Шаблон для ТП Для Эскалации">Шаблон для ТП Для Эскалации</value>
+  <value column="MailText2" original=""/>
+  <value column="MailText3" original=""/>
+ </row>
+ <row trl="N" uuid="49f06067-5b1b-4154-a613-5b22decd5891">
+  <value column="MailHeader" original="Информирование о ходе решения Заявки [@MP_OT.DocumentNo@]">Информирование о ходе решения Заявки [@MP_OT.DocumentNo@]</value>
+  <value column="MailText" original="&lt;table align=&quot;center&quot; class=&quot;Table&quot; style=&quot;background:#e3e8ec; border:undefined; width:100%&quot;&gt;&#10;&#9;&lt;tbody&gt;&#10;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&lt;td style=&quot;background-color:#e3e8ec&quot;&gt;&#10;&#9;&#9;&#9;&lt;table align=&quot;center&quot; cellspacing=&quot;0&quot; class=&quot;Table&quot; style=&quot;background:white; border-collapse:collapse; border:undefined&quot;&gt;&#10;&#9;&#9;&#9;&#9;&lt;tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:white&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;table cellspacing=&quot;0&quot; class=&quot;Table&quot; style=&quot;border-collapse:collapse; border:undefined; width:508.85pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:18.5pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:51.55pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&amp;nbsp;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:318.75pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm; text-align:right&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:99.55pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm; text-align:right&quot;&gt;&amp;nbsp;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:17.6pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm; text-align:right&quot;&gt;&amp;nbsp;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/table&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:white&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;table cellspacing=&quot;0&quot; class=&quot;Table&quot; style=&quot;background:#7700ff; border-collapse:collapse; border:undefined; width:100%; word-wrap:normal&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:#7700ff; width:20.15pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:#7700ff; width:392.95pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-size:12pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:white&quot;&gt;Оповещение&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-size:21pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:white&quot;&gt;Информирование о ходе решения Заявки&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:#7700ff; width:88.35pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm; text-align:right&quot;&gt;&amp;nbsp;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/table&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:white&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;table cellspacing=&quot;0&quot; class=&quot;Table&quot; style=&quot;border-collapse:collapse; border:undefined; width:98.72%; word-wrap:normal&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td rowspan=&quot;4&quot; style=&quot;height:19.45pt; width:20pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td colspan=&quot;3&quot; style=&quot;height:19.45pt; width:465.05pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td rowspan=&quot;4&quot; style=&quot;height:19.45pt; width:17.25pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;height:47.2pt; width:76.95pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-size:16pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;&lt;img alt=&quot;&quot; id=&quot;1&quot; src=&quot;https://img.icons8.com/nolan/96/customer-support.png&quot; style=&quot;height:96px; width:96px&quot; /&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;height:47.2pt; width:13.95pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;height:47.2pt; width:374.1pt&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-size:12pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;Уважаемый @MP_OT.UserName@!&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-size:12pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;Сообщаем информацию о ходе решения по вашей заявке на настоящий момент: @MP_OT.MP_Client_Resume@&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td colspan=&quot;3&quot; style=&quot;height:9.05pt; vertical-align:top; width:465.05pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td colspan=&quot;3&quot; style=&quot;height:64.45pt; vertical-align:top; width:465.05pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:20pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:76.95pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:13.95pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:374.1pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;width:17.25pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/table&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:white&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:white&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;table cellspacing=&quot;0&quot; class=&quot;Table&quot; style=&quot;background:#262e3c; border-collapse:collapse; border:undefined; width:100%; word-wrap:normal&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:#262e3c; width:22.5pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:#262e3c&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:white&quot;&gt;C&amp;nbsp;уважением,&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&lt;span style=&quot;font-size:11pt&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Calibri&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif&quot;&gt;&lt;span style=&quot;color:white&quot;&gt;Служба технической поддержки&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:#262e3c; width:50%&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;td style=&quot;background-color:#262e3c; width:22.5pt&quot;&gt;&amp;nbsp;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/tbody&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/table&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;/tr&gt;&#10;&#9;&#9;&#9;&#9;&lt;/tbody&gt;&#10;&#9;&#9;&#9;&lt;/table&gt;&#10;&#9;&#9;&#9;&lt;/td&gt;&#10;&#9;&#9;&lt;/tr&gt;&#10;&#9;&lt;/tbody&gt;&#10;&lt;/table&gt;&#10;&#10;&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;&gt;&amp;nbsp;&lt;/p&gt;"><![CDATA[<table align="center" class="Table" style="background:#e3e8ec; border:undefined; width:100%">
+	<tbody>
+		<tr>
+			<td style="background-color:#e3e8ec">
+			<table align="center" cellspacing="0" class="Table" style="background:white; border-collapse:collapse; border:undefined">
+				<tbody>
+					<tr>
+						<td style="background-color:white">
+						<table cellspacing="0" class="Table" style="border-collapse:collapse; border:undefined; width:508.85pt">
+							<tbody>
+								<tr>
+									<td style="width:18.5pt">&nbsp;</td>
+									<td style="width:51.55pt">
+									<p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+									</td>
+									<td style="width:318.75pt">
+									<p style="margin-left:0cm; margin-right:0cm; text-align:right"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black">&nbsp;&nbsp;&nbsp; </span></span></span></p>
+									</td>
+									<td style="width:99.55pt">
+									<p style="margin-left:0cm; margin-right:0cm; text-align:right">&nbsp;</p>
+									</td>
+									<td style="width:17.6pt">
+									<p style="margin-left:0cm; margin-right:0cm; text-align:right">&nbsp;</p>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td style="background-color:white">
+						<table cellspacing="0" class="Table" style="background:#7700ff; border-collapse:collapse; border:undefined; width:100%; word-wrap:normal">
+							<tbody>
+								<tr>
+									<td style="background-color:#7700ff; width:20.15pt">&nbsp;</td>
+									<td style="background-color:#7700ff; width:392.95pt">
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black"><span style="font-size:12pt"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:white">Оповещение</span></span></span></span></span></span></p>
+
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black"><span style="font-size:21pt"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:white">Не взята в работу по истечении срока эскалации</span></span></span></span></span></span></p>
+									</td>
+									<td style="background-color:#7700ff; width:88.35pt">
+									<p style="margin-left:0cm; margin-right:0cm; text-align:right">&nbsp;</p>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td style="background-color:white">
+						<table cellspacing="0" class="Table" style="border-collapse:collapse; border:undefined; width:98.72%; word-wrap:normal">
+							<tbody>
+								<tr>
+									<td rowspan="4" style="height:19.45pt; width:20pt">&nbsp;</td>
+									<td colspan="3" style="height:19.45pt; width:465.05pt">
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black">&nbsp;</span></span></span></p>
+									</td>
+									<td rowspan="4" style="height:19.45pt; width:17.25pt">&nbsp;</td>
+								</tr>
+								<tr>
+									<td style="height:47.2pt; width:76.95pt">
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black"><span style="font-size:16pt"><span style="font-family:&quot;Arial&quot;,sans-serif"><img alt="" id="1" src="https://img.icons8.com/nolan/96/service.png" style="height:96px; width:96px" /></span></span></span></span></span></p>
+									</td>
+									<td style="height:47.2pt; width:13.95pt">
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black">&nbsp;</span></span></span></p>
+									</td>
+									<td style="height:47.2pt; width:374.1pt">
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black"><span style="font-size:12pt"><span style="font-family:&quot;Arial&quot;,sans-serif">Уважаемый @FIOCreatedBy@!</span></span></span></span></span></p>
+
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black"><span style="font-size:12pt"><span style="font-family:&quot;Arial&quot;,sans-serif">Заявка @MP_OT.URL@ не взята в работу по истечении срока эскалации</span></span></span></span></span></p>
+									</td>
+								</tr>
+								<tr>
+									<td colspan="3" style="height:9.05pt; vertical-align:top; width:465.05pt">&nbsp;</td>
+								</tr>
+								<tr>
+									<td colspan="3" style="height:64.45pt; vertical-align:top; width:465.05pt">&nbsp;</td>
+								</tr>
+								<tr>
+									<td style="width:20pt">&nbsp;</td>
+									<td style="width:76.95pt">&nbsp;</td>
+									<td style="width:13.95pt">&nbsp;</td>
+									<td style="width:374.1pt">&nbsp;</td>
+									<td style="width:17.25pt">&nbsp;</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td style="background-color:white">&nbsp;</td>
+					</tr>
+					<tr>
+						<td style="background-color:white">
+						<table cellspacing="0" class="Table" style="background:#262e3c; border-collapse:collapse; border:undefined; width:100%; word-wrap:normal">
+							<tbody>
+								<tr>
+									<td style="background-color:#262e3c; width:22.5pt">&nbsp;</td>
+									<td style="background-color:#262e3c">
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:white">C&nbsp;уважением,</span></span></span></span></span></p>
+
+									<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="color:black"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:white">Служба технической поддержки</span></span></span></span></span></p>
+									</td>
+									<td style="background-color:#262e3c; width:50%">&nbsp;</td>
+									<td style="background-color:#262e3c; width:22.5pt">&nbsp;</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>]]></value>
+  <value column="Name" original="Шаблон для ТП Для периодического информирования">Шаблон для ТП Для периодического информирования</value>
+  <value column="MailText2" original=""/>
+  <value column="MailText3" original=""/>
+ </row>
+ <row trl="N" uuid="a88b779b-0e2b-498c-9778-28f6aa2a0b0b">
+  <value column="MailHeader" original="[@MP_OT_Task.DocumentNo@] На ваше подразделение/рабочую группу назначена задача">[@MP_OT_Task.DocumentNo@] Задача назначена на подразделение/рабочую группу</value>
+  <value column="MailText" original="&lt;p&gt;На ваше подразделение/рабочую группу &lt;u&gt;@MP_OT_Task.Department@&lt;/u&gt; назначена задача &lt;b&gt;@MP_OT_Task.DocumentNo@&lt;/b&gt;. Необходимо взять в работу.&lt;/p&gt;&#10;&#10;&lt;p&gt;Описание задачи: &lt;b&gt;@MP_OT_Task.Description@&lt;/b&gt;&lt;/p&gt;&#10;&#10;&lt;p&gt;Комментарий: &lt;b&gt;@MP_OT_Task.Comments@&lt;/b&gt;&lt;/p&gt;"><![CDATA[<p>[@MP_OT_Task.DocumentNo@] Задача назначена на подразделение/рабочую группу</p>
+
+<p>Описание задачи: @MP_OT_Task.Description@</p>
+
+<p>Исполнитель: @MP_OT_Task.MP_Executor@</p>
+
+<p>Причина возврата: @MP_OT_Task.ReturnReason@</p>
+
+<p>Комментарий: @MP_OT_Task.Comments@</p>]]></value>
+  <value column="Name" original="Шаблон для ТП Задача назначена на подразделение/группу">Шаблон для ТП Задача назначена на подразделение/группу</value>
+  <value column="MailText2" original=""/>
+  <value column="MailText3" original=""/>
+ </row>
+</idempiereTrl>

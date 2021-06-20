@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zk>
+<zscript><![CDATA[
+	import org.compiere.model.MSysConfig;
+	import org.compiere.util.Env;
+]]></zscript>    
+    <openlayers id="map" width="100%" vflex="1"/>
+</zk>

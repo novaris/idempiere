@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="ru_RU" table="AD_Menu">
+ <row id="100" trl="Y">
+  <value column="Name" original="Invoice Inquiry">Отчеты о документах обязательств</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="153" trl="Y">
+  <value column="Name" original="Application Dictionary">Справочник метаданных</value>
+  <value column="Description" original="Maintain Application Dictionary">Ведение  справочника метаданных</value>
+ </row>
+ <row id="155" trl="Y">
+  <value column="Name" original="General Rules">Общие правила</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="156" trl="Y">
+  <value column="Name" original="Client Rules">Правила организации</value>
+  <value column="Description" original="Maintain Client Rules">Ведение правил организации</value>
+ </row>
+ <row id="157" trl="Y">
+  <value column="Name" original="Data">Данные</value>
+  <value column="Description" original="Maintain Data">Ведение данных</value>
+ </row>
+ <row id="158" trl="Y">
+  <value column="Name" original="Performance Measurement">Показатели эффективности</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="159" trl="Y">
+  <value column="Name" original="Utility">Службы</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="160" trl="Y">
+  <value column="Name" original="Project Management">Управление проектами</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="161" trl="Y">
+  <value column="Name" original="System Rules">Системные правила</value>
+  <value column="Description" original="General System Rules">Основные системные правила</value>
+ </row>
+ <row id="163" trl="Y">
+  <value column="Name" original="Data Import">Импорт данных</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="164" trl="Y">
+  <value column="Name" original="Accounting Rules">Бухгалтерские правила</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="165" trl="Y">
+  <value column="Name" original="Business Partner Rules">Правила для клиентов</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="166" trl="Y">
+  <value column="Name" original="Quote-to-Invoice">Управление продажами</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="167" trl="Y">
+  <value column="Name" original="Material Management Rules">Правила управления запасами</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="175" trl="Y">
+  <value column="Name" original="Organization Rules">Правила организаций</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="183" trl="Y">
+  <value column="Name" original="Material Management">Управление запасами</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="203" trl="Y">
+  <value column="Name" original="Requisition-to-Invoice">Управление закупками</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="218" trl="Y">
+  <value column="Name" original="System Admin">Управление системой</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="236" trl="Y">
+  <value column="Name" original="Open Items">Открытые счета на оплату</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="263" trl="Y">
+  <value column="Name" original="Partner Relations">Партнерские взаимоотношения</value>
+  <value column="Description" original="Customer Relations and Partner Management">Управление взаимоотношениями с клиентами и партнерами</value>
+ </row>
+ <row id="271" trl="Y">
+  <value column="Name" original="Service">Управление службами</value>
+  <value column="Description" original="Service Management">Управление службами</value>
+ </row>
+ <row id="272" trl="Y">
+  <value column="Name" original="Sales and Marketing">Продажи и маркетинг</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="278" trl="Y">
+  <value column="Name" original="Performance Analysis">Анализ производительности</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="280" trl="Y">
+  <value column="Name" original="Financial Reporting">Финансовая отчетность</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="326" trl="Y">
+  <value column="Name" original="Printing">Печать</value>
+  <value column="Description" original="Print Definition">Определение печати</value>
+ </row>
+ <row id="345" trl="Y">
+  <value column="Name" original="Assets">Основные средства</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="357" trl="Y">
+  <value column="Name" original="Product Attributes">Характеристики товара</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="367" trl="Y">
+  <value column="Name" original="Security">Безопасность</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="372" trl="Y">
+  <value column="Name" original="Web">Веб</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="392" trl="Y">
+  <value column="Name" original="Knowledge Base">База знаний</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="456" trl="Y">
+  <value column="Name" original="Server">Сервер</value>
+  <value column="Description" original="iDempiere Server Maintenance">Поддержка сервера Adempiere</value>
+ </row>
+ <row id="457" trl="Y">
+  <value column="Name" original="Sales Orders">Заказы покупателей</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="458" trl="Y">
+  <value column="Name" original="Sales Invoices">Документы обязательств контрагенту</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="459" trl="Y">
+  <value column="Name" original="Shipments">Отгрузки</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="460" trl="Y">
+  <value column="Name" original="Market Place">Публичные торги</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="501" trl="Y">
+  <value column="Name" original="Workflow">Бизнес-процесс</value>
+  <value column="Description" original="iDempiere Workflow">Поток операций Adempiere</value>
+ </row>
+ <row id="522" trl="Y">
+  <value column="Name" original="Costing">Калькуляция себестоимости</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="528" trl="Y">
+  <value column="Name" original="Request">Запросы</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="566" trl="Y">
+  <value column="Name" original="Collaboration">Совместная работа</value>
+  <value column="Description" original="Collaboration and Content Management">Совместная работа и управление контентом</value>
+ </row>
+ <row id="50001" trl="Y">
+  <value column="Name" original="Application Packaging">Пакеты метаданных</value>
+  <value column="Description" original="Import and export packaging">Импорт и экспорт компановки</value>
+ </row>
+ <row id="52001" trl="Y">
+  <value column="Name" original="Web POS">Web терминал</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53014" trl="Y">
+  <value column="Name" original="Manufacturing Management">Управление производством</value>
+  <value column="Description" original="Manufacturing">Производство</value>
+ </row>
+ <row id="53016" trl="Y">
+  <value column="Name" original="Engineering Management">Управление ходом проектирования</value>
+  <value column="Description" original="Engineering management involves the overall management of organizations with an orientation to manufacturing, engineering, technology or production.">Управление ходом проектирования вовлекает общее управление организацией с ориентацией на производство, проектирование, технологию и продукицию</value>
+ </row>
+ <row id="53017" trl="Y">
+  <value column="Name" original="Resource Manufacturing">Производство ресурса</value>
+  <value column="Description" original="Resource Manufacturing">Производство ресурса</value>
+ </row>
+ <row id="53019" trl="Y">
+  <value column="Name" original="Manufacturing Workflow">Бизнес-процесс производства</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53022" trl="Y">
+  <value column="Name" original="Bill of Material &amp; Formulas">Ведомость материалов и формулы</value>
+  <value column="Description" original="Bill of Material &amp; Formulas">Ведомость материалов и формулы</value>
+ </row>
+ <row id="53029" trl="Y">
+  <value column="Name" original="Planning Management">Управление планированием</value>
+  <value column="Description" original="Using Planning Management you answer the question: When and How Many products we must get?">Используя управление планированием, Вы отвечаете на воспро: Когда и Сколько продукта Вам надо получить?</value>
+ </row>
+ <row id="53031" trl="Y">
+  <value column="Name" original="Product Planning">Планирование продукта</value>
+  <value column="Description" original="Product Planning">Планирование продукта</value>
+ </row>
+ <row id="53034" trl="Y">
+  <value column="Name" original="MRP">Планирование потребности в материалах</value>
+  <value column="Description" original="Materials Requirements Planning">Планирование потребности в материалах</value>
+ </row>
+ <row id="53043" trl="Y">
+  <value column="Name" original="CRP">Полное планирование требований</value>
+  <value column="Description" original="Capacity Requirements Planning">Полное планирование требований</value>
+ </row>
+ <row id="53048" trl="Y">
+  <value column="Name" original="DRP">Планирование распределения ресурсов</value>
+  <value column="Description" original="Distribution Resource Planning">Планирование распределения ресурсов</value>
+ </row>
+ <row id="53052" trl="Y">
+  <value column="Name" original="Production Management">Управление производством</value>
+  <value column="Description" original="Production Management">Управление производством</value>
+ </row>
+ <row id="53053" trl="Y">
+  <value column="Name" original="Discreet Manufacturing">Дискретное производство</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53061" trl="Y">
+  <value column="Name" original="Management Maintenance">Поддержка управления</value>
+  <value column="Description" original="Management Maintenance">Поддержка управления</value>
+ </row>
+ <row id="53063" trl="Y">
+  <value column="Name" original="Activity Control">Контроль деятельности</value>
+  <value column="Description" original="Activity Control">Контроль деятельности</value>
+ </row>
+ <row id="53066" trl="Y">
+  <value column="Name" original="Distribution Management">Управление распределением</value>
+  <value column="Description" original="Distribution Resource Planning (DRP) is a method used in business administration for planning orders within a supply chain. ">Планирование распределения ресурсов (DRP - Distribution Resource Planning) является методом, используемым в области делового администрирования для планирования заказов на основании цепочек поставки товаров. </value>
+ </row>
+ <row id="53071" trl="Y">
+  <value column="Name" original="Quality Management">Управление качеством</value>
+  <value column="Description" original="Quality Management">Управление качеством</value>
+ </row>
+ <row id="53074" trl="Y">
+  <value column="Name" original="Standard Costing Management">Управление стандартной стоимостью</value>
+  <value column="Description" original="Standard Costing Management">Управление стандартной стоимостью</value>
+ </row>
+ <row id="53091" trl="Y">
+  <value column="Name" original="Global Tax Management">Управление налогами</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53098" trl="Y">
+  <value column="Name" original="Replication Data">Репликация данных</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53108" trl="Y">
+  <value column="Name" original="Human Resource &amp; Payroll">Штатное расписание</value>
+  <value column="Description" original="Human Resource &amp; Payroll">Штатное расписание</value>
+ </row>
+ <row id="53109" trl="Y">
+  <value column="Name" original="Human Resource">Штат сотрудников</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53114" trl="Y">
+  <value column="Name" original="Payroll">Платежная ведомость</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53133" trl="Y">
+  <value column="Name" original="Customer Service">Обслуживание покупателя</value>
+  <value column="Description" original="Customer Related Assets">Связанные активы покупателя</value>
+ </row>
+ <row id="53136" trl="Y">
+  <value column="Name" original="Asset Revaluation">Ревальвация активов</value>
+  <value column="Description" original="Process Asset Revaluations">Процесс ревальвации активов</value>
+ </row>
+ <row id="53139" trl="Y">
+  <value column="Name" original="Asset Transactions ">Разделение переводов и расположения</value>
+  <value column="Description" original="Asset Transactions (Addition, Disposal, Split &amp; Transfer)">Процесс разделения переводов и располодения активов</value>
+ </row>
+ <row id="53149" trl="Y">
+  <value column="Name" original="Depreciation Processing">Обработка амотризации</value>
+  <value column="Description" original="Applications to Process Fixed Assets to the GL">Приложения для помещения постоянных активов в главную бухгалтерскую книгу</value>
+ </row>
+ <row id="53155" trl="Y">
+  <value column="Name" original="Reporting">Составление отчетов</value>
+  <value column="Description" original="Reporting for fixed assets">Составление отчетов по постоянным активам</value>
+ </row>
+ <row id="53171" trl="Y">
+  <value column="Name" original="Depreciation Setup">Настройки амотризации</value>
+  <value column="Description" original="Applications to setup and maintain depreciation">Приложения для настройки и утверждения амотризации</value>
+ </row>
+ <row id="53180" trl="Y">
+  <value column="Name" original="Forecast Management">Управление прогнозом</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53242" trl="Y">
+  <value column="Name" original="Returns">Возвраты</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53247" trl="Y">
+  <value column="Name" original="EDI">EDI</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53296" trl="Y">
+  <value column="Name" original="Manufacturing">Производство</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53363" trl="Y">
+  <value column="Name" original="Sales Management">Управление активными продажами</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200095" trl="N">
+  <value column="Name" original="Import Template">Import Template</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="13d95484-fc52-4b7f-b16b-ae1f45c64986">
+  <value column="Name" original="Order DO">Размещение заказа ДО</value>
+  <value column="Description" original="Enter and change orders DO"/>
+ </row>
+ <row trl="Y" uuid="7a94a742-d830-4494-9c2a-f6e6c9df00d2">
+  <value column="Name" original="Order DO">Заказ ДО</value>
+  <value column="Description" original="Enter and change sales orders DO">Заказ ДО</value>
+ </row>
+ <row trl="N" uuid="9b27b8d1-87be-4041-9143-f6c2a94ae637">
+  <value column="Name" original="Business Process Flow">Business Process Flow</value>
+  <value column="Description" original="all kind of business process">all kind of business process</value>
+ </row>
+ <row trl="N" uuid="5d3f9db1-24cd-43a8-8122-2757117f6a62">
+  <value column="Name" original="Process Admin">Process Admin</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="630404ae-bd21-45af-b0df-8c5329818306">
+  <value column="Name" original="External systems">Внешние системы</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="df9fa7f3-7564-46e9-9438-5fa778d928f8">
+  <value column="Name" original="Service Desk">Тех. поддержка</value>
+  <value column="Description" original="Service Desk">Тех. поддержка</value>
+ </row>
+ <row trl="Y" uuid="1f09fbaa-ed62-4629-a5ba-1a6734359531">
+  <value column="Name" original="CI management">Управление конфигурациями</value>
+  <value column="Description" original="CI management">Управление конфигурационными единицами</value>
+ </row>
+ <row trl="Y" uuid="10585723-32bc-4ae0-a4c8-59b7fa7a6ad8">
+  <value column="Name" original="Request Management">Управление заявками</value>
+  <value column="Description" original="">Управление заявками SD</value>
+ </row>
+ <row trl="Y" uuid="29a4f767-42ae-4008-9c31-837c1803f607">
+  <value column="Name" original="Task Managment">Управление задачами</value>
+  <value column="Description" original="Task Managment">Управление задачами</value>
+ </row>
+ <row trl="Y" uuid="08a562dd-b754-4ae1-b98f-c5d83e80d276">
+  <value column="Name" original="Change Managment">Управление изменениями (WT)</value>
+  <value column="Description" original="Change Managment">Управление изменениями (WT)</value>
+ </row>
+ <row trl="Y" uuid="7f0e110f-70ea-483f-a684-08987d9e4f5f">
+  <value column="Name" original="Reporting Managment">Управление отчётностью</value>
+  <value column="Description" original="Reporting Managment">Управление отчётностью</value>
+ </row>
+ <row trl="Y" uuid="6ac2ac68-482f-4ac8-8e6a-e7358cd82c4d">
+  <value column="Name" original="Order CI">Заказ коммерческого включения</value>
+  <value column="Description" original="Enter and change orders CI">Ведение заказа коммерческого включения</value>
+ </row>
+ <row trl="Y" uuid="27cd7c53-7a04-47d6-9f12-758de1eafdcf">
+  <value column="Name" original="Work Ticket">Планирование WT</value>
+  <value column="Description" original="Work Ticket for Service Desk">Управление изменениями</value>
+ </row>
+ <row trl="N" uuid="3937b32c-747e-45c6-8afd-43b9ffb8bf69">
+  <value column="Name" original="MPNotice">Согласование WT</value>
+  <value column="Description" original="View MP Notices">Согласование WT</value>
+ </row>
+ <row trl="Y" uuid="b189a92f-aa5b-412a-bf8f-228ca38ef51f">
+  <value column="Name" original="MPRequest">Ведение заявок</value>
+  <value column="Description" original="View MP Request">Ведение заявок</value>
+ </row>
+ <row trl="Y" uuid="a88800c2-0936-46db-bbf9-63d2ca71a1ee">
+  <value column="Name" original="MP Event">Панель событий</value>
+  <value column="Description" original="MP Event">Панель событий</value>
+ </row>
+ <row trl="Y" uuid="46ca82eb-d91a-4356-b807-c758a35af723">
+  <value column="Name" original="MP_Queue_Executor">Настройка привязки очередей</value>
+  <value column="Description" original="MP Queue Executor relation">Настройка привязки очередей очередей к сотрудникам (ролям, подразделениям, рабочим группам)</value>
+ </row>
+ <row trl="Y" uuid="8f1e1ee5-152b-4230-b77e-2fc57b565c3b">
+  <value column="Name" original="Запросить информацию о тарифе">Запросить информацию о тарифе</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="9ad0f44e-2d8c-48dc-a98a-eb469be1f938">
+  <value column="Name" original="Omnisearch">Универсальный поиск</value>
+  <value column="Description" original="Omnisearch">Универсальный поиск</value>
+ </row>
+ <row trl="Y" uuid="fd35fc7a-0d8a-4fa3-8e30-d8e041223cb9">
+  <value column="Name" original="Create/Recreate Omnisearch Index">Создать/Обновить индекс поиска</value>
+  <value column="Description" original="This process creates/recreates the index document used for global searches in the dashboard panel.">Создать/Обновить индекс поиска</value>
+ </row>
+ <row trl="Y" uuid="0e19a360-2500-4df0-be5c-b639fb117ab7">
+  <value column="Name" original="MP Problem">Проблемы</value>
+  <value column="Description" original="View MP Problem">Проблемы</value>
+ </row>
+ <row trl="Y" uuid="de01d9bf-1674-4029-9dc2-2b0f2ab7a6f0">
+  <value column="Name" original="MPRequestMontage">Ведение заявок поддержки монтажа</value>
+  <value column="Description" original="MPRequestMontage">Ведение заявок поддержки монтажа для оператора</value>
+ </row>
+ <row trl="Y" uuid="c76e5909-3d53-4a2c-91cd-b937f9b7825a">
+  <value column="Name" original="Call Сenter Service">ЦОВ</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="9480bca2-8ee2-418a-a3cf-0afb0c5baabd">
+  <value column="Name" original="MPRequestMontageCall">Ведение заявок поддержки монтажа ЦОВ</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="892ac797-5408-4467-a798-9d22fecf8b15">
+  <value column="Name" original="MPWeather">Тип погоды</value>
+  <value column="Description" original="">Тип погоды</value>
+ </row>
+ <row trl="Y" uuid="489fb77e-6555-4e4a-99cb-7ac50e6e8b37">
+  <value column="Name" original="MPTypeModem">Тип модема</value>
+  <value column="Description" original="MPTypeModem">Тип модема</value>
+ </row>
+ <row trl="Y" uuid="fb5a04ce-e26a-4670-afb0-f0760978ebf7">
+  <value column="Name" original="ResourceAllocate">Распределение суточных смен</value>
+  <value column="Description" original=""/>
+ </row>
+</idempiereTrl>

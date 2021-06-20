@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- config.xml
+	Purpose:
+		
+	Description:
+		
+	History:
+		Tue, Jun 19, 2012 11:30:07 AM, Created by jumperchen
+
+Copyright (C) 2012 Potix Corporation. All Rights Reserved.
+-->
+
+<config>
+	<config-name>openlayers</config-name><!-- used to resolve dependency -->
+	<depends>zul</depends>
+
+	<version>
+		<version-class>org.zkoss.openlayers.Version</version-class>
+		<version-uid>1.0.2-SNAPSHOT</version-uid>
+	</version>
+</config>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="ru_RU" table="C_DocType">
+ <row id="0" trl="Y">
+  <value column="Name" original="** New **">** НОВЫЙ **</value>
+  <value column="PrintName" original="** New **">** НОВЫЙ **</value>
+  <value column="DocumentNote" original="** NO INVOICE **">** НЕТ СЧЕТОВ **</value>
+ </row>
+ <row trl="Y" uuid="d88c8d70-a8ef-45f7-bf00-24ec86e6a9aa">
+  <value column="Name" original="Work ticket">Work ticket</value>
+  <value column="PrintName" original="Work ticket">Work ticket</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="N" uuid="392b5e69-34f2-495b-80f3-7a44ddeeffc9">
+  <value column="Name" original="Trouble Ticket">Trouble Ticket</value>
+  <value column="PrintName" original="Trouble Ticket">Trouble Ticket</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="N" uuid="fe83a87a-96b9-46bb-9d7f-8525f720d623">
+  <value column="Name" original="MP Problems">MP Problems</value>
+  <value column="PrintName" original="MP Problems">MP Problems</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="N" uuid="63055312-b8d4-424a-a1a2-0213cf0f8e82">
+  <value column="Name" original="MP Montage">MP Montage</value>
+  <value column="PrintName" original="MP Montage">MP Montage</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+</idempiereTrl>

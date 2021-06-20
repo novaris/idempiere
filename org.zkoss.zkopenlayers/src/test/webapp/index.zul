@@ -1,0 +1,12 @@
+<zk>
+	<borderlayout vflex="1" hflex="1" apply="ctrl.DemoComposer">
+		<west title="ZK Openlayer Gallery" size="250px" flex="true"
+			splittable="true" minsize="210" maxsize="500" collapsible="true">
+			<listbox id="listdemo" sclass="demo-items" oddRowSclass="non-odd"
+				style="border: 0;" />
+		</west>
+		<center autoscroll="true">
+			<iframe style="padding:3px;" vflex="1" hflex="1" id="xcontents" />
+		</center>
+	</borderlayout>
+</zk>

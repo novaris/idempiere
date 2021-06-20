@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="ru_RU" table="JP_InfoGadgetCategory">
+ <row trl="Y" uuid="3bbf818f-b2d2-4a89-8b6d-904ed1830111">
+  <value column="Name" original="Info Window">Информационное окно</value>
+  <value column="Description" original="Info Window">Информационное окно</value>
+  <value column="Help" original=""/>
+ </row>
+</idempiereTrl>

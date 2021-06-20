@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="ru_RU" table="AD_Table">
+ <row trl="Y" uuid="31c7ade9-4337-4338-8808-8d8c52587017">
+  <value column="Name" original="RIT_Email_Processor">Почтовый сервер</value>
+ </row>
+ <row trl="Y" uuid="57f664f4-4e58-4326-b215-7c14cabd6c11">
+  <value column="Name" original="RIT_Segment_ID">Бизнес сегменты</value>
+ </row>
+</idempiereTrl>

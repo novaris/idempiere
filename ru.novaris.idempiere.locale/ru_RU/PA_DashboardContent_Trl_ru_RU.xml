@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="ru_RU" table="PA_DashboardContent">
+ <row id="50000" trl="Y">
+  <value column="Name" original="Activities">Активность</value>
+  <value column="Description" original="Workflow activities, notices and requests">Workflow активности, сообщения и запросы</value>
+  <value column="HTML" original=""/>
+ </row>
+ <row id="50001" trl="Y">
+  <value column="Name" original="Favourites">Избранное</value>
+  <value column="Description" original="User favourities">Пользовательские предпочтения</value>
+  <value column="HTML" original=""/>
+ </row>
+ <row id="50002" trl="Y">
+  <value column="Name" original="Views">Информация</value>
+  <value column="Description" original="Info views">Просмотр Информации</value>
+  <value column="HTML" original=""/>
+ </row>
+ <row id="50003" trl="Y">
+  <value column="Name" original="Performance">Производительность</value>
+  <value column="Description" original="Performance meters">Параметры производительности (эффективности)</value>
+  <value column="HTML" original=""/>
+ </row>
+ <row id="200000" trl="Y">
+  <value column="Name" original="Recent Items">Последние элементы</value>
+  <value column="Description" original="Recent items">Последние элементы</value>
+  <value column="HTML" original=""/>
+ </row>
+ <row id="200001" trl="Y">
+  <value column="Name" original="Menu">Меню</value>
+  <value column="Description" original="Menu">Меню</value>
+  <value column="HTML" original=""/>
+ </row>
+ <row id="200002" trl="Y">
+  <value column="Name" original="Running Jobs">Исполняемые задания</value>
+  <value column="Description" original="Running Jobs">Исполняемые задания</value>
+  <value column="HTML" original=""/>
+ </row>
+ <row id="200003" trl="Y">
+  <value column="Name" original="Activities">Активности</value>
+  <value column="Description" original="">Workflow активности, сообщения и запросы</value>
+  <value column="HTML" original=""/>
+ </row>
+ <row trl="Y" uuid="ebb30aaf-05e1-47dc-958b-38b53ea576fa">
+  <value column="Name" original="Calendar">Календарь</value>
+  <value column="Description" original="Request calendar">Календарь запросов</value>
+  <value column="HTML" original=""/>
+ </row>
+ <row trl="Y" uuid="aea19bdd-9984-4297-9ce7-c1d1a7b69e4f">
+  <value column="Name" original="Lead Activities">Активность лидов</value>
+  <value column="Description" original="Lead Activities">Активность лидов</value>
+  <value column="HTML" original=""/>
+ </row>
+ <row trl="Y" uuid="e2c19bbd-5f75-4348-bebd-a67158355732">
+  <value column="Name" original="Custom Activity">Активные продажи</value>
+  <value column="Description" original=""/>
+  <value column="HTML" original=""/>
+ </row>
+ <row trl="N" uuid="af335705-1195-4dc5-9a34-23987a9ef725">
+  <value column="Name" original="OpenMap">OpenMap</value>
+  <value column="Description" original=""/>
+  <value column="HTML" original=""/>
+ </row>
+ <row trl="Y" uuid="bac9c9e6-c194-40c6-9954-485da100d982">
+  <value column="Name" original="Orders">Заказы ДО</value>
+  <value column="Description" original="Manager orders">Заказы менеджера</value>
+  <value column="HTML" original=""/>
+ </row>
+ <row trl="Y" uuid="72d830f5-4cf5-465f-b124-ec93ceb9b1fc">
+  <value column="Name" original="RIT Activities">Активности бизнес-процессов</value>
+  <value column="Description" original="RIT Activities">Активности бизнес-процессов</value>
+  <value column="HTML" original=""/>
+ </row>
+ <row trl="N" uuid="1d53beb9-b65c-44a0-97b3-dea75e2d3ae7">
+  <value column="Name" original="new_contact_activities">Новые активности Лидов/Контрагентов</value>
+  <value column="Description" original=""/>
+  <value column="HTML" original=""/>
+ </row>
+ <row trl="N" uuid="dd2ad175-9f6a-45b4-aee2-17be4c32dea6">
+  <value column="Name" original="test">test</value>
+  <value column="Description" original=""/>
+  <value column="HTML" original=""/>
+ </row>
+ <row trl="Y" uuid="62824a2f-9522-48d1-a066-998e7d0481c8">
+  <value column="Name" original="my_new_leads">Мои лиды</value>
+  <value column="Description" original=""/>
+  <value column="HTML" original=""/>
+ </row>
+ <row trl="Y" uuid="4928a52e-f0da-4b99-bea3-ad55000c863f">
+  <value column="Name" original="dep_new_leads">Лиды подразделения</value>
+  <value column="Description" original=""/>
+  <value column="HTML" original=""/>
+ </row>
+ <row trl="Y" uuid="07f1f7dd-2a0c-4f60-a8d1-c4d600bb1a9c">
+  <value column="Name" original="mpinfo">Техподдержка</value>
+  <value column="Description" original="">Техподдержка</value>
+  <value column="HTML" original=""/>
+ </row>
+ <row trl="Y" uuid="df7195b8-e3e5-4234-ba0e-d58ea52b4a80">
+  <value column="Name" original="Requests">Запросы</value>
+  <value column="Description" original=""/>
+  <value column="HTML" original=""/>
+ </row>
+ <row trl="Y" uuid="957cdc53-741b-402c-be63-7de4f3c2f8c2">
+  <value column="Name" original="mpottt">Очереди заявок</value>
+  <value column="Description" original=""/>
+  <value column="HTML" original=""/>
+ </row>
+ <row trl="Y" uuid="2676b7b7-d013-4d4b-93be-f546e5b32112">
+  <value column="Name" original="Omnisearch">Универсальный поиск</value>
+  <value column="Description" original="">Универсальный поиск</value>
+  <value column="HTML" original=""/>
+ </row>
+ <row trl="Y" uuid="c68a2902-ebe3-4e66-a5da-257615845ea0">
+  <value column="Name" original="RIT Activities WF">Активности бизнес-процессов</value>
+  <value column="Description" original="RIT Activities WF">Активности бизнес-процессов</value>
+  <value column="HTML" original=""/>
+ </row>
+</idempiereTrl>

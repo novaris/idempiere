@@ -1,47 +1,34 @@
+# idempiere for Openlayers 2
+[ZK](https://github.com/zkoss/zk) wrapper for [OpenLayers 2](https://github.com/openlayers/openlayers), an industry
+standard JS library for embedding interactive maps in web applications.
 
-# <b>AMERPSOFT COMMUNITY PLUGINS</b>
+This project enables you to create Maps, Layers, and Features in Java or ZUL, with server side event handling and updates and run on iDempiere ERP whith Business Theme
 
-## <b>COMMUNITY PLUGINS</b>
-These plugins and tutorials are brought to you by Luis Amesty from:
+## Download
 
-[Amerpsoft Consulting](http://amerpsoft.com/index.php/en/)
+#### Requirements
+1. OpenJDK 11
+2. Maven 3.0 or above
+2. iDempiere 8.2.0 or above whith build tycho (http://wiki.idempiere.org/en/Building_iDempiere_by_tycho)
 
-For any question or improvement see me at:
+## Quick Start
+1. Clone this repository
+2. Build zkopenlayers for local repository: cd org.zkoss.zkopenlayers; mvn install
+3. Rewrite pom and META-INFO in original Idempiere:
+org.adempiere.ui.zk
+org.idempiere.zk.extra 
 
-[Idempiere WIKI User Luis Amesty](https://wiki.idempiere.org/en/User:Luisamesty)
+Install this bundles or build full version iDempiere (maven and tycho: mvn verify)
+On bundle org.idempiere.zk.extra --- info whith Openlayers
 
-[LinkedIn: Luis Amesty](https://www.linkedin.com/in/luisamesty/)
+4. Build bundle business theme: cd ru.novaris.idempiere.ui.zk.themes; mvn verify  
+5. Deploy theme bundle to iDempiere by OSGi console and change theme iDempiere to business (ZK_THEME - searchKey to "business") 
+6. Example application in ru.novaris.idempiere.nms.ui.zk.openlayers (need change before deploy)  
 
-[email](luisamesty @ gmail.com) to me. <br/>
-
-## <b>Description</b>
-
-This repository is a main project for several Idempiere Plugins shared and published for Idempiere Community.
-
-For more information on How to build idempiere Maven projects, see on Wiki: 
-
-[Building iDempiere Plugins with Maven](https://wiki.idempiere.org/en/Building_iDempiere_Plugins_with_Maven)
-
-## <b>Content</b>
-
-- [Home](https://github.com/luisamesty/Amerpsoft-iDempiere-community/blob/master/README.md)
+## ZK Version
+Applicable to iDempiere 8.2 and later.
 
 
-- [AMERPSOFT Themes for iDempiere Version 7.1 or Older](https://github.com/luisamesty/Amerpsoft-iDempiere-community/blob/master/org.amerpsoft.com.idempiere.themes-com/README.md)
+##Project License
+[GNU General Public License (GPL) v2](https://www.gnu.org/licenses/gpl-2.0.txt)
 
-- [AMERPSOFT Editor - Location Extended](https://github.com/luisamesty/Amerpsoft-iDempiere-community/blob/master/org.amerpsoft.com.idempiere.editors-com/README.md)
-
-- [AMERPSOFT LCO Withholding](https://github.com/luisamesty/Amerpsoft-iDempiere-community/blob/master/org.amerpsoft.com.idempiere.lco.withholding/README.md)
-
-- [AMERPSOFT Financial - Basic Financial](https://github.com/luisamesty/Amerpsoft-iDempiere-community/blob/master/org.amerpsoft.com.idempiere.financial/README.md)
-
-- [AMERPSOFT ZK_Themes NEW for iDempiere Version 8.2](https://github.com/luisamesty/Amerpsoft-iDempiere-community/blob/master/org.amerpsoft.com.idempiere.zk_themes/README.md)
-
-## <b>Wiki Idempiere</b>
--[AMERPSOFT Editor - Extended Location](http://wiki.idempiere.org/en/Plugin:_Extended_Location)
-
--[AMERPSOFT Themes](https://wiki.idempiere.org/en/Plugin:_Themes_Amerpsoft)
-
--[Building iDempiere Plugins with Maven](https://wiki.idempiere.org/en/Building_iDempiere_Plugins_with_Maven)
-
-#### Updated for Idempiere release 8.2 - February 2021

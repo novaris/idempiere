@@ -13,22 +13,6 @@
 
 	<packaging>eclipse-plugin</packaging>
 	<dependencies>
-		<dependency>
-			<groupId>org.apache.httpcomponents</groupId>
-			<artifactId>httpclient</artifactId>
-			<version>4.5.2</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.httpcomponents</groupId>
-			<artifactId>httpcore</artifactId>
-			<version>4.4.6</version>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/commons-logging/commons-logging -->
-		<dependency>
-			<groupId>commons-logging</groupId>
-			<artifactId>commons-logging</artifactId>
-			<version>1.2</version>
-		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.osgeo/proj4j -->
 		<dependency>
 			<groupId>org.osgeo</groupId>
@@ -55,21 +39,6 @@
 							<overWriteIfNewer>true</overWriteIfNewer>
 							<stripVersion>true</stripVersion>
 							<artifactItems>
-
-								<artifactItem>
-									<groupId>org.apache.httpcomponents</groupId>
-									<artifactId>httpclient</artifactId>
-								</artifactItem>
-
-								<artifactItem>
-									<groupId>org.apache.httpcomponents</groupId>
-									<artifactId>httpcore</artifactId>
-								</artifactItem>
-
-								<artifactItem>
-									<groupId>commons-logging</groupId>
-									<artifactId>commons-logging</artifactId>
-								</artifactItem>
 
 								<artifactItem>
 									<groupId>org.osgeo</groupId>

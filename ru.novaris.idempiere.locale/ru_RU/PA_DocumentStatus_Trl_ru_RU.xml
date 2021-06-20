@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="ru_RU" table="PA_DocumentStatus">
+ <row id="200002" trl="Y">
+  <value column="Name" original="Notice">Уведомления</value>
+ </row>
+ <row id="200003" trl="Y">
+  <value column="Name" original="Request">Запросы</value>
+ </row>
+ <row id="200004" trl="Y">
+  <value column="Name" original="Workflow Activities">Активности бизнес процессов</value>
+ </row>
+ <row id="200005" trl="Y">
+  <value column="Name" original="Unprocessed Documents">Необработанные документы</value>
+ </row>
+ <row id="200200" trl="N">
+  <value column="Name" original="Lead Status Activity">Lead Status Activity</value>
+ </row>
+ <row trl="Y" uuid="bc0eddc3-18b2-46c9-8fc0-b171b8e3d77d">
+  <value column="Name" original="Critical Workflow Activities">Критические активности бизнес процессов</value>
+ </row>
+</idempiereTrl>

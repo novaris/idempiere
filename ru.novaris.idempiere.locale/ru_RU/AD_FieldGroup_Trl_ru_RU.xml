@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="ru_RU" table="AD_FieldGroup">
+ <row id="101" trl="Y">
+  <value column="Name" original="Status">Статус</value>
+ </row>
+ <row id="102" trl="Y">
+  <value column="Name" original="Quantities">Количество</value>
+ </row>
+ <row id="103" trl="Y">
+  <value column="Name" original="Amounts">Расчетный период</value>
+ </row>
+ <row id="104" trl="Y">
+  <value column="Name" original="Reference">Ссылка</value>
+ </row>
+ <row id="105" trl="Y">
+  <value column="Name" original="History">Журнал</value>
+ </row>
+ <row id="106" trl="Y">
+  <value column="Name" original="Product">Продукт</value>
+ </row>
+ <row id="107" trl="Y">
+  <value column="Name" original="Business Partner">Контрагент</value>
+ </row>
+ <row id="108" trl="Y">
+  <value column="Name" original="Warehouse">Склад</value>
+ </row>
+ <row id="109" trl="Y">
+  <value column="Name" original="Bank Accounts">Банк</value>
+ </row>
+ <row id="110" trl="Y">
+  <value column="Name" original="Cash Book Accounts">Кассовая книга</value>
+ </row>
+ <row id="111" trl="Y">
+  <value column="Name" original="Tax Accounts">Налог</value>
+ </row>
+ <row id="112" trl="Y">
+  <value column="Name" original="Project Accounts">Проект</value>
+ </row>
+ <row id="113" trl="Y">
+  <value column="Name" original="General">Общие</value>
+ </row>
+ <row id="114" trl="Y">
+  <value column="Name" original="Action">Действие</value>
+ </row>
+ <row id="115" trl="Y">
+  <value column="Name" original="Standard Cost">Оcновная стоимость</value>
+ </row>
+ <row id="116" trl="Y">
+  <value column="Name" original="Actual Costs">Фактическая стоимость</value>
+ </row>
+ <row id="117" trl="Y">
+  <value column="Name" original="Statistics">Статистика</value>
+ </row>
+ <row id="118" trl="Y">
+  <value column="Name" original="Defaults">По умолчанию</value>
+ </row>
+ <row id="119" trl="Y">
+  <value column="Name" original="Request Management">Управление запросами</value>
+ </row>
+ <row id="120" trl="Y">
+  <value column="Name" original="Web Store">Web магазин</value>
+ </row>
+ <row id="121" trl="Y">
+  <value column="Name" original="Internal">Внутренние</value>
+ </row>
+ <row id="122" trl="Y">
+  <value column="Name" original="External">Внешние</value>
+ </row>
+ <row id="123" trl="Y">
+  <value column="Name" original="Common">Общие</value>
+ </row>
+ <row id="124" trl="Y">
+  <value column="Name" original="Shipment">Товар</value>
+ </row>
+ <row id="125" trl="Y">
+  <value column="Name" original="Document">Документ</value>
+ </row>
+ <row id="126" trl="Y">
+  <value column="Name" original="Line">Строка</value>
+ </row>
+ <row id="127" trl="Y">
+  <value column="Name" original="Simulation">Моделирование</value>
+ </row>
+ <row id="128" trl="Y">
+  <value column="Name" original="Calculations">Вычисление</value>
+ </row>
+ <row id="129" trl="Y">
+  <value column="Name" original="Proxy">Прокси</value>
+ </row>
+ <row id="130" trl="Y">
+  <value column="Name" original="Delivery">Доставка</value>
+ </row>
+ <row id="131" trl="Y">
+  <value column="Name" original="Invoicing">Выставление счетов</value>
+ </row>
+ <row id="132" trl="Y">
+  <value column="Name" original="Only ..">Только ...</value>
+ </row>
+ <row id="133" trl="Y">
+  <value column="Name" original="Selection">Выбор</value>
+ </row>
+ <row id="134" trl="Y">
+  <value column="Name" original="Workflow">Рабочий процесс</value>
+ </row>
+ <row id="135" trl="Y">
+  <value column="Name" original="Access">Доступ</value>
+ </row>
+ <row id="50000" trl="Y">
+  <value column="Name" original="Allow Info In Role">Информация доступна для ролей</value>
+ </row>
+ <row id="50001" trl="Y">
+  <value column="Name" original="Accounts">Счета</value>
+ </row>
+ <row id="50002" trl="Y">
+  <value column="Name" original="Setup">Установка</value>
+ </row>
+ <row id="50003" trl="Y">
+  <value column="Name" original="Dates">Даты</value>
+ </row>
+ <row id="50004" trl="Y">
+  <value column="Name" original="Revaluation Accounts">Переоценка счетов</value>
+ </row>
+ <row id="50005" trl="Y">
+  <value column="Name" original="Contract">Контракт</value>
+ </row>
+ <row id="50006" trl="Y">
+  <value column="Name" original="Options">Настройки</value>
+ </row>
+ <row id="50007" trl="Y">
+  <value column="Name" original="General Ledger">Главная книга</value>
+ </row>
+ <row id="50008" trl="Y">
+  <value column="Name" original="Machines">Машины</value>
+ </row>
+ <row id="50009" trl="Y">
+  <value column="Name" original="Database">База данных</value>
+ </row>
+ <row id="50010" trl="Y">
+  <value column="Name" original="Manufacturing Accounts">Производство</value>
+ </row>
+ <row id="50012" trl="Y">
+  <value column="Name" original="Logo">Логотип</value>
+ </row>
+ <row id="50016" trl="Y">
+  <value column="Name" original="Location">Расположение</value>
+ </row>
+ <row id="50017" trl="Y">
+  <value column="Name" original="Fixed Asset">Основное Средство</value>
+ </row>
+ <row id="50018" trl="Y">
+  <value column="Name" original="Maintenance">Обслуживание</value>
+ </row>
+ <row id="50019" trl="Y">
+  <value column="Name" original="Funding">Финансирование</value>
+ </row>
+ <row id="50020" trl="Y">
+  <value column="Name" original="Depreciation">Возражение</value>
+ </row>
+ <row id="200000" trl="Y">
+  <value column="Name" original="Swing Position">Повернуть Позицию</value>
+ </row>
+ <row id="200001" trl="Y">
+  <value column="Name" original="Web Position">Положение Web</value>
+ </row>
+ <row id="200003" trl="Y">
+  <value column="Name" original="User Locking">Блокировка пользователя</value>
+ </row>
+ <row id="200004" trl="Y">
+  <value column="Name" original="Overwritten From Column">Перезаписано из колонки</value>
+ </row>
+ <row id="200005" trl="Y">
+  <value column="Name" original="Customer Information">Информация о Покупателе</value>
+ </row>
+ <row id="200006" trl="Y">
+  <value column="Name" original="Vendor Information">Информация о Продавце</value>
+ </row>
+ <row id="200007" trl="Y">
+  <value column="Name" original="Sales Information">Информация о Продажах</value>
+ </row>
+ <row id="200008" trl="Y">
+  <value column="Name" original="Document Preferences">Свойства Документа</value>
+ </row>
+ <row id="200009" trl="Y">
+  <value column="Name" original="Charge Account">Счёт начисления</value>
+ </row>
+ <row id="200010" trl="Y">
+  <value column="Name" original="Business Partner Accounts">Счета Бизнес Партнёра</value>
+ </row>
+ <row id="200011" trl="Y">
+  <value column="Name" original="Product Accounts">Счета Продукта</value>
+ </row>
+ <row id="200012" trl="Y">
+  <value column="Name" original="Warehouse Accounts">Склад Счетов</value>
+ </row>
+ <row id="200013" trl="Y">
+  <value column="Name" original="Product Category Accounts">Счета Категорий Продукта</value>
+ </row>
+ <row id="200014" trl="Y">
+  <value column="Name" original="Business Partner Group Accounts">Группа Счетов Бизнес Парнёра</value>
+ </row>
+ <row id="200015" trl="Y">
+  <value column="Name" original="Technical">Технический</value>
+ </row>
+ <row id="200016" trl="Y">
+  <value column="Name" original="Foreign Key">Внешний ключ</value>
+ </row>
+ <row id="200018" trl="Y">
+  <value column="Name" original="Background Job">Фоновое задание</value>
+ </row>
+ <row id="200022" trl="N">
+  <value column="Name" original="Placeholders">Placeholders</value>
+ </row>
+ <row trl="Y" uuid="860193f8-7c72-49fe-bdad-7c367a33fc80">
+  <value column="Name" original="Registration certificate">Cвидетельство о регистрации</value>
+ </row>
+ <row trl="N" uuid="fefd26a2-00ed-417c-b8c3-a63560585e10">
+  <value column="Name" original="Options notice">Options notice</value>
+ </row>
+ <row trl="N" uuid="9359cee9-2c74-4a1b-b31e-c60e73f26878">
+  <value column="Name" original="Information">Information</value>
+ </row>
+ <row trl="N" uuid="2ad3a0a0-36c8-449d-b662-d293891a72ec">
+  <value column="Name" original="Custom Value">Custom Value</value>
+ </row>
+ <row trl="N" uuid="35a78aa6-73c6-4fbd-a719-4fc57c2f88cc">
+  <value column="Name" original="Transaction">Transaction</value>
+ </row>
+ <row trl="N" uuid="431b3ee0-c4d9-4aef-8aca-962ee9578478">
+  <value column="Name" original="Exception">Exception</value>
+ </row>
+ <row trl="N" uuid="956724c3-96d6-45e0-9eeb-81e65102868f">
+  <value column="Name" original="Condition">Condition</value>
+ </row>
+ <row trl="Y" uuid="106f12b7-4ce0-4516-8f6e-6486ea6520dd">
+  <value column="Name" original="Location (collapse)">Расположение</value>
+ </row>
+ <row trl="Y" uuid="d911d27e-3088-4eac-bedf-e5b67f024b6e">
+  <value column="Name" original="Maintenance (collapse)">Обслуживание</value>
+ </row>
+ <row trl="Y" uuid="2d2a7974-e28c-49eb-a94a-e7c786e79837">
+  <value column="Name" original="Status (collapse)">Статус</value>
+ </row>
+ <row trl="N" uuid="6cd21fd7-49e3-493d-acb3-1097c7dafaca">
+  <value column="Name" original="Время проведения работ">Время проведения работ</value>
+ </row>
+ <row trl="N" uuid="f8bdfeb9-ba93-48ee-b7b8-82c884685cd9">
+  <value column="Name" original="Изменение физического подключения для клиентов">Изменение физического подключения для клиентов</value>
+ </row>
+ <row trl="Y" uuid="a1b24122-5298-4ace-b125-7c8be5e4b2c5">
+  <value column="Name" original="InstallationMasterData">Основные данные монтажа</value>
+ </row>
+ <row trl="Y" uuid="2f7cda90-4ffa-4ef8-ba95-9204ce47be3e">
+  <value column="Name" original="PowerStation">Энергетика станции</value>
+ </row>
+ <row trl="Y" uuid="41de166e-8d84-47aa-b3b1-db30b20d44c2">
+  <value column="Name" original="LocationCoordinates">Координаты места установки</value>
+ </row>
+ <row trl="Y" uuid="3bc3e044-7ff7-4521-950a-0c2a7d9e6861">
+  <value column="Name" original="Request Description">Описание Заявки</value>
+ </row>
+ <row trl="Y" uuid="0b81d6db-a40b-4050-a930-2a5d1f66109f">
+  <value column="Name" original="Client contacts">Контакты клиента</value>
+ </row>
+ <row trl="Y" uuid="36462480-bbf8-460b-9ea6-7f946a199ef2">
+  <value column="Name" original="Client asset">Актив Клиента</value>
+ </row>
+ <row trl="Y" uuid="0c0bbccf-0c3e-41d1-b80c-9e4179219fc4">
+  <value column="Name" original="Request Details">Детали Заявки</value>
+ </row>
+ <row trl="Y" uuid="9fe3b5da-6d1f-47d3-b38d-410ba44ead84">
+  <value column="Name" original="NPS">NPS</value>
+ </row>
+ <row trl="Y" uuid="28b3a61a-4a5e-49ec-8f71-27e385805cc3">
+  <value column="Name" original="CU">КЕ</value>
+ </row>
+ <row trl="Y" uuid="e8d080cd-a9bd-445f-bb5f-0bce344267db">
+  <value column="Name" original="Referenced objects">Связанные объекты</value>
+ </row>
+ <row trl="Y" uuid="b25a5608-072a-4742-9d8e-9124f674b828">
+  <value column="Name" original="Temporary Executor">Временное подключение исполнителя</value>
+ </row>
+</idempiereTrl>
