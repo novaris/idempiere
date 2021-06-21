@@ -1,17 +1,16 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <artifactId>amerpsoft-idempiere-community</artifactId>
+  <artifactId>ru.novaris.idempiere</artifactId>
   <version>8.2.0-SNAPSHOT</version>
   <packaging>pom</packaging>
   <modules>
-   	<module>org.amerpsoft.com.idempiere.feature</module> 	
-  	<module>org.amerpsoft.com.idempiere.editors-com</module>
-  	<module>org.amerpsoft.com.idempiere.themes-com</module>
-  	<module>org.amerpsoft.com.idempiere.zk_themes</module>
-  	<module>org.amerpsoft.com.idempiere.lco.withholding</module>
-  	<module>org.amerpsoft.com.idempiere.financial</module>
-  	<module>org.amerpsoft.com.idempiere.p2.site</module>
-  	<module>org.amerpsoft.com.idempiere.p2.targetplatform</module>
+   	<module>ru.novaris.idempiere.feature</module> 	
+   	<module>org.kanbanboard</module> 	
+   	<module>org.idempiere.mfg</module> 	
+   	<module>org.maximea.tms</module> 	
+  	<module>ru.novaris.idempiere.nms.ui.zk.gmaps</module>
+  	<module>ru.novaris.idempiere.p2.site</module>
+  	<module>ru.novaris.idempiere.p2.targetplatform</module>
   </modules>
   <groupId>org.idempiere</groupId>
 </project>

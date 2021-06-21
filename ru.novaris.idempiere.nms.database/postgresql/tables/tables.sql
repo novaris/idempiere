@@ -1,0 +1,20 @@
+\o logs/tables.log
+\qecho `date`
+\qecho `pwd`
+\qecho \conninfo
+\i tables/nm_protocol.sql
+\i tables/nm_module.sql
+\i tables/nm_sensor_type.sql
+\i tables/nm_sensor.sql
+\i tables/nm_calibration_type.sql
+\i tables/nm_calibration.sql
+\i tables/nm_calibration_value.sql
+\i tables/nm_profile.sql
+\i tables/nm_nav_data.sql
+\i tables/nm_nav_data_last.sql
+\i tables/nm_profile.sql
+\i tables/nm_attribute.sql
+\i tables/nm_profile_attribute.sql
+
+\i tables/nm_attribute_trl.sql
+\i tables/nm_sensor_type_trl.sql

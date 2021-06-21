@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="ru.novaris.idempiere"
+      label="ru.novaris.idempiere.nms.ui.zk.service"
+      version="6.1.0.qualifier">
+
+   <description url="http://www.novaris.ru/idempiere/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.novaris.ru/idempiere/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.novaris.ru/idempiere/license">
+      [Enter License Description here.]
+   </license>
+
+   <includes
+         id="org.idempiere.zk.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.adempiere.base.feature"
+         version="0.0.0"/>
+
+</feature>

@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Novaris Service Requests
+Bundle-SymbolicName: ru.novaris.idempiere.nms.ui.zk.service
+Bundle-Version: 8.2.0.qualifier
+Fragment-Host: org.adempiere.ui.zk
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Bundle-ClassPath: zul/,
+ .
+Bundle-Vendor: Novaris Ltd.
+Import-Package: org.compiere.util
+Automatic-Module-Name: ru.novaris.idempiere.nms.ui.zk.service

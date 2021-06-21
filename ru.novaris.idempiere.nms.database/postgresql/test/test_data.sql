@@ -1,0 +1,3 @@
+INSERT INTO nm_nav_data(nav_id, nav_type, nm_module_id, nav_datetime, nav_latitude, nav_longitude, nav_hgeo, nav_status, nav_satelites, nav_sog, nav_course, nav_sens_data, created) VALUES (0, 1, 1000017, now(), 82.290871, 54.766338, 100, 1, 10, 45, 138, hstore(ARRAY['3','1253'], ARRAY['4','72']), now());
+
+INSERT INTO nm_nav_data_last(nav_id, nav_nav_id, nav_type, nav_datetime, nav_latitude, nav_longitude, nav_hgeo, nav_status, nav_satelites, nav_sog, nav_course, nav_sens_data, ad_org_id, ad_client_id, nm_module_id, created, updated) VALUES (0, 0, 1, now(), 82.290871, 54.766338, 100, 1, 10, 45, 138, hstore(ARRAY['3','1253'], ARRAY['4','72']), 0, 0, 1000017, now(), now());

@@ -1,0 +1,1 @@
+com.extjs.gxt.ui.client.Registry

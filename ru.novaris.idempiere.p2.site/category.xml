@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+    <feature 
+    	url="features/ru.novaris.idempiere.feature_8.2.0.qualifier.jar" 
+    	id="ru.novaris.idempiere.feature" version="8.2.0.qualifier">
+	    <category name="ru.novaris.idempiere"/>
+    </feature>
+</site>
